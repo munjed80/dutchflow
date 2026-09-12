@@ -18,6 +18,7 @@ Read this file and `README.md` before changing the project. Update this file aft
 - Pages: `/`, `/learn`, `/learn/[slug]`, `/exams`, and `/progress`.
 - Three short A1 lessons are present: introductions, a huisarts appointment, and shopping. Each has five phrases, a short dialogue, and three quiz questions. **This is not a complete A1 course.**
 - Lessons and free sample exam questions work. Lesson completion is stored in browser localStorage via `src/lib/progress.ts`. There is **no account system** or server-side sync.
+- Quiz feedback reflects the current attempt, independently of past lesson completion. An incorrect retry keeps earlier completion credit but displays the current score and corrections. The lesson player is keyed by lesson slug so a different lesson starts with fresh quiz state.
 - `AudioButton` currently falls back to browser speech synthesis in `nl-NL`. Device availability varies. `scripts/generate-audio.mjs` can generate reusable Azure Speech MP3s and populate `src/lib/audio-manifest.json`, but the repository contains no MP3 files until a key is supplied and the script is run. Keep credentials server-side/offline.
 - `/exams` describes the €4.95 offer and lets users try three free questions. **No checkout, paid exam, payment webhook, scoring backend, or certificate exists yet.** The paid button is intentionally disabled.
 
@@ -31,6 +32,7 @@ Read this file and `README.md` before changing the project. Update this file aft
 
 ## Working rules
 
+- Create a dedicated branch and open a pull request targeting `main` for future changes. The initial foundation was committed directly to `main`; the owner requested the pull-request workflow afterwards. Leave merging to the owner unless explicitly authorized.
 - Make small focused changes and run `npm run typecheck` and `npm run build` before submitting a PR.
 - Keep `README.md` and this file aligned with actual features. Never silently treat planned features as shipped.
 - Do not commit API keys, `.env` files, personal learner information, or bulk audio without reviewing storage costs and repository size.

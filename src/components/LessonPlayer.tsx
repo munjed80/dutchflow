@@ -17,6 +17,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
   }, [lesson.slug]);
 
   const correctCount = lesson.questions.filter((q) => answers[q.id] === q.correctIndex).length;
+  const passedCurrentAttempt = correctCount === lesson.questions.length;
 
   function submitQuiz() {
     if (lesson.questions.some((q) => answers[q.id] === undefined)) {
@@ -25,7 +26,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
     }
     setMissingAnswers(false);
     setChecked(true);
-    if (correctCount === lesson.questions.length) {
+    if (passedCurrentAttempt) {
       completeLesson(lesson.slug);
       setCompleted(true);
     }
@@ -119,8 +120,8 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
         <div className="quiz-footer">
           <button type="button" className="button button-primary" onClick={submitQuiz}>تحقّق من الإجابات <span aria-hidden="true">←</span></button>
           {missingAnswers && <p role="status">اختر إجابة لكل سؤال أولاً.</p>}
-          {checked && <p className={completed ? "success-message" : "retry-message"} role="status">
-            {completed ? "أحسنت، اكتمل الدرس وحُفظ تقدمك على هذا الجهاز." : `أجبت عن ${correctCount} من ${lesson.questions.length} بشكل صحيح. راجع التوضيحات ثم حاول ثانية.`}
+          {checked && <p className={passedCurrentAttempt ? "success-message" : "retry-message"} role="status">
+            {passedCurrentAttempt ? "أجبت عن جميع الأسئلة بشكل صحيح. اكتمل الدرس." : `أجبت عن ${correctCount} من ${lesson.questions.length} بشكل صحيح. راجع التوضيحات ثم حاول ثانية.`}
           </p>}
         </div>
         {completed && nextLesson && <Link className="next-lesson" href={`/learn/${nextLesson.slug}`}>

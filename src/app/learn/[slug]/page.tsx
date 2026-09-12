@@ -18,6 +18,6 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
   return <div className="shell lesson-page">
     <div className="breadcrumb"><Link href="/learn">كل الدروس</Link><span> / </span><span>{lesson.level}</span><span> / </span><span>{lesson.title}</span></div>
     <div className="lesson-page-heading"><span className="eyebrow">الدرس {lesson.number} · {lesson.level} · {lesson.durationMinutes} دقائق</span><h1>{lesson.title}</h1><p className="lesson-nl" lang="nl" dir="ltr">{lesson.dutchTitle}</p><p>{lesson.description}</p></div>
-    <LessonPlayer lesson={lesson} nextLesson={nextLesson} />
+    <LessonPlayer key={lesson.slug} lesson={lesson} nextLesson={nextLesson} />
   </div>;
 }
