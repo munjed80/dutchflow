@@ -1,0 +1,83 @@
+[
+  {
+    "slug": "introductions",
+    "level": "A1",
+    "number": "01",
+    "title": "التعارف والتحية",
+    "dutchTitle": "Kennismaken",
+    "description": "ابدأ محادثة قصيرة، واسأل عن الاسم والحال بطريقة طبيعية.",
+    "durationMinutes": 8,
+    "context": "تلتقي زميلاً جديداً في أول يوم عمل.",
+    "phrases": [
+      { "id": "a1-intro-01", "dutch": "Goedemorgen!", "arabic": "صباح الخير!", "tip": "تُستخدم عادةً حتى الظهر." },
+      { "id": "a1-intro-02", "dutch": "Hoe heet u?", "arabic": "ما اسمك؟ (بصيغة رسمية)", "tip": "استخدم u مع شخص لا تعرفه جيداً أو في سياق رسمي." },
+      { "id": "a1-intro-03", "dutch": "Ik heet Sara.", "arabic": "اسمي سارة.", "tip": "Ik heet تعني اسمي، ويمكنك أيضاً قول Mijn naam is Sara." },
+      { "id": "a1-intro-04", "dutch": "Hoe gaat het met u?", "arabic": "كيف حالك؟ (بصيغة رسمية)", "tip": "مع الأصدقاء استخدم: Hoe gaat het met je?" },
+      { "id": "a1-intro-05", "dutch": "Met mij gaat het goed, dank u.", "arabic": "أنا بخير، شكراً لك.", "tip": "Dank u رسمية؛ dank je شائعة بين المعارف." }
+    ],
+    "dialogue": [
+      { "speaker": "Sara", "phraseId": "a1-intro-01" },
+      { "speaker": "Omar", "phraseId": "a1-intro-04" },
+      { "speaker": "Sara", "phraseId": "a1-intro-05" }
+    ],
+    "questions": [
+      { "id": "intro-q1", "prompt": "كيف تسأل شخصاً لا تعرفه عن اسمه بصيغة رسمية؟", "options": ["Hoe heet u?", "Hoe gaat het?", "Ik heet Sara."], "correctIndex": 0, "explanation": "Hoe heet u? هي صيغة السؤال الرسمية عن الاسم." },
+      { "id": "intro-q2", "prompt": "ما معنى Goedemorgen؟", "options": ["إلى اللقاء", "صباح الخير", "مساء الخير"], "correctIndex": 1, "explanation": "Goedemorgen تعني صباح الخير." },
+      { "id": "intro-q3", "prompt": "أي تعبير أنسب لشكر شخص في موقف رسمي؟", "options": ["Dank u", "Dank je", "Doei"], "correctIndex": 0, "explanation": "Dank u أكثر رسمية من dank je." }
+    ]
+  },
+  {
+    "slug": "doctor-appointment",
+    "level": "A1",
+    "number": "02",
+    "title": "موعد عند طبيب الأسرة",
+    "dutchTitle": "Bij de huisarts",
+    "description": "اشرح عرضاً بسيطاً وحدد منذ متى بدأت المشكلة.",
+    "durationMinutes": 10,
+    "context": "تتصل بعيادة طبيب الأسرة لحجز موعد.",
+    "phrases": [
+      { "id": "a1-doctor-01", "dutch": "Ik wil graag een afspraak maken.", "arabic": "أرغب في تحديد موعد.", "tip": "graag تجعل الطلب ألطف وأكثر تهذيباً." },
+      { "id": "a1-doctor-02", "dutch": "Ik heb pijn in mijn rug.", "arabic": "أشعر بألم في ظهري.", "tip": "قل pijn in mijn hoofd لألم الرأس." },
+      { "id": "a1-doctor-03", "dutch": "Sinds wanneer heeft u pijn?", "arabic": "منذ متى تشعر بالألم؟", "tip": "Sinds wanneer تسأل عن بداية الحالة." },
+      { "id": "a1-doctor-04", "dutch": "Sinds gisteren.", "arabic": "منذ أمس.", "tip": "Sinds تعني منذ، وgisteren تعني أمس." },
+      { "id": "a1-doctor-05", "dutch": "Ik gebruik medicijnen.", "arabic": "أستخدم أدوية.", "tip": "اذكر للطبيب الأدوية التي تستخدمها بالفعل." }
+    ],
+    "dialogue": [
+      { "speaker": "Patiënt", "phraseId": "a1-doctor-01" },
+      { "speaker": "Assistente", "phraseId": "a1-doctor-03" },
+      { "speaker": "Patiënt", "phraseId": "a1-doctor-04" }
+    ],
+    "questions": [
+      { "id": "doctor-q1", "prompt": "تريد حجز موعد. ماذا تقول؟", "options": ["Ik gebruik medicijnen.", "Ik wil graag een afspraak maken.", "Sinds gisteren."], "correctIndex": 1, "explanation": "Een afspraak maken تعني تحديد موعد." },
+      { "id": "doctor-q2", "prompt": "ما معنى Sinds gisteren؟", "options": ["بعد غد", "كل يوم", "منذ أمس"], "correctIndex": 2, "explanation": "Sinds = منذ، gisteren = أمس." },
+      { "id": "doctor-q3", "prompt": "كيف تقول: أشعر بألم في ظهري؟", "options": ["Ik heb pijn in mijn rug.", "Ik heb een afspraak.", "Mijn rug is gisteren."], "correctIndex": 0, "explanation": "Ik heb pijn in mijn rug هي الجملة الطبيعية هنا." }
+    ]
+  },
+  {
+    "slug": "at-the-shop",
+    "level": "A1",
+    "number": "03",
+    "title": "في المتجر",
+    "dutchTitle": "In de winkel",
+    "description": "اسأل عن السعر والمكان وادفع عند الصندوق.",
+    "durationMinutes": 9,
+    "context": "تبحث عن الحليب في متجر قريب.",
+    "phrases": [
+      { "id": "a1-shop-01", "dutch": "Waar kan ik melk vinden?", "arabic": "أين يمكنني العثور على الحليب؟", "tip": "Waar تسأل عن المكان." },
+      { "id": "a1-shop-02", "dutch": "Hoeveel kost dit?", "arabic": "كم سعر هذا؟", "tip": "Hoeveel kost... سؤال شائع عن السعر." },
+      { "id": "a1-shop-03", "dutch": "Dat kost twee euro vijftig.", "arabic": "سعره يوروان وخمسون سنتاً.", "tip": "في الحديث اليومي قد تُنطق الأسعار بسرعة؛ استمع للجملة أكثر من مرة." },
+      { "id": "a1-shop-04", "dutch": "Kan ik met pin betalen?", "arabic": "هل يمكنني الدفع بالبطاقة؟", "tip": "met pin betalen تعني الدفع إلكترونياً بالبطاقة." },
+      { "id": "a1-shop-05", "dutch": "Wilt u een bonnetje?", "arabic": "هل تريد إيصالاً؟", "tip": "bonnetje تصغير bon، أي إيصال." }
+    ],
+    "dialogue": [
+      { "speaker": "Klant", "phraseId": "a1-shop-02" },
+      { "speaker": "Medewerker", "phraseId": "a1-shop-03" },
+      { "speaker": "Klant", "phraseId": "a1-shop-04" }
+    ],
+    "questions": [
+      { "id": "shop-q1", "prompt": "كيف تسأل عن سعر سلعة؟", "options": ["Wilt u een bonnetje?", "Waar kan ik melk vinden?", "Hoeveel kost dit?"], "correctIndex": 2, "explanation": "Hoeveel kost dit? تعني كم سعر هذا؟" },
+      { "id": "shop-q2", "prompt": "ما معنى met pin betalen؟", "options": ["الدفع بالبطاقة", "الدفع نقداً", "إرجاع منتج"], "correctIndex": 0, "explanation": "Pinbetaling هي طريقة الدفع بالبطاقة." },
+      { "id": "shop-q3", "prompt": "ماذا يسألك البائع بقوله Wilt u een bonnetje؟", "options": ["هل تريد كيساً؟", "هل تريد إيصالاً؟", "هل تريد الحليب؟"], "correctIndex": 1, "explanation": "bonnetje تعني إيصالاً صغيراً." }
+    ]
+  }
+]
