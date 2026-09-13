@@ -14,9 +14,12 @@ Read this file and `README.md` before changing the project. Update this file aft
 
 ## Current implementation
 
-- Next.js App Router, React, TypeScript, and plain CSS. `src/app` holds routes; `src/components` holds interactive UI; `src/data/lessons.json` holds authored lessons.
+- Next.js App Router, React, TypeScript, and plain CSS. `src/app` holds routes; `src/components` holds interactive UI; `src/data/lessons.json` holds authored lessons and `src/data/modules.json` defines their module order.
 - Pages: `/`, `/learn`, `/learn/[slug]`, `/exams`, and `/progress`.
-- Three short A1 lessons are present: introductions, a huisarts appointment, and shopping. Each has five phrases, a short dialogue, and three quiz questions. **This is not a complete A1 course.**
+- The introductory A1 path has 20 lessons in four modules: first steps, around town, daily life, and appointments. It contains 101 phrases, 60 questions, goals, contextual dialogues, and grammar notes. **This is not a complete A1 course, and independent linguistic review is still pending.**
+- The catalogue supports Arabic/Dutch search, module filters, completion badges, and a suggested next unfinished lesson. Progress is grouped by module, and previous/next navigation is available without locking free lessons. Only three featured lessons appear on the homepage.
+- Original lesson slugs and audio IDs remain stable, so old bookmarks, audio mappings, and saved completion survive the revised order. Display lesson numbers are not persistent identifiers. Read `docs/CONTENT_AUTHORING.md` before editing the curriculum.
+- Catalogue and progress pages pass lesson summaries from the server; they do not send all lesson phrases and questions to their client components. The shared `useLearningProgress` hook updates local completion views.
 - Lessons and free sample exam questions work. Lesson completion is stored in browser localStorage via `src/lib/progress.ts`. There is **no account system** or server-side sync.
 - Quiz feedback reflects the current attempt, independently of past lesson completion. An incorrect retry keeps earlier completion credit but displays the current score and corrections. The lesson player is keyed by lesson slug so a different lesson starts with fresh quiz state.
 - `AudioButton` currently falls back to browser speech synthesis in `nl-NL`. Device availability varies. `scripts/generate-audio.mjs` can generate reusable Azure Speech MP3s and populate `src/lib/audio-manifest.json`, but the repository contains no MP3 files until a key is supplied and the script is run. Keep credentials server-side/offline.
@@ -24,7 +27,7 @@ Read this file and `README.md` before changing the project. Update this file aft
 
 ## Next priorities
 
-1. Review Dutch/Arabic lesson content with a qualified language editor. Expand A1 in small, usable sequences.
+1. Review the 20 Dutch/Arabic lessons with a qualified language editor and add deeper A1 practice, especially listening comprehension and writing.
 2. Generate, listen to, and validate real Dutch audio with provided Azure Speech credentials. Keep small assets with the repository initially; use object storage before the catalogue grows large.
 3. Add accounts and database-backed progress. Preserve an import path for users with existing local progress.
 4. Implement paid exam inventory and secure €4.95 per-attempt checkout with a chosen provider (Mollie or Stripe), server-side webhook verification, attempt entitlements, and server-side result computation. Never make the payment confirmation screen alone grant an attempt.
@@ -33,7 +36,8 @@ Read this file and `README.md` before changing the project. Update this file aft
 ## Working rules
 
 - Create a dedicated branch and open a pull request targeting `main` for future changes. The initial foundation was committed directly to `main`; the owner requested the pull-request workflow afterwards. Leave merging to the owner unless explicitly authorized.
-- Make small focused changes and run `npm run typecheck` and `npm run build` before submitting a PR.
+- Make small focused changes. Run `npm run content:check`, `npm test`, `npm run typecheck`, and `npm run build` before submitting a PR. Run `npm run test:e2e` for lesson, navigation, catalogue, or progress changes; install Chromium with `npx playwright install chromium` first. CI runs all of these checks.
+- Native content tests protect schema integrity, answer keys, dialogue references, and original IDs. Playwright covers search, module filters, retained progress, retries, navigation, lesson routes, and mobile overflow. Audio generation validates the full curriculum before processing even a limited batch.
 - Keep `README.md` and this file aligned with actual features. Never silently treat planned features as shipped.
 - Do not commit API keys, `.env` files, personal learner information, or bulk audio without reviewing storage costs and repository size.
 - Avoid unrelated migrations, hosting changes, or architecture rewrites. Ask the owner only for genuinely necessary choices or secrets; progress on independent work first.

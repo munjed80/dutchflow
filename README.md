@@ -13,14 +13,28 @@ npm run dev
 
 Open `http://localhost:3000`.
 
-## What works in this first version
+## Current learning experience
 
-- Arabic RTL landing page, lesson catalogue, three introductory A1 lessons, Dutch phrase explanations, short dialogues, and graded lesson questions.
+- Arabic RTL landing page and 20 introductory A1 lessons in four ordered modules. The catalogue includes 101 Dutch phrases, Arabic meanings, learning goals, short dialogues, a grammar note per lesson, and 60 graded questions.
+- Search lessons in Arabic or Dutch, filter by module, continue with the first unfinished lesson, and browse previous/next lessons freely.
 - Device speech synthesis for Dutch listening, with normal and slower playback. Device voice quality and availability vary; this is a temporary fallback until recorded audio is generated.
-- Progress stored locally in the current browser. There is no account or server-side progress yet.
+- Progress stored locally in the current browser, with completion counts for each module. Existing completion for the original three lesson URLs remains valid. There is no account or server-side progress yet.
 - Three free example exam questions and a clearly labelled **€4.95** future full-exam offer. Payment and full paid exams are **not enabled**. No money is collected.
 
-The lesson content lives in `src/data/lessons.json`. Each phrase has a globally unique ID; the audio script and playback manifest use those IDs.
+The lesson content lives in `src/data/lessons.json`, and ordered modules live in `src/data/modules.json`. Each phrase has a globally unique ID; the audio script and playback manifest use those IDs. This is an introductory learning path, not a complete A1 syllabus. See [content authoring guidance](docs/CONTENT_AUTHORING.md) before adding or reordering lessons.
+
+## Validation
+
+```bash
+npm run content:check
+npm test
+npm run typecheck
+npm run build
+npx playwright install chromium
+npm run test:e2e
+```
+
+The content checks catch duplicate audio IDs, broken dialogue references, invalid answer keys, and missing goals or grammar before publication. Browser tests cover search/filtering, existing progress, quiz completion and retries, lesson navigation, all 20 lesson routes, and mobile overflow. Playwright starts the production server automatically; build first. GitHub Actions runs these checks on each PR.
 
 ## Generate reusable Dutch audio
 
@@ -38,7 +52,7 @@ The script writes MP3s to `public/audio/` and updates `src/lib/audio-manifest.js
 
 ## Roadmap
 
-1. Expand and review the A1 curriculum with a qualified Dutch speaker; add structured A2 and B1 content.
+1. Review this introductory A1 path with a qualified Dutch speaker; add further A1 practice and structured A2 and B1 content.
 2. Generate and review the audio. Add a content authoring workflow and audio quality checks.
 3. Add accounts, a database, accessible cross-device progress, and privacy controls.
 4. Build secure paid practice exams: authenticated purchases, one €4.95 attempt per payment, server-side scoring, provider webhooks, receipts, and clear retry/refund handling. Do not unlock an exam based on a browser redirect alone.
