@@ -249,3 +249,14 @@ em{font-style:normal;color:var(--teal)}
 @media(max-width:720px){.continue-banner{align-items:flex-start;flex-direction:column;padding:22px}.continue-banner h2{font-size:21px}.module-heading{align-items:flex-start;flex-wrap:wrap;gap:10px}.module-heading h2{font-size:21px}.module-filters button{flex:1 1 145px}.module-filters button:first-child{flex-basis:100%}.module-count{font-size:11px}.catalogue-item{display:grid;grid-template-columns:32px minmax(0,1fr) 14px;gap:8px 11px}.catalogue-item .catalogue-meta{grid-column:2;margin:0;display:flex;align-items:center;gap:10px}.catalogue-item .catalogue-arrow{grid-column:3;grid-row:1}.catalogue-item h3{font-size:17px}.catalogue-item p{font-size:12px}.catalogue-number{align-self:start;padding-top:5px}.grammar-card{padding:22px}.grammar-card blockquote p{font-size:19px}.lesson-navigation{gap:5px 18px}}
 @media(max-width:720px){.header-inner{height:auto;min-height:92px;padding-top:12px;gap:8px}.learning-path-page{padding-top:30px}.learning-path-page .page-heading{margin-bottom:20px}.learning-path-page .page-heading p{font-size:13px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+
+/* Account forms and cloud progress */
+.account-card{max-width:680px;margin:32px auto;padding:32px;overflow-wrap:anywhere}
+.account-card h2{margin-top:8px}.account-card p{line-height:1.9}
+.account-form{display:grid;gap:12px;margin:28px 0}.account-form label{font-weight:700}
+.account-form input{width:100%;min-width:0;border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff;font:inherit;color:inherit}
+.account-form input:focus{outline:2px solid var(--teal);outline-offset:2px}
+.account-form button{margin-top:12px}.account-email{overflow-wrap:anywhere;text-align:right}
+.account-actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}.import-progress{padding:20px;background:#f2f5ef;border-radius:16px;margin:24px 0}
+.text-link{display:inline-block;margin:12px 0;color:var(--teal);font-weight:700}.save-notice{padding:20px;margin-top:20px}
+@media(max-width:720px){.header-inner{flex-wrap:wrap;justify-content:center;gap:12px}.main-nav{width:100%;justify-content:center;gap:22px}.account-card{padding:22px}.account-actions .button{width:100%}}

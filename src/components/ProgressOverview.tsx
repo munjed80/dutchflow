@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { useLearning } from "./LearningProvider";
 import type { CourseModule, LessonSummary } from "@/lib/content";
 import { useLearningProgress } from "@/lib/use-learning-progress";
 
 export function ProgressOverview({ lessons, modules }: { lessons: LessonSummary[]; modules: CourseModule[] }) {
   const completedLessons = useLearningProgress();
+  const learning = useLearning();
 
   const count = lessons.filter((lesson) => completedLessons.includes(lesson.slug)).length;
   const nextLesson = lessons.find((lesson) => !completedLessons.includes(lesson.slug));
@@ -17,7 +19,9 @@ export function ProgressOverview({ lessons, modules }: { lessons: LessonSummary[
         <div className="progress-visual" role="progressbar" aria-valuenow={count} aria-valuemin={0} aria-valuemax={lessons.length} aria-label="الدروس المكتملة">
           <div style={{ width: `${(count / lessons.length) * 100}%` }} />
         </div>
-        <p className="quiet">يُحفظ التقدم على هذا الجهاز فقط في النسخة الحالية.</p>
+        <p className="quiet">{learning.loading ? "جارٍ تحميل التقدّم…" : learning.user ? "هذا تقدّمك المحفوظ في حسابك." : "يُحفظ تقدّم الزائر على هذا الجهاز. سجّل الدخول لحفظه في حسابك."}</p>
+        {learning.error && <div role="alert"><p>{learning.error}</p><button className="button button-secondary" onClick={() => void learning.refresh()}>أعد المحاولة</button></div>}
+        <Link className="text-link" href="/account">{learning.user ? "إدارة حسابي واستيراد تقدّم الجهاز" : "حسابي"}</Link>
         <Link className="button button-primary" href={nextLesson ? `/learn/${nextLesson.slug}` : "/learn"}>
           {nextLesson ? "تابع التعلّم" : "راجع الدروس"} <span aria-hidden="true">←</span>
         </Link>

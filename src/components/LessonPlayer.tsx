@@ -1,25 +1,23 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import type { Lesson } from "@/lib/content";
-import { completeLesson, readProgress } from "@/lib/progress";
+import { useLearning } from "./LearningProvider";
 import { AudioButton } from "@/components/AudioButton";
 
 export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesson?: Lesson }) {
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [checked, setChecked] = useState(false);
-  const [completed, setCompleted] = useState(false);
+  const learning = useLearning();
+  const completed = learning.completedLessons.includes(lesson.slug);
+  const [saveFailed, setSaveFailed] = useState(false);
   const [missingAnswers, setMissingAnswers] = useState(false);
-
-  useEffect(() => {
-    setCompleted(readProgress().completedLessons.includes(lesson.slug));
-  }, [lesson.slug]);
 
   const correctCount = lesson.questions.filter((q) => answers[q.id] === q.correctIndex).length;
   const passedCurrentAttempt = correctCount === lesson.questions.length;
 
-  function submitQuiz() {
+  async function submitQuiz() {
     if (lesson.questions.some((q) => answers[q.id] === undefined)) {
       setMissingAnswers(true);
       return;
@@ -27,8 +25,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
     setMissingAnswers(false);
     setChecked(true);
     if (passedCurrentAttempt) {
-      completeLesson(lesson.slug);
-      setCompleted(true);
+      setSaveFailed(!(await learning.save([lesson.slug])));
     }
   }
 
@@ -125,12 +122,15 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
           ))}
         </div>
         <div className="quiz-footer">
-          <button type="button" className="button button-primary" onClick={submitQuiz}>تحقّق من الإجابات <span aria-hidden="true">←</span></button>
+          <button type="button" className="button button-primary" onClick={submitQuiz} disabled={learning.saving}>تحقّق من الإجابات <span aria-hidden="true">←</span></button>
           {missingAnswers && <p role="status">اختر إجابة لكل سؤال أولاً.</p>}
           {checked && <p className={passedCurrentAttempt ? "success-message" : "retry-message"} role="status">
             {passedCurrentAttempt ? "أجبت عن جميع الأسئلة بشكل صحيح. اكتمل الدرس." : `أجبت عن ${correctCount} من ${lesson.questions.length} بشكل صحيح. راجع التوضيحات ثم حاول ثانية.`}
           </p>}
         </div>
+        {saveFailed && <div className="panel save-notice" role="alert"><p>{learning.error || "لم يُحفظ التقدّم بعد."}</p><button className="button button-secondary" disabled={learning.saving || learning.loading || !learning.ready} onClick={async () => {
+          setSaveFailed(!(await learning.save([lesson.slug])));
+        }}>أعد حفظ التقدّم</button> {!learning.ready && <button className="button button-secondary" onClick={() => void learning.refresh()}>أعد تحميل الحساب</button>} <Link href="/account">حسابي</Link></div>}
         {completed && nextLesson && <Link className="next-lesson" href={`/learn/${nextLesson.slug}`}>
           <span>الدرس التالي <strong>{nextLesson.title}</strong></span><span aria-hidden="true">←</span>
         </Link>}
