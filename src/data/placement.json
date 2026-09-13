@@ -1,0 +1,257 @@
+{
+  "revision": "start-a1-v1",
+  "skills": [
+    {
+      "id": "vocabulary",
+      "title": "المفردات والتعبيرات"
+    },
+    {
+      "id": "grammar",
+      "title": "تركيب الجملة"
+    },
+    {
+      "id": "reading",
+      "title": "فهم النصوص القصيرة"
+    }
+  ],
+  "questions": [
+    {
+      "id": "start-greeting",
+      "skill": "vocabulary",
+      "prompt": "أي عبارة تستخدم لتحية شخص في الصباح؟",
+      "options": [
+        "Goedemorgen.",
+        "Goedenavond.",
+        "Tot ziens."
+      ],
+      "optionLanguage": "nl",
+      "correctIndex": 0,
+      "explanation": "نستخدم Goedemorgen للتحية في الصباح. Goedenavond للمساء، وTot ziens للوداع.",
+      "lessonSlug": "introductions"
+    },
+    {
+      "id": "start-live",
+      "skill": "grammar",
+      "prompt": "اختر الفعل المناسب لإكمال الجملة.",
+      "options": [
+        "woon",
+        "woont",
+        "wonen"
+      ],
+      "optionLanguage": "nl",
+      "correctIndex": 0,
+      "explanation": "مع الضمير Ik نستخدم woon: أنا أسكن. مع hij أو zij نستخدم woont.",
+      "lessonSlug": "personal-details",
+      "passage": "Ik ___ in Alkmaar."
+    },
+    {
+      "id": "start-number",
+      "skill": "vocabulary",
+      "prompt": "أي رقم تعبّر عنه هذه الكلمة؟",
+      "options": [
+        "50",
+        "15",
+        "5"
+      ],
+      "optionLanguage": "nl",
+      "correctIndex": 1,
+      "explanation": "vijftien تعني خمسة عشر، وvijftig تعني خمسين.",
+      "lessonSlug": "numbers-and-age",
+      "passage": "vijftien"
+    },
+    {
+      "id": "start-hours",
+      "skill": "reading",
+      "prompt": "متى يغلق هذا المكان يوم الأربعاء؟",
+      "options": [
+        "الساعة التاسعة صباحاً",
+        "الساعة السابعة مساءً",
+        "الساعة الخامسة مساءً"
+      ],
+      "optionLanguage": "ar",
+      "correctIndex": 2,
+      "explanation": "المكان مفتوح من الاثنين حتى الجمعة من 09.00 إلى 17.00؛ أي إنه يغلق الساعة الخامسة مساءً.",
+      "lessonSlug": "time-and-days",
+      "passage": "Openingstijden: maandag t/m vrijdag, 09.00–17.00."
+    },
+    {
+      "id": "start-routine",
+      "skill": "grammar",
+      "prompt": "اختر الفعل المناسب لإكمال الجملة.",
+      "options": [
+        "sta",
+        "staan",
+        "staat"
+      ],
+      "optionLanguage": "nl",
+      "correctIndex": 0,
+      "explanation": "الفعل opstaan ينفصل هنا إلى sta وop. عند بدء الجملة بـMorgen يأتي الفعل قبل Ik.",
+      "lessonSlug": "daily-routine",
+      "passage": "Morgen ___ ik om zeven uur op."
+    },
+    {
+      "id": "start-bag",
+      "skill": "vocabulary",
+      "prompt": "ماذا يعرض عليك الموظف؟",
+      "options": [
+        "بطاقة مصرفية",
+        "إيصالاً",
+        "كيساً صغيراً"
+      ],
+      "optionLanguage": "ar",
+      "correctIndex": 2,
+      "explanation": "een tasje تعني كيساً صغيراً. أما الإيصال فهو een bonnetje.",
+      "lessonSlug": "at-the-shop",
+      "passage": "Wilt u een tasje?"
+    },
+    {
+      "id": "start-coffee",
+      "skill": "grammar",
+      "prompt": "اختر أداة النكرة المناسبة: أريد قهوة.",
+      "options": [
+        "het",
+        "een",
+        "de"
+      ],
+      "optionLanguage": "nl",
+      "correctIndex": 1,
+      "explanation": "een هي أداة النكرة. هنا تعني الجملة: أود قهوة، دون الإشارة إلى قهوة محددة سابقاً.",
+      "lessonSlug": "cafe-order",
+      "passage": "Ik wil graag ___ koffie."
+    },
+    {
+      "id": "start-directions",
+      "skill": "reading",
+      "prompt": "أي شارع يجب أن تسلك؟",
+      "options": [
+        "أول شارع إلى اليسار",
+        "ثاني شارع إلى اليمين",
+        "ثاني شارع إلى اليسار"
+      ],
+      "optionLanguage": "ar",
+      "correctIndex": 1,
+      "explanation": "rechtdoor تعني إلى الأمام مباشرة، وde tweede straat rechts هو ثاني شارع إلى اليمين.",
+      "lessonSlug": "directions",
+      "passage": "Loop rechtdoor en neem de tweede straat rechts."
+    },
+    {
+      "id": "start-bus",
+      "skill": "vocabulary",
+      "prompt": "متى تنطلق الحافلة؟",
+      "options": [
+        "بعد عشر دقائق",
+        "انطلقت قبل عشر دقائق",
+        "تستغرق الرحلة عشر دقائق"
+      ],
+      "optionLanguage": "ar",
+      "correctIndex": 0,
+      "explanation": "over tien minuten تعني بعد عشر دقائق من الآن، وvertrekt تعني تنطلق أو تغادر.",
+      "lessonSlug": "public-transport",
+      "passage": "De bus vertrekt over tien minuten."
+    },
+    {
+      "id": "start-train",
+      "skill": "reading",
+      "prompt": "كم تستغرق الرحلة بحسب هذين الموعدين؟",
+      "options": [
+        "عشرون دقيقة",
+        "خمس وثلاثون دقيقة",
+        "خمس وأربعون دقيقة"
+      ],
+      "optionLanguage": "ar",
+      "correctIndex": 2,
+      "explanation": "Vertrek هو المغادرة وAankomst هو الوصول. من 14.20 إلى 15.05 تمر 45 دقيقة.",
+      "lessonSlug": "train-tickets",
+      "passage": "Vertrek: 14.20. Aankomst: 15.05."
+    },
+    {
+      "id": "start-address",
+      "skill": "grammar",
+      "prompt": "اختر تصريف الفعل المناسب.",
+      "options": [
+        "woont",
+        "wonen",
+        "woon"
+      ],
+      "optionLanguage": "nl",
+      "correctIndex": 1,
+      "explanation": "مع الضمير Wij نستخدم صيغة الجمع wonen: نحن نسكن في المنزل رقم اثني عشر.",
+      "lessonSlug": "home-and-address",
+      "passage": "Wij ___ op nummer twaalf."
+    },
+    {
+      "id": "start-heating",
+      "skill": "vocabulary",
+      "prompt": "ما المشكلة التي تصفها الجملة؟",
+      "options": [
+        "التدفئة تعمل جيداً",
+        "التدفئة لا تعمل",
+        "الماء ساخن جداً"
+      ],
+      "optionLanguage": "ar",
+      "correctIndex": 1,
+      "explanation": "De verwarming هي التدفئة. التعبير doet het niet يعني أن الشيء لا يعمل.",
+      "lessonSlug": "repairs-at-home",
+      "passage": "De verwarming doet het niet."
+    },
+    {
+      "id": "start-id",
+      "skill": "reading",
+      "prompt": "ما الذي يجب أن تأخذه معك إلى الموعد؟",
+      "options": [
+        "وثيقة إثبات الهوية",
+        "تذكرة القطار",
+        "قائمة الأدوية"
+      ],
+      "optionLanguage": "ar",
+      "correctIndex": 0,
+      "explanation": "Neem ... mee تعني خذ معك، وidentiteitsbewijs هي وثيقة إثبات الهوية.",
+      "lessonSlug": "municipal-appointment",
+      "passage": "Uw afspraak is op dinsdag om 10.30 uur. Neem uw identiteitsbewijs mee."
+    },
+    {
+      "id": "start-pain",
+      "skill": "vocabulary",
+      "prompt": "اختر الكلمة التي تعني ألماً.",
+      "options": [
+        "koorts",
+        "pijn",
+        "honger"
+      ],
+      "optionLanguage": "nl",
+      "correctIndex": 1,
+      "explanation": "pijn تعني ألماً، وrug هو الظهر. koorts تعني حمى، وhonger تعني جوعاً.",
+      "lessonSlug": "doctor-appointment",
+      "passage": "Ik heb ___ in mijn rug."
+    },
+    {
+      "id": "start-repeat",
+      "skill": "grammar",
+      "prompt": "أي سؤال صحيح تطلب به من شخص أن يعيد ما قاله؟",
+      "options": [
+        "Kun u dat herhalen?",
+        "Kunt dat u herhalen?",
+        "Kunt u dat herhalen?"
+      ],
+      "optionLanguage": "nl",
+      "correctIndex": 2,
+      "explanation": "في هذا السؤال يأتي الفعل Kunt أولاً ثم الضمير u: هل يمكنك إعادة ذلك؟",
+      "lessonSlug": "phone-calls"
+    },
+    {
+      "id": "start-message",
+      "skill": "reading",
+      "prompt": "متى أصبح الموعد بعد التغيير؟",
+      "options": [
+        "الخميس الساعة التاسعة",
+        "الجمعة الساعة العاشرة",
+        "الجمعة الساعة التاسعة"
+      ],
+      "optionLanguage": "ar",
+      "correctIndex": 2,
+      "explanation": "is verplaatst تعني تم نقله أو تغيير موعده. الموعد الجديد يوم الجمعة الساعة 09.00.",
+      "lessonSlug": "letters-and-messages",
+      "passage": "Uw afspraak van donderdag is verplaatst naar vrijdag om 09.00 uur."
+    }
+  ]
+}

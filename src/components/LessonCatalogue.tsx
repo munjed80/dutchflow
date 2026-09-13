@@ -31,6 +31,7 @@ export function LessonCatalogue({ lessons, modules }: { lessons: LessonSummary[]
       </Link>
     </div>
 
+    <p className="placement-invitation">تبدأ للمرة الأولى؟ <Link className="text-link" href="/placement">جرّب اختبار البداية المجاني ←</Link></p>
     <div className="catalogue-tools">
       <label className="search-label" htmlFor="lesson-search">ابحث عن درس</label>
       <input id="lesson-search" type="search" className="lesson-search" value={query}

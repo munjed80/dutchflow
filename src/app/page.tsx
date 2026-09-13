@@ -9,7 +9,7 @@ export default function HomePage() {
         <span className="eyebrow"><span className="accent-line" /> الهولندية كما تعيشها</span>
         <h1>افهم ما يُقال حولك.<br /><em>وتكلّم بثقة.</em></h1>
         <p>دروس قصيرة تبدأ من المواقف التي تواجهها في هولندا: في العيادة، والمتجر، والعمل. شرح واضح بالعربية، واستماع وتمارين يمكنك البدء بها مجاناً.</p>
-        <div className="hero-actions"><Link href="/learn/introductions" className="button button-primary">ابدأ أول درس مجاناً <span aria-hidden="true">←</span></Link><Link href="/learn" className="text-link">استكشف الدروس <span aria-hidden="true">↗</span></Link></div>
+        <div className="hero-actions"><Link href="/learn/introductions" className="button button-primary">ابدأ أول درس مجاناً <span aria-hidden="true">←</span></Link><Link href="/placement" className="text-link">اختبر نقطة بدايتك <span aria-hidden="true">↗</span></Link></div>
         <div className="hero-note"><span className="note-symbol">✓</span> الدروس مجانية <span className="note-divider" /> بدون اشتراك شهري</div>
       </div>
       <div className="hero-art" aria-label="مثال على محادثة هولندية مع ترجمتها بالعربية">
