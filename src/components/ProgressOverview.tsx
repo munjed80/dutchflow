@@ -1,23 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { lessons } from "@/lib/content";
-import { readProgress } from "@/lib/progress";
+import type { CourseModule, LessonSummary } from "@/lib/content";
+import { useLearningProgress } from "@/lib/use-learning-progress";
 
-export function ProgressOverview() {
-  const [completedLessons, setCompletedLessons] = useState<string[]>([]);
-
-  useEffect(() => {
-    const sync = () => setCompletedLessons(readProgress().completedLessons);
-    sync();
-    window.addEventListener("dutchflow-progress", sync);
-    window.addEventListener("storage", sync);
-    return () => {
-      window.removeEventListener("dutchflow-progress", sync);
-      window.removeEventListener("storage", sync);
-    };
-  }, []);
+export function ProgressOverview({ lessons, modules }: { lessons: LessonSummary[]; modules: CourseModule[] }) {
+  const completedLessons = useLearningProgress();
 
   const count = lessons.filter((lesson) => completedLessons.includes(lesson.slug)).length;
   const nextLesson = lessons.find((lesson) => !completedLessons.includes(lesson.slug));
@@ -34,8 +22,13 @@ export function ProgressOverview() {
           {nextLesson ? "تابع التعلّم" : "راجع الدروس"} <span aria-hidden="true">←</span>
         </Link>
       </div>
-      <div className="progress-lessons">
-        {lessons.map((lesson) => {
+      {modules.map((module) => {
+        const group = lessons.filter((lesson) => lesson.moduleId === module.id);
+        const completed = group.filter((lesson) => completedLessons.includes(lesson.slug)).length;
+        return <section className="progress-module" key={module.id} aria-labelledby={`progress-${module.id}`}>
+          <div className="module-heading"><h2 id={`progress-${module.id}`}>{module.title}</h2><span className="module-count">أكملت {completed} من {group.length}</span></div>
+          <div className="progress-lessons">
+        {group.map((lesson) => {
           const done = completedLessons.includes(lesson.slug);
           return <Link className="progress-row panel" href={`/learn/${lesson.slug}`} key={lesson.slug}>
             <span className={`completion-dot${done ? " done" : ""}`}>{done ? "✓" : lesson.number}</span>
@@ -43,7 +36,9 @@ export function ProgressOverview() {
             <span className="progress-status">{done ? "مكتمل" : "ابدأ الدرس"}</span>
           </Link>;
         })}
-      </div>
+          </div>
+        </section>;
+      })}
     </>
   );
 }

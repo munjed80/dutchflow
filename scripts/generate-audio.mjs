@@ -1,9 +1,13 @@
 import { readFile, mkdir, stat, writeFile, rename } from "node:fs/promises";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { validateCurriculum } from "./lib/validate-curriculum.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const lessons = JSON.parse(await readFile(join(root, "src/data/lessons.json"), "utf8"));
+const modules = JSON.parse(await readFile(join(root, "src/data/modules.json"), "utf8"));
+const contentErrors = validateCurriculum(lessons, modules);
+if (contentErrors.length) throw new Error(`Invalid curriculum:\n${contentErrors.join("\n")}`);
 const outputDirectory = join(root, "public/audio");
 const manifestPath = join(root, "src/lib/audio-manifest.json");
 const dryRun = process.argv.includes("--dry-run");

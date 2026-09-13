@@ -2,6 +2,7 @@ import Link from "next/link";
 import { lessons } from "@/lib/content";
 
 export default function HomePage() {
+  const featuredLessons = lessons.filter((lesson) => ["introductions", "at-the-shop", "doctor-appointment"].includes(lesson.slug));
   return <>
     <section className="hero"><div className="shell hero-grid">
       <div className="hero-copy">
@@ -14,7 +15,7 @@ export default function HomePage() {
       <div className="hero-art" aria-label="مثال على محادثة هولندية مع ترجمتها بالعربية">
         <div className="art-orbit orbit-one" /><div className="art-orbit orbit-two" />
         <div className="art-label" lang="nl" dir="ltr">EEN GESPREK BEGINT HIER</div>
-        <div className="conversation-card"><div className="conversation-top"><span className="live-dot" /> LES 01 <span className="conversation-pager" dir="ltr">01 / 03</span></div>
+        <div className="conversation-card"><div className="conversation-top"><span className="live-dot" /> LES 01 <span className="conversation-pager" dir="ltr">01 / {lessons.length}</span></div>
           <span className="conversation-icon" aria-hidden="true">“</span>
           <p lang="nl" dir="ltr">Hoe gaat het<br />met u?</p><span className="conversation-translation">كيف حالك؟</span>
           <div className="conversation-bottom"><span>موقف يومي · التعارف</span><span className="sound-wave" aria-hidden="true">▂ ▅ ▃ ▆ ▃</span></div>
@@ -30,7 +31,7 @@ export default function HomePage() {
     </section>
 
     <section className="lessons-section"><div className="shell"><div className="section-heading"><div><span className="eyebrow">ابدأ من هنا · A1</span><h2>أول مواقف ستواجهها</h2></div><Link className="text-link" href="/learn">كل الدروس <span aria-hidden="true">←</span></Link></div>
-      <div className="lesson-grid">{lessons.map((lesson) => <Link className="lesson-tile" href={`/learn/${lesson.slug}`} key={lesson.slug}>
+      <div className="lesson-grid">{featuredLessons.map((lesson) => <Link className="lesson-tile" href={`/learn/${lesson.slug}`} key={lesson.slug}>
         <div className="lesson-tile-top"><span className="level-badge">{lesson.level}</span><span>{lesson.durationMinutes} دقائق</span></div><span className="lesson-tile-number">{lesson.number}</span><h3>{lesson.title}</h3><p lang="nl" dir="ltr">{lesson.dutchTitle}</p><span className="tile-footer">ابدأ الدرس <span aria-hidden="true">←</span></span>
       </Link>)}</div>
     </div></section>

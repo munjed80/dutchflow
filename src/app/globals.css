@@ -13,7 +13,7 @@ em{font-style:normal;color:var(--teal)}
 .site-header{position:relative;z-index:10;background:var(--paper);border-bottom:1px solid #e8e8df}
 .header-inner{height:85px;display:flex;align-items:center;gap:40px}
 .brand{display:flex;align-items:center;gap:10px;color:var(--ink);font:700 22px/1 Arial,sans-serif;letter-spacing:-.75px;white-space:nowrap}
-.brand-mark{display:grid;place-items:center;width:36px;height:36px;background:var(--teal);color:#fff;border-radius:11px;font-size:27px;letter-spacing:-3px;padding-right:4px}
+.brand-mark{display:flex;align-items:center;justify-content:center;direction:ltr;width:36px;height:36px;background:var(--teal);color:#fff;border-radius:11px;font-size:27px;letter-spacing:-2px}
 .brand-mark span{color:#e3a07b}
 .main-nav{display:flex;gap:33px;align-items:center;margin-inline:auto;font-size:14px;color:#667371}
 .main-nav a{padding-block:14px;transition:color .18s}
@@ -207,4 +207,45 @@ em{font-style:normal;color:var(--teal)}
 .empty-state h1{font-size:35px}
 @media(max-width:950px){.shell{width:min(100% - 40px,1180px)}.header-inner{gap:16px}.main-nav{gap:17px}.hero-grid{gap:10px}.hero-art{height:480px}.hero h1{font-size:45px}.method-card{padding:29px 24px}.pricing-section{gap:30px}.phrase-card{flex-wrap:wrap}.phrase-card .audio-control{margin-right:40px}}
 @media(max-width:720px){.shell{width:calc(100% - 36px)}.header-inner{height:75px;flex-wrap:wrap;justify-content:space-between;gap:0}.brand{font-size:18px}.brand-mark{height:31px;width:31px;font-size:23px}.header-action{display:none}.main-nav{order:2;width:100%;justify-content:space-between;margin:0;padding:3px 0 9px;gap:8px;font-size:12px}.main-nav a{padding:3px 0}.hero-grid{grid-template-columns:1fr;padding-block:56px 42px;gap:7px}.hero h1{font-size:clamp(38px,10vw,52px);letter-spacing:-1px}.hero-copy>p{font-size:15px}.hero-art{height:365px}.hero-art:before{inset:5px 10%}.conversation-card{width:310px;padding:21px 28px}.conversation-card p{font-size:35px}.art-label{display:none}.art-caption{right:10px;bottom:5px}.orbit-one{width:340px;height:280px}.orbit-two{width:260px;height:345px}.feature-strip-inner{gap:14px;flex-wrap:wrap;padding-block:16px;text-align:center;font-size:10px}.home-section{padding-block:76px}.section-heading{align-items:start;flex-direction:column;gap:12px}.section-heading h2{font-size:29px}.method-grid,.lesson-grid,.pricing-section,.exam-layout{grid-template-columns:1fr}.method-card{min-height:auto;border-left:0;border-bottom:1px solid var(--line);padding:26px}.method-card:last-child{border-bottom:0}.method-card h3{margin-top:12px}.lessons-section{padding-block:66px}.lesson-tile{min-height:235px}.lesson-tile-number{margin-top:15px}.pricing-section{padding-block:77px;gap:26px}.pricing-card{padding:30px}.footer-inner{min-height:100px;gap:15px;flex-wrap:wrap;padding-block:25px}.footer-inner p{margin:0}.footer-inner>span:last-child{margin-right:0;width:100%}.inner-page{padding-block:50px 80px}.page-heading{margin-bottom:35px}.page-heading h1{font-size:38px}.level-heading{flex-wrap:wrap}.level-heading>.quiet{width:100%;margin-right:86px}.catalogue-item{padding:18px;gap:13px;flex-wrap:wrap}.catalogue-number{font-size:29px;min-width:30px}.catalogue-meta{margin-right:43px}.catalogue-arrow{margin-right:auto}.catalogue-item p{font-size:11px}.lesson-page{padding-block:24px 75px}.lesson-page-heading{padding-block:33px}.lesson-page-heading h1{font-size:34px}.lesson-intro{padding:21px}.compact-heading{flex-direction:row;align-items:center}.compact-heading h2{font-size:23px}.phrase-card{gap:13px;padding:20px}.phrase-content h3{font-size:19px}.phrase-index{font-size:15px}.phrase-card .audio-control{margin-right:28px}.audio-disclaimer{font-size:11px}.dialogue{padding:0 17px}.dialogue-turn{flex-wrap:wrap;gap:12px}.dialogue-turn .audio-control{margin-right:0;width:100%}.quiz-question{padding:20px}.option-list{flex-direction:column}.option{width:100%}.exam-preview{padding:22px}.exam-preview h2{font-size:23px}.progress-summary{grid-template-columns:1fr;padding:23px}.progress-summary>.button{grid-column:1;grid-row:auto;width:max-content}.progress-summary .progress-visual,.progress-summary .quiet{grid-column:1}.progress-status{font-size:11px}}
+.learning-path-page{padding-top:45px}
+.learning-path-page .page-heading{margin-bottom:28px}
+.learning-path-page .page-heading h1{font-size:clamp(30px,3vw,42px);line-height:1.5;letter-spacing:-.8px}
+.continue-banner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:25px 29px;background:#e8eee6;border-color:#d7e4d9;margin:24px 0 32px}
+.continue-banner h2{font-size:23px;margin:5px 0}
+.continue-banner p{font-size:13px;color:#566e61;margin:0}
+.continue-banner .button{flex-shrink:0}
+.catalogue-tools{margin-bottom:25px}
+.search-label{display:block;font-size:13px;font-weight:700;margin-bottom:9px}
+.lesson-search{width:100%;background:#fff;color:var(--ink);border:1px solid #b9ccc2;border-radius:8px;font:inherit;font-size:14px;padding:14px 17px;min-height:48px}
+.lesson-search::placeholder{color:#687a70}
+.module-filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:17px}
+.module-filters button{border:1px solid #cbd9cd;background:#fff;color:#456457;font-size:12px;padding:10px 14px;border-radius:6px;min-height:44px}
+.module-filters button[aria-pressed=true]{background:var(--teal);border-color:var(--teal);color:#fff}
+.module-filters button:hover{box-shadow:0 0 0 1px var(--teal)}
+.catalogue-results{font-size:12px;color:#65796b;margin:17px 0 0}
+.catalogue-module{margin-top:32px}
+.module-heading{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:16px}
+.module-heading h2{font-size:23px;margin:0}
+.module-heading p{font-size:13px;color:#65766b;margin:4px 0 0}
+.module-count{color:#4c7460;background:#e8eee6;border-radius:5px;padding:6px 10px;font-size:12px;white-space:nowrap}
+.catalogue-details{min-width:0}
+.catalogue-complete{color:var(--teal);font-size:26px}
+.completed-label{display:block;color:var(--teal);font-size:11px;margin-top:3px}
+.search-empty{text-align:center;padding:35px 22px;margin-top:22px}
+.search-empty h2{font-size:22px;margin:0 0 8px}
+.search-empty p{font-size:14px;color:var(--muted);margin-bottom:23px}
+.progress-module{margin-top:34px}
+.progress-module .progress-lessons{margin-top:0}
+.lesson-navigation{display:flex;justify-content:space-between;gap:20px;margin-bottom:24px;flex-wrap:wrap}
+.lesson-navigation a{font-size:12px;color:var(--teal);padding:10px 0;min-height:44px}
+.lesson-navigation a:hover{text-decoration:underline;text-underline-offset:4px}
+.lesson-goal{margin-top:16px;padding-top:13px;border-top:1px solid #c4d6c7;font-size:13px;color:#365f48}
+.grammar-card{padding:26px 29px;margin-bottom:38px;background:#f1f3e9;border-color:#dbe2ce}
+.grammar-card h2{font-size:23px;margin:6px 0 12px}
+.grammar-card>p{font-size:14px;line-height:2;color:#546651;margin:0}
+.grammar-card blockquote{border-right:3px solid #b2cba5;margin:18px 0 0;padding:10px 20px}
+.grammar-card blockquote p{font:600 22px/1.5 Georgia,serif;text-align:right;color:#274e37;margin:0 0 6px}
+.grammar-card blockquote footer{font-size:13px;color:#667960}
+@media(max-width:720px){.continue-banner{align-items:flex-start;flex-direction:column;padding:22px}.continue-banner h2{font-size:21px}.module-heading{align-items:flex-start;flex-wrap:wrap;gap:10px}.module-heading h2{font-size:21px}.module-filters button{flex:1 1 145px}.module-filters button:first-child{flex-basis:100%}.module-count{font-size:11px}.catalogue-item{display:grid;grid-template-columns:32px minmax(0,1fr) 14px;gap:8px 11px}.catalogue-item .catalogue-meta{grid-column:2;margin:0;display:flex;align-items:center;gap:10px}.catalogue-item .catalogue-arrow{grid-column:3;grid-row:1}.catalogue-item h3{font-size:17px}.catalogue-item p{font-size:12px}.catalogue-number{align-self:start;padding-top:5px}.grammar-card{padding:22px}.grammar-card blockquote p{font-size:19px}.lesson-navigation{gap:5px 18px}}
+@media(max-width:720px){.header-inner{height:auto;min-height:92px;padding-top:12px;gap:8px}.learning-path-page{padding-top:30px}.learning-path-page .page-heading{margin-bottom:20px}.learning-path-page .page-heading p{font-size:13px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}

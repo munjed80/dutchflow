@@ -38,6 +38,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
         <div className="eyebrow">الموقف الحقيقي</div>
         <p>{lesson.context}</p>
         <p className="quiet">استمع إلى الجمل، اقرأ معناها، ثم أجب عن الأسئلة.</p>
+        <div className="lesson-goal"><strong>هدف الدرس:</strong> {lesson.goal}</div>
       </div>
 
       <section className="lesson-section" aria-labelledby="phrases-heading">
@@ -81,8 +82,14 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
       </section>
 
       <section className="lesson-section" aria-labelledby="quiz-heading">
+        <div className="grammar-card panel">
+          <span className="eyebrow">03 / قاعدة من الدرس</span>
+          <h2>{lesson.grammar.title}</h2>
+          <p>{lesson.grammar.explanation}</p>
+          <blockquote><p lang="nl" dir="ltr">{lesson.grammar.example}</p><footer>{lesson.grammar.translation}</footer></blockquote>
+        </div>
         <div className="section-heading compact-heading">
-          <div><span className="eyebrow">03 / طبّق ما تعلمته</span><h2 id="quiz-heading">اختبار الدرس</h2></div>
+          <div><span className="eyebrow">04 / طبّق ما تعلمته</span><h2 id="quiz-heading">اختبار الدرس</h2></div>
           <span className="section-count">{lesson.questions.length} أسئلة</span>
         </div>
         <div className="quiz-list">
@@ -127,6 +134,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
         {completed && nextLesson && <Link className="next-lesson" href={`/learn/${nextLesson.slug}`}>
           <span>الدرس التالي <strong>{nextLesson.title}</strong></span><span aria-hidden="true">←</span>
         </Link>}
+        {completed && !nextLesson && <Link className="next-lesson" href="/progress">شاهد تقدمك وراجع الدروس المتبقية <span aria-hidden="true">←</span></Link>}
       </section>
     </>
   );
