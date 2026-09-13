@@ -7,6 +7,7 @@ const links = [
   { href: "/learn", label: "الدروس" },
   { href: "/exams", label: "الامتحانات" },
   { href: "/progress", label: "تقدّمي" },
+  { href: "/account", label: "حسابي" },
 ];
 
 export function SiteHeader() {
