@@ -299,3 +299,17 @@ em{font-style:normal;color:var(--teal)}
 .listening-feedback{background:#f2f6ef;padding:18px 22px;margin-top:20px;border-radius:8px;font-size:14px}.listening-feedback p{margin:7px 0}
 .listening-summary{background:#edf4ea}.listening-score{font-size:16px;line-height:2}.listening-score strong{font:600 48px Georgia,serif;color:var(--teal);margin-inline-end:12px}
 @media(max-width:720px){.listening-card{padding:22px}.listening-card h2{font-size:23px}.listening-player{padding:18px;gap:16px}.listening-symbol{display:none}.listening-transcript{font-size:20px}.listening-top{flex-wrap:wrap}}
+
+/* Guided sentence writing */
+.writing-page{max-width:900px}.writing-page .breadcrumb{flex-wrap:wrap}.writing-page .page-heading{margin-top:30px}
+.writing-card{padding:30px}.writing-card h2{font-size:27px;line-height:1.6;margin:15px 0}.writing-card .quiet{font-size:13px;line-height:1.9}
+.writing-note{padding:18px 22px;background:#eef2e8;border-radius:8px;font-size:13px;line-height:1.9;color:#526b59}
+.writing-progress{height:7px;border-radius:7px;background:#dce7da;overflow:hidden;margin:24px 0}.writing-progress span{display:block;height:100%;background:var(--teal)}
+.writing-top{display:flex;justify-content:space-between;gap:15px;font-size:12px;color:var(--muted)}
+.writing-prompt{padding:24px;background:#edf4ed;border-radius:8px;font-size:22px;line-height:1.7;margin:24px 0}.writing-label{display:block;font-size:14px;font-weight:700;margin-bottom:12px}
+.writing-card textarea{display:block;width:100%;min-height:130px;resize:vertical;border:1px solid #a9bfb3;border-radius:8px;padding:16px;font:400 20px/1.7 Arial,sans-serif;color:var(--deep);background:#fff}.writing-card textarea:disabled{color:#4b6158;background:#f5f7f2;opacity:1}
+.writing-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:24px}.writing-actions .button{min-height:48px}.writing-practice .button:disabled{opacity:.6}.writing-practice .button-secondary{background:#edf2ec;color:var(--teal);border:1px solid #c7d7cc;box-shadow:none}
+.writing-help,.writing-feedback{padding:20px 24px;background:#f2f6ef;border-radius:8px;margin-top:24px;font-size:14px;line-height:1.9}.writing-feedback h3{font-size:17px;margin-top:0}.writing-feedback h4{font-size:13px;margin-bottom:8px}
+.writing-model{font:600 23px/1.7 Georgia,serif;overflow-wrap:anywhere}.writing-tokens{font:400 19px/2 Arial,sans-serif;overflow-wrap:anywhere;margin-top:0}.writing-tokens mark{background:#f8dfae;color:#473511;border-radius:3px;padding:2px 1px;text-decoration:underline;text-underline-offset:4px}
+.writing-summary{background:#edf4ea}.writing-summary>p{line-height:1.9}.writing-score{font-size:23px;font-weight:700;color:var(--teal)}.writing-review{margin-top:22px;border-top:1px solid var(--line);padding-top:18px}.writing-review summary{cursor:pointer;min-height:44px;font-weight:700}.writing-review ul{list-style:none;padding:0}.writing-review li{padding:10px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.writing-review li p[lang=nl]{font:600 21px/1.7 Georgia,serif}
+@media(max-width:720px){.writing-card{padding:22px}.writing-card h2{font-size:23px}.writing-top{flex-wrap:wrap}.writing-prompt{padding:18px;font-size:20px}.writing-help,.writing-feedback{padding:17px}.writing-model{font-size:20px}.writing-actions .button{flex:1 1 170px}}
