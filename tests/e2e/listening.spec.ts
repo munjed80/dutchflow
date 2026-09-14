@@ -54,6 +54,10 @@ test("listening completion unlocks answers, text assistance stays separate, and 
   }
   await expect(page.locator(".listening-score")).toContainText("1 من 2");
   await expect(page.getByText("تدرّبت على 3 من الجمل بمساعدة النص.")).toBeVisible();
+  expect(await page.evaluate(() => localStorage.getItem("dutchflow-review-v1"))).toBeNull();
+  await page.getByRole("button", { name: "أضف هذه الجمل للمراجعة" }).click();
+  await expect(page.getByRole("button", { name: "ضمن قائمة المراجعة" })).toBeDisabled();
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem("dutchflow-review-v1")!).phraseIds)).toEqual(lesson.phrases.slice(1).map((phrase) => phrase.id));
   expect(await page.evaluate(() => JSON.parse(localStorage.getItem("dutchflow-progress-v1")!).completedLessons)).toEqual(["pharmacy"]);
   await page.getByRole("button", { name: "أعد التدريب" }).click();
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "0");

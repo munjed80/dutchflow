@@ -22,6 +22,8 @@ The first submitted result and whether it used help are immutable for that phras
 
 Answers and summaries live in component state only. Reload, navigation away, or replay reset the session. This practice never changes guest/account lesson completion and never saves learner answers. It remains usable without accounts, audio, storage access, or external services. Client data contains the model answers because this free exercise is not an exam security boundary.
 
+The summary now offers an explicit button to add first-attempt differences and assisted phrases to the browser-local review list. Only selected phrase IDs are stored, never answers or results. See `docs/REVIEW.md` for shared-browser behavior, failure handling, and removal.
+
 ## Verification
 
 Native tests cover all 101 phrases, normalization boundaries, omitted/extra/repeated/reordered words, maximum length, and assisted scoring. Browser tests cover the lesson link, hidden model, disabled blank submission, normalization, feedback, retry focus and immutable first result, assisted summaries, review lists, unchanged guest progress, reload/navigation reset, every route, 404, input limits, and mobile overflow with a long unbroken answer. The full existing suite remains a required gate.

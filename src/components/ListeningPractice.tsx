@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AudioButton } from "./AudioButton";
+import { SaveReviewButton } from "./SaveReviewButton";
 import { summarizeListening, type ListeningAttempt, type ListeningRound } from "@/lib/listening";
 
 function Round({ round, number, total, onNext }: { round: ListeningRound; number: number; total: number; onNext: (attempt: ListeningAttempt) => void }) {
@@ -44,6 +45,7 @@ export function ListeningPractice({ rounds, lessonSlug }: { rounds: ListeningRou
       <p className="listening-score"><strong>{summary.correct}</strong> من {summary.listening} إجابات صحيحة بعد الاستماع دون إظهار النص</p>
       <p>تدرّبت على {summary.assisted} من الجمل بمساعدة النص.</p>
       {!summary.listening && <p className="quiet">كانت هذه الجولة بمساعدة النص بالكامل؛ لا توجد نتيجة استماع مستقلة.</p>}
+      <SaveReviewButton ids={attempts.filter((attempt) => !attempt.correct || attempt.assisted).map((attempt) => attempt.phraseId)} />
       <p className="quiet">هذا تدريب على جمل تعرفها من الدرس، وليس قياساً لمستواك. لا يغيّر إنجاز الدروس ولا يُحفظ في حسابك. أعد الجولة لمراجعة الأخطاء.</p>
       <div className="listening-actions"><button className="button button-primary" onClick={() => { setAttempts([]); setSession(session + 1); }}>أعد التدريب</button><Link className="text-link" href={`/learn/${lessonSlug}`}>عد إلى الدرس ←</Link></div>
     </section> : <Round key={`${session}-${attempts.length}`} round={rounds[attempts.length]} number={attempts.length + 1} total={rounds.length} onNext={(attempt) => setAttempts((current) => [...current, attempt])} />}
