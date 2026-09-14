@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import type { Phrase } from "@/lib/content";
+import { SaveReviewButton } from "./SaveReviewButton";
 import { compareWriting, MAX_WRITING_LENGTH, normalizeWriting, summarizeWriting, type WritingAttempt, type WritingComparison, type WritingToken } from "@/lib/writing";
 
 function WordComparison({ tokens }: { tokens: WritingToken[] }) {
@@ -60,6 +61,7 @@ export function WritingPractice({ phrases, lessonSlug }: { phrases: Phrase[]; le
     <div className="writing-progress" role="progressbar" aria-label="الجمل التي كتبتها" aria-valuenow={attempts.length} aria-valuemin={0} aria-valuemax={phrases.length}><span style={{ width: `${attempts.length / phrases.length * 100}%` }} /></div>
     {done ? <section className="panel writing-card writing-summary"><span className="eyebrow">نتيجة المحاولة الأولى</span><h2 ref={heading} tabIndex={-1}>راجعت كتابة جمل الدرس</h2><p className="writing-score">{summary.matches} من {summary.independent} جمل مطابقة دون مساعدة</p><p>أظهرت الصيغة قبل الإجابة في {summary.assisted} من الجمل.</p>
       {summary.independent === 0 && <p>كانت الجولة كلها بمساعدة النص؛ لا توجد نتيجة مستقلة.</p>}
+      <SaveReviewButton ids={review.map((phrase) => phrase.id)} />
       <p className="quiet">التصحيح وإعادة الكتابة يساعدانك على التعلّم، ولا يرفعان نتيجة المحاولة الأولى. هذا التدريب لا يقيس مستواك العام، ولا يغيّر إنجاز الدروس. لا تُحفظ الإجابات؛ تحديث الصفحة يبدأ جولة جديدة.</p>
       {review.length > 0 && <details className="writing-review"><summary>جمل للمراجعة ({review.length})</summary><ul>{review.map((phrase) => <li key={phrase.id}><p lang="nl" dir="ltr">{phrase.dutch}</p><p>{phrase.arabic}</p></li>)}</ul></details>}
       <div className="writing-actions"><button className="button button-primary" onClick={() => { setAttempts([]); setSession((current) => current + 1); }}>أعد تدريب الكتابة</button><Link className="text-link" href={`/learn/${lessonSlug}`}>عد إلى الدرس ←</Link></div>

@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/learn", label: "الدروس" },
+  { href: "/review", label: "المراجعة" },
   { href: "/exams", label: "الامتحانات" },
   { href: "/progress", label: "تقدّمي" },
   { href: "/account", label: "حسابي" },

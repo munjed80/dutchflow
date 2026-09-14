@@ -10,6 +10,8 @@ A complete `ended`/speech `end` event unlocks the answers. Starting a clip, stop
 
 “Show text for help” remains available for accessibility or unavailable audio. Revealing it permanently marks that round as text-assisted, even if the learner later replays the clip. The summary separates independent listening answers from assisted rounds. If every round used the transcript, it explicitly says there is no independent listening result. Attempts are held in React state only, restart/refresh resets them, and they never modify local or account lesson completion.
 
+The summary offers an explicit button to add incorrect or assisted phrases to the browser-local review list. Only phrase IDs are stored; listening answers, playback status, and results remain in memory. See `docs/REVIEW.md` for storage scope and removal.
+
 ## Player lifecycle
 
 `src/lib/audio-playback.ts` owns one active playback session across all `AudioButton` components:

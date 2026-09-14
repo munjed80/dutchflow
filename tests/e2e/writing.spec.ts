@@ -34,6 +34,10 @@ test("writing corrections and retries preserve the first attempt and separate te
   await expect(page.getByText("أظهرت الصيغة قبل الإجابة في 1 من الجمل.")).toBeVisible();
   await page.getByText("جمل للمراجعة (2)").click();
   await expect(page.locator(".writing-review li")).toHaveCount(2);
+  expect(await page.evaluate(() => localStorage.getItem("dutchflow-review-v1"))).toBeNull();
+  await page.getByRole("button", { name: "أضف هذه الجمل للمراجعة" }).click();
+  await expect(page.getByRole("button", { name: "ضمن قائمة المراجعة" })).toBeDisabled();
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem("dutchflow-review-v1")!).phraseIds)).toEqual([lesson.phrases[1].id, lesson.phrases[2].id]);
   expect(await page.evaluate(() => JSON.parse(localStorage.getItem("dutchflow-progress-v1")!).completedLessons)).toEqual(["pharmacy"]);
   await page.getByRole("button", { name: "أعد تدريب الكتابة" }).click();
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "0");

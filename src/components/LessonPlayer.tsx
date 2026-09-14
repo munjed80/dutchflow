@@ -5,6 +5,7 @@ import { useState } from "react";
 import type { Lesson } from "@/lib/content";
 import { useLearning } from "./LearningProvider";
 import { AudioButton } from "@/components/AudioButton";
+import { SaveReviewButton } from "./SaveReviewButton";
 
 export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesson?: Lesson }) {
   const [answers, setAnswers] = useState<Record<string, number>>({});
@@ -51,12 +52,14 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
                 <h3 lang="nl" dir="ltr">{phrase.dutch}</h3>
                 <p>{phrase.arabic}</p>
                 <small>{phrase.tip}</small>
+                <SaveReviewButton ids={[phrase.id]} compact />
               </div>
               <AudioButton id={phrase.id} text={phrase.dutch} />
             </article>
           ))}
         </div>
         <p className="audio-disclaimer">يستخدم هذا الإصدار نطق جهازك مؤقتاً. عند تجهيز ملفات الدروس الصوتية سيشغّلها الموقع تلقائياً.</p>
+        <p className="quiet review-disclaimer">قائمة المراجعة تُحفظ في هذا المتصفح لكل من يستخدمه، ولا تُزامن مع الحساب. <Link className="text-link" href="/review">افتح المراجعة ←</Link></p>
       </section>
 
       <div className="continue-banner panel"><div><span className="eyebrow">استمع دون قراءة الجملة</span><h2>تدرّب على فهم ما تسمعه</h2><p>اختر معنى كل جملة من هذا الدرس، ثم راجع الإجابة.</p></div><Link className="button button-primary" href={`/learn/${lesson.slug}/listening`}>ابدأ تدريب الاستماع</Link></div>
