@@ -1,70 +1,44 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import audioManifest from "@/lib/audio-manifest.json";
+import { playAudio, type AudioSpeed, type AudioVoice, type PlaybackState } from "@/lib/audio-playback";
 
-type Speed = "normal" | "slow";
-type Voice = "female" | "male";
-type AudioManifest = Record<string, Record<Voice, Record<Speed, string>>>;
+type AudioManifest = Record<string, Partial<Record<AudioVoice, Partial<Record<AudioSpeed, string>>>>>;
 
-let activeAudio: HTMLAudioElement | undefined;
-
-export function AudioButton({ id, text }: { id: string; text: string }) {
-  const [voice, setVoice] = useState<Voice>("female");
-  const [error, setError] = useState("");
+export function AudioButton({ id, text, concealText = false, onPlaybackComplete }: {
+  id: string; text: string; concealText?: boolean; onPlaybackComplete?: () => void;
+}) {
   const manifest = audioManifest as AudioManifest;
-  const hasRecordedAudio = Boolean(manifest[id]?.[voice]?.normal);
+  const availableVoices = (["female", "male"] as const).filter((voice) => manifest[id]?.[voice]?.normal || manifest[id]?.[voice]?.slow);
+  const [voice, setVoice] = useState<AudioVoice>(availableVoices[0] ?? "female");
+  const [state, setState] = useState<PlaybackState>({ status: "idle" });
+  const stop = useRef<(() => void) | undefined>(undefined);
+  const mounted = useRef(false);
+  const completed = useRef(onPlaybackComplete);
+  completed.current = onPlaybackComplete;
 
-  function useDeviceVoice(speed: Speed) {
-    if (!("speechSynthesis" in window)) {
-      setError("الصوت غير متاح في هذا المتصفح حالياً.");
-      return;
-    }
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "nl-NL";
-    utterance.rate = speed === "slow" ? 0.72 : 0.95;
-    const voices = window.speechSynthesis.getVoices();
-    const dutchVoices = voices.filter((item) => item.lang.toLowerCase().startsWith("nl"));
-    utterance.voice = dutchVoices.find((item) =>
-      voice === "female" ? /female|vrouw|colette|fenna/i.test(item.name) : /male|man|maarten/i.test(item.name),
-    ) ?? dutchVoices[0] ?? null;
-    utterance.onerror = () => setError("تعذّر تشغيل الصوت على هذا الجهاز.");
-    window.speechSynthesis.speak(utterance);
+  useEffect(() => {
+    mounted.current = true;
+    // Some engines load their voice list only after this first request.
+    try { if ("speechSynthesis" in window) window.speechSynthesis.getVoices(); } catch { /* Report failures only when playback is requested. */ }
+    return () => { mounted.current = false; stop.current?.(); };
+  }, [id, text]);
+
+  function play(speed: AudioSpeed) {
+    stop.current = playAudio({ path: manifest[id]?.[voice]?.[speed], text, speed, voice,
+      onState: (next) => { if (mounted.current) setState(next); },
+      onComplete: () => { if (mounted.current) completed.current?.(); },
+    });
   }
-
-  async function play(speed: Speed) {
-    setError("");
-    activeAudio?.pause();
-    const path = manifest[id]?.[voice]?.[speed];
-    if (path) {
-      try {
-        activeAudio = new Audio(path);
-        await activeAudio.play();
-        return;
-      } catch {
-        // A missing cached file should not prevent the learner from listening.
-      }
-    }
-    useDeviceVoice(speed);
-  }
-
-  return (
-    <div className="audio-control">
-      <div className="audio-buttons">
-        <button type="button" className="audio-button" onClick={() => void play("normal")} aria-label={`استمع إلى ${text}`}>
-          <span aria-hidden="true">◖))</span> استمع
-        </button>
-        <button type="button" className="audio-button audio-button-muted" onClick={() => void play("slow")} aria-label={`استمع ببطء إلى ${text}`}>
-          ببطء
-        </button>
-        {hasRecordedAudio && (
-          <button type="button" className="audio-button audio-button-muted" onClick={() => setVoice(voice === "female" ? "male" : "female")}>
-            {voice === "female" ? "صوت امرأة" : "صوت رجل"}
-          </button>
-        )}
-      </div>
-      {error && <span className="audio-error" role="status">{error}</span>}
+  return <div className="audio-control">
+    <div className="audio-buttons">
+      <button type="button" className="audio-button" onClick={() => play("normal")} aria-label={concealText ? "استمع إلى الجملة" : `استمع إلى ${text}`}><span aria-hidden="true">◖))</span> استمع</button>
+      <button type="button" className="audio-button audio-button-muted" onClick={() => play("slow")} aria-label={concealText ? "استمع ببطء إلى الجملة" : `استمع ببطء إلى ${text}`}>ببطء</button>
+      {availableVoices.length > 1 && <button type="button" className="audio-button audio-button-muted" onClick={() => { stop.current?.(); setVoice(voice === "female" ? "male" : "female"); }} aria-label="تغيير الصوت">{voice === "female" ? "صوت امرأة" : "صوت رجل"}</button>}
+      {state.status !== "idle" && <button type="button" className="audio-button audio-button-muted" onClick={() => stop.current?.()}>إيقاف الصوت</button>}
     </div>
-  );
+    {state.status !== "idle" && <span className="audio-status" role="status">{state.status === "loading" ? "جارٍ تجهيز الصوت…" : state.source === "device" ? "يُشغّل بنطق الجهاز" : "يُشغّل ملف الدرس"}</span>}
+    {state.error && <span className="audio-error" role="status">{state.error}</span>}
+  </div>;
 }

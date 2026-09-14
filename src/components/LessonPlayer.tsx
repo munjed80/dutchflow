@@ -59,6 +59,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
         <p className="audio-disclaimer">يستخدم هذا الإصدار نطق جهازك مؤقتاً. عند تجهيز ملفات الدروس الصوتية سيشغّلها الموقع تلقائياً.</p>
       </section>
 
+      <div className="continue-banner panel"><div><span className="eyebrow">استمع دون قراءة الجملة</span><h2>تدرّب على فهم ما تسمعه</h2><p>اختر معنى كل جملة من هذا الدرس، ثم راجع الإجابة.</p></div><Link className="button button-primary" href={`/learn/${lesson.slug}/listening`}>ابدأ تدريب الاستماع</Link></div>
       <section className="lesson-section" aria-labelledby="dialogue-heading">
         <div className="section-heading compact-heading">
           <div><span className="eyebrow">02 / في سياقها</span><h2 id="dialogue-heading">محادثة قصيرة</h2></div>
