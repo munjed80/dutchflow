@@ -13,6 +13,8 @@ test("phrases from different lessons persist, form a recall session, and can be 
     await expect(card.getByRole("button", { name: "ضمن قائمة المراجعة" })).toBeDisabled();
   }
   await page.getByRole("navigation", { name: "القائمة الرئيسية" }).getByRole("link", { name: "المراجعة", exact: true }).click();
+  await expect(page).toHaveURL(/\/review$/);
+  await expect(page.locator(".review-list li")).toHaveCount(2);
   await page.reload();
   await expect(page.locator(".review-list li")).toHaveCount(2);
   await page.getByRole("button", { name: "ابدأ جلسة المراجعة" }).click();
