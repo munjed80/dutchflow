@@ -79,6 +79,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
         </div>
       </section>
 
+      <div className="continue-banner panel"><div><span className="eyebrow">تذكّر واكتب</span><h2>اكتب جمل الدرس بنفسك</h2><p>اكتب الجملة من معناها العربي، ثم قارن الكلمات وترتيبها بصيغة الدرس.</p></div><Link className="button button-primary" href={`/learn/${lesson.slug}/writing`}>ابدأ تدريب الكتابة</Link></div>
       <section className="lesson-section" aria-labelledby="quiz-heading">
         <div className="grammar-card panel">
           <span className="eyebrow">03 / قاعدة من الدرس</span>
