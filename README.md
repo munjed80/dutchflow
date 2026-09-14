@@ -19,6 +19,7 @@ Open `http://localhost:3000`.
 - Search lessons in Arabic or Dutch, filter by module, continue with the first unfinished lesson, and browse previous/next lessons freely.
 - Device speech synthesis for Dutch listening, with normal and slower playback. Device voice quality and availability vary; this is a temporary fallback until recorded audio is generated.
 - Guest progress stays in the current browser. Optional email-link accounts store progress in PostgreSQL across devices. The account page offers explicit import of existing guest completions; account data is never copied into guest storage. Failed cloud saves show a retry action. See [account setup](docs/ACCOUNTS.md) to enable this feature.
+- A free 16-question starting-point check at `/placement`, with server grading, corrections, a breakdown across vocabulary/sentence structure/reading, and up to three lesson recommendations. Answers can be resumed in the same browser tab; no account or database is required. This is not a validated CEFR placement test. See [starting-point check details](docs/PLACEMENT.md).
 - Three free example exam questions and a clearly labelled **€4.95** future full-exam offer. Payment and full paid exams are **not enabled**. No money is collected.
 
 The lesson content lives in `src/data/lessons.json`, and ordered modules live in `src/data/modules.json`. Each phrase has a globally unique ID; the audio script and playback manifest use those IDs. This is an introductory learning path, not a complete A1 syllabus. See [content authoring guidance](docs/CONTENT_AUTHORING.md) before adding or reordering lessons.
@@ -34,7 +35,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The content checks catch duplicate audio IDs, broken dialogue references, invalid answer keys, and missing goals or grammar before publication. Browser tests cover search/filtering, existing progress, quiz completion and retries, lesson navigation, all 20 lesson routes, and mobile overflow. Playwright starts the production server, an isolated SMTP inbox, and an in-memory PGlite database automatically; build first. Account tests cover actual email links, expiry/replay, origin checks, rate limits, import, cross-device isolation, sign-out, and failed-save recovery. GitHub Actions uses PostgreSQL 17 for the same tests on each PR. No real emails are sent.
+The content checks catch duplicate audio IDs, broken dialogue references, invalid answer keys, missing goals or grammar, and invalid starting-point question/lesson links before publication. Browser tests cover search/filtering, existing progress, quiz completion and retries, lesson navigation, all 20 lesson routes, and mobile overflow. Playwright starts the production server, an isolated SMTP inbox, and an in-memory PGlite database automatically; build first. Account tests cover actual email links, expiry/replay, origin checks, rate limits, import, cross-device isolation, sign-out, and failed-save recovery. GitHub Actions uses PostgreSQL 17 for the same tests on each PR. No real emails are sent. Starting-point tests cover partial drafts, answer changes, failed-submit retry, grading, unknown answers, malformed requests, stale revisions, recommended lessons, and exclusion of answer explanations from initial HTML/client assets.
 
 ## Generate reusable Dutch audio
 
@@ -52,7 +53,7 @@ The script writes MP3s to `public/audio/` and updates `src/lib/audio-manifest.js
 
 ## Roadmap
 
-1. Review this introductory A1 path with a qualified Dutch speaker; add further A1 practice and structured A2 and B1 content.
+1. Review this introductory A1 path and the starting-point questions with a qualified Dutch speaker; add further A1 practice and structured A2 and B1 content.
 2. Generate and review the audio. Add a content authoring workflow and audio quality checks.
 3. Configure production PostgreSQL and SMTP, verify delivery and backups, and add account export/deletion and a published privacy policy before public launch.
 4. Build secure paid practice exams: authenticated purchases, one €4.95 attempt per payment, server-side scoring, provider webhooks, receipts, and clear retry/refund handling. Do not unlock an exam based on a browser redirect alone.

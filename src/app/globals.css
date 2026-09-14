@@ -260,3 +260,26 @@ em{font-style:normal;color:var(--teal)}
 .account-actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}.import-progress{padding:20px;background:#f2f5ef;border-radius:16px;margin:24px 0}
 .text-link{display:inline-block;margin:12px 0;color:var(--teal);font-weight:700}.save-notice{padding:20px;margin-top:20px}
 @media(max-width:720px){.header-inner{flex-wrap:wrap;justify-content:center;gap:12px}.main-nav{width:100%;justify-content:center;gap:22px}.account-card{padding:22px}.account-actions .button{width:100%}}
+
+/* Free starting-point check */
+.placement-check .button-secondary{background:#edf2ec;color:var(--teal);border:1px solid #c7d7cc;box-shadow:none}
+.placement-check .button:disabled{opacity:.65}
+.placement-page{max-width:900px}.placement-page .page-heading{max-width:720px}
+.placement-card{padding:30px;margin-bottom:22px}.placement-card h2{font-size:27px;line-height:1.5;margin:8px 0 18px}
+.placement-card p{font-size:14px;line-height:1.95}.placement-facts{padding-inline-start:22px;line-height:2.1;font-size:14px}
+.placement-note{padding:14px 18px;background:#f0f3e9;border-radius:8px;font-size:13px;line-height:1.9;color:#4d6758}
+.placement-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.placement-actions .button{min-height:48px}
+.placement-top{display:flex;align-items:center;justify-content:space-between;gap:15px;font-size:12px;color:var(--muted)}
+.placement-meter{height:7px;border-radius:10px;background:#e1e9df;overflow:hidden;margin:18px 0 26px}.placement-meter span{display:block;height:100%;background:var(--teal)}
+.placement-passage{margin:20px 0;padding:20px;background:#f1f5ef;border-inline-start:3px solid #aac7b8;border-radius:5px;font:500 22px/1.65 Georgia,serif;color:var(--deep);overflow-wrap:anywhere}
+.placement-question{border:0;padding:0;margin:0;min-width:0}.placement-question legend{font-size:17px;font-weight:700;margin-bottom:20px}
+.placement-question .option-list{flex-direction:column}.placement-question .option{width:100%;padding:14px 17px;font-size:15px}.placement-question .unknown-option{margin-top:6px;background:#fff}
+.placement-answer-list,.placement-corrections ol{list-style:none;padding:0;margin:25px 0}.placement-answer-list li{display:flex;align-items:center;gap:20px;justify-content:space-between;padding:17px 0;border-bottom:1px solid var(--line)}
+.placement-answer-list strong{font-size:14px;font-weight:500}.placement-answer-list span{display:block;text-align:start;color:var(--teal);margin-top:7px;font-size:14px}.placement-answer-list button{flex-shrink:0}
+.placement-error{padding:15px;background:#fff1eb;color:#83472f;border-radius:8px}.resume-note{font-weight:700;color:var(--teal)}
+.placement-result-summary{background:#eaf1e8}.placement-score{display:flex;gap:20px;align-items:baseline}.placement-score strong{font:600 64px/1 Georgia,serif;color:var(--teal)}.placement-score span{font-size:16px}
+.placement-skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:22px}.placement-skills>div{padding:22px}.placement-skills h3{font-size:15px;margin:0 0 12px}.placement-skills p{font-size:13px;margin:0;color:var(--muted)}.placement-skills strong{font-size:26px;color:var(--teal)}
+.placement-recommendations{display:grid;gap:10px;margin:20px 0}.placement-recommendations a{padding:16px;background:#f1f5ef;border-radius:8px;display:flex;justify-content:space-between;gap:20px;color:var(--teal);font-weight:700;font-size:15px}
+.placement-corrections summary{cursor:pointer;font-size:18px;font-weight:700;min-height:44px}.placement-corrections li{border-top:1px solid var(--line);padding:22px 0}.placement-corrections li:last-child{padding-bottom:0}.placement-corrections li>span{font-size:12px;font-weight:700}.placement-corrections h3{font-size:16px}.placement-corrections .placement-passage{font-size:19px}
+.placement-invitation{font-size:13px;color:var(--muted);margin:-10px 0 25px}.placement-invitation .text-link{margin:0 8px}
+@media(max-width:720px){.placement-card{padding:22px}.placement-card h2{font-size:23px}.placement-passage{font-size:20px;padding:17px}.placement-top{align-items:flex-start;flex-wrap:wrap;gap:7px}.placement-skills{grid-template-columns:1fr}.placement-skills>div{display:flex;align-items:center;justify-content:space-between}.placement-skills h3{margin:0}.placement-answer-list li{align-items:flex-start;gap:10px}.placement-answer-list button{padding:10px 13px}.placement-invitation .text-link{margin:5px 0;display:block}.placement-actions .button{flex:1 1 160px}}
