@@ -33,14 +33,17 @@
     "lessonSlugs": [
       "numbers-and-age",
       "time-and-days",
-      "daily-routine"
+      "daily-routine",
+      "dates-and-calendar",
+      "weekly-routine"
     ],
     "readingSlugs": [
-      "a-morning-routine"
+      "a-morning-routine",
+      "a-week-of-language-lessons"
     ],
     "remaining": [
-      "توسيع الأعداد والتواريخ والأشهر.",
-      "استماع مستقل لمواعيد متعددة وكتابة برنامج يومي."
+      "استكمال الأعداد والأشهر وقراءة التواريخ في صيغ متنوعة.",
+      "تسجيل جداول ومواعيد جديدة للاستماع دون نص، ومحادثة لتنسيق موعد."
     ]
   },
   {

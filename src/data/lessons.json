@@ -957,9 +957,305 @@
     ]
   },
   {
-    "slug": "at-the-shop",
+    "slug": "dates-and-calendar",
+    "moduleId": "first-steps",
     "level": "A1",
     "number": "09",
+    "title": "التواريخ والتقويم",
+    "dutchTitle": "Datums en maanden",
+    "description": "اسأل عن التاريخ، وحدد موعداً باليوم والشهر، وميّز بين op وin.",
+    "durationMinutes": 12,
+    "context": "تسأل عن بداية دورة لغة ومواعيد دروسها. التواريخ في هذا الحوار أمثلة تعليمية.",
+    "goal": "اسأل عن التاريخ، وحدد موعداً باليوم والشهر، وميّز بين op وin.",
+    "phrases": [
+      {
+        "id": "a1-dates-and-calendar-01",
+        "dutch": "Welke datum is het vandaag?",
+        "arabic": "ما تاريخ اليوم؟",
+        "tip": "datum تعني التاريخ؛ السؤال عن اليوم والشهر، وليس عن الساعة."
+      },
+      {
+        "id": "a1-dates-and-calendar-02",
+        "dutch": "Het is vandaag drie maart.",
+        "arabic": "اليوم هو الثالث من مارس.",
+        "tip": "نقول رقم اليوم ثم الشهر؛ maart هو مارس، وتُكتب أسماء الأشهر بحرف صغير."
+      },
+      {
+        "id": "a1-dates-and-calendar-03",
+        "dutch": "Wanneer begint de cursus?",
+        "arabic": "متى تبدأ الدورة؟",
+        "tip": "wanneer تعني متى، وcursus تعني دورة تعليمية."
+      },
+      {
+        "id": "a1-dates-and-calendar-04",
+        "dutch": "De cursus begint op eenentwintig maart.",
+        "arabic": "تبدأ الدورة في الحادي والعشرين من مارس.",
+        "tip": "eenentwintig = 21. نستخدم op قبل تاريخ اليوم المحدد."
+      },
+      {
+        "id": "a1-dates-and-calendar-05",
+        "dutch": "Hoeveel lessen zijn er deze maand?",
+        "arabic": "كم درساً يوجد هذا الشهر؟",
+        "tip": "hoeveel تسأل عن العدد؛ lessen جمع les، وdeze maand تعني هذا الشهر."
+      },
+      {
+        "id": "a1-dates-and-calendar-06",
+        "dutch": "Er zijn vier lessen in maart.",
+        "arabic": "هناك أربعة دروس في مارس.",
+        "tip": "مع الشهر وحده نستخدم in؛ ومع تاريخ يوم محدد نستخدم op."
+      },
+      {
+        "id": "a1-dates-and-calendar-07",
+        "dutch": "Is er ook les in april?",
+        "arabic": "هل توجد دروس أيضاً في أبريل؟",
+        "tip": "april = أبريل. ook تعني أيضاً؛ والسؤال هنا عن وجود درس خلال الشهر."
+      },
+      {
+        "id": "a1-dates-and-calendar-08",
+        "dutch": "Ja, op twee en negen april.",
+        "arabic": "نعم، في الثاني والتاسع من أبريل.",
+        "tip": "twee = 2 وnegen = 9؛ ذكر التاريخين يحدد اليومين داخل الشهر."
+      }
+    ],
+    "grammar": {
+      "title": "اليوم المحدد مع op والشهر مع in",
+      "explanation": "نستخدم op مع تاريخ يوم محدد: op eenentwintig maart. وعندما نقصد الشهر دون تحديد يوم نقول in maart. تأتي أسماء الأشهر بحروف صغيرة في وسط الجملة.",
+      "example": "De cursus begint op eenentwintig maart.",
+      "translation": "تبدأ الدورة في الحادي والعشرين من مارس."
+    },
+    "dialogue": [
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-dates-and-calendar-01"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-dates-and-calendar-02"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-dates-and-calendar-03"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-dates-and-calendar-04"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-dates-and-calendar-05"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-dates-and-calendar-06"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-dates-and-calendar-07"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-dates-and-calendar-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "dates-and-calendar-q1",
+        "prompt": "ما التاريخ المذكور في op eenentwintig maart؟",
+        "options": [
+          "12 مارس",
+          "21 مارس",
+          "21 أبريل"
+        ],
+        "correctIndex": 1,
+        "explanation": "eenentwintig تعني 21، وmaart هو مارس."
+      },
+      {
+        "id": "dates-and-calendar-q2",
+        "prompt": "أكمل موعد يوم محدد: De cursus begint ... negen april.",
+        "options": [
+          "op",
+          "in",
+          "om"
+        ],
+        "correctIndex": 0,
+        "explanation": "نستخدم op قبل اليوم المحدد؛ in مع الشهر وحده، وom مع الساعة."
+      },
+      {
+        "id": "dates-and-calendar-q3",
+        "prompt": "أكمل: Er zijn vier lessen ... maart.",
+        "options": [
+          "om",
+          "op",
+          "in"
+        ],
+        "correctIndex": 2,
+        "explanation": "maart هنا شهر دون يوم محدد، لذلك نستخدم in."
+      },
+      {
+        "id": "dates-and-calendar-q4",
+        "prompt": "ماذا يطلب السؤال Hoeveel lessen zijn er deze maand?",
+        "options": [
+          "عنوان الدورة",
+          "عدد الدروس في هذا الشهر",
+          "الساعة الحالية"
+        ],
+        "correctIndex": 1,
+        "explanation": "hoeveel يسأل عن العدد؛ lessen هي الدروس وdeze maand تعني هذا الشهر."
+      }
+    ]
+  },
+  {
+    "slug": "weekly-routine",
+    "moduleId": "first-steps",
+    "level": "A1",
+    "number": "10",
+    "title": "كم مرة؟ وبرنامج الأسبوع",
+    "dutchTitle": "Hoe vaak en hoe laat?",
+    "description": "اذكر تكرار نشاط، وافهم الربع بعد الساعة وقبلها، وصف ما تفعله بعد الدرس.",
+    "durationMinutes": 12,
+    "context": "يسألك زميل عن دورة اللغة الأسبوعية، وأيامها ووقت بدايتها ونهايتها.",
+    "goal": "اذكر تكرار نشاط، وافهم الربع بعد الساعة وقبلها، وصف ما تفعله بعد الدرس.",
+    "phrases": [
+      {
+        "id": "a1-weekly-routine-01",
+        "dutch": "Hoe vaak heb je Nederlandse les?",
+        "arabic": "كم مرة تحضر درساً في الهولندية؟",
+        "tip": "Hoe vaak يسأل عن التكرار؛ je للمخاطبة غير الرسمية."
+      },
+      {
+        "id": "a1-weekly-routine-02",
+        "dutch": "Ik heb twee keer per week les.",
+        "arabic": "لدي درس مرتين في الأسبوع.",
+        "tip": "twee keer = مرتان، وper week = في الأسبوع."
+      },
+      {
+        "id": "a1-weekly-routine-03",
+        "dutch": "Op maandag en donderdag ga ik naar school.",
+        "arabic": "أذهب إلى المدرسة يومي الاثنين والخميس.",
+        "tip": "عندما تبدأ الجملة باليوم، يأتي الفعل ga ثم الفاعل ik."
+      },
+      {
+        "id": "a1-weekly-routine-04",
+        "dutch": "Hoe laat begint de les?",
+        "arabic": "في أي ساعة يبدأ الدرس؟",
+        "tip": "Hoe laat يسأل عن ساعة وقوع النشاط، لا عن عدد مرات تكراره."
+      },
+      {
+        "id": "a1-weekly-routine-05",
+        "dutch": "De les begint om kwart over negen.",
+        "arabic": "يبدأ الدرس الساعة التاسعة والربع.",
+        "tip": "kwart over negen = 09:15 صباحاً؛ over تعني بعد الساعة هنا."
+      },
+      {
+        "id": "a1-weekly-routine-06",
+        "dutch": "En hoe laat is de les afgelopen?",
+        "arabic": "وفي أي ساعة ينتهي الدرس؟",
+        "tip": "is afgelopen تعبير يعني أن الدرس انتهى؛ احفظه هنا للسؤال عن وقت النهاية."
+      },
+      {
+        "id": "a1-weekly-routine-07",
+        "dutch": "Om kwart voor elf.",
+        "arabic": "في الحادية عشرة إلا ربعاً.",
+        "tip": "kwart voor elf = 10:45 صباحاً؛ voor تعني قبل الساعة هنا."
+      },
+      {
+        "id": "a1-weekly-routine-08",
+        "dutch": "Na de les oefen ik meestal thuis.",
+        "arabic": "بعد الدرس أتدرّب غالباً في المنزل.",
+        "tip": "meestal = غالباً، وna de les = بعد الدرس؛ oefen يأتي قبل ik لأن الجملة بدأت بعبارة الوقت."
+      }
+    ],
+    "grammar": {
+      "title": "موضع الفعل بعد عبارة الوقت",
+      "explanation": "في الجملة الخبرية يأتي الفعل المصرف في الموقع الثاني، والموقع قد يكون كلمة أو مجموعة كلمات. في Na de les oefen ik ... تشغل Na de les الموقع الأول، ثم يأتي oefen قبل ik.",
+      "example": "Na de les oefen ik meestal thuis.",
+      "translation": "بعد الدرس أتدرّب غالباً في المنزل."
+    },
+    "dialogue": [
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-weekly-routine-01"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-weekly-routine-02"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-weekly-routine-03"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-weekly-routine-04"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-weekly-routine-05"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-weekly-routine-06"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-weekly-routine-07"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-weekly-routine-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "weekly-routine-q1",
+        "prompt": "أي سؤال يناسب الإجابة Twee keer per week؟",
+        "options": [
+          "Hoe laat begint de les?",
+          "Waar is de school?",
+          "Hoe vaak heb je les?"
+        ],
+        "correctIndex": 2,
+        "explanation": "التكرار مرتين في الأسبوع يجيب عن Hoe vaak، وليس عن الساعة أو المكان."
+      },
+      {
+        "id": "weekly-routine-q2",
+        "prompt": "ما وقت البداية الصباحي في kwart over negen؟",
+        "options": [
+          "09:15",
+          "08:45",
+          "09:45"
+        ],
+        "correctIndex": 0,
+        "explanation": "over تعني بعد؛ kwart over negen هي التاسعة والربع."
+      },
+      {
+        "id": "weekly-routine-q3",
+        "prompt": "ما وقت النهاية الصباحي في kwart voor elf؟",
+        "options": [
+          "11:15",
+          "10:45",
+          "11:45"
+        ],
+        "correctIndex": 1,
+        "explanation": "voor تعني قبل؛ ربع ساعة قبل الحادية عشرة هي 10:45."
+      },
+      {
+        "id": "weekly-routine-q4",
+        "prompt": "أي جملة تعني: بعد الدرس أتمرّن في المنزل؟",
+        "options": [
+          "Na de les oefen ik op school.",
+          "Voor de les oefen ik thuis.",
+          "Na de les oefen ik thuis."
+        ],
+        "correctIndex": 2,
+        "explanation": "في الجملة المطلوبة يبدأ الكلام بـ Na de les ثم يأتي oefen قبل ik. الخيار الأول يذكر المدرسة بدلاً من المنزل، والثاني يذكر قبل الدرس بدلاً من بعده."
+      }
+    ]
+  },
+  {
+    "slug": "at-the-shop",
+    "level": "A1",
+    "number": "11",
     "title": "في المتجر",
     "dutchTitle": "In de winkel",
     "description": "اسأل عن السعر والمكان وادفع عند الصندوق.",
@@ -1059,7 +1355,7 @@
     "slug": "cafe-order",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "10",
+    "number": "12",
     "title": "في المقهى",
     "dutchTitle": "In het café",
     "description": "اطلب مشروباً وحدد إضافاته واطلب الحساب بأدب.",
@@ -1162,7 +1458,7 @@
     "slug": "directions",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "11",
+    "number": "13",
     "title": "السؤال عن الطريق",
     "dutchTitle": "De weg vragen",
     "description": "اسأل عن مكان واتبع تعليمات اليمين واليسار والسير إلى الأمام.",
@@ -1265,7 +1561,7 @@
     "slug": "public-transport",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "12",
+    "number": "14",
     "title": "بالحافلة والترام",
     "dutchTitle": "Met de bus en tram",
     "description": "تحقق من وجهة الحافلة واسأل عن محطة النزول.",
@@ -1368,7 +1664,7 @@
     "slug": "train-tickets",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "13",
+    "number": "15",
     "title": "تذكرة القطار",
     "dutchTitle": "Een treinkaartje",
     "description": "اطلب تذكرة وميّز بين الذهاب فقط والذهاب والعودة.",
@@ -1475,7 +1771,7 @@
     "slug": "home-and-address",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "14",
+    "number": "16",
     "title": "عنوانك وبيتك",
     "dutchTitle": "Mijn adres en woning",
     "description": "اذكر عنوانك وصف غرفاً بسيطة في البيت.",
@@ -1574,7 +1870,7 @@
     "slug": "neighbours",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "15",
+    "number": "17",
     "title": "التعارف مع الجيران",
     "dutchTitle": "De buren",
     "description": "عرّف بنفسك كجار جديد واسأل عن مدة السكن في الحي.",
@@ -1681,7 +1977,7 @@
     "slug": "repairs-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "16",
+    "number": "18",
     "title": "مشكلة في البيت",
     "dutchTitle": "Een reparatie melden",
     "description": "أبلغ عن عطل واطلب زيارة لإصلاحه.",
@@ -1784,7 +2080,7 @@
     "slug": "workday",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "17",
+    "number": "19",
     "title": "أول يوم عمل",
     "dutchTitle": "Mijn eerste werkdag",
     "description": "اسأل عن بداية الوردية والاستراحة ومكان المقصف.",
@@ -1887,7 +2183,7 @@
     "slug": "school-and-family",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "18",
+    "number": "20",
     "title": "الأسرة والمدرسة",
     "dutchTitle": "Gezin en school",
     "description": "تحدث عن طفلك وافهم سؤالاً بسيطاً عن المدرسة.",
@@ -1981,7 +2277,7 @@
   {
     "slug": "doctor-appointment",
     "level": "A1",
-    "number": "19",
+    "number": "21",
     "title": "موعد عند طبيب الأسرة",
     "dutchTitle": "Bij de huisarts",
     "description": "اشرح عرضاً بسيطاً وحدد منذ متى بدأت المشكلة.",
@@ -2085,7 +2381,7 @@
     "slug": "pharmacy",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "20",
+    "number": "22",
     "title": "في الصيدلية",
     "dutchTitle": "Bij de apotheek",
     "description": "اطلب استلام دوائك واسأل الصيدلي عن طريقة استخدامه.",
@@ -2192,7 +2488,7 @@
     "slug": "municipal-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "21",
+    "number": "23",
     "title": "موعد في البلدية",
     "dutchTitle": "Bij de gemeente",
     "description": "أخبر موظف الاستقبال أن لديك موعداً وافهم طلب إثبات الهوية.",
@@ -2299,7 +2595,7 @@
     "slug": "phone-calls",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "22",
+    "number": "24",
     "title": "مكالمة قصيرة",
     "dutchTitle": "Telefoneren",
     "description": "عرّف بنفسك في الهاتف واطلب تكرار الكلام أو إبطاءه.",
@@ -2402,7 +2698,7 @@
     "slug": "letters-and-messages",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "23",
+    "number": "25",
     "title": "فهم رسالة موعد",
     "dutchTitle": "Een afspraakbericht lezen",
     "description": "استخرج يوم الموعد وساعته وما يجب إحضاره من رسالة قصيرة.",

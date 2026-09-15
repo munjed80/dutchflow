@@ -200,5 +200,275 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "dates-and-calendar",
+    "vocabulary": [
+      {
+        "term": "de datum",
+        "kind": "noun",
+        "forms": "de datums",
+        "meaning": "التاريخ؛ له أيضاً صيغة جمع أخرى: data.",
+        "phraseId": "a1-dates-and-calendar-01"
+      },
+      {
+        "term": "de maand",
+        "kind": "noun",
+        "forms": "de maanden",
+        "meaning": "الشهر؛ deze maand تعني هذا الشهر.",
+        "phraseId": "a1-dates-and-calendar-05"
+      },
+      {
+        "term": "de cursus",
+        "kind": "noun",
+        "forms": "de cursussen",
+        "meaning": "دورة تعليمية تتكون عادةً من عدة دروس.",
+        "phraseId": "a1-dates-and-calendar-03"
+      },
+      {
+        "term": "de les",
+        "kind": "noun",
+        "forms": "de lessen",
+        "meaning": "الدرس أو الحصة؛ الجمع lessen.",
+        "phraseId": "a1-dates-and-calendar-05"
+      },
+      {
+        "term": "beginnen",
+        "kind": "verb",
+        "forms": "ik begin · de cursus begint · wij beginnen",
+        "meaning": "يبدأ؛ يتغير آخر الفعل بحسب الفاعل.",
+        "phraseId": "a1-dates-and-calendar-04"
+      },
+      {
+        "term": "hoeveel",
+        "kind": "expression",
+        "forms": "hoeveel lessen · hoeveel maanden",
+        "meaning": "كم للعدد أو الكمية؛ نستخدمها هنا للسؤال عن عدد الدروس.",
+        "phraseId": "a1-dates-and-calendar-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "تخيّل أن الدورة تبدأ في التاسع من أبريل. اكتب جملة تحدد بدايتها.",
+        "model": "De cursus begint op negen april.",
+        "translation": "تبدأ الدورة في التاسع من أبريل.",
+        "checklist": [
+          "هل استخدمت op قبل تاريخ اليوم المحدد؟",
+          "هل كتبت اسم الشهر april بحرف صغير؟"
+        ]
+      },
+      {
+        "prompt": "في الجدول الخيالي يوجد درسان في مارس. اكتب ذلك باستخدام Er zijn.",
+        "model": "Er zijn twee lessen in maart.",
+        "translation": "هناك درسان في مارس.",
+        "checklist": [
+          "هل استخدمت جمع les وهو lessen؟",
+          "هل استخدمت in مع الشهر وحده؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "weekly-routine",
+    "vocabulary": [
+      {
+        "term": "de week",
+        "kind": "noun",
+        "forms": "de weken",
+        "meaning": "الأسبوع؛ per week تعني في كل أسبوع.",
+        "phraseId": "a1-weekly-routine-02"
+      },
+      {
+        "term": "de keer",
+        "kind": "noun",
+        "forms": "de keren",
+        "meaning": "المرة؛ بعد عدد في تعبير التكرار نقول هنا twee keer دون إضافة en.",
+        "phraseId": "a1-weekly-routine-02"
+      },
+      {
+        "term": "de school",
+        "kind": "noun",
+        "forms": "de scholen",
+        "meaning": "المدرسة؛ في naar school نحذف الأداة ضمن هذا التعبير المعتاد.",
+        "phraseId": "a1-weekly-routine-03"
+      },
+      {
+        "term": "oefenen",
+        "kind": "verb",
+        "forms": "ik oefen · u oefent · wij oefenen",
+        "meaning": "يتدرّب أو يتمرّن.",
+        "phraseId": "a1-weekly-routine-08"
+      },
+      {
+        "term": "meestal",
+        "kind": "expression",
+        "forms": "meestal thuis · meestal op maandag",
+        "meaning": "غالباً أو في معظم الأحيان؛ لا تعني دائماً.",
+        "phraseId": "a1-weekly-routine-08"
+      },
+      {
+        "term": "kwart voor elf",
+        "kind": "expression",
+        "forms": "kwart over negen = 09:15 · kwart voor elf = 10:45",
+        "meaning": "ربع ساعة قبل الحادية عشرة؛ الأرقام هنا للأوقات الصباحية في الحوار.",
+        "phraseId": "a1-weekly-routine-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "دورتك الخيالية فيها أربعة دروس في الشهر. أجب عن السؤال بذكر التكرار.",
+        "model": "Ik heb vier keer per maand les.",
+        "translation": "لدي درس أربع مرات في الشهر.",
+        "checklist": [
+          "هل ميّزت per maand عن per week؟",
+          "هل استخدمت vier keer للتكرار أربع مرات؟"
+        ],
+        "cue": "Hoe vaak heb je les?"
+      },
+      {
+        "prompt": "يبدأ درس آخر الساعة 09:45 صباحاً. اكتب وقت بدايته باستخدام kwart voor.",
+        "model": "De les begint om kwart voor tien.",
+        "translation": "يبدأ الدرس الساعة العاشرة إلا ربعاً.",
+        "checklist": [
+          "هل ذكرت الساعة التالية، tien، بعد voor؟",
+          "هل وضعت om قبل الوقت؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "numbers-and-age",
+    "vocabulary": [
+      {
+        "term": "de zoon",
+        "kind": "noun",
+        "forms": "de zonen",
+        "meaning": "الابن؛ الجمع أبناء.",
+        "phraseId": "a1-numbers-and-age-03"
+      },
+      {
+        "term": "de dochter",
+        "kind": "noun",
+        "forms": "de dochters",
+        "meaning": "الابنة؛ الجمع بنات.",
+        "phraseId": "a1-numbers-and-age-04"
+      },
+      {
+        "term": "het jaar",
+        "kind": "noun",
+        "forms": "de jaren",
+        "meaning": "السنة؛ في تعبير العمر نقول dertig jaar دون جمع jaar.",
+        "phraseId": "a1-numbers-and-age-02"
+      },
+      {
+        "term": "zijn",
+        "kind": "verb",
+        "forms": "ik ben · u bent · mijn zoon is",
+        "meaning": "يكون؛ نستخدمه لذكر العمر، ولا نستخدم hebben في هذا التعبير.",
+        "phraseId": "a1-numbers-and-age-02"
+      },
+      {
+        "term": "dertig",
+        "kind": "expression",
+        "forms": "dertig = 30 · tien = 10 · acht = 8",
+        "meaning": "ثلاثون؛ تختلف عن عشرة وثمانية في أمثلة الدرس.",
+        "phraseId": "a1-numbers-and-age-02"
+      },
+      {
+        "term": "hoe oud",
+        "kind": "expression",
+        "forms": "Hoe oud bent u? · Hoe oud is uw zoon?",
+        "meaning": "كم العمر؟ يتغير الفعل بحسب الشخص الذي نسأل عن عمره.",
+        "phraseId": "a1-numbers-and-age-01"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "في هذه الأسرة الخيالية عمر الابن ثماني سنوات وعمر الابنة عشر سنوات. اكتب جملتين.",
+        "model": "Mijn zoon is acht jaar. Mijn dochter is tien jaar.",
+        "translation": "عمر ابني ثماني سنوات، وعمر ابنتي عشر سنوات.",
+        "checklist": [
+          "هل استخدمت is مع zoon وdochter؟",
+          "هل ميّزت acht عن tien وأبقيت jaar دون جمع هنا؟"
+        ]
+      },
+      {
+        "prompt": "شخص خيالي اسمه Omar عمره ثلاثون سنة. اكتب جملة عنه بدلاً من الحديث عن نفسك.",
+        "model": "Omar is dertig jaar.",
+        "translation": "عُمَر يبلغ الثلاثين من العمر.",
+        "checklist": [
+          "هل غيّرت ben إلى is لأنك تتحدث عن Omar؟",
+          "هل استخدمت dertig للعدد 30؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "time-and-days",
+    "vocabulary": [
+      {
+        "term": "het uur",
+        "kind": "noun",
+        "forms": "de uren",
+        "meaning": "الساعة كوحدة زمن؛ بعد وقت مثل negen نقول negen uur.",
+        "phraseId": "a1-time-and-days-03"
+      },
+      {
+        "term": "de maandag",
+        "kind": "noun",
+        "forms": "de maandagen",
+        "meaning": "يوم الاثنين؛ أسماء الأيام تكتب بحرف صغير في وسط الجملة.",
+        "phraseId": "a1-time-and-days-04"
+      },
+      {
+        "term": "beginnen",
+        "kind": "verb",
+        "forms": "ik begin · u begint · wij beginnen",
+        "meaning": "يبدأ؛ ik begin تعني أبدأ.",
+        "phraseId": "a1-time-and-days-03"
+      },
+      {
+        "term": "vandaag",
+        "kind": "expression",
+        "forms": "vandaag · morgen",
+        "meaning": "اليوم الذي نتحدث فيه؛ يختلف معناه عن morgen.",
+        "phraseId": "a1-time-and-days-04"
+      },
+      {
+        "term": "morgen",
+        "kind": "expression",
+        "forms": "Morgen werk ik. · Morgen werk ik niet.",
+        "meaning": "غداً في هاتين الجملتين؛ قد تأتي الكلمة بمعنى الصباح في سياقات أخرى.",
+        "phraseId": "a1-time-and-days-05"
+      },
+      {
+        "term": "half negen",
+        "kind": "expression",
+        "forms": "half negen = 08:30 · half tien = 09:30",
+        "meaning": "نصف ساعة قبل الساعة المذكورة؛ الأمثلة الرقمية هنا للأوقات الصباحية.",
+        "phraseId": "a1-time-and-days-02"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "الوقت في الموقف الخيالي هو 09:30 صباحاً. أجب عن السؤال باستخدام half.",
+        "model": "Het is half tien.",
+        "translation": "الساعة التاسعة والنصف.",
+        "checklist": [
+          "هل اخترت tien لأننا قبل العاشرة بنصف ساعة؟",
+          "هل بدأت الإجابة بـ Het is؟"
+        ],
+        "cue": "Hoe laat is het?"
+      },
+      {
+        "prompt": "ستبدأ نشاطاً غداً الساعة التاسعة صباحاً. اكتب جملة تبدأ بكلمة Morgen.",
+        "model": "Morgen begin ik om negen uur.",
+        "translation": "أبدأ غداً الساعة التاسعة.",
+        "checklist": [
+          "هل وضعت begin قبل ik بعد البدء بـ Morgen؟",
+          "هل وضعت om قبل الساعة؟"
+        ]
+      }
+    ]
   }
 ]

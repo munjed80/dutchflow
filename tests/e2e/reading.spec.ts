@@ -4,7 +4,7 @@ import readings from "../../src/data/readings.json";
 test("reading library links to rich texts with translation, contextual notes and evidence-based feedback", async ({ page }) => {
   await page.goto("/learn");
   await page.getByRole("link", { name: "افتح مكتبة القراءة" }).click();
-  await expect(page.locator(".reading-tile")).toHaveCount(8);
+  await expect(page.locator(".reading-tile")).toHaveCount(readings.length);
   await page.locator(".reading-tile").first().click();
   await expect(page.locator(".reading-passage")).toHaveAttribute("lang", "nl");
   await expect(page.locator(".reading-passage p")).toHaveText(readings[0].text);
@@ -61,4 +61,33 @@ test("lesson entry points and mobile reading feedback remain usable", async ({ p
   await expect(page.locator("input:checked")).toHaveCount(0);
   await expect(page.locator(".reading-result")).toHaveCount(0);
   await expect(page.locator(".reading-translation p")).toBeHidden();
+});
+
+test("weekly programme reading requires all four answers and explains duration separately from practice time", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  const reading = readings.find((item) => item.slug === "a-week-of-language-lessons")!;
+  await page.goto("/learn/weekly-routine");
+  await page.locator(".reading-related").getByRole("link", { name: `${reading.title} ←` }).click();
+  await expect(page).toHaveURL(`/reading/${reading.slug}`);
+  await expect(page.locator(".reading-question")).toHaveCount(4);
+  await expect(page.locator(".reading-vocabulary dt")).toHaveCount(6);
+  for (const question of reading.questions.slice(0, 3)) await page.locator(`#${question.id}-${question.correctIndex}`).check();
+  await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(page.locator(".reading-quiz").getByRole("alert")).toBeVisible();
+  await expect(page.locator("#reading-lesweek-4-0")).toBeFocused();
+  await expect(page.locator(".reading-result")).toHaveCount(0);
+  const last = reading.questions[3];
+  await page.locator(`#${last.id}-${last.correctIndex}`).check();
+  await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(page.locator(".reading-result h3")).toHaveText("نتيجة هذه المحاولة: 4 من 4");
+  await expect(page.locator(".reading-feedback").nth(2)).toContainText("90 دقيقة");
+  await page.locator("#reading-lesweek-3-0").check();
+  await expect(page.locator(".reading-result")).toHaveCount(0);
+  await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(page.locator(".reading-result h3")).toHaveText("نتيجة هذه المحاولة: 3 من 4");
+  await expect(page.locator(".reading-feedback blockquote").nth(2)).toHaveText(reading.questions[2].evidence);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"))).toBeNull();
+  await page.locator(".next-lesson").click();
+  await expect(page).toHaveURL("/reading");
 });
