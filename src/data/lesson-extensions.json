@@ -1,0 +1,204 @@
+[
+  {
+    "lessonSlug": "spelling-your-name",
+    "vocabulary": [
+      {
+        "term": "de voornaam",
+        "kind": "noun",
+        "forms": "de voornamen",
+        "meaning": "الاسم الأول؛ الجمع: الأسماء الأولى.",
+        "phraseId": "a1-spelling-your-name-01"
+      },
+      {
+        "term": "de achternaam",
+        "kind": "noun",
+        "forms": "de achternamen",
+        "meaning": "اسم العائلة؛ الجمع: أسماء العائلات.",
+        "phraseId": "a1-spelling-your-name-03"
+      },
+      {
+        "term": "spellen",
+        "kind": "verb",
+        "forms": "ik spel · u spelt · wij spellen",
+        "meaning": "يتهجّى الكلمة حرفاً حرفاً.",
+        "phraseId": "a1-spelling-your-name-05"
+      },
+      {
+        "term": "zijn",
+        "kind": "verb",
+        "forms": "ik ben · u bent · het is",
+        "meaning": "يكون؛ يتغير تصريفه بحسب الفاعل.",
+        "phraseId": "a1-spelling-your-name-07"
+      },
+      {
+        "term": "mijn",
+        "kind": "expression",
+        "forms": "mijn voornaam · mijn achternaam",
+        "meaning": "ملكية المتكلم: اسمي الأول، اسم عائلتي.",
+        "phraseId": "a1-spelling-your-name-02"
+      },
+      {
+        "term": "met een u",
+        "kind": "expression",
+        "forms": "met een a · met een u",
+        "meaning": "مع حرف u؛ يمكن تبديل الحرف لتصحيح التهجئة.",
+        "phraseId": "a1-spelling-your-name-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "تخيّل أنك اسْمُك الأول Nour واسم عائلتك Haddad. عرّف بهما في جملتين.",
+        "model": "Mijn voornaam is Nour. Mijn achternaam is Haddad.",
+        "translation": "اسمي الأول نور. اسم عائلتي حداد.",
+        "checklist": [
+          "هل ميّزت بين voornaam وachternaam؟",
+          "هل استخدمت is عند ذكر الاسم؟"
+        ]
+      },
+      {
+        "prompt": "لا تعرف تهجئة اسم عائلة زميل جديد. اطلب من زميلك بصيغة رسمية أن يتهجّى اسم عائلته.",
+        "model": "Kunt u uw achternaam spellen?",
+        "translation": "هل يمكنك تهجئة اسم عائلتك؟",
+        "checklist": [
+          "هل استخدمت u وuw للمخاطبة الرسمية؟",
+          "هل انتهى السؤال بالفعل spellen؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "contact-details",
+    "vocabulary": [
+      {
+        "term": "het adres",
+        "kind": "noun",
+        "forms": "de adressen",
+        "meaning": "العنوان؛ لاحظ أن جمعه يأخذ de.",
+        "phraseId": "a1-contact-details-01"
+      },
+      {
+        "term": "de postcode",
+        "kind": "noun",
+        "forms": "de postcodes",
+        "meaning": "الرمز البريدي، وهو غير رقم المنزل.",
+        "phraseId": "a1-contact-details-03"
+      },
+      {
+        "term": "het huisnummer",
+        "kind": "noun",
+        "forms": "de huisnummers",
+        "meaning": "رقم المنزل.",
+        "phraseId": "a1-contact-details-05"
+      },
+      {
+        "term": "het e-mailadres",
+        "kind": "noun",
+        "forms": "de e-mailadressen",
+        "meaning": "عنوان البريد الإلكتروني.",
+        "phraseId": "a1-contact-details-07"
+      },
+      {
+        "term": "wonen",
+        "kind": "verb",
+        "forms": "ik woon · u woont · wij wonen",
+        "meaning": "يسكن؛ نستخدمه لذكر مكان السكن.",
+        "phraseId": "a1-contact-details-02"
+      },
+      {
+        "term": "opschrijven",
+        "kind": "verb",
+        "forms": "ik schrijf op · u schrijft op · wij schrijven op",
+        "meaning": "يدوّن؛ op تنفصل في هذه التصريفات.",
+        "phraseId": "a1-contact-details-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "في هذا الموقف الخيالي رقم المنزل 20. صحّح سؤال الموظف الآتي بجملة:",
+        "model": "Nee, mijn huisnummer is twintig.",
+        "translation": "لا، رقم منزلي عشرون.",
+        "checklist": [
+          "هل أجبت بالنفي قبل التصحيح؟",
+          "هل كتبت twintig التي تعني 20؟"
+        ],
+        "cue": "Is uw huisnummer twaalf?"
+      },
+      {
+        "prompt": "أمامك استمارة تدريبية. اطلب من شخص بأدب أن يكتب عنوانه، باستخدام adres وopschrijven.",
+        "model": "Kunt u uw adres opschrijven?",
+        "translation": "هل يمكنك كتابة عنوانك؟",
+        "checklist": [
+          "هل قلت uw adres؟",
+          "هل أبقيت opschrijven متصلاً بعد Kunt u؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "asking-for-clarification",
+    "vocabulary": [
+      {
+        "term": "het woord",
+        "kind": "noun",
+        "forms": "de woorden",
+        "meaning": "الكلمة؛ الجمع: كلمات.",
+        "phraseId": "a1-asking-for-clarification-03"
+      },
+      {
+        "term": "het formulier",
+        "kind": "noun",
+        "forms": "de formulieren",
+        "meaning": "الاستمارة التي تُملأ بالمعلومات.",
+        "phraseId": "a1-asking-for-clarification-05"
+      },
+      {
+        "term": "begrijpen",
+        "kind": "verb",
+        "forms": "ik begrijp · u begrijpt · wij begrijpen",
+        "meaning": "يفهم؛ ik begrijp het niet تعني لا أفهم ذلك.",
+        "phraseId": "a1-asking-for-clarification-01"
+      },
+      {
+        "term": "herhalen",
+        "kind": "verb",
+        "forms": "ik herhaal · u herhaalt · wij herhalen",
+        "meaning": "يكرر أو يعيد ما قيل.",
+        "phraseId": "a1-asking-for-clarification-06"
+      },
+      {
+        "term": "betekenen",
+        "kind": "verb",
+        "forms": "ik beteken · het betekent · wij betekenen",
+        "meaning": "يعني؛ نستخدم het betekent عند شرح معنى شيء.",
+        "phraseId": "a1-asking-for-clarification-04"
+      },
+      {
+        "term": "invullen",
+        "kind": "verb",
+        "forms": "ik vul in · u vult in · wij vullen in",
+        "meaning": "يملأ خانات الاستمارة؛ in تنفصل عند التصريف هنا.",
+        "phraseId": "a1-asking-for-clarification-04"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "سمعت كلمة postcode لأول مرة. اسأل عن معناها دون طلب ترجمة الجملة كلها.",
+        "model": "Wat betekent postcode?",
+        "translation": "ماذا تعني postcode؟",
+        "checklist": [
+          "هل بدأت بـ Wat betekent؟",
+          "هل ذكرت الكلمة التي تسأل عنها؟"
+        ]
+      },
+      {
+        "prompt": "لم تفهم كلام الموظف. اعتذر بجملة قصيرة ثم اطلب منه تكراره بأدب.",
+        "model": "Sorry, ik begrijp het niet. Kunt u dat herhalen, alstublieft?",
+        "translation": "عذراً، لا أفهم ذلك. هل يمكنك إعادته من فضلك؟",
+        "checklist": [
+          "هل عبّرت عن عدم الفهم باستخدام niet؟",
+          "هل طلبت التكرار بصيغة مهذبة؟"
+        ]
+      }
+    ]
+  }
+]

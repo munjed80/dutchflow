@@ -11,8 +11,6 @@ test("eight original reading units contain vocabulary, grammar and evidenced com
   assert.equal(readings.reduce((sum, reading) => sum + reading.vocabulary.length, 0), 40);
   assert.equal(readings.reduce((sum, reading) => sum + reading.questions.length, 0), 24);
   assert.equal(new Set(readings.map((reading) => reading.text)).size, 8);
-  assert.equal(lessons.length, 20);
-  assert.equal(lessons.flatMap((lesson) => lesson.phrases).length, 101);
 });
 
 test("reading validation rejects broken evidence, grammar examples and vocabulary references", () => {

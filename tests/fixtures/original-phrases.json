@@ -1,0 +1,143 @@
+{
+  "introductions": {
+    "a1-intro-01": "Goedemorgen!",
+    "a1-intro-02": "Hoe heet u?",
+    "a1-intro-03": "Ik heet Sara.",
+    "a1-intro-04": "Hoe gaat het met u?",
+    "a1-intro-05": "Met mij gaat het goed, dank u."
+  },
+  "personal-details": {
+    "a1-personal-details-01": "Waar komt u vandaan?",
+    "a1-personal-details-02": "Ik kom uit Syrië.",
+    "a1-personal-details-03": "Waar woont u?",
+    "a1-personal-details-04": "Ik woon in Alkmaar.",
+    "a1-personal-details-05": "Ik spreek een beetje Nederlands."
+  },
+  "numbers-and-age": {
+    "a1-numbers-and-age-01": "Hoe oud bent u?",
+    "a1-numbers-and-age-02": "Ik ben dertig jaar.",
+    "a1-numbers-and-age-03": "Mijn zoon is tien jaar.",
+    "a1-numbers-and-age-04": "Mijn dochter is acht jaar.",
+    "a1-numbers-and-age-05": "Eén, twee, drie, vier, vijf."
+  },
+  "time-and-days": {
+    "a1-time-and-days-01": "Hoe laat is het?",
+    "a1-time-and-days-02": "Het is half negen.",
+    "a1-time-and-days-03": "Ik begin om negen uur.",
+    "a1-time-and-days-04": "Vandaag is het maandag.",
+    "a1-time-and-days-05": "Morgen werk ik niet."
+  },
+  "daily-routine": {
+    "a1-daily-routine-01": "Hoe ziet uw dag eruit?",
+    "a1-daily-routine-02": "Ik sta om zeven uur op.",
+    "a1-daily-routine-03": "Daarna ontbijt ik.",
+    "a1-daily-routine-04": "Ik ga met de fiets naar mijn werk.",
+    "a1-daily-routine-05": "Om zes uur eet ik.",
+    "a1-daily-routine-06": "Ik ga om tien uur naar bed."
+  },
+  "at-the-shop": {
+    "a1-shop-01": "Waar kan ik melk vinden?",
+    "a1-shop-02": "Hoeveel kost dit?",
+    "a1-shop-03": "Dat kost twee euro vijftig.",
+    "a1-shop-04": "Kan ik met pin betalen?",
+    "a1-shop-05": "Wilt u een bonnetje?"
+  },
+  "cafe-order": {
+    "a1-cafe-order-01": "Ik wil graag koffie.",
+    "a1-cafe-order-02": "Met melk of zonder melk?",
+    "a1-cafe-order-03": "Zonder melk, alstublieft.",
+    "a1-cafe-order-04": "Mag ik de rekening?",
+    "a1-cafe-order-05": "Dat is alles, dank u."
+  },
+  "directions": {
+    "a1-directions-01": "Waar is het station?",
+    "a1-directions-02": "Ga rechtdoor.",
+    "a1-directions-03": "Sla linksaf bij de supermarkt.",
+    "a1-directions-04": "Daarna gaat u rechtsaf.",
+    "a1-directions-05": "Het station is naast de bank."
+  },
+  "public-transport": {
+    "a1-public-transport-01": "Gaat deze bus naar het centrum?",
+    "a1-public-transport-02": "Ja, dat klopt.",
+    "a1-public-transport-03": "Waar moet ik uitstappen?",
+    "a1-public-transport-04": "Bij de volgende halte.",
+    "a1-public-transport-05": "Ik reis met de tram."
+  },
+  "train-tickets": {
+    "a1-train-tickets-01": "Ik wil een kaartje naar Utrecht.",
+    "a1-train-tickets-02": "Een enkele reis of een retour?",
+    "a1-train-tickets-03": "Een retour, alstublieft.",
+    "a1-train-tickets-04": "Hoe laat vertrekt de trein?",
+    "a1-train-tickets-05": "De trein vertrekt om tien uur."
+  },
+  "home-and-address": {
+    "a1-home-and-address-01": "Wat is uw adres?",
+    "a1-home-and-address-02": "Ik woon aan de Kerkstraat.",
+    "a1-home-and-address-03": "Op nummer twaalf.",
+    "a1-home-and-address-04": "Het huis heeft twee slaapkamers.",
+    "a1-home-and-address-05": "De keuken is beneden."
+  },
+  "neighbours": {
+    "a1-neighbours-01": "Goedemiddag, ik ben uw nieuwe buurman.",
+    "a1-neighbours-02": "Welkom in de straat!",
+    "a1-neighbours-03": "Woont u hier al lang?",
+    "a1-neighbours-04": "Ja, al vijf jaar.",
+    "a1-neighbours-05": "Fijne dag!"
+  },
+  "repairs-at-home": {
+    "a1-repairs-at-home-01": "De verwarming werkt niet.",
+    "a1-repairs-at-home-02": "Er is geen warm water.",
+    "a1-repairs-at-home-03": "Kunt u iemand sturen?",
+    "a1-repairs-at-home-04": "Wanneer kunt u komen?",
+    "a1-repairs-at-home-05": "Morgen om tien uur."
+  },
+  "workday": {
+    "a1-workday-01": "Hoe laat begint mijn dienst?",
+    "a1-workday-02": "Uw dienst begint om acht uur.",
+    "a1-workday-03": "Waar is de kantine?",
+    "a1-workday-04": "Wanneer hebben we pauze?",
+    "a1-workday-05": "We hebben pauze om twaalf uur."
+  },
+  "school-and-family": {
+    "a1-school-and-family-01": "Mijn dochter gaat naar school.",
+    "a1-school-and-family-02": "Mijn zoon is vandaag ziek.",
+    "a1-school-and-family-03": "Hij blijft thuis.",
+    "a1-school-and-family-04": "Hoe gaat het op school?",
+    "a1-school-and-family-05": "Het gaat goed, dank u."
+  },
+  "doctor-appointment": {
+    "a1-doctor-01": "Ik wil graag een afspraak maken.",
+    "a1-doctor-02": "Ik heb pijn in mijn rug.",
+    "a1-doctor-03": "Sinds wanneer heeft u pijn?",
+    "a1-doctor-04": "Sinds gisteren.",
+    "a1-doctor-05": "Ik gebruik medicijnen."
+  },
+  "pharmacy": {
+    "a1-pharmacy-01": "Ik kom mijn medicijnen ophalen.",
+    "a1-pharmacy-02": "Heeft u een recept?",
+    "a1-pharmacy-03": "Ja, hier is het recept.",
+    "a1-pharmacy-04": "Hoe gebruik ik dit medicijn?",
+    "a1-pharmacy-05": "Kunt u dat voor mij opschrijven?"
+  },
+  "municipal-appointment": {
+    "a1-municipal-appointment-01": "Ik heb een afspraak bij de gemeente.",
+    "a1-municipal-appointment-02": "Hoe laat is uw afspraak?",
+    "a1-municipal-appointment-03": "Om elf uur.",
+    "a1-municipal-appointment-04": "Mag ik uw identiteitsbewijs zien?",
+    "a1-municipal-appointment-05": "Ja, alstublieft."
+  },
+  "phone-calls": {
+    "a1-phone-calls-01": "Goedemiddag, u spreekt met Sara.",
+    "a1-phone-calls-02": "Met wie spreek ik?",
+    "a1-phone-calls-03": "Kunt u wat langzamer spreken?",
+    "a1-phone-calls-04": "Kunt u dat herhalen?",
+    "a1-phone-calls-05": "Ik bel u morgen terug."
+  },
+  "letters-and-messages": {
+    "a1-letters-and-messages-01": "Uw afspraak is op dinsdag.",
+    "a1-letters-and-messages-02": "De afspraak begint om tien uur.",
+    "a1-letters-and-messages-03": "Neem uw identiteitsbewijs mee.",
+    "a1-letters-and-messages-04": "U kunt de afspraak online wijzigen.",
+    "a1-letters-and-messages-05": "Bel ons als u vragen heeft."
+  }
+}

@@ -21,8 +21,8 @@ test("explicit adds and removals are deduplicated, preserve order, and never int
 
 test("review sessions contain up to ten unique known phrases in list order", () => {
   const ids = [...allowed];
-  assert.equal(phrases.length, 101);
+  assert.equal(phrases.length, 125);
   assert.deepEqual(buildReviewSession(["unknown", ids[0], ids[0], ...ids.slice(1)], phrases).map((phrase) => phrase.id), ids.slice(0, 10));
   assert.deepEqual(buildReviewSession([], phrases), []);
-  assert.equal(buildReviewSession([ids[99]], phrases)[0].lessonSlug, lessons.at(-1).slug);
+  assert.equal(buildReviewSession([ids.at(-2)], phrases)[0].lessonSlug, lessons.at(-1).slug);
 });

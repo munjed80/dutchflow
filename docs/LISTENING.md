@@ -2,7 +2,7 @@
 
 ## Learning flow
 
-Each lesson links to `/learn/[slug]/listening`. All 20 lesson routes reuse their existing phrase IDs and Dutch/Arabic content, covering 101 phrases in total. Each round plays one phrase and offers three distinct Arabic meanings from the same lesson. The learner explicitly checks an answer before moving on. Correct meanings, the Dutch transcript, and the existing phrase tip appear after checking.
+Each lesson links to `/learn/[slug]/listening`. All 23 lesson routes reuse their existing phrase IDs and Dutch/Arabic content, covering 125 phrases in total. Each round plays one phrase and offers three distinct Arabic meanings from the same lesson. The learner explicitly checks an answer before moving on. Correct meanings, the Dutch transcript, and the existing phrase tip appear after checking.
 
 Before checking, the Dutch sentence is absent from visible content and accessible play-button labels. This is a free client-side practice tool; the underlying phrase remains in client data and is not an exam secret. Choice order is deterministic, and repeating the same round may benefit from memory.
 
@@ -36,3 +36,5 @@ The exercise reuses known phrases and is not a validated listening assessment, p
 `npm test` validates every phrase's three-choice round and separates assisted results, then checks playback lifecycle events with media/speech doubles. Playwright exercises completion gating, stop/replay/error, missing Dutch voices, route cleanup, summaries, restart, mobile overflow, and all lesson listening routes. Existing lesson/account/placement tests continue to run.
 
 Automated speech/media doubles validate UI and event handling only. They do not verify actual Dutch pronunciation, speaker quality, volume, browser speech permissions, or physical-device playback. Listen to generated assets and test target phones before public launch.
+
+Playback controls remain disabled in server-rendered HTML until their client component mounts. The browser suite holds JavaScript loading to verify this boundary before testing missing-voice feedback, so an early click cannot be silently lost.

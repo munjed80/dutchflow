@@ -89,11 +89,18 @@ test("stop, replay, speech errors, and route changes do not award a listen", asy
   await expect(page.getByRole("radio").first()).toBeDisabled();
 });
 
-test("no Dutch voice offers an accessible text-assisted round without a false listening result", async ({ page }) => {
+test("audio waits for hydration and a missing Dutch voice offers text assistance without a listening result", async ({ page }) => {
   await mockSpeech(page, false);
   await page.setViewportSize({ width: 390, height: 844 });
   const lesson = lessons[1];
-  await page.goto(`/learn/${lesson.slug}/listening`);
+  let releaseScripts!: () => void;
+  const scriptsReady = new Promise<void>((resolve) => { releaseScripts = resolve; });
+  await page.route("**/_next/static/**/*.js", async (route) => { await scriptsReady; await route.continue(); });
+  await page.goto(`/learn/${lesson.slug}/listening`, { waitUntil: "commit" });
+  try {
+    await expect(page.getByRole("button", { name: "استمع إلى الجملة", exact: true })).toBeDisabled();
+    await expect(page.getByRole("button", { name: "استمع ببطء إلى الجملة", exact: true })).toBeDisabled();
+  } finally { releaseScripts(); }
   await page.getByRole("button", { name: "استمع إلى الجملة", exact: true }).click();
   await expect(page.locator(".audio-error")).toContainText("لا يتوفر صوت هولندي");
   await expect(page.getByRole("radio").first()).toBeDisabled();
