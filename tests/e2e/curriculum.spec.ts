@@ -22,11 +22,11 @@ test("the curriculum exposes real resources and distinguishes unfinished goals f
   await expect(page.locator("#leisure-and-plans a")).toHaveCount(0);
 });
 
-test("new lessons expose inflected vocabulary and independent writing that does not award completion", async ({ page }) => {
+test("enriched lessons expose inflected vocabulary and independent writing that does not award completion", async ({ page }) => {
   for (const extension of extensions) {
     const lesson = lessons.find((item) => item.slug === extension.lessonSlug)!;
     await page.goto(`/learn/${lesson.slug}`);
-    await expect(page.locator(".phrase-card")).toHaveCount(8);
+    await expect(page.locator(".phrase-card")).toHaveCount(lesson.phrases.length);
     await expect(page.locator(".lesson-enrichment dt")).toHaveCount(6);
     for (const [index, entry] of extension.vocabulary.entries()) {
       await expect(page.locator(".vocabulary-forms").nth(index)).toHaveText(entry.forms);
@@ -77,5 +77,5 @@ test("mobile production, phrase review, and new lesson completion survive the ex
   await expect(page.locator("input:checked")).toHaveCount(0);
   await page.goto("/progress");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "2");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "23");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", String(lessons.length));
 });

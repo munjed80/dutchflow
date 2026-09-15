@@ -25,13 +25,21 @@ This table is a development plan. It does not claim that every listed language p
 
 ## Coverage at this release
 
-- 23 lessons, 125 reusable phrases and 72 lesson questions; eight separate readings with 24 comprehension questions.
+- 25 lessons, 141 reusable phrases and 80 lesson questions; nine separate readings with 28 comprehension questions.
 - Every lesson and reading is mapped. Units with resources display **partial coverage**; the leisure unit has no linked resources yet and displays **planned**. No unit displays complete or a mastery percentage.
 - New foundation lessons: `spelling-your-name`, `contact-details`, `asking-for-clarification`. Each has eight phrases, a contextual dialogue, a grammar note, four questions, six vocabulary/form notes and two self-review production tasks.
-- `src/data/lesson-extensions.json` holds the 18 vocabulary notes and six production tasks. Nouns include an article and plural; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is the first set of lexical notes, not a complete searchable dictionary.
-- The 24 new phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 23 lessons.
-- The two production tasks per new lesson offer a temporary text area, hidden model answer, Arabic meaning and review questions. Learners reuse structures with fictional details or combine known expressions. Multiple answers may be valid; there is no automatic judgment, score, mastery claim or completion write. Reload or route navigation resets answers. These tasks are separate from exact lesson-wording recall at `/writing` and do not record speech.
+- `src/data/lesson-extensions.json` holds 42 vocabulary notes and 14 production tasks across seven lessons. Nouns include an article and plural; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is the first set of lexical notes, not a complete searchable dictionary.
+- The foundation release added 24 phrase IDs; the numbers/time release adds another 16. New phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 25 lessons.
+- The two production tasks per enriched lesson offer a temporary text area, hidden model answer, Arabic meaning and review questions. Learners reuse structures with fictional details or combine known expressions. Multiple answers may be valid; there is no automatic judgment, score, mastery claim or completion write. Reload or route navigation resets answers. These tasks are separate from exact lesson-wording recall at `/writing` and do not record speech.
 - Listening still uses device TTS when MP3s are absent; connected listening passages, spoken interaction and assessed pronunciation remain missing. Spelling text does not constitute an alphabet pronunciation course. Have an editor listen especially to spelled letters, numbers and postcodes before publishing audio.
+
+## Numbers and time expansion
+
+`dates-and-calendar` introduces calendar dates, month names in lowercase, `op` with a particular date and `in` with a month. `weekly-routine` contrasts frequency (`hoe vaak`) with clock time (`hoe laat`), quarter-past/quarter-to expressions and subject/verb order after a time phrase. Each has eight phrases, four questions, six lexical notes and two self-review tasks. The existing numbers/age and time/day lessons each gain six notes and two tasks; their spoken phrases and IDs remain unchanged.
+
+The original reading `a-week-of-language-lessons` requires learners to combine a start date, two weekly class days, morning start/end times and different activities after class. Four questions distinguish a 90-minute lesson from 30 minutes of separate practice. A dedicated browser test exercises the fourth required answer and regrading of the duration answer. This is guided reading, not a listening assessment.
+
+The lexical notes explicitly distinguish singular forms used in quantities (`dertig jaar`, `negen uur`, `twee keer`) from the dictionary plurals. Productive tasks change people, numbers, dates or times instead of treating exact recall as the only valid answer. Number and month coverage remains partial, and no claim of complete unit mastery is made.
 
 ## Definition of readiness for each unit
 
@@ -56,4 +64,4 @@ The map and vocabulary render on the server. Only the current lesson's productio
 
 ## Next delivery
 
-Review the foundation content and validate recorded alphabet/phrase audio. Then expand numbers/time and family vocabulary with connected listening and additional written tasks. Use the readiness gates above to deepen each unit before adding A2 labels or opening paid examinations.
+Review the foundation content and validate recorded alphabet/phrase audio. Continue expanding number/month breadth, connected listening and oral scheduling tasks; then extend family vocabulary. Use the readiness gates above to deepen each unit before adding A2 labels or opening paid examinations.

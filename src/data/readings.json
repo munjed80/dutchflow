@@ -668,5 +668,108 @@
         "explanation": "التوجيه هو سؤال بيتر. سميرة غائبة اليوم، ولا يذكر النص سبب غيابها."
       }
     ]
+  },
+  {
+    "slug": "a-week-of-language-lessons",
+    "title": "أسبوع في دورة اللغة",
+    "dutchTitle": "De lesweek van Nour",
+    "topic": "التقويم والبرنامج الأسبوعي",
+    "sourceLessons": [
+      "numbers-and-age",
+      "time-and-days",
+      "daily-routine",
+      "dates-and-calendar",
+      "weekly-routine"
+    ],
+    "text": "Nour volgt vanaf negen april een cursus Nederlands. Ze heeft twee keer per week les: op maandag en donderdag. De lessen beginnen 's ochtends om kwart over negen en zijn om kwart voor elf afgelopen. Op maandag gaat Nour na de les naar haar werk. Op donderdag oefent ze na de les een halfuur in de bibliotheek. Ze schrijft nieuwe woorden in een schrift en leest ze thuis nog eens. Op zondag heeft ze geen les. Dan bekijkt ze haar agenda voor de volgende week.",
+    "translation": "تتابع نور دورة في الهولندية ابتداءً من التاسع من أبريل. لديها درس مرتين في الأسبوع: يومي الاثنين والخميس. تبدأ الدروس صباحاً في التاسعة والربع وتنتهي في الحادية عشرة إلا ربعاً. يوم الاثنين تذهب نور بعد الدرس إلى عملها. ويوم الخميس تتدرّب بعد الدرس نصف ساعة في المكتبة. تكتب كلمات جديدة في دفتر وتقرؤها في المنزل مرة أخرى. ليس لديها درس يوم الأحد. عندئذ تراجع مفكرتها للأسبوع التالي.",
+    "vocabulary": [
+      {
+        "term": "vanaf negen april",
+        "excerpt": "vanaf negen april",
+        "meaning": "ابتداءً من التاسع من أبريل؛ vanaf يحدد نقطة البداية."
+      },
+      {
+        "term": "twee keer per week",
+        "excerpt": "twee keer per week",
+        "meaning": "مرتين في الأسبوع؛ تعبير عن تكرار النشاط."
+      },
+      {
+        "term": "kwart over negen",
+        "excerpt": "kwart over negen",
+        "meaning": "التاسعة والربع: 09:15 في برنامج هذا النص."
+      },
+      {
+        "term": "kwart voor elf",
+        "excerpt": "kwart voor elf",
+        "meaning": "الحادية عشرة إلا ربعاً: 10:45؛ ربع ساعة قبل الساعة المذكورة."
+      },
+      {
+        "term": "een halfuur",
+        "excerpt": "een halfuur",
+        "meaning": "نصف ساعة، أي ثلاثون دقيقة؛ مدة وليست وقتاً على الساعة."
+      },
+      {
+        "term": "het schrift",
+        "excerpt": "schrift",
+        "meaning": "الدفتر الذي تكتب فيه نور الكلمات؛ جمعه de schriften."
+      }
+    ],
+    "grammar": {
+      "title": "ترتيب الجملة بعد تحديد اليوم",
+      "example": "Op donderdag oefent ze na de les een halfuur in de bibliotheek.",
+      "translation": "يوم الخميس تتدرّب بعد الدرس نصف ساعة في المكتبة.",
+      "explanation": "Op donderdag عبارة واحدة تحدد اليوم وتشغل الموقع الأول. يليها الفعل oefent ثم الفاعل ze. يمكن أيضاً البدء بالفاعل: Ze oefent op donderdag na de les een halfuur in de bibliotheek."
+    },
+    "questions": [
+      {
+        "id": "reading-lesweek-1",
+        "prompt": "ابتداءً من أي تاريخ تتابع نور الدورة؟",
+        "options": [
+          "2 أبريل",
+          "9 مارس",
+          "9 أبريل"
+        ],
+        "correctIndex": 2,
+        "evidence": "Nour volgt vanaf negen april een cursus Nederlands.",
+        "explanation": "negen تعني تسعة وapril هو أبريل. vanaf يحدد تاريخ البداية."
+      },
+      {
+        "id": "reading-lesweek-2",
+        "prompt": "كم مرة لديها درس في الأسبوع؟",
+        "options": [
+          "مرتان",
+          "أربع مرات",
+          "كل يوم"
+        ],
+        "correctIndex": 0,
+        "evidence": "Ze heeft twee keer per week les: op maandag en donderdag.",
+        "explanation": "twee keer per week تعني مرتين أسبوعياً؛ اليومان هما الاثنين والخميس."
+      },
+      {
+        "id": "reading-lesweek-3",
+        "prompt": "كم تستغرق الحصة وفق وقتي البداية والنهاية في النص؟",
+        "options": [
+          "نصف ساعة",
+          "ساعة ونصف",
+          "ساعتان"
+        ],
+        "correctIndex": 1,
+        "evidence": "De lessen beginnen 's ochtends om kwart over negen en zijn om kwart voor elf afgelopen.",
+        "explanation": "البداية 09:15 والنهاية 10:45: ساعة حتى 10:15 ثم نصف ساعة، أي 90 دقيقة. نصف الساعة المذكور لاحقاً يخص التدريب في المكتبة."
+      },
+      {
+        "id": "reading-lesweek-4",
+        "prompt": "ماذا تفعل نور بعد درس الخميس؟",
+        "options": [
+          "تذهب مباشرةً إلى عملها",
+          "تراجع مفكرتها فقط",
+          "تتدرّب نصف ساعة في المكتبة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Op donderdag oefent ze na de les een halfuur in de bibliotheek.",
+        "explanation": "الخميس مخصص هنا للتدريب في المكتبة؛ الذهاب إلى العمل ورد بعد درس الاثنين، ومراجعة المفكرة يوم الأحد."
+      }
+    ]
   }
 ]
