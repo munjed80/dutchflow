@@ -1,0 +1,672 @@
+[
+  {
+    "slug": "a-new-neighbour",
+    "title": "رسالة من جارة جديدة",
+    "dutchTitle": "Een nieuwe buurvrouw",
+    "topic": "التعارف والسكن",
+    "sourceLessons": [
+      "introductions",
+      "personal-details",
+      "home-and-address",
+      "neighbours"
+    ],
+    "text": "Hallo, ik ben Lina, jullie nieuwe buurvrouw. Ik woon sinds maandag op nummer 18. Mijn dochter Noor is acht jaar. We komen uit Syrië en spreken thuis Arabisch. Ik leer nu Nederlands. Zaterdag ben ik thuis. Heb je tijd voor een kopje koffie? Je bent welkom om drie uur.",
+    "translation": "مرحباً، أنا لينا، جارتكم الجديدة. أسكن في المنزل رقم 18 منذ يوم الاثنين. ابنتي نور عمرها ثماني سنوات. نحن من سوريا ونتحدث العربية في المنزل. أتعلّم الهولندية الآن. سأكون في المنزل يوم السبت. هل لديك وقت لفنجان قهوة؟ أهلاً بك في الساعة الثالثة.",
+    "vocabulary": [
+      {
+        "term": "de buurvrouw",
+        "excerpt": "buurvrouw",
+        "meaning": "الجارة؛ وللجار الرجل نقول de buurman."
+      },
+      {
+        "term": "sinds maandag",
+        "excerpt": "sinds maandag",
+        "meaning": "منذ يوم الاثنين؛ تحدد بداية أمر ما زال مستمراً."
+      },
+      {
+        "term": "mijn dochter",
+        "excerpt": "Mijn dochter",
+        "meaning": "ابنتي؛ mijn تعني هنا «ـي» الدالة على الملكية."
+      },
+      {
+        "term": "thuis",
+        "excerpt": "thuis",
+        "meaning": "في المنزل؛ لا نحتاج إلى حرف جر قبلها في هذه الجملة."
+      },
+      {
+        "term": "een kopje koffie",
+        "excerpt": "een kopje koffie",
+        "meaning": "فنجان قهوة؛ kopje صيغة تصغير من kop."
+      }
+    ],
+    "grammar": {
+      "title": "mijn: التعبير عن الملكية",
+      "example": "Mijn dochter Noor is acht jaar.",
+      "translation": "ابنتي نور عمرها ثماني سنوات.",
+      "explanation": "نضع mijn قبل الاسم للتعبير عن ملكية المتكلم أو علاقته به: mijn dochter تعني ابنتي. لا نضيف de قبل mijn؛ فنقول mijn dochter، لا de mijn dochter."
+    },
+    "questions": [
+      {
+        "id": "reading-neighbour-1",
+        "prompt": "منذ متى تسكن لينا في المنزل رقم 18؟",
+        "options": [
+          "منذ يوم السبت",
+          "منذ يوم الاثنين",
+          "منذ ثماني سنوات"
+        ],
+        "correctIndex": 1,
+        "evidence": "Ik woon sinds maandag op nummer 18.",
+        "explanation": "sinds maandag تعني منذ يوم الاثنين. أما السبت فهو يوم دعوتها لشرب القهوة."
+      },
+      {
+        "id": "reading-neighbour-2",
+        "prompt": "كم عمر نور؟",
+        "options": [
+          "ثماني سنوات",
+          "ثلاث سنوات",
+          "ثماني عشرة سنة"
+        ],
+        "correctIndex": 0,
+        "evidence": "Mijn dochter Noor is acht jaar.",
+        "explanation": "acht تعني ثمانية. الرقم 18 في النص هو رقم المنزل، وليس العمر."
+      },
+      {
+        "id": "reading-neighbour-3",
+        "prompt": "متى تدعو لينا جارها أو جارتها لشرب القهوة؟",
+        "options": [
+          "الاثنين الساعة الثالثة",
+          "السبت الساعة الثامنة",
+          "السبت الساعة الثالثة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Zaterdag ben ik thuis. Heb je tijd voor een kopje koffie? Je bent welkom om drie uur.",
+        "explanation": "اليوم هو zaterdag، السبت، والوقت om drie uur، الساعة الثالثة."
+      }
+    ]
+  },
+  {
+    "slug": "a-morning-routine",
+    "title": "صباح سامر قبل العمل",
+    "dutchTitle": "De ochtend van Samer",
+    "topic": "الوقت والحياة اليومية",
+    "sourceLessons": [
+      "numbers-and-age",
+      "time-and-days",
+      "daily-routine"
+    ],
+    "text": "Samer staat op werkdagen om zeven uur op. Eerst drinkt hij water en eet hij een boterham. Om kwart voor acht brengt hij zijn zoon naar school. Daarna fietst hij naar zijn werk. Hij begint om half negen. De fietstocht duurt twintig minuten. Op zondag slaapt hij langer en ontbijt hij samen met zijn gezin.",
+    "translation": "يستيقظ سامر في أيام العمل الساعة السابعة. يشرب الماء أولاً ويأكل شريحة خبز. في الثامنة إلا ربعاً يوصل ابنه إلى المدرسة. بعد ذلك يذهب إلى عمله بالدراجة. يبدأ العمل في الثامنة والنصف. تستغرق رحلة الدراجة عشرين دقيقة. يوم الأحد ينام مدة أطول ويتناول الإفطار مع أسرته.",
+    "vocabulary": [
+      {
+        "term": "op werkdagen",
+        "excerpt": "op werkdagen",
+        "meaning": "في أيام العمل؛ werkdag تعني يوم عمل."
+      },
+      {
+        "term": "eerst",
+        "excerpt": "Eerst",
+        "meaning": "أولاً؛ تُستخدم لترتيب الأحداث."
+      },
+      {
+        "term": "kwart voor acht",
+        "excerpt": "kwart voor acht",
+        "meaning": "الثامنة إلا ربعاً، أي 07:45 في هذا النص الصباحي."
+      },
+      {
+        "term": "half negen",
+        "excerpt": "half negen",
+        "meaning": "الثامنة والنصف، أي 08:30 هنا؛ نصف ساعة قبل التاسعة."
+      },
+      {
+        "term": "het gezin",
+        "excerpt": "gezin",
+        "meaning": "الأسرة، ويُقصد هنا سامر وأفراد أسرته في المنزل."
+      }
+    ],
+    "grammar": {
+      "title": "البدء بظرف: الفعل قبل الفاعل",
+      "example": "Daarna fietst hij naar zijn werk.",
+      "translation": "بعد ذلك يذهب إلى عمله بالدراجة.",
+      "explanation": "في هذه الجملة الخبرية تأتي Daarna أولاً، ثم الفعل المصرف fietst، ثم الفاعل hij. يمكن أيضاً أن نبدأ بالفاعل فنقول: Hij fietst daarna naar zijn werk. ترتيب الفعل يتبع موقعه الثاني في الجملة الرئيسية."
+    },
+    "questions": [
+      {
+        "id": "reading-morning-1",
+        "prompt": "متى يوصل سامر ابنه إلى المدرسة؟",
+        "options": [
+          "07:45",
+          "08:15",
+          "08:30"
+        ],
+        "correctIndex": 0,
+        "evidence": "Om kwart voor acht brengt hij zijn zoon naar school.",
+        "explanation": "kwart تعني ربع ساعة وvoor تعني قبل؛ لذلك kwart voor acht هي 07:45."
+      },
+      {
+        "id": "reading-morning-2",
+        "prompt": "متى يبدأ عمله؟",
+        "options": [
+          "09:30",
+          "07:30",
+          "08:30"
+        ],
+        "correctIndex": 2,
+        "evidence": "Hij begint om half negen.",
+        "explanation": "half negen تعني الثامنة والنصف، وليست التاسعة والنصف."
+      },
+      {
+        "id": "reading-morning-3",
+        "prompt": "كيف يصل إلى العمل؟",
+        "options": [
+          "بالقطار",
+          "بالدراجة",
+          "بالحافلة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Daarna fietst hij naar zijn werk.",
+        "explanation": "الفعل fietsen يعني ركوب الدراجة؛ fietst هي صيغته مع hij."
+      }
+    ]
+  },
+  {
+    "slug": "shopping-for-lunch",
+    "title": "مشتريات الغداء",
+    "dutchTitle": "Boodschappen voor de lunch",
+    "topic": "التسوّق والطعام",
+    "sourceLessons": [
+      "at-the-shop",
+      "cafe-order"
+    ],
+    "text": "Nadia gaat naar de supermarkt. Ze koopt brood, kaas en vier tomaten voor de lunch. Ze heeft al melk in huis en koopt daarom geen melk. Bij de kassa betaalt ze met haar pinpas. Ze heeft een eigen tas bij zich. Na het boodschappen doen drinkt ze thee in het café naast de supermarkt.",
+    "translation": "تذهب نادية إلى السوبرماركت. تشتري خبزاً وجبناً وأربع حبات طماطم للغداء. لديها حليب في المنزل بالفعل، ولذلك لا تشتري حليباً. تدفع عند الصندوق ببطاقتها البنكية. تحمل معها حقيبتها الخاصة. بعد التسوّق تشرب الشاي في المقهى المجاور للسوبرماركت.",
+    "vocabulary": [
+      {
+        "term": "boodschappen doen",
+        "excerpt": "boodschappen doen",
+        "meaning": "التسوّق لشراء الاحتياجات اليومية، مثل الطعام."
+      },
+      {
+        "term": "al",
+        "excerpt": "al melk",
+        "meaning": "بالفعل؛ لديها الحليب قبل هذه الزيارة إلى المتجر."
+      },
+      {
+        "term": "de kassa",
+        "excerpt": "kassa",
+        "meaning": "صندوق الدفع أو المكان الذي تدفع عنده في المتجر."
+      },
+      {
+        "term": "de pinpas",
+        "excerpt": "pinpas",
+        "meaning": "بطاقة الدفع البنكية؛ المقصود هنا بطاقة الخصم المباشر."
+      },
+      {
+        "term": "een eigen tas",
+        "excerpt": "een eigen tas",
+        "meaning": "حقيبة خاصة بها، أحضرتها معها."
+      }
+    ],
+    "grammar": {
+      "title": "geen مع اسم غير محدد",
+      "example": "Ze heeft al melk in huis en koopt daarom geen melk.",
+      "translation": "لديها حليب في المنزل بالفعل، ولذلك لا تشتري حليباً.",
+      "explanation": "نستخدم geen هنا لنفي الاسم melk، وهو اسم مادة غير محدد بأداة تعريف. في الإثبات نقول Ze koopt melk، وفي النفي Ze koopt geen melk. لا نستبدل كل نفي هولندي بـgeen؛ فهي مرتبطة بالاسم في هذا المثال."
+    },
+    "questions": [
+      {
+        "id": "reading-shopping-1",
+        "prompt": "لماذا لا تشتري نادية حليباً؟",
+        "options": [
+          "لأن المتجر مغلق",
+          "لأن لديها حليباً في المنزل",
+          "لأنها لا تحمل بطاقة الدفع"
+        ],
+        "correctIndex": 1,
+        "evidence": "Ze heeft al melk in huis en koopt daarom geen melk.",
+        "explanation": "al melk in huis توضح أن الحليب موجود في المنزل بالفعل، وdaarom تربط ذلك بالنتيجة."
+      },
+      {
+        "id": "reading-shopping-2",
+        "prompt": "كيف تدفع ثمن المشتريات؟",
+        "options": [
+          "نقداً",
+          "عن طريق صديقة",
+          "ببطاقتها البنكية"
+        ],
+        "correctIndex": 2,
+        "evidence": "Bij de kassa betaalt ze met haar pinpas.",
+        "explanation": "met haar pinpas تعني باستخدام بطاقتها البنكية."
+      },
+      {
+        "id": "reading-shopping-3",
+        "prompt": "ماذا تشرب بعد التسوّق؟",
+        "options": [
+          "الشاي",
+          "القهوة",
+          "الحليب"
+        ],
+        "correctIndex": 0,
+        "evidence": "Na het boodschappen doen drinkt ze thee in het café naast de supermarkt.",
+        "explanation": "thee تعني الشاي. وجود الحليب في المنزل لا يعني أنها تشربه في المقهى."
+      }
+    ]
+  },
+  {
+    "slug": "a-different-bus-stop",
+    "title": "تغيير موقف الحافلة",
+    "dutchTitle": "Een andere bushalte",
+    "topic": "المواصلات والطريق",
+    "sourceLessons": [
+      "directions",
+      "public-transport",
+      "train-tickets"
+    ],
+    "text": "Omar wil met de bus naar het station reizen. Bij zijn vaste halte hangt een briefje: de bus stopt hier vandaag niet. De tijdelijke halte is bij de bibliotheek, tweehonderd meter verder. Omar loopt rechtdoor en gaat bij de bakker linksaf. Daar ziet hij de halte. De volgende bus vertrekt om tien uur.",
+    "translation": "يريد عمر السفر بالحافلة إلى المحطة. توجد ورقة معلّقة عند موقفه المعتاد تقول إن الحافلة لا تتوقف هنا اليوم. الموقف المؤقت عند المكتبة، على بُعد مئتي متر. يمشي عمر إلى الأمام ثم ينعطف يساراً عند المخبز. يرى الموقف هناك. تغادر الحافلة التالية الساعة العاشرة.",
+    "vocabulary": [
+      {
+        "term": "de halte",
+        "excerpt": "halte",
+        "meaning": "موقف الحافلة أو الترام؛ station تُستخدم هنا للمحطة التي يريد الوصول إليها."
+      },
+      {
+        "term": "tijdelijk",
+        "excerpt": "tijdelijke",
+        "meaning": "مؤقت؛ ظهرت في النص بصيغة tijdelijke قبل الاسم."
+      },
+      {
+        "term": "de bibliotheek",
+        "excerpt": "bibliotheek",
+        "meaning": "المكتبة التي تُستعار منها الكتب؛ ليست متجر بيع الكتب."
+      },
+      {
+        "term": "rechtdoor",
+        "excerpt": "rechtdoor",
+        "meaning": "إلى الأمام مباشرةً، دون انعطاف."
+      },
+      {
+        "term": "linksaf",
+        "excerpt": "linksaf",
+        "meaning": "إلى اليسار عند الانعطاف."
+      }
+    ],
+    "grammar": {
+      "title": "willen مع فعل في المصدر",
+      "example": "Omar wil met de bus naar het station reizen.",
+      "translation": "يريد عمر السفر بالحافلة إلى المحطة.",
+      "explanation": "wil هي صيغة willen المصرفة مع Omar. الفعل الآخر reizen يبقى في المصدر ويأتي في نهاية هذه الجملة. لا نضيف te بين wil وreizen في هذا التركيب."
+    },
+    "questions": [
+      {
+        "id": "reading-bus-1",
+        "prompt": "لماذا لا ينتظر عمر عند موقفه المعتاد؟",
+        "options": [
+          "لأن الحافلة لا تتوقف هناك اليوم",
+          "لأنه يريد الذهاب إلى المخبز",
+          "لأن المحطة مغلقة"
+        ],
+        "correctIndex": 0,
+        "evidence": "de bus stopt hier vandaag niet.",
+        "explanation": "vandaag niet تعني ليس اليوم؛ الورقة تتحدث عن توقف الحافلة عند هذا الموقف."
+      },
+      {
+        "id": "reading-bus-2",
+        "prompt": "أين يقع الموقف المؤقت؟",
+        "options": [
+          "داخل المحطة",
+          "أمام منزل عمر",
+          "عند المكتبة"
+        ],
+        "correctIndex": 2,
+        "evidence": "De tijdelijke halte is bij de bibliotheek, tweehonderd meter verder.",
+        "explanation": "bij de bibliotheek تعني عند المكتبة. المخبز علامة يستخدمها عمر لمعرفة مكان الانعطاف."
+      },
+      {
+        "id": "reading-bus-3",
+        "prompt": "في أي اتجاه ينعطف عمر عند المخبز؟",
+        "options": [
+          "يميناً",
+          "يساراً",
+          "يعود إلى الخلف"
+        ],
+        "correctIndex": 1,
+        "evidence": "Omar loopt rechtdoor en gaat bij de bakker linksaf.",
+        "explanation": "linksaf تعني الانعطاف إلى اليسار؛ أما rechtdoor فتصف مشيه قبل الانعطاف."
+      }
+    ]
+  },
+  {
+    "slug": "a-changed-appointment",
+    "title": "رسالة تغيير موعد",
+    "dutchTitle": "Uw afspraak is verplaatst",
+    "topic": "المواعيد والرسائل",
+    "sourceLessons": [
+      "doctor-appointment",
+      "municipal-appointment",
+      "letters-and-messages"
+    ],
+    "text": "Beste meneer Ali, uw afspraak bij de huisarts is verplaatst. U kunt donderdag om 11.15 uur komen in plaats van woensdag om 09.00 uur. Het adres blijft hetzelfde. Neem uw identiteitsbewijs mee. Kunt u donderdag niet komen? Bel dan de praktijk om een andere afspraak te maken. Met vriendelijke groet, de assistente.",
+    "translation": "السيد علي المحترم، تم تغيير موعدك عند طبيب الأسرة. يمكنك الحضور يوم الخميس الساعة 11:15 بدلاً من الأربعاء الساعة 09:00. العنوان لم يتغير. أحضر معك وثيقة إثبات هويتك. هل يتعذر عليك الحضور يوم الخميس؟ اتصل عندئذ بالعيادة لترتيب موعد آخر. مع التحية، مساعدة الطبيب.",
+    "vocabulary": [
+      {
+        "term": "is verplaatst",
+        "excerpt": "is verplaatst",
+        "meaning": "تم نقله أو تغيير موعده؛ المقصود هنا تغيير وقت الموعد."
+      },
+      {
+        "term": "in plaats van",
+        "excerpt": "in plaats van",
+        "meaning": "بدلاً من؛ يأتي بعدها الوقت القديم في هذه الرسالة."
+      },
+      {
+        "term": "hetzelfde",
+        "excerpt": "hetzelfde",
+        "meaning": "نفسه؛ العنوان باقٍ دون تغيير."
+      },
+      {
+        "term": "het identiteitsbewijs",
+        "excerpt": "identiteitsbewijs",
+        "meaning": "وثيقة إثبات الهوية."
+      },
+      {
+        "term": "de praktijk",
+        "excerpt": "praktijk",
+        "meaning": "العيادة في هذا السياق؛ للكلمة معانٍ أخرى بحسب استخدامها."
+      }
+    ],
+    "grammar": {
+      "title": "meenemen: فعل قابل للانفصال",
+      "example": "Neem uw identiteitsbewijs mee.",
+      "translation": "أحضر معك وثيقة إثبات هويتك.",
+      "explanation": "الفعل meenemen يعني أن تأخذ شيئاً معك. في صيغة الطلب هنا يأتي Neem أولاً، وتنفصل mee لتأتي في نهاية الجملة. uw تعني «الخاص بك» بصيغة رسمية أمام identiteitsbewijs."
+    },
+    "questions": [
+      {
+        "id": "reading-appointment-1",
+        "prompt": "ما الموعد الجديد في الرسالة؟",
+        "options": [
+          "الأربعاء 09:00",
+          "الخميس 11:15",
+          "الخميس 09:00"
+        ],
+        "correctIndex": 1,
+        "evidence": "U kunt donderdag om 11.15 uur komen in plaats van woensdag om 09.00 uur.",
+        "explanation": "الوقت الجديد يسبق in plaats van. ما بعدها هو الموعد الذي تم استبداله."
+      },
+      {
+        "id": "reading-appointment-2",
+        "prompt": "هل تغيّر عنوان العيادة؟",
+        "options": [
+          "نعم، أصبحت عند المحطة",
+          "لم تذكر الرسالة العنوان إطلاقاً",
+          "لا، بقي العنوان نفسه"
+        ],
+        "correctIndex": 2,
+        "evidence": "Het adres blijft hetzelfde.",
+        "explanation": "blijft hetzelfde تعني يبقى كما هو؛ الذي تغيّر هو الموعد."
+      },
+      {
+        "id": "reading-appointment-3",
+        "prompt": "ماذا يفعل علي إذا لم يستطع الحضور يوم الخميس؟",
+        "options": [
+          "يتصل بالعيادة لترتيب موعد آخر",
+          "يحضر يوم الأربعاء دون اتصال",
+          "يرسل وثيقة هويته بالبريد"
+        ],
+        "correctIndex": 0,
+        "evidence": "Kunt u donderdag niet komen? Bel dan de praktijk om een andere afspraak te maken.",
+        "explanation": "Bel هي صيغة الطلب من bellen: اتصل. والهدف هو ترتيب موعد آخر."
+      }
+    ]
+  },
+  {
+    "slug": "a-school-trip",
+    "title": "رسالة رحلة مدرسية",
+    "dutchTitle": "Een bericht van school",
+    "topic": "المدرسة والأسرة",
+    "sourceLessons": [
+      "school-and-family",
+      "time-and-days"
+    ],
+    "text": "Beste ouders, vrijdag gaat onze klas naar de kinderboerderij. We vertrekken om half tien vanaf school. De kinderen nemen een fles water en een lunchpakket mee. Een jas is ook nodig, want we zijn de hele ochtend buiten. Om twee uur zijn we terug op school. U kunt uw kind dan op de gewone plek ophalen.",
+    "translation": "أولياء الأمور الأعزاء، سيذهب صفنا يوم الجمعة إلى مزرعة الحيوانات المخصصة للزيارة. ننطلق من المدرسة الساعة التاسعة والنصف. يحضر الأطفال معهم زجاجة ماء ووجبة غداء معبّأة. وتلزم سترة أيضاً، لأننا سنقضي الصباح كله في الخارج. نعود إلى المدرسة الساعة الثانية. يمكنكم حينها اصطحاب أطفالكم من المكان المعتاد.",
+    "vocabulary": [
+      {
+        "term": "de kinderboerderij",
+        "excerpt": "kinderboerderij",
+        "meaning": "مزرعة صغيرة يزورها الأطفال للتعرف إلى حيوانات المزرعة."
+      },
+      {
+        "term": "vertrekken",
+        "excerpt": "vertrekken",
+        "meaning": "ينطلقون أو يغادرون؛ We vertrekken تعني ننطلق."
+      },
+      {
+        "term": "het lunchpakket",
+        "excerpt": "lunchpakket",
+        "meaning": "وجبة غداء معبّأة يأخذها الشخص معه."
+      },
+      {
+        "term": "buiten",
+        "excerpt": "buiten",
+        "meaning": "في الخارج؛ مقابل binnen، في الداخل."
+      },
+      {
+        "term": "ophalen",
+        "excerpt": "ophalen",
+        "meaning": "الذهاب لإحضار شخص أو اصطحابه من مكان؛ هنا اصطحاب الطفل من المدرسة."
+      }
+    ],
+    "grammar": {
+      "title": "want: ربط الجملة بسببها",
+      "example": "Een jas is ook nodig, want we zijn de hele ochtend buiten.",
+      "translation": "تلزم سترة أيضاً، لأننا سنكون في الخارج طوال الصباح.",
+      "explanation": "want تربط الجملة بسببها. بعدها في هذا المثال يأتي الفاعل we ثم الفعل zijn، كما في جملة رئيسية. والعبارة de hele ochtend تعني الصباح كله، وليست اليوم كله."
+    },
+    "questions": [
+      {
+        "id": "reading-school-1",
+        "prompt": "متى تنطلق الرحلة من المدرسة؟",
+        "options": [
+          "الجمعة 09:30",
+          "الجمعة 10:30",
+          "الخميس 09:30"
+        ],
+        "correctIndex": 0,
+        "evidence": "vrijdag gaat onze klas naar de kinderboerderij. We vertrekken om half tien vanaf school.",
+        "explanation": "الرحلة يوم الجمعة، وhalf tien تعني التاسعة والنصف."
+      },
+      {
+        "id": "reading-school-2",
+        "prompt": "لماذا يحتاج الأطفال إلى سترة؟",
+        "options": [
+          "لأنهم سينامون في المزرعة",
+          "لأنهم سيبقون في الخارج طوال الصباح",
+          "لأنهم سيعودون ليلاً"
+        ],
+        "correctIndex": 1,
+        "evidence": "Een jas is ook nodig, want we zijn de hele ochtend buiten.",
+        "explanation": "الجملة بعد want تشرح السبب: قضاء الصباح في الخارج."
+      },
+      {
+        "id": "reading-school-3",
+        "prompt": "أين يصطحب الأهالي أطفالهم بعد العودة؟",
+        "options": [
+          "من محطة القطار",
+          "من المزرعة",
+          "من المكان المعتاد في المدرسة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Om twee uur zijn we terug op school. U kunt uw kind dan op de gewone plek ophalen.",
+        "explanation": "يعود الأطفال إلى المدرسة، ثم يتم اصطحابهم من de gewone plek، المكان المعتاد."
+      }
+    ]
+  },
+  {
+    "slug": "a-repair-request",
+    "title": "طلب إصلاح في المنزل",
+    "dutchTitle": "Een bericht aan de verhuurder",
+    "topic": "السكن والتواصل",
+    "sourceLessons": [
+      "repairs-at-home",
+      "home-and-address",
+      "phone-calls"
+    ],
+    "text": "Beste mevrouw De Vries, de kraan in mijn keuken lekt. Ook onder de gootsteen ligt water. Kunt u een monteur sturen? Ik ben dinsdag en donderdag na vier uur thuis. Op andere dagen werk ik tot zes uur. U kunt mij bellen om een tijd af te spreken. Alvast bedankt voor uw hulp. Met vriendelijke groet, Rami.",
+    "translation": "السيدة دي فريس المحترمة، صنبور مطبخي يسرّب الماء. ويوجد ماء تحت حوض المطبخ أيضاً. هل يمكنك إرسال فني؟ أكون في المنزل يومي الثلاثاء والخميس بعد الساعة الرابعة. أعمل في الأيام الأخرى حتى السادسة. يمكنك الاتصال بي للاتفاق على وقت. شكراً مقدماً على مساعدتك. مع التحية، رامي.",
+    "vocabulary": [
+      {
+        "term": "de kraan",
+        "excerpt": "kraan",
+        "meaning": "صنبور الماء في هذا النص."
+      },
+      {
+        "term": "lekken",
+        "excerpt": "lekt",
+        "meaning": "يسرّب؛ lekt هي صيغة الفعل مع de kraan."
+      },
+      {
+        "term": "de gootsteen",
+        "excerpt": "gootsteen",
+        "meaning": "حوض المطبخ الذي يُستخدم لغسل الأواني."
+      },
+      {
+        "term": "de monteur",
+        "excerpt": "monteur",
+        "meaning": "الفني الذي ينفذ أعمال التركيب أو الإصلاح."
+      },
+      {
+        "term": "alvast bedankt",
+        "excerpt": "Alvast bedankt",
+        "meaning": "شكراً مقدماً؛ عبارة تستخدم لشكر شخص على مساعدة منتظرة."
+      }
+    ],
+    "grammar": {
+      "title": "Kunt u…؟ طلب مهذّب",
+      "example": "Kunt u een monteur sturen?",
+      "translation": "هل يمكنك إرسال فني؟",
+      "explanation": "تبدأ هذه الجملة الاستفهامية بالفعل Kunt، ثم الضمير الرسمي u. ويبقى sturen في المصدر قرب نهاية السؤال. تُستخدم هذه الصيغة هنا لطلب المساعدة بأدب، وليس فقط للسؤال عن القدرة الجسدية."
+    },
+    "questions": [
+      {
+        "id": "reading-repair-1",
+        "prompt": "ما المشكلة التي يذكرها رامي؟",
+        "options": [
+          "الباب لا يُغلق",
+          "التدفئة لا تعمل",
+          "صنبور المطبخ يسرّب الماء"
+        ],
+        "correctIndex": 2,
+        "evidence": "de kraan in mijn keuken lekt.",
+        "explanation": "kraan تعني الصنبور، وlekt تعني يسرّب الماء."
+      },
+      {
+        "id": "reading-repair-2",
+        "prompt": "أي وقت يناسب المعلومات التي أعطاها رامي؟",
+        "options": [
+          "الثلاثاء الساعة الخامسة مساءً",
+          "الخميس الساعة الثانية ظهراً",
+          "الاثنين الساعة الرابعة عصراً"
+        ],
+        "correctIndex": 0,
+        "evidence": "Ik ben dinsdag en donderdag na vier uur thuis. Op andere dagen werk ik tot zes uur.",
+        "explanation": "يكون في المنزل الثلاثاء والخميس بعد الرابعة. الخامسة يوم الثلاثاء تقع ضمن هذا الوقت."
+      },
+      {
+        "id": "reading-repair-3",
+        "prompt": "كيف يقترح رامي الاتفاق على وقت؟",
+        "options": [
+          "بزيارة المدرسة",
+          "باتصال هاتفي",
+          "بالحضور دون موعد"
+        ],
+        "correctIndex": 1,
+        "evidence": "U kunt mij bellen om een tijd af te spreken.",
+        "explanation": "mij bellen تعني الاتصال بي، وeen tijd afspreken تعني الاتفاق على وقت."
+      }
+    ]
+  },
+  {
+    "slug": "a-workday-message",
+    "title": "تعليمات وردية العمل",
+    "dutchTitle": "Een bericht voor de ochtendploeg",
+    "topic": "العمل وتنظيم اليوم",
+    "sourceLessons": [
+      "workday",
+      "daily-routine"
+    ],
+    "text": "Goedemorgen allemaal, vandaag begint onze ploeg om acht uur. Er staan twaalf dozen bij de ingang. Zet de dozen eerst op de tafel naast het raam. Controleer daarna de namen op de etiketten. Om tien uur is er een korte pauze. Samira is vandaag afwezig. Heb je hulp nodig? Vraag het aan Peter. Hij werkt tot twaalf uur.",
+    "translation": "صباح الخير جميعاً، تبدأ ورديتنا اليوم الساعة الثامنة. يوجد اثنا عشر صندوقاً عند المدخل. ضعوا الصناديق أولاً على الطاولة المجاورة للنافذة. تحقّقوا بعد ذلك من الأسماء على الملصقات. توجد استراحة قصيرة في الساعة العاشرة. سميرة غائبة اليوم. هل تحتاج إلى مساعدة؟ اطلبها من بيتر. يعمل حتى الساعة الثانية عشرة.",
+    "vocabulary": [
+      {
+        "term": "de ploeg",
+        "excerpt": "ploeg",
+        "meaning": "فريق الوردية في هذا السياق؛ مجموعة تعمل في الفترة نفسها."
+      },
+      {
+        "term": "de ingang",
+        "excerpt": "ingang",
+        "meaning": "المدخل؛ مقابل uitgang، المخرج."
+      },
+      {
+        "term": "het etiket",
+        "excerpt": "etiketten",
+        "meaning": "الملصق الذي يحمل معلومات؛ etiketten هي صيغة الجمع."
+      },
+      {
+        "term": "de pauze",
+        "excerpt": "pauze",
+        "meaning": "الاستراحة أثناء العمل أو الدراسة."
+      },
+      {
+        "term": "afwezig",
+        "excerpt": "afwezig",
+        "meaning": "غائب أو غير موجود؛ لا تحدد الكلمة وحدها سبب الغياب."
+      }
+    ],
+    "grammar": {
+      "title": "eerst وdaarna: ترتيب التعليمات",
+      "example": "Zet de dozen eerst op de tafel naast het raam. Controleer daarna de namen op de etiketten.",
+      "translation": "ضعوا الصناديق أولاً على الطاولة المجاورة للنافذة. تحقّقوا بعد ذلك من الأسماء على الملصقات.",
+      "explanation": "eerst تعني أولاً، وdaarna تعني بعد ذلك. Zet وControleer صيغتا أمر أو توجيه، ولا يظهر معهما فاعل في هاتين الجملتين. ترتيب الخطوات هنا مهم: وضع الصناديق يسبق التحقق من الملصقات."
+    },
+    "questions": [
+      {
+        "id": "reading-work-1",
+        "prompt": "ما الخطوة الأولى المطلوبة للصناديق؟",
+        "options": [
+          "نقلها إلى الخارج",
+          "وضعها على الطاولة بجانب النافذة",
+          "تركها عند المدخل حتى الاستراحة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Zet de dozen eerst op de tafel naast het raam.",
+        "explanation": "eerst تحدد الخطوة الأولى، وnaast het raam تعني بجانب النافذة."
+      },
+      {
+        "id": "reading-work-2",
+        "prompt": "متى تبدأ الاستراحة القصيرة؟",
+        "options": [
+          "الثامنة",
+          "الثانية عشرة",
+          "العاشرة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Om tien uur is er een korte pauze.",
+        "explanation": "tien uur هي الساعة العاشرة. الثامنة بداية الوردية، والثانية عشرة نهاية عمل بيتر."
+      },
+      {
+        "id": "reading-work-3",
+        "prompt": "إلى من يتوجه العامل إذا احتاج مساعدة؟",
+        "options": [
+          "بيتر",
+          "سميرة",
+          "مساعدة الطبيب"
+        ],
+        "correctIndex": 0,
+        "evidence": "Heb je hulp nodig? Vraag het aan Peter.",
+        "explanation": "التوجيه هو سؤال بيتر. سميرة غائبة اليوم، ولا يذكر النص سبب غيابها."
+      }
+    ]
+  }
+]
