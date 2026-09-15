@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LessonPlayer } from "@/components/LessonPlayer";
 import { courseModules, getLesson, lessons } from "@/lib/content";
+import { readings } from "@/lib/readings";
 
 export function generateStaticParams() { return lessons.map((lesson) => ({ slug: lesson.slug })); }
 
@@ -26,5 +27,6 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
       {nextLesson ? <Link href={`/learn/${nextLesson.slug}`} rel="next">الدرس التالي: {nextLesson.title} ←</Link> : <Link href="/progress">شاهد تقدمك ←</Link>}
     </nav>
     <LessonPlayer key={lesson.slug} lesson={lesson} nextLesson={nextLesson} />
+    {readings.some((reading) => reading.sourceLessons.includes(lesson.slug)) && <section className="reading-related"><h2>وسّع هذا الدرس بالقراءة</h2><div>{readings.filter((reading) => reading.sourceLessons.includes(lesson.slug)).map((reading) => <Link className="text-link" key={reading.slug} href={`/reading/${reading.slug}`}>{reading.title} ←</Link>)}</div></section>}
   </div>;
 }
