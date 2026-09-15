@@ -202,10 +202,454 @@
     ]
   },
   {
-    "slug": "numbers-and-age",
+    "slug": "spelling-your-name",
     "moduleId": "first-steps",
     "level": "A1",
     "number": "03",
+    "title": "اسمك وتهجئته",
+    "dutchTitle": "Uw naam spellen",
+    "description": "ميّز الاسم الأول من اسم العائلة، واسأل عن التهجئة وصحّح خطأً في الاسم.",
+    "durationMinutes": 12,
+    "context": "تسجّل في دورة لغة. يسألك موظف الاستقبال عن اسمك ويكتب اسم العائلة خطأً، فتساعده على تصحيحه.",
+    "goal": "ميّز الاسم الأول من اسم العائلة، واسأل عن التهجئة وصحّح خطأً في الاسم.",
+    "phrases": [
+      {
+        "id": "a1-spelling-your-name-01",
+        "dutch": "Wat is uw voornaam?",
+        "arabic": "ما اسمك الأول؟",
+        "tip": "voornaam هو الاسم الأول، مثل ليلى؛ وليس اسم العائلة."
+      },
+      {
+        "id": "a1-spelling-your-name-02",
+        "dutch": "Mijn voornaam is Leila.",
+        "arabic": "اسمي الأول ليلى.",
+        "tip": "mijn تعني «الخاص بي» وتأتي هنا قبل الاسم voornaam."
+      },
+      {
+        "id": "a1-spelling-your-name-03",
+        "dutch": "En wat is uw achternaam?",
+        "arabic": "وما اسم عائلتك؟",
+        "tip": "achternaam تعني اسم العائلة أو الكنية."
+      },
+      {
+        "id": "a1-spelling-your-name-04",
+        "dutch": "Mijn achternaam is Mansour.",
+        "arabic": "اسم عائلتي منصور.",
+        "tip": "يمكنك تبديل Mansour باسم عائلة آخر عند التدريب."
+      },
+      {
+        "id": "a1-spelling-your-name-05",
+        "dutch": "Kunt u uw achternaam spellen?",
+        "arabic": "هل يمكنك تهجئة اسم عائلتك؟",
+        "tip": "spellen يعني ذكر حروف الكلمة واحداً واحداً."
+      },
+      {
+        "id": "a1-spelling-your-name-06",
+        "dutch": "Ja, M-A-N-S-O-U-R.",
+        "arabic": "نعم، M-A-N-S-O-U-R.",
+        "tip": "هذه كتابة الحروف بالترتيب؛ تدرب لاحقاً على أسمائها الهولندية بالصوت."
+      },
+      {
+        "id": "a1-spelling-your-name-07",
+        "dutch": "Is het Mansor?",
+        "arabic": "هل هو Mansor؟",
+        "tip": "في السؤال الذي نجيب عنه بنعم أو لا، يأتي الفعل هنا أولاً: Is het ...?"
+      },
+      {
+        "id": "a1-spelling-your-name-08",
+        "dutch": "Nee, het is Mansour, met een u.",
+        "arabic": "لا، هو Mansour، مع حرف u.",
+        "tip": "نصحح الاسم ثم نحدد الحرف الناقص؛ met تعني «مع»."
+      }
+    ],
+    "grammar": {
+      "title": "السؤال والإجابة مع is",
+      "explanation": "في الجملة الخبرية نقول Het is ...؛ وفي سؤال نعم أو لا نقدّم is: Is het ...? أما Wat is uw voornaam? فيبدأ بكلمة السؤال wat.",
+      "example": "Is het Mansor?",
+      "translation": "هل هو Mansor؟"
+    },
+    "dialogue": [
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-spelling-your-name-01"
+      },
+      {
+        "speaker": "Leila",
+        "phraseId": "a1-spelling-your-name-02"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-spelling-your-name-03"
+      },
+      {
+        "speaker": "Leila",
+        "phraseId": "a1-spelling-your-name-04"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-spelling-your-name-05"
+      },
+      {
+        "speaker": "Leila",
+        "phraseId": "a1-spelling-your-name-06"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-spelling-your-name-07"
+      },
+      {
+        "speaker": "Leila",
+        "phraseId": "a1-spelling-your-name-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "spelling-your-name-q1",
+        "prompt": "طلب الموظف voornaam. أي معلومة يحتاج؟",
+        "options": [
+          "اسم الشارع",
+          "الاسم الأول",
+          "اسم العائلة"
+        ],
+        "correctIndex": 1,
+        "explanation": "voornaam هو الاسم الأول؛ achternaam هو اسم العائلة."
+      },
+      {
+        "id": "spelling-your-name-q2",
+        "prompt": "أي سؤال يطلب تهجئة اسم العائلة؟",
+        "options": [
+          "Kunt u uw achternaam spellen?",
+          "Wat is uw voornaam?",
+          "Hoe gaat het met u?"
+        ],
+        "correctIndex": 0,
+        "explanation": "الفعل spellen يطلب ذكر الحروف، لا مجرد تكرار الاسم."
+      },
+      {
+        "id": "spelling-your-name-q3",
+        "prompt": "كُتب Mansor بدلاً من Mansour. ما الحرف الناقص؟",
+        "options": [
+          "a",
+          "e",
+          "u"
+        ],
+        "correctIndex": 2,
+        "explanation": "التصحيح في الحوار هو met een u: إضافة u بين o وr."
+      },
+      {
+        "id": "spelling-your-name-q4",
+        "prompt": "أي صيغة تسأل للتأكد: هل هو Ali؟",
+        "options": [
+          "Het is Ali.",
+          "Is het Ali?",
+          "Mijn voornaam is Ali."
+        ],
+        "correctIndex": 1,
+        "explanation": "بتقديم is على het تصبح العبارة سؤالاً للتأكد."
+      }
+    ]
+  },
+  {
+    "slug": "contact-details",
+    "moduleId": "first-steps",
+    "level": "A1",
+    "number": "04",
+    "title": "بيانات التواصل",
+    "dutchTitle": "Contactgegevens",
+    "description": "افهم حقول استمارة قصيرة، واسأل عن العنوان والرمز البريدي وصحّح رقم المنزل.",
+    "durationMinutes": 12,
+    "context": "تملأ استمارة تدريبية في دورة اللغة. العنوان والرمز في هذا الحوار أمثلة خيالية، وليسا بيانات شخص حقيقي.",
+    "goal": "افهم حقول استمارة قصيرة، واسأل عن العنوان والرمز البريدي وصحّح رقم المنزل.",
+    "phrases": [
+      {
+        "id": "a1-contact-details-01",
+        "dutch": "Wat is uw adres?",
+        "arabic": "ما عنوانك؟",
+        "tip": "adres يجمع عادةً اسم الشارع ورقم المنزل، ومعهما بيانات المكان."
+      },
+      {
+        "id": "a1-contact-details-02",
+        "dutch": "Ik woon in de Parkstraat, op nummer twaalf.",
+        "arabic": "أسكن في شارع بارك، في المنزل رقم اثني عشر.",
+        "tip": "نستخدم in مع اسم الشارع هنا، وop nummer قبل رقم المنزل."
+      },
+      {
+        "id": "a1-contact-details-03",
+        "dutch": "Wat is uw postcode?",
+        "arabic": "ما رمزك البريدي؟",
+        "tip": "postcode يحدد الرمز البريدي؛ لا تخلطه مع رقم المنزل."
+      },
+      {
+        "id": "a1-contact-details-04",
+        "dutch": "Mijn postcode is 1234 AB.",
+        "arabic": "رمزي البريدي هو 1234 AB.",
+        "tip": "مثال للتدريب على قراءة استمارة، وليس عنواناً لاستخدامه فعلياً."
+      },
+      {
+        "id": "a1-contact-details-05",
+        "dutch": "Is uw huisnummer twintig?",
+        "arabic": "هل رقم منزلك عشرون؟",
+        "tip": "huisnummer هو رقم المنزل. twintig = عشرون."
+      },
+      {
+        "id": "a1-contact-details-06",
+        "dutch": "Nee, mijn huisnummer is twaalf.",
+        "arabic": "لا، رقم منزلي اثنا عشر.",
+        "tip": "twaalf = اثنا عشر. انتبه للفرق بين twaalf وtwintig."
+      },
+      {
+        "id": "a1-contact-details-07",
+        "dutch": "Kunt u uw e-mailadres opschrijven?",
+        "arabic": "هل يمكنك كتابة عنوان بريدك الإلكتروني؟",
+        "tip": "opschrijven فعل منفصل، لكنه يبقى متصلاً في المصدر بعد Kunt u."
+      },
+      {
+        "id": "a1-contact-details-08",
+        "dutch": "Ja, ik schrijf het hier op.",
+        "arabic": "نعم، سأكتبه هنا.",
+        "tip": "مع ik نقول schrijf، وينتقل op إلى آخر هذه الجملة."
+      }
+    ],
+    "grammar": {
+      "title": "الفعل المنفصل opschrijven",
+      "explanation": "opschrijven يعني تدوين شيء. بعد Kunt u يأتي المصدر متصلاً: opschrijven. في الجملة Ik schrijf het hier op ينفصل op ويأتي في النهاية. het يعود هنا على عنوان البريد.",
+      "example": "Ja, ik schrijf het hier op.",
+      "translation": "نعم، سأكتبه هنا."
+    },
+    "dialogue": [
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-contact-details-01"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-contact-details-02"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-contact-details-03"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-contact-details-04"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-contact-details-05"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-contact-details-06"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-contact-details-07"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-contact-details-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "contact-details-q1",
+        "prompt": "استمارة فيها huisnummer وpostcode. أين تكتب رقم المنزل 12؟",
+        "options": [
+          "في خانة postcode",
+          "في خانة voornaam",
+          "في خانة huisnummer"
+        ],
+        "correctIndex": 2,
+        "explanation": "huisnummer مخصص لرقم المنزل، وpostcode للرمز البريدي."
+      },
+      {
+        "id": "contact-details-q2",
+        "prompt": "قال المتحدث: mijn huisnummer is twaalf. ما رقم المنزل الصحيح؟",
+        "options": [
+          "12",
+          "20",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "twaalf تعني 12؛ twintig تعني 20."
+      },
+      {
+        "id": "contact-details-q3",
+        "prompt": "ماذا يطلب Kunt u uw e-mailadres opschrijven?",
+        "options": [
+          "حذف البريد الإلكتروني",
+          "كتابة عنوان البريد الإلكتروني",
+          "ذكر اسم العائلة"
+        ],
+        "correctIndex": 1,
+        "explanation": "opschrijven يعني تدوين المعلومة كتابةً."
+      },
+      {
+        "id": "contact-details-q4",
+        "prompt": "أي جملة تعني: أكتبه هنا؟",
+        "options": [
+          "Ik woon hier.",
+          "Wat is uw adres?",
+          "Ik schrijf het hier op."
+        ],
+        "correctIndex": 2,
+        "explanation": "schrijf ... op جزآن من الفعل opschrijven، وhier تعني هنا."
+      }
+    ]
+  },
+  {
+    "slug": "asking-for-clarification",
+    "moduleId": "first-steps",
+    "level": "A1",
+    "number": "05",
+    "title": "عندما لا تفهم الحديث",
+    "dutchTitle": "Om uitleg vragen",
+    "description": "اطلب التكرار أو الإبطاء بأدب، واسأل عن معنى كلمة، وتأكد من فهم التعليمات.",
+    "durationMinutes": 12,
+    "context": "تسمع كلمة جديدة في درس اللغة. تطلب إبطاء الكلام ثم تستوضح معناها قبل تنفيذ التعليمات.",
+    "goal": "اطلب التكرار أو الإبطاء بأدب، واسأل عن معنى كلمة، وتأكد من فهم التعليمات.",
+    "phrases": [
+      {
+        "id": "a1-asking-for-clarification-01",
+        "dutch": "Sorry, ik begrijp het niet.",
+        "arabic": "عذراً، لا أفهم ذلك.",
+        "tip": "begrijpen تعني يفهم؛ نستخدم niet لنفي الفهم هنا."
+      },
+      {
+        "id": "a1-asking-for-clarification-02",
+        "dutch": "Kunt u wat langzamer praten?",
+        "arabic": "هل يمكنك التحدث ببطء أكثر قليلاً؟",
+        "tip": "wat تخفف الطلب هنا، وlangzamer تعني أبطأ."
+      },
+      {
+        "id": "a1-asking-for-clarification-03",
+        "dutch": "Natuurlijk. Welk woord begrijpt u niet?",
+        "arabic": "بالطبع. أي كلمة لا تفهمها؟",
+        "tip": "welk woord يسأل عن كلمة محددة؛ woord من كلمات het."
+      },
+      {
+        "id": "a1-asking-for-clarification-04",
+        "dutch": "Wat betekent invullen?",
+        "arabic": "ماذا تعني invullen؟",
+        "tip": "Wat betekent ...? صيغة للسؤال عن المعنى، وinvullen تعني ملء الخانات."
+      },
+      {
+        "id": "a1-asking-for-clarification-05",
+        "dutch": "Schrijf uw naam op het formulier.",
+        "arabic": "اكتب اسمك على الاستمارة.",
+        "tip": "هذه تعليمات عملية. نبدأ بالفعل Schrijf ثم نذكر ما نكتبه وأين."
+      },
+      {
+        "id": "a1-asking-for-clarification-06",
+        "dutch": "Kunt u dat herhalen, alstublieft?",
+        "arabic": "هل يمكنك إعادة ذلك، من فضلك؟",
+        "tip": "herhalen تعني يكرر؛ alstublieft تجعل الطلب مهذباً."
+      },
+      {
+        "id": "a1-asking-for-clarification-07",
+        "dutch": "Ja, schrijf hier uw voornaam.",
+        "arabic": "نعم، اكتب اسمك الأول هنا.",
+        "tip": "hier تعني هنا؛ يوضح المتحدث الآن الخانة المقصودة."
+      },
+      {
+        "id": "a1-asking-for-clarification-08",
+        "dutch": "Dus ik schrijf hier mijn voornaam. Dank u wel.",
+        "arabic": "إذن أكتب اسمي الأول هنا. شكراً جزيلاً.",
+        "tip": "بإعادة الفكرة بكلماتك تتأكد من أنك فهمت المطلوب."
+      }
+    ],
+    "grammar": {
+      "title": "طلب مهذب باستخدام Kunt u",
+      "explanation": "للطلب المهذب نبدأ بـ Kunt u ثم نذكر المطلوب ونضع الفعل الآخر في المصدر. في Kunt u dat herhalen? تأتي herhalen في نهاية السؤال. يمكن إضافة alstublieft.",
+      "example": "Kunt u dat herhalen, alstublieft?",
+      "translation": "هل يمكنك إعادة ذلك، من فضلك؟"
+    },
+    "dialogue": [
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-asking-for-clarification-01"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-asking-for-clarification-02"
+      },
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-asking-for-clarification-03"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-asking-for-clarification-04"
+      },
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-asking-for-clarification-05"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-asking-for-clarification-06"
+      },
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-asking-for-clarification-07"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-asking-for-clarification-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "asking-for-clarification-q1",
+        "prompt": "المتحدث سريع جداً. أي طلب يناسب الموقف؟",
+        "options": [
+          "Kunt u wat langzamer praten?",
+          "Wat is uw postcode?",
+          "Mijn voornaam is Leila."
+        ],
+        "correctIndex": 0,
+        "explanation": "langzamer praten يطلب إبطاء الكلام؛ ليس سؤالاً عن بيانات شخصية."
+      },
+      {
+        "id": "asking-for-clarification-q2",
+        "prompt": "سمعت كلمة جديدة ولا تعرف معناها. أي صيغة تستخدم؟",
+        "options": [
+          "Ik woon in de Parkstraat.",
+          "Wat betekent invullen?",
+          "Mijn huisnummer is twaalf."
+        ],
+        "correctIndex": 1,
+        "explanation": "Wat betekent ...? يسأل عن معنى كلمة."
+      },
+      {
+        "id": "asking-for-clarification-q3",
+        "prompt": "أردت سماع العبارة مرة أخرى. ما الفعل المناسب؟",
+        "options": [
+          "wonen",
+          "schrijven",
+          "herhalen"
+        ],
+        "correctIndex": 2,
+        "explanation": "herhalen يعني إعادة الكلام أو تكراره."
+      },
+      {
+        "id": "asking-for-clarification-q4",
+        "prompt": "قال المعلم: Schrijf hier uw voornaam. ماذا تكتب؟",
+        "options": [
+          "اسمك الأول",
+          "رمزك البريدي",
+          "اسم عائلتك"
+        ],
+        "correctIndex": 0,
+        "explanation": "voornaam هو الاسم الأول. الطلب لا يتعلق باسم العائلة أو العنوان."
+      }
+    ]
+  },
+  {
+    "slug": "numbers-and-age",
+    "moduleId": "first-steps",
+    "level": "A1",
+    "number": "06",
     "title": "الأرقام والعمر",
     "dutchTitle": "Getallen en leeftijd",
     "description": "اسأل عن العمر وميّز بين الأعداد ثمانية وعشرة وثلاثين.",
@@ -308,7 +752,7 @@
     "slug": "time-and-days",
     "moduleId": "first-steps",
     "level": "A1",
-    "number": "04",
+    "number": "07",
     "title": "الوقت وأيام الأسبوع",
     "dutchTitle": "Tijd en dagen",
     "description": "افهم موعداً بسيطاً وميّز معنى نصف التاسعة في الهولندية.",
@@ -407,7 +851,7 @@
     "slug": "daily-routine",
     "moduleId": "first-steps",
     "level": "A1",
-    "number": "05",
+    "number": "08",
     "title": "يومك المعتاد",
     "dutchTitle": "Mijn dag",
     "description": "صف وقت الاستيقاظ والطعام والذهاب إلى العمل بجمل قصيرة.",
@@ -515,7 +959,7 @@
   {
     "slug": "at-the-shop",
     "level": "A1",
-    "number": "06",
+    "number": "09",
     "title": "في المتجر",
     "dutchTitle": "In de winkel",
     "description": "اسأل عن السعر والمكان وادفع عند الصندوق.",
@@ -615,7 +1059,7 @@
     "slug": "cafe-order",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "07",
+    "number": "10",
     "title": "في المقهى",
     "dutchTitle": "In het café",
     "description": "اطلب مشروباً وحدد إضافاته واطلب الحساب بأدب.",
@@ -718,7 +1162,7 @@
     "slug": "directions",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "08",
+    "number": "11",
     "title": "السؤال عن الطريق",
     "dutchTitle": "De weg vragen",
     "description": "اسأل عن مكان واتبع تعليمات اليمين واليسار والسير إلى الأمام.",
@@ -821,7 +1265,7 @@
     "slug": "public-transport",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "09",
+    "number": "12",
     "title": "بالحافلة والترام",
     "dutchTitle": "Met de bus en tram",
     "description": "تحقق من وجهة الحافلة واسأل عن محطة النزول.",
@@ -924,7 +1368,7 @@
     "slug": "train-tickets",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "10",
+    "number": "13",
     "title": "تذكرة القطار",
     "dutchTitle": "Een treinkaartje",
     "description": "اطلب تذكرة وميّز بين الذهاب فقط والذهاب والعودة.",
@@ -1031,7 +1475,7 @@
     "slug": "home-and-address",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "11",
+    "number": "14",
     "title": "عنوانك وبيتك",
     "dutchTitle": "Mijn adres en woning",
     "description": "اذكر عنوانك وصف غرفاً بسيطة في البيت.",
@@ -1130,7 +1574,7 @@
     "slug": "neighbours",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "12",
+    "number": "15",
     "title": "التعارف مع الجيران",
     "dutchTitle": "De buren",
     "description": "عرّف بنفسك كجار جديد واسأل عن مدة السكن في الحي.",
@@ -1237,7 +1681,7 @@
     "slug": "repairs-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "13",
+    "number": "16",
     "title": "مشكلة في البيت",
     "dutchTitle": "Een reparatie melden",
     "description": "أبلغ عن عطل واطلب زيارة لإصلاحه.",
@@ -1340,7 +1784,7 @@
     "slug": "workday",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "14",
+    "number": "17",
     "title": "أول يوم عمل",
     "dutchTitle": "Mijn eerste werkdag",
     "description": "اسأل عن بداية الوردية والاستراحة ومكان المقصف.",
@@ -1443,7 +1887,7 @@
     "slug": "school-and-family",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "15",
+    "number": "18",
     "title": "الأسرة والمدرسة",
     "dutchTitle": "Gezin en school",
     "description": "تحدث عن طفلك وافهم سؤالاً بسيطاً عن المدرسة.",
@@ -1537,7 +1981,7 @@
   {
     "slug": "doctor-appointment",
     "level": "A1",
-    "number": "16",
+    "number": "19",
     "title": "موعد عند طبيب الأسرة",
     "dutchTitle": "Bij de huisarts",
     "description": "اشرح عرضاً بسيطاً وحدد منذ متى بدأت المشكلة.",
@@ -1641,7 +2085,7 @@
     "slug": "pharmacy",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "17",
+    "number": "20",
     "title": "في الصيدلية",
     "dutchTitle": "Bij de apotheek",
     "description": "اطلب استلام دوائك واسأل الصيدلي عن طريقة استخدامه.",
@@ -1748,7 +2192,7 @@
     "slug": "municipal-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "18",
+    "number": "21",
     "title": "موعد في البلدية",
     "dutchTitle": "Bij de gemeente",
     "description": "أخبر موظف الاستقبال أن لديك موعداً وافهم طلب إثبات الهوية.",
@@ -1855,7 +2299,7 @@
     "slug": "phone-calls",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "19",
+    "number": "22",
     "title": "مكالمة قصيرة",
     "dutchTitle": "Telefoneren",
     "description": "عرّف بنفسك في الهاتف واطلب تكرار الكلام أو إبطاءه.",
@@ -1958,7 +2402,7 @@
     "slug": "letters-and-messages",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "20",
+    "number": "23",
     "title": "فهم رسالة موعد",
     "dutchTitle": "Een afspraakbericht lezen",
     "description": "استخرج يوم الموعد وساعته وما يجب إحضاره من رسالة قصيرة.",

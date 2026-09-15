@@ -3,7 +3,7 @@ import lessons from "../../src/data/lessons.json";
 
 test("catalogue search and module filters work together and can be cleared", async ({ page }) => {
   await page.goto("/learn");
-  await expect(page.locator(".catalogue-item")).toHaveCount(20);
+  await expect(page.locator(".catalogue-item")).toHaveCount(lessons.length);
   await page.getByLabel("ابحث عن درس").fill("الصيدلية");
   await expect(page.locator(".catalogue-item")).toHaveCount(1);
   await expect(page.locator(".catalogue-item")).toHaveAttribute("href", "/learn/pharmacy");
@@ -15,7 +15,7 @@ test("catalogue search and module filters work together and can be cleared", asy
   await page.getByLabel("ابحث عن درس").fill("not-a-lesson");
   await expect(page.getByRole("heading", { name: "لا توجد دروس مطابقة" })).toBeVisible();
   await page.getByRole("button", { name: "اعرض كل الدروس" }).click();
-  await expect(page.locator(".catalogue-item")).toHaveCount(20);
+  await expect(page.locator(".catalogue-item")).toHaveCount(lessons.length);
 });
 
 test("legacy progress survives lesson reordering and uses the expanded denominator", async ({ page }) => {
@@ -26,7 +26,7 @@ test("legacy progress survives lesson reordering and uses the expanded denominat
   });
   await page.goto("/progress");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "3");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "20");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", String(lessons.length));
   await expect(page.locator(".completion-dot.done")).toHaveCount(3);
   await page.goto("/learn");
   await expect(page.locator(".catalogue-complete")).toHaveCount(3);
@@ -54,7 +54,7 @@ test("a lesson can be completed and retried without an incorrect success message
   await expect(page.locator(".retry-message")).toContainText("1 من 3");
   await expect(page.locator(".success-message")).toHaveCount(0);
   await page.getByRole("navigation", { name: "التنقل بين الدروس" }).getByRole("link", { name: /الدرس التالي/ }).click();
-  await expect(page).toHaveURL(/\/learn\/numbers-and-age$/);
+  await expect(page).toHaveURL(/\/learn\/spelling-your-name$/);
   await expect(page.locator('input[type="radio"]:checked')).toHaveCount(0);
   await expect(page.locator(".retry-message")).toHaveCount(0);
   await page.goto("/progress");

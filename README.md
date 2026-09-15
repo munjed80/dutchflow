@@ -15,7 +15,8 @@ Open `http://localhost:3000`.
 
 ## Current learning experience
 
-- Arabic RTL landing page and 20 introductory A1 lessons in four ordered modules. The catalogue includes 101 Dutch phrases, Arabic meanings, learning goals, short dialogues, a grammar note per lesson, and 60 graded questions.
+- Arabic RTL landing page and 23 introductory A1 lessons in four ordered modules. The catalogue includes 125 Dutch phrases, Arabic meanings, learning goals, short dialogues, a grammar note per lesson, and 72 graded questions.
+- A `/curriculum` map links ten thematic goals to available resources and shows remaining work. Three new foundation lessons include 18 vocabulary/form notes and six original-response tasks with optional models and self-review questions. These tasks are ungraded and temporary; see [A1 plan and readiness gates](docs/A1_CURRICULUM.md).
 - Search lessons in Arabic or Dutch, filter by module, continue with the first unfinished lesson, and browse previous/next lessons freely.
 - Free listening practice for every lesson at `/learn/[slug]/listening`: hear each phrase, choose its Arabic meaning, and review feedback. Text-assisted answers are reported separately and never award lesson completion. See [listening and playback details](docs/LISTENING.md).
 - Free guided writing for every lesson at `/learn/[slug]/writing`: recall the lesson sentence from its Arabic meaning, compare highlighted word differences, and rewrite. Results retain the first attempt and separate text help; answers are not saved and never award completion. This compares the lesson wording, not arbitrary translations or general Dutch proficiency. See [writing details](docs/WRITING.md).
@@ -39,9 +40,9 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The content checks catch duplicate audio IDs, broken dialogue references, invalid answer keys, missing goals or grammar, and invalid starting-point question/lesson links before publication. Browser tests cover search/filtering, existing progress, quiz completion and retries, lesson navigation, all 20 lesson routes, and mobile overflow. Playwright starts the production server, an isolated SMTP inbox, and an in-memory PGlite database automatically; build first. Account tests cover actual email links, expiry/replay, origin checks, rate limits, import, cross-device isolation, sign-out, and failed-save recovery. GitHub Actions uses PostgreSQL 17 for the same tests on each PR. No real emails are sent. Listening tests cover all 101 phrases, text assistance, playback completion/cancellation/errors, stale events, and route changes using controlled media/speech events; they do not verify real voice quality. Starting-point tests cover partial drafts, answer changes, failed-submit retry, grading, unknown answers, malformed requests, stale revisions, recommended lessons, and exclusion of answer explanations from initial HTML/client assets.
+The content checks catch duplicate audio IDs, broken dialogue references, invalid answer keys, missing goals or grammar, and invalid starting-point question/lesson links before publication. Browser tests cover search/filtering, existing progress, quiz completion and retries, lesson navigation, all 23 lesson routes, and mobile overflow. Playwright starts the production server, an isolated SMTP inbox, and an in-memory PGlite database automatically; build first. Account tests cover actual email links, expiry/replay, origin checks, rate limits, import, cross-device isolation, sign-out, and failed-save recovery. GitHub Actions uses PostgreSQL 17 for the same tests on each PR. No real emails are sent. Listening tests cover all 125 phrases, text assistance, playback completion/cancellation/errors, stale events, and route changes using controlled media/speech events; they do not verify real voice quality. Starting-point tests cover partial drafts, answer changes, failed-submit retry, grading, unknown answers, malformed requests, stale revisions, recommended lessons, and exclusion of answer explanations from initial HTML/client assets.
 
-Writing validation additionally covers all 101 phrases, spelling/normalization boundaries, missing/repeated/reordered words, first-attempt results, help/retries, review lists, navigation reset, input limits, and mobile layout with long answers.
+Writing validation additionally covers all 125 phrases, spelling/normalization boundaries, missing/repeated/reordered words, first-attempt results, help/retries, review lists, navigation reset, input limits, and mobile layout with long answers.
 
 Review tests cover validated phrase IDs, explicit additions from lessons and both summaries, ten-card sessions, self-ratings, filtering/removal/reset, unchanged progress, malformed data, failed writes and retry, sequential tab updates, and mobile layout.
 
@@ -63,7 +64,7 @@ The script writes MP3s to `public/audio/` and updates `src/lib/audio-manifest.js
 
 ## Roadmap
 
-1. Review this introductory A1 path and the starting-point questions with a qualified Dutch speaker; add further A1 practice and structured A2 and B1 content.
+1. Review and complete the A1 units using [the curriculum readiness gates](docs/A1_CURRICULUM.md). Prioritize recorded listening, broader vocabulary and independent production before adding A2 or B1.
 2. Generate and review the audio. Add a content authoring workflow and audio quality checks.
 3. Configure production PostgreSQL and SMTP, verify delivery and backups, and add account export/deletion and a published privacy policy before public launch.
 4. Build secure paid practice exams: authenticated purchases, one €4.95 attempt per payment, server-side scoring, provider webhooks, receipts, and clear retry/refund handling. Do not unlock an exam based on a browser redirect alone.

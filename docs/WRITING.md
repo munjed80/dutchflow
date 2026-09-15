@@ -1,6 +1,6 @@
 # Guided sentence writing
 
-Every lesson links to `/learn/[slug]/writing`. The exercise reuses the 101 existing Dutch phrases and Arabic meanings across 20 introductory lessons. It asks the learner to recall the **lesson wording**, not translate freely. No new linguistic content, audio assets, AI service, dependency, API, or database migration is introduced.
+Every lesson links to `/learn/[slug]/writing`. The exercise reuses the 125 existing Dutch phrases and Arabic meanings across 23 introductory lessons. It asks the learner to recall the **lesson wording**, not translate freely. This exercise itself does not generate linguistic content or audio and does not require an AI service.
 
 ## Comparison contract
 
@@ -26,4 +26,6 @@ The summary now offers an explicit button to add first-attempt differences and a
 
 ## Verification
 
-Native tests cover all 101 phrases, normalization boundaries, omitted/extra/repeated/reordered words, maximum length, and assisted scoring. Browser tests cover the lesson link, hidden model, disabled blank submission, normalization, feedback, retry focus and immutable first result, assisted summaries, review lists, unchanged guest progress, reload/navigation reset, every route, 404, input limits, and mobile overflow with a long unbroken answer. The full existing suite remains a required gate.
+Native tests cover all 125 phrases, normalization boundaries, omitted/extra/repeated/reordered words, maximum length, and assisted scoring. Browser tests cover the lesson link, hidden model, disabled blank submission, normalization, feedback, retry focus and immutable first result, assisted summaries, review lists, unchanged guest progress, reload/navigation reset, every route, 404, input limits, and mobile overflow with a long unbroken answer. The full existing suite remains a required gate.
+
+The separate foundation production tasks on lesson pages accept original responses with optional models and self-review questions. They do not use this exact-wording comparison engine. See `docs/A1_CURRICULUM.md`.
