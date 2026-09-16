@@ -1,6 +1,6 @@
 # Guided sentence writing
 
-Every lesson links to `/learn/[slug]/writing`. The exercise reuses the 141 existing Dutch phrases and Arabic meanings across 25 introductory lessons. It asks the learner to recall the **lesson wording**, not translate freely. This exercise itself does not generate linguistic content or audio and does not require an AI service.
+Every lesson links to `/learn/[slug]/writing`. The exercise reuses the 165 existing Dutch phrases and Arabic meanings across 28 introductory lessons. It asks the learner to recall the **lesson wording**, not translate freely. This exercise itself does not generate linguistic content or audio and does not require an AI service.
 
 ## Comparison contract
 
