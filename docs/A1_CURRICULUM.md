@@ -25,11 +25,11 @@ This table is a development plan. It does not claim that every listed language p
 
 ## Coverage at this release
 
-- 25 lessons, 141 reusable phrases and 80 lesson questions; nine separate readings with 28 comprehension questions.
-- Every lesson and reading is mapped. Units with resources display **partial coverage**; the leisure unit has no linked resources yet and displays **planned**. No unit displays complete or a mastery percentage.
+- 28 lessons, 165 reusable phrases and 92 lesson questions; ten separate readings with 32 comprehension questions.
+- Every lesson and reading is mapped. All ten units now display **partial coverage** with explicit remaining work. No unit displays complete or a mastery percentage.
 - New foundation lessons: `spelling-your-name`, `contact-details`, `asking-for-clarification`. Each has eight phrases, a contextual dialogue, a grammar note, four questions, six vocabulary/form notes and two self-review production tasks.
 - `src/data/lesson-extensions.json` holds 42 vocabulary notes and 14 production tasks across seven lessons. Nouns include an article and plural; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is the first set of lexical notes, not a complete searchable dictionary.
-- The foundation release added 24 phrase IDs; the numbers/time release adds another 16. New phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 25 lessons.
+- The foundation release added 24 phrase IDs; the numbers/time release adds another 16; the leisure/plans release adds another 24. New phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 28 lessons.
 - The two production tasks per enriched lesson offer a temporary text area, hidden model answer, Arabic meaning and review questions. Learners reuse structures with fictional details or combine known expressions. Multiple answers may be valid; there is no automatic judgment, score, mastery claim or completion write. Reload or route navigation resets answers. These tasks are separate from exact lesson-wording recall at `/writing` and do not record speech.
 - Listening still uses device TTS when MP3s are absent; connected listening passages, spoken interaction and assessed pronunciation remain missing. Spelling text does not constitute an alphabet pronunciation course. Have an editor listen especially to spelled letters, numbers and postcodes before publishing audio.
 
@@ -40,6 +40,12 @@ This table is a development plan. It does not claim that every listed language p
 The original reading `a-week-of-language-lessons` requires learners to combine a start date, two weekly class days, morning start/end times and different activities after class. Four questions distinguish a 90-minute lesson from 30 minutes of separate practice. A dedicated browser test exercises the fourth required answer and regrading of the duration answer. This is guided reading, not a listening assessment.
 
 The lexical notes explicitly distinguish singular forms used in quantities (`dertig jaar`, `negen uur`, `twee keer`) from the dictionary plurals. Productive tasks change people, numbers, dates or times instead of treating exact recall as the only valid answer. Number and month coverage remains partial, and no claim of complete unit mastery is made.
+
+## Leisure and plans expansion
+
+`free-time-hobbies` covers everyday hobbies, `graag` with an activity and a simple shared suggestion. `weather-today` adds basic weather descriptions, `het` in weather expressions, and practical responses such as taking a coat or preferring to stay inside. `invitations-and-plans` introduces invitations, acceptance/decline, meeting time and place, and `Zullen we ...?` for a shared plan.
+
+These three lessons add 24 phrases, 12 graded questions, 18 lexical notes and six self-review tasks. The reading `a-saturday-park-plan` ties hobbies, weather and an invitation into one short unseen plan with four evidenced questions and a separable-verb grammar note. The unit is still partial because it lacks reviewed connected listening, a short original writing task with feedback beyond self-review, and an oral role-play on changing plans.
 
 ## Definition of readiness for each unit
 
@@ -60,8 +66,8 @@ Vocabulary `kind` is `noun`, `verb` or `expression`. `forms` contains the plural
 
 The map and vocabulary render on the server. Only the current lesson's production tasks enter `ProductionPractice`; answers use component state only. No new dependencies, storage keys, account fields, payments or migrations are introduced. All regular content remains free.
 
-`content:check` validates IDs, goal text, coverage, resource links, vocabulary forms, same-lesson examples and production fields. Mutation tests verify rejection; browser tests cover discovery, planned-unit navigation, model reveal, input limits, resets, original progress, new phrase review and mobile overflow. These tests establish structural and behavioral integrity, not language accuracy.
+`content:check` validates IDs, goal text, coverage, resource links, vocabulary forms, same-lesson examples and production fields. Mutation tests verify rejection; browser tests cover discovery, curriculum navigation, model reveal, input limits, resets, original progress, new phrase review and mobile overflow. These tests establish structural and behavioral integrity, not language accuracy.
 
 ## Next delivery
 
-Review the foundation content and validate recorded alphabet/phrase audio. Continue expanding number/month breadth, connected listening and oral scheduling tasks; then extend family vocabulary. Use the readiness gates above to deepen each unit before adding A2 labels or opening paid examinations.
+Review the new leisure content and validate recorded phrase audio for hobbies, weather and invitation timing. Continue expanding family/school, services/messages and health units with the same lesson-reading-enrichment pattern, then add connected listening and oral tasks across the map. Use the readiness gates above to deepen each unit before adding A2 labels or opening paid examinations.

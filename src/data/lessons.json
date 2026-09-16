@@ -2275,9 +2275,437 @@
     ]
   },
   {
-    "slug": "doctor-appointment",
+    "slug": "free-time-hobbies",
+    "moduleId": "daily-life",
     "level": "A1",
     "number": "21",
+    "title": "الهوايات ووقت الفراغ",
+    "dutchTitle": "Hobby's en vrije tijd",
+    "description": "قل ما تحب فعله في وقت الفراغ، واسأل شخصاً آخر عن هوايته.",
+    "goal": "اذكر هواية بسيطة، واسأل عن وقت الفراغ، واقترح نشاطاً مشتركاً.",
+    "durationMinutes": 12,
+    "context": "تتحدث مع زميلة بعد درس اللغة عن ما تحبان فعله في نهاية الأسبوع.",
+    "phrases": [
+      {
+        "id": "a1-free-time-hobbies-01",
+        "dutch": "Wat doet u graag in uw vrije tijd?",
+        "arabic": "ماذا تحب أن تفعل في وقت فراغك؟",
+        "tip": "vrije tijd تعني الوقت غير المخصص للعمل أو الدراسة."
+      },
+      {
+        "id": "a1-free-time-hobbies-02",
+        "dutch": "Ik wandel graag in het park.",
+        "arabic": "أحب المشي في الحديقة.",
+        "tip": "wandel graag تعني أحب أن أمشي أو أستمتع بالمشي."
+      },
+      {
+        "id": "a1-free-time-hobbies-03",
+        "dutch": "Ik luister thuis naar muziek.",
+        "arabic": "أستمع في المنزل إلى الموسيقى.",
+        "tip": "naar muziek luisteren تعبير شائع للاستماع إلى الموسيقى."
+      },
+      {
+        "id": "a1-free-time-hobbies-04",
+        "dutch": "In het weekend speel ik voetbal.",
+        "arabic": "في عطلة نهاية الأسبوع ألعب كرة القدم.",
+        "tip": "عندما تبدأ الجملة بـ In het weekend يأتي الفعل speel قبل ik."
+      },
+      {
+        "id": "a1-free-time-hobbies-05",
+        "dutch": "Leest u ook graag?",
+        "arabic": "هل تحب القراءة أيضاً؟",
+        "tip": "في سؤال نعم/لا يبدأ الفعل هنا: Leest u ...?"
+      },
+      {
+        "id": "a1-free-time-hobbies-06",
+        "dutch": "Ja, ik lees soms een Nederlands boek.",
+        "arabic": "نعم، أقرأ أحياناً كتاباً هولندياً.",
+        "tip": "soms تعني أحياناً، Nederlands boek = كتاب هولندي."
+      },
+      {
+        "id": "a1-free-time-hobbies-07",
+        "dutch": "Dat lijkt me leuk.",
+        "arabic": "يبدو ذلك ممتعاً بالنسبة لي.",
+        "tip": "تعبير طبيعي عندما يعجبك اقتراح شخص آخر."
+      },
+      {
+        "id": "a1-free-time-hobbies-08",
+        "dutch": "Misschien kunnen we samen naar het park gaan.",
+        "arabic": "ربما يمكننا أن نذهب معاً إلى الحديقة.",
+        "tip": "يمكنك تكرار naar het park gaan هنا لتوضيح الاقتراح."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-free-time-hobbies-01"
+      },
+      {
+        "speaker": "Layla",
+        "phraseId": "a1-free-time-hobbies-02"
+      },
+      {
+        "speaker": "Layla",
+        "phraseId": "a1-free-time-hobbies-03"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-free-time-hobbies-05"
+      },
+      {
+        "speaker": "Layla",
+        "phraseId": "a1-free-time-hobbies-06"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-free-time-hobbies-07"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-free-time-hobbies-08"
+      }
+    ],
+    "grammar": {
+      "title": "التفضيل باستخدام graag",
+      "explanation": "نضع graag مع الفعل لنقول إننا نحب فعل شيء: ik wandel graag، ik lees graag. وعندما تبدأ الجملة بظرف أو عبارة زمنية مثل In het weekend يبقى الفعل في الموقع الثاني.",
+      "example": "In het weekend speel ik voetbal.",
+      "translation": "في عطلة نهاية الأسبوع ألعب كرة القدم."
+    },
+    "questions": [
+      {
+        "id": "free-time-hobbies-q1",
+        "prompt": "ما معنى vrije tijd في السؤال الأول؟",
+        "options": [
+          "وقت الفراغ",
+          "وقت العمل",
+          "موعد الدرس"
+        ],
+        "correctIndex": 0,
+        "explanation": "vrije tijd هي الوقت الذي لا تعمل أو تدرس فيه."
+      },
+      {
+        "id": "free-time-hobbies-q2",
+        "prompt": "أي جملة تعني: أحب المشي في الحديقة؟",
+        "options": [
+          "Ik luister thuis naar muziek.",
+          "Ik wandel graag in het park.",
+          "Leest u ook graag?"
+        ],
+        "correctIndex": 1,
+        "explanation": "wandelen = المشي وin het park = في الحديقة."
+      },
+      {
+        "id": "free-time-hobbies-q3",
+        "prompt": "ماذا تعني soms في Ja, ik lees soms een Nederlands boek؟",
+        "options": [
+          "دائماً",
+          "الآن",
+          "أحياناً"
+        ],
+        "correctIndex": 2,
+        "explanation": "soms تعني أحياناً، وليس دائماً."
+      },
+      {
+        "id": "free-time-hobbies-q4",
+        "prompt": "كيف تقترح نشاطاً مشتركاً بلطف؟",
+        "options": [
+          "Misschien kunnen we samen naar het park gaan.",
+          "Dat is morgen terug.",
+          "Waar woont u graag?"
+        ],
+        "correctIndex": 0,
+        "explanation": "Misschien kunnen we samen naar het park gaan تعني: ربما يمكننا الذهاب معاً إلى الحديقة."
+      }
+    ]
+  },
+  {
+    "slug": "weather-today",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "22",
+    "title": "الطقس اليوم",
+    "dutchTitle": "Het weer vandaag",
+    "description": "اسأل عن الطقس، وافهم وصفاً بسيطاً، وخذ معك ما تحتاج إليه.",
+    "goal": "اسأل عن حالة الطقس، وافهم وصفاً بسيطاً، وترد على اقتراح مناسب للجو.",
+    "durationMinutes": 11,
+    "context": "تخطط للخروج بعد الظهر وتسأل زميلك عن الجو وما الذي ينبغي أن تأخذه معك.",
+    "phrases": [
+      {
+        "id": "a1-weather-today-01",
+        "dutch": "Hoe is het weer vandaag?",
+        "arabic": "كيف يكون الطقس اليوم؟",
+        "tip": "het weer تعني حالة الطقس."
+      },
+      {
+        "id": "a1-weather-today-02",
+        "dutch": "Vandaag is het zonnig en droog.",
+        "arabic": "اليوم الطقس مشمس وجاف.",
+        "tip": "يمكن جمع صفتين بسيطتين مع en لوصف الجو."
+      },
+      {
+        "id": "a1-weather-today-03",
+        "dutch": "Morgen wordt het koud.",
+        "arabic": "غداً سيصبح الجو بارداً.",
+        "tip": "wordt het koud تصف تغير الطقس، لا تعني أنه بارد الآن بالضرورة."
+      },
+      {
+        "id": "a1-weather-today-04",
+        "dutch": "Neem een jas mee.",
+        "arabic": "خذ معك معطفاً.",
+        "tip": "Neem ... mee صيغة شائعة لإحضار شيء معك."
+      },
+      {
+        "id": "a1-weather-today-05",
+        "dutch": "Het regent vanmiddag.",
+        "arabic": "ستمطر بعد الظهر.",
+        "tip": "vanmiddag تعني بعد الظهر في هذا اليوم."
+      },
+      {
+        "id": "a1-weather-today-06",
+        "dutch": "Dan blijf ik liever binnen.",
+        "arabic": "عندئذ أفضل أن أبقى في الداخل.",
+        "tip": "liever تعني أفضل، وbinnen = في الداخل."
+      },
+      {
+        "id": "a1-weather-today-07",
+        "dutch": "Waait het hard buiten?",
+        "arabic": "هل الرياح قوية في الخارج؟",
+        "tip": "waaien = تهب الرياح؛ hard هنا تعني بقوة."
+      },
+      {
+        "id": "a1-weather-today-08",
+        "dutch": "Nee, er is maar een beetje wind.",
+        "arabic": "لا، هناك فقط قليل من الرياح.",
+        "tip": "een beetje wind = بعض الرياح أو رياح خفيفة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Samer",
+        "phraseId": "a1-weather-today-01"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-weather-today-02"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-weather-today-05"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-weather-today-04"
+      },
+      {
+        "speaker": "Samer",
+        "phraseId": "a1-weather-today-06"
+      },
+      {
+        "speaker": "Samer",
+        "phraseId": "a1-weather-today-07"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-weather-today-08"
+      }
+    ],
+    "grammar": {
+      "title": "وصف الطقس باستخدام het",
+      "explanation": "نستخدم het في أوصاف الطقس: het is zonnig، het regent، het wordt koud. وعندما تبدأ الجملة بـ Morgen أو Vandaag يأتي الفعل مباشرة بعد العبارة الزمنية.",
+      "example": "Morgen wordt het koud.",
+      "translation": "غداً سيصبح الجو بارداً."
+    },
+    "questions": [
+      {
+        "id": "weather-today-q1",
+        "prompt": "كيف تسأل عن حالة الطقس اليوم؟",
+        "options": [
+          "Hoe is het weer vandaag?",
+          "Waar is het station vandaag?",
+          "Hoe laat wordt het?"
+        ],
+        "correctIndex": 0,
+        "explanation": "het weer = الطقس، وهذه هي صيغة السؤال المباشرة عنه."
+      },
+      {
+        "id": "weather-today-q2",
+        "prompt": "ماذا يعني Neem een jas mee؟",
+        "options": [
+          "اشترِ معطفاً",
+          "خذ معك معطفاً",
+          "اخلع معطفك"
+        ],
+        "correctIndex": 1,
+        "explanation": "mee تدل هنا على اصطحاب الشيء معك."
+      },
+      {
+        "id": "weather-today-q3",
+        "prompt": "ماذا تفضّل الجملة Dan blijf ik liever binnen؟",
+        "options": [
+          "البقاء في الداخل",
+          "المشي في الحديقة",
+          "الذهاب إلى العمل مبكراً"
+        ],
+        "correctIndex": 0,
+        "explanation": "blijven binnen تعني البقاء في الداخل، وliever تعني التفضيل."
+      },
+      {
+        "id": "weather-today-q4",
+        "prompt": "ما المقصود بـ een beetje wind؟",
+        "options": [
+          "عاصفة قوية",
+          "قليل من الرياح",
+          "هواء داخل البيت"
+        ],
+        "correctIndex": 1,
+        "explanation": "een beetje = قليل من؛ إذن المقصود رياح خفيفة."
+      }
+    ]
+  },
+  {
+    "slug": "invitations-and-plans",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "23",
+    "title": "الدعوات والخطط",
+    "dutchTitle": "Afspreken en plannen",
+    "description": "ادعُ شخصاً، واقبل أو ارفض بلطف، واتفق على الوقت والمكان.",
+    "goal": "رتّب نشاطاً بسيطاً مع شخص آخر، وحدد الوقت والمكان، واعتذر إذا لم تستطع.",
+    "durationMinutes": 12,
+    "context": "ترسل رسالة إلى زميلة من دورة اللغة لتذهبا معاً إلى الحديقة يوم السبت.",
+    "phrases": [
+      {
+        "id": "a1-invitations-and-plans-01",
+        "dutch": "Hebt u zaterdag tijd?",
+        "arabic": "هل لديك وقت يوم السبت؟",
+        "tip": "tijd hebben تعني أن وقتك يسمح بشيء."
+      },
+      {
+        "id": "a1-invitations-and-plans-02",
+        "dutch": "Ja, zaterdagmiddag kan ik.",
+        "arabic": "نعم، أستطيع بعد ظهر السبت.",
+        "tip": "zaterdagmiddag تعني فترة بعد الظهر من يوم السبت."
+      },
+      {
+        "id": "a1-invitations-and-plans-03",
+        "dutch": "Zullen we naar het park gaan?",
+        "arabic": "هل نذهب إلى الحديقة؟",
+        "tip": "Zullen we ...? صيغة لطيفة لاقتراح خطة مشتركة."
+      },
+      {
+        "id": "a1-invitations-and-plans-04",
+        "dutch": "Goed idee.",
+        "arabic": "فكرة جيدة.",
+        "tip": "رد قصير لإظهار الموافقة على الاقتراح."
+      },
+      {
+        "id": "a1-invitations-and-plans-05",
+        "dutch": "Hoe laat spreken we af?",
+        "arabic": "في أي ساعة نتفق على اللقاء؟",
+        "tip": "afspreken يعني ترتيب لقاء أو اتفاق."
+      },
+      {
+        "id": "a1-invitations-and-plans-06",
+        "dutch": "Om twee uur bij het station.",
+        "arabic": "الساعة الثانية عند المحطة.",
+        "tip": "يمكنك ذكر الوقت والمكان معاً بجملة قصيرة."
+      },
+      {
+        "id": "a1-invitations-and-plans-07",
+        "dutch": "Sorry, dan kan ik niet.",
+        "arabic": "عذراً، لا أستطيع في ذلك الوقت.",
+        "tip": "dan هنا تعني عندئذ أو في ذلك الوقت الذي ذُكر."
+      },
+      {
+        "id": "a1-invitations-and-plans-08",
+        "dutch": "Geen probleem, een andere keer.",
+        "arabic": "لا مشكلة، مرة أخرى في وقت آخر.",
+        "tip": "een andere keer تعني مرةً أخرى في موعد آخر."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-invitations-and-plans-01"
+      },
+      {
+        "speaker": "Layla",
+        "phraseId": "a1-invitations-and-plans-02"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-invitations-and-plans-03"
+      },
+      {
+        "speaker": "Layla",
+        "phraseId": "a1-invitations-and-plans-04"
+      },
+      {
+        "speaker": "Layla",
+        "phraseId": "a1-invitations-and-plans-05"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-invitations-and-plans-06"
+      }
+    ],
+    "grammar": {
+      "title": "اقتراح خطة باستخدام Zullen we ...؟",
+      "explanation": "عندما نريد اقتراح نشاط مشترك نبدأ بـ Zullen we ثم يأتي الفعل الآخر في النهاية بصيغة المصدر: Zullen we ... gaan? ويمكن بعد ذلك متابعة الخطة بسؤال عن الوقت والمكان.",
+      "example": "Zullen we naar het park gaan?",
+      "translation": "هل نذهب إلى الحديقة؟"
+    },
+    "questions": [
+      {
+        "id": "invitations-and-plans-q1",
+        "prompt": "أي جملة تستخدم لدعوة شخص إلى نشاط مشترك؟",
+        "options": [
+          "Goed idee.",
+          "Zullen we naar het park gaan?",
+          "Nee, er is wind."
+        ],
+        "correctIndex": 1,
+        "explanation": "Zullen we ...? هي صيغة الاقتراح أو الدعوة اللطيفة."
+      },
+      {
+        "id": "invitations-and-plans-q2",
+        "prompt": "ما معنى Hoe laat spreken we af؟",
+        "options": [
+          "أين نلتقي؟",
+          "من سيأتي معنا؟",
+          "في أي ساعة نحدد اللقاء؟"
+        ],
+        "correctIndex": 2,
+        "explanation": "Hoe laat تسأل عن الوقت، وafspreken تعني ترتيب اللقاء."
+      },
+      {
+        "id": "invitations-and-plans-q3",
+        "prompt": "كيف ترفض الموعد بلطف إذا لم تستطع؟",
+        "options": [
+          "Sorry, dan kan ik niet.",
+          "Ik luister naar muziek.",
+          "Om twee uur bij het station."
+        ],
+        "correctIndex": 0,
+        "explanation": "هذه الجملة تعتذر أولاً ثم تقول إنك لا تستطيع في ذلك الوقت."
+      },
+      {
+        "id": "invitations-and-plans-q4",
+        "prompt": "ماذا تعني een andere keer؟",
+        "options": [
+          "مرة أخرى في وقت آخر",
+          "كل أسبوع",
+          "في الصباح فقط"
+        ],
+        "correctIndex": 0,
+        "explanation": "een andere keer تعني تأجيل الخطة إلى موعد آخر."
+      }
+    ]
+  },
+  {
+    "slug": "doctor-appointment",
+    "level": "A1",
+    "number": "24",
     "title": "موعد عند طبيب الأسرة",
     "dutchTitle": "Bij de huisarts",
     "description": "اشرح عرضاً بسيطاً وحدد منذ متى بدأت المشكلة.",
@@ -2381,7 +2809,7 @@
     "slug": "pharmacy",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "22",
+    "number": "25",
     "title": "في الصيدلية",
     "dutchTitle": "Bij de apotheek",
     "description": "اطلب استلام دوائك واسأل الصيدلي عن طريقة استخدامه.",
@@ -2488,7 +2916,7 @@
     "slug": "municipal-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "23",
+    "number": "26",
     "title": "موعد في البلدية",
     "dutchTitle": "Bij de gemeente",
     "description": "أخبر موظف الاستقبال أن لديك موعداً وافهم طلب إثبات الهوية.",
@@ -2595,7 +3023,7 @@
     "slug": "phone-calls",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "24",
+    "number": "27",
     "title": "مكالمة قصيرة",
     "dutchTitle": "Telefoneren",
     "description": "عرّف بنفسك في الهاتف واطلب تكرار الكلام أو إبطاءه.",
@@ -2698,7 +3126,7 @@
     "slug": "letters-and-messages",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "25",
+    "number": "28",
     "title": "فهم رسالة موعد",
     "dutchTitle": "Een afspraakbericht lezen",
     "description": "استخرج يوم الموعد وساعته وما يجب إحضاره من رسالة قصيرة.",

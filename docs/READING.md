@@ -1,6 +1,6 @@
 # Contextual reading library
 
-The free `/reading` library extends the existing phrase-based lessons with nine original short Dutch texts for guided beginner reading. These are authored teaching examples, not copied letters, live service instructions, official exam material, or a complete CEFR syllabus.
+The free `/reading` library extends the existing phrase-based lessons with ten original short Dutch texts for guided beginner reading. These are authored teaching examples, not copied letters, live service instructions, official exam material, or a complete CEFR syllabus.
 
 ## Current content
 
@@ -15,8 +15,9 @@ The free `/reading` library extends the existing phrase-based lessons with nine 
 | Een bericht aan de verhuurder | A repair request and availability | A polite `Kunt u ...?` request |
 | Een bericht voor de ochtendploeg | A work team's tasks and break | Instructions ordered by `eerst` and `daarna` |
 | De lesweek van Nour | Course dates, weekly frequency and activities after class | Word order after a day phrase; clock times and duration |
+| Een zaterdag in het park | A weekend invitation, the weather, and a meeting plan | Separable `afspreken` in a time/place plan |
 
-There are 46 contextual vocabulary/expression notes, nine grammar notes, and 28 comprehension questions. The original 20 lessons, 101 phrase IDs, audio manifest, saved progress IDs, and review IDs remain unchanged. Reading texts are not automatically included in audio generation or the saved phrase review list.
+There are 51 contextual vocabulary/expression notes, ten grammar notes, and 32 comprehension questions. The original 20 lessons, 101 phrase IDs, audio manifest, saved progress IDs, and review IDs remain unchanged. Reading texts are not automatically included in audio generation or the saved phrase review list.
 
 ## Learning flow
 
@@ -34,4 +35,4 @@ Edit `src/data/readings.json`. Keep slugs and question IDs stable; use unique qu
 
 Editorial review during implementation checked narrative consistency, Dutch/Arabic correspondence, the distinction between old and new appointment times, `half negen`/`half tien`, task ordering, relevant lesson links, and contextual vocabulary. **Independent review by a qualified Dutch/Arabic language editor is still pending.** Do not describe the texts as certified A1 material or professionally language-reviewed. Further enrichment should add longer varied passages, broader vocabulary, and original production tasks after reviewing this bank.
 
-Browser tests cover discovery, all nine routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. CI continues to run the full account, lesson, placement, listening, writing, and review suites.
+Browser tests cover discovery, all ten routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. CI continues to run the full account, lesson, placement, listening, writing, and review suites.

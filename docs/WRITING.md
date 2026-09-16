@@ -26,6 +26,6 @@ The summary now offers an explicit button to add first-attempt differences and a
 
 ## Verification
 
-Native tests cover all 141 phrases, normalization boundaries, omitted/extra/repeated/reordered words, maximum length, and assisted scoring. Browser tests cover the lesson link, hidden model, disabled blank submission, normalization, feedback, retry focus and immutable first result, assisted summaries, review lists, unchanged guest progress, reload/navigation reset, every route, 404, input limits, and mobile overflow with a long unbroken answer. The full existing suite remains a required gate.
+Native tests cover all 165 phrases, normalization boundaries, omitted/extra/repeated/reordered words, maximum length, and assisted scoring. Browser tests cover the lesson link, hidden model, disabled blank submission, normalization, feedback, retry focus and immutable first result, assisted summaries, review lists, unchanged guest progress, reload/navigation reset, every route, 404, input limits, and mobile overflow with a long unbroken answer. The full existing suite remains a required gate.
 
 The separate foundation production tasks on lesson pages accept original responses with optional models and self-review questions. They do not use this exact-wording comparison engine. See `docs/A1_CURRICULUM.md`.

@@ -771,5 +771,101 @@
         "explanation": "الخميس مخصص هنا للتدريب في المكتبة؛ الذهاب إلى العمل ورد بعد درس الاثنين، ومراجعة المفكرة يوم الأحد."
       }
     ]
+  },
+  {
+    "slug": "a-saturday-park-plan",
+    "title": "خطة ليوم السبت في الحديقة",
+    "dutchTitle": "Een zaterdag in het park",
+    "topic": "الهوايات والطقس والدعوات",
+    "sourceLessons": [
+      "free-time-hobbies",
+      "weather-today",
+      "invitations-and-plans"
+    ],
+    "text": "Op vrijdag stuurt Noor een bericht naar Layla. Ze vraagt of Layla zaterdagmiddag tijd heeft en of ze samen naar het park willen gaan. Layla leest het bericht na haar werk en antwoordt meteen dat ze graag meegaat. Op zaterdag is het eerst bewolkt, maar in de middag wordt het droog en zacht. Layla neemt een jas en een fles water mee. Om twee uur spreekt ze met Noor af bij het station. Daarna wandelen ze in het park en drinken ze koffie. Om vijf uur gaat Layla weer naar huis, want zondag werkt ze vroeg.",
+    "translation": "يوم الجمعة ترسل نور رسالة إلى ليلى. تسألها إن كان لديها وقت بعد ظهر السبت وإن كانتا تريدان الذهاب معاً إلى الحديقة. تقرأ ليلى الرسالة بعد عملها وترد فوراً بأنها ستذهب بسرور. يوم السبت يكون الجو غائماً أولاً، لكن بعد الظهر يصبح جافاً ولطيفاً. تأخذ ليلى معها معطفاً وزجاجة ماء. الساعة الثانية تلتقي نور عند المحطة. بعد ذلك تمشيان في الحديقة وتشربان القهوة. وفي الساعة الخامسة تعود ليلى إلى المنزل لأن لديها عملاً مبكراً يوم الأحد.",
+    "vocabulary": [
+      {
+        "term": "een bericht",
+        "excerpt": "een bericht",
+        "meaning": "رسالة قصيرة، غالباً على الهاتف أو التطبيق."
+      },
+      {
+        "term": "graag meegaat",
+        "excerpt": "graag meegaat",
+        "meaning": "تذهب بسرور أو بكل رغبة؛ meegaat من الفعل meegaan."
+      },
+      {
+        "term": "bewolkt",
+        "excerpt": "bewolkt",
+        "meaning": "غائم؛ لا يعني بالضرورة وجود مطر."
+      },
+      {
+        "term": "een fles water",
+        "excerpt": "een fles water",
+        "meaning": "زجاجة ماء تأخذها ليلى معها إلى الحديقة."
+      },
+      {
+        "term": "bij het station",
+        "excerpt": "bij het station",
+        "meaning": "عند المحطة؛ مكان اللقاء هنا."
+      }
+    ],
+    "grammar": {
+      "title": "الفعل المنفصل afspreken في الخطة",
+      "example": "Om twee uur spreekt ze met Noor af bij het station.",
+      "translation": "الساعة الثانية تتفق على اللقاء مع نور عند المحطة.",
+      "explanation": "الفعل afspreken ينفصل في الجملة البسيطة: spreekt ... af. تبدأ الجملة هنا بعبارة الوقت Om twee uur، لذلك يأتي الفعل spreekt قبل الفاعل ze."
+    },
+    "questions": [
+      {
+        "id": "reading-park-plan-1",
+        "prompt": "متى ترسل نور الرسالة إلى ليلى؟",
+        "options": [
+          "يوم الجمعة",
+          "يوم السبت",
+          "يوم الأحد"
+        ],
+        "correctIndex": 0,
+        "evidence": "Op vrijdag stuurt Noor een bericht naar Layla.",
+        "explanation": "الجملة الأولى تذكر صراحة أن الرسالة أُرسلت يوم الجمعة."
+      },
+      {
+        "id": "reading-park-plan-2",
+        "prompt": "ماذا تأخذ ليلى معها إلى الحديقة؟",
+        "options": [
+          "معطفاً وزجاجة ماء",
+          "كتاباً وتذكرة قطار",
+          "مظلة وحقيبة مدرسة"
+        ],
+        "correctIndex": 0,
+        "evidence": "Layla neemt een jas en een fles water mee.",
+        "explanation": "النص يذكر شيئين محددين تأخذهما ليلى معها: معطفاً وزجاجة ماء."
+      },
+      {
+        "id": "reading-park-plan-3",
+        "prompt": "أين تلتقي ليلى ونور؟",
+        "options": [
+          "في المكتبة",
+          "عند المحطة",
+          "أمام المدرسة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Om twee uur spreekt ze met Noor af bij het station.",
+        "explanation": "bij het station تعني عند المحطة، وهو مكان اللقاء المذكور."
+      },
+      {
+        "id": "reading-park-plan-4",
+        "prompt": "لماذا تعود ليلى إلى البيت في الخامسة؟",
+        "options": [
+          "لأن الجو ممطر",
+          "لأن لديها درساً مساءً",
+          "لأنها تعمل مبكراً يوم الأحد"
+        ],
+        "correctIndex": 2,
+        "evidence": "Om vijf uur gaat Layla weer naar huis, want zondag werkt ze vroeg.",
+        "explanation": "السبب ورد بعد want: لديها عمل مبكر يوم الأحد."
+      }
+    ]
   }
 ]
