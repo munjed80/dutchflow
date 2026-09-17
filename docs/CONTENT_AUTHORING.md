@@ -4,7 +4,7 @@ Read `docs/A1_CURRICULUM.md` for thematic goals, readiness gates, vocabulary for
 
 For the separate original reading texts, contextual vocabulary, grammar examples, and evidenced questions, read `docs/READING.md`. Reading slugs and question IDs are separate from lesson/audio phrase IDs. Do not add reading texts to the audio manifest implicitly.
 
-`src/data/modules.json` defines the ordered modules. `src/data/lessons.json` is the ordered lesson source for rendering, quizzes, and generated phrase audio. The current release contains 28 introductory lessons across four modules; this is not a complete CEFR A1 syllabus or an official exam preparation guarantee.
+`src/data/modules.json` defines the ordered modules. `src/data/lessons.json` is the ordered lesson source for rendering, quizzes, and generated phrase audio. The current release contains 30 introductory lessons across four modules; this is not a complete CEFR A1 syllabus or an official exam preparation guarantee.
 
 ## Add or edit a lesson
 
@@ -19,6 +19,6 @@ For the separate original reading texts, contextual vocabulary, grammar examples
 
 - The original routes `introductions`, `doctor-appointment`, and `at-the-shop` remain valid. Their lesson numbers may change; progress follows their slugs.
 - New lesson phrases are included automatically by `npm run audio:generate -- --dry-run`. The generator validates the entire curriculum even when using `--limit`.
-- Voice generation requires credentials and has not been run for this catalogue. The current 165 phrases correspond to 660 files with two voices and two speeds.
+- Voice generation requires credentials and has not been run for this catalogue. The current 181 phrases correspond to 724 files with two voices and two speeds.
 - The generator currently reuses files by ID, voice, and speed. If the spoken Dutch text changes, remove all cached variants for that phrase and regenerate them; changing only the Arabic explanation does not require regeneration. Content-hash invalidation is a future improvement.
 - After generation, listen to the files before publishing the MP3s and manifest together. At larger scale, publish audio to object storage instead of keeping thousands of binaries in Git.

@@ -867,5 +867,101 @@
         "explanation": "السبب ورد بعد want: لديها عمل مبكر يوم الأحد."
       }
     ]
+  },
+  {
+    "slug": "a-message-about-absence",
+    "title": "رسالة عن غياب من المدرسة",
+    "dutchTitle": "Een afwezigheidsbericht",
+    "topic": "الأسرة والمدرسة والرسائل القصيرة",
+    "sourceLessons": [
+      "school-and-family",
+      "family-at-home",
+      "message-to-school"
+    ],
+    "text": "Goedemorgen juf Emma, mijn dochter Lina is vandaag ziek en blijft thuis. Zij heeft sinds vannacht koorts. Kunt u het huiswerk naar mij mailen? Mijn man is vanmiddag thuis, dus u kunt hem ook bellen als dat makkelijker is. Als Lina morgen geen koorts meer heeft, komt zij weer naar school. Alvast bedankt voor uw hulp. Met vriendelijke groet, Samira Haddad.",
+    "translation": "صباح الخير يا معلمة إيما، ابنتي لينا مريضة اليوم وستبقى في البيت. لديها حمى منذ الليلة الماضية. هل يمكنك إرسال الواجب إليّ بالبريد؟ زوجي سيكون في البيت بعد الظهر، لذلك يمكنك أيضاً الاتصال به إذا كان ذلك أسهل. إذا لم تعد لدى لينا حمى غداً، فستعود إلى المدرسة. شكراً مقدماً على مساعدتك. مع خالص التحية، سميرة حداد.",
+    "vocabulary": [
+      {
+        "term": "afwezig",
+        "excerpt": "blijft thuis",
+        "meaning": "غائب عن المدرسة؛ النص يعبر عنه هنا بالبقاء في البيت."
+      },
+      {
+        "term": "sinds vannacht",
+        "excerpt": "sinds vannacht",
+        "meaning": "منذ الليلة الماضية أو منذ منتصف الليل تقريباً."
+      },
+      {
+        "term": "mailen",
+        "excerpt": "mailen",
+        "meaning": "يرسل بالبريد الإلكتروني."
+      },
+      {
+        "term": "makkelijker",
+        "excerpt": "makkelijker",
+        "meaning": "أسهل أو أيسر من خيار آخر."
+      },
+      {
+        "term": "met vriendelijke groet",
+        "excerpt": "Met vriendelijke groet",
+        "meaning": "مع خالص التحية؛ خاتمة مهذبة في الرسائل."
+      }
+    ],
+    "grammar": {
+      "title": "dus: نتيجة أو متابعة منطقية",
+      "example": "Mijn man is vanmiddag thuis, dus u kunt hem ook bellen als dat makkelijker is.",
+      "translation": "زوجي سيكون في البيت بعد الظهر، لذلك يمكنك أيضاً الاتصال به إذا كان ذلك أسهل.",
+      "explanation": "dus تربط الجملة بنتيجتها أو بما يترتب عليها. بعد dus تأتي هنا جملة رئيسية عادية تبدأ بالفاعل u ثم الفعل kunt."
+    },
+    "questions": [
+      {
+        "id": "reading-absence-1",
+        "prompt": "لماذا لن تأتي لينا إلى المدرسة اليوم؟",
+        "options": [
+          "لأن لديها رحلة مدرسية",
+          "لأنها مريضة",
+          "لأن المعلمة غائبة"
+        ],
+        "correctIndex": 1,
+        "evidence": "mijn dochter Lina is vandaag ziek en blijft thuis.",
+        "explanation": "الرسالة تقول بوضوح إن لينا مريضة اليوم ولذلك ستبقى في البيت."
+      },
+      {
+        "id": "reading-absence-2",
+        "prompt": "ماذا تطلب سميرة من المعلمة؟",
+        "options": [
+          "أن تغيّر الصف",
+          "أن ترسل الواجب بالبريد",
+          "أن تحجز موعداً جديداً"
+        ],
+        "correctIndex": 1,
+        "evidence": "Kunt u het huiswerk naar mij mailen?",
+        "explanation": "السؤال المباشر في الرسالة هو طلب إرسال الواجب بالبريد الإلكتروني."
+      },
+      {
+        "id": "reading-absence-3",
+        "prompt": "من يمكن للمعلمة أن تتصل به بعد الظهر إذا كان ذلك أسهل؟",
+        "options": [
+          "الأخ",
+          "الزوج",
+          "الابنة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Mijn man is vanmiddag thuis, dus u kunt hem ook bellen als dat makkelijker is.",
+        "explanation": "الهاء في hem تعود إلى الزوج، لأنه سيكون في البيت بعد الظهر."
+      },
+      {
+        "id": "reading-absence-4",
+        "prompt": "متى يمكن أن تعود لينا إلى المدرسة؟",
+        "options": [
+          "إذا زالت الحمى غداً",
+          "بعد أسبوع فقط",
+          "في نهاية اليوم نفسه"
+        ],
+        "correctIndex": 0,
+        "evidence": "Als Lina morgen geen koorts meer heeft, komt zij weer naar school.",
+        "explanation": "العودة مرتبطة بالشرط المذكور: ألا تكون لديها حمى غداً."
+      }
+    ]
   }
 ]

@@ -2275,10 +2275,294 @@
     ]
   },
   {
-    "slug": "free-time-hobbies",
+    "slug": "family-at-home",
     "moduleId": "daily-life",
     "level": "A1",
     "number": "21",
+    "title": "العائلة في البيت",
+    "dutchTitle": "Thuis met het gezin",
+    "description": "قدّم أفراد العائلة، وقل من يعيش في البيت، واسأل عن الإخوة والأخوات.",
+    "goal": "أصف أفراد العائلة القريبين، وأذكر من يعيش في البيت، وأسأل سؤالاً بسيطاً عن الإخوة والأخوات.",
+    "durationMinutes": 12,
+    "context": "تتحدث مع جارة جديدة عن أسرتك بعد التعارف في مدخل البناية.",
+    "phrases": [
+      {
+        "id": "a1-family-at-home-01",
+        "dutch": "Ik woon met mijn vrouw en twee kinderen.",
+        "arabic": "أعيش مع زوجتي وطفلين.",
+        "tip": "met تعني مع، وtwee kinderen = طفلان أو طفلين بحسب السياق."
+      },
+      {
+        "id": "a1-family-at-home-02",
+        "dutch": "Mijn broer woont ook in Alkmaar.",
+        "arabic": "أخي يسكن أيضاً في ألكمار.",
+        "tip": "ook تعني أيضاً وتضيف معلومة مرتبطة بما قبلها."
+      },
+      {
+        "id": "a1-family-at-home-03",
+        "dutch": "Hebt u kinderen?",
+        "arabic": "هل لديك أطفال؟",
+        "tip": "في سؤال نعم أو لا يأتي الفعل أولاً: Hebt u ...?"
+      },
+      {
+        "id": "a1-family-at-home-04",
+        "dutch": "Ja, ik heb een zoon en een dochter.",
+        "arabic": "نعم، لدي ابن وابنة.",
+        "tip": "een zoon en een dochter تعني ابناً واحداً وابنةً واحدة."
+      },
+      {
+        "id": "a1-family-at-home-05",
+        "dutch": "Mijn dochter is acht jaar oud.",
+        "arabic": "ابنتي عمرها ثماني سنوات.",
+        "tip": "jaar oud تعبير شائع عند ذكر العمر."
+      },
+      {
+        "id": "a1-family-at-home-06",
+        "dutch": "Mijn ouders wonen niet in Nederland.",
+        "arabic": "والداي لا يعيشان في هولندا.",
+        "tip": "ouders تعني الوالدين معاً، وniet تنفي الجملة هنا."
+      },
+      {
+        "id": "a1-family-at-home-07",
+        "dutch": "Mijn zus komt vaak op bezoek.",
+        "arabic": "أختي تأتي كثيراً للزيارة.",
+        "tip": "op bezoek komen تعبير يعني المجيء للزيارة."
+      },
+      {
+        "id": "a1-family-at-home-08",
+        "dutch": "Dat is een groot gezin.",
+        "arabic": "هذه عائلة كبيرة.",
+        "tip": "gezin تعني الأسرة أو العائلة التي تعيش معاً."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Buurvrouw",
+        "phraseId": "a1-family-at-home-03"
+      },
+      {
+        "speaker": "Rami",
+        "phraseId": "a1-family-at-home-04"
+      },
+      {
+        "speaker": "Rami",
+        "phraseId": "a1-family-at-home-05"
+      },
+      {
+        "speaker": "Rami",
+        "phraseId": "a1-family-at-home-06"
+      },
+      {
+        "speaker": "Buurvrouw",
+        "phraseId": "a1-family-at-home-08"
+      }
+    ],
+    "grammar": {
+      "title": "الملكية مع mijn وأفراد العائلة",
+      "explanation": "نستخدم mijn قبل أسماء العائلة القريبة: mijn broer، mijn zus، mijn ouders. وعندما تبدأ الجملة بـ Mijn dochter أو Mijn ouders يتغير الفعل بحسب المفرد أو الجمع.",
+      "example": "Mijn ouders wonen niet in Nederland.",
+      "translation": "والداي لا يعيشان في هولندا."
+    },
+    "questions": [
+      {
+        "id": "family-at-home-q1",
+        "prompt": "أي جملة تسأل عن وجود أطفال؟",
+        "options": [
+          "Hebt u kinderen?",
+          "Mijn broer woont ook in Alkmaar.",
+          "Dat is een groot gezin."
+        ],
+        "correctIndex": 0,
+        "explanation": "Hebt u kinderen? هي صيغة السؤال المباشر عن الأطفال."
+      },
+      {
+        "id": "family-at-home-q2",
+        "prompt": "ما معنى Mijn ouders wonen niet in Nederland؟",
+        "options": [
+          "والداي يسافران اليوم",
+          "والداي لا يعيشان في هولندا",
+          "أطفالي في المدرسة"
+        ],
+        "correctIndex": 1,
+        "explanation": "ouders = الوالدان، وniet تنفي السكن في هولندا."
+      },
+      {
+        "id": "family-at-home-q3",
+        "prompt": "كم عدد الأطفال في Ja, ik heb een zoon en een dochter؟",
+        "options": [
+          "طفل واحد",
+          "طفلان",
+          "ثلاثة أطفال"
+        ],
+        "correctIndex": 1,
+        "explanation": "zoon = ابن وdochter = ابنة، أي طفلان."
+      },
+      {
+        "id": "family-at-home-q4",
+        "prompt": "ماذا تعني op bezoek komen؟",
+        "options": [
+          "الذهاب إلى المدرسة",
+          "المجيء للزيارة",
+          "العودة من العمل"
+        ],
+        "correctIndex": 1,
+        "explanation": "op bezoek komen تعني القدوم لزيارة شخص."
+      }
+    ]
+  },
+  {
+    "slug": "message-to-school",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "22",
+    "title": "رسالة إلى المدرسة",
+    "dutchTitle": "Een bericht aan school",
+    "description": "أخبر المدرسة بالغياب، واذكر السبب، واسأل عن الواجب أو وقت اللقاء.",
+    "goal": "أكتب أو أفهم رسالة قصيرة عن غياب طفل، مع سبب بسيط وسؤال متابعة واضح.",
+    "durationMinutes": 12,
+    "context": "ترسل رسالة قصيرة إلى معلمة المدرسة لأن ابنتك لن تأتي اليوم.",
+    "phrases": [
+      {
+        "id": "a1-message-to-school-01",
+        "dutch": "Goedemorgen, mijn dochter Nora is vandaag ziek.",
+        "arabic": "صباح الخير، ابنتي نورا مريضة اليوم.",
+        "tip": "يمكن أن تبدأ الرسالة بتحية بسيطة ثم بالمعلومة المهمة مباشرةً."
+      },
+      {
+        "id": "a1-message-to-school-02",
+        "dutch": "Zij komt vandaag niet naar school.",
+        "arabic": "هي لن تأتي إلى المدرسة اليوم.",
+        "tip": "بعد Mijn dochter يمكن استخدام zij أو ze للحديث عن الابنة."
+      },
+      {
+        "id": "a1-message-to-school-03",
+        "dutch": "Kunt u het huiswerk sturen?",
+        "arabic": "هل يمكنك إرسال الواجب؟",
+        "tip": "huiswerk = الواجب المدرسي، وsturen = يرسل."
+      },
+      {
+        "id": "a1-message-to-school-04",
+        "dutch": "Dank u voor uw bericht.",
+        "arabic": "شكراً على رسالتك.",
+        "tip": "رد مهذب شائع في الرسائل القصيرة."
+      },
+      {
+        "id": "a1-message-to-school-05",
+        "dutch": "Ik stuur het huiswerk vanmiddag.",
+        "arabic": "سأرسل الواجب بعد الظهر.",
+        "tip": "vanmiddag تحدد أن الإرسال سيكون بعد الظهر."
+      },
+      {
+        "id": "a1-message-to-school-06",
+        "dutch": "Kan zij morgen weer komen?",
+        "arabic": "هل يمكنها أن تأتي مجدداً غداً؟",
+        "tip": "weer تعني مرة أخرى أو مجدداً في هذا السياق."
+      },
+      {
+        "id": "a1-message-to-school-07",
+        "dutch": "Ja, als zij geen koorts heeft.",
+        "arabic": "نعم، إذا لم يكن لديها حمى.",
+        "tip": "geen koorts = لا توجد حمى؛ تعبير لغوي بسيط لا يقدم نصيحة طبية عامة."
+      },
+      {
+        "id": "a1-message-to-school-08",
+        "dutch": "Tot morgen op school.",
+        "arabic": "إلى الغد في المدرسة.",
+        "tip": "Tot morgen تعبير ختامي قصير إذا كان اللقاء متوقعاً غداً."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Ouder",
+        "phraseId": "a1-message-to-school-01"
+      },
+      {
+        "speaker": "Ouder",
+        "phraseId": "a1-message-to-school-02"
+      },
+      {
+        "speaker": "Ouder",
+        "phraseId": "a1-message-to-school-03"
+      },
+      {
+        "speaker": "Leerkracht",
+        "phraseId": "a1-message-to-school-04"
+      },
+      {
+        "speaker": "Leerkracht",
+        "phraseId": "a1-message-to-school-05"
+      },
+      {
+        "speaker": "Ouder",
+        "phraseId": "a1-message-to-school-06"
+      },
+      {
+        "speaker": "Leerkracht",
+        "phraseId": "a1-message-to-school-07"
+      },
+      {
+        "speaker": "Leerkracht",
+        "phraseId": "a1-message-to-school-08"
+      }
+    ],
+    "grammar": {
+      "title": "الضمير zij بعد dochter",
+      "explanation": "بعد ذكر dochter يمكن الإشارة إليها بـ zij أو ze: Zij komt vandaag niet naar school. وفي السؤال Kan zij morgen weer komen? يأتي الفعل kan أولاً لأنه سؤال نعم أو لا.",
+      "example": "Zij komt vandaag niet naar school.",
+      "translation": "هي لن تأتي إلى المدرسة اليوم."
+    },
+    "questions": [
+      {
+        "id": "message-to-school-q1",
+        "prompt": "كيف تقول إن ابنتك لن تأتي إلى المدرسة اليوم؟",
+        "options": [
+          "Zij komt vandaag niet naar school.",
+          "Ik stuur het huiswerk vanmiddag.",
+          "Tot morgen op school."
+        ],
+        "correctIndex": 0,
+        "explanation": "هذه الجملة تنقل معلومة الغياب بوضوح."
+      },
+      {
+        "id": "message-to-school-q2",
+        "prompt": "ماذا تطلب في Kunt u het huiswerk sturen؟",
+        "options": [
+          "إرسال الواجب",
+          "تغيير الصف",
+          "إلغاء الرحلة"
+        ],
+        "correctIndex": 0,
+        "explanation": "huiswerk = الواجب، وsturen = إرسال."
+      },
+      {
+        "id": "message-to-school-q3",
+        "prompt": "متى سيرسل المعلم الواجب في Ik stuur het huiswerk vanmiddag؟",
+        "options": [
+          "صباح الغد",
+          "بعد الظهر",
+          "الآن فوراً"
+        ],
+        "correctIndex": 1,
+        "explanation": "vanmiddag تعني بعد الظهر."
+      },
+      {
+        "id": "message-to-school-q4",
+        "prompt": "ما معنى weer في Kan zij morgen weer komen؟",
+        "options": [
+          "في البيت",
+          "مرة أخرى",
+          "ببطء"
+        ],
+        "correctIndex": 1,
+        "explanation": "weer هنا تعني مجدداً أو مرة أخرى."
+      }
+    ]
+  },
+  {
+    "slug": "free-time-hobbies",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "23",
     "title": "الهوايات ووقت الفراغ",
     "dutchTitle": "Hobby's en vrije tijd",
     "description": "قل ما تحب فعله في وقت الفراغ، واسأل شخصاً آخر عن هوايته.",
@@ -2422,7 +2706,7 @@
     "slug": "weather-today",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "22",
+    "number": "24",
     "title": "الطقس اليوم",
     "dutchTitle": "Het weer vandaag",
     "description": "اسأل عن الطقس، وافهم وصفاً بسيطاً، وخذ معك ما تحتاج إليه.",
@@ -2566,7 +2850,7 @@
     "slug": "invitations-and-plans",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "23",
+    "number": "25",
     "title": "الدعوات والخطط",
     "dutchTitle": "Afspreken en plannen",
     "description": "ادعُ شخصاً، واقبل أو ارفض بلطف، واتفق على الوقت والمكان.",
@@ -2705,7 +2989,7 @@
   {
     "slug": "doctor-appointment",
     "level": "A1",
-    "number": "24",
+    "number": "26",
     "title": "موعد عند طبيب الأسرة",
     "dutchTitle": "Bij de huisarts",
     "description": "اشرح عرضاً بسيطاً وحدد منذ متى بدأت المشكلة.",
@@ -2809,7 +3093,7 @@
     "slug": "pharmacy",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "25",
+    "number": "27",
     "title": "في الصيدلية",
     "dutchTitle": "Bij de apotheek",
     "description": "اطلب استلام دوائك واسأل الصيدلي عن طريقة استخدامه.",
@@ -2916,7 +3200,7 @@
     "slug": "municipal-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "26",
+    "number": "28",
     "title": "موعد في البلدية",
     "dutchTitle": "Bij de gemeente",
     "description": "أخبر موظف الاستقبال أن لديك موعداً وافهم طلب إثبات الهوية.",
@@ -3023,7 +3307,7 @@
     "slug": "phone-calls",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "27",
+    "number": "29",
     "title": "مكالمة قصيرة",
     "dutchTitle": "Telefoneren",
     "description": "عرّف بنفسك في الهاتف واطلب تكرار الكلام أو إبطاءه.",
@@ -3126,7 +3410,7 @@
     "slug": "letters-and-messages",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "28",
+    "number": "30",
     "title": "فهم رسالة موعد",
     "dutchTitle": "Een afspraakbericht lezen",
     "description": "استخرج يوم الموعد وساعته وما يجب إحضاره من رسالة قصيرة.",

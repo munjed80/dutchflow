@@ -5,12 +5,12 @@ import { validateReadings } from "../scripts/lib/validate-readings.mjs";
 const readings = JSON.parse(await readFile(new URL("../src/data/readings.json", import.meta.url), "utf8"));
 const lessons = JSON.parse(await readFile(new URL("../src/data/lessons.json", import.meta.url), "utf8"));
 
-test("ten original reading units contain vocabulary, grammar and evidenced comprehension questions", () => {
+test("eleven original reading units contain vocabulary, grammar and evidenced comprehension questions", () => {
   assert.deepEqual(validateReadings(readings, lessons), []);
-  assert.equal(readings.length, 10);
-  assert.equal(readings.reduce((sum, reading) => sum + reading.vocabulary.length, 0), 51);
-  assert.equal(readings.reduce((sum, reading) => sum + reading.questions.length, 0), 32);
-  assert.equal(new Set(readings.map((reading) => reading.text)).size, 10);
+  assert.equal(readings.length, 11);
+  assert.equal(readings.reduce((sum, reading) => sum + reading.vocabulary.length, 0), 56);
+  assert.equal(readings.reduce((sum, reading) => sum + reading.questions.length, 0), 36);
+  assert.equal(new Set(readings.map((reading) => reading.text)).size, 11);
 });
 
 test("reading validation rejects broken evidence, grammar examples and vocabulary references", () => {

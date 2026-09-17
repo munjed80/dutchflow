@@ -25,11 +25,11 @@ This table is a development plan. It does not claim that every listed language p
 
 ## Coverage at this release
 
-- 28 lessons, 165 reusable phrases and 92 lesson questions; ten separate readings with 32 comprehension questions.
+- 30 lessons, 181 reusable phrases and 100 lesson questions; eleven separate readings with 36 comprehension questions.
 - Every lesson and reading is mapped. All ten units now display **partial coverage** with explicit remaining work. No unit displays complete or a mastery percentage.
 - New foundation lessons: `spelling-your-name`, `contact-details`, `asking-for-clarification`. Each has eight phrases, a contextual dialogue, a grammar note, four questions, six vocabulary/form notes and two self-review production tasks.
 - `src/data/lesson-extensions.json` holds 42 vocabulary notes and 14 production tasks across seven lessons. Nouns include an article and plural; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is the first set of lexical notes, not a complete searchable dictionary.
-- The foundation release added 24 phrase IDs; the numbers/time release adds another 16; the leisure/plans release adds another 24. New phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 28 lessons.
+- The foundation release added 24 phrase IDs; the numbers/time release adds another 16; the leisure/plans release adds another 24; the family/school release adds another 16. New phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 30 lessons.
 - The two production tasks per enriched lesson offer a temporary text area, hidden model answer, Arabic meaning and review questions. Learners reuse structures with fictional details or combine known expressions. Multiple answers may be valid; there is no automatic judgment, score, mastery claim or completion write. Reload or route navigation resets answers. These tasks are separate from exact lesson-wording recall at `/writing` and do not record speech.
 - Listening still uses device TTS when MP3s are absent; connected listening passages, spoken interaction and assessed pronunciation remain missing. Spelling text does not constitute an alphabet pronunciation course. Have an editor listen especially to spelled letters, numbers and postcodes before publishing audio.
 
@@ -46,6 +46,12 @@ The lexical notes explicitly distinguish singular forms used in quantities (`der
 `free-time-hobbies` covers everyday hobbies, `graag` with an activity and a simple shared suggestion. `weather-today` adds basic weather descriptions, `het` in weather expressions, and practical responses such as taking a coat or preferring to stay inside. `invitations-and-plans` introduces invitations, acceptance/decline, meeting time and place, and `Zullen we ...?` for a shared plan.
 
 These three lessons add 24 phrases, 12 graded questions, 18 lexical notes and six self-review tasks. The reading `a-saturday-park-plan` ties hobbies, weather and an invitation into one short unseen plan with four evidenced questions and a separable-verb grammar note. The unit is still partial because it lacks reviewed connected listening, a short original writing task with feedback beyond self-review, and an oral role-play on changing plans.
+
+## Family and school expansion
+
+`family-at-home` adds immediate family members, who lives together, and simple questions about children. `message-to-school` adds a short school-absence message, a request to send homework, and a basic follow-up question about returning tomorrow. The existing `school-and-family` lesson now sits within a fuller unit instead of standing alone.
+
+This expansion adds 16 phrases, eight graded questions, 18 lexical notes and six self-review tasks across `school-and-family`, `family-at-home`, and `message-to-school`. The new reading `a-message-about-absence` adds a second family/school text with four evidenced questions and a `dus` grammar note. The unit remains partial because it still needs reviewed listening, shorter original message-writing with feedback beyond self-review, and a direct interaction task with school staff.
 
 ## Definition of readiness for each unit
 
@@ -70,4 +76,4 @@ The map and vocabulary render on the server. Only the current lesson's productio
 
 ## Next delivery
 
-Review the new leisure content and validate recorded phrase audio for hobbies, weather and invitation timing. Continue expanding family/school, services/messages and health units with the same lesson-reading-enrichment pattern, then add connected listening and oral tasks across the map. Use the readiness gates above to deepen each unit before adding A2 labels or opening paid examinations.
+Review the new family/school content and validate recorded phrase audio for kinship, absence messages and school follow-up language. Continue expanding services/messages and health units with the same lesson-reading-enrichment pattern, then add connected listening and oral tasks across the map. Use the readiness gates above to deepen each unit before adding A2 labels or opening paid examinations.
