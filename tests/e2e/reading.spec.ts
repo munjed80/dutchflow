@@ -89,5 +89,5 @@ test("weekly programme reading requires all four answers and explains duration s
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   expect(await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"))).toBeNull();
   await page.locator(".next-lesson").click();
-  await expect(page).toHaveURL("/reading");
+  await expect(page).toHaveURL(`/reading/${readings[readings.findIndex((item) => item.slug === reading.slug) + 1].slug}`);
 });

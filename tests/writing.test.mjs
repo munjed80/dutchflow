@@ -4,14 +4,14 @@ import { readFile } from "node:fs/promises";
 import { compareWriting, normalizeWriting, summarizeWriting, MAX_WRITING_LENGTH } from "../src/lib/writing.ts";
 const lessons = JSON.parse(await readFile(new URL("../src/data/lessons.json", import.meta.url), "utf8"));
 
-test("all 141 authored phrases fit the writing limit and match normalized learner input", () => {
+test("all 181 authored phrases fit the writing limit and match normalized learner input", () => {
   let count = 0;
   for (const lesson of lessons) for (const phrase of lesson.phrases) {
     assert.ok(phrase.dutch.length <= MAX_WRITING_LENGTH);
     assert.ok(compareWriting(`  ${phrase.dutch.toUpperCase().replaceAll(" ", "   ")}  `, phrase.dutch).matches);
     count++;
   }
-  assert.equal(count, 141);
+  assert.equal(count, 181);
 });
 
 test("normalization allows formatting differences while preserving meaningful spelling", () => {

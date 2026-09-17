@@ -19,7 +19,8 @@ test("the curriculum exposes real resources and distinguishes unfinished goals f
   await expect(page).toHaveURL(/#leisure-and-plans$/);
   await page.locator("#leisure-and-plans summary").click();
   await expect(page.locator("#leisure-and-plans details li").first()).toBeVisible();
-  await expect(page.locator("#leisure-and-plans a")).toHaveCount(0);
+  await expect(page.locator('#leisure-and-plans a[href="/learn/free-time-hobbies"]')).toHaveCount(1);
+  await expect(page.locator('#leisure-and-plans a[href="/reading/a-saturday-park-plan"]')).toHaveCount(1);
 });
 
 test("enriched lessons expose inflected vocabulary and independent writing that does not award completion", async ({ page }) => {

@@ -470,5 +470,407 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "free-time-hobbies",
+    "vocabulary": [
+      {
+        "term": "de hobby",
+        "kind": "noun",
+        "forms": "de hobby's",
+        "meaning": "الهواية؛ الجمع: الهوايات.",
+        "phraseId": "a1-free-time-hobbies-01"
+      },
+      {
+        "term": "het park",
+        "kind": "noun",
+        "forms": "de parken",
+        "meaning": "الحديقة العامة؛ الجمع: الحدائق.",
+        "phraseId": "a1-free-time-hobbies-02"
+      },
+      {
+        "term": "het weekend",
+        "kind": "noun",
+        "forms": "de weekends",
+        "meaning": "عطلة نهاية الأسبوع.",
+        "phraseId": "a1-free-time-hobbies-04"
+      },
+      {
+        "term": "wandelen",
+        "kind": "verb",
+        "forms": "ik wandel · u wandelt · wij wandelen",
+        "meaning": "يمشي للتنزه أو الحركة الهادئة.",
+        "phraseId": "a1-free-time-hobbies-02"
+      },
+      {
+        "term": "luisteren",
+        "kind": "verb",
+        "forms": "ik luister · u luistert · wij luisteren",
+        "meaning": "يستمع؛ هنا يأتي مع naar عند ذكر ما تسمعه.",
+        "phraseId": "a1-free-time-hobbies-03"
+      },
+      {
+        "term": "samen",
+        "kind": "expression",
+        "forms": "samen gaan · samen lezen",
+        "meaning": "معاً؛ تدل على القيام بالنشاط مع شخص آخر.",
+        "phraseId": "a1-free-time-hobbies-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "تخيّل أن هوايتك في عطلة نهاية الأسبوع هي المشي وقراءة كتاب بسيط. اكتب جملتين قصيرتين.",
+        "model": "In het weekend wandel ik graag. Ik lees soms een eenvoudig Nederlands boek.",
+        "translation": "في عطلة نهاية الأسبوع أحب المشي. أقرأ أحياناً كتاباً هولندياً بسيطاً.",
+        "checklist": [
+          "هل بدأت إحدى الجمل بـ In het weekend؟",
+          "هل استخدمت graag أو soms بطريقة مناسبة؟"
+        ]
+      },
+      {
+        "prompt": "زميلتك قالت إن المشي في الحديقة يعجبها. اقترح أن تذهبا معاً بصيغة لطيفة.",
+        "model": "Dat lijkt me leuk. Misschien kunnen we samen naar het park gaan.",
+        "translation": "يبدو ذلك ممتعاً بالنسبة لي. ربما يمكننا الذهاب معاً إلى الحديقة.",
+        "checklist": [
+          "هل أظهرت أن الفكرة تعجبك أولاً؟",
+          "هل استخدمت samen أو naar het park gaan في الاقتراح؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "weather-today",
+    "vocabulary": [
+      {
+        "term": "de jas",
+        "kind": "noun",
+        "forms": "de jassen",
+        "meaning": "المعطف أو الجاكيت؛ الجمع: المعاطف.",
+        "phraseId": "a1-weather-today-04"
+      },
+      {
+        "term": "de middag",
+        "kind": "noun",
+        "forms": "de middagen",
+        "meaning": "فترة بعد الظهر.",
+        "phraseId": "a1-weather-today-05"
+      },
+      {
+        "term": "worden",
+        "kind": "verb",
+        "forms": "het wordt · ik word · wij worden",
+        "meaning": "يصبح أو يتحول؛ هنا لوصف تغيّر الجو.",
+        "phraseId": "a1-weather-today-03"
+      },
+      {
+        "term": "meenemen",
+        "kind": "verb",
+        "forms": "ik neem mee · u neemt mee · wij nemen mee",
+        "meaning": "يصطحب شيئاً معه أو يأخذه معه.",
+        "phraseId": "a1-weather-today-04"
+      },
+      {
+        "term": "liever",
+        "kind": "expression",
+        "forms": "liever binnen · liever thuis",
+        "meaning": "يفضّل؛ تقارن بين خيارين ولو لم يذكر الخيار الآخر صراحةً.",
+        "phraseId": "a1-weather-today-06"
+      },
+      {
+        "term": "zonnig en droog",
+        "kind": "expression",
+        "forms": "zonnig en droog · koud en nat",
+        "meaning": "مشمس وجاف؛ تركيب بسيط لوصف حالتين في الطقس.",
+        "phraseId": "a1-weather-today-02"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "الجو غداً بارد وممطر في هذا الموقف الخيالي. اكتب جملتين: صف الطقس ثم قل ماذا ستأخذ معك.",
+        "model": "Morgen wordt het koud en nat. Ik neem een jas mee.",
+        "translation": "غداً سيصبح الجو بارداً وماطراً. سآخذ معي معطفاً.",
+        "checklist": [
+          "هل استخدمت Morgen wordt het ... لوصف الغد؟",
+          "هل أضفت شيئاً مناسباً تأخذه معك؟"
+        ]
+      },
+      {
+        "prompt": "لا تريد الخروج بسبب المطر. اكتب ردّاً قصيراً يبدأ بـ Dan.",
+        "model": "Dan blijf ik liever binnen.",
+        "translation": "عندئذ أفضل أن أبقى في الداخل.",
+        "checklist": [
+          "هل بدأت الرد بـ Dan؟",
+          "هل استخدمت liever مع blijven binnen؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "invitations-and-plans",
+    "vocabulary": [
+      {
+        "term": "de tijd",
+        "kind": "noun",
+        "forms": "de tijden",
+        "meaning": "الوقت؛ الجمع: الأوقات.",
+        "phraseId": "a1-invitations-and-plans-01"
+      },
+      {
+        "term": "het park",
+        "kind": "noun",
+        "forms": "de parken",
+        "meaning": "الحديقة العامة.",
+        "phraseId": "a1-invitations-and-plans-03"
+      },
+      {
+        "term": "het station",
+        "kind": "noun",
+        "forms": "de stations",
+        "meaning": "المحطة؛ مكان لقاء شائع في المواعيد.",
+        "phraseId": "a1-invitations-and-plans-06"
+      },
+      {
+        "term": "kunnen",
+        "kind": "verb",
+        "forms": "ik kan · u kunt · wij kunnen",
+        "meaning": "يستطيع؛ هنا للقدرة أو توفّر الوقت.",
+        "phraseId": "a1-invitations-and-plans-02"
+      },
+      {
+        "term": "afspreken",
+        "kind": "verb",
+        "forms": "ik spreek af · u spreekt af · wij spreken af",
+        "meaning": "يرتّب لقاءً أو موعداً مع شخص آخر.",
+        "phraseId": "a1-invitations-and-plans-05"
+      },
+      {
+        "term": "een andere keer",
+        "kind": "expression",
+        "forms": "tot een andere keer · misschien een andere keer",
+        "meaning": "مرة أخرى في وقت آخر؛ تستخدم لتأجيل الخطة بلطف.",
+        "phraseId": "a1-invitations-and-plans-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "تريد دعوة زميلك إلى الحديقة بعد ظهر السبت. اكتب دعوتين قصيرتين: اسأل أولاً عن الوقت ثم اقترح الخطة.",
+        "model": "Heb je zaterdagmiddag tijd? Zullen we naar het park gaan?",
+        "translation": "هل لديك وقت بعد ظهر السبت؟ هل نذهب إلى الحديقة؟",
+        "checklist": [
+          "هل سألت أولاً عن توفّر الوقت؟",
+          "هل استخدمت Zullen we ...؟ للاقتراح؟"
+        ]
+      },
+      {
+        "prompt": "لا تستطيع الساعة الثانية لكنك تريد الاعتذار بلطف. اكتب ردّاً قصيراً يتضمن اعتذاراً وتأجيلاً.",
+        "model": "Sorry, dan kan ik niet. Misschien een andere keer.",
+        "translation": "عذراً، لا أستطيع في ذلك الوقت. ربما مرة أخرى في وقت آخر.",
+        "checklist": [
+          "هل اعتذرت أولاً؟",
+          "هل اقترحت تأجيلاً باستخدام een andere keer؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "school-and-family",
+    "vocabulary": [
+      {
+        "term": "de dochter",
+        "kind": "noun",
+        "forms": "de dochters",
+        "meaning": "الابنة؛ الجمع: البنات.",
+        "phraseId": "a1-school-and-family-01"
+      },
+      {
+        "term": "de zoon",
+        "kind": "noun",
+        "forms": "de zonen",
+        "meaning": "الابن؛ الجمع: الأبناء.",
+        "phraseId": "a1-school-and-family-02"
+      },
+      {
+        "term": "de school",
+        "kind": "noun",
+        "forms": "de scholen",
+        "meaning": "المدرسة؛ في naar school وop school يأتي الاسم غالباً بلا أداة داخل التعبير المعتاد.",
+        "phraseId": "a1-school-and-family-04"
+      },
+      {
+        "term": "thuisblijven",
+        "kind": "verb",
+        "forms": "ik blijf thuis · hij blijft thuis · wij blijven thuis",
+        "meaning": "يبقى في البيت؛ في الجملة ينفصل التعبير إلى blijft thuis.",
+        "phraseId": "a1-school-and-family-03"
+      },
+      {
+        "term": "ziek",
+        "kind": "expression",
+        "forms": "vandaag ziek · nog ziek",
+        "meaning": "مريض أو مريضة؛ وصف للحالة الصحية في هذا الدرس.",
+        "phraseId": "a1-school-and-family-02"
+      },
+      {
+        "term": "het gaat goed",
+        "kind": "expression",
+        "forms": "Hoe gaat het? · Het gaat goed.",
+        "meaning": "الأمور تسير بخير؛ جواب قصير شائع.",
+        "phraseId": "a1-school-and-family-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب جملتين قصيرتين عن طفلين في عائلتك: واحدة عن الذهاب إلى المدرسة وواحدة عن الغياب بسبب المرض.",
+        "model": "Mijn dochter gaat naar school. Mijn zoon is vandaag ziek en blijft thuis.",
+        "translation": "ابنتي تذهب إلى المدرسة. ابني مريض اليوم ويبقى في البيت.",
+        "checklist": [
+          "هل استخدمت naar school مع الجملة الأولى؟",
+          "هل استخدمت hij أو blijft thuis أو المرض في الجملة الثانية؟"
+        ]
+      },
+      {
+        "prompt": "معلمة سألتك: Hoe gaat het op school? اكتب جواباً قصيراً مهذباً ثم أضف معلومة بسيطة عن طفلك.",
+        "model": "Het gaat goed, dank u. Mijn dochter gaat graag naar school.",
+        "translation": "الأمور تسير بخير، شكراً لك. ابنتي تحب الذهاب إلى المدرسة.",
+        "checklist": [
+          "هل بدأت بجواب مهذب قصير؟",
+          "هل أضفت معلومة بسيطة مرتبطة بالمدرسة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "family-at-home",
+    "vocabulary": [
+      {
+        "term": "de vrouw",
+        "kind": "noun",
+        "forms": "de vrouwen",
+        "meaning": "الزوجة أو المرأة؛ هنا المقصود الزوجة.",
+        "phraseId": "a1-family-at-home-01"
+      },
+      {
+        "term": "het kind",
+        "kind": "noun",
+        "forms": "de kinderen",
+        "meaning": "الطفل؛ الجمع غير المنتظم: kinderen.",
+        "phraseId": "a1-family-at-home-01"
+      },
+      {
+        "term": "de broer",
+        "kind": "noun",
+        "forms": "de broers",
+        "meaning": "الأخ؛ الجمع: الإخوة.",
+        "phraseId": "a1-family-at-home-02"
+      },
+      {
+        "term": "de ouders",
+        "kind": "noun",
+        "forms": "de ouders",
+        "meaning": "الوالدان أو الأهل؛ تستعمل غالباً بصيغة الجمع.",
+        "phraseId": "a1-family-at-home-06"
+      },
+      {
+        "term": "wonen",
+        "kind": "verb",
+        "forms": "ik woon · hij woont · wij wonen",
+        "meaning": "يسكن أو يعيش في مكان معين أو مع أشخاص معينين.",
+        "phraseId": "a1-family-at-home-01"
+      },
+      {
+        "term": "op bezoek",
+        "kind": "expression",
+        "forms": "op bezoek komen · op bezoek zijn",
+        "meaning": "في زيارة أو للزيارة.",
+        "phraseId": "a1-family-at-home-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "قدّم أسرتك في ثلاث جمل قصيرة: من يعيش معك، وكم لديك من الأطفال، ومن يزورك أحياناً.",
+        "model": "Ik woon met mijn man en twee kinderen. Ik heb een zoon en een dochter. Mijn zus komt soms op bezoek.",
+        "translation": "أعيش مع زوجي وطفلين. لدي ابن وابنة. أختي تأتي أحياناً للزيارة.",
+        "checklist": [
+          "هل ذكرت من يعيش معك باستخدام met؟",
+          "هل أضفت جملة عن زيارة أحد أفراد العائلة؟"
+        ]
+      },
+      {
+        "prompt": "اسأل جارك سؤالاً عن أطفاله ثم اكتب ردّاً قصيراً عنه كأنك هو.",
+        "model": "Hebt u kinderen? Ja, ik heb een zoon.",
+        "translation": "هل لديك أطفال؟ نعم، لدي ابن.",
+        "checklist": [
+          "هل بدأت بسؤال نعم أو لا؟",
+          "هل كان الرد قصيراً وواضحاً؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "message-to-school",
+    "vocabulary": [
+      {
+        "term": "het bericht",
+        "kind": "noun",
+        "forms": "de berichten",
+        "meaning": "الرسالة أو الإشعار القصير.",
+        "phraseId": "a1-message-to-school-04"
+      },
+      {
+        "term": "het huiswerk",
+        "kind": "noun",
+        "forms": "de huiswerken",
+        "meaning": "الواجب المدرسي؛ هنا ما يُرسل للبيت عند الغياب.",
+        "phraseId": "a1-message-to-school-03"
+      },
+      {
+        "term": "de koorts",
+        "kind": "noun",
+        "forms": "de koortsen",
+        "meaning": "الحمى؛ تظهر هنا كعنصر لغوي في رسالة المدرسة.",
+        "phraseId": "a1-message-to-school-07"
+      },
+      {
+        "term": "sturen",
+        "kind": "verb",
+        "forms": "ik stuur · u stuurt · wij sturen",
+        "meaning": "يرسل رسالة أو واجباً أو ملفاً.",
+        "phraseId": "a1-message-to-school-05"
+      },
+      {
+        "term": "weer",
+        "kind": "expression",
+        "forms": "weer komen · weer naar school",
+        "meaning": "مرة أخرى أو مجدداً.",
+        "phraseId": "a1-message-to-school-06"
+      },
+      {
+        "term": "tot morgen",
+        "kind": "expression",
+        "forms": "tot morgen · tot maandag",
+        "meaning": "إلى الغد؛ عبارة ختامية قصيرة.",
+        "phraseId": "a1-message-to-school-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب رسالة قصيرة من سطرين إلى المدرسة: اذكر أن طفلك مريض اليوم واطلب إرسال الواجب.",
+        "model": "Goedemorgen, mijn zoon Adam is vandaag ziek. Kunt u het huiswerk sturen?",
+        "translation": "صباح الخير، ابني آدم مريض اليوم. هل يمكنك إرسال الواجب؟",
+        "checklist": [
+          "هل ذكرت سبب الغياب في السطر الأول؟",
+          "هل طلبت الواجب بسؤال مهذب؟"
+        ]
+      },
+      {
+        "prompt": "اكتب ردّاً قصيراً من المدرسة: اشكر ولي الأمر وقل إنك سترسل الواجب بعد الظهر.",
+        "model": "Dank u voor uw bericht. Ik stuur het huiswerk vanmiddag.",
+        "translation": "شكراً على رسالتك. سأرسل الواجب بعد الظهر.",
+        "checklist": [
+          "هل بدأت بالشكر على الرسالة؟",
+          "هل ذكرت وقت إرسال الواجب؟"
+        ]
+      }
+    ]
   }
 ]
