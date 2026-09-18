@@ -11,7 +11,7 @@ test("catalogue search and module filters work together and can be cleared", asy
   await expect(page.locator(".catalogue-item")).toHaveCount(1);
   await page.getByRole("button", { name: "المواعيد والخدمات", exact: true }).click();
   await page.getByLabel("ابحث عن درس").fill("");
-  await expect(page.locator(".catalogue-item")).toHaveCount(5);
+  await expect(page.locator(".catalogue-item")).toHaveCount(lessons.filter((lesson) => lesson.moduleId === "appointments").length);
   await page.getByLabel("ابحث عن درس").fill("not-a-lesson");
   await expect(page.getByRole("heading", { name: "لا توجد دروس مطابقة" })).toBeVisible();
   await page.getByRole("button", { name: "اعرض كل الدروس" }).click();

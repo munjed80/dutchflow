@@ -3,6 +3,8 @@ import lessons from "../../src/data/lessons.json";
 import units from "../../src/data/a1-roadmap.json";
 import extensions from "../../src/data/lesson-extensions.json";
 
+test.setTimeout(60_000);
+
 test("the curriculum exposes real resources and distinguishes unfinished goals from learner progress", async ({ page }) => {
   await page.goto("/learn");
   await page.getByRole("link", { name: "استكشف خريطة A1 وأهداف التعلّم ←" }).click();

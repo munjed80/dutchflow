@@ -161,12 +161,16 @@
     "lessonSlugs": [
       "municipal-appointment",
       "phone-calls",
-      "letters-and-messages"
+      "letters-and-messages",
+      "filling-in-a-form",
+      "changing-an-appointment"
     ],
-    "readingSlugs": [],
+    "readingSlugs": [
+      "a-missing-document-message"
+    ],
     "remaining": [
-      "استمارات ورسائل متنوعة مع حماية بيانات المتعلم.",
-      "استماع لمكالمة وكتابة طلب موعد جديد."
+      "مقطع استماع جديد فيه رسالة صوتية ومكالمة متابعة قبل كشف النص أو الترجمة.",
+      "مهمة كتابة أصلية أقصر وحوار مباشر لتغيير موعد أو استكمال مستند في موقف جديد."
     ]
   },
   {
