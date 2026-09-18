@@ -3504,5 +3504,289 @@
         "explanation": "نستخدم op مع اليوم وom مع الساعة."
       }
     ]
+  },
+  {
+    "slug": "filling-in-a-form",
+    "moduleId": "appointments",
+    "level": "A1",
+    "number": "31",
+    "title": "ملء استمارة الخدمة",
+    "dutchTitle": "Een formulier invullen",
+    "description": "املأ استمارة بسيطة، واذكر بياناتك، واطلب شرح خانة غير واضحة.",
+    "goal": "أملأ استمارة أساسية، وأذكر تاريخ ميلادي، وأطلب توضيح حقل أو مستند ناقص.",
+    "durationMinutes": 12,
+    "context": "تجلس عند شباك خدمة في البلدية أو المركز الصحي وتحتاج إلى إكمال استمارة قصيرة.",
+    "phrases": [
+      {
+        "id": "a1-filling-in-a-form-01",
+        "dutch": "Ik vul hier mijn gegevens in.",
+        "arabic": "أملأ بياناتي هنا.",
+        "tip": "gegevens تعني البيانات أو المعلومات الشخصية الأساسية."
+      },
+      {
+        "id": "a1-filling-in-a-form-02",
+        "dutch": "Wat is uw burgerservicenummer?",
+        "arabic": "ما هو رقم الخدمة للمواطن الخاص بك؟",
+        "tip": "burgerservicenummer أو BSN رقم إداري شخصي في هولندا."
+      },
+      {
+        "id": "a1-filling-in-a-form-03",
+        "dutch": "Mijn geboortedatum is veertien mei.",
+        "arabic": "تاريخ ميلادي هو الرابع عشر من مايو.",
+        "tip": "geboortedatum = تاريخ الميلاد، ويمكن قولها كاملة عند ملء الاستمارات."
+      },
+      {
+        "id": "a1-filling-in-a-form-04",
+        "dutch": "Ik zet mijn handtekening onderaan.",
+        "arabic": "أضع توقيعي في الأسفل.",
+        "tip": "onderaan تعني في أسفل الصفحة أو الاستمارة."
+      },
+      {
+        "id": "a1-filling-in-a-form-05",
+        "dutch": "Kunt u dit vak nog een keer uitleggen?",
+        "arabic": "هل يمكنك شرح هذه الخانة مرة أخرى؟",
+        "tip": "vak هنا تعني خانة في استمارة، وnog een keer = مرة أخرى."
+      },
+      {
+        "id": "a1-filling-in-a-form-06",
+        "dutch": "U hoeft alleen de voorkant in te vullen.",
+        "arabic": "تحتاج فقط إلى ملء الجهة الأمامية.",
+        "tip": "hoeft ... in te vullen تعني هنا أن هذا الجزء فقط مطلوب."
+      },
+      {
+        "id": "a1-filling-in-a-form-07",
+        "dutch": "Ik ben iets vergeten.",
+        "arabic": "لقد نسيت شيئاً.",
+        "tip": "iets = شيئاً. جملة مفيدة عندما ينقصك مستند أو معلومة."
+      },
+      {
+        "id": "a1-filling-in-a-form-08",
+        "dutch": "Geen probleem, u kunt het later sturen.",
+        "arabic": "لا مشكلة، يمكنك إرساله لاحقاً.",
+        "tip": "later تعني لاحقاً، وsturen تعني الإرسال."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-filling-in-a-form-02"
+      },
+      {
+        "speaker": "Bezoeker",
+        "phraseId": "a1-filling-in-a-form-03"
+      },
+      {
+        "speaker": "Bezoeker",
+        "phraseId": "a1-filling-in-a-form-05"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-filling-in-a-form-06"
+      },
+      {
+        "speaker": "Bezoeker",
+        "phraseId": "a1-filling-in-a-form-07"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-filling-in-a-form-08"
+      }
+    ],
+    "grammar": {
+      "title": "hoeven ... te: ما المطلوب فقط",
+      "explanation": "عندما نقول U hoeft alleen ... in te vullen فنحن نعني أن هذا هو الجزء الوحيد المطلوب. يأتي hoeven مصرفاً، ثم alleen، ثم المصدر مع te في آخر الجملة.",
+      "example": "U hoeft alleen de voorkant in te vullen.",
+      "translation": "تحتاج فقط إلى ملء الجهة الأمامية."
+    },
+    "questions": [
+      {
+        "id": "filling-in-a-form-q1",
+        "prompt": "أي جملة تذكر تاريخ الميلاد؟",
+        "options": [
+          "Ik ben iets vergeten.",
+          "Mijn geboortedatum is veertien mei.",
+          "Ik zet mijn handtekening onderaan."
+        ],
+        "correctIndex": 1,
+        "explanation": "geboortedatum تعني تاريخ الميلاد."
+      },
+      {
+        "id": "filling-in-a-form-q2",
+        "prompt": "ما معنى handtekening؟",
+        "options": [
+          "العنوان",
+          "التوقيع",
+          "الموعد"
+        ],
+        "correctIndex": 1,
+        "explanation": "handtekening هي التوقيع الذي تضعه في أسفل الوثيقة."
+      },
+      {
+        "id": "filling-in-a-form-q3",
+        "prompt": "كيف تطلب شرح خانة مرة أخرى؟",
+        "options": [
+          "Kunt u dit vak nog een keer uitleggen?",
+          "Wat doet u graag in uw vrije tijd?",
+          "Ik bel u morgen terug."
+        ],
+        "correctIndex": 0,
+        "explanation": "uitleggen تعني يشرح، وnog een keer تعني مرة أخرى."
+      },
+      {
+        "id": "filling-in-a-form-q4",
+        "prompt": "ماذا تعني U hoeft alleen de voorkant in te vullen؟",
+        "options": [
+          "يجب أن تملأ الجهتين معاً",
+          "يجب أن ترسل الاستمارة غداً",
+          "يكفي أن تملأ الجهة الأمامية فقط"
+        ],
+        "correctIndex": 2,
+        "explanation": "alleen وvoorkant توضحان أن المطلوب جزء واحد فقط من الاستمارة."
+      }
+    ]
+  },
+  {
+    "slug": "changing-an-appointment",
+    "moduleId": "appointments",
+    "level": "A1",
+    "number": "32",
+    "title": "تغيير موعدك",
+    "dutchTitle": "Een afspraak verzetten",
+    "description": "اطلب تغيير الموعد، واسأل عن وقت بديل، وثبّت الموعد الجديد.",
+    "goal": "أطلب تغيير موعد، وأقترح وقتاً مناسباً، وأفهم تأكيد الوقت الجديد برسالة.",
+    "durationMinutes": 12,
+    "context": "تتصل بمكتب خدمة لأن الموعد الحالي لم يعد مناسباً لك وتحتاج إلى موعد جديد.",
+    "phrases": [
+      {
+        "id": "a1-changing-an-appointment-01",
+        "dutch": "Ik wil mijn afspraak verzetten.",
+        "arabic": "أريد تغيير موعدي.",
+        "tip": "verzetten تعني هنا نقل الموعد إلى وقت آخر."
+      },
+      {
+        "id": "a1-changing-an-appointment-02",
+        "dutch": "Welke dag past beter voor u?",
+        "arabic": "أي يوم يناسبك أكثر؟",
+        "tip": "past beter = يناسب بشكل أفضل."
+      },
+      {
+        "id": "a1-changing-an-appointment-03",
+        "dutch": "Vrijdagmiddag kan ik wel.",
+        "arabic": "بعد ظهر الجمعة يناسبني.",
+        "tip": "wel هنا تؤكد أن هذا الوقت ممكن بالنسبة لك."
+      },
+      {
+        "id": "a1-changing-an-appointment-04",
+        "dutch": "De ochtend zit al vol.",
+        "arabic": "فترة الصباح ممتلئة بالفعل.",
+        "tip": "zit al vol تعبير شائع عندما لا توجد أماكن متاحة."
+      },
+      {
+        "id": "a1-changing-an-appointment-05",
+        "dutch": "Is er volgende week nog plaats?",
+        "arabic": "هل ما زال هناك مكان الأسبوع القادم؟",
+        "tip": "nog plaats تعني وجود موعد أو مكان متاح إضافي."
+      },
+      {
+        "id": "a1-changing-an-appointment-06",
+        "dutch": "Ik bevestig de nieuwe tijd per e-mail.",
+        "arabic": "أؤكد الوقت الجديد عبر البريد الإلكتروني.",
+        "tip": "bevestigen = يؤكد، per e-mail = عبر البريد الإلكتروني."
+      },
+      {
+        "id": "a1-changing-an-appointment-07",
+        "dutch": "Kunt u ook een sms sturen?",
+        "arabic": "هل يمكنك أيضاً إرسال رسالة نصية؟",
+        "tip": "sms تُستخدم في الهولندية أيضاً للدلالة على الرسالة النصية."
+      },
+      {
+        "id": "a1-changing-an-appointment-08",
+        "dutch": "Dank u, dan noteer ik het meteen.",
+        "arabic": "شكراً لك، إذن سأسجل ذلك فوراً.",
+        "tip": "meteen تعني فوراً أو مباشرة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-changing-an-appointment-01"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-changing-an-appointment-02"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-changing-an-appointment-03"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-changing-an-appointment-04"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-changing-an-appointment-05"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-changing-an-appointment-06"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-changing-an-appointment-08"
+      }
+    ],
+    "grammar": {
+      "title": "الأفعال الناقصة مع المصدر في النهاية",
+      "explanation": "بعد wil أو kunt يأتي الفعل الثاني في المصدر قرب نهاية الجملة: Ik wil mijn afspraak verzetten. وKunt u ook een sms sturen? هذه بنية مفيدة جداً عند طلب تغيير موعد أو خدمة.",
+      "example": "Ik wil mijn afspraak verzetten.",
+      "translation": "أريد تغيير موعدي."
+    },
+    "questions": [
+      {
+        "id": "changing-an-appointment-q1",
+        "prompt": "أي جملة تطلب تغيير الموعد؟",
+        "options": [
+          "Ik wil mijn afspraak verzetten.",
+          "Ik zet mijn handtekening onderaan.",
+          "Mijn dochter gaat naar school."
+        ],
+        "correctIndex": 0,
+        "explanation": "verzetten هنا تعني نقل الموعد إلى وقت آخر."
+      },
+      {
+        "id": "changing-an-appointment-q2",
+        "prompt": "ما معنى De ochtend zit al vol؟",
+        "options": [
+          "الصباح يبدأ مبكراً",
+          "لا توجد أماكن صباحاً",
+          "الموعد في الصباح غداً"
+        ],
+        "correctIndex": 1,
+        "explanation": "zit al vol تعني أن الوقت ممتلئ ولا توجد مواعيد متاحة."
+      },
+      {
+        "id": "changing-an-appointment-q3",
+        "prompt": "كيف تسأل عن توفر موعد الأسبوع القادم؟",
+        "options": [
+          "Is er volgende week nog plaats?",
+          "Wat is uw burgerservicenummer?",
+          "Bel ons als u vragen heeft."
+        ],
+        "correctIndex": 0,
+        "explanation": "nog plaats تعني وجود مكان متاح إضافي."
+      },
+      {
+        "id": "changing-an-appointment-q4",
+        "prompt": "ماذا تعني meteen في Dank u, dan noteer ik het meteen؟",
+        "options": [
+          "فوراً",
+          "غداً",
+          "بهدوء"
+        ],
+        "correctIndex": 0,
+        "explanation": "meteen تعني مباشرة أو فوراً."
+      }
+    ]
   }
 ]

@@ -872,5 +872,340 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "municipal-appointment",
+    "vocabulary": [
+      {
+        "term": "de gemeente",
+        "kind": "noun",
+        "forms": "de gemeenten",
+        "meaning": "البلدية أو الإدارة المحلية.",
+        "phraseId": "a1-municipal-appointment-01"
+      },
+      {
+        "term": "de afspraak",
+        "kind": "noun",
+        "forms": "de afspraken",
+        "meaning": "الموعد المرتب مسبقاً.",
+        "phraseId": "a1-municipal-appointment-01"
+      },
+      {
+        "term": "het identiteitsbewijs",
+        "kind": "noun",
+        "forms": "de identiteitsbewijzen",
+        "meaning": "وثيقة إثبات الهوية.",
+        "phraseId": "a1-municipal-appointment-04"
+      },
+      {
+        "term": "zien",
+        "kind": "verb",
+        "forms": "ik zie · u ziet · wij zien",
+        "meaning": "يرى أو يطالع شيئاً أمامه.",
+        "phraseId": "a1-municipal-appointment-04"
+      },
+      {
+        "term": "alstublieft",
+        "kind": "expression",
+        "forms": "Ja, alstublieft. · Nee, dank u.",
+        "meaning": "تفضل أو من فضلك بحسب السياق الرسمي.",
+        "phraseId": "a1-municipal-appointment-05"
+      },
+      {
+        "term": "bij de gemeente",
+        "kind": "expression",
+        "forms": "bij de gemeente · bij de balie",
+        "meaning": "في البلدية أو عند مكتب الخدمة.",
+        "phraseId": "a1-municipal-appointment-01"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "لديك موعد تدريبي في البلدية الساعة 11:00. اكتب جملتين: الأولى لذكر الموعد، والثانية عند تقديم هويتك.",
+        "model": "Ik heb een afspraak bij de gemeente om elf uur. Ja, alstublieft, hier is mijn identiteitsbewijs.",
+        "translation": "لدي موعد في البلدية الساعة الحادية عشرة. نعم، تفضل، هذه وثيقة هويتي.",
+        "checklist": [
+          "هل ذكرت المكان والوقت معاً؟",
+          "هل استخدمت identiteitsbewijs عند تقديم الوثيقة؟"
+        ]
+      },
+      {
+        "prompt": "اكتب سؤالاً رسمياً عن وقت الموعد ثم اكتب جواباً قصيراً عنه كأنك الموظف والزائر معاً.",
+        "model": "Hoe laat is uw afspraak? Om elf uur.",
+        "translation": "في أي ساعة موعدك؟ الساعة الحادية عشرة.",
+        "checklist": [
+          "هل استخدمت uw afspraak في السؤال؟",
+          "هل كان الجواب قصيراً وواضحاً؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "phone-calls",
+    "vocabulary": [
+      {
+        "term": "spreken",
+        "kind": "verb",
+        "forms": "ik spreek · u spreekt · wij spreken",
+        "meaning": "يتحدث؛ ويظهر كثيراً في الهاتف مع met.",
+        "phraseId": "a1-phone-calls-01"
+      },
+      {
+        "term": "herhalen",
+        "kind": "verb",
+        "forms": "ik herhaal · u herhaalt · wij herhalen",
+        "meaning": "يكرر ما قيل مرة أخرى.",
+        "phraseId": "a1-phone-calls-04"
+      },
+      {
+        "term": "terugbellen",
+        "kind": "verb",
+        "forms": "ik bel terug · u belt terug · wij bellen terug",
+        "meaning": "يعاود الاتصال؛ فعل منفصل في الجملة البسيطة.",
+        "phraseId": "a1-phone-calls-05"
+      },
+      {
+        "term": "langzamer",
+        "kind": "expression",
+        "forms": "wat langzamer · iets langzamer",
+        "meaning": "أبطأ قليلاً.",
+        "phraseId": "a1-phone-calls-03"
+      },
+      {
+        "term": "u spreekt met",
+        "kind": "expression",
+        "forms": "u spreekt met Sara · u spreekt met de apotheek",
+        "meaning": "صيغة تعريف بالنفس عبر الهاتف.",
+        "phraseId": "a1-phone-calls-01"
+      },
+      {
+        "term": "met wie",
+        "kind": "expression",
+        "forms": "Met wie spreek ik? · Met wie belt u?",
+        "meaning": "مع من؛ للسؤال عن هوية المتحدث.",
+        "phraseId": "a1-phone-calls-02"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب بداية مكالمة قصيرة: عرّف بنفسك أولاً ثم اطلب من الموظف أن يتحدث ببطء أكثر.",
+        "model": "Goedemiddag, u spreekt met Amal. Kunt u wat langzamer spreken?",
+        "translation": "طاب نهارك، معك أمل. هل يمكنك التحدث ببطء أكثر قليلاً؟",
+        "checklist": [
+          "هل بدأت بصيغة هاتفية طبيعية؟",
+          "هل طلبت الإبطاء بسؤال مهذب؟"
+        ]
+      },
+      {
+        "prompt": "لم تسمع الاسم جيداً في مكالمة تدريبية. اكتب سؤالاً عن هوية المتحدث ثم اطلب منه تكرار المعلومة.",
+        "model": "Met wie spreek ik? Kunt u dat herhalen?",
+        "translation": "مع من أتحدث؟ هل يمكنك تكرار ذلك؟",
+        "checklist": [
+          "هل سألت أولاً عن الشخص؟",
+          "هل استخدمت herhalen لطلب التكرار؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "letters-and-messages",
+    "vocabulary": [
+      {
+        "term": "de afspraak",
+        "kind": "noun",
+        "forms": "de afspraken",
+        "meaning": "الموعد؛ يظهر هنا داخل رسالة مكتوبة.",
+        "phraseId": "a1-letters-and-messages-01"
+      },
+      {
+        "term": "het identiteitsbewijs",
+        "kind": "noun",
+        "forms": "de identiteitsbewijzen",
+        "meaning": "وثيقة إثبات الهوية المطلوبة مع الرسالة.",
+        "phraseId": "a1-letters-and-messages-03"
+      },
+      {
+        "term": "beginnen",
+        "kind": "verb",
+        "forms": "ik begin · de afspraak begint · wij beginnen",
+        "meaning": "يبدأ؛ في الرسائل يحدد وقت بداية الموعد.",
+        "phraseId": "a1-letters-and-messages-02"
+      },
+      {
+        "term": "wijzigen",
+        "kind": "verb",
+        "forms": "ik wijzig · u wijzigt · wij wijzigen",
+        "meaning": "يغيّر شيئاً مثل الموعد أو البيانات.",
+        "phraseId": "a1-letters-and-messages-04"
+      },
+      {
+        "term": "meenemen",
+        "kind": "verb",
+        "forms": "ik neem mee · u neemt mee · wij nemen mee",
+        "meaning": "يأخذ شيئاً معه إلى الموعد.",
+        "phraseId": "a1-letters-and-messages-03"
+      },
+      {
+        "term": "online",
+        "kind": "expression",
+        "forms": "online wijzigen · online aanvragen",
+        "meaning": "عبر الإنترنت.",
+        "phraseId": "a1-letters-and-messages-04"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب سطرين من رسالة موعد تدريبية: اذكر اليوم والساعة، ثم اذكر ما يجب إحضاره.",
+        "model": "Uw afspraak is op donderdag. De afspraak begint om tien uur. Neem uw identiteitsbewijs mee.",
+        "translation": "موعدك يوم الخميس. يبدأ الموعد الساعة العاشرة. أحضر إثبات هويتك معك.",
+        "checklist": [
+          "هل استخدمت op مع اليوم وom مع الساعة؟",
+          "هل أضفت المستند المطلوب؟"
+        ]
+      },
+      {
+        "prompt": "اكتب رسالة قصيرة تقول فيها إن الموعد يمكن تغييره عبر الإنترنت، ثم أضف جملة لطرح الأسئلة عند الحاجة.",
+        "model": "U kunt de afspraak online wijzigen. Bel ons als u vragen heeft.",
+        "translation": "يمكنك تغيير الموعد عبر الإنترنت. اتصل بنا إذا كانت لديك أسئلة.",
+        "checklist": [
+          "هل استخدمت online wijzigen؟",
+          "هل أضفت جملة واضحة للأسئلة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "filling-in-a-form",
+    "vocabulary": [
+      {
+        "term": "de gegevens",
+        "kind": "noun",
+        "forms": "de gegevens",
+        "meaning": "البيانات أو المعلومات المدخلة في الاستمارة.",
+        "phraseId": "a1-filling-in-a-form-01"
+      },
+      {
+        "term": "het burgerservicenummer",
+        "kind": "noun",
+        "forms": "de burgerservicenummers",
+        "meaning": "رقم الخدمة للمواطن أو BSN.",
+        "phraseId": "a1-filling-in-a-form-02"
+      },
+      {
+        "term": "de geboortedatum",
+        "kind": "noun",
+        "forms": "de geboortedata",
+        "meaning": "تاريخ الميلاد.",
+        "phraseId": "a1-filling-in-a-form-03"
+      },
+      {
+        "term": "de handtekening",
+        "kind": "noun",
+        "forms": "de handtekeningen",
+        "meaning": "التوقيع المكتوب في أسفل الوثيقة.",
+        "phraseId": "a1-filling-in-a-form-04"
+      },
+      {
+        "term": "uitleggen",
+        "kind": "verb",
+        "forms": "ik leg uit · u legt uit · wij leggen uit",
+        "meaning": "يشرح أو يوضح؛ فعل منفصل في الجملة البسيطة.",
+        "phraseId": "a1-filling-in-a-form-05"
+      },
+      {
+        "term": "de voorkant",
+        "kind": "noun",
+        "forms": "de voorkanten",
+        "meaning": "الجهة الأمامية من الورقة أو البطاقة.",
+        "phraseId": "a1-filling-in-a-form-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب جوابين قصيرين في استمارة تدريبية: واحد عن تاريخ الميلاد وواحد عن التوقيع في الأسفل.",
+        "model": "Mijn geboortedatum is veertien mei. Ik zet mijn handtekening onderaan.",
+        "translation": "تاريخ ميلادي هو الرابع عشر من مايو. أضع توقيعي في الأسفل.",
+        "checklist": [
+          "هل استخدمت geboortedatum لذكر التاريخ؟",
+          "هل ذكرت مكان التوقيع بكلمة onderaan؟"
+        ]
+      },
+      {
+        "prompt": "خانة في الاستمارة غير واضحة لك. اكتب سؤالاً مهذباً لطلب الشرح، ثم أضف أنك نسيت شيئاً.",
+        "model": "Kunt u dit vak nog een keer uitleggen? Ik ben iets vergeten.",
+        "translation": "هل يمكنك شرح هذه الخانة مرة أخرى؟ لقد نسيت شيئاً.",
+        "checklist": [
+          "هل طلبت الشرح بصيغة مهذبة؟",
+          "هل أضفت جملة قصيرة عن النقص أو النسيان؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "changing-an-appointment",
+    "vocabulary": [
+      {
+        "term": "verzetten",
+        "kind": "verb",
+        "forms": "ik verzet · u verzet · wij verzetten",
+        "meaning": "يغيّر الموعد إلى وقت آخر.",
+        "phraseId": "a1-changing-an-appointment-01"
+      },
+      {
+        "term": "de dag",
+        "kind": "noun",
+        "forms": "de dagen",
+        "meaning": "اليوم؛ هنا لاختيار يوم أنسب للموعد.",
+        "phraseId": "a1-changing-an-appointment-02"
+      },
+      {
+        "term": "de ochtend",
+        "kind": "noun",
+        "forms": "de ochtenden",
+        "meaning": "فترة الصباح.",
+        "phraseId": "a1-changing-an-appointment-04"
+      },
+      {
+        "term": "de plaats",
+        "kind": "noun",
+        "forms": "de plaatsen",
+        "meaning": "المكان أو خانة الموعد المتاحة؛ nog plaats = ما زال هناك شاغر.",
+        "phraseId": "a1-changing-an-appointment-05"
+      },
+      {
+        "term": "bevestigen",
+        "kind": "verb",
+        "forms": "ik bevestig · u bevestigt · wij bevestigen",
+        "meaning": "يؤكد موعداً أو معلومة.",
+        "phraseId": "a1-changing-an-appointment-06"
+      },
+      {
+        "term": "meteen",
+        "kind": "expression",
+        "forms": "meteen noteren · meteen bellen",
+        "meaning": "فوراً أو مباشرة.",
+        "phraseId": "a1-changing-an-appointment-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "الموعد الحالي لا يناسبك. اكتب جملتين: الأولى لطلب تغييره، والثانية لاقتراح أن بعد ظهر الجمعة مناسب.",
+        "model": "Ik wil mijn afspraak verzetten. Vrijdagmiddag kan ik wel.",
+        "translation": "أريد تغيير موعدي. بعد ظهر الجمعة يناسبني.",
+        "checklist": [
+          "هل بدأت بطلب واضح لتغيير الموعد؟",
+          "هل اقترحت وقتاً بديلاً محدداً؟"
+        ]
+      },
+      {
+        "prompt": "اكتب سؤالاً عن توفر موعد الأسبوع القادم، ثم أضف طلباً لإرسال رسالة نصية بالتأكيد.",
+        "model": "Is er volgende week nog plaats? Kunt u ook een sms sturen?",
+        "translation": "هل ما زال هناك مكان الأسبوع القادم؟ هل يمكنك أيضاً إرسال رسالة نصية؟",
+        "checklist": [
+          "هل استخدمت nog plaats للسؤال عن التوفر؟",
+          "هل طلبت تأكيداً إضافياً عبر sms؟"
+        ]
+      }
+    ]
   }
 ]

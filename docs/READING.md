@@ -1,6 +1,6 @@
 # Contextual reading library
 
-The free `/reading` library extends the existing phrase-based lessons with eleven original short Dutch texts for guided beginner reading. These are authored teaching examples, not copied letters, live service instructions, official exam material, or a complete CEFR syllabus.
+The free `/reading` library extends the existing phrase-based lessons with twelve original short Dutch texts for guided beginner reading. These are authored teaching examples, not copied letters, live service instructions, official exam material, or a complete CEFR syllabus.
 
 ## Current content
 
@@ -11,6 +11,7 @@ The free `/reading` library extends the existing phrase-based lessons with eleve
 | Boodschappen voor de lunch | A shopping trip and café visit | `geen` with an indefinite mass noun |
 | Een andere bushalte | A temporary bus stop and directions | `willen` followed by an infinitive |
 | Uw afspraak is verplaatst | An appointment changes day and time | Separable `meenemen` in an instruction |
+| Nog een document voor uw afspraak | A missing municipal document and a follow-up message | `om ... te` for the purpose of a new appointment |
 | Een bericht van school | A class trip and collection instructions | A reason introduced by `want` |
 | Een afwezigheidsbericht | A parent reports illness, requests homework, and offers a callback option | `dus` for a practical consequence |
 | Een bericht aan de verhuurder | A repair request and availability | A polite `Kunt u ...?` request |
@@ -18,7 +19,7 @@ The free `/reading` library extends the existing phrase-based lessons with eleve
 | De lesweek van Nour | Course dates, weekly frequency and activities after class | Word order after a day phrase; clock times and duration |
 | Een zaterdag in het park | A weekend invitation, the weather, and a meeting plan | Separable `afspreken` in a time/place plan |
 
-There are 56 contextual vocabulary/expression notes, eleven grammar notes, and 36 comprehension questions. The original 20 lessons, 101 phrase IDs, audio manifest, saved progress IDs, and review IDs remain unchanged. Reading texts are not automatically included in audio generation or the saved phrase review list.
+There are 61 contextual vocabulary/expression notes, twelve grammar notes, and 40 comprehension questions. The original 20 lessons, 101 phrase IDs, audio manifest, saved progress IDs, and review IDs remain unchanged. Reading texts are not automatically included in audio generation or the saved phrase review list.
 
 ## Learning flow
 
@@ -36,4 +37,4 @@ Edit `src/data/readings.json`. Keep slugs and question IDs stable; use unique qu
 
 Editorial review during implementation checked narrative consistency, Dutch/Arabic correspondence, the distinction between old and new appointment times, `half negen`/`half tien`, task ordering, relevant lesson links, and contextual vocabulary. **Independent review by a qualified Dutch/Arabic language editor is still pending.** Do not describe the texts as certified A1 material or professionally language-reviewed. Further enrichment should add longer varied passages, broader vocabulary, and original production tasks after reviewing this bank.
 
-Browser tests cover discovery, all eleven routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. CI continues to run the full account, lesson, placement, listening, writing, and review suites.
+Browser tests cover discovery, all twelve routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. CI continues to run the full account, lesson, placement, listening, writing, and review suites.
