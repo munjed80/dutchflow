@@ -3,8 +3,6 @@ import lessons from "../../src/data/lessons.json";
 import units from "../../src/data/a1-roadmap.json";
 import extensions from "../../src/data/lesson-extensions.json";
 
-test.setTimeout(60_000);
-
 test("the curriculum exposes real resources and distinguishes unfinished goals from learner progress", async ({ page }) => {
   await page.goto("/learn");
   await page.getByRole("link", { name: "استكشف خريطة A1 وأهداف التعلّم ←" }).click();
@@ -25,8 +23,8 @@ test("the curriculum exposes real resources and distinguishes unfinished goals f
   await expect(page.locator('#leisure-and-plans a[href="/reading/a-saturday-park-plan"]')).toHaveCount(1);
 });
 
-test("enriched lessons expose inflected vocabulary and independent writing that does not award completion", async ({ page }) => {
-  for (const extension of extensions) {
+for (const extension of extensions) {
+  test(`${extension.lessonSlug}: vocabulary and independent writing do not award completion`, async ({ page }) => {
     const lesson = lessons.find((item) => item.slug === extension.lessonSlug)!;
     await page.goto(`/learn/${lesson.slug}`);
     await expect(page.locator(".phrase-card")).toHaveCount(lesson.phrases.length);
@@ -48,11 +46,11 @@ test("enriched lessons expose inflected vocabulary and independent writing that 
     await expect(page.locator(".success-message")).toHaveCount(0);
     expect(await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"))).toBeNull();
     expect(await page.evaluate(() => localStorage.getItem("dutchflow-review-v1"))).toBeNull();
-  }
-  await page.reload();
-  await expect(page.getByRole("textbox").first()).toHaveValue("");
-  await expect(page.locator(".production-model").first()).toBeHidden();
-});
+    await page.reload();
+    await expect(page.getByRole("textbox").first()).toHaveValue("");
+    await expect(page.locator(".production-model").first()).toBeHidden();
+  });
+}
 
 test("mobile production, phrase review, and new lesson completion survive the expanded curriculum", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });

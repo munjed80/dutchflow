@@ -23,7 +23,7 @@ There are 61 contextual vocabulary/expression notes, twelve grammar notes, and 4
 
 ## Learning flow
 
-The lesson catalogue links to the library, and relevant lesson pages link to associated texts. Each reading has an LTR Dutch passage, a collapsed Arabic translation, vocabulary with noun articles where relevant, a grammar explanation with an exact passage example, and three or four questions. Related lessons and the next reading are linked at the end.
+The lesson catalogue links to the library, and relevant lesson pages link to associated texts. Each reading has an LTR Dutch passage, a collapsed Arabic translation, vocabulary with noun articles where relevant, a grammar explanation with an exact passage example, and three or four questions. Related lessons and the next reading are linked at the end. Letter paragraphs and salutations retain their authored line breaks in Dutch and Arabic.
 
 This is open-text guided practice: learners may consult the passage, translation, and notes freely. Checking requires all questions to be answered. Feedback explains every answer and quotes the relevant passage evidence. Revising any answer clears the previous result before regrading; restart, reload, or moving to another text resets the attempt. Results are in component state only. They do not save scores, grant completion, change review storage, or measure general proficiency.
 
@@ -37,4 +37,4 @@ Edit `src/data/readings.json`. Keep slugs and question IDs stable; use unique qu
 
 Editorial review during implementation checked narrative consistency, Dutch/Arabic correspondence, the distinction between old and new appointment times, `half negen`/`half tien`, task ordering, relevant lesson links, and contextual vocabulary. **Independent review by a qualified Dutch/Arabic language editor is still pending.** Do not describe the texts as certified A1 material or professionally language-reviewed. Further enrichment should add longer varied passages, broader vocabulary, and original production tasks after reviewing this bank.
 
-Browser tests cover discovery, all twelve routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. CI continues to run the full account, lesson, placement, listening, writing, and review suites.
+Browser tests cover discovery, all twelve routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. The services reading has a dedicated mobile flow covering paragraph formatting, a wrong Friday-deadline answer corrected to **before Friday**, regrading, reload, catalogue return and unchanged completion/review storage. CI continues to run the full account, lesson, placement, listening, writing, and review suites.

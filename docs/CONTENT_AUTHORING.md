@@ -11,7 +11,7 @@ For the separate original reading texts, contextual vocabulary, grammar examples
 1. Choose an existing `moduleId` and place the lesson with that module's other lessons. Update sequential display `number` values after reordering.
 2. Keep existing `slug` values and phrase `id` values stable. Slugs are used in URLs and saved completion. Phrase IDs identify generated audio. Never reuse an ID for unrelated content.
 3. Include a practical `goal`, the situation in `context`, and natural Dutch phrases with Arabic meanings and short explanations. Add a `grammar` title, explanation, Dutch example, and Arabic translation.
-4. Dialogue turns reference phrase IDs from the same lesson. Ensure the exchange makes sense when read aloud; validation checks the references, not linguistic coherence.
+4. Dialogue turns reference phrase IDs from the same lesson. Ensure the exchange makes sense when read aloud; validation checks the references, not linguistic coherence. In particular, check that each answer responds to the preceding question, dates contain the details required by the task, and a new appointment time is proposed and accepted before confirmation.
 5. Give every quiz question distinct choices, one unambiguous `correctIndex` (zero-based), and an explanation. Questions should test what the lesson teaches. Avoid ambiguous distractors or invented Dutch presented as learning material.
 6. Run `npm run content:check`, `npm test`, `npm run typecheck`, and `npm run build` before opening a PR. Review the Arabic and Dutch with a qualified language editor before describing the curriculum as professionally reviewed.
 
@@ -19,6 +19,6 @@ For the separate original reading texts, contextual vocabulary, grammar examples
 
 - The original routes `introductions`, `doctor-appointment`, and `at-the-shop` remain valid. Their lesson numbers may change; progress follows their slugs.
 - New lesson phrases are included automatically by `npm run audio:generate -- --dry-run`. The generator validates the entire curriculum even when using `--limit`.
-- Voice generation requires credentials and has not been run for this catalogue. The current 197 phrases correspond to 788 files with two voices and two speeds.
+- Voice generation requires credentials and has not been run for this catalogue. The current 199 phrases correspond to 796 files with two voices and two speeds.
 - The generator currently reuses files by ID, voice, and speed. If the spoken Dutch text changes, remove all cached variants for that phrase and regenerate them; changing only the Arabic explanation does not require regeneration. Content-hash invalidation is a future improvement.
 - After generation, listen to the files before publishing the MP3s and manifest together. At larger scale, publish audio to object storage instead of keeping thousands of binaries in Git.

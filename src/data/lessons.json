@@ -3515,7 +3515,7 @@
     "description": "املأ استمارة بسيطة، واذكر بياناتك، واطلب شرح خانة غير واضحة.",
     "goal": "أملأ استمارة أساسية، وأذكر تاريخ ميلادي، وأطلب توضيح حقل أو مستند ناقص.",
     "durationMinutes": 12,
-    "context": "تجلس عند شباك خدمة في البلدية أو المركز الصحي وتحتاج إلى إكمال استمارة قصيرة.",
+    "context": "موقف تدريبي خيالي عند شباك خدمة: اذكر تاريخ الميلاد الوارد في المثال، واسأل أي جزء من الاستمارة يجب ملؤه.",
     "phrases": [
       {
         "id": "a1-filling-in-a-form-01",
@@ -3531,9 +3531,9 @@
       },
       {
         "id": "a1-filling-in-a-form-03",
-        "dutch": "Mijn geboortedatum is veertien mei.",
-        "arabic": "تاريخ ميلادي هو الرابع عشر من مايو.",
-        "tip": "geboortedatum = تاريخ الميلاد، ويمكن قولها كاملة عند ملء الاستمارات."
+        "dutch": "Mijn geboortedatum is 14 mei 1990.",
+        "arabic": "تاريخ ميلادي هو 14 مايو 1990.",
+        "tip": "geboortedatum = تاريخ الميلاد؛ نذكر اليوم والشهر والسنة في هذا المثال الخيالي."
       },
       {
         "id": "a1-filling-in-a-form-04",
@@ -3543,9 +3543,9 @@
       },
       {
         "id": "a1-filling-in-a-form-05",
-        "dutch": "Kunt u dit vak nog een keer uitleggen?",
-        "arabic": "هل يمكنك شرح هذه الخانة مرة أخرى؟",
-        "tip": "vak هنا تعني خانة في استمارة، وnog een keer = مرة أخرى."
+        "dutch": "Kunt u uitleggen welk deel ik moet invullen?",
+        "arabic": "هل يمكنك توضيح أي جزء يجب أن أملأه؟",
+        "tip": "welk deel = أي جزء، وinvullen = يملأ استمارة أو حقلاً فيها."
       },
       {
         "id": "a1-filling-in-a-form-06",
@@ -3564,12 +3564,18 @@
         "dutch": "Geen probleem, u kunt het later sturen.",
         "arabic": "لا مشكلة، يمكنك إرساله لاحقاً.",
         "tip": "later تعني لاحقاً، وsturen تعني الإرسال."
+      },
+      {
+        "id": "a1-filling-in-a-form-09",
+        "dutch": "Wat is uw geboortedatum?",
+        "arabic": "ما تاريخ ميلادك؟",
+        "tip": "السؤال عن geboortedatum يطلب تاريخ الميلاد؛ أما burgerservicenummer فهو رقم BSN وليس تاريخاً."
       }
     ],
     "dialogue": [
       {
         "speaker": "Medewerker",
-        "phraseId": "a1-filling-in-a-form-02"
+        "phraseId": "a1-filling-in-a-form-09"
       },
       {
         "speaker": "Bezoeker",
@@ -3582,6 +3588,10 @@
       {
         "speaker": "Medewerker",
         "phraseId": "a1-filling-in-a-form-06"
+      },
+      {
+        "speaker": "Bezoeker",
+        "phraseId": "a1-filling-in-a-form-04"
       },
       {
         "speaker": "Bezoeker",
@@ -3604,11 +3614,11 @@
         "prompt": "أي جملة تذكر تاريخ الميلاد؟",
         "options": [
           "Ik ben iets vergeten.",
-          "Mijn geboortedatum is veertien mei.",
+          "Mijn geboortedatum is 14 mei 1990.",
           "Ik zet mijn handtekening onderaan."
         ],
         "correctIndex": 1,
-        "explanation": "geboortedatum تعني تاريخ الميلاد."
+        "explanation": "geboortedatum تعني تاريخ الميلاد؛ يذكر المثال اليوم والشهر والسنة، ولا يجيب عن سؤال رقم BSN."
       },
       {
         "id": "filling-in-a-form-q2",
@@ -3623,14 +3633,14 @@
       },
       {
         "id": "filling-in-a-form-q3",
-        "prompt": "كيف تطلب شرح خانة مرة أخرى؟",
+        "prompt": "كيف تطلب توضيح الجزء الذي يجب ملؤه؟",
         "options": [
-          "Kunt u dit vak nog een keer uitleggen?",
+          "Kunt u uitleggen welk deel ik moet invullen?",
           "Wat doet u graag in uw vrije tijd?",
           "Ik bel u morgen terug."
         ],
         "correctIndex": 0,
-        "explanation": "uitleggen تعني يشرح، وnog een keer تعني مرة أخرى."
+        "explanation": "uitleggen تعني يشرح، وwelk deel تعني أي جزء."
       },
       {
         "id": "filling-in-a-form-q4",
@@ -3655,7 +3665,7 @@
     "description": "اطلب تغيير الموعد، واسأل عن وقت بديل، وثبّت الموعد الجديد.",
     "goal": "أطلب تغيير موعد، وأقترح وقتاً مناسباً، وأفهم تأكيد الوقت الجديد برسالة.",
     "durationMinutes": 12,
-    "context": "تتصل بمكتب خدمة لأن الموعد الحالي لم يعد مناسباً لك وتحتاج إلى موعد جديد.",
+    "context": "مكالمة تدريبية خيالية لتغيير موعد إلى الأسبوع القادم. يقترح الموظف وقتاً محدداً، ثم يقبله المتصل قبل إرسال التأكيد.",
     "phrases": [
       {
         "id": "a1-changing-an-appointment-01",
@@ -3704,12 +3714,22 @@
         "dutch": "Dank u, dan noteer ik het meteen.",
         "arabic": "شكراً لك، إذن سأسجل ذلك فوراً.",
         "tip": "meteen تعني فوراً أو مباشرة."
+      },
+      {
+        "id": "a1-changing-an-appointment-09",
+        "dutch": "Volgende week vrijdag om twee uur is nog vrij.",
+        "arabic": "ما زال يوم الجمعة القادم الساعة الثانية متاحاً.",
+        "tip": "بما أن المتصل طلب Vrijdagmiddag، فالساعة المقصودة 14:00. vrij هنا تعني متاح."
       }
     ],
     "dialogue": [
       {
         "speaker": "Klant",
         "phraseId": "a1-changing-an-appointment-01"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-changing-an-appointment-05"
       },
       {
         "speaker": "Medewerker",
@@ -3721,19 +3741,15 @@
       },
       {
         "speaker": "Medewerker",
-        "phraseId": "a1-changing-an-appointment-04"
-      },
-      {
-        "speaker": "Klant",
-        "phraseId": "a1-changing-an-appointment-05"
-      },
-      {
-        "speaker": "Medewerker",
-        "phraseId": "a1-changing-an-appointment-06"
+        "phraseId": "a1-changing-an-appointment-09"
       },
       {
         "speaker": "Klant",
         "phraseId": "a1-changing-an-appointment-08"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-changing-an-appointment-06"
       }
     ],
     "grammar": {
@@ -3778,14 +3794,14 @@
       },
       {
         "id": "changing-an-appointment-q4",
-        "prompt": "ماذا تعني meteen في Dank u, dan noteer ik het meteen؟",
+        "prompt": "أي موعد يُقبل في الحوار قبل إرسال التأكيد؟",
         "options": [
-          "فوراً",
-          "غداً",
-          "بهدوء"
+          "الجمعة القادمة الساعة 14:00",
+          "الجمعة القادمة الساعة 08:00",
+          "لم يقترح الموظف وقتاً"
         ],
         "correctIndex": 0,
-        "explanation": "meteen تعني مباشرة أو فوراً."
+        "explanation": "طلب المتصل Vrijdagmiddag، ثم اقترح الموظف الجمعة القادمة om twee uur، أي 14:00، وشكره المتصل وقال إنه سيدوّن الموعد."
       }
     ]
   }

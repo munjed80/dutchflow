@@ -981,14 +981,14 @@
       {
         "term": "met wie",
         "kind": "expression",
-        "forms": "Met wie spreek ik? · Met wie belt u?",
+        "forms": "Met wie spreek ik? · Wie heb ik aan de lijn?",
         "meaning": "مع من؛ للسؤال عن هوية المتحدث.",
         "phraseId": "a1-phone-calls-02"
       }
     ],
     "tasks": [
       {
-        "prompt": "اكتب بداية مكالمة قصيرة: عرّف بنفسك أولاً ثم اطلب من الموظف أن يتحدث ببطء أكثر.",
+        "prompt": "اكتب بداية مكالمة تدريبية باسم Amal الخيالي، ثم اطلب من الموظف أن يتحدث ببطء أكثر.",
         "model": "Goedemiddag, u spreekt met Amal. Kunt u wat langzamer spreken?",
         "translation": "طاب نهارك، معك أمل. هل يمكنك التحدث ببطء أكثر قليلاً؟",
         "checklist": [
@@ -1078,10 +1078,10 @@
     "lessonSlug": "filling-in-a-form",
     "vocabulary": [
       {
-        "term": "de gegevens",
+        "term": "het gegeven",
         "kind": "noun",
         "forms": "de gegevens",
-        "meaning": "البيانات أو المعلومات المدخلة في الاستمارة.",
+        "meaning": "المعلومة أو البيان؛ نستخدم هنا الجمع de gegevens بمعنى البيانات، مع أداة الجمع de.",
         "phraseId": "a1-filling-in-a-form-01"
       },
       {
@@ -1122,18 +1122,18 @@
     ],
     "tasks": [
       {
-        "prompt": "اكتب جوابين قصيرين في استمارة تدريبية: واحد عن تاريخ الميلاد وواحد عن التوقيع في الأسفل.",
-        "model": "Mijn geboortedatum is veertien mei. Ik zet mijn handtekening onderaan.",
-        "translation": "تاريخ ميلادي هو الرابع عشر من مايو. أضع توقيعي في الأسفل.",
+        "prompt": "استخدم بيانات خيالية: تاريخ الميلاد 14 مايو 1990. اكتب التاريخ كاملاً في جملة، ثم اذكر أنك تضع توقيعك في الأسفل.",
+        "model": "Mijn geboortedatum is 14 mei 1990. Ik zet mijn handtekening onderaan.",
+        "translation": "تاريخ ميلادي هو 14 مايو 1990. أضع توقيعي في الأسفل.",
         "checklist": [
-          "هل استخدمت geboortedatum لذكر التاريخ؟",
+          "هل ذكرت اليوم والشهر والسنة مع geboortedatum؟",
           "هل ذكرت مكان التوقيع بكلمة onderaan؟"
         ]
       },
       {
-        "prompt": "خانة في الاستمارة غير واضحة لك. اكتب سؤالاً مهذباً لطلب الشرح، ثم أضف أنك نسيت شيئاً.",
-        "model": "Kunt u dit vak nog een keer uitleggen? Ik ben iets vergeten.",
-        "translation": "هل يمكنك شرح هذه الخانة مرة أخرى؟ لقد نسيت شيئاً.",
+        "prompt": "لا تعرف أي جزء من استمارة تدريبية يجب ملؤه. اطلب التوضيح بأدب، ثم أضف أنك نسيت شيئاً.",
+        "model": "Kunt u uitleggen welk deel ik moet invullen? Ik ben iets vergeten.",
+        "translation": "هل يمكنك توضيح أي جزء يجب أن أملأه؟ لقد نسيت شيئاً.",
         "checklist": [
           "هل طلبت الشرح بصيغة مهذبة؟",
           "هل أضفت جملة قصيرة عن النقص أو النسيان؟"
@@ -1189,13 +1189,15 @@
     ],
     "tasks": [
       {
-        "prompt": "الموعد الحالي لا يناسبك. اكتب جملتين: الأولى لطلب تغييره، والثانية لاقتراح أن بعد ظهر الجمعة مناسب.",
-        "model": "Ik wil mijn afspraak verzetten. Vrijdagmiddag kan ik wel.",
-        "translation": "أريد تغيير موعدي. بعد ظهر الجمعة يناسبني.",
+        "prompt": "اكتب رسالة خيالية باسم Nour لطلب تغيير موعد. اقترح الثلاثاء الساعة 10:30 بدلاً من الجمعة، وأضف تحية وتوقيعاً.",
+        "model": "Beste medewerker,\n\nIk wil mijn afspraak verzetten. Kan ik dinsdag om half elf komen?\n\nMet vriendelijke groet,\nNour",
+        "translation": "الموظف المحترم،\n\nأريد تغيير موعدي. هل يمكنني الحضور يوم الثلاثاء الساعة العاشرة والنصف؟\n\nمع أطيب التحيات،\nنور",
         "checklist": [
-          "هل بدأت بطلب واضح لتغيير الموعد؟",
-          "هل اقترحت وقتاً بديلاً محدداً؟"
-        ]
+          "هل طلبت تغيير الموعد واقترحت الثلاثاء؟",
+          "هل استخدمت half elf للساعة 10:30؟",
+          "هل أضفت تحية وتوقيع الاسم الخيالي؟"
+        ],
+        "cue": "Beste medewerker,\n...\nMet vriendelijke groet,\nNour"
       },
       {
         "prompt": "اكتب سؤالاً عن توفر موعد الأسبوع القادم، ثم أضف طلباً لإرسال رسالة نصية بالتأكيد.",

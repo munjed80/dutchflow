@@ -13,7 +13,7 @@ test("the A1 map covers every published resource and preserves all original phra
   assert.deepEqual(validateLearningMap(units, extensions, lessons, readings), []);
   assert.equal(units.length, 10);
   assert.equal(lessons.length, 32);
-  assert.equal(lessons.flatMap((lesson) => lesson.phrases).length, 197);
+  assert.equal(lessons.flatMap((lesson) => lesson.phrases).length, 199);
   assert.equal(lessons.flatMap((lesson) => lesson.questions).length, 108);
   assert.equal(Object.keys(original).length, 20);
   for (const [slug, phrases] of Object.entries(original)) {
