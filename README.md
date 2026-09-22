@@ -70,4 +70,8 @@ The script writes MP3s to `public/audio/` and updates `src/lib/audio-manifest.js
 4. Build secure paid practice exams: authenticated purchases, one €4.95 attempt per payment, server-side scoring, provider webhooks, receipts, and clear retry/refund handling. Do not unlock an exam based on a browser redirect alone.
 5. Add result breakdowns and revision recommendations. Keep all standard lessons free.
 
+## Vocabulary lookup
+
+The free `/vocabulary` library searches authored lesson vocabulary in Arabic or Dutch, including plural/conjugated forms and example translations. Filter by type and module, listen to an example sentence, or explicitly save it to browser-local review. Repeated terms keep their lesson context. This does not award completion or claim dictionary/CEFR completeness. See [vocabulary behavior and validation](docs/VOCABULARY.md).
+
 See `CLAUDE.md` for project continuity and contribution guidance.

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Lesson } from "@/lib/content";
 import type { LessonExtension } from "@/lib/curriculum";
 import { ProductionPractice } from "./ProductionPractice";
@@ -14,6 +15,7 @@ export function LessonEnrichment({ lesson, extension }: { lesson: Lesson; extens
           <dd><p>{entry.meaning}</p><p className="vocabulary-forms" lang="nl" dir="ltr">{entry.forms}</p><p lang="nl" dir="ltr">{phrase.dutch}</p><p className="quiet">{phrase.arabic}</p></dd>
         </div>;
       })}</dl>
+      <Link className="text-link" href="/vocabulary">استكشف مفردات الدروس الأخرى ←</Link>
     </section>
     <ProductionPractice key={lesson.slug} tasks={extension.tasks} />
   </div>;
