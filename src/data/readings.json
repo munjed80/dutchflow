@@ -963,5 +963,103 @@
         "explanation": "العودة مرتبطة بالشرط المذكور: ألا تكون لديها حمى غداً."
       }
     ]
+  },
+  {
+    "slug": "a-missing-document-message",
+    "title": "رسالة عن مستند ناقص",
+    "dutchTitle": "Nog een document voor uw afspraak",
+    "topic": "الخدمات والرسائل",
+    "sourceLessons": [
+      "municipal-appointment",
+      "phone-calls",
+      "letters-and-messages",
+      "filling-in-a-form",
+      "changing-an-appointment"
+    ],
+    "text": "Beste mevrouw Hassan,\n\nBedankt voor uw online formulier. Voor uw afspraak bij de gemeente op maandag 6 mei om 14.00 uur missen wij nog een kopie van uw huurcontract. U kunt het document vandaag per e-mail sturen of meenemen naar de balie.\n\nLukt maandag niet meer? Bel ons dan vóór vrijdag om een nieuwe afspraak te maken. Vermeld in uw bericht altijd uw naam en geboortedatum.\n\nMet vriendelijke groet,\nTeam Burgerzaken.",
+    "translation": "السيدة حسن المحترمة،\n\nشكراً على استمارتك الإلكترونية. ما زلنا نفتقد نسخة من عقد الإيجار لموعدك في البلدية يوم الاثنين 6 مايو الساعة 14:00. يمكنك إرسال المستند اليوم عبر البريد الإلكتروني أو إحضاره معك إلى الشباك.\n\nإذا لم يعد يوم الاثنين مناسباً، فاتصلي بنا قبل يوم الجمعة لتحديد موعد جديد. اذكري دائماً اسمك وتاريخ ميلادك في رسالتك.\n\nمع خالص التحية،\nفريق شؤون المواطنين.",
+    "vocabulary": [
+      {
+        "term": "het huurcontract",
+        "excerpt": "huurcontract",
+        "meaning": "عقد الإيجار؛ المستند الناقص في هذه الرسالة التعليمية الخيالية."
+      },
+      {
+        "term": "de balie",
+        "excerpt": "balie",
+        "meaning": "شباك الخدمة أو مكتب الاستقبال."
+      },
+      {
+        "term": "lukken",
+        "excerpt": "Lukt",
+        "meaning": "ينجح أو يناسب؛ هنا للسؤال إن كان الموعد ما زال ممكناً."
+      },
+      {
+        "term": "vermelden",
+        "excerpt": "Vermeld",
+        "meaning": "اذكر أو دوّن المعلومة المطلوبة في الرسالة."
+      },
+      {
+        "term": "Burgerzaken",
+        "excerpt": "Burgerzaken",
+        "meaning": "قسم شؤون المواطنين في البلدية."
+      }
+    ],
+    "grammar": {
+      "title": "om ... te: هدف الفعل",
+      "example": "Bel ons dan vóór vrijdag om een nieuwe afspraak te maken.",
+      "translation": "اتصل بنا قبل يوم الجمعة لتحديد موعد جديد.",
+      "explanation": "توضح om ... te هنا الهدف من الاتصال: ترتيب موعد جديد. بعد om يأتي المصدر مع te، بينما يبقى الزمن أو الموعد مثل vóór vrijdag خارج هذا التركيب."
+    },
+    "questions": [
+      {
+        "id": "reading-document-1",
+        "prompt": "متى يكون موعد البلدية المذكور في الرسالة؟",
+        "options": [
+          "الاثنين 6 مايو الساعة 14:00",
+          "الجمعة 6 مايو الساعة 14:00",
+          "الاثنين 14 مايو الساعة 06:00"
+        ],
+        "correctIndex": 0,
+        "evidence": "Voor uw afspraak bij de gemeente op maandag 6 mei om 14.00 uur",
+        "explanation": "الرسالة تذكر اليوم والتاريخ والوقت معاً في هذا الجزء."
+      },
+      {
+        "id": "reading-document-2",
+        "prompt": "ما المستند الذي ما زال ناقصاً؟",
+        "options": [
+          "بطاقة القطار",
+          "نسخة من عقد الإيجار",
+          "رسالة من المدرسة"
+        ],
+        "correctIndex": 1,
+        "evidence": "missen wij nog een kopie van uw huurcontract",
+        "explanation": "kopie van uw huurcontract تعني نسخة من عقد الإيجار."
+      },
+      {
+        "id": "reading-document-3",
+        "prompt": "ماذا تفعل السيدة حسن إذا لم يعد يوم الاثنين مناسباً؟",
+        "options": [
+          "تذهب مباشرة إلى الشباك من دون اتصال",
+          "تتصل قبل يوم الجمعة لتحديد موعد جديد",
+          "تتصل يوم الجمعة لتحديد موعد جديد"
+        ],
+        "correctIndex": 1,
+        "evidence": "Lukt maandag niet meer? Bel ons dan vóór vrijdag om een nieuwe afspraak te maken.",
+        "explanation": "Bel ons dan تعني اتصلي بنا عندئذ، وvóór vrijdag تعني قبل يوم الجمعة، لا يوم الجمعة نفسه."
+      },
+      {
+        "id": "reading-document-4",
+        "prompt": "أي معلومات يجب ذكرها دائماً في الرسالة؟",
+        "options": [
+          "الاسم وتاريخ الميلاد",
+          "الرقم الدراسي واسم المعلمة",
+          "عنوان العمل ووقت الاستراحة"
+        ],
+        "correctIndex": 0,
+        "evidence": "Vermeld in uw bericht altijd uw naam en geboortedatum.",
+        "explanation": "naam وgeboortedatum هما المعلومتان المطلوبتان دائماً في الرسالة."
+      }
+    ]
   }
 ]

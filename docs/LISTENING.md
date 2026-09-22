@@ -2,7 +2,7 @@
 
 ## Learning flow
 
-Each lesson links to `/learn/[slug]/listening`. All 30 lesson routes reuse their existing phrase IDs and Dutch/Arabic content, covering 181 phrases in total. Each round plays one phrase and offers three distinct Arabic meanings from the same lesson. The learner explicitly checks an answer before moving on. Correct meanings, the Dutch transcript, and the existing phrase tip appear after checking.
+Each lesson links to `/learn/[slug]/listening`. All 32 lesson routes reuse their existing phrase IDs and Dutch/Arabic content, covering 199 phrases in total. Each round plays one phrase and offers three distinct Arabic meanings from the same lesson. The learner explicitly checks an answer before moving on. Correct meanings, the Dutch transcript, and the existing phrase tip appear after checking.
 
 Before checking, the Dutch sentence is absent from visible content and accessible play-button labels. This is a free client-side practice tool; the underlying phrase remains in client data and is not an exam secret. Choice order is deterministic, and repeating the same round may benefit from memory.
 
