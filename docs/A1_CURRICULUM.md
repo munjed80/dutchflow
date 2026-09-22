@@ -25,11 +25,11 @@ This table is a development plan. It does not claim that every listed language p
 
 ## Coverage at this release
 
-- 32 lessons, 199 reusable phrases and 108 lesson questions; twelve separate readings with 40 comprehension questions.
+- 34 lessons, 215 reusable phrases and 116 lesson questions; thirteen separate readings with 44 comprehension questions.
 - Every lesson and reading is mapped. All ten units now display **partial coverage** with explicit remaining work. No unit displays complete or a mastery percentage.
 - New foundation lessons: `spelling-your-name`, `contact-details`, `asking-for-clarification`. Each has eight phrases, a contextual dialogue, a grammar note, four questions, six vocabulary/form notes and two self-review production tasks.
-- `src/data/lesson-extensions.json` holds 108 vocabulary notes and 36 production tasks across 18 lessons. Nouns include an article and plural; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is a growing lexical support layer, not a complete searchable dictionary.
-- The foundation release added 24 phrase IDs; the numbers/time release adds another 16; the leisure/plans release adds another 24; the family/school release adds another 16; the services/messages release adds another 18. New phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 32 lessons.
+- `src/data/lesson-extensions.json` holds 138 vocabulary notes and 46 production tasks across 23 lessons. Nouns include an article and plural; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is a growing lexical support layer, not a complete searchable dictionary.
+- The foundation release added 24 phrase IDs; the numbers/time release adds another 16; the leisure/plans release adds another 24; the family/school release adds another 16; the services/messages release adds another 18; the home/neighbourhood release adds another 16. New phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 34 lessons.
 - The two production tasks per enriched lesson offer a temporary text area, hidden model answer, Arabic meaning and review questions. Learners reuse structures with fictional details or combine known expressions. Multiple answers may be valid; there is no automatic judgment, score, mastery claim or completion write. Reload or route navigation resets answers. These tasks are separate from exact lesson-wording recall at `/writing` and do not record speech.
 - Listening still uses device TTS when MP3s are absent; connected listening passages, spoken interaction and assessed pronunciation remain missing. Spelling text does not constitute an alphabet pronunciation course. Have an editor listen especially to spelled letters, numbers and postcodes before publishing audio.
 
@@ -60,6 +60,14 @@ This expansion adds 16 phrases, eight graded questions, 18 lexical notes and six
 This expansion adds 18 phrases, eight graded questions, 30 lexical notes and ten self-review tasks across five lessons. The new reading `a-missing-document-message` adds a first services/messages text with four evidenced questions and an `om ... te` grammar note around arranging a new appointment. The unit remains partial because it still needs reviewed voicemail listening, shorter original message-writing with feedback beyond self-review, and a direct role-play for changing an appointment or completing missing documents.
 
 The form dialogue now asks for a date of birth before the full fictional day/month/year answer. The appointment dialogue explicitly offers next Friday at 14:00 before the learner accepts and the employee confirms it. These repairs add one phrase per new lesson (nine each). The letter task transfers the structure to a different day and time: Tuesday at 10:30. It includes a greeting, a signature, a multiline example and self-review criteria. It remains ungraded and temporary.
+
+## Home and neighbourhood expansion
+
+`rooms-at-home` introduces rooms, upstairs/downstairs, `er is / er zijn`, and `geen` for absence. `furniture-and-location` adds furniture positions with `op`, `onder`, `naast`, `voor`, and `tussen ... en ...`, using contextual `staan / liggen`. Each lesson has eight phrases, four questions, six lexical notes, and two self-review tasks.
+
+The existing `home-and-address`, `neighbours`, and `repairs-at-home` lessons also gain six notes and two tasks each, without changing any existing spoken phrase. Across five lessons this adds 30 lexical notes and ten tasks. Learners describe a different room, answer a neighbour, write a complete fictional repair request, and ask to change a repair visit; the latter is explicitly a request awaiting confirmation. The vocabulary library automatically exposes the new notes and their original example sentences.
+
+The original reading `a-room-for-a-guest` recycles room/furniture language, adds six contextual notes and four evidenced questions, and distinguishes the invitation's start time from the host's earlier work finish. Its location question distinguishes the desk between the bed/window from the cupboard next to the door. The home unit links this text and the existing neighbour/repair texts. It remains partial: reviewed connected listening, broader vocabulary, independent writing feedback and interactive repair confirmation are still pending.
 
 ## Definition of readiness for each unit
 

@@ -78,15 +78,20 @@
     ],
     "lessonSlugs": [
       "home-and-address",
+      "rooms-at-home",
+      "furniture-and-location",
       "neighbours",
       "repairs-at-home"
     ],
     "readingSlugs": [
-      "a-repair-request"
+      "a-new-neighbour",
+      "a-repair-request",
+      "a-room-for-a-guest"
     ],
     "remaining": [
-      "الغرف والأثاث وحروف المكان.",
-      "تدريب وصفي وسمعي على منازل جديدة."
+      "تسجيلات مُراجعة لوصف منزل جديد، مع أسئلة استماع قبل عرض النص.",
+      "توسيع مفردات الأثاث وحروف المكان، ومراجعة وصف مستقل ورسالة إصلاح مع معلّم.",
+      "محادثة تفاعلية لتوضيح مكان غرض أو تأكيد موعد إصلاح."
     ]
   },
   {
