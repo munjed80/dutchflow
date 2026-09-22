@@ -82,3 +82,10 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Vocabulary library handoff
+
+- `/vocabulary` indexes all authored lesson-enrichment notes dynamically. Read `docs/VOCABULARY.md` before changing it. The server explicitly projects vocabulary and same-lesson phrase examples; no quiz bank or production models enter `VocabularyLibrary`.
+- Search covers Dutch/Arabic terms, forms, meanings, example text and lesson titles, with type/module filters and 24-result batches. Normalization is search-only; it is not stemming or translation. Search/filter state is temporary. Duplicate terms in different lessons remain separate contexts.
+- Audio and explicit review actions target the full example phrase through existing components and IDs, never isolated headword audio or new storage. Filtering out a playing card cancels it. Browsing does not grant completion.
+- This work starts from merged main independently of open PR #12. It changes no content inventories; additional enrichment appears automatically after content merges. Native and browser tests cover projection, search, filtering, context links, save failures/retry, persistence, audio cleanup and mobile layout.
