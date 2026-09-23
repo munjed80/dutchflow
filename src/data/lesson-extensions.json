@@ -1209,5 +1209,344 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "home-and-address",
+    "vocabulary": [
+      {
+        "term": "het adres",
+        "kind": "noun",
+        "forms": "de adressen",
+        "meaning": "العنوان؛ يتضاعف حرف s في الجمع adressen.",
+        "phraseId": "a1-home-and-address-01"
+      },
+      {
+        "term": "het huis",
+        "kind": "noun",
+        "forms": "de huizen",
+        "meaning": "المنزل؛ يتغير s إلى z في الجمع huizen.",
+        "phraseId": "a1-home-and-address-04"
+      },
+      {
+        "term": "de slaapkamer",
+        "kind": "noun",
+        "forms": "de slaapkamers",
+        "meaning": "غرفة النوم؛ الجمع غرف النوم.",
+        "phraseId": "a1-home-and-address-04"
+      },
+      {
+        "term": "de keuken",
+        "kind": "noun",
+        "forms": "de keukens",
+        "meaning": "المطبخ؛ الجمع المطابخ.",
+        "phraseId": "a1-home-and-address-05"
+      },
+      {
+        "term": "wonen",
+        "kind": "verb",
+        "forms": "ik woon · u woont · wij wonen",
+        "meaning": "يسكن؛ لذكر الشارع نقول هنا aan de Kerkstraat.",
+        "phraseId": "a1-home-and-address-02"
+      },
+      {
+        "term": "beneden",
+        "kind": "expression",
+        "forms": "beneden ↔ boven",
+        "meaning": "في الأسفل مقابل في الأعلى؛ لا تعني beneden بالضرورة القبو.",
+        "phraseId": "a1-home-and-address-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استخدم عنواناً خيالياً: شارع Kerkstraat، المنزل رقم 24. اكتب جملة عن الشارع وأخرى عن رقم المنزل.",
+        "model": "Ik woon aan de Kerkstraat. Op nummer vierentwintig.",
+        "translation": "أسكن في شارع كيركسترات، في الرقم أربعة وعشرين.",
+        "checklist": [
+          "هل ذكرت اسم الشارع؟",
+          "هل غيّرت رقم المنزل إلى 24؟"
+        ]
+      },
+      {
+        "prompt": "صف منزلاً خيالياً فيه ثلاث غرف نوم، ومطبخه في الأعلى. اكتب جملتين.",
+        "model": "Het huis heeft drie slaapkamers. De keuken is boven.",
+        "translation": "في المنزل ثلاث غرف نوم. المطبخ في الأعلى.",
+        "checklist": [
+          "هل استخدمت heeft مع Het huis؟",
+          "هل ميّزت بين boven وbeneden؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "rooms-at-home",
+    "vocabulary": [
+      {
+        "term": "de woonkamer",
+        "kind": "noun",
+        "forms": "de woonkamers",
+        "meaning": "غرفة المعيشة؛ الغرفة التي نجلس فيها عادة مع الأسرة أو الضيوف.",
+        "phraseId": "a1-rooms-at-home-02"
+      },
+      {
+        "term": "de badkamer",
+        "kind": "noun",
+        "forms": "de badkamers",
+        "meaning": "الحمّام؛ الجمع الحمّامات.",
+        "phraseId": "a1-rooms-at-home-05"
+      },
+      {
+        "term": "de stoel",
+        "kind": "noun",
+        "forms": "de stoelen",
+        "meaning": "الكرسي؛ ورد في المثال بصيغة الجمع stoelen.",
+        "phraseId": "a1-rooms-at-home-06"
+      },
+      {
+        "term": "de tuin",
+        "kind": "noun",
+        "forms": "de tuinen",
+        "meaning": "الحديقة؛ الجمع الحدائق.",
+        "phraseId": "a1-rooms-at-home-07"
+      },
+      {
+        "term": "er is / er zijn",
+        "kind": "expression",
+        "forms": "er is een badkamer · er zijn twee stoelen",
+        "meaning": "يوجد للمفرد وتوجد للجمع في هذين المثالين.",
+        "phraseId": "a1-rooms-at-home-06"
+      },
+      {
+        "term": "geen",
+        "kind": "expression",
+        "forms": "een tuin → geen tuin",
+        "meaning": "أداة نفي مع الاسم النكرة هنا: حديقة تصبح لا توجد حديقة.",
+        "phraseId": "a1-rooms-at-home-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صف منزلاً خيالياً فيه حمّام واحد وكرسيان في غرفة المعيشة ولا توجد فيه حديقة. اكتب ثلاث جمل.",
+        "model": "Er is een badkamer. Er zijn twee stoelen in de woonkamer. Er is geen tuin.",
+        "translation": "يوجد حمّام. يوجد كرسيان في غرفة المعيشة. لا توجد حديقة.",
+        "checklist": [
+          "هل استخدمت is مع المفرد وzijn مع الجمع؟",
+          "هل نفيت وجود الحديقة باستخدام geen؟"
+        ]
+      },
+      {
+        "prompt": "يسألك ضيف إن كانت غرفة النوم في الأسفل. أجب بالنفي، وقل إنها في الأعلى وإن الحمّام بجانبها.",
+        "model": "Nee, de slaapkamer is boven. De badkamer is naast de slaapkamer.",
+        "translation": "لا، غرفة النوم في الأعلى. الحمّام بجانب غرفة النوم.",
+        "checklist": [
+          "هل أجبت عن سؤال الضيف بالنفي؟",
+          "هل ذكرت مكان الغرفتين؟"
+        ],
+        "cue": "Is de slaapkamer beneden?"
+      }
+    ]
+  },
+  {
+    "lessonSlug": "furniture-and-location",
+    "vocabulary": [
+      {
+        "term": "de tafel",
+        "kind": "noun",
+        "forms": "de tafels",
+        "meaning": "الطاولة؛ الجمع الطاولات.",
+        "phraseId": "a1-furniture-and-location-02"
+      },
+      {
+        "term": "het raam",
+        "kind": "noun",
+        "forms": "de ramen",
+        "meaning": "النافذة؛ يكتب الجمع ramen بحرف a واحد قبل m.",
+        "phraseId": "a1-furniture-and-location-02"
+      },
+      {
+        "term": "de kast",
+        "kind": "noun",
+        "forms": "de kasten",
+        "meaning": "الخزانة؛ الجمع الخزائن.",
+        "phraseId": "a1-furniture-and-location-04"
+      },
+      {
+        "term": "de bank",
+        "kind": "noun",
+        "forms": "de banken",
+        "meaning": "الأريكة في وصف هذه الغرفة؛ قد تعني bank مصرفاً في سياق آخر.",
+        "phraseId": "a1-furniture-and-location-04"
+      },
+      {
+        "term": "liggen",
+        "kind": "verb",
+        "forms": "ik lig · het ligt · ze liggen",
+        "meaning": "يكون مستلقياً أو موضوعاً على سطح؛ المثال يتحدث عن مفاتيح.",
+        "phraseId": "a1-furniture-and-location-06"
+      },
+      {
+        "term": "tussen ... en ...",
+        "kind": "expression",
+        "forms": "tussen de bank en het raam",
+        "meaning": "بين شيئين؛ نذكر الموضعين بعد tussen وبينهما en.",
+        "phraseId": "a1-furniture-and-location-04"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صف غرفة جديدة: الطاولة بجانب النافذة، والحقيبة تحت الطاولة. اكتب جملتين.",
+        "model": "De tafel staat naast het raam. De tas ligt onder de tafel.",
+        "translation": "الطاولة بجانب النافذة. الحقيبة تحت الطاولة.",
+        "checklist": [
+          "هل فرّقت بين naast وonder؟",
+          "هل استخدمت staat للطاولة وligt للحقيبة؟"
+        ]
+      },
+      {
+        "prompt": "أجب عن سؤال المفاتيح: هي فوق الخزانة. ثم أضف أن الخزانة بين الطاولة والنافذة.",
+        "model": "Je sleutels liggen op de kast. De kast staat tussen de tafel en het raam.",
+        "translation": "مفاتيحك فوق الخزانة. الخزانة بين الطاولة والنافذة.",
+        "checklist": [
+          "هل استخدمت liggen مع جمع sleutels؟",
+          "هل ذكرت شيئين بعد tussen وربطتهما بـ en؟"
+        ],
+        "cue": "Waar liggen mijn sleutels?"
+      }
+    ]
+  },
+  {
+    "lessonSlug": "neighbours",
+    "vocabulary": [
+      {
+        "term": "de buurman",
+        "kind": "noun",
+        "forms": "de buurmannen",
+        "meaning": "الجار الرجل؛ وللجيران عموماً نستخدم de buren.",
+        "phraseId": "a1-neighbours-01"
+      },
+      {
+        "term": "de straat",
+        "kind": "noun",
+        "forms": "de straten",
+        "meaning": "الشارع؛ الجمع الشوارع.",
+        "phraseId": "a1-neighbours-02"
+      },
+      {
+        "term": "wonen",
+        "kind": "verb",
+        "forms": "ik woon · u woont · wij wonen",
+        "meaning": "يسكن؛ في السؤال يتقدم الفعل: Woont u ...?",
+        "phraseId": "a1-neighbours-03"
+      },
+      {
+        "term": "welkom",
+        "kind": "expression",
+        "forms": "welkom in de straat",
+        "meaning": "أهلاً بك؛ ترحيب بجار جديد في الشارع.",
+        "phraseId": "a1-neighbours-02"
+      },
+      {
+        "term": "al lang",
+        "kind": "expression",
+        "forms": "al lang · al vijf jaar",
+        "meaning": "منذ مدة طويلة؛ نستخدم al أيضاً مع مدة محددة مستمرة حتى الآن.",
+        "phraseId": "a1-neighbours-03"
+      },
+      {
+        "term": "fijne dag",
+        "kind": "expression",
+        "forms": "een fijne dag · fijne dag!",
+        "meaning": "أتمنى لك يوماً طيباً؛ عبارة وداع نهارية.",
+        "phraseId": "a1-neighbours-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "تخيّل أنك جارة جديدة. قدّمي نفسك لجارك بصيغة رسمية واسأليه إن كان يسكن هنا منذ مدة طويلة.",
+        "model": "Goedemiddag, ik ben uw nieuwe buurvrouw. Woont u hier al lang?",
+        "translation": "طاب نهارك، أنا جارتك الجديدة. هل تسكن هنا منذ مدة طويلة؟",
+        "checklist": [
+          "هل استخدمت buurvrouw للمتكلمة؟",
+          "هل طرحت سؤالاً عن مدة السكن؟"
+        ]
+      },
+      {
+        "prompt": "أنت تسكن هنا منذ ثلاث سنوات. أجب عن سؤال الجار بجملة كاملة، ثم تمنّ له يوماً طيباً.",
+        "model": "Ja, ik woon hier al drie jaar. Fijne dag!",
+        "translation": "نعم، أسكن هنا منذ ثلاث سنوات. أتمنى لك يوماً طيباً!",
+        "checklist": [
+          "هل استخدمت al مع المدة الجديدة؟",
+          "هل أضفت عبارة وداع؟"
+        ],
+        "cue": "Woont u hier al lang?"
+      }
+    ]
+  },
+  {
+    "lessonSlug": "repairs-at-home",
+    "vocabulary": [
+      {
+        "term": "de verwarming",
+        "kind": "noun",
+        "forms": "de verwarmingen",
+        "meaning": "التدفئة؛ الجمع يدل على أنظمة أو أجهزة تدفئة متعددة، لا على الحرارة نفسها.",
+        "phraseId": "a1-repairs-at-home-01"
+      },
+      {
+        "term": "werken",
+        "kind": "verb",
+        "forms": "ik werk · het werkt · wij werken",
+        "meaning": "يعمل؛ هنا عن عمل جهاز التدفئة، لا عن وظيفة شخص.",
+        "phraseId": "a1-repairs-at-home-01"
+      },
+      {
+        "term": "sturen",
+        "kind": "verb",
+        "forms": "ik stuur · u stuurt · wij sturen",
+        "meaning": "يرسل؛ Kunt u iemand sturen? طلب إرسال شخص للمساعدة.",
+        "phraseId": "a1-repairs-at-home-03"
+      },
+      {
+        "term": "komen",
+        "kind": "verb",
+        "forms": "ik kom · u komt · wij komen",
+        "meaning": "يأتي؛ يبقى في المصدر بعد kunt في السؤال.",
+        "phraseId": "a1-repairs-at-home-04"
+      },
+      {
+        "term": "geen warm water",
+        "kind": "expression",
+        "forms": "warm water → geen warm water",
+        "meaning": "لا يوجد ماء ساخن؛ الماء هنا اسم غير معدود ننفيه بـ geen.",
+        "phraseId": "a1-repairs-at-home-02"
+      },
+      {
+        "term": "morgen",
+        "kind": "expression",
+        "forms": "morgen om tien uur",
+        "meaning": "غداً؛ لا تعني الصباح في هذه الجملة.",
+        "phraseId": "a1-repairs-at-home-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب رسالة قصيرة باسم خيالي هو Rami: التدفئة لا تعمل، واطلب إرسال شخص للإصلاح. اذكر أنك متاح يوم الخميس الساعة الثالثة عصراً، وأضف تحية وتوقيعاً.",
+        "model": "Beste verhuurder,\n\nDe verwarming werkt niet. Kunt u iemand sturen? Ik ben donderdag om drie uur thuis.\n\nMet vriendelijke groet,\nRami",
+        "translation": "صاحب المنزل المحترم،\n\nالتدفئة لا تعمل. هل يمكنك إرسال شخص؟ سأكون في المنزل يوم الخميس الساعة الثالثة.\n\nمع التحية،\nرامي",
+        "checklist": [
+          "هل وصفت المشكلة وطلبت المساعدة بأدب؟",
+          "هل ذكرت الخميس والساعة الثالثة وأضفت التحية والتوقيع؟"
+        ]
+      },
+      {
+        "prompt": "اقرأ عرض الفني. لا يناسبك الموعد؛ اطلب بدلاً منه الخميس الساعة الثالثة. هذا طلب تغيير يحتاج إلى تأكيد، وليس موعداً مؤكداً.",
+        "model": "Woensdag kan ik niet. Kunt u donderdag om drie uur komen?",
+        "translation": "لا أستطيع يوم الأربعاء. هل يمكنك القدوم يوم الخميس الساعة الثالثة؟",
+        "checklist": [
+          "هل أوضحت أن الأربعاء لا يناسبك؟",
+          "هل طلبت الخميس الساعة الثالثة بصيغة سؤال؟"
+        ],
+        "cue": "Ik kan woensdag om tien uur komen. Schikt dat?"
+      }
+    ]
   }
 ]

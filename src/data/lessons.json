@@ -1867,10 +1867,306 @@
     ]
   },
   {
-    "slug": "neighbours",
+    "slug": "rooms-at-home",
     "moduleId": "daily-life",
     "level": "A1",
     "number": "17",
+    "title": "الغرف وما يوجد في المنزل",
+    "dutchTitle": "De kamers in huis",
+    "description": "صف الغرف في منزل بسيط وميّز بين وجود شيء واحد وأشياء متعددة.",
+    "goal": "صف الغرف في منزل بسيط وميّز بين وجود شيء واحد وأشياء متعددة.",
+    "durationMinutes": 12,
+    "context": "تزور صديقتك نور، فتريك غرف منزلها وتسألها عما يوجد فيه.",
+    "phrases": [
+      {
+        "id": "a1-rooms-at-home-01",
+        "dutch": "Waar is de keuken?",
+        "arabic": "أين المطبخ؟",
+        "tip": "Waar تسأل عن المكان، وde keuken تعني المطبخ."
+      },
+      {
+        "id": "a1-rooms-at-home-02",
+        "dutch": "De keuken is beneden, naast de woonkamer.",
+        "arabic": "المطبخ في الأسفل، بجانب غرفة المعيشة.",
+        "tip": "naast تعني بجانب؛ woonkamer هي غرفة المعيشة."
+      },
+      {
+        "id": "a1-rooms-at-home-03",
+        "dutch": "Is er een slaapkamer beneden?",
+        "arabic": "هل توجد غرفة نوم في الأسفل؟",
+        "tip": "نبدأ سؤال الوجود بالفعل Is ثم er."
+      },
+      {
+        "id": "a1-rooms-at-home-04",
+        "dutch": "Nee, de slaapkamer is boven.",
+        "arabic": "لا، غرفة النوم في الأعلى.",
+        "tip": "boven عكس beneden: في الأعلى مقابل في الأسفل."
+      },
+      {
+        "id": "a1-rooms-at-home-05",
+        "dutch": "Er is een badkamer naast de slaapkamer.",
+        "arabic": "يوجد حمّام بجانب غرفة النوم.",
+        "tip": "نستخدم Er is مع اسم مفرد مثل een badkamer."
+      },
+      {
+        "id": "a1-rooms-at-home-06",
+        "dutch": "Er zijn twee stoelen in de woonkamer.",
+        "arabic": "يوجد كرسيان في غرفة المعيشة.",
+        "tip": "نستخدم Er zijn مع الجمع مثل twee stoelen."
+      },
+      {
+        "id": "a1-rooms-at-home-07",
+        "dutch": "Is er ook een tuin?",
+        "arabic": "هل توجد حديقة أيضاً؟",
+        "tip": "ook تعني أيضاً، وde tuin تعني الحديقة."
+      },
+      {
+        "id": "a1-rooms-at-home-08",
+        "dutch": "Nee, er is geen tuin.",
+        "arabic": "لا، لا توجد حديقة.",
+        "tip": "geen تنفي وجود اسم نكرة؛ een tuin تصبح geen tuin."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Bezoeker",
+        "phraseId": "a1-rooms-at-home-01"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-rooms-at-home-02"
+      },
+      {
+        "speaker": "Bezoeker",
+        "phraseId": "a1-rooms-at-home-03"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-rooms-at-home-04"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-rooms-at-home-05"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-rooms-at-home-06"
+      },
+      {
+        "speaker": "Bezoeker",
+        "phraseId": "a1-rooms-at-home-07"
+      },
+      {
+        "speaker": "Nour",
+        "phraseId": "a1-rooms-at-home-08"
+      }
+    ],
+    "grammar": {
+      "title": "Er is وEr zijn: ماذا يوجد؟",
+      "explanation": "نستخدم Er is لذكر وجود شيء مفرد، وEr zijn للجمع: Er is een badkamer. Er zijn twee stoelen. يبدأ سؤال الوجود بالفعل: Is er een tuin? وللنفي هنا نستخدم geen: Er is geen tuin.",
+      "example": "Er zijn twee stoelen in de woonkamer.",
+      "translation": "يوجد كرسيان في غرفة المعيشة."
+    },
+    "questions": [
+      {
+        "id": "rooms-at-home-q1",
+        "prompt": "أين غرفة النوم في Nee, de slaapkamer is boven؟",
+        "options": [
+          "في الأعلى",
+          "بجانب الحديقة",
+          "في الأسفل"
+        ],
+        "correctIndex": 0,
+        "explanation": "boven تعني في الأعلى؛ نفي الجملة يجيب عن سؤال وجود غرفة نوم في الأسفل."
+      },
+      {
+        "id": "rooms-at-home-q2",
+        "prompt": "أكمل: Er ... twee stoelen in de woonkamer.",
+        "options": [
+          "ben",
+          "is",
+          "zijn"
+        ],
+        "correctIndex": 2,
+        "explanation": "twee stoelen جمع، لذلك نستخدم zijn."
+      },
+      {
+        "id": "rooms-at-home-q3",
+        "prompt": "ما معنى Er is geen tuin؟",
+        "options": [
+          "توجد حديقتان",
+          "لا توجد حديقة",
+          "الحديقة في الأعلى"
+        ],
+        "correctIndex": 1,
+        "explanation": "geen تنفي وجود الحديقة، ولا تدل على مكانها."
+      },
+      {
+        "id": "rooms-at-home-q4",
+        "prompt": "كيف تسأل إن كان يوجد حمّام؟",
+        "options": [
+          "Waar is de badkamer?",
+          "Is er een badkamer?",
+          "De badkamer is boven."
+        ],
+        "correctIndex": 1,
+        "explanation": "Is er يسأل عن الوجود؛ Waar is يسأل عن المكان."
+      }
+    ]
+  },
+  {
+    "slug": "furniture-and-location",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "18",
+    "title": "الأثاث وتحديد المكان",
+    "dutchTitle": "Waar staan de meubels?",
+    "description": "حدّد موضع الأثاث والأغراض باستخدام بجانب وتحت وبين وأمام.",
+    "goal": "حدّد موضع الأثاث والأغراض باستخدام بجانب وتحت وبين وأمام.",
+    "durationMinutes": 12,
+    "context": "تساعد سامر في ترتيب غرفة، وتسأله عن مواضع الأثاث وعن مفاتيحك.",
+    "phrases": [
+      {
+        "id": "a1-furniture-and-location-01",
+        "dutch": "Waar staat de tafel?",
+        "arabic": "أين توجد الطاولة؟",
+        "tip": "نستخدم staan عادة مع طاولة مستقرة على أرجلها، ولا نترجمه حرفياً إلى «تقف»."
+      },
+      {
+        "id": "a1-furniture-and-location-02",
+        "dutch": "De tafel staat voor het raam.",
+        "arabic": "الطاولة أمام النافذة.",
+        "tip": "voor تعني هنا أمام، وhet raam يعني النافذة."
+      },
+      {
+        "id": "a1-furniture-and-location-03",
+        "dutch": "De stoel staat naast de tafel.",
+        "arabic": "الكرسي بجانب الطاولة.",
+        "tip": "naast تعني بجانب، وde stoel يعني الكرسي."
+      },
+      {
+        "id": "a1-furniture-and-location-04",
+        "dutch": "De kast staat tussen de bank en het raam.",
+        "arabic": "الخزانة بين الأريكة والنافذة.",
+        "tip": "tussen ... en ... تعني بين ... و...، وde bank هنا أريكة."
+      },
+      {
+        "id": "a1-furniture-and-location-05",
+        "dutch": "Waar liggen mijn sleutels?",
+        "arabic": "أين مفاتيحي؟",
+        "tip": "نستخدم liggen هنا مع مفاتيح موضوعة على سطح، وsleutels جمع sleutel."
+      },
+      {
+        "id": "a1-furniture-and-location-06",
+        "dutch": "Je sleutels liggen op de tafel.",
+        "arabic": "مفاتيحك على الطاولة.",
+        "tip": "op تعني على؛ مع جمع sleutels نقول liggen."
+      },
+      {
+        "id": "a1-furniture-and-location-07",
+        "dutch": "De tas ligt onder de stoel.",
+        "arabic": "الحقيبة تحت الكرسي.",
+        "tip": "onder تعني تحت، ومع المفرد de tas نستخدم ligt."
+      },
+      {
+        "id": "a1-furniture-and-location-08",
+        "dutch": "De lamp staat op de kast.",
+        "arabic": "المصباح فوق الخزانة.",
+        "tip": "المقصود مصباح موضوع على سطح الخزانة، لا مصباح معلق."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Helper",
+        "phraseId": "a1-furniture-and-location-01"
+      },
+      {
+        "speaker": "Samer",
+        "phraseId": "a1-furniture-and-location-02"
+      },
+      {
+        "speaker": "Samer",
+        "phraseId": "a1-furniture-and-location-03"
+      },
+      {
+        "speaker": "Samer",
+        "phraseId": "a1-furniture-and-location-04"
+      },
+      {
+        "speaker": "Helper",
+        "phraseId": "a1-furniture-and-location-05"
+      },
+      {
+        "speaker": "Samer",
+        "phraseId": "a1-furniture-and-location-06"
+      },
+      {
+        "speaker": "Samer",
+        "phraseId": "a1-furniture-and-location-07"
+      },
+      {
+        "speaker": "Samer",
+        "phraseId": "a1-furniture-and-location-08"
+      }
+    ],
+    "grammar": {
+      "title": "staan وliggen مع المكان",
+      "explanation": "يستعمل الهولنديون staan كثيراً مع أثاث يستقر قائماً، مثل الطاولة والخزانة، وliggen مع أشياء موضوعة مستلقية مثل المفاتيح هنا. نقول De tafel staat وDe sleutels liggen. اختر حرف المكان بحسب العلاقة: op على، onder تحت، naast بجانب، voor أمام، tussen ... en ... بين شيئين.",
+      "example": "De kast staat tussen de bank en het raam.",
+      "translation": "الخزانة بين الأريكة والنافذة."
+    },
+    "questions": [
+      {
+        "id": "furniture-and-location-q1",
+        "prompt": "أين الحقيبة في De tas ligt onder de stoel؟",
+        "options": [
+          "على الطاولة",
+          "تحت الكرسي",
+          "بجانب الخزانة"
+        ],
+        "correctIndex": 1,
+        "explanation": "onder de stoel تعني تحت الكرسي."
+      },
+      {
+        "id": "furniture-and-location-q2",
+        "prompt": "أي وصف يضع الخزانة بين الأريكة والنافذة؟",
+        "options": [
+          "De kast staat naast de bank.",
+          "De kast staat voor het raam.",
+          "De kast staat tussen de bank en het raam."
+        ],
+        "correctIndex": 2,
+        "explanation": "tussen de bank en het raam تحدد موضعاً بين شيئين؛ naast وvoor تصفان علاقتين مختلفتين."
+      },
+      {
+        "id": "furniture-and-location-q3",
+        "prompt": "أكمل: Mijn sleutels ... op de tafel.",
+        "options": [
+          "liggen",
+          "ligt",
+          "lig"
+        ],
+        "correctIndex": 0,
+        "explanation": "sleutels جمع، لذلك نستخدم liggen."
+      },
+      {
+        "id": "furniture-and-location-q4",
+        "prompt": "أي سؤال يسأل عن مكان الطاولة؟",
+        "options": [
+          "Is er een tafel?",
+          "Waar staat de tafel?",
+          "Hoeveel tafels zijn er?"
+        ],
+        "correctIndex": 1,
+        "explanation": "Waar staat يسأل عن الموقع؛ Is er عن الوجود وHoeveel عن العدد."
+      }
+    ]
+  },
+  {
+    "slug": "neighbours",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "19",
     "title": "التعارف مع الجيران",
     "dutchTitle": "De buren",
     "description": "عرّف بنفسك كجار جديد واسأل عن مدة السكن في الحي.",
@@ -1977,7 +2273,7 @@
     "slug": "repairs-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "18",
+    "number": "20",
     "title": "مشكلة في البيت",
     "dutchTitle": "Een reparatie melden",
     "description": "أبلغ عن عطل واطلب زيارة لإصلاحه.",
@@ -2080,7 +2376,7 @@
     "slug": "workday",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "19",
+    "number": "21",
     "title": "أول يوم عمل",
     "dutchTitle": "Mijn eerste werkdag",
     "description": "اسأل عن بداية الوردية والاستراحة ومكان المقصف.",
@@ -2183,7 +2479,7 @@
     "slug": "school-and-family",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "20",
+    "number": "22",
     "title": "الأسرة والمدرسة",
     "dutchTitle": "Gezin en school",
     "description": "تحدث عن طفلك وافهم سؤالاً بسيطاً عن المدرسة.",
@@ -2278,7 +2574,7 @@
     "slug": "family-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "21",
+    "number": "23",
     "title": "العائلة في البيت",
     "dutchTitle": "Thuis met het gezin",
     "description": "قدّم أفراد العائلة، وقل من يعيش في البيت، واسأل عن الإخوة والأخوات.",
@@ -2414,7 +2710,7 @@
     "slug": "message-to-school",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "22",
+    "number": "24",
     "title": "رسالة إلى المدرسة",
     "dutchTitle": "Een bericht aan school",
     "description": "أخبر المدرسة بالغياب، واذكر السبب، واسأل عن الواجب أو وقت اللقاء.",
@@ -2562,7 +2858,7 @@
     "slug": "free-time-hobbies",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "23",
+    "number": "25",
     "title": "الهوايات ووقت الفراغ",
     "dutchTitle": "Hobby's en vrije tijd",
     "description": "قل ما تحب فعله في وقت الفراغ، واسأل شخصاً آخر عن هوايته.",
@@ -2706,7 +3002,7 @@
     "slug": "weather-today",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "24",
+    "number": "26",
     "title": "الطقس اليوم",
     "dutchTitle": "Het weer vandaag",
     "description": "اسأل عن الطقس، وافهم وصفاً بسيطاً، وخذ معك ما تحتاج إليه.",
@@ -2850,7 +3146,7 @@
     "slug": "invitations-and-plans",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "25",
+    "number": "27",
     "title": "الدعوات والخطط",
     "dutchTitle": "Afspreken en plannen",
     "description": "ادعُ شخصاً، واقبل أو ارفض بلطف، واتفق على الوقت والمكان.",
@@ -2989,7 +3285,7 @@
   {
     "slug": "doctor-appointment",
     "level": "A1",
-    "number": "26",
+    "number": "28",
     "title": "موعد عند طبيب الأسرة",
     "dutchTitle": "Bij de huisarts",
     "description": "اشرح عرضاً بسيطاً وحدد منذ متى بدأت المشكلة.",
@@ -3093,7 +3389,7 @@
     "slug": "pharmacy",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "27",
+    "number": "29",
     "title": "في الصيدلية",
     "dutchTitle": "Bij de apotheek",
     "description": "اطلب استلام دوائك واسأل الصيدلي عن طريقة استخدامه.",
@@ -3200,7 +3496,7 @@
     "slug": "municipal-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "28",
+    "number": "30",
     "title": "موعد في البلدية",
     "dutchTitle": "Bij de gemeente",
     "description": "أخبر موظف الاستقبال أن لديك موعداً وافهم طلب إثبات الهوية.",
@@ -3307,7 +3603,7 @@
     "slug": "phone-calls",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "29",
+    "number": "31",
     "title": "مكالمة قصيرة",
     "dutchTitle": "Telefoneren",
     "description": "عرّف بنفسك في الهاتف واطلب تكرار الكلام أو إبطاءه.",
@@ -3410,7 +3706,7 @@
     "slug": "letters-and-messages",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "30",
+    "number": "32",
     "title": "فهم رسالة موعد",
     "dutchTitle": "Een afspraakbericht lezen",
     "description": "استخرج يوم الموعد وساعته وما يجب إحضاره من رسالة قصيرة.",
@@ -3509,7 +3805,7 @@
     "slug": "filling-in-a-form",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "31",
+    "number": "33",
     "title": "ملء استمارة الخدمة",
     "dutchTitle": "Een formulier invullen",
     "description": "املأ استمارة بسيطة، واذكر بياناتك، واطلب شرح خانة غير واضحة.",
@@ -3659,7 +3955,7 @@
     "slug": "changing-an-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "32",
+    "number": "34",
     "title": "تغيير موعدك",
     "dutchTitle": "Een afspraak verzetten",
     "description": "اطلب تغيير الموعد، واسأل عن وقت بديل، وثبّت الموعد الجديد.",

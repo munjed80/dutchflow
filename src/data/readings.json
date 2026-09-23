@@ -587,6 +587,108 @@
     ]
   },
   {
+    "slug": "a-room-for-a-guest",
+    "title": "غرفة لضيف",
+    "dutchTitle": "Een kamer voor een logé",
+    "topic": "الغرف والأثاث والزيارة",
+    "sourceLessons": [
+      "home-and-address",
+      "rooms-at-home",
+      "furniture-and-location",
+      "neighbours"
+    ],
+    "text": "Hoi Rami,\n\nJe bent vrijdag vanaf vijf uur welkom. Ik werk tot drie uur en doe daarna boodschappen. Je kamer is boven, naast de badkamer. Er is een bed en er zijn twee stoelen. Het bureau staat tussen het bed en het raam. Je kunt je tas onder het bureau leggen. De kast naast de deur is leeg. De lamp op het bureau is kapot. Kun je een kleine lamp meenemen? Beneden is de woonkamer. Daar drinken we samen thee.\n\nTot vrijdag!\nNour",
+    "translation": "مرحباً رامي،\n\nأهلاً بك يوم الجمعة ابتداءً من الساعة الخامسة. أعمل حتى الثالثة ثم أشتري الحاجيات. غرفتك في الأعلى، بجانب الحمّام. يوجد سرير وكرسيان. المكتب بين السرير والنافذة. يمكنك وضع حقيبتك تحت المكتب. الخزانة التي بجانب الباب فارغة. المصباح الموجود على المكتب معطّل. هل يمكنك إحضار مصباح صغير؟ غرفة المعيشة في الأسفل. سنشرب الشاي معاً هناك.\n\nأراك يوم الجمعة!\nنور",
+    "vocabulary": [
+      {
+        "term": "vanaf vijf uur",
+        "excerpt": "vanaf vijf uur",
+        "meaning": "ابتداءً من الساعة الخامسة؛ هذا وقت استقبال الضيف، لا وقت انتهاء العمل."
+      },
+      {
+        "term": "het bed",
+        "excerpt": "bed",
+        "meaning": "السرير؛ الجمع de bedden."
+      },
+      {
+        "term": "het bureau",
+        "excerpt": "bureau",
+        "meaning": "المكتب كقطعة أثاث هنا؛ الجمع de bureaus."
+      },
+      {
+        "term": "leggen",
+        "excerpt": "leggen",
+        "meaning": "يضع شيئاً مستلقياً؛ leggen يصف فعل وضع الحقيبة، أما liggen فيصف موضعها بعد ذلك."
+      },
+      {
+        "term": "leeg",
+        "excerpt": "leeg",
+        "meaning": "فارغ؛ في الخزانة مكان يمكن للضيف استعماله."
+      },
+      {
+        "term": "kapot",
+        "excerpt": "kapot",
+        "meaning": "معطّل أو مكسور؛ المصباح في هذا السياق لا يعمل."
+      }
+    ],
+    "grammar": {
+      "title": "tussen ... en ...: تحديد الموضع بين شيئين",
+      "example": "Het bureau staat tussen het bed en het raam.",
+      "translation": "المكتب بين السرير والنافذة.",
+      "explanation": "نستخدم tussen قبل الشيء الأول وen قبل الثاني لتحديد موضع شيء بينهما. الفاعل Het bureau مفرد، لذلك نستخدم staat. الحرف naast يعني بجانب شيء، ولا يحدد وحده علاقة بين شيئين."
+    },
+    "questions": [
+      {
+        "id": "reading-guest-room-1",
+        "prompt": "متى يمكن لرامي الوصول بحسب الدعوة؟",
+        "options": [
+          "الجمعة الساعة الثالثة",
+          "الجمعة الساعة الرابعة",
+          "الجمعة الساعة الخامسة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Je bent vrijdag vanaf vijf uur welkom. Ik werk tot drie uur en doe daarna boodschappen.",
+        "explanation": "الدعوة تبدأ الساعة الخامسة. تنهي نور عملها في الثالثة ثم تتسوق؛ انتهاء العمل ليس وقت استقبال الضيف."
+      },
+      {
+        "id": "reading-guest-room-2",
+        "prompt": "أين غرفة الضيف؟",
+        "options": [
+          "في الأعلى بجانب الحمّام",
+          "في الأسفل بجانب غرفة المعيشة",
+          "في الأعلى داخل الحمّام"
+        ],
+        "correctIndex": 0,
+        "evidence": "Je kamer is boven, naast de badkamer.",
+        "explanation": "boven تحدد أنها في الأعلى، وnaast de badkamer تعني بجانب الحمّام وليس داخله."
+      },
+      {
+        "id": "reading-guest-room-3",
+        "prompt": "أين يوجد المكتب؟",
+        "options": [
+          "تحت الكرسي",
+          "بين السرير والنافذة",
+          "بجانب الباب"
+        ],
+        "correctIndex": 1,
+        "evidence": "Het bureau staat tussen het bed en het raam.",
+        "explanation": "tussen ... en ... تعني بين شيئين. أما قطعة الأثاث بجانب الباب فهي الخزانة."
+      },
+      {
+        "id": "reading-guest-room-4",
+        "prompt": "لماذا تطلب نور إحضار مصباح صغير؟",
+        "options": [
+          "لأن الغرفة لا تحتوي على سرير",
+          "لأن المصباح الموجود على المكتب معطّل",
+          "لأن الخزانة ليست فارغة"
+        ],
+        "correctIndex": 1,
+        "evidence": "De lamp op het bureau is kapot. Kun je een kleine lamp meenemen?",
+        "explanation": "الجملة الأولى تفسر الطلب الذي يليها: المصباح معطّل، لذلك تطلب مصباحاً آخر."
+      }
+    ]
+  },
+  {
     "slug": "a-workday-message",
     "title": "تعليمات وردية العمل",
     "dutchTitle": "Een bericht voor de ochtendploeg",

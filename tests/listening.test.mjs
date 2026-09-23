@@ -4,7 +4,7 @@ import { readFile } from "node:fs/promises";
 import { buildListeningRounds, summarizeListening } from "../src/lib/listening.ts";
 const lessons = JSON.parse(await readFile(new URL("../src/data/lessons.json", import.meta.url), "utf8"));
 
-test("all 199 phrases form listening rounds with exactly one correct, distinct meaning", () => {
+test("all 215 phrases form listening rounds with exactly one correct, distinct meaning", () => {
   let count = 0;
   for (const lesson of lessons) {
     const rounds = buildListeningRounds(lesson.phrases);
@@ -18,7 +18,7 @@ test("all 199 phrases form listening rounds with exactly one correct, distinct m
     }
     count += rounds.length;
   }
-  assert.equal(count, 199);
+  assert.equal(count, 215);
 });
 
 test("text-assisted answers never inflate independent listening results", () => {
