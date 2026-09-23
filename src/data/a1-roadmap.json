@@ -104,14 +104,18 @@
     ],
     "lessonSlugs": [
       "at-the-shop",
-      "cafe-order"
+      "cafe-order",
+      "groceries-and-quantities",
+      "clothes-and-sizes"
     ],
     "readingSlugs": [
-      "shopping-for-lunch"
+      "shopping-for-lunch",
+      "a-shopping-list-message"
     ],
     "remaining": [
-      "الأطعمة والكميات والملابس والمقاسات.",
-      "قوائم وأسعار وحوارات شراء متنوعة."
+      "توسيع أسماء الأطعمة والملابس والألوان ووحدات الكمية في مواقف جديدة.",
+      "تسجيل حوارات شراء مُراجعة وأسئلة استماع قبل كشف النص.",
+      "تدريب تفاعلي على شراء بديل وتوضيح المقاس، ومراجعة طلب مكتوب مستقل."
     ]
   },
   {

@@ -252,6 +252,107 @@
     ]
   },
   {
+    "slug": "a-shopping-list-message",
+    "title": "قائمة تسوّق ورسالة قصيرة",
+    "dutchTitle": "Een boodschappenlijstje",
+    "topic": "الأطعمة والكميات والأسعار",
+    "sourceLessons": [
+      "at-the-shop",
+      "groceries-and-quantities",
+      "cafe-order"
+    ],
+    "text": "Hoi Samer,\n\nKun je na je werk boodschappen doen? Dit hebben we nodig:\n- een halve kilo tomaten\n- een bruin brood\n- twee appels\n\nWe hebben nog melk in de koelkast. Je hoeft dus geen melk te kopen. Bij de winkel om de hoek kosten tomaten vier euro per kilo. Een halve kilo kost daar twee euro. Is er geen bruin brood? Neem dan een wit brood. Ik maak vanavond soep. We eten om zes uur.\n\nBedankt!\nNour",
+    "translation": "مرحباً سامر،\n\nهل يمكنك شراء الحاجيات بعد العمل؟ نحتاج إلى ما يلي:\n- نصف كيلو طماطم\n- رغيف خبز أسمر\n- تفاحتين\n\nما زال لدينا حليب في الثلاجة، لذا لا تحتاج إلى شراء حليب. في المتجر القريب عند زاوية الشارع سعر الطماطم أربعة يورو للكيلو. سعر نصف كيلو هناك يوروان. إن لم يوجد خبز أسمر، فخذ رغيف خبز أبيض. سأحضّر حساءً هذا المساء. سنتناول الطعام الساعة السادسة.\n\nشكراً!\nنور",
+    "vocabulary": [
+      {
+        "term": "boodschappen doen",
+        "excerpt": "boodschappen doen",
+        "meaning": "يتسوّق لشراء الحاجيات اليومية، مثل الطعام."
+      },
+      {
+        "term": "een halve kilo",
+        "excerpt": "een halve kilo",
+        "meaning": "نصف كيلو، أي 500 غرام؛ هذه كمية الطماطم المطلوبة."
+      },
+      {
+        "term": "bruin / wit brood",
+        "excerpt": "bruin brood",
+        "meaning": "خبز أسمر أو أبيض؛ الأبيض بديل مطلوب فقط إذا لم يتوفر الأسمر."
+      },
+      {
+        "term": "de koelkast",
+        "excerpt": "koelkast",
+        "meaning": "الثلاجة؛ الجمع de koelkasten."
+      },
+      {
+        "term": "per kilo",
+        "excerpt": "per kilo",
+        "meaning": "لكل كيلو؛ السعر المذكور للكيلو أربعة يورو، وثمن الكمية المطلوبة يوروان."
+      },
+      {
+        "term": "om de hoek",
+        "excerpt": "om de hoek",
+        "meaning": "عند زاوية الشارع أو قريباً بعد المنعطف؛ وصف لمكان المتجر."
+      }
+    ],
+    "grammar": {
+      "title": "geen مع الاسم: ما لا نحتاج إلى شرائه",
+      "example": "Je hoeft dus geen melk te kopen.",
+      "translation": "لذا لا تحتاج إلى شراء حليب.",
+      "explanation": "geen تنفي الاسم melk هنا. أما hoeven مع te والفعل فيستعمل في هذه الجملة المنفية للتعبير عن عدم الحاجة إلى فعل شيء: لا يلزم شراء الحليب. لا تعني الجملة أن شراءه ممنوع. السبب مذكور قبلها: يوجد حليب في الثلاجة."
+    },
+    "questions": [
+      {
+        "id": "reading-shopping-list-1",
+        "prompt": "ما كمية الطماطم المطلوبة؟",
+        "options": [
+          "نصف كيلو",
+          "كيلو كامل",
+          "حبتان"
+        ],
+        "correctIndex": 0,
+        "evidence": "- een halve kilo tomaten",
+        "explanation": "een halve kilo تعني نصف كيلو. أما العدد twee في القائمة فهو للتفاح."
+      },
+      {
+        "id": "reading-shopping-list-2",
+        "prompt": "لماذا لا يحتاج سامر إلى شراء الحليب؟",
+        "options": [
+          "لأن المتجر لا يبيع الحليب",
+          "لأن لديهم حليباً في الثلاجة",
+          "لأن الحليب غالي الثمن"
+        ],
+        "correctIndex": 1,
+        "evidence": "We hebben nog melk in de koelkast. Je hoeft dus geen melk te kopen.",
+        "explanation": "nog melk تعني أنه ما زال لديهم حليب؛ الرسالة لا تذكر سعراً للحليب أو عدم توفره في المتجر."
+      },
+      {
+        "id": "reading-shopping-list-3",
+        "prompt": "كم ثمن كمية الطماطم المطلوبة في هذه الرسالة؟",
+        "options": [
+          "أربعة يورو",
+          "يورو واحد",
+          "يوروان"
+        ],
+        "correctIndex": 2,
+        "evidence": "Bij de winkel om de hoek kosten tomaten vier euro per kilo. Een halve kilo kost daar twee euro.",
+        "explanation": "أربعة يورو هو سعر الكيلو الكامل؛ المطلوب نصف كيلو وثمنه يوروان. أسعار هذه الرسالة تختلف عن مثال الدرس."
+      },
+      {
+        "id": "reading-shopping-list-4",
+        "prompt": "ماذا يشتري سامر إذا لم يجد خبزاً أسمر؟",
+        "options": [
+          "رغيف خبز أبيض",
+          "تفاحتين إضافيتين",
+          "حليباً بدلاً من الخبز"
+        ],
+        "correctIndex": 0,
+        "evidence": "Is er geen bruin brood? Neem dan een wit brood.",
+        "explanation": "الأبيض بديل للأسمر عند عدم توفره؛ لا تطلب الرسالة شراء النوعين معاً."
+      }
+    ]
+  },
+  {
     "slug": "a-different-bus-stop",
     "title": "تغيير موقف الحافلة",
     "dutchTitle": "Een andere bushalte",

@@ -1548,5 +1548,276 @@
         "cue": "Ik kan woensdag om tien uur komen. Schikt dat?"
       }
     ]
+  },
+  {
+    "lessonSlug": "at-the-shop",
+    "vocabulary": [
+      {
+        "term": "vinden",
+        "kind": "verb",
+        "forms": "ik vind · u vindt · wij vinden",
+        "meaning": "يجد؛ يبقى في المصدر بعد kan في سؤال مكان الحليب.",
+        "phraseId": "a1-shop-01"
+      },
+      {
+        "term": "kosten",
+        "kind": "verb",
+        "forms": "het kost · ze kosten",
+        "meaning": "يكلّف أو يكون ثمنه؛ kost للمفرد وkosten للجمع.",
+        "phraseId": "a1-shop-02"
+      },
+      {
+        "term": "betalen",
+        "kind": "verb",
+        "forms": "ik betaal · u betaalt · wij betalen",
+        "meaning": "يدفع المال؛ met pin betalen تعني الدفع بالبطاقة.",
+        "phraseId": "a1-shop-04"
+      },
+      {
+        "term": "het bonnetje",
+        "kind": "noun",
+        "forms": "de bonnetjes",
+        "meaning": "الإيصال؛ صيغة تصغير من de bon، والجمع bonnetjes.",
+        "phraseId": "a1-shop-05"
+      },
+      {
+        "term": "hoeveel",
+        "kind": "expression",
+        "forms": "hoeveel kost dit?",
+        "meaning": "كم؛ تستخدم هنا للسؤال عن السعر.",
+        "phraseId": "a1-shop-02"
+      },
+      {
+        "term": "met pin",
+        "kind": "expression",
+        "forms": "met pin betalen",
+        "meaning": "بالدفع بالبطاقة في هذا السياق.",
+        "phraseId": "a1-shop-04"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "أنت في متجر خيالي، وأمامك منتج لا تعرف سعره. اسأل عن السعر ثم اسأل إن كان يمكنك الدفع بالبطاقة.",
+        "model": "Hoeveel kost dit? Kan ik met pin betalen?",
+        "translation": "كم سعر هذا؟ هل يمكنني الدفع بالبطاقة؟",
+        "checklist": [
+          "هل سألت عن السعر باستخدام Hoeveel؟",
+          "هل سألت عن إمكانية الدفع بالبطاقة؟"
+        ]
+      },
+      {
+        "prompt": "يسألك البائع عن الإيصال. اقبله بأدب، ثم اشكره.",
+        "model": "Ja, graag. Dank u wel.",
+        "translation": "نعم، من فضلك. شكراً جزيلاً.",
+        "checklist": [
+          "هل أجبت عن سؤال الإيصال بالموافقة؟",
+          "هل شكرت البائع؟"
+        ],
+        "cue": "Wilt u een bonnetje?"
+      }
+    ]
+  },
+  {
+    "lessonSlug": "cafe-order",
+    "vocabulary": [
+      {
+        "term": "willen",
+        "kind": "verb",
+        "forms": "ik wil · u wilt · wij willen",
+        "meaning": "يريد؛ Ik wil graag صيغة لطلب شيء بأدب.",
+        "phraseId": "a1-cafe-order-01"
+      },
+      {
+        "term": "de rekening",
+        "kind": "noun",
+        "forms": "de rekeningen",
+        "meaning": "الحساب المطلوب دفعه في المقهى؛ يختلف عن الإيصال بعد الدفع.",
+        "phraseId": "a1-cafe-order-04"
+      },
+      {
+        "term": "met / zonder",
+        "kind": "expression",
+        "forms": "met melk · zonder melk",
+        "meaning": "مع الحليب أو من دونه؛ نستخدم zonder لطلب عدم إضافة شيء.",
+        "phraseId": "a1-cafe-order-02"
+      },
+      {
+        "term": "graag",
+        "kind": "expression",
+        "forms": "ik wil graag · ja, graag",
+        "meaning": "تستعمل هنا في طلب مهذّب؛ وفي ja, graag تعني نعم، من فضلك.",
+        "phraseId": "a1-cafe-order-01"
+      },
+      {
+        "term": "alstublieft",
+        "kind": "expression",
+        "forms": "zonder melk, alstublieft",
+        "meaning": "من فضلك عند الطلب؛ وتستعمل أيضاً عند تقديم شيء.",
+        "phraseId": "a1-cafe-order-03"
+      },
+      {
+        "term": "dat is alles",
+        "kind": "expression",
+        "forms": "dat is alles, dank u",
+        "meaning": "هذا كل شيء؛ لإنهاء الطلب.",
+        "phraseId": "a1-cafe-order-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اطلب شاياً بدلاً من القهوة، وحدد أنك تريده من دون حليب.",
+        "model": "Ik wil graag thee zonder melk.",
+        "translation": "أريد شاياً من دون حليب، من فضلك.",
+        "checklist": [
+          "هل استبدلت koffie بكلمة thee؟",
+          "هل أوضحت أنك لا تريد الحليب باستخدام zonder؟"
+        ]
+      },
+      {
+        "prompt": "انتهيت من جلستك في المقهى. اطلب الحساب بأدب ثم اشكر الموظف.",
+        "model": "Mag ik de rekening? Dank u wel.",
+        "translation": "هل يمكنني الحصول على الحساب؟ شكراً جزيلاً.",
+        "checklist": [
+          "هل طلبت rekening، أي الحساب؟",
+          "هل أضفت عبارة شكر؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "groceries-and-quantities",
+    "vocabulary": [
+      {
+        "term": "de tomaat",
+        "kind": "noun",
+        "forms": "de tomaten",
+        "meaning": "الطماطم؛ المفرد tomaat والجمع tomaten بحرف a واحد قبل t.",
+        "phraseId": "a1-groceries-and-quantities-01"
+      },
+      {
+        "term": "het brood",
+        "kind": "noun",
+        "forms": "de broden",
+        "meaning": "الخبز؛ een brood يعني رغيفاً، وbroden جمع الأرغفة.",
+        "phraseId": "a1-groceries-and-quantities-06"
+      },
+      {
+        "term": "de appel",
+        "kind": "noun",
+        "forms": "de appels",
+        "meaning": "التفاحة؛ الجمع التفاح أو التفاحات بحسب السياق.",
+        "phraseId": "a1-groceries-and-quantities-06"
+      },
+      {
+        "term": "een halve kilo",
+        "kind": "expression",
+        "forms": "een halve kilo · een kilo",
+        "meaning": "نصف كيلو مقابل كيلو كامل؛ بعد الكمية يأتي اسم الطعام مباشرة.",
+        "phraseId": "a1-groceries-and-quantities-02"
+      },
+      {
+        "term": "per kilo",
+        "kind": "expression",
+        "forms": "drie euro per kilo",
+        "meaning": "لكل كيلو؛ تحدد وحدة السعر، لا وزن المشتريات تلقائياً.",
+        "phraseId": "a1-groceries-and-quantities-03"
+      },
+      {
+        "term": "nodig hebben",
+        "kind": "verb",
+        "forms": "ik heb nodig · u heeft nodig · wij hebben nodig",
+        "meaning": "يحتاج؛ في الجملة يوضع الشيء المطلوب عادة بين hebben وnodig.",
+        "phraseId": "a1-groceries-and-quantities-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "غيّر الطلب: اطلب كيلو طماطم وثلاث تفاحات ورغيف خبز بأدب.",
+        "model": "Ik wil graag een kilo tomaten, drie appels en een brood.",
+        "translation": "أريد كيلو طماطم وثلاث تفاحات ورغيف خبز، من فضلك.",
+        "checklist": [
+          "هل ذكرت كيلو كاملاً وثلاث تفاحات؟",
+          "هل ربطت آخر عنصر بالقائمة باستخدام en؟"
+        ]
+      },
+      {
+        "prompt": "اقرأ سؤال البائع. لا تحتاج إلى حليب، لكنك تريد رغيف خبز. أجب بجملتين.",
+        "model": "Nee, ik heb geen melk nodig. Ik wil graag een brood.",
+        "translation": "لا، لا أحتاج إلى حليب. أريد رغيف خبز، من فضلك.",
+        "checklist": [
+          "هل نفيت الحاجة إلى الحليب بـ geen؟",
+          "هل ذكرت ما تريده بدلاً منه؟"
+        ],
+        "cue": "Heeft u ook melk nodig?"
+      }
+    ]
+  },
+  {
+    "lessonSlug": "clothes-and-sizes",
+    "vocabulary": [
+      {
+        "term": "de jas",
+        "kind": "noun",
+        "forms": "de jassen",
+        "meaning": "السترة أو المعطف؛ الجمع jassen بحرفي s.",
+        "phraseId": "a1-clothes-and-sizes-01"
+      },
+      {
+        "term": "de maat",
+        "kind": "noun",
+        "forms": "de maten",
+        "meaning": "المقاس؛ الجمع maten، مثل المقاسات المتاحة في المتجر.",
+        "phraseId": "a1-clothes-and-sizes-02"
+      },
+      {
+        "term": "de paskamer",
+        "kind": "noun",
+        "forms": "de paskamers",
+        "meaning": "غرفة القياس أو تجربة الملابس.",
+        "phraseId": "a1-clothes-and-sizes-05"
+      },
+      {
+        "term": "passen",
+        "kind": "verb",
+        "forms": "ik pas · u past · wij passen",
+        "meaning": "يجرّب الملابس هنا؛ قد يعني يناسب في سياق آخر.",
+        "phraseId": "a1-clothes-and-sizes-04"
+      },
+      {
+        "term": "te klein / te groot",
+        "kind": "expression",
+        "forms": "deze jas is te klein · deze jas is te groot",
+        "meaning": "أصغر أو أكبر من المقاس المناسب؛ te تفيد الزيادة عن الحد المطلوب.",
+        "phraseId": "a1-clothes-and-sizes-06"
+      },
+      {
+        "term": "dezelfde",
+        "kind": "expression",
+        "forms": "dezelfde jas · dezelfde maat",
+        "meaning": "نفس السترة أو نفس المقاس؛ يستعمل المثال الأولى مع تغيير المقاس.",
+        "phraseId": "a1-clothes-and-sizes-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "السترة بالمقاس M كبيرة أكثر من اللازم عليك. وضّح المشكلة واطلب المقاس S.",
+        "model": "Deze jas is te groot. Heeft u maat S?",
+        "translation": "هذه السترة أكبر مما أحتاج. هل لديك المقاس S؟",
+        "checklist": [
+          "هل استخدمت te groot بدلاً من te klein؟",
+          "هل طلبت S، أي المقاس الأصغر في هذا الموقف؟"
+        ]
+      },
+      {
+        "prompt": "أجب الموظف: مقاسك L. ثم اطلب الإذن بتجربة هذه السترة.",
+        "model": "Ik heb maat L. Mag ik deze jas passen?",
+        "translation": "مقاسي L. هل يمكنني تجربة هذه السترة؟",
+        "checklist": [
+          "هل أجبت عن المقاس المطلوب؟",
+          "هل استخدمت Mag ik ... passen لطلب التجربة؟"
+        ],
+        "cue": "Welke maat heeft u?"
+      }
+    ]
   }
 ]

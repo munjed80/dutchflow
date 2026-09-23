@@ -1,0 +1,62 @@
+import { expect, test } from "@playwright/test";
+
+test("shopping vocabulary supports the new module, a changed-size task and explicit phrase review", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/vocabulary");
+  const progress = JSON.stringify({ completedLessons: ["at-the-shop"] });
+  await page.evaluate((value) => localStorage.setItem("dutchflow-progress-v1", value), progress);
+  await page.getByLabel("الوحدة", { exact: true }).selectOption("around-town");
+  await page.getByLabel("ابحث عن كلمة أو معنى").fill("jassen");
+  const card = page.locator(".vocabulary-card");
+  await expect(card).toHaveCount(1);
+  await expect(card.getByRole("heading", { name: "de jas", exact: true })).toBeVisible();
+  await expect(card).toContainText("Ik zoek een blauwe jas.");
+  await card.getByRole("link", { name: "افتح الدرس ←" }).click();
+  await expect(page).toHaveURL("/learn/clothes-and-sizes");
+  const task = page.locator(".production-task").first();
+  await task.getByRole("textbox").fill("Deze jas is te groot. Heeft u maat S?");
+  await task.locator("summary").click();
+  await expect(task.locator(".production-model")).toHaveText("Deze jas is te groot. Heeft u maat S?");
+  await expect(task.locator(".production-model")).toHaveAttribute("dir", "ltr");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(await page.evaluate(() => localStorage.getItem("dutchflow-review-v1"))).toBeNull();
+  await page.locator(".phrase-card").first().getByRole("button", { name: "أضف للمراجعة", exact: true }).click();
+  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("dutchflow-review-v1")!).phraseIds)).toEqual(["a1-clothes-and-sizes-01"]);
+  expect(await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"))).toBe(progress);
+  await page.reload();
+  await expect(task.getByRole("textbox")).toHaveValue("");
+  await expect(task.locator(".production-model")).toBeHidden();
+  await expect(page.locator(".phrase-card").first().getByRole("button", { name: "ضمن قائمة المراجعة" })).toBeDisabled();
+});
+
+test("the shopping list distinguishes unit price, requested amount and a conditional substitute", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/curriculum");
+  await page.locator('#food-and-shopping a[href="/reading/a-shopping-list-message"]').click();
+  await expect(page.locator(".reading-passage")).toHaveAttribute("lang", "nl");
+  await expect(page.locator(".reading-passage p")).toHaveCSS("white-space", "pre-line");
+  await page.locator(".reading-translation summary").click();
+  await expect(page.locator(".reading-translation p")).toContainText("إن لم يوجد خبز أسمر، فخذ رغيف خبز أبيض");
+  await page.locator("#reading-shopping-list-1-0").check();
+  await page.locator("#reading-shopping-list-2-1").check();
+  // Four euros is the kilogram price, not the cost of the requested half kilogram.
+  await page.locator("#reading-shopping-list-3-0").check();
+  await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(page.getByRole("region", { name: "هل فهمت النص؟" }).getByRole("alert")).toHaveText("اختر إجابة لكل سؤال أولاً.");
+  await page.locator("#reading-shopping-list-4-0").check();
+  await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(page.locator(".reading-result h3")).toHaveText("نتيجة هذه المحاولة: 3 من 4");
+  await expect(page.locator(".reading-feedback blockquote").nth(2)).toContainText("Een halve kilo kost daar twee euro.");
+  await expect(page.locator(".reading-feedback").nth(2)).toContainText("المطلوب نصف كيلو وثمنه يوروان");
+  await expect(page.locator(".reading-feedback").nth(3)).toContainText("لا تطلب الرسالة شراء النوعين معاً");
+  await page.locator("#reading-shopping-list-3-2").check();
+  await expect(page.locator(".reading-result")).toHaveCount(0);
+  await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(page.locator(".reading-result h3")).toHaveText("نتيجة هذه المحاولة: 4 من 4");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"))).toBeNull();
+  expect(await page.evaluate(() => localStorage.getItem("dutchflow-review-v1"))).toBeNull();
+  await page.reload();
+  await expect(page.locator("input:checked")).toHaveCount(0);
+  await expect(page.locator(".reading-result")).toHaveCount(0);
+});
