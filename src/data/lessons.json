@@ -1455,10 +1455,306 @@
     ]
   },
   {
-    "slug": "directions",
+    "slug": "groceries-and-quantities",
     "moduleId": "around-town",
     "level": "A1",
     "number": "13",
+    "title": "الأطعمة والكميات والأسعار",
+    "dutchTitle": "Boodschappen en hoeveelheden",
+    "description": "اطلب كمية محددة من الطعام، وميّز بين سعر الكيلو وسعر الكمية المطلوبة.",
+    "goal": "اطلب كمية محددة من الطعام، وميّز بين سعر الكيلو وسعر الكمية المطلوبة.",
+    "durationMinutes": 12,
+    "context": "تشتري طماطم وخبزاً وتفاحاً من متجر أغذية. الأسعار هنا أمثلة تعليمية خيالية.",
+    "phrases": [
+      {
+        "id": "a1-groceries-and-quantities-01",
+        "dutch": "Hoeveel tomaten wilt u?",
+        "arabic": "ما كمية الطماطم التي تريدها؟",
+        "tip": "Hoeveel تسأل عن الكمية؛ يمكن الإجابة بالوزن أو بالعدد بحسب الطلب."
+      },
+      {
+        "id": "a1-groceries-and-quantities-02",
+        "dutch": "Een halve kilo tomaten, alstublieft.",
+        "arabic": "نصف كيلو من الطماطم، من فضلك.",
+        "tip": "een halve kilo تعني نصف كيلو؛ لا نضيف van قبل tomaten في هذا الطلب."
+      },
+      {
+        "id": "a1-groceries-and-quantities-03",
+        "dutch": "Tomaten kosten drie euro per kilo.",
+        "arabic": "سعر الطماطم ثلاثة يورو للكيلو.",
+        "tip": "per kilo تعني لكل كيلو؛ هذا ليس ثمن نصف كيلو."
+      },
+      {
+        "id": "a1-groceries-and-quantities-04",
+        "dutch": "Dan kost een halve kilo één euro vijftig.",
+        "arabic": "إذن سعر نصف كيلو يورو وخمسون سنتاً.",
+        "tip": "واحد يورو وخمسون سنتاً يساوي نصف ثلاثة يورو؛ هذه أسعار هذا المثال فقط."
+      },
+      {
+        "id": "a1-groceries-and-quantities-05",
+        "dutch": "Wilt u verder nog iets?",
+        "arabic": "هل تريد شيئاً آخر؟",
+        "tip": "سؤال من البائع لمعرفة إن كنت تريد إضافة شيء إلى طلبك."
+      },
+      {
+        "id": "a1-groceries-and-quantities-06",
+        "dutch": "Ja, een brood en twee appels, alstublieft.",
+        "arabic": "نعم، رغيف خبز وتفاحتين، من فضلك.",
+        "tip": "brood هنا رغيف كامل؛ de appel مفرد وappels جمع."
+      },
+      {
+        "id": "a1-groceries-and-quantities-07",
+        "dutch": "Heeft u ook melk nodig?",
+        "arabic": "هل تحتاج إلى حليب أيضاً؟",
+        "tip": "iets nodig hebben تعني يحتاج إلى شيء؛ nodig تأتي هنا بعد الشيء المطلوب."
+      },
+      {
+        "id": "a1-groceries-and-quantities-08",
+        "dutch": "Nee, ik heb geen melk nodig.",
+        "arabic": "لا، لا أحتاج إلى حليب.",
+        "tip": "ننفي الحاجة إلى الحليب باستخدام geen قبل melk."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Verkoper",
+        "phraseId": "a1-groceries-and-quantities-01"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-groceries-and-quantities-02"
+      },
+      {
+        "speaker": "Verkoper",
+        "phraseId": "a1-groceries-and-quantities-03"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-groceries-and-quantities-04"
+      },
+      {
+        "speaker": "Verkoper",
+        "phraseId": "a1-groceries-and-quantities-05"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-groceries-and-quantities-06"
+      },
+      {
+        "speaker": "Verkoper",
+        "phraseId": "a1-groceries-and-quantities-07"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-groceries-and-quantities-08"
+      }
+    ],
+    "grammar": {
+      "title": "الكميات: een halve kilo وtwee appels",
+      "explanation": "نذكر الكمية مباشرة قبل الطعام: een halve kilo tomaten تعني نصف كيلو طماطم، وtwee appels تعني تفاحتين. نقول een brood عندما نطلب رغيفاً كاملاً. أما per kilo فتحدد وحدة السعر؛ لا تعني أن الزبون يشتري كيلو كاملاً.",
+      "example": "Een halve kilo tomaten, alstublieft.",
+      "translation": "نصف كيلو من الطماطم، من فضلك."
+    },
+    "questions": [
+      {
+        "id": "groceries-and-quantities-q1",
+        "prompt": "ما الكمية المطلوبة في Een halve kilo tomaten؟",
+        "options": [
+          "كيلو كامل من الطماطم",
+          "نصف كيلو من الطماطم",
+          "حبتان من الطماطم"
+        ],
+        "correctIndex": 1,
+        "explanation": "een halve kilo تعني نصف كيلو، وهو 500 غرام، وليس عدداً محدداً من الحبات."
+      },
+      {
+        "id": "groceries-and-quantities-q2",
+        "prompt": "في هذا المثال سعر الكيلو ثلاثة يورو. كم ثمن نصف كيلو؟",
+        "options": [
+          "ثلاثة يورو",
+          "خمسون سنتاً",
+          "يورو وخمسون سنتاً"
+        ],
+        "correctIndex": 2,
+        "explanation": "الجملة Dan kost een halve kilo één euro vijftig تذكر ثمن الكمية المطلوبة صراحة."
+      },
+      {
+        "id": "groceries-and-quantities-q3",
+        "prompt": "أي جملة تعني أنك لا تحتاج إلى الحليب؟",
+        "options": [
+          "Ik heb geen melk nodig.",
+          "Heeft u ook melk nodig?",
+          "Ik wil graag melk."
+        ],
+        "correctIndex": 0,
+        "explanation": "geen melk nodig hebben تعني عدم الحاجة إلى الحليب؛ الجملة الثانية سؤال والثالثة طلب."
+      },
+      {
+        "id": "groceries-and-quantities-q4",
+        "prompt": "ماذا يريد البائع معرفة بقوله Wilt u verder nog iets؟",
+        "options": [
+          "طريقة الدفع",
+          "إن كنت تريد إضافة شيء إلى الطلب",
+          "عنوان المنزل"
+        ],
+        "correctIndex": 1,
+        "explanation": "verder nog iets تعني شيئاً آخر؛ السؤال عن استكمال الطلب."
+      }
+    ]
+  },
+  {
+    "slug": "clothes-and-sizes",
+    "moduleId": "around-town",
+    "level": "A1",
+    "number": "14",
+    "title": "الملابس والمقاسات",
+    "dutchTitle": "Kleding passen",
+    "description": "اطلب سترة بلون ومقاس محددين، وجرّبها، ثم اطلب مقاساً آخر إذا كانت صغيرة.",
+    "goal": "اطلب سترة بلون ومقاس محددين، وجرّبها، ثم اطلب مقاساً آخر إذا كانت صغيرة.",
+    "durationMinutes": 12,
+    "context": "تبحث عن سترة زرقاء في متجر ملابس وتجرب المقاس M قبل طلب L.",
+    "phrases": [
+      {
+        "id": "a1-clothes-and-sizes-01",
+        "dutch": "Ik zoek een blauwe jas.",
+        "arabic": "أبحث عن سترة زرقاء.",
+        "tip": "de jas سترة أو معطف؛ blauwe تصف اللون الأزرق هنا."
+      },
+      {
+        "id": "a1-clothes-and-sizes-02",
+        "dutch": "Welke maat heeft u?",
+        "arabic": "ما مقاسك؟",
+        "tip": "Welke maat تسأل عن المقاس، ولا تسأل عن السعر."
+      },
+      {
+        "id": "a1-clothes-and-sizes-03",
+        "dutch": "Ik heb maat M.",
+        "arabic": "مقاسي M.",
+        "tip": "نقول maat M دون أداة تعريف قبل maat عند ذكر المقاس."
+      },
+      {
+        "id": "a1-clothes-and-sizes-04",
+        "dutch": "Mag ik deze jas passen?",
+        "arabic": "هل يمكنني تجربة هذه السترة؟",
+        "tip": "passen هنا تعني تجربة الملابس لمعرفة إن كان المقاس مناسباً."
+      },
+      {
+        "id": "a1-clothes-and-sizes-05",
+        "dutch": "Ja, de paskamer is daar.",
+        "arabic": "نعم، غرفة القياس هناك.",
+        "tip": "de paskamer هي غرفة تجربة الملابس، وdaar تعني هناك."
+      },
+      {
+        "id": "a1-clothes-and-sizes-06",
+        "dutch": "Deze jas is te klein.",
+        "arabic": "هذه السترة أصغر مما أحتاج.",
+        "tip": "te klein تعني صغيرة أكثر من اللازم، وليس صغيرة فحسب."
+      },
+      {
+        "id": "a1-clothes-and-sizes-07",
+        "dutch": "Heeft u maat L?",
+        "arabic": "هل لديك المقاس L؟",
+        "tip": "سؤال عن توفر مقاس آخر، دون افتراض أنه موجود."
+      },
+      {
+        "id": "a1-clothes-and-sizes-08",
+        "dutch": "Ja, hier is dezelfde jas in maat L.",
+        "arabic": "نعم، هذه السترة نفسها بالمقاس L.",
+        "tip": "dezelfde تعني نفسها؛ البائع يؤكد هنا توفر السترة ذاتها بالمقاس المطلوب."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-clothes-and-sizes-01"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-clothes-and-sizes-02"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-clothes-and-sizes-03"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-clothes-and-sizes-04"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-clothes-and-sizes-05"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-clothes-and-sizes-06"
+      },
+      {
+        "speaker": "Klant",
+        "phraseId": "a1-clothes-and-sizes-07"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-clothes-and-sizes-08"
+      }
+    ],
+    "grammar": {
+      "title": "te klein وte groot: المقاس غير مناسب",
+      "explanation": "نضع te قبل الصفة للدلالة على الزيادة عن الحد المناسب: te klein أصغر مما يلزم، وte groot أكبر مما يلزم. عندما تقول Deze jas is te klein فأنت توضح سبب طلب مقاس أكبر. كلمة klein وحدها تصف الحجم ولا تعني بالضرورة أنه غير مناسب.",
+      "example": "Deze jas is te klein.",
+      "translation": "هذه السترة أصغر مما أحتاج."
+    },
+    "questions": [
+      {
+        "id": "clothes-and-sizes-q1",
+        "prompt": "ماذا تسأل Welke maat heeft u؟",
+        "options": [
+          "عن اللون",
+          "عن السعر",
+          "عن المقاس"
+        ],
+        "correctIndex": 2,
+        "explanation": "maat تعني المقاس؛ اللون kleur والسعر prijs."
+      },
+      {
+        "id": "clothes-and-sizes-q2",
+        "prompt": "ماذا تطلب بقول Mag ik deze jas passen؟",
+        "options": [
+          "السماح بتجربة السترة",
+          "الحصول على إيصال",
+          "الدفع بالبطاقة"
+        ],
+        "correctIndex": 0,
+        "explanation": "passen في متجر الملابس تعني التجربة للتأكد من المقاس."
+      },
+      {
+        "id": "clothes-and-sizes-q3",
+        "prompt": "لماذا يطلب الزبون المقاس L في الحوار؟",
+        "options": [
+          "لأن السترة كبيرة أكثر من اللازم",
+          "لأن السترة صغيرة أكثر من اللازم",
+          "لأنه يريد لوناً آخر"
+        ],
+        "correctIndex": 1,
+        "explanation": "يقول Deze jas is te klein، ثم يطلب L بدلاً من M."
+      },
+      {
+        "id": "clothes-and-sizes-q4",
+        "prompt": "ما معنى dezelfde jas في جواب البائع؟",
+        "options": [
+          "سترة بلون مختلف",
+          "السترة نفسها",
+          "غرفة قياس أخرى"
+        ],
+        "correctIndex": 1,
+        "explanation": "dezelfde تعني نفسها؛ الذي تغير هنا هو المقاس."
+      }
+    ]
+  },
+  {
+    "slug": "directions",
+    "moduleId": "around-town",
+    "level": "A1",
+    "number": "15",
     "title": "السؤال عن الطريق",
     "dutchTitle": "De weg vragen",
     "description": "اسأل عن مكان واتبع تعليمات اليمين واليسار والسير إلى الأمام.",
@@ -1561,7 +1857,7 @@
     "slug": "public-transport",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "14",
+    "number": "16",
     "title": "بالحافلة والترام",
     "dutchTitle": "Met de bus en tram",
     "description": "تحقق من وجهة الحافلة واسأل عن محطة النزول.",
@@ -1664,7 +1960,7 @@
     "slug": "train-tickets",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "15",
+    "number": "17",
     "title": "تذكرة القطار",
     "dutchTitle": "Een treinkaartje",
     "description": "اطلب تذكرة وميّز بين الذهاب فقط والذهاب والعودة.",
@@ -1771,7 +2067,7 @@
     "slug": "home-and-address",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "16",
+    "number": "18",
     "title": "عنوانك وبيتك",
     "dutchTitle": "Mijn adres en woning",
     "description": "اذكر عنوانك وصف غرفاً بسيطة في البيت.",
@@ -1870,7 +2166,7 @@
     "slug": "rooms-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "17",
+    "number": "19",
     "title": "الغرف وما يوجد في المنزل",
     "dutchTitle": "De kamers in huis",
     "description": "صف الغرف في منزل بسيط وميّز بين وجود شيء واحد وأشياء متعددة.",
@@ -2018,7 +2314,7 @@
     "slug": "furniture-and-location",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "18",
+    "number": "20",
     "title": "الأثاث وتحديد المكان",
     "dutchTitle": "Waar staan de meubels?",
     "description": "حدّد موضع الأثاث والأغراض باستخدام بجانب وتحت وبين وأمام.",
@@ -2166,7 +2462,7 @@
     "slug": "neighbours",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "19",
+    "number": "21",
     "title": "التعارف مع الجيران",
     "dutchTitle": "De buren",
     "description": "عرّف بنفسك كجار جديد واسأل عن مدة السكن في الحي.",
@@ -2273,7 +2569,7 @@
     "slug": "repairs-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "20",
+    "number": "22",
     "title": "مشكلة في البيت",
     "dutchTitle": "Een reparatie melden",
     "description": "أبلغ عن عطل واطلب زيارة لإصلاحه.",
@@ -2376,7 +2672,7 @@
     "slug": "workday",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "21",
+    "number": "23",
     "title": "أول يوم عمل",
     "dutchTitle": "Mijn eerste werkdag",
     "description": "اسأل عن بداية الوردية والاستراحة ومكان المقصف.",
@@ -2479,7 +2775,7 @@
     "slug": "school-and-family",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "22",
+    "number": "24",
     "title": "الأسرة والمدرسة",
     "dutchTitle": "Gezin en school",
     "description": "تحدث عن طفلك وافهم سؤالاً بسيطاً عن المدرسة.",
@@ -2574,7 +2870,7 @@
     "slug": "family-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "23",
+    "number": "25",
     "title": "العائلة في البيت",
     "dutchTitle": "Thuis met het gezin",
     "description": "قدّم أفراد العائلة، وقل من يعيش في البيت، واسأل عن الإخوة والأخوات.",
@@ -2710,7 +3006,7 @@
     "slug": "message-to-school",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "24",
+    "number": "26",
     "title": "رسالة إلى المدرسة",
     "dutchTitle": "Een bericht aan school",
     "description": "أخبر المدرسة بالغياب، واذكر السبب، واسأل عن الواجب أو وقت اللقاء.",
@@ -2858,7 +3154,7 @@
     "slug": "free-time-hobbies",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "25",
+    "number": "27",
     "title": "الهوايات ووقت الفراغ",
     "dutchTitle": "Hobby's en vrije tijd",
     "description": "قل ما تحب فعله في وقت الفراغ، واسأل شخصاً آخر عن هوايته.",
@@ -3002,7 +3298,7 @@
     "slug": "weather-today",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "26",
+    "number": "28",
     "title": "الطقس اليوم",
     "dutchTitle": "Het weer vandaag",
     "description": "اسأل عن الطقس، وافهم وصفاً بسيطاً، وخذ معك ما تحتاج إليه.",
@@ -3146,7 +3442,7 @@
     "slug": "invitations-and-plans",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "27",
+    "number": "29",
     "title": "الدعوات والخطط",
     "dutchTitle": "Afspreken en plannen",
     "description": "ادعُ شخصاً، واقبل أو ارفض بلطف، واتفق على الوقت والمكان.",
@@ -3285,7 +3581,7 @@
   {
     "slug": "doctor-appointment",
     "level": "A1",
-    "number": "28",
+    "number": "30",
     "title": "موعد عند طبيب الأسرة",
     "dutchTitle": "Bij de huisarts",
     "description": "اشرح عرضاً بسيطاً وحدد منذ متى بدأت المشكلة.",
@@ -3389,7 +3685,7 @@
     "slug": "pharmacy",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "29",
+    "number": "31",
     "title": "في الصيدلية",
     "dutchTitle": "Bij de apotheek",
     "description": "اطلب استلام دوائك واسأل الصيدلي عن طريقة استخدامه.",
@@ -3496,7 +3792,7 @@
     "slug": "municipal-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "30",
+    "number": "32",
     "title": "موعد في البلدية",
     "dutchTitle": "Bij de gemeente",
     "description": "أخبر موظف الاستقبال أن لديك موعداً وافهم طلب إثبات الهوية.",
@@ -3603,7 +3899,7 @@
     "slug": "phone-calls",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "31",
+    "number": "33",
     "title": "مكالمة قصيرة",
     "dutchTitle": "Telefoneren",
     "description": "عرّف بنفسك في الهاتف واطلب تكرار الكلام أو إبطاءه.",
@@ -3706,7 +4002,7 @@
     "slug": "letters-and-messages",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "32",
+    "number": "34",
     "title": "فهم رسالة موعد",
     "dutchTitle": "Een afspraakbericht lezen",
     "description": "استخرج يوم الموعد وساعته وما يجب إحضاره من رسالة قصيرة.",
@@ -3805,7 +4101,7 @@
     "slug": "filling-in-a-form",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "33",
+    "number": "35",
     "title": "ملء استمارة الخدمة",
     "dutchTitle": "Een formulier invullen",
     "description": "املأ استمارة بسيطة، واذكر بياناتك، واطلب شرح خانة غير واضحة.",
@@ -3955,7 +4251,7 @@
     "slug": "changing-an-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "34",
+    "number": "36",
     "title": "تغيير موعدك",
     "dutchTitle": "Een afspraak verzetten",
     "description": "اطلب تغيير الموعد، واسأل عن وقت بديل، وثبّت الموعد الجديد.",

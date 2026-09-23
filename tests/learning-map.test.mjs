@@ -12,18 +12,18 @@ const [units, extensions, lessons, readings, original] = await Promise.all([
 test("the A1 map covers every published resource and preserves all original phrase identities and text", () => {
   assert.deepEqual(validateLearningMap(units, extensions, lessons, readings), []);
   assert.equal(units.length, 10);
-  assert.equal(lessons.length, 34);
-  assert.equal(lessons.flatMap((lesson) => lesson.phrases).length, 215);
-  assert.equal(lessons.flatMap((lesson) => lesson.questions).length, 116);
+  assert.equal(lessons.length, 36);
+  assert.equal(lessons.flatMap((lesson) => lesson.phrases).length, 231);
+  assert.equal(lessons.flatMap((lesson) => lesson.questions).length, 124);
   assert.equal(Object.keys(original).length, 20);
   for (const [slug, phrases] of Object.entries(original)) {
     const lesson = lessons.find((item) => item.slug === slug);
     assert.ok(lesson, slug);
     for (const [id, dutch] of Object.entries(phrases)) assert.equal(lesson.phrases.find((phrase) => phrase.id === id)?.dutch, dutch, id);
   }
-  assert.equal(extensions.length, 23);
-  assert.equal(extensions.flatMap((item) => item.vocabulary).length, 138);
-  assert.equal(extensions.flatMap((item) => item.tasks).length, 46);
+  assert.equal(extensions.length, 27);
+  assert.equal(extensions.flatMap((item) => item.vocabulary).length, 162);
+  assert.equal(extensions.flatMap((item) => item.tasks).length, 54);
 });
 
 test("mapping validation rejects broken links, duplicate assignments, and missing coverage or goals", () => {
