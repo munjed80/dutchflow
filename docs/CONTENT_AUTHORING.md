@@ -6,6 +6,8 @@ For the separate original reading texts, contextual vocabulary, grammar examples
 
 `src/data/modules.json` defines the ordered modules. `src/data/lessons.json` is the ordered lesson source for rendering, quizzes, and generated phrase audio. The current release contains 36 introductory lessons across four modules; this is not a complete CEFR A1 syllabus or an official exam preparation guarantee.
 
+For separate guided text dialogues, read `docs/SCENARIOS.md`. Scenario IDs do not belong to the lesson/audio bank; their tasks do not grant lesson completion.
+
 ## Add or edit a lesson
 
 1. Choose an existing `moduleId` and place the lesson with that module's other lessons. Update sequential display `number` values after reordering.

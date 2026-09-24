@@ -9,6 +9,7 @@ export default function LearnPage() {
     <div className="page-heading"><span className="eyebrow">مسار A1 · تعلّم مجاناً</span><h1>الهولندية <em>لحياتك اليومية.</em></h1><p>{lessons.length} درساً مجانياً في {courseModules.length} وحدات عملية. اختر درساً وتدرّب بالوتيرة التي تناسبك.</p></div>
     <p className="curriculum-entry"><Link className="text-link" href="/curriculum">استكشف خريطة A1 وأهداف التعلّم ←</Link></p>
     <p className="curriculum-entry"><Link className="text-link" href="/vocabulary">ابحث في مكتبة المفردات ←</Link></p>
+    <p className="curriculum-entry"><Link className="text-link" href="/scenarios">تدرّب على المواقف الحوارية ←</Link></p>
     <LessonCatalogue lessons={getLessonSummaries()} modules={courseModules} />
     <div className="continue-banner panel"><div><span className="eyebrow">وسّع لغتك بالقراءة</span><h2>من الجملة إلى النص</h2><p>اقرأ رسائل ومواقف يومية، وتعلّم المفردات والقواعد في سياقها.</p></div><Link className="button button-primary" href="/reading">افتح مكتبة القراءة</Link></div>
     <p className="catalogue-note">هذا مسار تمهيدي ضمن A1. إكمال هذه الدروس لا يعني إتقان المستوى كاملاً. يُحفظ تقدّم الزائر في المتصفح، وتقدّم المستخدم المسجّل في حسابه عند تفعيل الحسابات.</p>

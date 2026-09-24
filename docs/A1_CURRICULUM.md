@@ -26,6 +26,7 @@ This table is a development plan. It does not claim that every listed language p
 ## Coverage at this release
 
 - 36 lessons, 231 reusable phrases and 124 lesson questions; fourteen separate readings with 48 comprehension questions.
+- Eight additional guided text scenarios provide 32 dialogue turns and eight transfer-writing tasks across eight themes. These are separate from lesson/reading inventories and do not award completion. See [scenario authoring and boundaries](SCENARIOS.md).
 - Every lesson and reading is mapped. All ten units now display **partial coverage** with explicit remaining work. No unit displays complete or a mastery percentage.
 - New foundation lessons: `spelling-your-name`, `contact-details`, `asking-for-clarification`. Each has eight phrases, a contextual dialogue, a grammar note, four questions, six vocabulary/form notes and two self-review production tasks.
 - `src/data/lesson-extensions.json` holds 162 vocabulary notes and 54 production tasks across 27 lessons. Nouns include an article and plural; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is a growing lexical support layer, not a complete searchable dictionary.
@@ -76,6 +77,12 @@ The original reading `a-room-for-a-guest` recycles room/furniture language, adds
 The existing `at-the-shop` and `cafe-order` lessons gain lexical support and original-response tasks while preserving every existing phrase record. Together, the four lessons add 24 lexical notes and eight tasks. Models change quantities, drink choices or sizes; they remain optional and do not grade valid alternatives. Their notes and plural forms automatically appear under the around-town module in the vocabulary library.
 
 `a-shopping-list-message` adds an original multiline shopping list and message with six notes, a grammar explanation and four evidenced questions. It changes the lesson's price so learners must read the passage: tomatoes cost four euros per kilogram and the requested half kilogram costs two euros. Milk is already available; white bread is requested only if brown bread is absent. The unit now has four lessons and two readings but still lacks broader food/clothing vocabulary, reviewed connected listening and interactive purchase practice.
+
+## Guided scenarios across the curriculum
+
+The scenario library uses the current thematic units and source lessons to practise introductions, repair availability, clothing sizes, a train journey, school absence, rescheduling, work sequence and weekend plans. Each situation has four guided turns with goal-specific feedback, optional model help and a final writing task with different fictional details. Lesson and unit links are derived from the bank, so no parallel list of scenario IDs needs maintaining in the roadmap JSON.
+
+A learner must resolve each turn before advancing. The recap distinguishes an initially suitable choice, a corrected attempt and model assistance, without converting them into a proficiency score. This adds supported interaction practice; recorded listening, original spoken dialogue and language-editor feedback remain readiness requirements. All ten units continue to show partial coverage.
 
 ## Definition of readiness for each unit
 
