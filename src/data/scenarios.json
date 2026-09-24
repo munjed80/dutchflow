@@ -1,0 +1,1031 @@
+[
+  {
+    "slug": "at-the-language-school",
+    "title": "التعارف في مدرسة اللغة",
+    "dutchTitle": "Bij de taalschool",
+    "unitId": "introducing-yourself",
+    "role": "متعلّم جديد",
+    "partner": "موظفة المدرسة",
+    "mission": "استخدم بيانات خيالية: اسمك Nour Haddad ورقم منزلك 24. في السؤال الأخير لم تسمع الكلام جيداً؛ اطلب تكراره ببطء.",
+    "sourceLessons": [
+      "introductions",
+      "spelling-your-name",
+      "contact-details",
+      "asking-for-clarification"
+    ],
+    "turns": [
+      {
+        "goal": "عرّف باسمك الكامل كما ورد في بيانات الموقف.",
+        "prompt": "Goedemorgen, hoe heet u?",
+        "translation": "صباح الخير، ما اسمك؟",
+        "choices": [
+          {
+            "text": "Ik woon op nummer vierentwintig.",
+            "translation": "أسكن في المنزل رقم أربعة وعشرين.",
+            "feedback": "هذا رقم المنزل؛ السؤال الآن عن الاسم."
+          },
+          {
+            "text": "Ik heet Nour Haddad.",
+            "translation": "اسمي نور حداد.",
+            "feedback": "ذكرت الاسم الكامل المطلوب في هذا الموقف."
+          },
+          {
+            "text": "Ik heet Amina Haddad.",
+            "translation": "اسمي أمينة حداد.",
+            "feedback": "الجملة سليمة، لكن الاسم الأول في بيانات الموقف هو Nour."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Welkom, Nour.",
+        "responseTranslation": "أهلاً بك، نور.",
+        "id": "at-the-language-school-1"
+      },
+      {
+        "goal": "تهجّ اسم العائلة Haddad، وليس الاسم الأول.",
+        "prompt": "Kunt u uw achternaam spellen?",
+        "translation": "هل يمكنك تهجئة اسم عائلتك؟",
+        "choices": [
+          {
+            "text": "H-A-D-D-A-D.",
+            "translation": "حروف اسم حداد: H-A-D-D-A-D.",
+            "feedback": "هذه حروف اسم العائلة Haddad، مع حرفي D في الوسط."
+          },
+          {
+            "text": "N-O-U-R.",
+            "translation": "حروف اسم نور: N-O-U-R.",
+            "feedback": "هذه تهجئة الاسم الأول؛ achternaam تعني اسم العائلة."
+          },
+          {
+            "text": "H-A-D-A-D.",
+            "translation": "الحروف H-A-D-A-D.",
+            "feedback": "تنقص هنا إحدى حرفي D المتجاورين في Haddad."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Dank u, ik schrijf Haddad.",
+        "responseTranslation": "شكراً، سأكتب Haddad.",
+        "id": "at-the-language-school-2"
+      },
+      {
+        "goal": "أكّد رقم المنزل 24.",
+        "prompt": "Is uw huisnummer vierentwintig?",
+        "translation": "هل رقم منزلك أربعة وعشرون؟",
+        "choices": [
+          {
+            "text": "Nee, tweeënveertig.",
+            "translation": "لا، اثنان وأربعون.",
+            "feedback": "هذا يصحح الرقم إلى 42، بينما بيانات الموقف تقول 24."
+          },
+          {
+            "text": "Mijn voornaam is Nour.",
+            "translation": "اسمي الأول نور.",
+            "feedback": "أعدت الاسم الأول ولم تجب عن رقم المنزل."
+          },
+          {
+            "text": "Ja, dat klopt.",
+            "translation": "نعم، هذا صحيح.",
+            "feedback": "الرقم الذي قرأته الموظفة يطابق بيانات الموقف، فتؤكده."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Prima, nummer 24.",
+        "responseTranslation": "حسناً، الرقم 24.",
+        "id": "at-the-language-school-3"
+      },
+      {
+        "goal": "لم تسمع السؤال جيداً. اطلب تكراره ببطء.",
+        "prompt": "Wat is uw postcode?",
+        "translation": "ما رمزك البريدي؟",
+        "choices": [
+          {
+            "text": "Kunt u dat langzaam herhalen?",
+            "translation": "هل يمكنك تكرار ذلك ببطء؟",
+            "feedback": "طلبت التكرار والبطء بدلاً من تخمين معلومة لم تسمعها."
+          },
+          {
+            "text": "Ja, dat klopt.",
+            "translation": "نعم، هذا صحيح.",
+            "feedback": "السؤال يطلب معلومة؛ الموافقة وحدها لا تجيب عنه."
+          },
+          {
+            "text": "Mijn huisnummer is 24.",
+            "translation": "رقم منزلي 24.",
+            "feedback": "postcode هو الرمز البريدي، وليس رقم المنزل."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Natuurlijk. Wat is uw postcode?",
+        "responseTranslation": "بالطبع. ما رمزك البريدي؟",
+        "id": "at-the-language-school-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "استخدم اسماً خيالياً آخر: Samir Ali. عرّف باسمك، ثم اطلب تكرار سؤال لم تسمعه.",
+      "model": "Ik heet Samir Ali. Kunt u dat herhalen?",
+      "translation": "اسمي سمير علي. هل يمكنك تكرار ذلك؟",
+      "checklist": [
+        "هل استخدمت الاسم الجديد؟",
+        "هل طلبت التكرار بصيغة مهذبة؟"
+      ]
+    }
+  },
+  {
+    "slug": "arranging-a-repair",
+    "title": "الاتفاق على زيارة للإصلاح",
+    "dutchTitle": "Een reparatie afspreken",
+    "unitId": "home-and-neighbourhood",
+    "role": "مستأجر",
+    "partner": "موظف الصيانة",
+    "mission": "صنبور المطبخ يسرّب الماء. لا يناسبك الأربعاء الساعة العاشرة؛ أنت متاح الخميس الساعة الثالثة عصراً. اطلب الوقت المناسب وانتظر تأكيده.",
+    "sourceLessons": [
+      "repairs-at-home",
+      "home-and-address"
+    ],
+    "turns": [
+      {
+        "goal": "أبلغ عن تسرّب الصنبور.",
+        "prompt": "Wat is het probleem?",
+        "translation": "ما المشكلة؟",
+        "choices": [
+          {
+            "text": "De verwarming werkt niet.",
+            "translation": "التدفئة لا تعمل.",
+            "feedback": "هذا عطل مختلف؛ في الموقف الحالي الصنبور هو الذي يسرّب."
+          },
+          {
+            "text": "De kraan lekt.",
+            "translation": "الصنبور يسرّب الماء.",
+            "feedback": "وصفت المشكلة المطلوبة باختصار؛ lekt تعني يسرّب."
+          },
+          {
+            "text": "Ik wil een afspraak afzeggen.",
+            "translation": "أريد إلغاء موعد.",
+            "feedback": "لم تتفق على موعد بعد؛ المطلوب أولاً وصف المشكلة."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Dat is vervelend.",
+        "responseTranslation": "هذا مزعج.",
+        "id": "arranging-a-repair-1"
+      },
+      {
+        "goal": "حدّد أن الصنبور في المطبخ.",
+        "prompt": "Waar is de kraan?",
+        "translation": "أين الصنبور؟",
+        "choices": [
+          {
+            "text": "In de keuken.",
+            "translation": "في المطبخ.",
+            "feedback": "حددت مكان المشكلة كما في الموقف."
+          },
+          {
+            "text": "In de badkamer.",
+            "translation": "في الحمّام.",
+            "feedback": "هذا مكان آخر؛ المشكلة هنا في المطبخ."
+          },
+          {
+            "text": "Donderdag om drie uur.",
+            "translation": "الخميس الساعة الثالثة.",
+            "feedback": "ذكرت وقتاً، بينما السؤال Waar يطلب مكاناً."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ik noteer: de kraan in de keuken.",
+        "responseTranslation": "سأدوّن: صنبور المطبخ.",
+        "id": "arranging-a-repair-2"
+      },
+      {
+        "goal": "اعتذر عن الأربعاء واقترح الخميس الساعة الثالثة.",
+        "prompt": "De monteur kan woensdag om tien uur komen. Schikt dat?",
+        "translation": "يمكن للفني القدوم الأربعاء الساعة العاشرة. هل يناسبك ذلك؟",
+        "choices": [
+          {
+            "text": "Ja, woensdag om tien uur is goed.",
+            "translation": "نعم، الأربعاء الساعة العاشرة مناسب.",
+            "feedback": "هذا يخالف الوقت المتاح لك في بيانات الموقف."
+          },
+          {
+            "text": "Kunt u woensdag om drie uur komen?",
+            "translation": "هل يمكنك القدوم الأربعاء الساعة الثالثة؟",
+            "feedback": "غيّرت الساعة، لكنك تحتاج يوم الخميس."
+          },
+          {
+            "text": "Woensdag kan ik niet. Kan de monteur donderdag om drie uur komen?",
+            "translation": "لا أستطيع يوم الأربعاء. هل يمكن للفني القدوم الخميس الساعة الثالثة؟",
+            "feedback": "أوضحت عدم مناسبة العرض وقدّمت يوماً ووقتاً بديلين؛ ما زلت تنتظر الموافقة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Ik kijk even in de agenda.",
+        "responseTranslation": "سأراجع الجدول لحظة.",
+        "id": "arranging-a-repair-3"
+      },
+      {
+        "goal": "أكّد الموعد الجديد بعد عرضه عليك.",
+        "prompt": "Donderdag om drie uur is mogelijk. Bent u dan thuis?",
+        "translation": "الخميس الساعة الثالثة ممكن. هل ستكون في المنزل حينها؟",
+        "choices": [
+          {
+            "text": "Ik ben woensdag om tien uur thuis.",
+            "translation": "سأكون في المنزل الأربعاء الساعة العاشرة.",
+            "feedback": "عدت إلى الموعد السابق الذي قلت إنه لا يناسبك."
+          },
+          {
+            "text": "Ja, donderdag om drie uur ben ik thuis.",
+            "translation": "نعم، سأكون في المنزل الخميس الساعة الثالثة.",
+            "feedback": "أكّدت وجودك في المنزل في الوقت الجديد المعروض."
+          },
+          {
+            "text": "Waar is de keuken?",
+            "translation": "أين المطبخ؟",
+            "feedback": "هذا لا يجيب عن وجودك في المنزل وقت الزيارة."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Afgesproken. De monteur komt donderdag om drie uur.",
+        "responseTranslation": "اتفقنا. سيأتي الفني الخميس الساعة الثالثة.",
+        "id": "arranging-a-repair-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "غيّر التفاصيل: صنبور الحمّام يسرّب الماء، وأنت متاح يوم الاثنين الساعة الثانية. اكتب طلباً قصيراً، دون تقديم الموعد كأنه مؤكد.",
+      "model": "De kraan in de badkamer lekt. Kan de monteur maandag om twee uur komen?",
+      "translation": "صنبور الحمّام يسرّب الماء. هل يمكن للفني القدوم الاثنين الساعة الثانية؟",
+      "checklist": [
+        "هل غيّرت مكان العطل؟",
+        "هل سألت عن الموعد بدلاً من افتراض تأكيده؟"
+      ]
+    }
+  },
+  {
+    "slug": "choosing-a-coat",
+    "title": "تجربة سترة وتغيير المقاس",
+    "dutchTitle": "Een andere maat",
+    "unitId": "food-and-shopping",
+    "role": "زبون",
+    "partner": "موظفة المتجر",
+    "mission": "تريد سترة زرقاء. جرّبت المقاس M فكان كبيراً أكثر من اللازم؛ اطلب المقاس S من السترة نفسها.",
+    "sourceLessons": [
+      "clothes-and-sizes",
+      "at-the-shop"
+    ],
+    "turns": [
+      {
+        "goal": "اطلب سترة زرقاء.",
+        "prompt": "Kan ik u helpen?",
+        "translation": "هل يمكنني مساعدتك؟",
+        "choices": [
+          {
+            "text": "Ik zoek een blauwe jas.",
+            "translation": "أبحث عن سترة زرقاء.",
+            "feedback": "طلبت نوع اللباس واللون المطلوبين."
+          },
+          {
+            "text": "Ik zoek een zwarte jas.",
+            "translation": "أبحث عن سترة سوداء.",
+            "feedback": "zwarte تعني سوداء؛ اللون المطلوب هنا أزرق."
+          },
+          {
+            "text": "Ik wil graag koffie.",
+            "translation": "أريد قهوة، من فضلك.",
+            "feedback": "هذه جملة مناسبة للمقهى، لكنها لا تطلب السترة."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "We hebben hier blauwe jassen.",
+        "responseTranslation": "لدينا سترات زرقاء هنا.",
+        "id": "choosing-a-coat-1"
+      },
+      {
+        "goal": "اطلب تجربة السترة المعروضة.",
+        "prompt": "Hier is een jas in maat M. Wilt u die passen?",
+        "translation": "هذه سترة بالمقاس M. هل تريد تجربتها؟",
+        "choices": [
+          {
+            "text": "Waar is het station?",
+            "translation": "أين المحطة؟",
+            "feedback": "السؤال المعروض عن تجربة السترة، وليس عن الطريق."
+          },
+          {
+            "text": "Ik zoek een zwarte jas.",
+            "translation": "أبحث عن سترة سوداء.",
+            "feedback": "هذا يغيّر اللون ولا يجيب عن التجربة."
+          },
+          {
+            "text": "Ja, graag. Waar is de paskamer?",
+            "translation": "نعم، من فضلك. أين غرفة القياس؟",
+            "feedback": "قبلت التجربة وسألت عن مكانها."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "De paskamer is daar.",
+        "responseTranslation": "غرفة القياس هناك.",
+        "id": "choosing-a-coat-2"
+      },
+      {
+        "goal": "بعد التجربة، وضّح أنها كبيرة واطلب S.",
+        "prompt": "Hoe zit de jas?",
+        "translation": "كيف تبدو السترة من حيث المقاس؟",
+        "choices": [
+          {
+            "text": "Hij is te klein. Heeft u maat L?",
+            "translation": "إنها صغيرة أكثر من اللازم. هل لديك المقاس L؟",
+            "feedback": "هذه مشكلة معاكسة؛ الموقف يقول إن M كبير وتحتاج S."
+          },
+          {
+            "text": "Hij is te groot. Heeft u maat S?",
+            "translation": "إنها كبيرة أكثر من اللازم. هل لديك المقاس S؟",
+            "feedback": "وضحت سبب التغيير وطلبت المقاس الأصغر."
+          },
+          {
+            "text": "Hij is goed. Ik neem maat M.",
+            "translation": "مقاسها مناسب. سآخذ M.",
+            "feedback": "هذا يخالف نتيجة التجربة المذكورة في الموقف."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ik zoek dezelfde jas in maat S.",
+        "responseTranslation": "سأبحث عن السترة نفسها بالمقاس S.",
+        "id": "choosing-a-coat-3"
+      },
+      {
+        "goal": "اقبل تجربة المقاس الأصغر قبل الشراء.",
+        "prompt": "Hier is de blauwe jas in maat S. Wilt u deze ook passen?",
+        "translation": "هذه السترة الزرقاء بالمقاس S. هل تريد تجربتها أيضاً؟",
+        "choices": [
+          {
+            "text": "Ja, ik wil deze graag passen.",
+            "translation": "نعم، أود تجربة هذه.",
+            "feedback": "وافقت على تجربة المقاس الجديد دون افتراض أنه مناسب تلقائياً."
+          },
+          {
+            "text": "Nee, ik zoek een rode jas.",
+            "translation": "لا، أبحث عن سترة حمراء.",
+            "feedback": "غيّرت اللون دون أن يتطلب الموقف ذلك."
+          },
+          {
+            "text": "Ik heb geen melk nodig.",
+            "translation": "لا أحتاج إلى حليب.",
+            "feedback": "الجملة لا تتعلق بالمقاس أو تجربة الملابس."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Natuurlijk, gaat uw gang.",
+        "responseTranslation": "بالطبع، تفضل.",
+        "id": "choosing-a-coat-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "في موقف جديد، السترة بالمقاس S صغيرة أكثر من اللازم. اطلب M واطلب تجربته.",
+      "model": "Deze jas is te klein. Heeft u maat M? Mag ik die passen?",
+      "translation": "هذه السترة أصغر مما أحتاج. هل لديك المقاس M؟ هل يمكنني تجربتها؟",
+      "checklist": [
+        "هل استخدمت te klein للمشكلة الجديدة؟",
+        "هل طلبت مقاساً آخر وتجربته؟"
+      ]
+    }
+  },
+  {
+    "slug": "planning-a-train-trip",
+    "title": "السؤال عن رحلة قطار",
+    "dutchTitle": "Een treinreis plannen",
+    "unitId": "travel-and-directions",
+    "role": "مسافر",
+    "partner": "موظف المحطة",
+    "mission": "في شبكة نقل خيالية، تسافر من محطة West إلى محطة Centrum باتجاه واحد. اسأل عن الوصول وميّز بينه وبين الانطلاق. الأوقات هنا للتدريب فقط.",
+    "sourceLessons": [
+      "train-tickets",
+      "public-transport",
+      "time-and-days"
+    ],
+    "turns": [
+      {
+        "goal": "حدّد وجهتك: محطة Centrum.",
+        "prompt": "Waar wilt u naartoe?",
+        "translation": "إلى أين تريد الذهاب؟",
+        "choices": [
+          {
+            "text": "Ik vertrek vanaf station West.",
+            "translation": "سأنطلق من محطة West.",
+            "feedback": "ذكرت نقطة الانطلاق؛ السؤال الآن عن الوجهة."
+          },
+          {
+            "text": "Naar station Centrum, alstublieft.",
+            "translation": "إلى محطة Centrum، من فضلك.",
+            "feedback": "ذكرت الوجهة المطلوبة في هذا الموقف."
+          },
+          {
+            "text": "Naar station Noord, alstublieft.",
+            "translation": "إلى محطة Noord، من فضلك.",
+            "feedback": "هذه وجهة مختلفة عن Centrum."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Naar Centrum, goed.",
+        "responseTranslation": "إلى Centrum، حسناً.",
+        "id": "planning-a-train-trip-1"
+      },
+      {
+        "goal": "اختر تذكرة باتجاه واحد.",
+        "prompt": "Wilt u een enkele reis of een retour?",
+        "translation": "هل تريد تذكرة باتجاه واحد أم ذهاباً وإياباً؟",
+        "choices": [
+          {
+            "text": "Een enkele reis, alstublieft.",
+            "translation": "تذكرة باتجاه واحد، من فضلك.",
+            "feedback": "een enkele reis تناسب الرحلة المحددة في الموقف."
+          },
+          {
+            "text": "Een retour, alstublieft.",
+            "translation": "تذكرة ذهاب وإياب، من فضلك.",
+            "feedback": "retour تشمل العودة، والمطلوب هنا اتجاه واحد."
+          },
+          {
+            "text": "Ik wil om twee uur eten.",
+            "translation": "أريد تناول الطعام الساعة الثانية.",
+            "feedback": "هذه الجملة لا تحدد نوع التذكرة."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Een enkele reis naar Centrum.",
+        "responseTranslation": "تذكرة باتجاه واحد إلى Centrum.",
+        "id": "planning-a-train-trip-2"
+      },
+      {
+        "goal": "الموظف أعطاك وقت الانطلاق. اسأل الآن عن وقت الوصول.",
+        "prompt": "De trein vertrekt om veertien uur twintig vanaf spoor twee. Heeft u nog een vraag?",
+        "translation": "ينطلق القطار الساعة 14:20 من الرصيف الثاني. هل لديك سؤال آخر؟",
+        "choices": [
+          {
+            "text": "Hoe laat vertrekt de trein?",
+            "translation": "متى ينطلق القطار؟",
+            "feedback": "تطلب تكرار وقت الانطلاق؛ المهمة الآن هي السؤال عن الوصول."
+          },
+          {
+            "text": "Van welk spoor vertrekt de trein?",
+            "translation": "من أي رصيف ينطلق القطار؟",
+            "feedback": "تسأل عن الرصيف، وقد ذكره الموظف؛ المطلوب وقت الوصول."
+          },
+          {
+            "text": "Hoe laat kom ik in Centrum aan?",
+            "translation": "متى أصل إلى Centrum؟",
+            "feedback": "aankomen تعني يصل؛ هذا السؤال يطلب المعلومة الناقصة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Ik kijk naar de aankomsttijd.",
+        "responseTranslation": "سأراجع وقت الوصول.",
+        "id": "planning-a-train-trip-3"
+      },
+      {
+        "goal": "أعد وقت الوصول 14:45 للتأكد.",
+        "prompt": "U komt om kwart voor drie aan.",
+        "translation": "ستصل الساعة الثالثة إلا ربعاً.",
+        "choices": [
+          {
+            "text": "Dus om kwart over drie?",
+            "translation": "إذن الساعة الثالثة والربع؟",
+            "feedback": "kwart over drie هي 15:15، وليست kwart voor drie."
+          },
+          {
+            "text": "Dus om veertien uur vijfenveertig?",
+            "translation": "إذن الساعة 14:45؟",
+            "feedback": "الثالثة إلا ربعاً تساوي 14:45 في رحلة بعد الظهر هذه."
+          },
+          {
+            "text": "Dus om veertien uur twintig?",
+            "translation": "إذن الساعة 14:20؟",
+            "feedback": "هذا وقت الانطلاق، وليس وقت الوصول."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ja, om 14.45 uur.",
+        "responseTranslation": "نعم، الساعة 14:45.",
+        "id": "planning-a-train-trip-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "في رحلة خيالية أخرى، تريد تذكرة ذهاب وإياب إلى محطة Noord. اطلبها ثم اسأل عن وقت الانطلاق.",
+      "model": "Een retour naar station Noord, alstublieft. Hoe laat vertrekt de trein?",
+      "translation": "تذكرة ذهاب وإياب إلى محطة Noord، من فضلك. متى ينطلق القطار؟",
+      "checklist": [
+        "هل غيّرت نوع التذكرة إلى retour؟",
+        "هل سألت عن الانطلاق باستخدام vertrekt؟"
+      ]
+    }
+  },
+  {
+    "slug": "calling-the-school",
+    "title": "إبلاغ المدرسة بالغياب",
+    "dutchTitle": "De school bellen",
+    "unitId": "family-and-school",
+    "role": "ولي أمر",
+    "partner": "موظفة المدرسة",
+    "mission": "تستخدم أسرة خيالية: ابنتك Sara في المجموعة الثالثة، وهي مريضة وستغيب اليوم. لا تعرف إن كانت ستعود غداً. اطلب الواجب عبر البريد الإلكتروني.",
+    "sourceLessons": [
+      "message-to-school",
+      "school-and-family"
+    ],
+    "turns": [
+      {
+        "goal": "عرّف بالتلميذة ومجموعتها.",
+        "prompt": "Goedemorgen, over welke leerling belt u?",
+        "translation": "صباح الخير، بخصوص أي تلميذ أو تلميذة تتصل؟",
+        "choices": [
+          {
+            "text": "Ik bel over Sara uit groep drie.",
+            "translation": "أتصل بخصوص سارة من المجموعة الثالثة.",
+            "feedback": "عرّفت بالتلميذة والمجموعة كما في بيانات الموقف."
+          },
+          {
+            "text": "Ik bel over Sara uit groep vijf.",
+            "translation": "أتصل بخصوص سارة من المجموعة الخامسة.",
+            "feedback": "اسم التلميذة صحيح، لكن المجموعة مختلفة."
+          },
+          {
+            "text": "Ik wil graag een treinkaartje.",
+            "translation": "أريد تذكرة قطار، من فضلك.",
+            "feedback": "هذه الجملة لا تعرّف بالتلميذة ولا تتعلق بالمدرسة."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Sara uit groep drie, ik luister.",
+        "responseTranslation": "سارة من المجموعة الثالثة، تفضل.",
+        "id": "calling-the-school-1"
+      },
+      {
+        "goal": "قل إنها مريضة ولن تأتي اليوم.",
+        "prompt": "Waarom komt Sara vandaag niet?",
+        "translation": "لماذا لن تأتي سارة اليوم؟",
+        "choices": [
+          {
+            "text": "Ze komt vandaag gewoon naar school.",
+            "translation": "ستأتي إلى المدرسة اليوم كالمعتاد.",
+            "feedback": "هذا يناقض الغياب المحدد في الموقف."
+          },
+          {
+            "text": "Ze is vandaag jarig.",
+            "translation": "اليوم عيد ميلادها.",
+            "feedback": "هذا سبب مختلف؛ بيانات الموقف تقول إنها مريضة."
+          },
+          {
+            "text": "Ze is ziek en blijft vandaag thuis.",
+            "translation": "إنها مريضة وستبقى في المنزل اليوم.",
+            "feedback": "أوضحت سبب الغياب ومدته المعروفة: اليوم."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Dank u voor het doorgeven.",
+        "responseTranslation": "شكراً لإبلاغنا.",
+        "id": "calling-the-school-2"
+      },
+      {
+        "goal": "لا تؤكد عودة غداً؛ أنت لا تعرف بعد.",
+        "prompt": "Komt ze morgen weer naar school?",
+        "translation": "هل ستعود إلى المدرسة غداً؟",
+        "choices": [
+          {
+            "text": "Ja, zeker.",
+            "translation": "نعم، بالتأكيد.",
+            "feedback": "هذا تأكيد لا تملكه بحسب بيانات الموقف."
+          },
+          {
+            "text": "Dat weet ik nog niet.",
+            "translation": "لا أعرف ذلك بعد.",
+            "feedback": "أوضحت عدم معرفتك دون إعطاء موعد غير مؤكد."
+          },
+          {
+            "text": "Ze zit in groep drie.",
+            "translation": "هي في المجموعة الثالثة.",
+            "feedback": "ذكرت المجموعة ولم تجب عن العودة غداً."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Laat u het ons morgen weten?",
+        "responseTranslation": "هل تبلغنا غداً؟",
+        "id": "calling-the-school-3"
+      },
+      {
+        "goal": "وافق على الإبلاغ غداً، واطلب إرسال الواجب بالبريد الإلكتروني.",
+        "prompt": "Wilt u ook het huiswerk ontvangen?",
+        "translation": "هل ترغب أيضاً في استلام الواجب؟",
+        "choices": [
+          {
+            "text": "Ja, ik bel morgen. Kunt u het huiswerk per e-mail sturen?",
+            "translation": "نعم، سأتصل غداً. هل يمكنك إرسال الواجب بالبريد الإلكتروني؟",
+            "feedback": "أجبت عن طلب الإبلاغ ثم حدّدت طريقة استلام الواجب."
+          },
+          {
+            "text": "Nee, ik hoef geen huiswerk.",
+            "translation": "لا، لا أحتاج إلى واجب.",
+            "feedback": "هذا يخالف رغبتك في استلام الواجب في الموقف."
+          },
+          {
+            "text": "Kan de monteur morgen komen?",
+            "translation": "هل يمكن للفني القدوم غداً؟",
+            "feedback": "هذا سؤال عن إصلاح وليس عن الواجب أو المدرسة."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ja, we sturen het huiswerk per e-mail.",
+        "responseTranslation": "نعم، سنرسل الواجب بالبريد الإلكتروني.",
+        "id": "calling-the-school-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "اكتب رسالة قصيرة عن تلميذ خيالي اسمه Adam في المجموعة الرابعة، سيغيب اليوم لأنه مريض. اطلب الواجب.",
+      "model": "Adam uit groep vier is ziek en blijft vandaag thuis. Kunt u het huiswerk sturen?",
+      "translation": "آدم من المجموعة الرابعة مريض وسيبقى في المنزل اليوم. هل يمكنك إرسال الواجب؟",
+      "checklist": [
+        "هل غيّرت الاسم والمجموعة؟",
+        "هل ذكرت الغياب اليوم وطلبت الواجب؟"
+      ]
+    }
+  },
+  {
+    "slug": "moving-an-appointment",
+    "title": "تغيير موعد وتأكيده",
+    "dutchTitle": "Een afspraak verzetten",
+    "unitId": "services-and-messages",
+    "role": "صاحب موعد",
+    "partner": "موظف الاستقبال",
+    "mission": "لديك موعد الثلاثاء الساعة العاشرة ولا يمكنك الحضور. يناسبك الخميس الساعة الثانية عصراً. اطلب تأكيد الموعد الجديد بالبريد الإلكتروني.",
+    "sourceLessons": [
+      "changing-an-appointment",
+      "phone-calls",
+      "letters-and-messages"
+    ],
+    "turns": [
+      {
+        "goal": "وضّح أنك تريد تغيير الموعد.",
+        "prompt": "Waarmee kan ik u helpen?",
+        "translation": "بماذا يمكنني مساعدتك؟",
+        "choices": [
+          {
+            "text": "Ik wil mijn afspraak bevestigen.",
+            "translation": "أريد تأكيد موعدي.",
+            "feedback": "أنت تحتاج إلى تغيير الموعد أولاً، لا تأكيد الوقت الحالي."
+          },
+          {
+            "text": "Ik wil mijn afspraak verzetten.",
+            "translation": "أريد تغيير موعدي.",
+            "feedback": "verzetten تعني تغيير موعد قائم إلى وقت آخر."
+          },
+          {
+            "text": "Ik zoek een blauwe jas.",
+            "translation": "أبحث عن سترة زرقاء.",
+            "feedback": "هذا طلب في متجر ملابس ولا يتعلق بالموعد."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Dat kan.",
+        "responseTranslation": "هذا ممكن.",
+        "id": "moving-an-appointment-1"
+      },
+      {
+        "goal": "اذكر الموعد الحالي الذي تريد تغييره.",
+        "prompt": "Wanneer is uw afspraak nu?",
+        "translation": "متى موعدك الحالي؟",
+        "choices": [
+          {
+            "text": "Dinsdag om tien uur.",
+            "translation": "الثلاثاء الساعة العاشرة.",
+            "feedback": "هذا هو الموعد الحالي المذكور في الموقف."
+          },
+          {
+            "text": "Donderdag om twee uur.",
+            "translation": "الخميس الساعة الثانية.",
+            "feedback": "هذا الوقت الذي تريده لاحقاً، لا الموعد الحالي."
+          },
+          {
+            "text": "Volgende maand, denk ik.",
+            "translation": "الشهر المقبل، على ما أظن.",
+            "feedback": "بيانات الموقف تحدد اليوم والساعة؛ هذا الجواب لا ينقلها."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ik zie uw afspraak op dinsdag om tien uur.",
+        "responseTranslation": "أرى موعدك يوم الثلاثاء الساعة العاشرة.",
+        "id": "moving-an-appointment-2"
+      },
+      {
+        "goal": "اقبل الوقت الجديد المناسب لك.",
+        "prompt": "Donderdag om twee uur is nog vrij. Past dat?",
+        "translation": "الخميس الساعة الثانية ما زال متاحاً. هل يناسبك ذلك؟",
+        "choices": [
+          {
+            "text": "Nee, dinsdag om tien uur is beter.",
+            "translation": "لا، الثلاثاء الساعة العاشرة أفضل.",
+            "feedback": "هذا يعيدك إلى الوقت الذي لا يناسبك."
+          },
+          {
+            "text": "Kan ik donderdag om tien uur komen?",
+            "translation": "هل يمكنني القدوم الخميس الساعة العاشرة؟",
+            "feedback": "طلبت وقتاً آخر، بينما العرض الساعة الثانية يناسب بيانات الموقف."
+          },
+          {
+            "text": "Ja, donderdag om twee uur past goed.",
+            "translation": "نعم، الخميس الساعة الثانية مناسب.",
+            "feedback": "قبلت الموعد الجديد بعد أن عرضه الموظف."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Dan verzet ik uw afspraak naar donderdag om twee uur.",
+        "responseTranslation": "إذن سأغيّر موعدك إلى الخميس الساعة الثانية.",
+        "id": "moving-an-appointment-3"
+      },
+      {
+        "goal": "اطلب التأكيد بالبريد الإلكتروني.",
+        "prompt": "Wilt u een bevestiging per sms of per e-mail?",
+        "translation": "هل تريد تأكيداً برسالة نصية أم بالبريد الإلكتروني؟",
+        "choices": [
+          {
+            "text": "Per sms, alstublieft.",
+            "translation": "برسالة نصية، من فضلك.",
+            "feedback": "هذا اختيار ممكن عموماً، لكنك تريد البريد الإلكتروني في هذا الموقف."
+          },
+          {
+            "text": "Per e-mail, alstublieft.",
+            "translation": "بالبريد الإلكتروني، من فضلك.",
+            "feedback": "حددت وسيلة التأكيد المطلوبة."
+          },
+          {
+            "text": "Ik kan dinsdag niet.",
+            "translation": "لا أستطيع يوم الثلاثاء.",
+            "feedback": "سبق تغيير الموعد؛ السؤال الآن عن وسيلة التأكيد."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "U krijgt de bevestiging per e-mail.",
+        "responseTranslation": "ستحصل على التأكيد بالبريد الإلكتروني.",
+        "id": "moving-an-appointment-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "في موقف جديد، موعد الأربعاء لا يناسبك. اطلب الجمعة الساعة الحادية عشرة، دون افتراض توفره.",
+      "model": "Woensdag kan ik niet. Kan ik vrijdag om elf uur komen?",
+      "translation": "لا أستطيع يوم الأربعاء. هل يمكنني الحضور الجمعة الساعة الحادية عشرة؟",
+      "checklist": [
+        "هل رفضت اليوم القديم بوضوح؟",
+        "هل طلبت اليوم والساعة الجديدين بصيغة سؤال؟"
+      ]
+    }
+  },
+  {
+    "slug": "starting-a-work-task",
+    "title": "فهم مهمة وطلب مساعدة",
+    "dutchTitle": "Samen aan het werk",
+    "unitId": "work-and-tasks",
+    "role": "زميل جديد",
+    "partner": "زميل العمل",
+    "mission": "أنت في مستودع خيالي. ستفحص أربعة صناديق ثم تضعها على الرف. تريد فهم ترتيب المهمة وطلب المساعدة في نقل الصناديق.",
+    "sourceLessons": [
+      "workday",
+      "asking-for-clarification"
+    ],
+    "turns": [
+      {
+        "goal": "قبل البدء، اسأل عن الخطوة الأولى.",
+        "prompt": "Kun je mij vandaag met de dozen helpen?",
+        "translation": "هل يمكنك مساعدتي اليوم في الصناديق؟",
+        "choices": [
+          {
+            "text": "Ja. Wat moet ik eerst doen?",
+            "translation": "نعم. ماذا يجب أن أفعل أولاً؟",
+            "feedback": "وافقت وسألت عن بداية المهمة بدلاً من تخمينها."
+          },
+          {
+            "text": "Hoeveel kost dit?",
+            "translation": "كم سعر هذا؟",
+            "feedback": "السؤال عن السعر لا يوضح المهمة المطلوبة."
+          },
+          {
+            "text": "Ik ben al klaar.",
+            "translation": "انتهيت بالفعل.",
+            "feedback": "لم تبدأ المهمة بعد بحسب الموقف."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ik leg het even uit.",
+        "responseTranslation": "سأشرح لك باختصار.",
+        "id": "starting-a-work-task-1"
+      },
+      {
+        "goal": "أعد ترتيب المهمة: الفحص أولاً ثم الوضع على الرف.",
+        "prompt": "Controleer eerst de dozen. Zet ze daarna op het rek.",
+        "translation": "افحص الصناديق أولاً. ضعها بعد ذلك على الرف.",
+        "choices": [
+          {
+            "text": "Eerst zet ik ze op het rek, daarna controleer ik ze.",
+            "translation": "أضعها أولاً على الرف، ثم أفحصها.",
+            "feedback": "عكست ترتيب التعليمات؛ الفحص يسبق وضع الصناديق على الرف."
+          },
+          {
+            "text": "Ik hoef de dozen niet te controleren.",
+            "translation": "لا أحتاج إلى فحص الصناديق.",
+            "feedback": "هذا يلغي الخطوة الأولى التي طلبها الزميل."
+          },
+          {
+            "text": "Eerst controleer ik de dozen, daarna zet ik ze op het rek.",
+            "translation": "أفحص الصناديق أولاً، ثم أضعها على الرف.",
+            "feedback": "أعدت الترتيب الصحيح باستخدام eerst وdaarna."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Precies, zo doen we het.",
+        "responseTranslation": "بالضبط، هكذا سنفعل.",
+        "id": "starting-a-work-task-2"
+      },
+      {
+        "goal": "أكّد أن عدد الصناديق أربعة.",
+        "prompt": "Hoeveel dozen staan hier?",
+        "translation": "كم صندوقاً يوجد هنا؟",
+        "choices": [
+          {
+            "text": "Er staan twee dozen.",
+            "translation": "يوجد صندوقان.",
+            "feedback": "بيانات الموقف تقول أربعة صناديق."
+          },
+          {
+            "text": "Er staan vier dozen.",
+            "translation": "توجد أربعة صناديق.",
+            "feedback": "نقلت العدد المحدد في الموقف."
+          },
+          {
+            "text": "Ze staan op het rek.",
+            "translation": "هي على الرف.",
+            "feedback": "هذا يذكر مكاناً ولا يجيب عن العدد."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Goed, we controleren alle vier de dozen.",
+        "responseTranslation": "حسناً، سنفحص الصناديق الأربعة كلها.",
+        "id": "starting-a-work-task-3"
+      },
+      {
+        "goal": "اطلب مساعدة زميلك في نقل الصناديق.",
+        "prompt": "Wil je hulp bij het verplaatsen van de dozen?",
+        "translation": "هل تريد مساعدة في نقل الصناديق؟",
+        "choices": [
+          {
+            "text": "Ja, kun je me helpen?",
+            "translation": "نعم، هل يمكنك مساعدتي؟",
+            "feedback": "قبلت المساعدة وطلبتها بوضوح."
+          },
+          {
+            "text": "Nee, ik doe het liever alleen.",
+            "translation": "لا، أفضل أن أفعل ذلك وحدي.",
+            "feedback": "هذه رغبة مختلفة؛ في الموقف تريد المساعدة."
+          },
+          {
+            "text": "Ik wil mijn afspraak verzetten.",
+            "translation": "أريد تغيير موعدي.",
+            "feedback": "هذا لا يجيب عن عرض المساعدة في المهمة."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Natuurlijk, we doen het samen.",
+        "responseTranslation": "بالطبع، سنفعل ذلك معاً.",
+        "id": "starting-a-work-task-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "في مهمة جديدة، افحص صندوقين أولاً ثم ضعهما على الطاولة. اكتب ترتيب العمل واطلب مساعدة زميل.",
+      "model": "Eerst controleer ik twee dozen. Daarna zet ik ze op de tafel. Kun je me helpen?",
+      "translation": "أفحص صندوقين أولاً. ثم أضعهما على الطاولة. هل يمكنك مساعدتي؟",
+      "checklist": [
+        "هل غيّرت العدد والمكان؟",
+        "هل حافظت على ترتيب eerst وdaarna وطلبت المساعدة؟"
+      ]
+    }
+  },
+  {
+    "slug": "changing-a-weekend-plan",
+    "title": "تعديل خطة مع صديق",
+    "dutchTitle": "Een nieuw plan voor zaterdag",
+    "unitId": "leisure-and-plans",
+    "role": "صديق",
+    "partner": "صديقتك نور",
+    "mission": "تريد لقاء نور السبت، لكنك متاح ابتداءً من الرابعة فقط. إذا أمطرت، اختر المكتبة مكاناً للقاء بدلاً من الحديقة.",
+    "sourceLessons": [
+      "invitations-and-plans",
+      "weather-today",
+      "free-time-hobbies"
+    ],
+    "turns": [
+      {
+        "goal": "اعتذر عن الثالثة واقترح الرابعة.",
+        "prompt": "Zullen we zaterdag om drie uur in het park afspreken?",
+        "translation": "هل نلتقي السبت الساعة الثالثة في الحديقة؟",
+        "choices": [
+          {
+            "text": "Ja, om drie uur is goed.",
+            "translation": "نعم، الساعة الثالثة مناسبة.",
+            "feedback": "الموقف يحدد أنك متاح ابتداءً من الرابعة."
+          },
+          {
+            "text": "Om drie uur kan ik niet. Kan het om vier uur?",
+            "translation": "لا أستطيع الساعة الثالثة. هل يمكن أن يكون اللقاء الساعة الرابعة؟",
+            "feedback": "اقترحت وقتاً يناسبك مع إبقاء يوم السبت."
+          },
+          {
+            "text": "Ik kan vrijdag om vier uur.",
+            "translation": "أستطيع يوم الجمعة الساعة الرابعة.",
+            "feedback": "غيّرت اليوم إلى الجمعة، بينما الخطة للسبت."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ik kijk even.",
+        "responseTranslation": "دعني أراجع وقتي.",
+        "id": "changing-a-weekend-plan-1"
+      },
+      {
+        "goal": "أكّد اليوم والساعة الجديدين.",
+        "prompt": "Zaterdag om vier uur kan ik ook.",
+        "translation": "السبت الساعة الرابعة يناسبني أيضاً.",
+        "choices": [
+          {
+            "text": "Fijn, zaterdag om vier uur.",
+            "translation": "جيد، السبت الساعة الرابعة.",
+            "feedback": "أكّدت اليوم والوقت اللذين اتفقتما عليهما."
+          },
+          {
+            "text": "Dus zondag om vier uur?",
+            "translation": "إذن الأحد الساعة الرابعة؟",
+            "feedback": "غيّرت اليوم إلى الأحد."
+          },
+          {
+            "text": "Dus zaterdag om drie uur?",
+            "translation": "إذن السبت الساعة الثالثة؟",
+            "feedback": "عدت إلى الوقت الأول غير المناسب."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Afgesproken.",
+        "responseTranslation": "اتفقنا.",
+        "id": "changing-a-weekend-plan-2"
+      },
+      {
+        "goal": "اقبل المكتبة بديلاً للحديقة عند المطر.",
+        "prompt": "Het gaat regenen. Zullen we naar de bibliotheek gaan?",
+        "translation": "ستمطر. هل نذهب إلى المكتبة؟",
+        "choices": [
+          {
+            "text": "Ik wil een retour naar Centrum.",
+            "translation": "أريد تذكرة ذهاب وإياب إلى Centrum.",
+            "feedback": "هذا لا يجيب عن تغيير مكان اللقاء."
+          },
+          {
+            "text": "Nee, ik wil alleen naar het park.",
+            "translation": "لا، أريد الذهاب إلى الحديقة فقط.",
+            "feedback": "الموقف يطلب اختيار المكتبة عند المطر."
+          },
+          {
+            "text": "Ja, de bibliotheek is een goed idee.",
+            "translation": "نعم، المكتبة فكرة جيدة.",
+            "feedback": "قبلت المكان البديل المناسب للخطة الجديدة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Dan gaan we naar de bibliotheek.",
+        "responseTranslation": "إذن سنذهب إلى المكتبة.",
+        "id": "changing-a-weekend-plan-3"
+      },
+      {
+        "goal": "حدّد مدخل المكتبة، لا مدخل الحديقة.",
+        "prompt": "Waar zullen we elkaar ontmoeten?",
+        "translation": "أين سنلتقي؟",
+        "choices": [
+          {
+            "text": "Bij de ingang van het park.",
+            "translation": "عند مدخل الحديقة.",
+            "feedback": "هذا المكان القديم؛ اتفقتما الآن على المكتبة."
+          },
+          {
+            "text": "Bij de ingang van de bibliotheek, om vier uur.",
+            "translation": "عند مدخل المكتبة، الساعة الرابعة.",
+            "feedback": "ربطت المكان الجديد بالوقت المتفق عليه."
+          },
+          {
+            "text": "Zaterdag om drie uur.",
+            "translation": "السبت الساعة الثالثة.",
+            "feedback": "لم تذكر المكان وأعدت الوقت القديم."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Goed, tot zaterdag bij de bibliotheek!",
+        "responseTranslation": "حسناً، إلى السبت عند المكتبة!",
+        "id": "changing-a-weekend-plan-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "اقترح على صديق لقاء يوم الأحد الساعة الثانية عند مدخل الحديقة. اطلب تأكيد مناسبة الوقت.",
+      "model": "Zullen we zondag om twee uur bij de ingang van het park afspreken? Past dat?",
+      "translation": "هل نلتقي الأحد الساعة الثانية عند مدخل الحديقة؟ هل يناسبك ذلك؟",
+      "checklist": [
+        "هل ذكرت اليوم والوقت والمكان الجديد؟",
+        "هل سألت إن كانت الخطة تناسب صديقك؟"
+      ]
+    }
+  }
+]

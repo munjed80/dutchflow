@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LessonPlayer } from "@/components/LessonPlayer";
 import { courseModules, getLesson, lessons } from "@/lib/content";
+import { scenarios } from "@/lib/scenarios";
 import { readings } from "@/lib/readings";
 import { curriculum, lessonExtensions } from "@/lib/curriculum";
 import { LessonEnrichment } from "@/components/LessonEnrichment";
@@ -33,6 +34,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
     {unit && <p className="curriculum-entry"><Link className="text-link" href={`/curriculum#${unit.id}`}>هدفك في خريطة A1: {unit.title} ←</Link></p>}
     <LessonPlayer key={lesson.slug} lesson={lesson} nextLesson={nextLesson} />
     {extension && <LessonEnrichment lesson={lesson} extension={extension} />}
+    {scenarios.some((scenario) => scenario.sourceLessons.includes(lesson.slug)) && <section className="scenario-links"><h2>استخدم ما تعلّمته في حوار</h2><ul>{scenarios.filter((scenario) => scenario.sourceLessons.includes(lesson.slug)).map((scenario) => <li key={scenario.slug}><Link href={`/scenarios/${scenario.slug}`}>{scenario.title} ←</Link></li>)}</ul></section>}
     {readings.some((reading) => reading.sourceLessons.includes(lesson.slug)) && <section className="reading-related"><h2>وسّع هذا الدرس بالقراءة</h2><div>{readings.filter((reading) => reading.sourceLessons.includes(lesson.slug)).map((reading) => <Link className="text-link" key={reading.slug} href={`/reading/${reading.slug}`}>{reading.title} ←</Link>)}</div></section>}
   </div>;
 }
