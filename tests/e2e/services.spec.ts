@@ -47,5 +47,6 @@ test("service letters preserve paragraphs on mobile and deadline feedback does n
   await expect(page.locator("input:checked")).toHaveCount(0);
   await expect(page.locator(".reading-result")).toHaveCount(0);
   await page.locator(".next-lesson").click();
-  await expect(page).toHaveURL("/reading");
+  const next = readings[readings.findIndex((item) => item.slug === reading.slug) + 1];
+  await expect(page).toHaveURL(next ? `/reading/${next.slug}` : "/reading");
 });

@@ -77,11 +77,17 @@ test("mobile pages fit the viewport, homepage stays concise, and paid checkout s
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const path of ["/", "/learn", "/learn/pharmacy", "/progress", "/exams"]) {
+  for (const path of ["/", "/learn", "/learn/pharmacy", "/learn/numbers-and-prices", "/progress", "/exams"]) {
     await page.goto(path);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     if (path === "/") await expect(page.locator(".lesson-tile")).toHaveCount(3);
+    if (path === "/learn/numbers-and-prices") {
+      const phrase = await page.locator(".phrase-content").nth(3).boundingBox();
+      const controls = await page.locator(".phrase-card .audio-control").nth(3).boundingBox();
+      expect(phrase!.width).toBeGreaterThan(240);
+      expect(controls!.y).toBeGreaterThanOrEqual(phrase!.y + phrase!.height);
+    }
   }
-  await expect(page.getByRole("button", { name: "متاح قريباً" })).toBeDisabled();
+  await expect(page.getByRole("button", { name: "غير متاح حالياً" })).toBeDisabled();
   expect(errors).toEqual([]);
 });

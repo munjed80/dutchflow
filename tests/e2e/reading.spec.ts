@@ -91,3 +91,28 @@ test("weekly programme reading requires all four answers and explains duration s
   await page.locator(".next-lesson").click();
   await expect(page).toHaveURL(`/reading/${readings[readings.findIndex((item) => item.slug === reading.slug) + 1].slug}`);
 });
+
+for (const slug of ["a-journey-with-a-change", "a-colleague-shows-the-task", "a-question-at-the-practice"]) {
+  test(`${slug}: mobile reading requires evidence and retains no completion`, async ({ page }) => {
+    const reading = readings.find((item) => item.slug === slug)!;
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto(`/learn/${reading.sourceLessons.at(-1)}`);
+    await page.locator(".reading-related").getByRole("link", { name: `${reading.title} ←` }).click();
+    await expect(page.locator(".reading-passage p")).toHaveText(reading.text);
+    await page.getByText("أظهر الترجمة العربية", { exact: true }).click();
+    await expect(page.locator(".reading-translation p")).toHaveText(reading.translation);
+    for (const question of reading.questions) await page.locator(`#${question.id}-${question.correctIndex}`).check();
+    const first = reading.questions[0];
+    await page.locator(`#${first.id}-${(first.correctIndex + 1) % 3}`).check();
+    await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
+    await expect(page.locator(".reading-result h3")).toHaveText("نتيجة هذه المحاولة: 3 من 4");
+    await expect(page.locator(".reading-feedback blockquote").first()).toHaveText(first.evidence);
+    await page.locator(`#${first.id}-${first.correctIndex}`).check();
+    await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
+    await expect(page.locator(".reading-result h3")).toHaveText("نتيجة هذه المحاولة: 4 من 4");
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    expect(await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"))).toBeNull();
+    await page.reload();
+    await expect(page.locator("input:checked")).toHaveCount(0);
+  });
+}

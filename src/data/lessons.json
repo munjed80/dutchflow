@@ -1253,9 +1253,305 @@
     ]
   },
   {
-    "slug": "at-the-shop",
+    "slug": "numbers-and-prices",
     "level": "A1",
     "number": "11",
+    "title": "الأعداد والأسعار حتى المئة",
+    "dutchTitle": "Getallen en prijzen",
+    "description": "ميّز العشرات من الآحاد واقرأ سعراً ورقم منزل.",
+    "durationMinutes": 12,
+    "context": "موقف تعليمي خيالي للتدرّب على التواصل. ميّز العشرات من الآحاد واقرأ سعراً ورقم منزل.",
+    "moduleId": "first-steps",
+    "goal": "ميّز العشرات من الآحاد واقرأ سعراً ورقم منزل.",
+    "grammar": {
+      "title": "الآحاد قبل العشرات",
+      "explanation": "في الأعداد من 21 إلى 99 نذكر الآحاد ثم en ثم العشرات: tweeëntwintig = 22. تختلف 13 و30: dertien وdertig. علامة ë تفصل نطق الحركتين في tweeëntwintig.",
+      "example": "Dat is tweeëntwintig euro.",
+      "translation": "هذا يساوي اثنين وعشرين يورو."
+    },
+    "phrases": [
+      {
+        "id": "a1-numbers-and-prices-01",
+        "dutch": "Lees de getallen van nul tot tien.",
+        "arabic": "اقرأ الأعداد من صفر إلى عشرة.",
+        "tip": "van ... tot ... تحدد البداية والنهاية."
+      },
+      {
+        "id": "a1-numbers-and-prices-02",
+        "dutch": "Nul, één, twee, drie, vier, vijf, zes, zeven, acht, negen, tien.",
+        "arabic": "صفر، واحد، اثنان، ثلاثة، أربعة، خمسة، ستة، سبعة، ثمانية، تسعة، عشرة.",
+        "tip": "تدرّب على الترتيب ثم جرّب أعداداً متفرقة."
+      },
+      {
+        "id": "a1-numbers-and-prices-03",
+        "dutch": "En van elf tot twintig?",
+        "arabic": "ومن أحد عشر إلى عشرين؟",
+        "tip": "elf = 11 وtwintig = 20."
+      },
+      {
+        "id": "a1-numbers-and-prices-04",
+        "dutch": "Elf, twaalf, dertien, veertien, vijftien, zestien, zeventien, achttien, negentien, twintig.",
+        "arabic": "أحد عشر، اثنا عشر، ثلاثة عشر، أربعة عشر، خمسة عشر، ستة عشر، سبعة عشر، ثمانية عشر، تسعة عشر، عشرون.",
+        "tip": "قارن zestien (16) وzeventien (17) مع zestig (60) وzeventig (70)."
+      },
+      {
+        "id": "a1-numbers-and-prices-05",
+        "dutch": "Tel nu in stappen van tien.",
+        "arabic": "عدّ الآن بزيادة عشرة كل مرة.",
+        "tip": "stappen تعني خطوات هنا."
+      },
+      {
+        "id": "a1-numbers-and-prices-06",
+        "dutch": "Tien, twintig, dertig, veertig, vijftig, zestig, zeventig, tachtig, negentig, honderd.",
+        "arabic": "عشرة، عشرون، ثلاثون، أربعون، خمسون، ستون، سبعون، ثمانون، تسعون، مئة.",
+        "tip": "قارن veertien = 14 مع veertig = 40."
+      },
+      {
+        "id": "a1-numbers-and-prices-07",
+        "dutch": "Hoeveel is twintig euro plus twee euro?",
+        "arabic": "كم يساوي عشرون يورو زائد يوروين؟",
+        "tip": "plus تعني زائد في الجمع."
+      },
+      {
+        "id": "a1-numbers-and-prices-08",
+        "dutch": "Dat is tweeëntwintig euro.",
+        "arabic": "هذا يساوي اثنين وعشرين يورو.",
+        "tip": "نفترض هنا جمع مبلغين؛ الآحاد تأتي قبل العشرات في اللفظ."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-numbers-and-prices-01"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-numbers-and-prices-02"
+      },
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-numbers-and-prices-03"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-numbers-and-prices-04"
+      },
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-numbers-and-prices-05"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-numbers-and-prices-06"
+      },
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-numbers-and-prices-07"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-numbers-and-prices-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "numbers-and-prices-q1",
+        "prompt": "أي عدد هو veertig؟",
+        "options": [
+          "14",
+          "40",
+          "4"
+        ],
+        "correctIndex": 1,
+        "explanation": "veertig هو 40، أما veertien فهو 14."
+      },
+      {
+        "id": "numbers-and-prices-q2",
+        "prompt": "كيف يكتب 22؟",
+        "options": [
+          "twaalf",
+          "tweeëntwintig",
+          "twintig"
+        ],
+        "correctIndex": 1,
+        "explanation": "twee ثم en ثم twintig، مع ë للفصل الصوتي."
+      },
+      {
+        "id": "numbers-and-prices-q3",
+        "prompt": "ما العدد السابق لـtwintig في التسلسل؟",
+        "options": [
+          "negentien",
+          "negen",
+          "dertig"
+        ],
+        "correctIndex": 0,
+        "explanation": "negentien هو 19."
+      },
+      {
+        "id": "numbers-and-prices-q4",
+        "prompt": "سعر خيالي: vijftig euro. كم تدفع؟",
+        "options": [
+          "15 يورو",
+          "5 يورو",
+          "50 يورو"
+        ],
+        "correctIndex": 2,
+        "explanation": "vijftig = 50، وvijftien = 15."
+      }
+    ]
+  },
+  {
+    "slug": "months-and-seasons",
+    "level": "A1",
+    "number": "12",
+    "title": "الأشهر والفصول والإجازة",
+    "dutchTitle": "Maanden en seizoenen",
+    "description": "سمِّ أشهر السنة وميّز الشهر من الفصل واذكر موعد إجازة.",
+    "durationMinutes": 12,
+    "context": "موقف تعليمي خيالي للتدرّب على التواصل. سمِّ أشهر السنة وميّز الشهر من الفصل واذكر موعد إجازة.",
+    "moduleId": "first-steps",
+    "goal": "سمِّ أشهر السنة وميّز الشهر من الفصل واذكر موعد إجازة.",
+    "grammar": {
+      "title": "in مع الشهر أو الفصل",
+      "explanation": "نقول in juli وin de zomer. الشهر بلا أداة هنا، والفصل مع de. أسماء الأشهر بحروف صغيرة داخل الجملة.",
+      "example": "In juli heb ik vakantie.",
+      "translation": "لدي إجازة في يوليو."
+    },
+    "phrases": [
+      {
+        "id": "a1-months-and-seasons-01",
+        "dutch": "Welke maanden komen eerst?",
+        "arabic": "ما الأشهر التي تأتي أولاً؟",
+        "tip": "welke maanden تسأل عن أسماء الأشهر."
+      },
+      {
+        "id": "a1-months-and-seasons-02",
+        "dutch": "Januari, februari, maart en april.",
+        "arabic": "يناير، فبراير، مارس وأبريل.",
+        "tip": "تبدأ Januari بحرف كبير هنا لأنها أول الجملة."
+      },
+      {
+        "id": "a1-months-and-seasons-03",
+        "dutch": "En welke maanden komen daarna?",
+        "arabic": "وأي أشهر تأتي بعد ذلك؟",
+        "tip": "daarna لترتيب العناصر."
+      },
+      {
+        "id": "a1-months-and-seasons-04",
+        "dutch": "Mei, juni, juli en augustus.",
+        "arabic": "مايو، يونيو، يوليو وأغسطس.",
+        "tip": "ميّز نطق juni من juli."
+      },
+      {
+        "id": "a1-months-and-seasons-05",
+        "dutch": "Wat zijn de laatste vier maanden?",
+        "arabic": "ما الأشهر الأربعة الأخيرة؟",
+        "tip": "laatste تعني الأخيرة."
+      },
+      {
+        "id": "a1-months-and-seasons-06",
+        "dutch": "September, oktober, november en december.",
+        "arabic": "سبتمبر، أكتوبر، نوفمبر وديسمبر.",
+        "tip": "oktober يكتب بحرف k."
+      },
+      {
+        "id": "a1-months-and-seasons-07",
+        "dutch": "Wanneer heb je vakantie?",
+        "arabic": "متى لديك إجازة؟",
+        "tip": "wanneer تسأل عن الوقت دون حصره بساعة."
+      },
+      {
+        "id": "a1-months-and-seasons-08",
+        "dutch": "In juli heb ik vakantie, in de zomer.",
+        "arabic": "لدي إجازة في يوليو، في الصيف.",
+        "tip": "الفصول: de lente الربيع، de zomer الصيف، de herfst الخريف، de winter الشتاء."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-months-and-seasons-01"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-months-and-seasons-02"
+      },
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-months-and-seasons-03"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-months-and-seasons-04"
+      },
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-months-and-seasons-05"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-months-and-seasons-06"
+      },
+      {
+        "speaker": "Docent",
+        "phraseId": "a1-months-and-seasons-07"
+      },
+      {
+        "speaker": "Cursist",
+        "phraseId": "a1-months-and-seasons-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "months-and-seasons-q1",
+        "prompt": "أي شهر يأتي بعد juni؟",
+        "options": [
+          "juli",
+          "mei",
+          "januari"
+        ],
+        "correctIndex": 0,
+        "explanation": "يونيو يليه يوليو: juni ثم juli."
+      },
+      {
+        "id": "months-and-seasons-q2",
+        "prompt": "أي كلمة تعني الشتاء؟",
+        "options": [
+          "de zomer",
+          "de lente",
+          "de winter"
+        ],
+        "correctIndex": 2,
+        "explanation": "de winter الشتاء، de lente الربيع، de zomer الصيف."
+      },
+      {
+        "id": "months-and-seasons-q3",
+        "prompt": "أكمل: Ik heb vakantie ... juli.",
+        "options": [
+          "op",
+          "in",
+          "om"
+        ],
+        "correctIndex": 1,
+        "explanation": "نستخدم in مع الشهر."
+      },
+      {
+        "id": "months-and-seasons-q4",
+        "prompt": "متى إجازة المتعلم في الحوار؟",
+        "options": [
+          "في يوليو",
+          "في ديسمبر",
+          "في مارس"
+        ],
+        "correctIndex": 0,
+        "explanation": "ورد In juli heb ik vakantie."
+      }
+    ]
+  },
+  {
+    "slug": "at-the-shop",
+    "level": "A1",
+    "number": "13",
     "title": "في المتجر",
     "dutchTitle": "In de winkel",
     "description": "اسأل عن السعر والمكان وادفع عند الصندوق.",
@@ -1355,7 +1651,7 @@
     "slug": "cafe-order",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "12",
+    "number": "14",
     "title": "في المقهى",
     "dutchTitle": "In het café",
     "description": "اطلب مشروباً وحدد إضافاته واطلب الحساب بأدب.",
@@ -1458,7 +1754,7 @@
     "slug": "groceries-and-quantities",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "13",
+    "number": "15",
     "title": "الأطعمة والكميات والأسعار",
     "dutchTitle": "Boodschappen en hoeveelheden",
     "description": "اطلب كمية محددة من الطعام، وميّز بين سعر الكيلو وسعر الكمية المطلوبة.",
@@ -1606,7 +1902,7 @@
     "slug": "clothes-and-sizes",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "14",
+    "number": "16",
     "title": "الملابس والمقاسات",
     "dutchTitle": "Kleding passen",
     "description": "اطلب سترة بلون ومقاس محددين، وجرّبها، ثم اطلب مقاساً آخر إذا كانت صغيرة.",
@@ -1754,7 +2050,7 @@
     "slug": "directions",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "15",
+    "number": "17",
     "title": "السؤال عن الطريق",
     "dutchTitle": "De weg vragen",
     "description": "اسأل عن مكان واتبع تعليمات اليمين واليسار والسير إلى الأمام.",
@@ -1857,7 +2153,7 @@
     "slug": "public-transport",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "16",
+    "number": "18",
     "title": "بالحافلة والترام",
     "dutchTitle": "Met de bus en tram",
     "description": "تحقق من وجهة الحافلة واسأل عن محطة النزول.",
@@ -1960,7 +2256,7 @@
     "slug": "train-tickets",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "17",
+    "number": "19",
     "title": "تذكرة القطار",
     "dutchTitle": "Een treinkaartje",
     "description": "اطلب تذكرة وميّز بين الذهاب فقط والذهاب والعودة.",
@@ -2064,10 +2360,158 @@
     ]
   },
   {
+    "slug": "a-train-connection",
+    "level": "A1",
+    "number": "20",
+    "title": "تغيير القطار وقراءة الموعد",
+    "dutchTitle": "Overstappen",
+    "description": "ميّز الانطلاق من الوصول واسأل عن تغيير القطار والرصيف.",
+    "durationMinutes": 12,
+    "context": "موقف تعليمي خيالي للتدرّب على التواصل. ميّز الانطلاق من الوصول واسأل عن تغيير القطار والرصيف.",
+    "moduleId": "around-town",
+    "goal": "ميّز الانطلاق من الوصول واسأل عن تغيير القطار والرصيف.",
+    "grammar": {
+      "title": "aankomen وoverstappen",
+      "explanation": "ينفصل الفعلان في الجملة: de trein komt aan وik stap over. بعد moet يبقى المصدر متصلاً: Moet ik overstappen?",
+      "example": "De trein komt om half elf aan.",
+      "translation": "يصل القطار الساعة العاشرة والنصف."
+    },
+    "phrases": [
+      {
+        "id": "a1-a-train-connection-01",
+        "dutch": "Hoe laat vertrekt de trein naar Noord?",
+        "arabic": "متى ينطلق القطار إلى نورد؟",
+        "tip": "Noord اسم محطة خيالية في هذا التدريب."
+      },
+      {
+        "id": "a1-a-train-connection-02",
+        "dutch": "Om tien uur, vanaf spoor drie.",
+        "arabic": "الساعة العاشرة، من الرصيف الثالث.",
+        "tip": "spoor هو رقم المسار أو الرصيف في هذا السياق."
+      },
+      {
+        "id": "a1-a-train-connection-03",
+        "dutch": "Moet ik overstappen?",
+        "arabic": "هل يجب أن أغيّر القطار؟",
+        "tip": "overstappen الانتقال إلى وسيلة أخرى ضمن الرحلة."
+      },
+      {
+        "id": "a1-a-train-connection-04",
+        "dutch": "Ja, u stapt op station Centrum over.",
+        "arabic": "نعم، تغيّر القطار في محطة سنتروم.",
+        "tip": "u stapt ... over صيغة الفعل المنفصل."
+      },
+      {
+        "id": "a1-a-train-connection-05",
+        "dutch": "Wanneer kom ik in Noord aan?",
+        "arabic": "متى أصل إلى نورد؟",
+        "tip": "kom ... aan من aankomen."
+      },
+      {
+        "id": "a1-a-train-connection-06",
+        "dutch": "De trein komt om half elf aan.",
+        "arabic": "يصل القطار الساعة العاشرة والنصف.",
+        "tip": "half elf = 10:30 في هذه الرحلة الصباحية."
+      },
+      {
+        "id": "a1-a-train-connection-07",
+        "dutch": "Dus ik vertrek om tien uur en kom om half elf aan.",
+        "arabic": "إذن أنطلق الساعة العاشرة وأصل في العاشرة والنصف.",
+        "tip": "نؤكد وقتي المغادرة والوصول."
+      },
+      {
+        "id": "a1-a-train-connection-08",
+        "dutch": "Dat klopt. De reis duurt een halfuur.",
+        "arabic": "صحيح. تستغرق الرحلة نصف ساعة.",
+        "tip": "een halfuur مدة، وhalf elf وقت محدد."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Reiziger",
+        "phraseId": "a1-a-train-connection-01"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-a-train-connection-02"
+      },
+      {
+        "speaker": "Reiziger",
+        "phraseId": "a1-a-train-connection-03"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-a-train-connection-04"
+      },
+      {
+        "speaker": "Reiziger",
+        "phraseId": "a1-a-train-connection-05"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-a-train-connection-06"
+      },
+      {
+        "speaker": "Reiziger",
+        "phraseId": "a1-a-train-connection-07"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-a-train-connection-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a-train-connection-q1",
+        "prompt": "أين يغيّر المسافر القطار؟",
+        "options": [
+          "Noord",
+          "Centrum",
+          "المنزل"
+        ],
+        "correctIndex": 1,
+        "explanation": "الموظف يقول op station Centrum."
+      },
+      {
+        "id": "a-train-connection-q2",
+        "prompt": "متى يصل القطار في هذه الرحلة الصباحية؟",
+        "options": [
+          "10:00",
+          "11:30",
+          "10:30"
+        ],
+        "correctIndex": 2,
+        "explanation": "half elf تعني 10:30."
+      },
+      {
+        "id": "a-train-connection-q3",
+        "prompt": "ما مدة الرحلة؟",
+        "options": [
+          "نصف ساعة",
+          "ساعة ونصف",
+          "ثلاث ساعات"
+        ],
+        "correctIndex": 0,
+        "explanation": "من 10:00 إلى 10:30 نصف ساعة."
+      },
+      {
+        "id": "a-train-connection-q4",
+        "prompt": "ماذا يحدد spoor drie؟",
+        "options": [
+          "ثمن التذكرة",
+          "رصيف الانطلاق",
+          "عدد الركاب"
+        ],
+        "correctIndex": 1,
+        "explanation": "الجملة تحدد الانطلاق من الرصيف الثالث."
+      }
+    ]
+  },
+  {
     "slug": "home-and-address",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "18",
+    "number": "21",
     "title": "عنوانك وبيتك",
     "dutchTitle": "Mijn adres en woning",
     "description": "اذكر عنوانك وصف غرفاً بسيطة في البيت.",
@@ -2166,7 +2610,7 @@
     "slug": "rooms-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "19",
+    "number": "22",
     "title": "الغرف وما يوجد في المنزل",
     "dutchTitle": "De kamers in huis",
     "description": "صف الغرف في منزل بسيط وميّز بين وجود شيء واحد وأشياء متعددة.",
@@ -2314,7 +2758,7 @@
     "slug": "furniture-and-location",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "20",
+    "number": "23",
     "title": "الأثاث وتحديد المكان",
     "dutchTitle": "Waar staan de meubels?",
     "description": "حدّد موضع الأثاث والأغراض باستخدام بجانب وتحت وبين وأمام.",
@@ -2462,7 +2906,7 @@
     "slug": "neighbours",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "21",
+    "number": "24",
     "title": "التعارف مع الجيران",
     "dutchTitle": "De buren",
     "description": "عرّف بنفسك كجار جديد واسأل عن مدة السكن في الحي.",
@@ -2569,7 +3013,7 @@
     "slug": "repairs-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "22",
+    "number": "25",
     "title": "مشكلة في البيت",
     "dutchTitle": "Een reparatie melden",
     "description": "أبلغ عن عطل واطلب زيارة لإصلاحه.",
@@ -2646,7 +3090,7 @@
       },
       {
         "id": "repairs-at-home-q2",
-        "prompt": "أكمل: Er is ... warm water.",
+        "prompt": "أكمل لنفي وجود الماء الساخن: Er is ... warm water.",
         "options": [
           "niet",
           "wel",
@@ -2672,7 +3116,7 @@
     "slug": "workday",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "23",
+    "number": "26",
     "title": "أول يوم عمل",
     "dutchTitle": "Mijn eerste werkdag",
     "description": "اسأل عن بداية الوردية والاستراحة ومكان المقصف.",
@@ -2775,7 +3219,7 @@
     "slug": "school-and-family",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "24",
+    "number": "27",
     "title": "الأسرة والمدرسة",
     "dutchTitle": "Gezin en school",
     "description": "تحدث عن طفلك وافهم سؤالاً بسيطاً عن المدرسة.",
@@ -2870,7 +3314,7 @@
     "slug": "family-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "25",
+    "number": "28",
     "title": "العائلة في البيت",
     "dutchTitle": "Thuis met het gezin",
     "description": "قدّم أفراد العائلة، وقل من يعيش في البيت، واسأل عن الإخوة والأخوات.",
@@ -3006,7 +3450,7 @@
     "slug": "message-to-school",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "26",
+    "number": "29",
     "title": "رسالة إلى المدرسة",
     "dutchTitle": "Een bericht aan school",
     "description": "أخبر المدرسة بالغياب، واذكر السبب، واسأل عن الواجب أو وقت اللقاء.",
@@ -3052,15 +3496,15 @@
       },
       {
         "id": "a1-message-to-school-07",
-        "dutch": "Ja, als zij geen koorts heeft.",
-        "arabic": "نعم، إذا لم يكن لديها حمى.",
-        "tip": "geen koorts = لا توجد حمى؛ تعبير لغوي بسيط لا يقدم نصيحة طبية عامة."
+        "dutch": "Dat weet ik nog niet. Ik bel morgen.",
+        "arabic": "لا أعرف ذلك بعد. سأتصل غداً.",
+        "tip": "nog niet تعني ليس بعد؛ لا نؤكد عودة الطفل قبل معرفة حالته."
       },
       {
         "id": "a1-message-to-school-08",
-        "dutch": "Tot morgen op school.",
-        "arabic": "إلى الغد في المدرسة.",
-        "tip": "Tot morgen تعبير ختامي قصير إذا كان اللقاء متوقعاً غداً."
+        "dutch": "Goed, dan hoor ik het morgen.",
+        "arabic": "حسناً، إذن سأعرف منك غداً.",
+        "tip": "هنا يتوقع المعلم اتصالاً غداً، وليس حضور الطفل بالضرورة."
       }
     ],
     "dialogue": [
@@ -3085,11 +3529,11 @@
         "phraseId": "a1-message-to-school-05"
       },
       {
-        "speaker": "Ouder",
+        "speaker": "Leerkracht",
         "phraseId": "a1-message-to-school-06"
       },
       {
-        "speaker": "Leerkracht",
+        "speaker": "Ouder",
         "phraseId": "a1-message-to-school-07"
       },
       {
@@ -3154,7 +3598,7 @@
     "slug": "free-time-hobbies",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "27",
+    "number": "30",
     "title": "الهوايات ووقت الفراغ",
     "dutchTitle": "Hobby's en vrije tijd",
     "description": "قل ما تحب فعله في وقت الفراغ، واسأل شخصاً آخر عن هوايته.",
@@ -3286,8 +3730,8 @@
         "prompt": "كيف تقترح نشاطاً مشتركاً بلطف؟",
         "options": [
           "Misschien kunnen we samen naar het park gaan.",
-          "Dat is morgen terug.",
-          "Waar woont u graag?"
+          "Ik ga vandaag alleen naar het park.",
+          "Ik blijf vandaag thuis."
         ],
         "correctIndex": 0,
         "explanation": "Misschien kunnen we samen naar het park gaan تعني: ربما يمكننا الذهاب معاً إلى الحديقة."
@@ -3298,7 +3742,7 @@
     "slug": "weather-today",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "28",
+    "number": "31",
     "title": "الطقس اليوم",
     "dutchTitle": "Het weer vandaag",
     "description": "اسأل عن الطقس، وافهم وصفاً بسيطاً، وخذ معك ما تحتاج إليه.",
@@ -3314,9 +3758,9 @@
       },
       {
         "id": "a1-weather-today-02",
-        "dutch": "Vandaag is het zonnig en droog.",
-        "arabic": "اليوم الطقس مشمس وجاف.",
-        "tip": "يمكن جمع صفتين بسيطتين مع en لوصف الجو."
+        "dutch": "Vanochtend is het zonnig en droog.",
+        "arabic": "هذا الصباح الطقس مشمس وجاف.",
+        "tip": "vanochtend تعني هذا الصباح؛ قد يتغير الطقس بعد الظهر."
       },
       {
         "id": "a1-weather-today-03",
@@ -3423,7 +3867,7 @@
           "الذهاب إلى العمل مبكراً"
         ],
         "correctIndex": 0,
-        "explanation": "blijven binnen تعني البقاء في الداخل، وliever تعني التفضيل."
+        "explanation": "binnen blijven تعني البقاء في الداخل، وliever تدل على التفضيل."
       },
       {
         "id": "weather-today-q4",
@@ -3442,7 +3886,7 @@
     "slug": "invitations-and-plans",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "29",
+    "number": "32",
     "title": "الدعوات والخطط",
     "dutchTitle": "Afspreken en plannen",
     "description": "ادعُ شخصاً، واقبل أو ارفض بلطف، واتفق على الوقت والمكان.",
@@ -3579,9 +4023,157 @@
     ]
   },
   {
+    "slug": "asking-at-work",
+    "level": "A1",
+    "number": "33",
+    "title": "فهم مهمة وطلب المساعدة",
+    "dutchTitle": "Een taak op het werk",
+    "description": "اسأل عن ترتيب العمل ومكان الأدوات، واطلب شرحاً قبل البدء.",
+    "durationMinutes": 12,
+    "context": "موقف تعليمي خيالي للتدرّب على التواصل. اسأل عن ترتيب العمل ومكان الأدوات، واطلب شرحاً قبل البدء.",
+    "moduleId": "daily-life",
+    "goal": "اسأل عن ترتيب العمل ومكان الأدوات، واطلب شرحاً قبل البدء.",
+    "grammar": {
+      "title": "eerst وdaarna لترتيب الخطوات",
+      "explanation": "eerst تعني أولاً وdaarna بعد ذلك. في Daarna zet je ... يأتي الفعل المصرف قبل je. الأمر البسيط يبدأ بالفعل مثل Controleer.",
+      "example": "Controleer eerst de dozen.",
+      "translation": "افحص الصناديق أولاً."
+    },
+    "phrases": [
+      {
+        "id": "a1-asking-at-work-01",
+        "dutch": "Wat moet ik eerst doen?",
+        "arabic": "ماذا يجب أن أفعل أولاً؟",
+        "tip": "moet مع المصدر doen للسؤال عن المهمة."
+      },
+      {
+        "id": "a1-asking-at-work-02",
+        "dutch": "Controleer eerst de dozen.",
+        "arabic": "افحص الصناديق أولاً.",
+        "tip": "de doos مفرد، de dozen جمع."
+      },
+      {
+        "id": "a1-asking-at-work-03",
+        "dutch": "Daarna zet je ze op de tafel.",
+        "arabic": "بعد ذلك تضعها على الطاولة.",
+        "tip": "ze هنا تعود إلى الصناديق."
+      },
+      {
+        "id": "a1-asking-at-work-04",
+        "dutch": "Waar ligt de lijst?",
+        "arabic": "أين القائمة؟",
+        "tip": "نستخدم ligt مع ورقة مستلقية."
+      },
+      {
+        "id": "a1-asking-at-work-05",
+        "dutch": "De lijst ligt naast de computer.",
+        "arabic": "القائمة بجانب الحاسوب.",
+        "tip": "naast تحدد المكان المرجعي."
+      },
+      {
+        "id": "a1-asking-at-work-06",
+        "dutch": "Kun je het één keer voordoen?",
+        "arabic": "هل يمكنك أن تريني كيفية ذلك مرة واحدة؟",
+        "tip": "voordoen شرح عملي بالفعل أمام الشخص."
+      },
+      {
+        "id": "a1-asking-at-work-07",
+        "dutch": "Natuurlijk, ik help je.",
+        "arabic": "بالطبع، سأساعدك.",
+        "tip": "je صيغة غير رسمية بين زميلين في هذا المثال."
+      },
+      {
+        "id": "a1-asking-at-work-08",
+        "dutch": "Dank je. Daarna probeer ik het zelf.",
+        "arabic": "شكراً لك. بعد ذلك أحاول بنفسي.",
+        "tip": "zelf تؤكد القيام بالفعل بنفسك."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-asking-at-work-01"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-asking-at-work-02"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-asking-at-work-03"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-asking-at-work-04"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-asking-at-work-05"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-asking-at-work-06"
+      },
+      {
+        "speaker": "Collega",
+        "phraseId": "a1-asking-at-work-07"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-asking-at-work-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "asking-at-work-q1",
+        "prompt": "ما الخطوة الأولى؟",
+        "options": [
+          "وضع الصناديق على الطاولة",
+          "فحص الصناديق",
+          "كتابة رسالة"
+        ],
+        "correctIndex": 1,
+        "explanation": "Controleer eerst يحدد البداية."
+      },
+      {
+        "id": "asking-at-work-q2",
+        "prompt": "أين القائمة؟",
+        "options": [
+          "بجانب الحاسوب",
+          "تحت الطاولة",
+          "في الصندوق"
+        ],
+        "correctIndex": 0,
+        "explanation": "naast de computer بجانب الحاسوب."
+      },
+      {
+        "id": "asking-at-work-q3",
+        "prompt": "ماذا يطلب Kun je het één keer voordoen؟",
+        "options": [
+          "تأجيل المهمة",
+          "إنهاء العمل",
+          "عرض طريقة العمل عملياً مرة واحدة"
+        ],
+        "correctIndex": 2,
+        "explanation": "voordoen يعني أن يقوم الشخص بالفعل ليوضح كيف يتم."
+      },
+      {
+        "id": "asking-at-work-q4",
+        "prompt": "إلى ماذا يعود ze في Daarna zet je ze op de tafel؟",
+        "options": [
+          "الحاسوب",
+          "الصناديق",
+          "القائمة"
+        ],
+        "correctIndex": 1,
+        "explanation": "الاسم الجمع المذكور قبله هو de dozen."
+      }
+    ]
+  },
+  {
     "slug": "doctor-appointment",
     "level": "A1",
-    "number": "30",
+    "number": "34",
     "title": "موعد عند طبيب الأسرة",
     "dutchTitle": "Bij de huisarts",
     "description": "اشرح عرضاً بسيطاً وحدد منذ متى بدأت المشكلة.",
@@ -3666,7 +4258,7 @@
         "options": [
           "Ik heb pijn in mijn rug.",
           "Ik heb een afspraak.",
-          "Mijn rug is gisteren."
+          "Mijn rug doet geen pijn."
         ],
         "correctIndex": 0,
         "explanation": "Ik heb pijn in mijn rug هي الجملة الطبيعية هنا."
@@ -3685,7 +4277,7 @@
     "slug": "pharmacy",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "31",
+    "number": "35",
     "title": "في الصيدلية",
     "dutchTitle": "Bij de apotheek",
     "description": "اطلب استلام دوائك واسأل الصيدلي عن طريقة استخدامه.",
@@ -3792,7 +4384,7 @@
     "slug": "municipal-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "32",
+    "number": "36",
     "title": "موعد في البلدية",
     "dutchTitle": "Bij de gemeente",
     "description": "أخبر موظف الاستقبال أن لديك موعداً وافهم طلب إثبات الهوية.",
@@ -3899,7 +4491,7 @@
     "slug": "phone-calls",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "33",
+    "number": "37",
     "title": "مكالمة قصيرة",
     "dutchTitle": "Telefoneren",
     "description": "عرّف بنفسك في الهاتف واطلب تكرار الكلام أو إبطاءه.",
@@ -4002,7 +4594,7 @@
     "slug": "letters-and-messages",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "34",
+    "number": "38",
     "title": "فهم رسالة موعد",
     "dutchTitle": "Een afspraakbericht lezen",
     "description": "استخرج يوم الموعد وساعته وما يجب إحضاره من رسالة قصيرة.",
@@ -4101,7 +4693,7 @@
     "slug": "filling-in-a-form",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "35",
+    "number": "39",
     "title": "ملء استمارة الخدمة",
     "dutchTitle": "Een formulier invullen",
     "description": "املأ استمارة بسيطة، واذكر بياناتك، واطلب شرح خانة غير واضحة.",
@@ -4251,7 +4843,7 @@
     "slug": "changing-an-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "36",
+    "number": "40",
     "title": "تغيير موعدك",
     "dutchTitle": "Een afspraak verzetten",
     "description": "اطلب تغيير الموعد، واسأل عن وقت بديل، وثبّت الموعد الجديد.",
@@ -4394,6 +4986,154 @@
         ],
         "correctIndex": 0,
         "explanation": "طلب المتصل Vrijdagmiddag، ثم اقترح الموظف الجمعة القادمة om twee uur، أي 14:00، وشكره المتصل وقال إنه سيدوّن الموعد."
+      }
+    ]
+  },
+  {
+    "slug": "describing-symptoms",
+    "level": "A1",
+    "number": "41",
+    "title": "وصف الأعراض وطلب التوضيح",
+    "dutchTitle": "Vertellen wat je voelt",
+    "description": "اذكر موضع الألم وبدايته واطلب شرحاً واضحاً دون استنتاج علاج.",
+    "durationMinutes": 12,
+    "context": "موقف تعليمي خيالي للتدرّب على التواصل. اذكر موضع الألم وبدايته واطلب شرحاً واضحاً دون استنتاج علاج.",
+    "moduleId": "appointments",
+    "goal": "اذكر موضع الألم وبدايته واطلب شرحاً واضحاً دون استنتاج علاج.",
+    "grammar": {
+      "title": "mijn مع عضو الجسم",
+      "explanation": "نقول mijn arm وmijn hoofd. للتعبير عن الألم نقول Ik heb pijn in mijn arm أو Mijn arm doet pijn. هذه أمثلة لغوية وليست تشخيصاً.",
+      "example": "Mijn arm doet pijn.",
+      "translation": "ذراعي تؤلمني."
+    },
+    "phrases": [
+      {
+        "id": "a1-describing-symptoms-01",
+        "dutch": "Waar heeft u pijn?",
+        "arabic": "أين تشعر بالألم؟",
+        "tip": "waar يسأل عن الموضع."
+      },
+      {
+        "id": "a1-describing-symptoms-02",
+        "dutch": "Mijn arm doet pijn.",
+        "arabic": "ذراعي تؤلمني.",
+        "tip": "de arm الذراع؛ doet pijn تعني يؤلم."
+      },
+      {
+        "id": "a1-describing-symptoms-03",
+        "dutch": "Sinds wanneer heeft u klachten?",
+        "arabic": "منذ متى لديك هذه الأعراض؟",
+        "tip": "de klacht هنا عرض أو شكوى صحية."
+      },
+      {
+        "id": "a1-describing-symptoms-04",
+        "dutch": "Sinds vanochtend. Ik ben ook moe.",
+        "arabic": "منذ هذا الصباح. أشعر بالتعب أيضاً.",
+        "tip": "moe تعني متعب، ولا تحدد سبب التعب."
+      },
+      {
+        "id": "a1-describing-symptoms-05",
+        "dutch": "Heeft u nog een vraag?",
+        "arabic": "هل لديك سؤال آخر؟",
+        "tip": "nog een تعني واحداً آخر هنا."
+      },
+      {
+        "id": "a1-describing-symptoms-06",
+        "dutch": "Ja, kunt u dat in eenvoudige woorden uitleggen?",
+        "arabic": "نعم، هل يمكنك شرح ذلك بكلمات بسيطة؟",
+        "tip": "eenvoudige woorden كلمات بسيطة."
+      },
+      {
+        "id": "a1-describing-symptoms-07",
+        "dutch": "Natuurlijk. Wat begrijpt u niet?",
+        "arabic": "بالطبع. ما الذي لا تفهمه؟",
+        "tip": "begrijpt u من begrijpen."
+      },
+      {
+        "id": "a1-describing-symptoms-08",
+        "dutch": "Dit woord. Kunt u het voor mij opschrijven?",
+        "arabic": "هذه الكلمة. هل يمكنك كتابتها لي؟",
+        "tip": "طلب الكتابة يساعد على مراجعة المعلومة؛ لا يتضمن الدرس جرعات أو علاجاً."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-describing-symptoms-01"
+      },
+      {
+        "speaker": "Patiënt",
+        "phraseId": "a1-describing-symptoms-02"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-describing-symptoms-03"
+      },
+      {
+        "speaker": "Patiënt",
+        "phraseId": "a1-describing-symptoms-04"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-describing-symptoms-05"
+      },
+      {
+        "speaker": "Patiënt",
+        "phraseId": "a1-describing-symptoms-06"
+      },
+      {
+        "speaker": "Medewerker",
+        "phraseId": "a1-describing-symptoms-07"
+      },
+      {
+        "speaker": "Patiënt",
+        "phraseId": "a1-describing-symptoms-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "describing-symptoms-q1",
+        "prompt": "أين الألم في المثال؟",
+        "options": [
+          "في الظهر",
+          "في الذراع",
+          "في القدم"
+        ],
+        "correctIndex": 1,
+        "explanation": "Mijn arm تعني ذراعي."
+      },
+      {
+        "id": "describing-symptoms-q2",
+        "prompt": "متى بدأت الأعراض؟",
+        "options": [
+          "منذ هذا الصباح",
+          "منذ أسبوع",
+          "غداً"
+        ],
+        "correctIndex": 0,
+        "explanation": "Sinds vanochtend تعني منذ هذا الصباح."
+      },
+      {
+        "id": "describing-symptoms-q3",
+        "prompt": "ما معنى moe؟",
+        "options": [
+          "غاضب",
+          "جائع",
+          "متعب"
+        ],
+        "correctIndex": 2,
+        "explanation": "moe وصف للتعب؛ لا يدل وحده على مرض معين."
+      },
+      {
+        "id": "describing-symptoms-q4",
+        "prompt": "كيف تطلب شرحاً أبسط؟",
+        "options": [
+          "Waar ligt de lijst?",
+          "Kunt u dat in eenvoudige woorden uitleggen?",
+          "Hoe laat vertrekt de trein?"
+        ],
+        "correctIndex": 1,
+        "explanation": "السؤال يطلب شرحاً بكلمات بسيطة."
       }
     ]
   }

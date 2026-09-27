@@ -1,6 +1,6 @@
 # Contextual reading library
 
-The free `/reading` library extends the existing phrase-based lessons with fourteen original short Dutch texts for guided beginner reading. These are authored teaching examples, not copied letters, live service instructions, official exam material, or a complete CEFR syllabus.
+The free `/reading` library extends the existing phrase-based lessons with seventeen original short Dutch texts for guided beginner reading. These are authored teaching examples, not copied letters, live service instructions, official exam material, or a complete CEFR syllabus.
 
 ## Current content
 
@@ -19,9 +19,12 @@ The free `/reading` library extends the existing phrase-based lessons with fourt
 | Een kamer voor een logé | A guest room, furniture positions and an arrival time | `tussen ... en ...` and spatial reference |
 | Een bericht voor de ochtendploeg | A work team's tasks and break | Instructions ordered by `eerst` and `daarna` |
 | De lesweek van Nour | Course dates, weekly frequency and activities after class | Word order after a day phrase; clock times and duration |
+| Een reis met een overstap | Transfer, departure and arrival times | `want` with a reason |
+| Een collega doet het voor | A colleague demonstrates a task | Main-clause order after `daarna` |
+| Een vraag bij de praktijk | Requesting a simple written explanation | `sinds` for onset |
 | Een zaterdag in het park | A weekend invitation, the weather, and a meeting plan | Separable `afspreken` in a time/place plan |
 
-There are 73 contextual vocabulary/expression notes, fourteen grammar notes, and 48 comprehension questions. The original 20 lessons, 101 phrase IDs, audio manifest, saved progress IDs, and review IDs remain unchanged. Reading texts are not automatically included in audio generation or the saved phrase review list.
+There are 91 contextual vocabulary/expression notes, seventeen grammar notes, and 60 comprehension questions. The original 20 lesson slugs and 101 protected spoken phrase texts/IDs remain compatible. Saved progress and review IDs are preserved; the audio manifest is still empty. Reading texts are not automatically included in audio generation or the saved phrase review list.
 
 ## Learning flow
 
@@ -39,4 +42,6 @@ Edit `src/data/readings.json`. Keep slugs and question IDs stable; use unique qu
 
 Editorial review during implementation checked narrative consistency, Dutch/Arabic correspondence, the distinction between old and new appointment times, `half negen`/`half tien`, task ordering, relevant lesson links, and contextual vocabulary. **Independent review by a qualified Dutch/Arabic language editor is still pending.** Do not describe the texts as certified A1 material or professionally language-reviewed. Further enrichment should add longer varied passages, broader vocabulary, and original production tasks after reviewing this bank.
 
-Browser tests cover discovery, all fourteen routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. The services reading has a dedicated mobile flow covering paragraph formatting, a wrong Friday-deadline answer corrected to **before Friday**, regrading, reload, catalogue return and unchanged completion/review storage. The guest-room mobile flow checks arrival time versus work finish, furniture locations, required answers, evidence and regrading. The shopping-list mobile flow distinguishes the price per kilogram from the requested quantity, corrects a mistaken price with passage evidence, and checks the conditional bread substitute. CI continues to run the full account, lesson, placement, listening, writing, and review suites.
+Browser tests cover discovery, all seventeen routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. The services reading has a dedicated mobile flow covering paragraph formatting, a wrong Friday-deadline answer corrected to **before Friday**, regrading, reload, catalogue return and unchanged completion/review storage. The guest-room mobile flow checks arrival time versus work finish, furniture locations, required answers, evidence and regrading. The shopping-list mobile flow distinguishes the price per kilogram from the requested quantity, corrects a mistaken price with passage evidence, and checks the conditional bread substitute. CI continues to run the full account, lesson, placement, listening, writing, and review suites.
+
+The September review adds `a-journey-with-a-change`, `a-colleague-shows-the-task`, and `a-question-at-the-practice`; the school-absence text now promises a callback instead of implying a return-to-school rule. See [review details](A1_REVIEW_2026-09.md).

@@ -1,137 +1,59 @@
-import { readFile, mkdir, stat, writeFile, rename } from "node:fs/promises";
+import { mkdir, writeFile, rename, open, unlink } from "node:fs/promises";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateCurriculum } from "./lib/validate-curriculum.mjs";
+import { atomicJson, planAudio, readJson, sha256, synthesize, validateCatalog, verifyAsset } from "./lib/audio-assets.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
-const lessons = JSON.parse(await readFile(join(root, "src/data/lessons.json"), "utf8"));
-const modules = JSON.parse(await readFile(join(root, "src/data/modules.json"), "utf8"));
-const contentErrors = validateCurriculum(lessons, modules);
-if (contentErrors.length) throw new Error(`Invalid curriculum:\n${contentErrors.join("\n")}`);
-const outputDirectory = join(root, "public/audio");
-const manifestPath = join(root, "src/lib/audio-manifest.json");
-const dryRun = process.argv.includes("--dry-run");
-const limitArgument = process.argv.find((arg) => arg.startsWith("--limit="));
-const limit = limitArgument ? Number(limitArgument.split("=")[1]) : Infinity;
-
-if (limitArgument && (!Number.isInteger(limit) || limit < 1)) {
-  throw new Error("--limit must be a positive integer.");
-}
-
-const voices = {
-  female: "nl-NL-ColetteNeural",
-  male: "nl-NL-MaartenNeural",
-};
-const speeds = { normal: "0%", slow: "-25%" };
-const phrases = lessons.flatMap((lesson) => lesson.phrases).slice(0, limit);
-const ids = phrases.map((phrase) => phrase.id);
-
-if (new Set(ids).size !== ids.length || ids.some((id) => !/^[a-z0-9-]+$/.test(id))) {
-  throw new Error("Phrase IDs must be unique and use only lowercase letters, numbers, and hyphens.");
-}
-
-const jobs = phrases.flatMap((phrase) =>
-  Object.entries(voices).flatMap(([voice, voiceName]) =>
-    Object.entries(speeds).map(([speed, rate]) => ({ phrase, voice, voiceName, speed, rate })),
-  ),
-);
-
-if (dryRun) {
-  console.log(`Would process ${phrases.length} phrases and ${jobs.length} voice/speed files.`);
-  process.exit(0);
-}
-
-const key = process.env.AZURE_SPEECH_KEY;
-const region = process.env.AZURE_SPEECH_REGION;
-
-if (!key || !region || !/^[a-z0-9-]+$/.test(region)) {
-  throw new Error("Set AZURE_SPEECH_KEY and a valid AZURE_SPEECH_REGION before generating audio.");
-}
-
-const endpoint = `https://${region}.tts.speech.microsoft.com/cognitiveservices/v1`;
-const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
-await mkdir(outputDirectory, { recursive: true });
-
-function escapeXml(text) {
-  return text.replace(/[&<>"']/g, (char) => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&apos;",
-  })[char]);
-}
-
-async function fileExists(path) {
+const lessons = await readJson(join(root, "src/data/lessons.json"));
+const modules = await readJson(join(root, "src/data/modules.json"));
+const errors = validateCurriculum(lessons, modules);
+if (errors.length) throw new Error(`Invalid curriculum:\n${errors.join("\n")}`);
+const args = process.argv.slice(2);
+if (args.some((arg) => arg !== "--dry-run" && !/^--limit=\d+$/.test(arg))) throw new Error("Supported arguments: --dry-run --limit=<positive phrase count>");
+const limitArg = args.find((arg) => arg.startsWith("--limit="));
+const limit = limitArg ? Number(limitArg.split("=")[1]) : Infinity;
+if (limitArg && (!Number.isSafeInteger(limit) || limit < 1)) throw new Error("--limit must be a positive integer.");
+const overrides = await readJson(join(root, "src/data/audio-pronunciation.json"));
+const allJobs = planAudio(lessons, overrides);
+const jobs = allJobs.slice(0, limit === Infinity ? undefined : limit * 4);
+const directory = join(root, "public/audio");
+const catalogPath = join(root, "src/lib/audio-catalog.json");
+const catalog = await readJson(catalogPath, { version: 1, assets: {} });
+validateCatalog(catalog);
+let cached = 0;
+for (const job of jobs) if (await verifyAsset(job, catalog, directory)) cached++;
+console.log(`Plan: ${jobs.length / 4} phrases, ${jobs.length} variants; ${cached} valid cached files, ${jobs.length - cached} to generate.`);
+console.log(`Full curriculum: ${allJobs.length / 4} phrases, ${allJobs.length} variants. Estimated MP3 storage at 48 kbit/s and 5 seconds/clip: ${(allJobs.length * 30000 / 1024 / 1024).toFixed(1)} MiB (actual duration varies).`);
+if (!args.includes("--dry-run")) {
+  const key = process.env.AZURE_SPEECH_KEY, region = process.env.AZURE_SPEECH_REGION;
+  if (!key || !region || !/^[a-z0-9-]+$/.test(region)) throw new Error("Set AZURE_SPEECH_KEY and a valid AZURE_SPEECH_REGION in your local environment. Never paste or commit credentials.");
+  await mkdir(directory, { recursive: true });
+  const lockPath = join(directory, ".generation.lock");
+  const lock = await open(lockPath, "wx").catch(() => { throw new Error("Audio generation/review is already locked. If a prior process crashed, verify it stopped before removing public/audio/.generation.lock."); });
+  // Sequential checkpoints avoid losing successful paid requests after interruption.
+  let failed = 0;
   try {
-    const file = await stat(path);
-    return file.size > 0;
-  } catch (error) {
-    if (error.code === "ENOENT") return false;
-    throw error;
-  }
-}
-
-function sleep(milliseconds) {
-  return new Promise((resolve) => setTimeout(resolve, milliseconds));
-}
-
-async function generate(job) {
-  const filename = `${job.phrase.id}-${job.voice}-${job.speed}.mp3`;
-  const path = join(outputDirectory, filename);
-
-  if (!(await fileExists(path))) {
-    const ssml = `<speak version="1.0" xml:lang="nl-NL"><voice name="${job.voiceName}"><prosody rate="${job.rate}">${escapeXml(job.phrase.dutch)}</prosody></voice></speak>`;
-    let response;
-    for (let attempt = 0; attempt < 3; attempt += 1) {
-      response = await fetch(endpoint, {
-        method: "POST",
-        headers: {
-          "Ocp-Apim-Subscription-Key": key,
-          "Content-Type": "application/ssml+xml",
-          "X-Microsoft-OutputFormat": "audio-24khz-48kbitrate-mono-mp3",
-          "User-Agent": "DutchFlow-AudioGenerator",
-        },
-        body: ssml,
-      });
-      if (response.ok) break;
-      if (![429, 500, 502, 503, 504].includes(response.status) || attempt === 2) {
-        throw new Error(`Speech service returned HTTP ${response.status} for ${filename}.`);
+    // Reload after obtaining the lock; another process may have completed meanwhile.
+    const current = await readJson(catalogPath, { version: 1, assets: {} });
+    validateCatalog(current);
+    for (const job of jobs) {
+      if (await verifyAsset(job, current, directory)) continue;
+      try {
+        const bytes = await synthesize(job, { key, region });
+        const path = join(directory, job.filename);
+        await writeFile(`${path}.tmp`, bytes);
+        await rename(`${path}.tmp`, path);
+        current.assets[job.filename] = { phraseId: job.phraseId, voice: job.voice, speed: job.speed, sourceHash: job.sourceHash, audioHash: sha256(bytes), bytes: bytes.length, reviewed: false };
+        await atomicJson(catalogPath, current);
+        console.log(`Generated, awaiting listening review: ${job.filename}`);
+      } catch (error) {
+        failed++; console.error(error.message);
+        // Stop on authentication/configuration failures instead of repeating every request.
+        if (/HTTP (400|401|403|404)/.test(error.message)) break;
       }
-      await sleep(1000 * 2 ** attempt);
     }
-    const audio = Buffer.from(await response.arrayBuffer());
-    if (audio.length < 100 || !response.headers.get("content-type")?.includes("audio")) {
-      throw new Error(`Speech service did not return valid audio for ${filename}.`);
-    }
-    const temporaryPath = `${path}.tmp`;
-    await writeFile(temporaryPath, audio);
-    await rename(temporaryPath, path);
-  }
-
-  manifest[job.phrase.id] ??= {};
-  manifest[job.phrase.id][job.voice] ??= {};
-  manifest[job.phrase.id][job.voice][job.speed] = `/audio/${filename}`;
-  console.log(`Ready: ${filename}`);
-}
-
-let cursor = 0;
-const failures = [];
-
-async function worker() {
-  while (cursor < jobs.length) {
-    const job = jobs[cursor++];
-    try {
-      await generate(job);
-    } catch (error) {
-      failures.push({ id: job.phrase.id, voice: job.voice, speed: job.speed, message: error.message });
-    }
-  }
-}
-
-await Promise.all(Array.from({ length: Math.min(3, jobs.length) }, () => worker()));
-await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
-
-if (failures.length) {
-  console.error(`${failures.length} files failed. Re-run the command to resume cached results.`);
-  for (const failure of failures) console.error(`${failure.id}/${failure.voice}/${failure.speed}: ${failure.message}`);
-  process.exitCode = 1;
-} else {
-  console.log(`Done: ${jobs.length} audio variants. Commit the generated MP3 files and manifest together.`);
+  } finally { await lock.close(); await unlink(lockPath); }
+  if (failed) process.exitCode = 1;
+  else console.log("Generation complete. Review each clip, approve it with audio:review, then run audio:check -- --require-complete before releasing recorded-only audio.");
 }
