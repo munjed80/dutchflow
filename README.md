@@ -15,14 +15,14 @@ Open `http://localhost:3000`.
 
 ## Current learning experience
 
-- Arabic RTL landing page and 36 introductory A1 lessons in four ordered modules. The catalogue includes 231 Dutch phrases, Arabic meanings, learning goals, short dialogues, a grammar note per lesson, and 124 graded questions.
-- A `/curriculum` map links ten thematic goals to available resources and shows remaining work. Twenty-seven lessons include 162 vocabulary/form notes and 54 original-response tasks with optional models and self-review questions. A rescheduling task includes a complete letter with a greeting, a new proposed time and a signature. These tasks are ungraded and temporary; see [A1 plan and readiness gates](docs/A1_CURRICULUM.md).
+- Arabic RTL landing page and 41 introductory A1 lessons in four ordered modules. The catalogue includes 271 Dutch phrases, Arabic meanings, learning goals, short dialogues, a grammar note per lesson, and 144 graded questions.
+- A `/curriculum` map links ten thematic goals to available resources and shows remaining work. All 41 lessons include 246 vocabulary/form notes and 82 original-response tasks with optional models and self-review questions. A rescheduling task includes a complete letter with a greeting, a new proposed time and a signature. These tasks are ungraded and temporary; see [A1 plan and readiness gates](docs/A1_CURRICULUM.md).
 - A free `/scenarios` library adds eight guided text situations, 32 dialogue turns and eight new writing tasks. Choose a response, review specific feedback, continue the exchange and write with changed details. Linked from lessons and curriculum; attempts are temporary and do not grant completion or assess speaking. See [scenario behavior and authoring](docs/SCENARIOS.md).
 - Search lessons in Arabic or Dutch, filter by module, continue with the first unfinished lesson, and browse previous/next lessons freely.
 - Free listening practice for every lesson at `/learn/[slug]/listening`: hear each phrase, choose its Arabic meaning, and review feedback. Text-assisted answers are reported separately and never award lesson completion. See [listening and playback details](docs/LISTENING.md).
 - Free guided writing for every lesson at `/learn/[slug]/writing`: recall the lesson sentence from its Arabic meaning, compare highlighted word differences, and rewrite. Results retain the first attempt and separate text help; answers are not saved and never award completion. This compares the lesson wording, not arbitrary translations or general Dutch proficiency. See [writing details](docs/WRITING.md).
 - A free `/review` list collects explicitly selected phrases from lessons or training summaries. Filter by lesson and recall up to ten phrases per session, then repeat those you rated as difficult. Only phrase IDs are saved in the browser, shared by its users and separate from accounts; no answers/scores or completion are saved by this feature. See [review behavior and storage limits](docs/REVIEW.md).
-- A free `/reading` library adds fourteen original everyday texts, 73 contextual vocabulary notes, fourteen grammar explanations, and 48 comprehension questions with passage evidence. Arabic translations can be revealed for help. Relevant lessons link to these texts. Guided practice results are not saved and do not certify a level; independent language review remains pending. See [reading content and authoring](docs/READING.md).
+- A free `/reading` library adds seventeen original everyday texts, 91 contextual vocabulary notes, seventeen grammar explanations, and 60 comprehension questions with passage evidence. Arabic translations can be revealed for help. Relevant lessons link to these texts. Guided practice results are not saved and do not certify a level; independent language review remains pending. See [reading content and authoring](docs/READING.md).
 - Device speech synthesis for Dutch listening, with normal and slower playback. Playback requires an available Dutch device voice when a stored MP3 is absent; it reports errors instead of selecting an unrelated language. Device voice quality and availability vary; this is a temporary fallback until recorded audio is generated.
 - Guest progress stays in the current browser. Optional email-link accounts store progress in PostgreSQL across devices. The account page offers explicit import of existing guest completions; account data is never copied into guest storage. Failed cloud saves show a retry action. See [account setup](docs/ACCOUNTS.md) to enable this feature.
 - A free 16-question starting-point check at `/placement`, with server grading, corrections, a breakdown across vocabulary/sentence structure/reading, and up to three lesson recommendations. Answers can be resumed in the same browser tab; no account or database is required. This is not a validated CEFR placement test. See [starting-point check details](docs/PLACEMENT.md).
@@ -41,9 +41,9 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The content checks catch duplicate audio IDs, broken dialogue references, invalid answer keys, missing goals or grammar, and invalid starting-point question/lesson links before publication. Browser tests cover search/filtering, existing progress, quiz completion and retries, lesson navigation, all 36 lesson routes, and mobile overflow. Playwright starts the production server, an isolated SMTP inbox, and an in-memory PGlite database automatically; build first. Account tests cover actual email links, expiry/replay, origin checks, rate limits, import, cross-device isolation, sign-out, and failed-save recovery. GitHub Actions uses PostgreSQL 17 for the same tests on each PR. No real emails are sent. Listening tests cover all 231 phrases, text assistance, playback completion/cancellation/errors, stale events, and route changes using controlled media/speech events; they do not verify real voice quality. Starting-point tests cover partial drafts, answer changes, failed-submit retry, grading, unknown answers, malformed requests, stale revisions, recommended lessons, and exclusion of answer explanations from initial HTML/client assets.
+The content checks catch duplicate audio IDs, broken dialogue references, invalid answer keys, missing goals or grammar, and invalid starting-point question/lesson links before publication. Browser tests cover search/filtering, existing progress, quiz completion and retries, lesson navigation, all 36 lesson routes, and mobile overflow. Playwright starts the production server, an isolated SMTP inbox, and an in-memory PGlite database automatically; build first. Account tests cover actual email links, expiry/replay, origin checks, rate limits, import, cross-device isolation, sign-out, and failed-save recovery. GitHub Actions uses PostgreSQL 17 for the same tests on each PR. No real emails are sent. Listening tests cover all 271 phrases, text assistance, playback completion/cancellation/errors, stale events, and route changes using controlled media/speech events; they do not verify real voice quality. Starting-point tests cover partial drafts, answer changes, failed-submit retry, grading, unknown answers, malformed requests, stale revisions, recommended lessons, and exclusion of answer explanations from initial HTML/client assets.
 
-Writing validation additionally covers all 231 phrases, spelling/normalization boundaries, missing/repeated/reordered words, first-attempt results, help/retries, review lists, navigation reset, input limits, and mobile layout with long answers.
+Writing validation additionally covers all 271 phrases, spelling/normalization boundaries, missing/repeated/reordered words, first-attempt results, help/retries, review lists, navigation reset, input limits, and mobile layout with long answers.
 
 Review tests cover validated phrase IDs, explicit additions from lessons and both summaries, ten-card sessions, self-ratings, filtering/removal/reset, unchanged progress, malformed data, failed writes and retry, sequential tab updates, and mobile layout.
 
@@ -51,24 +51,21 @@ Reading validation checks lesson links, vocabulary excerpts, grammar examples, q
 
 ## Generate reusable Dutch audio
 
-The generator supports two Netherlands Dutch voices and normal/slow speed. It generates MP3 files once and reuses existing files on reruns. See [Microsoft's Speech REST API](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-text-to-speech) and [Dutch voice list](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts) for account setup and voice availability.
-
-Create a local `.env` from `.env.example` and supply an Azure Speech resource key and its region. **Never commit `.env` or a key.**
+The Azure Speech pipeline generates two Dutch voices at normal/slow speed. It uses content fingerprints, verified cache entries and explicit listening approval before playback URLs are published. No real MP3s have been generated yet; credentials are not configured.
 
 ```bash
 npm run audio:generate -- --dry-run
-node --env-file=.env scripts/generate-audio.mjs --limit=2
-node --env-file=.env scripts/generate-audio.mjs
+npm run audio:check
 ```
 
-The script writes MP3s to `public/audio/` and updates `src/lib/audio-manifest.json`. The app uses these files automatically and falls back to the device voice when a variant is absent. Commit generated MP3 files and the manifest together for a small catalogue. At larger scale, move assets to object storage/CDN and adjust the manifest URLs; avoid growing Git with thousands of binary files.
+Follow [generation, review and release instructions](docs/AUDIO_PRODUCTION.md). The strict recorded-audio release check (`npm run audio:check -- --require-complete`) intentionally fails until the whole bank is generated and reviewed.
 
 ## Roadmap
 
 1. Review and complete the A1 units using [the curriculum readiness gates](docs/A1_CURRICULUM.md). Prioritize recorded listening, broader vocabulary and independent production before adding A2 or B1. The non-shipping A2 preparation outline lives in [docs/A2_CURRICULUM.md](docs/A2_CURRICULUM.md).
 2. Generate and review the audio. Add a content authoring workflow and audio quality checks.
 3. Configure production PostgreSQL and SMTP, verify delivery and backups, and add account export/deletion and a published privacy policy before public launch.
-4. Build secure paid practice exams: authenticated purchases, one €4.95 attempt per payment, server-side scoring, provider webhooks, receipts, and clear retry/refund handling. Do not unlock an exam based on a browser redirect alone.
+4. **Deferred by the owner until A1 and audio are ready:** build secure paid practice exams: authenticated purchases, one €4.95 attempt per payment, server-side scoring, provider webhooks, receipts, and clear retry/refund handling. Do not unlock an exam based on a browser redirect alone.
 5. Add result breakdowns and revision recommendations. Keep all standard lessons free.
 
 ## Vocabulary lookup
@@ -76,3 +73,5 @@ The script writes MP3s to `public/audio/` and updates `src/lib/audio-manifest.js
 The free `/vocabulary` library searches authored lesson vocabulary in Arabic or Dutch, including plural/conjugated forms and example translations. Filter by type and module, listen to an example sentence, or explicitly save it to browser-local review. Repeated terms keep their lesson context. This does not award completion or claim dictionary/CEFR completeness. See [vocabulary behavior and validation](docs/VOCABULARY.md).
 
 See `CLAUDE.md` for project continuity and contribution guidance.
+
+See [September editorial review and remaining gaps](docs/A1_REVIEW_2026-09.md).

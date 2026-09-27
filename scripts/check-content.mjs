@@ -1,3 +1,4 @@
+import { planAudio } from "./lib/audio-assets.mjs";
 import { validateScenarios } from "./lib/validate-scenarios.mjs";
 import { readFile } from "node:fs/promises";
 import { validatePlacement } from "./lib/validate-placement.mjs";
@@ -13,6 +14,8 @@ const units = JSON.parse(await readFile(new URL("../src/data/a1-roadmap.json", i
 const extensions = JSON.parse(await readFile(new URL("../src/data/lesson-extensions.json", import.meta.url), "utf8"));
 const scenarios = JSON.parse(await readFile(new URL("../src/data/scenarios.json", import.meta.url), "utf8"));
 const errors = [...validateCurriculum(lessons, modules), ...validatePlacement(placement, lessons), ...validateReadings(readings, lessons), ...validateLearningMap(units, extensions, lessons, readings), ...validateScenarios(scenarios, lessons, units)];
+
+try { planAudio(lessons, JSON.parse(await readFile(new URL("../src/data/audio-pronunciation.json", import.meta.url), "utf8"))); } catch (error) { errors.push(error.message); }
 
 if (errors.length) {
   for (const error of errors) console.error(error);

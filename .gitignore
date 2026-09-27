@@ -6,3 +6,7 @@ node_modules/
 *.tsbuildinfo
 playwright-report/
 test-results/
+
+public/audio/*.tmp
+public/audio/.generation.lock
+src/lib/audio-*.json.*.tmp

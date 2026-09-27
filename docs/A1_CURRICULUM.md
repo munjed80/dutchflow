@@ -25,12 +25,12 @@ This table is a development plan. It does not claim that every listed language p
 
 ## Coverage at this release
 
-- 36 lessons, 231 reusable phrases and 124 lesson questions; fourteen separate readings with 48 comprehension questions.
+- 41 lessons, 271 reusable phrases and 144 lesson questions; seventeen separate readings with 60 comprehension questions.
 - Eight additional guided text scenarios provide 32 dialogue turns and eight transfer-writing tasks across eight themes. These are separate from lesson/reading inventories and do not award completion. See [scenario authoring and boundaries](SCENARIOS.md).
 - Every lesson and reading is mapped. All ten units now display **partial coverage** with explicit remaining work. No unit displays complete or a mastery percentage.
 - New foundation lessons: `spelling-your-name`, `contact-details`, `asking-for-clarification`. Each has eight phrases, a contextual dialogue, a grammar note, four questions, six vocabulary/form notes and two self-review production tasks.
-- `src/data/lesson-extensions.json` holds 162 vocabulary notes and 54 production tasks across 27 lessons. Nouns include an article and plural; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is a growing lexical support layer, not a complete searchable dictionary.
-- The foundation release added 24 phrase IDs; the numbers/time release adds another 16; the leisure/plans release adds another 24; the family/school release adds another 16; the services/messages release adds another 18; the home/neighbourhood release adds another 16; the food/shopping release adds another 16. New phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 36 lessons.
+- `src/data/lesson-extensions.json` holds 246 vocabulary notes and 82 production tasks across 41 lessons. Nouns include an article and plural or the explicit marker `geen meervoud in deze betekenis`; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is a growing lexical support layer, not a complete searchable dictionary.
+- The foundation release added 24 phrase IDs; the numbers/time release adds another 16; the leisure/plans release adds another 24; the family/school release adds another 16; the services/messages release adds another 18; the home/neighbourhood release adds another 16; the food/shopping release adds another 16. New phrase IDs automatically join listening, model-recall writing, review eligibility and the audio generation plan. The original 101 IDs and spoken texts are preserved by a fixture test. Display lesson numbers change; completion remains keyed by slug. Historical completion now uses a denominator of 41 lessons.
 - The two production tasks per enriched lesson offer a temporary text area, hidden model answer, Arabic meaning and review questions. Learners reuse structures with fictional details or combine known expressions. Multiple answers may be valid; there is no automatic judgment, score, mastery claim or completion write. Reload or route navigation resets answers. These tasks are separate from exact lesson-wording recall at `/writing` and do not record speech.
 - Listening still uses device TTS when MP3s are absent; connected listening passages, spoken interaction and assessed pronunciation remain missing. Spelling text does not constitute an alphabet pronunciation course. Have an editor listen especially to spelled letters, numbers and postcodes before publishing audio.
 
@@ -99,7 +99,7 @@ The course-level A1 release requires an educator-reviewed coverage matrix across
 
 Keep one primary thematic assignment for each lesson and at least one assignment for every reading. Planned units use empty resource arrays, never links to nonexistent pages. Keep nonempty `remaining` entries while coverage is partial. Update the map whenever a resource is added.
 
-Vocabulary `kind` is `noun`, `verb` or `expression`. `forms` contains the plural or selected useful forms, not an automatically generated conjugation table. `phraseId` must belong to the linked lesson; an editor must check that it illustrates the word. Production models fit the 500-character input limit and include Arabic translation plus at least two self-review questions. Do not collect real personal data in sample tasks.
+Vocabulary `kind` is `noun`, `verb` or `expression`. `forms` contains the plural, the explicit marker `geen meervoud in deze betekenis` for an uncountable use, or selected useful verb forms; it is not an automatically generated conjugation table. `phraseId` must belong to the linked lesson; an editor must check that it illustrates the word. Production models fit the 500-character input limit and include Arabic translation plus at least two self-review questions. Do not collect real personal data in sample tasks.
 
 The map and vocabulary render on the server. Only the current lesson's production tasks enter `ProductionPractice`; answers use component state only. No new dependencies, storage keys, account fields, payments or migrations are introduced. All regular content remains free.
 
@@ -107,4 +107,6 @@ The map and vocabulary render on the server. Only the current lesson's productio
 
 ## Next delivery
 
-Review the new services/messages content and validate recorded phrase audio for forms, appointment changes and message details. Continue expanding health and work units with the same lesson-reading-enrichment pattern, then add connected listening and oral tasks across the map. Use the readiness gates above to deepen each unit before adding A2 labels or opening paid examinations.
+Follow [the September review and coverage matrix](A1_REVIEW_2026-09.md). Five new lessons close number/month breadth and add health, work and travel exchanges; every lesson now has six lexical notes and two transfer tasks. Three added readings contain new details and evidenced questions. All units remain partial; original connected listening, spoken interaction, broader vocabulary and independent language review still need work.
+
+Paid exams and A2 delivery are deferred. Follow [audio production](AUDIO_PRODUCTION.md) to configure the service, generate a small sample, review actual recordings and only then publish approved clips. No MP3s have been generated in this change.

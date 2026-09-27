@@ -475,11 +475,11 @@
     "lessonSlug": "free-time-hobbies",
     "vocabulary": [
       {
-        "term": "de hobby",
-        "kind": "noun",
-        "forms": "de hobby's",
-        "meaning": "الهواية؛ الجمع: الهوايات.",
-        "phraseId": "a1-free-time-hobbies-01"
+        "term": "lezen",
+        "kind": "verb",
+        "forms": "ik lees · u leest · wij lezen",
+        "meaning": "يقرأ؛ ورد في السؤال Leest u ook graag?",
+        "phraseId": "a1-free-time-hobbies-05"
       },
       {
         "term": "het park",
@@ -600,7 +600,7 @@
         "translation": "عندئذ أفضل أن أبقى في الداخل.",
         "checklist": [
           "هل بدأت الرد بـ Dan؟",
-          "هل استخدمت liever مع blijven binnen؟"
+          "هل استخدمت liever مع binnen blijven؟"
         ]
       }
     ]
@@ -764,10 +764,10 @@
         "phraseId": "a1-family-at-home-02"
       },
       {
-        "term": "de ouders",
+        "term": "de ouder",
         "kind": "noun",
         "forms": "de ouders",
-        "meaning": "الوالدان أو الأهل؛ تستعمل غالباً بصيغة الجمع.",
+        "meaning": "الوالد أو الوالدة؛ الجمع de ouders يعني الوالدين أو أولياء الأمور.",
         "phraseId": "a1-family-at-home-06"
       },
       {
@@ -819,15 +819,15 @@
       {
         "term": "het huiswerk",
         "kind": "noun",
-        "forms": "de huiswerken",
-        "meaning": "الواجب المدرسي؛ هنا ما يُرسل للبيت عند الغياب.",
+        "forms": "geen meervoud in deze betekenis",
+        "meaning": "الواجب المدرسي؛ اسم غير معدود هنا، فلا نحفظ له جمعاً مصطنعاً.",
         "phraseId": "a1-message-to-school-03"
       },
       {
-        "term": "de koorts",
-        "kind": "noun",
-        "forms": "de koortsen",
-        "meaning": "الحمى؛ تظهر هنا كعنصر لغوي في رسالة المدرسة.",
+        "term": "weten",
+        "kind": "verb",
+        "forms": "ik weet · u weet · wij weten",
+        "meaning": "يعرف معلومة؛ nog niet تعني ليس بعد.",
         "phraseId": "a1-message-to-school-07"
       },
       {
@@ -845,10 +845,10 @@
         "phraseId": "a1-message-to-school-06"
       },
       {
-        "term": "tot morgen",
-        "kind": "expression",
-        "forms": "tot morgen · tot maandag",
-        "meaning": "إلى الغد؛ عبارة ختامية قصيرة.",
+        "term": "horen",
+        "kind": "verb",
+        "forms": "ik hoor · u hoort · wij horen",
+        "meaning": "يسمع أو يتلقى خبراً؛ هنا ينتظر المعلم تحديثاً غداً.",
         "phraseId": "a1-message-to-school-08"
       }
     ],
@@ -1817,6 +1817,944 @@
           "هل استخدمت Mag ik ... passen لطلب التجربة؟"
         ],
         "cue": "Welke maat heeft u?"
+      }
+    ]
+  },
+  {
+    "lessonSlug": "introductions",
+    "vocabulary": [
+      {
+        "term": "goedemorgen",
+        "kind": "expression",
+        "forms": "goedemorgen · goedemiddag",
+        "meaning": "تحية الصباح؛ goedemiddag تحية بعد الظهر.",
+        "phraseId": "a1-intro-01"
+      },
+      {
+        "term": "heten",
+        "kind": "verb",
+        "forms": "ik heet · u heet · wij heten",
+        "meaning": "يُدعى أو يكون اسمه.",
+        "phraseId": "a1-intro-02"
+      },
+      {
+        "term": "hoe",
+        "kind": "expression",
+        "forms": "hoe heet u · hoe gaat het",
+        "meaning": "كيف؛ يتحدد معنى السؤال بالتعبير كله.",
+        "phraseId": "a1-intro-02"
+      },
+      {
+        "term": "u",
+        "kind": "expression",
+        "forms": "met u · dank u",
+        "meaning": "أنت بصيغة رسمية؛ لا نبدلها بـje في الموقف نفسه دون سبب.",
+        "phraseId": "a1-intro-04"
+      },
+      {
+        "term": "goed",
+        "kind": "expression",
+        "forms": "het gaat goed · goed, dank u",
+        "meaning": "بخير في سؤال الحال.",
+        "phraseId": "a1-intro-05"
+      },
+      {
+        "term": "danken",
+        "kind": "verb",
+        "forms": "ik dank · u dankt · wij danken",
+        "meaning": "يشكر؛ dank u صيغة شكر مألوفة.",
+        "phraseId": "a1-intro-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "عرّف بنفسك باسم خيالي، ثم اسأل الموظف عن اسمه بصيغة رسمية.",
+        "model": "Ik heet Rami. Hoe heet u?",
+        "translation": "اسمي رامي. ما اسمك؟",
+        "checklist": [
+          "هل ذكرت اسماً؟",
+          "هل استخدمت u في السؤال؟"
+        ]
+      },
+      {
+        "prompt": "قال الموظف Hoe gaat het met u? اكتب جواباً قصيراً مهذباً.",
+        "model": "Met mij gaat het goed, dank u.",
+        "translation": "أنا بخير، شكراً لك.",
+        "checklist": [
+          "هل أجبت عن الحال؟",
+          "هل أضفت الشكر؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "personal-details",
+    "vocabulary": [
+      {
+        "term": "komen",
+        "kind": "verb",
+        "forms": "ik kom · u komt · wij komen",
+        "meaning": "يأتي؛ komen uit لذكر بلد المنشأ.",
+        "phraseId": "a1-personal-details-02"
+      },
+      {
+        "term": "wonen",
+        "kind": "verb",
+        "forms": "ik woon · u woont · wij wonen",
+        "meaning": "يسكن في مكان.",
+        "phraseId": "a1-personal-details-04"
+      },
+      {
+        "term": "spreken",
+        "kind": "verb",
+        "forms": "ik spreek · u spreekt · wij spreken",
+        "meaning": "يتحدث لغة.",
+        "phraseId": "a1-personal-details-05"
+      },
+      {
+        "term": "uit",
+        "kind": "expression",
+        "forms": "uit Syrië · uit Nederland",
+        "meaning": "من؛ هنا لبلد المنشأ.",
+        "phraseId": "a1-personal-details-02"
+      },
+      {
+        "term": "waar",
+        "kind": "expression",
+        "forms": "waar woont u · waar komt u vandaan",
+        "meaning": "أين أو من أين بحسب السؤال.",
+        "phraseId": "a1-personal-details-01"
+      },
+      {
+        "term": "een beetje",
+        "kind": "expression",
+        "forms": "een beetje Nederlands",
+        "meaning": "قليلاً من؛ يحدد مقدار المعرفة باللغة.",
+        "phraseId": "a1-personal-details-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب عن شخصية خيالية من مصر تسكن في روتردام.",
+        "model": "Ik kom uit Egypte. Ik woon in Rotterdam.",
+        "translation": "أنا من مصر. أسكن في روتردام.",
+        "checklist": [
+          "هل ميزت بلد المنشأ من مدينة السكن؟",
+          "هل استخدمت kom uit وwoon in؟"
+        ]
+      },
+      {
+        "prompt": "تتحدث شخصية خيالية العربية وقليلاً من الهولندية. عرّف بقدرتها اللغوية.",
+        "model": "Ik spreek Arabisch en een beetje Nederlands.",
+        "translation": "أتحدث العربية وقليلاً من الهولندية.",
+        "checklist": [
+          "هل كتبت أسماء اللغات بحرف كبير؟",
+          "هل وضعت een beetje قبل اللغة المطلوبة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "daily-routine",
+    "vocabulary": [
+      {
+        "term": "de dag",
+        "kind": "noun",
+        "forms": "de dagen",
+        "meaning": "اليوم؛ الجمع الأيام.",
+        "phraseId": "a1-daily-routine-01"
+      },
+      {
+        "term": "de fiets",
+        "kind": "noun",
+        "forms": "de fietsen",
+        "meaning": "الدراجة؛ met de fiets بالدراجة.",
+        "phraseId": "a1-daily-routine-04"
+      },
+      {
+        "term": "opstaan",
+        "kind": "verb",
+        "forms": "ik sta op · u staat op · wij staan op",
+        "meaning": "ينهض من الفراش.",
+        "phraseId": "a1-daily-routine-02"
+      },
+      {
+        "term": "ontbijten",
+        "kind": "verb",
+        "forms": "ik ontbijt · u ontbijt · wij ontbijten",
+        "meaning": "يتناول الفطور.",
+        "phraseId": "a1-daily-routine-03"
+      },
+      {
+        "term": "eten",
+        "kind": "verb",
+        "forms": "ik eet · u eet · wij eten",
+        "meaning": "يأكل أو يتناول وجبة.",
+        "phraseId": "a1-daily-routine-05"
+      },
+      {
+        "term": "daarna",
+        "kind": "expression",
+        "forms": "daarna ontbijt ik · daarna werk ik",
+        "meaning": "بعد ذلك؛ يتبعه الفعل ثم الفاعل هنا.",
+        "phraseId": "a1-daily-routine-03"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صف روتيناً خيالياً: استيقاظ الساعة السادسة ثم فطور.",
+        "model": "Ik sta om zes uur op. Daarna ontbijt ik.",
+        "translation": "أستيقظ الساعة السادسة. بعد ذلك أتناول الفطور.",
+        "checklist": [
+          "هل بقي op في آخر الجملة الأولى؟",
+          "هل جاء الفعل قبل ik بعد Daarna؟"
+        ]
+      },
+      {
+        "prompt": "اكتب كيف تذهب إلى العمل بالدراجة ومتى تنام الساعة الحادية عشرة.",
+        "model": "Ik ga met de fiets naar mijn werk. Ik ga om elf uur naar bed.",
+        "translation": "أذهب إلى عملي بالدراجة. أذهب إلى الفراش الساعة الحادية عشرة.",
+        "checklist": [
+          "هل استخدمت met لوسيلة النقل؟",
+          "هل استخدمت om مع الساعة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "directions",
+    "vocabulary": [
+      {
+        "term": "het station",
+        "kind": "noun",
+        "forms": "de stations",
+        "meaning": "محطة القطار في هذا السياق.",
+        "phraseId": "a1-directions-01"
+      },
+      {
+        "term": "de supermarkt",
+        "kind": "noun",
+        "forms": "de supermarkten",
+        "meaning": "السوبرماركت.",
+        "phraseId": "a1-directions-03"
+      },
+      {
+        "term": "de bank",
+        "kind": "noun",
+        "forms": "de banken",
+        "meaning": "المصرف في هذا الموقف؛ قد تعني الكلمة أريكة في سياق المنزل.",
+        "phraseId": "a1-directions-05"
+      },
+      {
+        "term": "rechtdoor",
+        "kind": "expression",
+        "forms": "ga rechtdoor",
+        "meaning": "إلى الأمام دون انعطاف.",
+        "phraseId": "a1-directions-02"
+      },
+      {
+        "term": "linksaf",
+        "kind": "expression",
+        "forms": "sla linksaf · ga linksaf",
+        "meaning": "إلى اليسار عند تغيير الاتجاه.",
+        "phraseId": "a1-directions-03"
+      },
+      {
+        "term": "rechtsaf",
+        "kind": "expression",
+        "forms": "ga rechtsaf · sla rechtsaf",
+        "meaning": "إلى اليمين عند تغيير الاتجاه.",
+        "phraseId": "a1-directions-04"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "وجّه شخصاً: السير إلى الأمام ثم الانعطاف يميناً عند المتجر.",
+        "model": "Ga rechtdoor. Sla rechtsaf bij de winkel.",
+        "translation": "سر إلى الأمام. انعطف يميناً عند المتجر.",
+        "checklist": [
+          "هل ذكرت الاتجاهين بالترتيب؟",
+          "هل حددت مكان الانعطاف؟"
+        ]
+      },
+      {
+        "prompt": "في خريطة خيالية المحطة بجانب السوبرماركت. اسأل عن المحطة ثم أجب.",
+        "model": "Waar is het station? Het station is naast de supermarkt.",
+        "translation": "أين المحطة؟ المحطة بجانب السوبرماركت.",
+        "checklist": [
+          "هل بدأت السؤال بـWaar؟",
+          "هل وصفت الموقع بـnaast؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "public-transport",
+    "vocabulary": [
+      {
+        "term": "de bus",
+        "kind": "noun",
+        "forms": "de bussen",
+        "meaning": "الحافلة.",
+        "phraseId": "a1-public-transport-01"
+      },
+      {
+        "term": "het centrum",
+        "kind": "noun",
+        "forms": "de centra",
+        "meaning": "مركز المدينة هنا؛ centra جمع centrum.",
+        "phraseId": "a1-public-transport-01"
+      },
+      {
+        "term": "de halte",
+        "kind": "noun",
+        "forms": "de haltes",
+        "meaning": "موقف الحافلة أو الترام.",
+        "phraseId": "a1-public-transport-04"
+      },
+      {
+        "term": "de tram",
+        "kind": "noun",
+        "forms": "de trams",
+        "meaning": "الترام.",
+        "phraseId": "a1-public-transport-05"
+      },
+      {
+        "term": "uitstappen",
+        "kind": "verb",
+        "forms": "ik stap uit · u stapt uit · wij stappen uit",
+        "meaning": "ينزل من وسيلة النقل.",
+        "phraseId": "a1-public-transport-03"
+      },
+      {
+        "term": "reizen",
+        "kind": "verb",
+        "forms": "ik reis · u reist · wij reizen",
+        "meaning": "يسافر أو يتنقل.",
+        "phraseId": "a1-public-transport-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اسأل إن كانت الحافلة تذهب إلى المحطة، ثم اسأل أين تنزل.",
+        "model": "Gaat deze bus naar het station? Waar moet ik uitstappen?",
+        "translation": "هل تذهب هذه الحافلة إلى المحطة؟ أين يجب أن أنزل؟",
+        "checklist": [
+          "هل ذكرت الوجهة الجديدة؟",
+          "هل استخدمت uitstappen للسؤال عن النزول؟"
+        ]
+      },
+      {
+        "prompt": "أخبر زميلاً أنك تتنقل بالترام وتنزل عند الموقف التالي.",
+        "model": "Ik reis met de tram. Ik stap bij de volgende halte uit.",
+        "translation": "أتنقل بالترام. أنزل عند الموقف التالي.",
+        "checklist": [
+          "هل استخدمت met مع الترام؟",
+          "هل فصلت stap عن uit؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "train-tickets",
+    "vocabulary": [
+      {
+        "term": "het kaartje",
+        "kind": "noun",
+        "forms": "de kaartjes",
+        "meaning": "التذكرة؛ الجمع تذاكر.",
+        "phraseId": "a1-train-tickets-01"
+      },
+      {
+        "term": "de trein",
+        "kind": "noun",
+        "forms": "de treinen",
+        "meaning": "القطار.",
+        "phraseId": "a1-train-tickets-04"
+      },
+      {
+        "term": "de reis",
+        "kind": "noun",
+        "forms": "de reizen",
+        "meaning": "الرحلة.",
+        "phraseId": "a1-train-tickets-02"
+      },
+      {
+        "term": "vertrekken",
+        "kind": "verb",
+        "forms": "ik vertrek · de trein vertrekt · wij vertrekken",
+        "meaning": "يغادر أو ينطلق.",
+        "phraseId": "a1-train-tickets-05"
+      },
+      {
+        "term": "een enkele reis",
+        "kind": "expression",
+        "forms": "een enkele reis naar Utrecht",
+        "meaning": "رحلة ذهاب فقط.",
+        "phraseId": "a1-train-tickets-02"
+      },
+      {
+        "term": "een retour",
+        "kind": "expression",
+        "forms": "een retour naar Utrecht",
+        "meaning": "تذكرة ذهاب وعودة هنا.",
+        "phraseId": "a1-train-tickets-03"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اطلب تذكرة ذهاب فقط إلى أمستردام بأدب.",
+        "model": "Een enkele reis naar Amsterdam, alstublieft.",
+        "translation": "تذكرة ذهاب فقط إلى أمستردام، من فضلك.",
+        "checklist": [
+          "هل حددت أنها ذهاب فقط؟",
+          "هل ذكرت الوجهة؟"
+        ]
+      },
+      {
+        "prompt": "في جدول خيالي ينطلق القطار الساعة 11. اكتب السؤال عن الوقت والجواب.",
+        "model": "Hoe laat vertrekt de trein? De trein vertrekt om elf uur.",
+        "translation": "متى ينطلق القطار؟ ينطلق الساعة الحادية عشرة.",
+        "checklist": [
+          "هل استخدمت Hoe laat؟",
+          "هل طابق الجواب الساعة المطلوبة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "workday",
+    "vocabulary": [
+      {
+        "term": "de dienst",
+        "kind": "noun",
+        "forms": "de diensten",
+        "meaning": "الوردية أو فترة الدوام.",
+        "phraseId": "a1-workday-01"
+      },
+      {
+        "term": "de kantine",
+        "kind": "noun",
+        "forms": "de kantines",
+        "meaning": "المقصف في العمل.",
+        "phraseId": "a1-workday-03"
+      },
+      {
+        "term": "de pauze",
+        "kind": "noun",
+        "forms": "de pauzes",
+        "meaning": "الاستراحة.",
+        "phraseId": "a1-workday-04"
+      },
+      {
+        "term": "beginnen",
+        "kind": "verb",
+        "forms": "ik begin · de dienst begint · wij beginnen",
+        "meaning": "يبدأ.",
+        "phraseId": "a1-workday-02"
+      },
+      {
+        "term": "hebben",
+        "kind": "verb",
+        "forms": "ik heb · u heeft · wij hebben",
+        "meaning": "لديه؛ we hebben pauze لدينا استراحة.",
+        "phraseId": "a1-workday-05"
+      },
+      {
+        "term": "hoe laat",
+        "kind": "expression",
+        "forms": "hoe laat begint · hoe laat is",
+        "meaning": "في أي ساعة؟",
+        "phraseId": "a1-workday-01"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "في جدول خيالي تبدأ ورديتك التاسعة والاستراحة الواحدة. اكتب المعلومتين.",
+        "model": "Mijn dienst begint om negen uur. We hebben pauze om één uur.",
+        "translation": "تبدأ ورديتي التاسعة. لدينا استراحة الواحدة.",
+        "checklist": [
+          "هل ذكرت الساعة لكل نشاط؟",
+          "هل استخدمت begint للمفرد وhebben مع we؟"
+        ]
+      },
+      {
+        "prompt": "اسأل زميلاً عن المقصف ووقت الاستراحة.",
+        "model": "Waar is de kantine? Wanneer hebben we pauze?",
+        "translation": "أين المقصف؟ متى لدينا استراحة؟",
+        "checklist": [
+          "هل فرقت بين سؤال المكان والوقت؟",
+          "هل استخدمت we عند الحديث عن الفريق؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "doctor-appointment",
+    "vocabulary": [
+      {
+        "term": "de afspraak",
+        "kind": "noun",
+        "forms": "de afspraken",
+        "meaning": "الموعد المرتب مسبقاً.",
+        "phraseId": "a1-doctor-01"
+      },
+      {
+        "term": "de rug",
+        "kind": "noun",
+        "forms": "de ruggen",
+        "meaning": "الظهر؛ الجمع ظهور.",
+        "phraseId": "a1-doctor-02"
+      },
+      {
+        "term": "het medicijn",
+        "kind": "noun",
+        "forms": "de medicijnen",
+        "meaning": "الدواء؛ medicijnen جمع.",
+        "phraseId": "a1-doctor-05"
+      },
+      {
+        "term": "gebruiken",
+        "kind": "verb",
+        "forms": "ik gebruik · u gebruikt · wij gebruiken",
+        "meaning": "يستخدم أو يتناول دواء بحسب السياق.",
+        "phraseId": "a1-doctor-05"
+      },
+      {
+        "term": "pijn hebben",
+        "kind": "expression",
+        "forms": "ik heb pijn · u heeft pijn",
+        "meaning": "يشعر بالألم.",
+        "phraseId": "a1-doctor-02"
+      },
+      {
+        "term": "sinds gisteren",
+        "kind": "expression",
+        "forms": "sinds gisteren · sinds maandag",
+        "meaning": "منذ أمس؛ بداية حالة مستمرة.",
+        "phraseId": "a1-doctor-04"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب جملة لحجز موعد وجملة عن ألم خيالي في الذراع منذ أمس.",
+        "model": "Ik wil graag een afspraak maken. Ik heb sinds gisteren pijn in mijn arm.",
+        "translation": "أرغب في حجز موعد. لدي ألم في ذراعي منذ أمس.",
+        "checklist": [
+          "هل ذكرت الموضع وبداية الألم؟",
+          "هل بقي الوصف لغوياً دون اقتراح علاج؟"
+        ]
+      },
+      {
+        "prompt": "اسأل المتحدث عن بداية الألم، ثم اكتب جواباً خيالياً: منذ الاثنين.",
+        "model": "Sinds wanneer heeft u pijn? Sinds maandag.",
+        "translation": "منذ متى تشعر بالألم؟ منذ الاثنين.",
+        "checklist": [
+          "هل استخدمت Sinds wanneer؟",
+          "هل وافق الجواب اليوم المطلوب؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "pharmacy",
+    "vocabulary": [
+      {
+        "term": "het medicijn",
+        "kind": "noun",
+        "forms": "de medicijnen",
+        "meaning": "الدواء.",
+        "phraseId": "a1-pharmacy-01"
+      },
+      {
+        "term": "het recept",
+        "kind": "noun",
+        "forms": "de recepten",
+        "meaning": "الوصفة الطبية هنا، لا وصفة طعام.",
+        "phraseId": "a1-pharmacy-02"
+      },
+      {
+        "term": "ophalen",
+        "kind": "verb",
+        "forms": "ik haal op · u haalt op · wij halen op",
+        "meaning": "يأتي لاستلام شيء.",
+        "phraseId": "a1-pharmacy-01"
+      },
+      {
+        "term": "gebruiken",
+        "kind": "verb",
+        "forms": "ik gebruik · u gebruikt · wij gebruiken",
+        "meaning": "يستخدم؛ السؤال عن الطريقة لا يقررها.",
+        "phraseId": "a1-pharmacy-04"
+      },
+      {
+        "term": "opschrijven",
+        "kind": "verb",
+        "forms": "ik schrijf op · u schrijft op · wij schrijven op",
+        "meaning": "يدوّن كتابةً.",
+        "phraseId": "a1-pharmacy-05"
+      },
+      {
+        "term": "dit",
+        "kind": "expression",
+        "forms": "dit medicijn · dit recept",
+        "meaning": "هذا مع اسم مفرد من فئة het.",
+        "phraseId": "a1-pharmacy-04"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "تخيل أنك تستلم دواءً ولا تفهم التعليمات. اطلب شرح الاستخدام وكتابته.",
+        "model": "Hoe gebruik ik dit medicijn? Kunt u dat voor mij opschrijven?",
+        "translation": "كيف أستخدم هذا الدواء؟ هل يمكنك كتابة ذلك لي؟",
+        "checklist": [
+          "هل طلبت التوضيح دون تخمين الجرعة؟",
+          "هل أضفت طلب الكتابة؟"
+        ]
+      },
+      {
+        "prompt": "يسألك الصيدلي Heeft u een recept? أجب بالإيجاب وقدّم الوصفة في هذا الحوار الخيالي.",
+        "model": "Ja, hier is het recept. Ik kom mijn medicijnen ophalen.",
+        "translation": "نعم، ها هي الوصفة. جئت لاستلام أدويتي.",
+        "checklist": [
+          "هل أجبت عن السؤال أولاً؟",
+          "هل استخدمت het مع recept؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "numbers-and-prices",
+    "vocabulary": [
+      {
+        "term": "het getal",
+        "kind": "noun",
+        "forms": "de getallen",
+        "meaning": "العدد.",
+        "phraseId": "a1-numbers-and-prices-01"
+      },
+      {
+        "term": "de stap",
+        "kind": "noun",
+        "forms": "de stappen",
+        "meaning": "الخطوة؛ هنا زيادة في العد.",
+        "phraseId": "a1-numbers-and-prices-05"
+      },
+      {
+        "term": "lezen",
+        "kind": "verb",
+        "forms": "ik lees · u leest · wij lezen",
+        "meaning": "يقرأ الأعداد أو الكلمات.",
+        "phraseId": "a1-numbers-and-prices-01"
+      },
+      {
+        "term": "tellen",
+        "kind": "verb",
+        "forms": "ik tel · u telt · wij tellen",
+        "meaning": "يعدّ.",
+        "phraseId": "a1-numbers-and-prices-05"
+      },
+      {
+        "term": "tweeëntwintig",
+        "kind": "expression",
+        "forms": "tweeëntwintig = 22 · tweeëndertig = 32",
+        "meaning": "اثنان وعشرون؛ الآحاد قبل العشرات.",
+        "phraseId": "a1-numbers-and-prices-08"
+      },
+      {
+        "term": "plus",
+        "kind": "expression",
+        "forms": "twintig plus twee",
+        "meaning": "زائد في عملية الجمع.",
+        "phraseId": "a1-numbers-and-prices-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب ثمن سلعة خيالية: 35 يورو، بالكلمات.",
+        "model": "Dat kost vijfendertig euro.",
+        "translation": "ثمنها خمسة وثلاثون يورو.",
+        "checklist": [
+          "هل وضعت vijf قبل dertig؟",
+          "هل كتبت العدد كلمة واحدة؟"
+        ]
+      },
+      {
+        "prompt": "اكتب رقم منزل خيالي 48 بالكلمات.",
+        "model": "Mijn huisnummer is achtenveertig.",
+        "translation": "رقم منزلي ثمانية وأربعون.",
+        "checklist": [
+          "هل فرقت بين veertien وveertig؟",
+          "هل سبق الآحاد العشرات؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "months-and-seasons",
+    "vocabulary": [
+      {
+        "term": "de maand",
+        "kind": "noun",
+        "forms": "de maanden",
+        "meaning": "الشهر.",
+        "phraseId": "a1-months-and-seasons-01"
+      },
+      {
+        "term": "de zomer",
+        "kind": "noun",
+        "forms": "de zomers",
+        "meaning": "الصيف.",
+        "phraseId": "a1-months-and-seasons-08"
+      },
+      {
+        "term": "de vakantie",
+        "kind": "noun",
+        "forms": "de vakanties",
+        "meaning": "الإجازة أو العطلة.",
+        "phraseId": "a1-months-and-seasons-07"
+      },
+      {
+        "term": "komen",
+        "kind": "verb",
+        "forms": "ik kom · de maanden komen · wij komen",
+        "meaning": "يأتي؛ هنا في تسلسل الأشهر.",
+        "phraseId": "a1-months-and-seasons-01"
+      },
+      {
+        "term": "daarna",
+        "kind": "expression",
+        "forms": "en daarna · daarna komt",
+        "meaning": "بعد ذلك.",
+        "phraseId": "a1-months-and-seasons-03"
+      },
+      {
+        "term": "in juli",
+        "kind": "expression",
+        "forms": "in juli · in december",
+        "meaning": "في يوليو؛ in مع اسم الشهر.",
+        "phraseId": "a1-months-and-seasons-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "لشخصية خيالية إجازة في ديسمبر. اكتب جملة تذكر الشهر والفصل في هولندا.",
+        "model": "In december heb ik vakantie, in de winter.",
+        "translation": "لدي إجازة في ديسمبر، في الشتاء.",
+        "checklist": [
+          "هل استخدمت in december؟",
+          "هل كتبت in de winter؟"
+        ]
+      },
+      {
+        "prompt": "رتّب أشهر الربيع مارس وأبريل ومايو بالهولندية.",
+        "model": "Maart, april en mei.",
+        "translation": "مارس وأبريل ومايو.",
+        "checklist": [
+          "هل كتبت الأشهر بالترتيب؟",
+          "هل استخدمت حرفاً صغيراً في april وmei؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a-train-connection",
+    "vocabulary": [
+      {
+        "term": "het spoor",
+        "kind": "noun",
+        "forms": "de sporen",
+        "meaning": "مسار القطار أو رقم رصيفه.",
+        "phraseId": "a1-a-train-connection-02"
+      },
+      {
+        "term": "het station",
+        "kind": "noun",
+        "forms": "de stations",
+        "meaning": "محطة القطار.",
+        "phraseId": "a1-a-train-connection-04"
+      },
+      {
+        "term": "de reis",
+        "kind": "noun",
+        "forms": "de reizen",
+        "meaning": "الرحلة.",
+        "phraseId": "a1-a-train-connection-08"
+      },
+      {
+        "term": "overstappen",
+        "kind": "verb",
+        "forms": "ik stap over · u stapt over · wij stappen over",
+        "meaning": "يغيّر القطار أو وسيلة النقل.",
+        "phraseId": "a1-a-train-connection-04"
+      },
+      {
+        "term": "aankomen",
+        "kind": "verb",
+        "forms": "ik kom aan · u komt aan · wij komen aan",
+        "meaning": "يصل.",
+        "phraseId": "a1-a-train-connection-05"
+      },
+      {
+        "term": "duren",
+        "kind": "verb",
+        "forms": "de reis duurt · de reizen duren",
+        "meaning": "يستغرق مدة.",
+        "phraseId": "a1-a-train-connection-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "رحلة خيالية تنطلق 09:00 وتصل 09:30. اكتب الوقتين بالكلمات.",
+        "model": "De trein vertrekt om negen uur en komt om half tien aan.",
+        "translation": "ينطلق القطار التاسعة ويصل التاسعة والنصف.",
+        "checklist": [
+          "هل ميزت vertrekken من aankomen؟",
+          "هل استخدمت half tien لوقت 09:30؟"
+        ]
+      },
+      {
+        "prompt": "اسأل الموظف إن كنت تحتاج تغيير القطار، ثم عن وقت الوصول.",
+        "model": "Moet ik overstappen? Hoe laat kom ik aan?",
+        "translation": "هل يجب أن أغيّر القطار؟ متى أصل؟",
+        "checklist": [
+          "هل بقي overstappen متصلاً بعد moet؟",
+          "هل انفصل kom عن aan؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "asking-at-work",
+    "vocabulary": [
+      {
+        "term": "de doos",
+        "kind": "noun",
+        "forms": "de dozen",
+        "meaning": "الصندوق.",
+        "phraseId": "a1-asking-at-work-02"
+      },
+      {
+        "term": "de lijst",
+        "kind": "noun",
+        "forms": "de lijsten",
+        "meaning": "القائمة المكتوبة.",
+        "phraseId": "a1-asking-at-work-04"
+      },
+      {
+        "term": "de computer",
+        "kind": "noun",
+        "forms": "de computers",
+        "meaning": "الحاسوب.",
+        "phraseId": "a1-asking-at-work-05"
+      },
+      {
+        "term": "controleren",
+        "kind": "verb",
+        "forms": "ik controleer · u controleert · wij controleren",
+        "meaning": "يفحص أو يتحقق.",
+        "phraseId": "a1-asking-at-work-02"
+      },
+      {
+        "term": "voordoen",
+        "kind": "verb",
+        "forms": "ik doe voor · je doet voor · wij doen voor",
+        "meaning": "يشرح عملياً بعرض الفعل.",
+        "phraseId": "a1-asking-at-work-06"
+      },
+      {
+        "term": "helpen",
+        "kind": "verb",
+        "forms": "ik help · je helpt · wij helpen",
+        "meaning": "يساعد.",
+        "phraseId": "a1-asking-at-work-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب تعليمات لزميل: افحص ثلاثة صناديق أولاً ثم ضعها على الطاولة.",
+        "model": "Controleer eerst drie dozen. Zet ze daarna op de tafel.",
+        "translation": "افحص ثلاثة صناديق أولاً. ضعها بعد ذلك على الطاولة.",
+        "checklist": [
+          "هل حددت العدد؟",
+          "هل حافظت على ترتيب الفحص ثم النقل؟"
+        ]
+      },
+      {
+        "prompt": "لم تفهم المهمة. اطلب من زميل أن يريك الطريقة واشكره.",
+        "model": "Kun je het voordoen? Dank je voor je hulp.",
+        "translation": "هل يمكنك أن تريني الطريقة؟ شكراً لمساعدتك.",
+        "checklist": [
+          "هل طلبت شرحاً عملياً؟",
+          "هل حافظت على je في الحديث غير الرسمي؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "describing-symptoms",
+    "vocabulary": [
+      {
+        "term": "de arm",
+        "kind": "noun",
+        "forms": "de armen",
+        "meaning": "الذراع.",
+        "phraseId": "a1-describing-symptoms-02"
+      },
+      {
+        "term": "de klacht",
+        "kind": "noun",
+        "forms": "de klachten",
+        "meaning": "العرض أو الشكوى الصحية هنا.",
+        "phraseId": "a1-describing-symptoms-03"
+      },
+      {
+        "term": "het woord",
+        "kind": "noun",
+        "forms": "de woorden",
+        "meaning": "الكلمة.",
+        "phraseId": "a1-describing-symptoms-06"
+      },
+      {
+        "term": "uitleggen",
+        "kind": "verb",
+        "forms": "ik leg uit · u legt uit · wij leggen uit",
+        "meaning": "يشرح.",
+        "phraseId": "a1-describing-symptoms-06"
+      },
+      {
+        "term": "begrijpen",
+        "kind": "verb",
+        "forms": "ik begrijp · u begrijpt · wij begrijpen",
+        "meaning": "يفهم.",
+        "phraseId": "a1-describing-symptoms-07"
+      },
+      {
+        "term": "moe",
+        "kind": "expression",
+        "forms": "ik ben moe · ook moe",
+        "meaning": "متعب؛ وصف لا يشخّص سبب التعب.",
+        "phraseId": "a1-describing-symptoms-04"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صف في موقف خيالي ألماً في القدم منذ الاثنين. de voet تعني القدم.",
+        "model": "Ik heb sinds maandag pijn in mijn voet.",
+        "translation": "أشعر بألم في قدمي منذ الاثنين.",
+        "checklist": [
+          "هل ذكرت موضع الألم؟",
+          "هل استخدمت sinds مع بداية المدة؟"
+        ]
+      },
+      {
+        "prompt": "لا تفهم كلمة في حديث الموظف. اطلب شرحاً بسيطاً وكتابة الكلمة.",
+        "model": "Kunt u dat in eenvoudige woorden uitleggen? Kunt u dit woord opschrijven?",
+        "translation": "هل يمكنك شرح ذلك بكلمات بسيطة؟ هل يمكنك كتابة هذه الكلمة؟",
+        "checklist": [
+          "هل طلبت التوضيح بأدب؟",
+          "هل وضعت المصدر في نهاية كل سؤال؟"
+        ]
       }
     ]
   }

@@ -111,6 +111,6 @@ test("entry points stay discoverable, malformed drafts are discarded, and answer
   await expect(page.getByRole("link", { name: "جرّب اختبار البداية المجاني" })).toHaveAttribute("href", "/placement");
   await page.goto("/exams");
   await expect(page.getByRole("link", { name: "جرّب اختبار البداية", exact: true })).toHaveAttribute("href", "/placement");
-  await expect(page.getByRole("button", { name: "متاح قريباً" })).toBeDisabled();
+  await expect(page.getByRole("button", { name: "غير متاح حالياً" })).toBeDisabled();
   await expect(page.locator(".exam-price")).toHaveText("€4.95");
 });

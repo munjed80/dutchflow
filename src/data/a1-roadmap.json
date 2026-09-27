@@ -35,15 +35,17 @@
       "time-and-days",
       "daily-routine",
       "dates-and-calendar",
-      "weekly-routine"
+      "weekly-routine",
+      "numbers-and-prices",
+      "months-and-seasons"
     ],
     "readingSlugs": [
       "a-morning-routine",
       "a-week-of-language-lessons"
     ],
     "remaining": [
-      "استكمال الأعداد والأشهر وقراءة التواريخ في صيغ متنوعة.",
-      "تسجيل جداول ومواعيد جديدة للاستماع دون نص، ومحادثة لتنسيق موعد."
+      "تسجيل الأعداد والأشهر ومراجعة نطقها، مع أسئلة على أوقات وتواريخ جديدة.",
+      "تدريب شفهي مستقل لتنسيق موعد ومراجعة الأداء مع معلّم."
     ]
   },
   {
@@ -129,14 +131,16 @@
     "lessonSlugs": [
       "directions",
       "public-transport",
-      "train-tickets"
+      "train-tickets",
+      "a-train-connection"
     ],
     "readingSlugs": [
-      "a-different-bus-stop"
+      "a-different-bus-stop",
+      "a-journey-with-a-change"
     ],
     "remaining": [
-      "خرائط وجداول وصول وانطلاق.",
-      "إعلانات قصيرة مسموعة وتطبيق على رحلة جديدة."
+      "قراءة خريطة مرئية وجداول رحلات أوسع.",
+      "تسجيل إعلانات جديدة وممارسة سؤال شفهي عن رحلة مختلفة."
     ]
   },
   {
@@ -149,14 +153,16 @@
     ],
     "lessonSlugs": [
       "doctor-appointment",
-      "pharmacy"
+      "pharmacy",
+      "describing-symptoms"
     ],
     "readingSlugs": [
-      "a-changed-appointment"
+      "a-changed-appointment",
+      "a-question-at-the-practice"
     ],
     "remaining": [
-      "مفردات الجسم والأعراض ضمن أمثلة لغوية مراجعة.",
-      "حوارات مستقلة وتوضيح التعليمات دون تقديم نصائح طبية."
+      "توسيع أسماء أعضاء الجسم والأعراض في سياقات لغوية.",
+      "تسجيل حوار جديد للاستماع، ومراجعة وصف شفهي مستقل دون تقديم إرشادات علاجية."
     ]
   },
   {
@@ -191,14 +197,16 @@
       "أطلب مساعدة من زميل."
     ],
     "lessonSlugs": [
-      "workday"
+      "workday",
+      "asking-at-work"
     ],
     "readingSlugs": [
-      "a-workday-message"
+      "a-workday-message",
+      "a-colleague-shows-the-task"
     ],
     "remaining": [
-      "المهن والأماكن والأدوات الشائعة.",
-      "وصف مهمة وتبادل أدوار مع زميل."
+      "توسيع المهن وأماكن العمل والمفردات المرتبطة بها.",
+      "تسجيل تعليمات جديدة، وممارسة مهمة شفهية مع تصحيح مستقل."
     ]
   },
   {

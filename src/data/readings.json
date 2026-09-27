@@ -1081,8 +1081,8 @@
       "family-at-home",
       "message-to-school"
     ],
-    "text": "Goedemorgen juf Emma, mijn dochter Lina is vandaag ziek en blijft thuis. Zij heeft sinds vannacht koorts. Kunt u het huiswerk naar mij mailen? Mijn man is vanmiddag thuis, dus u kunt hem ook bellen als dat makkelijker is. Als Lina morgen geen koorts meer heeft, komt zij weer naar school. Alvast bedankt voor uw hulp. Met vriendelijke groet, Samira Haddad.",
-    "translation": "صباح الخير يا معلمة إيما، ابنتي لينا مريضة اليوم وستبقى في البيت. لديها حمى منذ الليلة الماضية. هل يمكنك إرسال الواجب إليّ بالبريد؟ زوجي سيكون في البيت بعد الظهر، لذلك يمكنك أيضاً الاتصال به إذا كان ذلك أسهل. إذا لم تعد لدى لينا حمى غداً، فستعود إلى المدرسة. شكراً مقدماً على مساعدتك. مع خالص التحية، سميرة حداد.",
+    "text": "Goedemorgen juf Emma, mijn dochter Lina is vandaag ziek en blijft thuis. Zij heeft sinds vannacht koorts. Kunt u het huiswerk naar mij mailen? Mijn man is vanmiddag thuis, dus u kunt hem ook bellen als dat makkelijker is. Ik weet nog niet of Lina morgen naar school komt. Ik bel u morgenochtend. Alvast bedankt voor uw hulp. Met vriendelijke groet, Samira Haddad.",
+    "translation": "صباح الخير يا معلمة إيما، ابنتي لينا مريضة اليوم وستبقى في البيت. لديها حمى منذ الليلة الماضية. هل يمكنك إرسال الواجب إليّ بالبريد؟ زوجي سيكون في البيت بعد الظهر، لذلك يمكنك أيضاً الاتصال به إذا كان ذلك أسهل. لا أعرف بعد إن كانت لينا ستأتي إلى المدرسة غداً. سأتصل بك غداً صباحاً. شكراً مقدماً على مساعدتك. مع خالص التحية، سميرة حداد.",
     "vocabulary": [
       {
         "term": "afwezig",
@@ -1092,7 +1092,7 @@
       {
         "term": "sinds vannacht",
         "excerpt": "sinds vannacht",
-        "meaning": "منذ الليلة الماضية أو منذ منتصف الليل تقريباً."
+        "meaning": "منذ الليلة الماضية؛ لا يحدد التعبير ساعة بداية الحمى."
       },
       {
         "term": "mailen",
@@ -1155,15 +1155,15 @@
       },
       {
         "id": "reading-absence-4",
-        "prompt": "متى يمكن أن تعود لينا إلى المدرسة؟",
+        "prompt": "ماذا ستفعل سميرة غداً صباحاً؟",
         "options": [
-          "إذا زالت الحمى غداً",
-          "بعد أسبوع فقط",
-          "في نهاية اليوم نفسه"
+          "ستتصل بالمعلمة",
+          "ستحضر لينا حتماً",
+          "سترسل الواجب"
         ],
         "correctIndex": 0,
-        "evidence": "Als Lina morgen geen koorts meer heeft, komt zij weer naar school.",
-        "explanation": "العودة مرتبطة بالشرط المذكور: ألا تكون لديها حمى غداً."
+        "evidence": "Ik bel u morgenochtend.",
+        "explanation": "الأم تعد باتصال صباح الغد؛ عودة لينا لم تتأكد بعد."
       }
     ]
   },
@@ -1262,6 +1262,308 @@
         "correctIndex": 0,
         "evidence": "Vermeld in uw bericht altijd uw naam en geboortedatum.",
         "explanation": "naam وgeboortedatum هما المعلومتان المطلوبتان دائماً في الرسالة."
+      }
+    ]
+  },
+  {
+    "slug": "a-journey-with-a-change",
+    "title": "رحلة مع تغيير القطار",
+    "dutchTitle": "Een reis met een overstap",
+    "topic": "قراءة مواعيد رحلة خيالية",
+    "sourceLessons": [
+      "train-tickets",
+      "a-train-connection",
+      "time-and-days"
+    ],
+    "text": "Nour reist woensdag naar station Noord. Haar trein vertrekt om 09.10 uur vanaf spoor 2. Om 09.25 uur komt ze op station Centrum aan. Daar stapt ze over. De volgende trein vertrekt om 09.35 uur vanaf spoor 4. Om 09.50 uur is ze in Noord. Haar afspraak is om 10.15 uur, naast het station. Ze koopt een retour, want ze gaat dezelfde dag terug.",
+    "translation": "تسافر نور يوم الأربعاء إلى محطة نورد. ينطلق قطارها الساعة 09:10 من الرصيف 2. تصل إلى محطة سنتروم الساعة 09:25 وتغيّر القطار هناك. ينطلق القطار التالي الساعة 09:35 من الرصيف 4. تصل إلى نورد الساعة 09:50. موعدها الساعة 10:15 بجانب المحطة. تشتري تذكرة ذهاب وعودة لأنها ستعود في اليوم نفسه.",
+    "vocabulary": [
+      {
+        "term": "het spoor",
+        "excerpt": "spoor 2",
+        "meaning": "رقم المسار أو الرصيف هنا."
+      },
+      {
+        "term": "overstappen",
+        "excerpt": "stapt ze over",
+        "meaning": "تغيّر القطار في محطة وسطية."
+      },
+      {
+        "term": "aankomen",
+        "excerpt": "komt ze op station Centrum aan",
+        "meaning": "تصل إلى محطة سنتروم."
+      },
+      {
+        "term": "de volgende trein",
+        "excerpt": "De volgende trein",
+        "meaning": "القطار التالي في مسار الرحلة."
+      },
+      {
+        "term": "een retour",
+        "excerpt": "een retour",
+        "meaning": "تذكرة ذهاب وعودة."
+      },
+      {
+        "term": "dezelfde dag",
+        "excerpt": "dezelfde dag",
+        "meaning": "اليوم نفسه، وليس اليوم التالي."
+      }
+    ],
+    "grammar": {
+      "title": "want يشرح السبب",
+      "example": "Ze koopt een retour, want ze gaat dezelfde dag terug.",
+      "translation": "تشتري تذكرة ذهاب وعودة لأنها تعود في اليوم نفسه.",
+      "explanation": "بعد want تأتي هنا جملة رئيسية: ze gaat. السبب يوضح اختيار تذكرة الذهاب والعودة."
+    },
+    "questions": [
+      {
+        "id": "reading-a-journey-with-a-change-1",
+        "prompt": "كم تنتظر نور في سنتروم بين الوصول وانطلاق القطار التالي؟",
+        "options": [
+          "10 دقائق",
+          "25 دقيقة",
+          "40 دقيقة"
+        ],
+        "correctIndex": 0,
+        "evidence": "Om 09.25 uur komt ze op station Centrum aan. Daar stapt ze over. De volgende trein vertrekt om 09.35 uur vanaf spoor 4.",
+        "explanation": "من 09:25 إلى 09:35 عشر دقائق."
+      },
+      {
+        "id": "reading-a-journey-with-a-change-2",
+        "prompt": "من أي رصيف ينطلق القطار الثاني؟",
+        "options": [
+          "الرصيف 2",
+          "الرصيف 4",
+          "لا يذكر النص"
+        ],
+        "correctIndex": 1,
+        "evidence": "De volgende trein vertrekt om 09.35 uur vanaf spoor 4.",
+        "explanation": "الرصيف 2 للقطار الأول؛ الرصيف 4 للثاني."
+      },
+      {
+        "id": "reading-a-journey-with-a-change-3",
+        "prompt": "هل تصل إلى نورد قبل موعدها؟",
+        "options": [
+          "لا، تصل بعده",
+          "تصل في وقت الموعد نفسه",
+          "نعم، قبل الموعد بـ25 دقيقة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Om 09.50 uur is ze in Noord. Haar afspraak is om 10.15 uur, naast het station.",
+        "explanation": "الفارق بين 09:50 و10:15 هو 25 دقيقة."
+      },
+      {
+        "id": "reading-a-journey-with-a-change-4",
+        "prompt": "لماذا تختار retour؟",
+        "options": [
+          "ستعود في اليوم نفسه",
+          "تسافر وحدها",
+          "القطار متأخر"
+        ],
+        "correctIndex": 0,
+        "evidence": "Ze koopt een retour, want ze gaat dezelfde dag terug.",
+        "explanation": "السبب المذكور هو العودة في اليوم نفسه."
+      }
+    ]
+  },
+  {
+    "slug": "a-colleague-shows-the-task",
+    "title": "زميل يوضح المهمة",
+    "dutchTitle": "Een collega doet het voor",
+    "topic": "ترتيب العمل وطلب المساعدة",
+    "sourceLessons": [
+      "workday",
+      "asking-at-work"
+    ],
+    "text": "Rami werkt vandaag met Eva in het magazijn. Hij begint om negen uur. Er staan zes dozen op de tafel. Eerst telt hij de dozen. Daarna controleert hij de namen op de lijst. De lijst ligt bij de computer, niet in de kast. Rami begrijpt één woord niet. Hij vraagt Eva om hulp. Zij legt het woord uit en doet de taak één keer voor. Daarna probeert Rami het zelf. Om half elf hebben ze pauze.",
+    "translation": "يعمل رامي اليوم مع إيڤا في المستودع. يبدأ الساعة التاسعة. توجد ستة صناديق على الطاولة. يعدّ الصناديق أولاً ثم يتحقق من الأسماء في القائمة. القائمة عند الحاسوب، وليست في الخزانة. لا يفهم رامي كلمة واحدة فيطلب مساعدة إيڤا. تشرح الكلمة وتعرض طريقة أداء المهمة مرة واحدة. بعد ذلك يحاول رامي بنفسه. لديهما استراحة الساعة العاشرة والنصف.",
+    "vocabulary": [
+      {
+        "term": "het magazijn",
+        "excerpt": "het magazijn",
+        "meaning": "المستودع؛ جمعه magazijnen."
+      },
+      {
+        "term": "tellen",
+        "excerpt": "telt",
+        "meaning": "يعدّ الصناديق."
+      },
+      {
+        "term": "de lijst",
+        "excerpt": "De lijst",
+        "meaning": "قائمة الأسماء."
+      },
+      {
+        "term": "uitleggen",
+        "excerpt": "legt het woord uit",
+        "meaning": "يشرح الكلمة؛ الفعل منفصل هنا."
+      },
+      {
+        "term": "voordoen",
+        "excerpt": "doet de taak één keer voor",
+        "meaning": "يعرض كيفية أداء المهمة عملياً."
+      },
+      {
+        "term": "zelf",
+        "excerpt": "zelf",
+        "meaning": "بنفسه بعد مشاهدة الشرح."
+      }
+    ],
+    "grammar": {
+      "title": "بعد Daarna يأتي الفعل",
+      "example": "Daarna probeert Rami het zelf.",
+      "translation": "بعد ذلك يحاول رامي بنفسه.",
+      "explanation": "Daarna في الموقع الأول، ثم الفعل probeert، ثم الفاعل Rami. het يعود إلى أداء المهمة."
+    },
+    "questions": [
+      {
+        "id": "reading-a-colleague-shows-the-task-1",
+        "prompt": "ماذا يفعل رامي قبل فحص الأسماء؟",
+        "options": [
+          "يعدّ الصناديق",
+          "يضع القائمة في الخزانة",
+          "يأخذ استراحة"
+        ],
+        "correctIndex": 0,
+        "evidence": "Eerst telt hij de dozen. Daarna controleert hij de namen op de lijst.",
+        "explanation": "eerst قبل daarna؛ العد أولاً ثم التحقق."
+      },
+      {
+        "id": "reading-a-colleague-shows-the-task-2",
+        "prompt": "أين القائمة؟",
+        "options": [
+          "في الخزانة",
+          "عند الحاسوب",
+          "داخل صندوق"
+        ],
+        "correctIndex": 1,
+        "evidence": "De lijst ligt bij de computer, niet in de kast.",
+        "explanation": "الجملة تحدد الحاسوب وتنفي الخزانة."
+      },
+      {
+        "id": "reading-a-colleague-shows-the-task-3",
+        "prompt": "لماذا يطلب مساعدة إيڤا؟",
+        "options": [
+          "لأنها متأخرة",
+          "لأنه لا يعرف عدد الصناديق",
+          "لأنه لا يفهم كلمة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Rami begrijpt één woord niet. Hij vraagt Eva om hulp.",
+        "explanation": "سبب طلب المساعدة هو كلمة لم يفهمها."
+      },
+      {
+        "id": "reading-a-colleague-shows-the-task-4",
+        "prompt": "متى الاستراحة في هذا الدوام الصباحي؟",
+        "options": [
+          "11:30",
+          "10:30",
+          "09:00"
+        ],
+        "correctIndex": 1,
+        "evidence": "Om half elf hebben ze pauze.",
+        "explanation": "half elf هي 10:30؛ التاسعة بداية العمل."
+      }
+    ]
+  },
+  {
+    "slug": "a-question-at-the-practice",
+    "title": "طلب توضيح في العيادة",
+    "dutchTitle": "Een vraag bij de praktijk",
+    "topic": "وصف بسيط وطلب شرح مكتوب",
+    "sourceLessons": [
+      "doctor-appointment",
+      "pharmacy",
+      "describing-symptoms"
+    ],
+    "text": "Lina heeft dinsdag om elf uur een afspraak bij de huisarts. Haar voet doet sinds maandag pijn. Bij de balie noemt ze haar naam. Daarna wacht ze in de wachtkamer. Tijdens het gesprek begrijpt ze een woord niet. Ze vraagt: \"Kunt u dat in eenvoudige woorden uitleggen?\" De huisarts legt het woord uit en schrijft het voor haar op. Thuis leest Lina de uitleg nog een keer. Ze schrijft ook een vraag voor haar volgende gesprek op.",
+    "translation": "لدى لينا موعد عند طبيب الأسرة يوم الثلاثاء الساعة الحادية عشرة. قدمها تؤلمها منذ الاثنين. تذكر اسمها عند الاستقبال ثم تنتظر في غرفة الانتظار. أثناء الحديث لا تفهم كلمة، فتسأل: «هل يمكنك شرح ذلك بكلمات بسيطة؟» يشرح الطبيب الكلمة ويكتبها لها. تقرأ لينا الشرح في المنزل مرة أخرى، وتدوّن أيضاً سؤالاً لحديثها التالي.",
+    "vocabulary": [
+      {
+        "term": "de voet",
+        "excerpt": "Haar voet",
+        "meaning": "القدم؛ جمعها de voeten."
+      },
+      {
+        "term": "de balie",
+        "excerpt": "de balie",
+        "meaning": "مكتب الاستقبال."
+      },
+      {
+        "term": "de wachtkamer",
+        "excerpt": "de wachtkamer",
+        "meaning": "غرفة الانتظار."
+      },
+      {
+        "term": "tijdens",
+        "excerpt": "Tijdens",
+        "meaning": "أثناء؛ هنا أثناء الحديث."
+      },
+      {
+        "term": "eenvoudig",
+        "excerpt": "eenvoudige woorden",
+        "meaning": "بسيط؛ كلمات سهلة الفهم."
+      },
+      {
+        "term": "de uitleg",
+        "excerpt": "de uitleg",
+        "meaning": "الشرح الذي تقرؤه لينا."
+      }
+    ],
+    "grammar": {
+      "title": "sinds يحدد البداية",
+      "example": "Haar voet doet sinds maandag pijn.",
+      "translation": "قدمها تؤلمها منذ الاثنين.",
+      "explanation": "يصف المضارع حالة مستمرة، وsinds maandag يحدد بدايتها. يوم الموعد مختلف عن يوم بدء الألم."
+    },
+    "questions": [
+      {
+        "id": "reading-a-question-at-the-practice-1",
+        "prompt": "متى موعد لينا؟",
+        "options": [
+          "الاثنين 11:00",
+          "الثلاثاء 11:00",
+          "الثلاثاء 09:00"
+        ],
+        "correctIndex": 1,
+        "evidence": "Lina heeft dinsdag om elf uur een afspraak bij de huisarts.",
+        "explanation": "dinsdag الثلاثاء؛ الاثنين بداية الألم."
+      },
+      {
+        "id": "reading-a-question-at-the-practice-2",
+        "prompt": "منذ متى تؤلمها القدم؟",
+        "options": [
+          "منذ الاثنين",
+          "منذ الثلاثاء",
+          "منذ شهر"
+        ],
+        "correctIndex": 0,
+        "evidence": "Haar voet doet sinds maandag pijn.",
+        "explanation": "sinds maandag منذ الاثنين."
+      },
+      {
+        "id": "reading-a-question-at-the-practice-3",
+        "prompt": "ماذا تطلب لينا عندما لا تفهم الكلمة؟",
+        "options": [
+          "موعداً أبكر",
+          "تغيير الطبيب",
+          "شرحاً بكلمات بسيطة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Kunt u dat in eenvoudige woorden uitleggen?",
+        "explanation": "الطلب توضيح اللغة، ولا يتضمن طلب علاج معين."
+      },
+      {
+        "id": "reading-a-question-at-the-practice-4",
+        "prompt": "ماذا تفعل بالشرح في المنزل؟",
+        "options": [
+          "ترسله إلى المدرسة",
+          "تقرؤه مرة أخرى",
+          "تتخلص منه"
+        ],
+        "correctIndex": 1,
+        "evidence": "Thuis leest Lina de uitleg nog een keer.",
+        "explanation": "nog een keer تعني مرة أخرى."
       }
     ]
   }

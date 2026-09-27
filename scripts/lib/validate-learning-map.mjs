@@ -41,7 +41,7 @@ export function validateLearningMap(units, extensions, lessons, readings) {
       const normalized = text(word.term) ? word.term.trim().toLowerCase() : "";
       if (terms.has(normalized)) errors.push("Enrichment: duplicate vocabulary term");
       terms.add(normalized);
-      if (word.kind === "noun" && (!/^(de|het) \S/u.test(word.term) || !/^de \S/u.test(word.forms))) errors.push("Enrichment: noun requires article and plural");
+      if (word.kind === "noun" && (!/^(de|het) \S/u.test(word.term) || (!/^de \S/u.test(word.forms) && word.forms !== "geen meervoud in deze betekenis"))) errors.push("Enrichment: noun requires article and plural");
       if (!phrases.has(word.phraseId)) errors.push("Enrichment: example must reference this lesson");
     }
     if (!list(extension.tasks, record, 2)) errors.push("Enrichment: at least two production tasks required");

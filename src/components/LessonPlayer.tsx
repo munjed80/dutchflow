@@ -58,7 +58,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
             </article>
           ))}
         </div>
-        <p className="audio-disclaimer">يستخدم هذا الإصدار نطق جهازك مؤقتاً. عند تجهيز ملفات الدروس الصوتية سيشغّلها الموقع تلقائياً.</p>
+        <p className="audio-disclaimer">تُشغّل ملفات الدروس الصوتية المعتمدة عند توفرها، وإلا يستخدم الموقع صوتاً هولندياً من جهازك.</p>
         <p className="quiet review-disclaimer">قائمة المراجعة تُحفظ في هذا المتصفح لكل من يستخدمه، ولا تُزامن مع الحساب. <Link className="text-link" href="/review">افتح المراجعة ←</Link></p>
       </section>
 
