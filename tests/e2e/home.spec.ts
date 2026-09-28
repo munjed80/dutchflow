@@ -6,7 +6,9 @@ test("home vocabulary leads to a mobile spatial writing task without changing pr
   const progress = JSON.stringify({ completedLessons: ["home-and-address"] });
   await page.evaluate((value) => localStorage.setItem("dutchflow-progress-v1", value), progress);
   await page.getByLabel("ابحث عن كلمة أو معنى").fill("ramen");
-  const card = page.locator(".vocabulary-card").filter({ has: page.getByRole("heading", { name: "het raam", exact: true }) });
+  const card = page.locator(".vocabulary-card")
+    .filter({ has: page.getByRole("heading", { name: "het raam", exact: true }) })
+    .filter({ has: page.locator('a[href="/learn/furniture-and-location"]') });
   await expect(card).toHaveCount(1);
   await expect(card).toContainText("De tafel staat voor het raam.");
   await card.getByRole("link", { name: "افتح الدرس ←" }).click();
