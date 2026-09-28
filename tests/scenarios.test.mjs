@@ -7,11 +7,12 @@ import { newScenarioSession, reduceScenario } from "../src/lib/scenario-session.
 const read = async (name) => JSON.parse(await readFile(new URL(`../src/data/${name}.json`, import.meta.url), "utf8"));
 const [scenarios, lessons, units] = await Promise.all([read("scenarios"), read("lessons"), read("a1-roadmap")]);
 
-test("eight scenarios connect 32 guided turns and eight transfer tasks to real learning goals", () => {
+test("ten scenarios connect 40 guided turns and ten transfer tasks to every thematic unit", () => {
   assert.deepEqual(validateScenarios(scenarios, lessons, units), []);
-  assert.equal(scenarios.length, 8);
-  assert.equal(scenarios.flatMap((scenario) => scenario.turns).length, 32);
-  assert.equal(new Set(scenarios.map((scenario) => scenario.unitId)).size, 8);
+  assert.equal(scenarios.length, 10);
+  assert.equal(scenarios.flatMap((scenario) => scenario.turns).length, 40);
+  assert.equal(new Set(scenarios.map((scenario) => scenario.unitId)).size, 10);
+  assert.deepEqual(new Set(scenarios.map((scenario) => scenario.unitId)), new Set(units.map((unit) => unit.id)));
   for (const scenario of scenarios) assert.ok(scenario.transfer.model.length <= 500);
 });
 

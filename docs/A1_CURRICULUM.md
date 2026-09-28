@@ -80,7 +80,7 @@ The existing `at-the-shop` and `cafe-order` lessons gain lexical support and ori
 
 ## Guided scenarios across the curriculum
 
-The scenario library uses the current thematic units and source lessons to practise introductions, repair availability, clothing sizes, a train journey, school absence, rescheduling, work sequence and weekend plans. Each situation has four guided turns with goal-specific feedback, optional model help and a final writing task with different fictional details. Lesson and unit links are derived from the bank, so no parallel list of scenario IDs needs maintaining in the roadmap JSON.
+The scenario library uses the current thematic units and source lessons to practise introductions, repair availability, clothing sizes, a train journey, school absence, rescheduling, work sequence, weekend plans, study-session scheduling and symptom clarification. All ten thematic units now have one scenario. Each situation has four guided turns with goal-specific feedback, optional model help and a final writing task with different fictional details. Lesson and unit links are derived from the bank, so no parallel list of scenario IDs needs maintaining in the roadmap JSON.
 
 A learner must resolve each turn before advancing. The recap distinguishes an initially suitable choice, a corrected attempt and model assistance, without converting them into a proficiency score. This adds supported interaction practice; recorded listening, original spoken dialogue and language-editor feedback remain readiness requirements. All ten units continue to show partial coverage.
 

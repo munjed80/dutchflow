@@ -55,7 +55,7 @@ Read this file and `README.md` before changing the project. Update this file aft
 
 ## Next priorities
 
-1. Review the 41 Dutch/Arabic lessons, seventeen reading texts, and 16 starting-point questions with a qualified language editor. Use the readiness gates in `docs/A1_CURRICULUM.md` to expand passage length/variety and new listening passages. Eighty-two lesson production prompts and eight scenario transfer tasks are available; the separate phrase-recall writing tool still compares lesson wording only. The reading bank adds original connected texts but is not a complete A1 syllabus.
+1. Review the 41 Dutch/Arabic lessons, seventeen reading texts, and 16 starting-point questions with a qualified language editor. Use the readiness gates in `docs/A1_CURRICULUM.md` to expand passage length/variety and new listening passages. Eighty-two lesson production prompts and ten scenario transfer tasks are available; the separate phrase-recall writing tool still compares lesson wording only. The reading bank adds original connected texts but is not a complete A1 syllabus.
 2. Generate, listen to, and validate real Dutch audio with provided Azure Speech credentials. Keep small assets with the repository initially; use object storage before the catalogue grows large.
 3. Provision production PostgreSQL/SMTP, run the reviewed migrations, verify delivery and proxy rate limiting, and add account export/deletion and privacy documentation before a public launch.
 4. **Deferred by the owner on 2026-09-25 until A1 and recorded audio are ready.** Implement paid exam inventory and secure €4.95 per-attempt checkout with a chosen provider (Mollie or Stripe), server-side webhook verification, attempt entitlements, and server-side result computation. Never make the payment confirmation screen alone grant an attempt.
@@ -108,13 +108,13 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Guided scenarios handoff
 
-- PR #15 is merged. `/scenarios` and `/scenarios/[slug]` add eight guided text situations, 32 turns and eight original-response transfer tasks, covering eight curriculum themes. Read `docs/SCENARIOS.md` before changing content or player behavior.
+- PR #15 is merged. `/scenarios` and `/scenarios/[slug]` now provide ten guided text situations, 40 turns and ten original-response transfer tasks, covering all ten curriculum themes. Read `docs/SCENARIOS.md` before changing content or player behavior.
 - `src/data/scenarios.json` is a separate authored bank. Every turn has a goal, Dutch partner prompt, three translated choices with specific Arabic feedback, one suitable-choice index and an authored partner reply. The final transfer task reuses `ProductionPractice`; it is not graded.
 - `reduceScenario` in `src/lib/scenario-session.ts` gates advancement until a suitable response or explicit model help. It retains the first checked choice across retries, marks assistance separately and ignores repeated actions on resolved turns. State and writing stay in memory; restart/reload/different-scenario navigation reset them. No progress, review, account or payment writes occur.
 - Catalogue and source links are server-rendered; only the selected scenario is passed to the client player. The free current scenario includes its answers in client props. Never use this format as a paid exam authorization/scoring boundary.
-- `/learn`, relevant lessons and eight curriculum units expose scenario links. Unit coverage remains partial. These are linear text-choice exchanges, not branching/AI conversations or speech assessment. No audio is added to scenarios in this release.
+- `/learn`, relevant lessons and all ten curriculum units expose scenario links. Unit coverage remains partial. These are linear text-choice exchanges, not branching/AI conversations or speech assessment. No audio is added to scenarios in this release.
 - At the scenario release, lesson inventory remained 36 lessons / 231 phrases / 124 questions, with 162 lexical notes and 54 production tasks; reading inventory remains 14 texts / 73 notes / 48 questions. Scenario content is additional and does not change original phrase/audio/review identities or the completion denominator. Audio planning remains 924 variants; no MP3s were generated.
-- `validateScenarios` participates in `content:check`. Native tests cover authoring contracts and reducer boundaries. Browser checks traverse all eight scenarios on mobile and cover retries/model help, first-choice retention, keyboard/focus, transfer writing, storage isolation, account failure, route reset and 404. Independent language/audio review remains pending.
+- `validateScenarios` participates in `content:check`. Native tests cover authoring contracts and reducer boundaries. Browser checks traverse all ten scenarios on mobile and cover retries/model help, first-choice retention, keyboard/focus, transfer writing, storage isolation, account failure, route reset and 404. Independent language/audio review remains pending.
 
 ## A1 review and audio readiness handoff (2026-09-25)
 
@@ -124,3 +124,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - `docs/AUDIO_PRODUCTION.md` is the audio runbook. Generator filenames fingerprint SSML/voice/speed/format, catalog stores source/audio hashes and review flags, and only `audio:review -- --approve=<filename>` publishes verified current files. New generation does not auto-publish. `audio:check` runs in CI; `--require-complete` is the strict release gate.
 - New lexical content supports the exact uncountable forms marker `geen meervoud in deze betekenis`; do not invent a plural just to satisfy the schema.
 - No Azure credentials or real MP3s exist in this workspace/repository. Dry-run plans 1,084 clips, not a completed audio release. First run one phrase/four variants, listen, then continue. Keep credentials private; do not bypass the missing service access with unofficial endpoints.
+
+## Calendar and health scenarios handoff (2026-09-28)
+
+- PR #17 is merged. Two additional free text scenarios cover the previously unrepresented numbers/time and health units: `planning-a-study-session` and `explaining-a-symptom`. Current scenario totals are ten situations, 40 turns and ten transfer tasks, one situation per thematic unit. Earlier handoff counts describe their release snapshots.
+- Calendar practice separates availability, duration and Dutch half-hour clock expressions. Health practice uses fictional symptom/onset details and clarification requests, with no medical advice. Each transfer changes details rather than copying the dialogue. Read `docs/SCENARIOS.md` for exact constraints.
+- Lesson/reading inventories and audio IDs are unchanged. All ten A1 units remain partial. No real MP3s are generated in this batch; Azure configuration and actual listening approval remain necessary. Paid exams remain deferred.
