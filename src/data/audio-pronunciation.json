@@ -1,27 +1,68 @@
 {
   "a1-spelling-your-name-06": [
-    { "text": "Ja, " },
-    { "text": "M-A-N-S-O-U-R", "interpretAs": "characters" },
-    { "text": "." }
+    {
+      "text": "Ja, "
+    },
+    {
+      "text": "M-A-N-S-O-U-R",
+      "interpretAs": "characters"
+    },
+    {
+      "text": "."
+    }
   ],
   "a1-contact-details-04": [
-    { "text": "Mijn postcode is " },
-    { "text": "1234 AB", "interpretAs": "characters" },
-    { "text": "." }
+    {
+      "text": "Mijn postcode is "
+    },
+    {
+      "text": "1234 AB",
+      "interpretAs": "characters"
+    },
+    {
+      "text": "."
+    }
   ],
   "a1-clothes-and-sizes-03": [
-    { "text": "Ik heb maat " },
-    { "text": "M", "interpretAs": "characters" },
-    { "text": "." }
+    {
+      "text": "Ik heb maat "
+    },
+    {
+      "text": "M",
+      "interpretAs": "characters"
+    },
+    {
+      "text": "."
+    }
   ],
   "a1-clothes-and-sizes-07": [
-    { "text": "Heeft u maat " },
-    { "text": "L", "interpretAs": "characters" },
-    { "text": "?" }
+    {
+      "text": "Heeft u maat "
+    },
+    {
+      "text": "L",
+      "interpretAs": "characters"
+    },
+    {
+      "text": "?"
+    }
   ],
   "a1-clothes-and-sizes-08": [
-    { "text": "Ja, hier is dezelfde jas in maat " },
-    { "text": "L", "interpretAs": "characters" },
-    { "text": "." }
+    {
+      "text": "Ja, hier is dezelfde jas in maat "
+    },
+    {
+      "text": "L",
+      "interpretAs": "characters"
+    },
+    {
+      "text": "."
+    }
+  ],
+  "a1-sound-alphabet": [
+    {
+      "text": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
+      "interpretAs": "characters"
+    }
   ]
 }

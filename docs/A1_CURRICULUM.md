@@ -23,10 +23,14 @@ Use the Council of Europe's [global scale](https://www.coe.int/en/web/common-eur
 
 This table is a development plan. It does not claim that every listed language point or independent task is already implemented. Health examples teach language, not diagnosis or medication use.
 
-## Coverage at this release
+## Current expansion
+
+Read [A1 completion matrix](A1_COMPLETION.md) for the current 53-lesson inventory, integrated reviews, foundation tables and sound drills. The sections below record earlier release snapshots and their evolution. Audio and independent performance review remain open.
+
+## Coverage before the expanded PR #18
 
 - 41 lessons, 271 reusable phrases and 144 lesson questions; seventeen separate readings with 60 comprehension questions.
-- Eight additional guided text scenarios provide 32 dialogue turns and eight transfer-writing tasks across eight themes. These are separate from lesson/reading inventories and do not award completion. See [scenario authoring and boundaries](SCENARIOS.md).
+- Ten guided text scenarios provide 40 dialogue turns and ten transfer-writing tasks across all ten themes. These are separate from lesson/reading inventories and do not award completion. See [scenario authoring and boundaries](SCENARIOS.md).
 - Every lesson and reading is mapped. All ten units now display **partial coverage** with explicit remaining work. No unit displays complete or a mastery percentage.
 - New foundation lessons: `spelling-your-name`, `contact-details`, `asking-for-clarification`. Each has eight phrases, a contextual dialogue, a grammar note, four questions, six vocabulary/form notes and two self-review production tasks.
 - `src/data/lesson-extensions.json` holds 246 vocabulary notes and 82 production tasks across 41 lessons. Nouns include an article and plural or the explicit marker `geen meervoud in deze betekenis`; verbs include selected present-tense forms; examples reference phrases from the same lesson. This is a growing lexical support layer, not a complete searchable dictionary.
@@ -105,7 +109,7 @@ The map and vocabulary render on the server. Only the current lesson's productio
 
 `content:check` validates IDs, goal text, coverage, resource links, vocabulary forms, same-lesson examples and production fields. Mutation tests verify rejection; browser tests cover discovery, curriculum navigation, model reveal, input limits, resets, original progress, new phrase review and mobile overflow. These tests establish structural and behavioral integrity, not language accuracy.
 
-## Next delivery
+## Prior delivery priorities
 
 Follow [the September review and coverage matrix](A1_REVIEW_2026-09.md). Five new lessons close number/month breadth and add health, work and travel exchanges; every lesson now has six lexical notes and two transfer tasks. Three added readings contain new details and evidenced questions. All units remain partial; original connected listening, spoken interaction, broader vocabulary and independent language review still need work.
 

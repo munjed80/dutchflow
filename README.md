@@ -15,8 +15,8 @@ Open `http://localhost:3000`.
 
 ## Current learning experience
 
-- Arabic RTL landing page and 41 introductory A1 lessons in four ordered modules. The catalogue includes 271 Dutch phrases, Arabic meanings, learning goals, short dialogues, a grammar note per lesson, and 144 graded questions.
-- A `/curriculum` map links ten thematic goals to available resources and shows remaining work. All 41 lessons include 246 vocabulary/form notes and 82 original-response tasks with optional models and self-review questions. A rescheduling task includes a complete letter with a greeting, a new proposed time and a signature. These tasks are ungraded and temporary; see [A1 plan and readiness gates](docs/A1_CURRICULUM.md).
+- Arabic RTL landing page and 53 introductory A1 lessons in four ordered modules. The catalogue includes 343 Dutch phrases, Arabic meanings, learning goals, short dialogues, a grammar note per lesson, and 192 graded questions.
+- A `/curriculum` map links ten thematic goals to available resources and shows remaining work. All 53 lessons include 318 vocabulary/form notes and 106 original-response tasks with optional models and self-review questions. A rescheduling task includes a complete letter with a greeting, a new proposed time and a signature. These tasks are ungraded and temporary; see [A1 plan and readiness gates](docs/A1_CURRICULUM.md).
 - A free `/scenarios` library adds ten guided text situations, 40 dialogue turns and ten new writing tasks across all ten thematic units. Choose a response, review specific feedback, continue the exchange and write with changed details. Linked from lessons and curriculum; attempts are temporary and do not grant completion or assess speaking. See [scenario behavior and authoring](docs/SCENARIOS.md).
 - Search lessons in Arabic or Dutch, filter by module, continue with the first unfinished lesson, and browse previous/next lessons freely.
 - Free listening practice for every lesson at `/learn/[slug]/listening`: hear each phrase, choose its Arabic meaning, and review feedback. Text-assisted answers are reported separately and never award lesson completion. See [listening and playback details](docs/LISTENING.md).
@@ -30,6 +30,13 @@ Open `http://localhost:3000`.
 
 The lesson content lives in `src/data/lessons.json`, and ordered modules live in `src/data/modules.json`. Each phrase has a globally unique ID; the audio script and playback manifest use those IDs. This is an introductory learning path, not a complete A1 syllabus. See [content authoring guidance](docs/CONTENT_AUTHORING.md) before adding or reordering lessons.
 
+## Integrated A1 practice
+
+- `/a1-practice` supplies ten unit reviews and a cumulative free review: 11 new reading sources, 11 short connected listening passages, 48 evidenced questions, 11 writing tasks and 11 oral/partner tasks with examples and self-review criteria. These sources are separate from the 17 reading-library texts.
+- `/grammar` collects the 53 lesson grammar notes plus four foundation tables for verbs, questions, noun plurals and pronouns/possession. `/pronunciation` supplies 13 sound/alphabet drills.
+- A fictional travel timetable and accessible route map support practical interpretation. Listening questions unlock only after full playback or explicit text help; retry after seeing evidence is marked assisted. All attempts stay in memory and grant no completion or proficiency score.
+- The audio inventory now includes 343 lesson phrases, 11 passages and 13 sound drills: **1,468 variants planned, zero approved MP3s**. Missing Dutch device voices have explicit text-help fallback. See [A1 scope and remaining release gates](docs/A1_COMPLETION.md).
+
 ## Validation
 
 ```bash
@@ -41,9 +48,9 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The content checks catch duplicate audio IDs, broken dialogue references, invalid answer keys, missing goals or grammar, and invalid starting-point question/lesson links before publication. Browser tests cover search/filtering, existing progress, quiz completion and retries, lesson navigation, all 41 lesson routes, and mobile overflow. Playwright starts the production server, an isolated SMTP inbox, and an in-memory PGlite database automatically; build first. Account tests cover actual email links, expiry/replay, origin checks, rate limits, import, cross-device isolation, sign-out, and failed-save recovery. GitHub Actions uses PostgreSQL 17 for the same tests on each PR. No real emails are sent. Listening tests cover all 271 phrases, text assistance, playback completion/cancellation/errors, stale events, and route changes using controlled media/speech events; they do not verify real voice quality. Starting-point tests cover partial drafts, answer changes, failed-submit retry, grading, unknown answers, malformed requests, stale revisions, recommended lessons, and exclusion of answer explanations from initial HTML/client assets.
+The content checks catch duplicate audio IDs, broken dialogue references, invalid answer keys, missing goals or grammar, and invalid starting-point question/lesson links before publication. Browser tests cover search/filtering, existing progress, quiz completion and retries, lesson navigation, all 53 lesson routes, and mobile overflow. Playwright starts the production server, an isolated SMTP inbox, and an in-memory PGlite database automatically; build first. Account tests cover actual email links, expiry/replay, origin checks, rate limits, import, cross-device isolation, sign-out, and failed-save recovery. GitHub Actions uses PostgreSQL 17 for the same tests on each PR. No real emails are sent. Listening tests cover all 343 phrases, text assistance, playback completion/cancellation/errors, stale events, and route changes using controlled media/speech events; they do not verify real voice quality. Starting-point tests cover partial drafts, answer changes, failed-submit retry, grading, unknown answers, malformed requests, stale revisions, recommended lessons, and exclusion of answer explanations from initial HTML/client assets.
 
-Writing validation additionally covers all 271 phrases, spelling/normalization boundaries, missing/repeated/reordered words, first-attempt results, help/retries, review lists, navigation reset, input limits, and mobile layout with long answers.
+Writing validation additionally covers all 343 phrases, spelling/normalization boundaries, missing/repeated/reordered words, first-attempt results, help/retries, review lists, navigation reset, input limits, and mobile layout with long answers.
 
 Review tests cover validated phrase IDs, explicit additions from lessons and both summaries, ten-card sessions, self-ratings, filtering/removal/reset, unchanged progress, malformed data, failed writes and retry, sequential tab updates, and mobile layout.
 

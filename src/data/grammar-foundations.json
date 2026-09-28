@@ -1,0 +1,226 @@
+[
+  {
+    "title": "الضمائر والمضارع: zijn وhebben وwerken",
+    "explanation": "المضارع يصف الحاضر أو العادة. في الفعل المنتظم مثل werken: ik werk، المفرد الآخر يعمل غالباً بإضافة t، والجمع بالمصدر. مع jij بعد الفعل تسقط t: Werk jij؟ لكن Werkt u؟. عند كتابة الجذر نحافظ على صوت الحركة: wonen → woon، maken → maak. تعلم الأفعال غير المنتظمة مع أمثلتها.",
+    "headers": [
+      "Onderwerp",
+      "zijn",
+      "hebben",
+      "werken"
+    ],
+    "rows": [
+      [
+        "ik",
+        "ben",
+        "heb",
+        "werk"
+      ],
+      [
+        "jij / je",
+        "bent",
+        "hebt",
+        "werkt"
+      ],
+      [
+        "u",
+        "bent",
+        "hebt / heeft",
+        "werkt"
+      ],
+      [
+        "hij / zij / het",
+        "is",
+        "heeft",
+        "werkt"
+      ],
+      [
+        "wij / we",
+        "zijn",
+        "hebben",
+        "werken"
+      ],
+      [
+        "jullie",
+        "zijn",
+        "hebben",
+        "werken"
+      ],
+      [
+        "zij / ze (meervoud)",
+        "zijn",
+        "hebben",
+        "werken"
+      ]
+    ],
+    "sourceLessons": [
+      "people-and-questions",
+      "jobs-and-workplaces"
+    ]
+  },
+  {
+    "title": "كلمات السؤال وترتيبه",
+    "explanation": "في سؤال نعم/لا يبدأ الفعل: Woon je hier؟ مع كلمة سؤال تأتي الكلمة أولاً ثم الفعل: Waar woon je؟ إذا كانت كلمة السؤال نفسها الفاعل، مثل Wie werkt hier؟، لا نضيف فاعلاً آخر. جواب نعم أو لا يمكن أن يتبعه توضيح قصير. نستخدم welk قبل اسم het مفرد: Welk boek؟ وwelke مع de أو الجمع: Welke tas؟ Welke boeken؟",
+    "headers": [
+      "Vraagwoord",
+      "Voorbeeld"
+    ],
+    "rows": [
+      [
+        "Wie? — من؟",
+        "Wie is dat?"
+      ],
+      [
+        "Wat? — ماذا؟",
+        "Wat doe je?"
+      ],
+      [
+        "Waar? — أين؟",
+        "Waar woon je?"
+      ],
+      [
+        "Waarvandaan? — من أين؟",
+        "Waar kom je vandaan?"
+      ],
+      [
+        "Wanneer? — متى؟",
+        "Wanneer kom je?"
+      ],
+      [
+        "Hoe laat? — في أي ساعة؟",
+        "Hoe laat begint de les?"
+      ],
+      [
+        "Hoeveel? — كم؟",
+        "Hoeveel kost dit?"
+      ],
+      [
+        "Hoe? — كيف؟",
+        "Hoe gaat het?"
+      ],
+      [
+        "Waarom? — لماذا؟",
+        "Waarom neem je de bus?"
+      ],
+      [
+        "Welke? — أيّ؟",
+        "Welke kleur wil je?"
+      ],
+      [
+        "Hoelang? — كم المدة؟",
+        "Hoelang duurt de les?"
+      ],
+      [
+        "Hoe vaak? — كم مرة؟",
+        "Hoe vaak werk je?"
+      ]
+    ],
+    "sourceLessons": [
+      "people-and-questions",
+      "weekly-routine",
+      "numbers-and-prices"
+    ]
+  },
+  {
+    "title": "الأسماء: أداة التعريف والجمع",
+    "explanation": "احفظ الاسم مع de أو het وجمعه. الجمع المعرف يأخذ de دائماً. أشهر النهايات -en و-s، لكن لا يمكن تخمين كل جمع بقاعدة واحدة. في ramen نحافظ على صوت a الطويل بحرف واحد في مقطع مفتوح، وفي mannen نضاعف n للمحافظة على الحركة القصيرة. كلمات مثل water لا تُجمع عادة عند الحديث عن المادة، فنعد العبوات أو الأكواب.",
+    "headers": [
+      "Enkelvoud",
+      "Meervoud"
+    ],
+    "rows": [
+      [
+        "het boek",
+        "de boeken"
+      ],
+      [
+        "de tafel",
+        "de tafels"
+      ],
+      [
+        "het raam",
+        "de ramen"
+      ],
+      [
+        "de man",
+        "de mannen"
+      ],
+      [
+        "het huis",
+        "de huizen"
+      ],
+      [
+        "de foto",
+        "de foto's"
+      ],
+      [
+        "het kind",
+        "de kinderen"
+      ],
+      [
+        "het ei",
+        "de eieren"
+      ]
+    ],
+    "sourceLessons": [
+      "belongings-and-articles",
+      "food-and-drinks",
+      "describing-people"
+    ]
+  },
+  {
+    "title": "الملكية والضمير بعد الفعل",
+    "explanation": "الضمير يتغير بحسب دوره. ik فاعل، mij/me بعد الفعل أو حرف جر، وmijn قبل اسم مملوك. ons مع het-woord مفرد، وonze مع de-woord أو الجمع. zijn قد تعني يكون أو ملكيته، وhaar قد تعني شعر أو ملكيتها؛ السياق يحدد المعنى. ضمائر الجمع للمفعول تُتعلّم هنا داخل أمثلة ثابتة دون تعميم قاعدة واحدة على كل تركيب.",
+    "headers": [
+      "Onderwerp",
+      "Bezittelijk",
+      "Voorbeeld"
+    ],
+    "rows": [
+      [
+        "ik",
+        "mijn",
+        "Kun je mij helpen?"
+      ],
+      [
+        "jij / je",
+        "jouw / je",
+        "Ik help jou."
+      ],
+      [
+        "u",
+        "uw",
+        "Ik bel u morgen."
+      ],
+      [
+        "hij",
+        "zijn",
+        "Ik zie hem."
+      ],
+      [
+        "zij (enkelvoud)",
+        "haar",
+        "Ik help haar."
+      ],
+      [
+        "wij / we",
+        "ons / onze",
+        "Kun je ons helpen?"
+      ],
+      [
+        "jullie",
+        "jullie",
+        "Ik bel jullie."
+      ],
+      [
+        "zij (meervoud)",
+        "hun",
+        "Ik help hen. Ik praat met hen."
+      ]
+    ],
+    "sourceLessons": [
+      "belongings-and-articles",
+      "household-actions",
+      "describing-people"
+    ]
+  }
+]

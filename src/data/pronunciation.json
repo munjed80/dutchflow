@@ -1,0 +1,93 @@
+[
+  {
+    "id": "a1-sound-alphabet",
+    "title": "أسماء الحروف",
+    "dutch": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
+    "explanation": "اسمع أسماء الحروف ثم تهجّ اسماً خيالياً. اسم الحرف قد يختلف عن صوته داخل الكلمة. IJ تركيب شائع في الهولندية وليس حرفاً إضافياً في هذه القائمة.",
+    "task": "تهجّ Noor ثم Sam، واطلب من شريكك كتابة ما سمعه."
+  },
+  {
+    "id": "a1-sound-aa-a",
+    "title": "a وaa",
+    "dutch": "man. maan.",
+    "explanation": "man رجل، maan قمر. لاحظ الفرق بين الصوت القصير والطويل؛ لا تعتمد على كتابة النطق بالعربية.",
+    "task": "قل man ثم maan، واسأل شريكك أي كلمة سمع."
+  },
+  {
+    "id": "a1-sound-ee-e",
+    "title": "e وee",
+    "dutch": "pen. peer.",
+    "explanation": "pen قلم، peer كمثرى. استمع إلى اختلاف نوع الصوت ومدته. المثالان ليسا زوجاً لا يختلف إلا بصوت واحد.",
+    "task": "كرر الكلمتين ثم استخدم Ik heb een pen."
+  },
+  {
+    "id": "a1-sound-oo-o",
+    "title": "o وoo",
+    "dutch": "bot. boot.",
+    "explanation": "bot عظم، boot قارب. لاحظ اختلاف الحركة دون إضافة حركة بعد الحرف الأخير.",
+    "task": "بدّل بين الكلمتين ببطء ثم بسرعة طبيعية."
+  },
+  {
+    "id": "a1-sound-uu-u",
+    "title": "u وuu",
+    "dutch": "bus. muur.",
+    "explanation": "bus حافلة، muur جدار. الصوتان مختلفان؛ دوّر الشفتين واستمع للنموذج.",
+    "task": "قل de bus ثم de muur، وقارن مع النموذج."
+  },
+  {
+    "id": "a1-sound-ui",
+    "title": "الصوت ui",
+    "dutch": "huis. tuin.",
+    "explanation": "huis منزل، tuin حديقة. ui حركة مركبة؛ لا تستبدلها تلقائياً بصوت oe.",
+    "task": "قل Het huis heeft een tuin."
+  },
+  {
+    "id": "a1-sound-eu",
+    "title": "الصوت eu",
+    "dutch": "neus. deur.",
+    "explanation": "neus أنف، deur باب. استمع إلى الصوت مع تدوير الشفتين.",
+    "task": "قل de neus ثم de deur."
+  },
+  {
+    "id": "a1-sound-ij-ei",
+    "title": "ij وei",
+    "dutch": "ijs. trein.",
+    "explanation": "ijs مثلجات أو جليد، trein قطار. ij وei يُنطقان عادة بالصوت نفسه في الهولندية المعيارية، لكن الكتابة تختلف.",
+    "task": "اسمع الكلمتين ثم قل Ik neem de trein."
+  },
+  {
+    "id": "a1-sound-g-ch",
+    "title": "g وch",
+    "dutch": "goed. lachen.",
+    "explanation": "goed جيد، lachen يضحك. هذان الصوتان احتكاكيان؛ تختلف شدتهما باختلاف المنطقة والمتحدث.",
+    "task": "كرر الكلمتين دون إجهاد الحلق."
+  },
+  {
+    "id": "a1-sound-sch",
+    "title": "تركيب sch",
+    "dutch": "school. schoen.",
+    "explanation": "school مدرسة، schoen حذاء. استمع إلى الانتقال من s إلى الصوت التالي دون إضافة حركة بينهما.",
+    "task": "قل Ik ga naar school."
+  },
+  {
+    "id": "a1-sound-ng",
+    "title": "نهاية ng",
+    "dutch": "lang. jong.",
+    "explanation": "lang طويل، jong صغير السن. استمع إلى النهاية الأنفية؛ لا تضف g منفصلة كما في بداية goed.",
+    "task": "قل lang ثم jong مع الحفاظ على النهاية."
+  },
+  {
+    "id": "a1-sound-oe-ie",
+    "title": "oe وie",
+    "dutch": "boek. fiets.",
+    "explanation": "boek كتاب، fiets دراجة. هذان صوتان مختلفان؛ oe لا ينطق مثل oo.",
+    "task": "قل een boek ثم een fiets."
+  },
+  {
+    "id": "a1-sound-stress",
+    "title": "نبر الكلمة والجملة",
+    "dutch": "Ik woon in Nederland. Waar woon jij?",
+    "explanation": "اسمع الكلمة البارزة في السؤال والجواب. كرر الجمل كوحدات قصيرة، ولا تضغط كل مقطع بالقوة نفسها.",
+    "task": "غيّر المدينة أو البلد ثم اطرح السؤال على شريكك."
+  }
+]
