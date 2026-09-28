@@ -378,3 +378,4 @@ em{font-style:normal;color:var(--teal)}
 .practice-page #read > .panel, .passage-listening, .speaking-practice { padding: 1.25rem; }
 .grammar-foundation td { overflow-wrap: normal; word-break: normal; }
 .grammar-foundation .practice-table table { min-width: 420px; }
+.grammar-foundation .practice-table { direction: ltr; }
