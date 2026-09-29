@@ -32,6 +32,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
       {nextLesson ? <Link href={`/learn/${nextLesson.slug}`} rel="next">الدرس التالي: {nextLesson.title} ←</Link> : <Link href="/progress">شاهد تقدمك ←</Link>}
     </nav>
     {unit && <p className="curriculum-entry"><Link className="text-link" href={`/curriculum#${unit.id}`}>هدفك في خريطة A1: {unit.title} ←</Link></p>}
+    {unit && <p className="curriculum-entry"><Link className="text-link" href={`/a1-practice/${unit.id}`}>طبّق مهارات هذا المحور معاً ←</Link></p>}
     <LessonPlayer key={lesson.slug} lesson={lesson} nextLesson={nextLesson} />
     {extension && <LessonEnrichment lesson={lesson} extension={extension} />}
     {scenarios.some((scenario) => scenario.sourceLessons.includes(lesson.slug)) && <section className="scenario-links"><h2>استخدم ما تعلّمته في حوار</h2><ul>{scenarios.filter((scenario) => scenario.sourceLessons.includes(lesson.slug)).map((scenario) => <li key={scenario.slug}><Link href={`/scenarios/${scenario.slug}`}>{scenario.title} ←</Link></li>)}</ul></section>}

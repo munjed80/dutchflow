@@ -1,6 +1,6 @@
 # Guided text scenarios
 
-The free `/scenarios` library connects existing lessons to eight everyday situations: language-school introductions, a repair visit, clothing sizes, a fictional train journey, school absence, appointment changes, work instructions and weekend plans. Each has four authored turns and a final original-response task. These are guided choices, not free conversation, speech recognition, AI feedback or a CEFR assessment.
+The free `/scenarios` library connects existing lessons to ten everyday situations: language-school introductions, a repair visit, clothing sizes, a fictional train journey, school absence, appointment changes, work instructions, weekend plans, study-session scheduling and describing a symptom. Each has four authored turns and a final original-response task. These are guided choices, not free conversation, speech recognition, AI feedback or a CEFR assessment.
 
 ## Learning flow
 
@@ -19,7 +19,7 @@ Examples are linear, not branching simulations: the next partner reply is author
 
 Attempts and writing remain only in React memory. Reload, restarting or navigation to a different scenario clears them. The player is keyed by scenario slug. The feature writes no localStorage, sessionStorage, cloud completion, review list or payment entitlement. It remains usable without an account and during account lookup failure. Existing shared providers may still perform their normal account lookup.
 
-There is no audio playback or recording in this release. Scenario text has its own IDs and is not added to the existing 231-phrase audio/review bank; the audio generator still plans 924 variants. Optional phrase saving remains available in the source lessons.
+There is no audio playback or recording in this release. Scenario text has its own IDs and is not added to the existing 271-phrase audio/review bank; the audio generator still plans 1,084 variants. Optional phrase saving remains available in the source lessons.
 
 ## Server and client data
 
@@ -37,4 +37,12 @@ Use fictional locations/schedules for transport, invented learner details and or
 
 ## Verification
 
-Native tests cover content contracts and invalid input, first-answer retention, invalid selections, unanswered/wrong-response gating, assistance before/after a check, repeated actions, complete traversal and restart. Browser tests cover discovery, all eight complete flows on mobile, translation, prior dialogue, disabled controls, focus, suitable responses, partner replies, transfer tasks, retries, assistance, the writing limit, reload/restart/navigation, keyboard selection, account lookup failure, unchanged progress/review storage and 404. The existing full test suite remains required.
+Native tests cover content contracts and invalid input, first-answer retention, invalid selections, unanswered/wrong-response gating, assistance before/after a check, repeated actions, complete traversal and restart. Browser tests cover discovery, all ten complete flows on mobile, translation, prior dialogue, disabled controls, focus, suitable responses, partner replies, transfer tasks, retries, assistance, the writing limit, reload/restart/navigation, keyboard selection, account lookup failure, unchanged progress/review storage and 404. The existing full test suite remains required.
+
+## Calendar and health expansion
+
+`planning-a-study-session` distinguishes availability, clock time and duration: Tuesday 10:00–10:30 is a half-hour within 10:00–11:00 availability. The transfer changes to Thursday 14:00–14:30. `half elf` and `half drie` must retain their correct Arabic meanings.
+
+`explaining-a-symptom` uses fictional knee pain since yesterday, asks for a simpler explanation of `klachten`, then requests the word in writing. Its transfer changes body location and onset. It provides communication practice only, with no diagnosis, triage or treatment.
+
+All ten thematic units now have one guided scenario (40 turns and ten transfer tasks). This is text coverage, not complete interaction competence or A1 readiness. Existing lesson/audio identities are unchanged, and independent Dutch/Arabic review is still pending.

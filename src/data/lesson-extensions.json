@@ -2757,5 +2757,809 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "people-and-questions",
+    "vocabulary": [
+      {
+        "term": "nieuw",
+        "kind": "expression",
+        "forms": "nieuw / nieuwe",
+        "meaning": "جديد؛ في هذا السؤال يأتي الوصف بعد zijn.",
+        "phraseId": "a1-people-and-questions-01"
+      },
+      {
+        "term": "heten",
+        "kind": "verb",
+        "forms": "ik heet / jij heet / wij heten",
+        "meaning": "يُدعى؛ استخدم ik heet لتعريف الاسم.",
+        "phraseId": "a1-people-and-questions-02"
+      },
+      {
+        "term": "de mens",
+        "kind": "noun",
+        "forms": "de mensen",
+        "meaning": "الشخص؛ mensen جمع شائع بمعنى الناس أو الأشخاص.",
+        "phraseId": "a1-people-and-questions-03"
+      },
+      {
+        "term": "de buur",
+        "kind": "noun",
+        "forms": "de buren",
+        "meaning": "الجار؛ buren تعني الجيران.",
+        "phraseId": "a1-people-and-questions-04"
+      },
+      {
+        "term": "jullie",
+        "kind": "expression",
+        "forms": "jullie zijn / jullie komen",
+        "meaning": "ضمير المخاطب للجمع؛ يستخدم لاثنين أو أكثر.",
+        "phraseId": "a1-people-and-questions-05"
+      },
+      {
+        "term": "spreken",
+        "kind": "verb",
+        "forms": "ik spreek / hij spreekt / wij spreken",
+        "meaning": "يتحدث؛ أسماء اللغات مثل Spaans تبدأ بحرف كبير.",
+        "phraseId": "a1-people-and-questions-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "عرّف بنفسك باسم وبلد خياليين، واسأل الآخر عن اسمه.",
+        "model": "Ik heet Lina. Ik kom uit Egypte. Hoe heet jij?",
+        "translation": "اسمي لينا. أنا من مصر. ما اسمك؟",
+        "checklist": [
+          "هل استخدمت ik مع الفعل المناسب؟",
+          "هل أضفت سؤالاً للطرف الآخر؟"
+        ]
+      },
+      {
+        "prompt": "تحدث باسم شخصين يسكنان في روتردام ويتعلمان الهولندية.",
+        "model": "Wij wonen in Rotterdam. Wij leren Nederlands.",
+        "translation": "نسكن في روتردام. نتعلم الهولندية.",
+        "checklist": [
+          "هل استخدمت wij مع صيغة الجمع؟",
+          "هل بدأت Nederlands بحرف كبير؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "belongings-and-articles",
+    "vocabulary": [
+      {
+        "term": "de tas",
+        "kind": "noun",
+        "forms": "de tassen",
+        "meaning": "الحقيبة؛ مع de نستخدم deze أو die.",
+        "phraseId": "a1-belongings-and-articles-01"
+      },
+      {
+        "term": "het boek",
+        "kind": "noun",
+        "forms": "de boeken",
+        "meaning": "الكتاب؛ مع het المفرد نستخدم dit أو dat.",
+        "phraseId": "a1-belongings-and-articles-02"
+      },
+      {
+        "term": "het huis",
+        "kind": "noun",
+        "forms": "de huizen",
+        "meaning": "المنزل؛ jullie قد تعني أنتم أو ملكيتكم بحسب موقعها.",
+        "phraseId": "a1-belongings-and-articles-03"
+      },
+      {
+        "term": "de fiets",
+        "kind": "noun",
+        "forms": "de fietsen",
+        "meaning": "الدراجة؛ جمع المعرفة يأخذ de.",
+        "phraseId": "a1-belongings-and-articles-04"
+      },
+      {
+        "term": "de pen",
+        "kind": "noun",
+        "forms": "de pennen",
+        "meaning": "القلم؛ een تقدم شيئاً غير محدد للمرة الأولى.",
+        "phraseId": "a1-belongings-and-articles-05"
+      },
+      {
+        "term": "blauw",
+        "kind": "expression",
+        "forms": "blauw / blauwe",
+        "meaning": "أزرق؛ de pen بعد تقديم القلم بـ een pen تشير إلى القلم نفسه.",
+        "phraseId": "a1-belongings-and-articles-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب أن هذه الحقيبة لك وأن ذلك الكتاب لصديقك.",
+        "model": "Deze tas is van mij. Dat boek is van mijn vriend.",
+        "translation": "هذه الحقيبة لي. ذلك الكتاب لصديقي.",
+        "checklist": [
+          "هل اخترت deze مع tas وdat مع boek؟",
+          "هل وضحت صاحب كل غرض؟"
+        ]
+      },
+      {
+        "prompt": "اطلب قلماً ثم اشكر من أعطاك إياه.",
+        "model": "Heb je een pen voor mij? Dank je wel!",
+        "translation": "هل لديك قلم لي؟ شكراً جزيلاً!",
+        "checklist": [
+          "هل استخدمت een مع غرض غير محدد؟",
+          "هل أضفت الشكر؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "daily-actions-and-order",
+    "vocabulary": [
+      {
+        "term": "opstaan",
+        "kind": "verb",
+        "forms": "ik sta op / zij staat op / wij staan op",
+        "meaning": "يستيقظ أو ينهض؛ ينفصل op في الجملة الرئيسية.",
+        "phraseId": "a1-daily-actions-and-order-01"
+      },
+      {
+        "term": "ontbijten",
+        "kind": "verb",
+        "forms": "ik ontbijt / jij ontbijt / wij ontbijten",
+        "meaning": "يتناول الفطور؛ ontbijt اسم أيضاً بحسب السياق.",
+        "phraseId": "a1-daily-actions-and-order-02"
+      },
+      {
+        "term": "doen",
+        "kind": "verb",
+        "forms": "ik doe / hij doet / wij doen",
+        "meaning": "يفعل؛ na تعني بعد.",
+        "phraseId": "a1-daily-actions-and-order-03"
+      },
+      {
+        "term": "nemen",
+        "kind": "verb",
+        "forms": "ik neem / zij neemt / wij nemen",
+        "meaning": "يأخذ أو يستقل؛ neem de bus تعني استقل الحافلة.",
+        "phraseId": "a1-daily-actions-and-order-04"
+      },
+      {
+        "term": "elke dag",
+        "kind": "expression",
+        "forms": "elke dag / elke week",
+        "meaning": "كل يوم؛ elke قبل اسم مفرد هنا.",
+        "phraseId": "a1-daily-actions-and-order-05"
+      },
+      {
+        "term": "uitrusten",
+        "kind": "verb",
+        "forms": "ik rust uit / hij rust uit / wij rusten uit",
+        "meaning": "يستريح؛ uit ينفصل مثل op في opstaan.",
+        "phraseId": "a1-daily-actions-and-order-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صف صباحاً خيالياً: الاستيقاظ السادسة ثم الفطور ثم الذهاب إلى العمل بالدراجة.",
+        "model": "Ik sta om zes uur op. Daarna ontbijt ik. Dan fiets ik naar mijn werk.",
+        "translation": "أستيقظ السادسة. بعدها أتناول الفطور. ثم أذهب إلى عملي بالدراجة.",
+        "checklist": [
+          "هل وضعت op في نهاية الجملة الأولى؟",
+          "هل جاء الفعل مباشرة بعد Daarna وDan؟"
+        ]
+      },
+      {
+        "prompt": "اكتب أنك تعمل الثلاثاء لكنك تستريح الأربعاء.",
+        "model": "Op dinsdag werk ik, maar op woensdag rust ik uit.",
+        "translation": "أعمل الثلاثاء، لكنني أستريح الأربعاء.",
+        "checklist": [
+          "هل استخدمت maar للمقابلة؟",
+          "هل أبقيت uit في نهاية الجملة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "food-and-drinks",
+    "vocabulary": [
+      {
+        "term": "het ei",
+        "kind": "noun",
+        "forms": "de eieren",
+        "meaning": "البيضة؛ eieren جمع غير منتظم.",
+        "phraseId": "a1-food-and-drinks-01"
+      },
+      {
+        "term": "de kaas",
+        "kind": "noun",
+        "forms": "geen meervoud in deze betekenis",
+        "meaning": "الجبن بوصفه مادة غذائية في هذه الجملة.",
+        "phraseId": "a1-food-and-drinks-02"
+      },
+      {
+        "term": "de groente",
+        "kind": "noun",
+        "forms": "de groenten",
+        "meaning": "الخضار؛ groenten جمع شائع.",
+        "phraseId": "a1-food-and-drinks-03"
+      },
+      {
+        "term": "de appel",
+        "kind": "noun",
+        "forms": "de appels",
+        "meaning": "التفاحة؛ kilo تحدد كمية التفاح.",
+        "phraseId": "a1-food-and-drinks-04"
+      },
+      {
+        "term": "drinken",
+        "kind": "verb",
+        "forms": "ik drink / zij drinkt / wij drinken",
+        "meaning": "يشرب؛ wil drinken تجمع فعلاً مصرفاً ومصدراً.",
+        "phraseId": "a1-food-and-drinks-05"
+      },
+      {
+        "term": "zonder",
+        "kind": "expression",
+        "forms": "zonder suiker / zonder melk",
+        "meaning": "دون؛ استخدمها لطلب حذف شيء من الطلب.",
+        "phraseId": "a1-food-and-drinks-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب قائمة قصيرة: حليب وست بيضات ونصف كيلو تفاح.",
+        "model": "We hebben melk, zes eieren en een halve kilo appels nodig.",
+        "translation": "نحتاج إلى حليب وست بيضات ونصف كيلو تفاح.",
+        "checklist": [
+          "هل حافظت على الكميات؟",
+          "هل استخدمت جمع eieren؟"
+        ]
+      },
+      {
+        "prompt": "اطلب حساء بالخضروات وقهوة دون حليب.",
+        "model": "Ik wil graag soep met groenten en koffie zonder melk.",
+        "translation": "أريد حساء بالخضروات وقهوة دون حليب، من فضلك.",
+        "checklist": [
+          "هل ميّزت met عن zonder؟",
+          "هل طلبت بصيغة مهذبة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "colours-and-clothing",
+    "vocabulary": [
+      {
+        "term": "de trui",
+        "kind": "noun",
+        "forms": "de truien",
+        "meaning": "الكنزة؛ rode وgroene صفتان قبل اسم de.",
+        "phraseId": "a1-colours-and-clothing-01"
+      },
+      {
+        "term": "groen",
+        "kind": "expression",
+        "forms": "groen / groene",
+        "meaning": "أخضر؛ groene jas مع اسم de.",
+        "phraseId": "a1-colours-and-clothing-02"
+      },
+      {
+        "term": "het shirt",
+        "kind": "noun",
+        "forms": "de shirts",
+        "meaning": "قميص أو تيشيرت؛ een wit shirt دون e لأن shirt اسم het مفرد غير محدد.",
+        "phraseId": "a1-colours-and-clothing-03"
+      },
+      {
+        "term": "de schoen",
+        "kind": "noun",
+        "forms": "de schoenen",
+        "meaning": "الحذاء؛ schoenen قد تعني زوج الحذاء أو عدة أحذية بحسب السياق.",
+        "phraseId": "a1-colours-and-clothing-04"
+      },
+      {
+        "term": "de sok",
+        "kind": "noun",
+        "forms": "de sokken",
+        "meaning": "الجورب؛ هذه الجوارب deze sokken.",
+        "phraseId": "a1-colours-and-clothing-05"
+      },
+      {
+        "term": "samen",
+        "kind": "expression",
+        "forms": "samen / samen met",
+        "meaning": "معاً؛ السؤال هنا عن السعر الإجمالي للجوارب.",
+        "phraseId": "a1-colours-and-clothing-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صف كنزة زرقاء وقميصاً أخضر تريد شراءهما.",
+        "model": "Ik zoek een blauwe trui en een groen shirt.",
+        "translation": "أبحث عن كنزة زرقاء وقميص أخضر.",
+        "checklist": [
+          "هل استخدمت blauwe مع trui وgroen مع een shirt؟",
+          "هل غيّرت اللونين؟"
+        ]
+      },
+      {
+        "prompt": "قل إن الجوارب سوداء واسأل عن السعر.",
+        "model": "De sokken zijn zwart. Hoeveel kosten ze?",
+        "translation": "الجوارب سوداء. كم سعرها؟",
+        "checklist": [
+          "هل استخدمت zijn للجمع؟",
+          "هل استخدمت zwart بعد zijn؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "preferences-and-negation",
+    "vocabulary": [
+      {
+        "term": "graag",
+        "kind": "expression",
+        "forms": "graag drinken / graag eten",
+        "meaning": "بسرور أو أحب أن؛ يأتي مع الفعل للتعبير عن التفضيل.",
+        "phraseId": "a1-preferences-and-negation-01"
+      },
+      {
+        "term": "liever",
+        "kind": "expression",
+        "forms": "graag / liever",
+        "meaning": "أفضل؛ للمقارنة بين رغبتين.",
+        "phraseId": "a1-preferences-and-negation-02"
+      },
+      {
+        "term": "lekker",
+        "kind": "expression",
+        "forms": "lekker / lekkere",
+        "meaning": "لذيذ؛ مع الطعام والشراب هنا.",
+        "phraseId": "a1-preferences-and-negation-03"
+      },
+      {
+        "term": "koud",
+        "kind": "expression",
+        "forms": "koud / koude",
+        "meaning": "بارد؛ niet تنفي الصفة lekker.",
+        "phraseId": "a1-preferences-and-negation-04"
+      },
+      {
+        "term": "iets anders",
+        "kind": "expression",
+        "forms": "iets anders / niets anders",
+        "meaning": "شيئاً آخر؛ niets anders تعني لا شيء آخر.",
+        "phraseId": "a1-preferences-and-negation-05"
+      },
+      {
+        "term": "de dorst",
+        "kind": "noun",
+        "forms": "geen meervoud in deze betekenis",
+        "meaning": "العطش؛ في الهولندية نقول dorst hebben.",
+        "phraseId": "a1-preferences-and-negation-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "قل إنك لا تأكل اللحم وتفضل الخضروات.",
+        "model": "Ik eet geen vlees. Ik eet liever groenten.",
+        "translation": "لا آكل اللحم. أفضل تناول الخضروات.",
+        "checklist": [
+          "هل استخدمت geen قبل الاسم؟",
+          "هل استخدمت liever للتفضيل؟"
+        ]
+      },
+      {
+        "prompt": "قل إن هذا الماء ليس بارداً واطلب ماء بارداً.",
+        "model": "Dit water is niet koud. Mag ik koud water, alstublieft?",
+        "translation": "هذا الماء ليس بارداً. هل يمكنني الحصول على ماء بارد، من فضلك؟",
+        "checklist": [
+          "هل استخدمت niet قبل koud؟",
+          "هل طلبت البديل بوضوح؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "places-and-routes",
+    "vocabulary": [
+      {
+        "term": "de bibliotheek",
+        "kind": "noun",
+        "forms": "de bibliotheken",
+        "meaning": "المكتبة؛ استعارة الكتب تختلف عن شرائها من boekwinkel.",
+        "phraseId": "a1-places-and-routes-01"
+      },
+      {
+        "term": "rechtdoor",
+        "kind": "expression",
+        "forms": "rechtdoor lopen / rechtdoor gaan",
+        "meaning": "مباشرة دون انعطاف.",
+        "phraseId": "a1-places-and-routes-02"
+      },
+      {
+        "term": "de bank",
+        "kind": "noun",
+        "forms": "de banken",
+        "meaning": "المصرف هنا؛ bank قد تعني أريكة في سياق المنزل.",
+        "phraseId": "a1-places-and-routes-03"
+      },
+      {
+        "term": "tegenover",
+        "kind": "expression",
+        "forms": "tegenover de school",
+        "meaning": "مقابل؛ على الجانب المواجه.",
+        "phraseId": "a1-places-and-routes-04"
+      },
+      {
+        "term": "de ingang",
+        "kind": "noun",
+        "forms": "de ingangen",
+        "meaning": "المدخل؛ tegenover مقابل وnaast بجانب.",
+        "phraseId": "a1-places-and-routes-05"
+      },
+      {
+        "term": "de deur",
+        "kind": "noun",
+        "forms": "de deuren",
+        "meaning": "الباب؛ eerste تعني الأول.",
+        "phraseId": "a1-places-and-routes-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب تعليمات: امشِ مباشرة، ثم انعطف يميناً عند المدرسة.",
+        "model": "Loop rechtdoor. Ga bij de school rechtsaf.",
+        "translation": "امشِ مباشرة. انعطف يميناً عند المدرسة.",
+        "checklist": [
+          "هل اخترت rechtsaf لليمين؟",
+          "هل ذكرت المدرسة نقطة للانعطاف؟"
+        ]
+      },
+      {
+        "prompt": "قل إن المصرف مقابل السوبرماركت والمدخل بجانب الحديقة.",
+        "model": "De bank is tegenover de supermarkt. De ingang is naast het park.",
+        "translation": "المصرف مقابل السوبرماركت. المدخل بجانب الحديقة.",
+        "checklist": [
+          "هل ميّزت tegenover عن naast؟",
+          "هل استخدمت de/het مع الاسم؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "describing-people",
+    "vocabulary": [
+      {
+        "term": "de man",
+        "kind": "noun",
+        "forms": "de mannen",
+        "meaning": "الرجل؛ lange صفة قبل الاسم المعرف.",
+        "phraseId": "a1-describing-people-01"
+      },
+      {
+        "term": "de broer",
+        "kind": "noun",
+        "forms": "de broers",
+        "meaning": "الأخ؛ العمر مع zijn لا hebben.",
+        "phraseId": "a1-describing-people-02"
+      },
+      {
+        "term": "het kind",
+        "kind": "noun",
+        "forms": "de kinderen",
+        "meaning": "الطفل؛ جمعه الأطفال kinderen.",
+        "phraseId": "a1-describing-people-03"
+      },
+      {
+        "term": "het haar",
+        "kind": "noun",
+        "forms": "geen meervoud in deze betekenis",
+        "meaning": "الشعر بمعناه الجماعي في وصف الرأس، دون جمع هنا.",
+        "phraseId": "a1-describing-people-04"
+      },
+      {
+        "term": "de bril",
+        "kind": "noun",
+        "forms": "de brillen",
+        "meaning": "النظارة؛ كلمة مفردة في الهولندية.",
+        "phraseId": "a1-describing-people-05"
+      },
+      {
+        "term": "het oog",
+        "kind": "noun",
+        "forms": "de ogen",
+        "meaning": "العين؛ ogen جمع، لذلك zijn groen.",
+        "phraseId": "a1-describing-people-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صف أختاً خيالية عمرها عشرون عاماً وشعرها بني.",
+        "model": "Mijn zus is twintig jaar. Zij heeft bruin haar.",
+        "translation": "عمر أختي عشرون عاماً. لها شعر بني.",
+        "checklist": [
+          "هل استخدمت is للعمر وheeft للشعر؟",
+          "هل التزمت بالتفاصيل الجديدة؟"
+        ]
+      },
+      {
+        "prompt": "صف أخاً خيالياً طويلاً يرتدي نظارة.",
+        "model": "Mijn broer is lang. Hij heeft een bril.",
+        "translation": "أخي طويل. يرتدي نظارة.",
+        "checklist": [
+          "هل استخدمت lang دون e بعد is؟",
+          "هل استخدمت een bril بالمفرد؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "household-actions",
+    "vocabulary": [
+      {
+        "term": "opruimen",
+        "kind": "verb",
+        "forms": "ik ruim op / zij ruimt op / wij ruimen op",
+        "meaning": "يرتب؛ بعد met يأتي المصدر opruimen هنا.",
+        "phraseId": "a1-household-actions-01"
+      },
+      {
+        "term": "leggen",
+        "kind": "verb",
+        "forms": "ik leg / hij legt / wij leggen",
+        "meaning": "يضع شيئاً؛ leggen فعل الوضع وliggen وصف الوجود.",
+        "phraseId": "a1-household-actions-02"
+      },
+      {
+        "term": "de plank",
+        "kind": "noun",
+        "forms": "de planken",
+        "meaning": "لوح أو رف؛ مكان الكتب هنا.",
+        "phraseId": "a1-household-actions-03"
+      },
+      {
+        "term": "het raam",
+        "kind": "noun",
+        "forms": "de ramen",
+        "meaning": "النافذة؛ openmaken فعل منفصل بمعنى يفتح.",
+        "phraseId": "a1-household-actions-04"
+      },
+      {
+        "term": "de sleutel",
+        "kind": "noun",
+        "forms": "de sleutels",
+        "meaning": "المفتاح؛ ligt لوصف مكان غرض موضوع.",
+        "phraseId": "a1-household-actions-05"
+      },
+      {
+        "term": "schoonmaken",
+        "kind": "verb",
+        "forms": "ik maak schoon / zij maakt schoon / wij maken schoon",
+        "meaning": "ينظف؛ ينفصل schoon في الجملة الرئيسية.",
+        "phraseId": "a1-household-actions-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اطلب وضع الكتاب تحت المصباح وفتح الباب.",
+        "model": "Leg het boek onder de lamp. Maak de deur open, alsjeblieft.",
+        "translation": "ضع الكتاب تحت المصباح. افتح الباب، من فضلك.",
+        "checklist": [
+          "هل غيّرت الغرض والمكان؟",
+          "هل وضعت open في نهاية الطلب؟"
+        ]
+      },
+      {
+        "prompt": "اكتب أنك تنظف المطبخ ثم ترتب الغرفة.",
+        "model": "Ik maak de keuken schoon. Daarna ruim ik de kamer op.",
+        "translation": "أنظف المطبخ. بعدها أرتب الغرفة.",
+        "checklist": [
+          "هل فصلت schoon وop؟",
+          "هل جاء الفعل بعد Daarna؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "jobs-and-workplaces",
+    "vocabulary": [
+      {
+        "term": "het werk",
+        "kind": "noun",
+        "forms": "geen meervoud in deze betekenis",
+        "meaning": "العمل بوصفه نشاطاً أو وظيفة هنا، دون جمع.",
+        "phraseId": "a1-jobs-and-workplaces-01"
+      },
+      {
+        "term": "de kok",
+        "kind": "noun",
+        "forms": "de koks",
+        "meaning": "الطاهي؛ عادة بلا أداة بعد ben عند ذكر المهنة.",
+        "phraseId": "a1-jobs-and-workplaces-02"
+      },
+      {
+        "term": "ook",
+        "kind": "expression",
+        "forms": "ook / ook niet",
+        "meaning": "أيضاً؛ لإضافة شخص أو معلومة مشابهة.",
+        "phraseId": "a1-jobs-and-workplaces-03"
+      },
+      {
+        "term": "de chauffeur",
+        "kind": "noun",
+        "forms": "de chauffeurs",
+        "meaning": "السائق؛ rijdt من rijden.",
+        "phraseId": "a1-jobs-and-workplaces-04"
+      },
+      {
+        "term": "werken",
+        "kind": "verb",
+        "forms": "ik werk / zij werkt / wij werken",
+        "meaning": "يعمل؛ Waar يسأل عن المكان.",
+        "phraseId": "a1-jobs-and-workplaces-05"
+      },
+      {
+        "term": "het ziekenhuis",
+        "kind": "noun",
+        "forms": "de ziekenhuizen",
+        "meaning": "المستشفى؛ verpleegkundige تعني ممرضاً أو ممرضة.",
+        "phraseId": "a1-jobs-and-workplaces-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "عرّف بشخص خيالي يعمل خبازاً في مخبز. استخدم bakker وbakkerij.",
+        "model": "Ik ben bakker. Ik werk in een bakkerij.",
+        "translation": "أنا خباز. أعمل في مخبز.",
+        "checklist": [
+          "هل ذكرت المهنة بلا een بعد ben؟",
+          "هل ميّزت المهنة عن مكان العمل؟"
+        ]
+      },
+      {
+        "prompt": "اكتب أن أختاً خيالية معلمة في مدرسة. استخدم docent وschool.",
+        "model": "Mijn zus is docent. Zij werkt op een school.",
+        "translation": "أختي معلمة. تعمل في مدرسة.",
+        "checklist": [
+          "هل استخدمت werkt مع zij؟",
+          "هل ذكرت مكان العمل؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "abilities-and-rules",
+    "vocabulary": [
+      {
+        "term": "zwemmen",
+        "kind": "verb",
+        "forms": "ik zwem / hij zwemt / wij zwemmen",
+        "meaning": "يسبح؛ بعد kunnen نستخدم المصدر zwemmen.",
+        "phraseId": "a1-abilities-and-rules-01"
+      },
+      {
+        "term": "willen",
+        "kind": "verb",
+        "forms": "ik wil / hij wil / wij willen",
+        "meaning": "يريد؛ wil اليوم تعبر عن الرغبة.",
+        "phraseId": "a1-abilities-and-rules-02"
+      },
+      {
+        "term": "mogen",
+        "kind": "verb",
+        "forms": "ik mag / jij mag / wij mogen",
+        "meaning": "يُسمح له؛ Mag ik ...؟ للسؤال عن الإذن.",
+        "phraseId": "a1-abilities-and-rules-03"
+      },
+      {
+        "term": "moeten",
+        "kind": "verb",
+        "forms": "ik moet / zij moet / wij moeten",
+        "meaning": "يجب أو يحتاج؛ هذه تعليمات المكان الخيالي فقط.",
+        "phraseId": "a1-abilities-and-rules-04"
+      },
+      {
+        "term": "vertrekken",
+        "kind": "verb",
+        "forms": "ik vertrek / hij vertrekt / wij vertrekken",
+        "meaning": "يغادر؛ ليس فعلاً منفصلاً.",
+        "phraseId": "a1-abilities-and-rules-05"
+      },
+      {
+        "term": "blijven",
+        "kind": "verb",
+        "forms": "ik blijf / zij blijft / wij blijven",
+        "meaning": "يبقى؛ kunt blijven تجمع الفعل المصرف والمصدر.",
+        "phraseId": "a1-abilities-and-rules-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "قل إنك تستطيع ركوب الدراجة لكنك لا تستطيع السباحة.",
+        "model": "Ik kan fietsen, maar ik kan niet zwemmen.",
+        "translation": "أستطيع ركوب الدراجة، لكنني لا أستطيع السباحة.",
+        "checklist": [
+          "هل استعملت المصدر بعد kan؟",
+          "هل نفيت القدرة الثانية فقط؟"
+        ]
+      },
+      {
+        "prompt": "اطلب الإذن للجلوس هنا، ثم قل إن عليك المغادرة الساعة الخامسة.",
+        "model": "Mag ik hier zitten? Ik moet om vijf uur vertrekken.",
+        "translation": "هل يمكنني الجلوس هنا؟ يجب أن أغادر الساعة الخامسة.",
+        "checklist": [
+          "هل ميّزت mag عن moet؟",
+          "هل وضعت vertrekken في النهاية؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "body-and-feelings",
+    "vocabulary": [
+      {
+        "term": "voelen",
+        "kind": "verb",
+        "forms": "ik voel me / jij voelt je / hij voelt zich",
+        "meaning": "يشعر؛ الضمير يتغير مع المتكلم.",
+        "phraseId": "a1-body-and-feelings-01"
+      },
+      {
+        "term": "het hoofd",
+        "kind": "noun",
+        "forms": "de hoofden",
+        "meaning": "الرأس؛ doet pijn تعني يؤلم.",
+        "phraseId": "a1-body-and-feelings-02"
+      },
+      {
+        "term": "de rug",
+        "kind": "noun",
+        "forms": "de ruggen",
+        "meaning": "الظهر؛ سؤال تعليمي عن موضع الألم.",
+        "phraseId": "a1-body-and-feelings-03"
+      },
+      {
+        "term": "de buik",
+        "kind": "noun",
+        "forms": "de buiken",
+        "meaning": "البطن؛ فاعلان معاً يتبعهما doen.",
+        "phraseId": "a1-body-and-feelings-04"
+      },
+      {
+        "term": "de hand",
+        "kind": "noun",
+        "forms": "de handen",
+        "meaning": "اليد؛ aanwijzen تعني يشير إلى شيء لتحديده.",
+        "phraseId": "a1-body-and-feelings-05"
+      },
+      {
+        "term": "de voet",
+        "kind": "noun",
+        "forms": "de voeten",
+        "meaning": "القدم؛ voeten جمع.",
+        "phraseId": "a1-body-and-feelings-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استخدم مثالاً خيالياً: تشعر أنك بخير لكن قدمك تؤلمك منذ أمس.",
+        "model": "Ik voel me goed, maar mijn voet doet pijn sinds gisteren.",
+        "translation": "أشعر أنني بخير، لكن قدمي تؤلمني منذ أمس.",
+        "checklist": [
+          "هل استخدمت me مع ik؟",
+          "هل ذكرت العضو ووقت البداية؟"
+        ]
+      },
+      {
+        "prompt": "اسأل شخصاً كيف يشعر واطلب منه الإشارة إلى موضع الألم.",
+        "model": "Hoe voel je je? Kun je aanwijzen waar je pijn hebt?",
+        "translation": "كيف تشعر؟ هل يمكنك الإشارة إلى موضع الألم؟",
+        "checklist": [
+          "هل سألت عن الشعور والمكان؟",
+          "هل تجنبت اختراع علاج أو تشخيص؟"
+        ]
+      }
+    ]
   }
 ]

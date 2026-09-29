@@ -355,3 +355,27 @@ em{font-style:normal;color:var(--teal)}
 
 /* Keep long Dutch phrases readable instead of letting audio controls squeeze them. */
 @media(max-width:720px){.phrase-card{display:grid;grid-template-columns:24px minmax(0,1fr);align-items:start}.phrase-card .audio-control{grid-column:2;margin-right:0}.phrase-content h3{overflow-wrap:anywhere}}
+
+/* A1 integrated practice keeps long source text and tables readable on phones. */
+.practice-page { max-width: 960px; }
+.practice-page > section, .practice-page > div[id] { margin-block: 2rem; scroll-margin-top: 6rem; }
+.practice-source { font-size: 1.18rem; line-height: 1.9; white-space: pre-line; }
+.passage-listening .button, .passage-listening > .text-link { margin-block: 1rem; }
+.passage-transcript { padding: 1rem; border-inline-start: 3px solid var(--green, #315b49); }
+.passage-transcript p[lang="nl"], .speaking-practice p[lang="nl"] { font-size: 1.1rem; line-height: 1.8; }
+.practice-table { overflow-x: auto; margin-block: 1.5rem; }
+.practice-table table { border-collapse: collapse; width: 100%; }
+.practice-table th, .practice-table td { border: 1px solid #ccd2c7; padding: .65rem; text-align: left; }
+.practice-table caption { text-align: left; padding: .7rem 0; font-weight: 700; }
+.practice-map { margin: 1.5rem 0; }
+.practice-map svg { display: block; width: 100%; max-width: 520px; background: #f4f5ee; border-radius: 12px; }
+.practice-map text { font: 18px sans-serif; fill: #263b31; }
+.grammar-reference { margin-block: 1rem; }
+.practice-page details { margin-block: 1rem; }
+.grammar-foundation { margin-block: 1rem; }
+.grammar-foundation td { overflow-wrap: anywhere; }
+.grammar-foundation, .grammar-reference,
+.practice-page #read > .panel, .passage-listening, .speaking-practice { padding: 1.25rem; }
+.grammar-foundation td { overflow-wrap: normal; word-break: normal; }
+.grammar-foundation .practice-table table { min-width: 420px; }
+.grammar-foundation .practice-table { direction: ltr; }

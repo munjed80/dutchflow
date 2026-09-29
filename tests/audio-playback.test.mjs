@@ -76,3 +76,18 @@ test("unavailable Dutch voices and speech errors never count as a completed list
   assert.equal(fixture.completed, 0);
   assert.match(fixture.states.at(-1).error, /تعذّر/);
 });
+
+test("long passage playback has a bounded timeout and never counts a timeout as completion", (t) => {
+  t.mock.timers.enable({ apis: ["setTimeout"] });
+  const fixture = setup();
+  fixture.start({ timeoutMs: 90000 });
+  t.mock.timers.tick(30000);
+  assert.equal(fixture.states.at(-1).status, "loading");
+  t.mock.timers.tick(60000);
+  assert.match(fixture.states.at(-1).error, /وقتاً طويلاً/);
+  assert.equal(fixture.completed, 0);
+  fixture.start({ timeoutMs: Infinity });
+  t.mock.timers.tick(30000);
+  assert.equal(fixture.states.at(-1).status, "idle");
+  assert.equal(fixture.completed, 0);
+});

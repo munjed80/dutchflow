@@ -6,8 +6,8 @@ import { playAudio, type AudioSpeed, type AudioVoice, type PlaybackState } from 
 
 type AudioManifest = Record<string, Partial<Record<AudioVoice, Partial<Record<AudioSpeed, string>>>>>;
 
-export function AudioButton({ id, text, concealText = false, onPlaybackComplete }: {
-  id: string; text: string; concealText?: boolean; onPlaybackComplete?: () => void;
+export function AudioButton({ id, text, concealText = false, timeoutMs, onPlaybackComplete }: {
+  id: string; text: string; concealText?: boolean; timeoutMs?: number; onPlaybackComplete?: () => void;
 }) {
   const manifest = audioManifest as AudioManifest;
   const availableVoices = (["female", "male"] as const).filter((voice) => manifest[id]?.[voice]?.normal || manifest[id]?.[voice]?.slow);
@@ -28,7 +28,7 @@ export function AudioButton({ id, text, concealText = false, onPlaybackComplete 
   }, [id, text]);
 
   function play(speed: AudioSpeed) {
-    stop.current = playAudio({ path: manifest[id]?.[voice]?.[speed], text, speed, voice,
+    stop.current = playAudio({ path: manifest[id]?.[voice]?.[speed], text, speed, voice, timeoutMs,
       onState: (next) => { if (mounted.current) setState(next); },
       onComplete: () => { if (mounted.current) completed.current?.(); },
     });

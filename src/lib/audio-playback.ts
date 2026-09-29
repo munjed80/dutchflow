@@ -5,8 +5,8 @@ export type PlaybackState = { status: "idle" | "loading" | "playing"; source?: "
 let stopActive: (() => void) | undefined;
 
 // One owner across every player. Stale media events must never complete another round.
-export function playAudio({ path, text, speed, voice, onState, onComplete }: {
-  path?: string; text: string; speed: AudioSpeed; voice: AudioVoice;
+export function playAudio({ path, text, speed, voice, timeoutMs = 30000, onState, onComplete }: {
+  path?: string; text: string; speed: AudioSpeed; voice: AudioVoice; timeoutMs?: number;
   onState: (state: PlaybackState) => void; onComplete?: () => void;
 }): () => void {
   stopActive?.();
@@ -33,8 +33,8 @@ export function playAudio({ path, text, speed, voice, onState, onComplete }: {
   function stop() { finish(); }
   stopActive = stop;
   onState({ status: "loading" });
-  // Recover from engines which never send a start/end event. Phrases are short.
-  timer = setTimeout(() => finish("استغرق تشغيل الصوت وقتاً طويلاً. حاول مجدداً."), 30000);
+  // Bound stalled playback; connected passages may request up to 90 seconds.
+  timer = setTimeout(() => finish("استغرق تشغيل الصوت وقتاً طويلاً. حاول مجدداً."), Number.isFinite(timeoutMs) ? Math.max(30000, Math.min(timeoutMs, 90000)) : 30000);
 
   function useDeviceVoice() {
     if (!active || fallbackStarted) return;

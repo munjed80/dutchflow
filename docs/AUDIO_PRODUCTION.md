@@ -68,3 +68,11 @@ The strict command currently fails intentionally because all 1,084 variants are 
 - [Voice availability](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts)
 
 Checked against Microsoft documentation on 2026-09-25. Provider access, real synthesis and audible quality are still unverified in this environment.
+
+## Expanded A1 inventory (PR #18)
+
+The shared `audioSources` inventory includes **343 lesson phrases, 11 connected review passages and 13 pronunciation drills**: 367 sources / 1,468 variants. Generation, approval and integrity checks all read the same inputs. Lesson identities and SSML hashes stay unchanged for unchanged text. Reading-library passages and text scenarios are still not generated.
+
+The earlier five-second-per-clip storage estimate is a rough reference, not a cost quote: connected passages and the alphabet are longer. Current passage playback permits up to 90 seconds; all recordings, including slow playback, must actually finish within that bound. Check the 26-letter alphabet and sound contrasts with a Dutch speaker; device fallback does not honor SSML pronunciation overrides and is not an approved reference recording.
+
+No real credentials, synthesis, audio decoding or listening approval was available during this expansion. `audio:check -- --require-complete` still fails at 0/1,468. Do not flip review flags without listening or mark the course recording gate complete.

@@ -1027,5 +1027,264 @@
         "هل سألت إن كانت الخطة تناسب صديقك؟"
       ]
     }
+  },
+  {
+    "slug": "planning-a-study-session",
+    "title": "تنسيق وقت للمذاكرة",
+    "dutchTitle": "Samen Nederlands oefenen",
+    "unitId": "numbers-and-time",
+    "role": "متعلّم لغة",
+    "partner": "زميلتك سارة",
+    "mission": "هذا جدول خيالي: تعمل يوم الاثنين، وأنت متاح الثلاثاء من 10:00 إلى 11:00. تريد التدرب مع سارة لمدة نصف ساعة في المكتبة. اتفقا على البداية والنهاية.",
+    "sourceLessons": [
+      "time-and-days",
+      "weekly-routine",
+      "dates-and-calendar"
+    ],
+    "turns": [
+      {
+        "goal": "اعتذر عن الاثنين واقترح الثلاثاء.",
+        "prompt": "Kun je maandag samen Nederlands oefenen?",
+        "translation": "هل تستطيع التدرب على الهولندية معي يوم الاثنين؟",
+        "choices": [
+          {
+            "text": "Ja, maandag kan ik.",
+            "translation": "نعم، أستطيع يوم الاثنين.",
+            "feedback": "تعمل يوم الاثنين بحسب جدول الموقف، فلا يناسبك هذا اليوم."
+          },
+          {
+            "text": "Maandag werk ik. Kan het dinsdag?",
+            "translation": "أعمل يوم الاثنين. هل يمكن يوم الثلاثاء؟",
+            "feedback": "وضّحت سبب عدم توفر الاثنين واقترحت الثلاثاء المتاح لك."
+          },
+          {
+            "text": "Dinsdag werk ik. Kan het maandag?",
+            "translation": "أعمل يوم الثلاثاء. هل يمكن يوم الاثنين؟",
+            "feedback": "عكست يوم العمل واليوم المتاح في بيانات الموقف."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Dinsdag kan ik ook.",
+        "responseTranslation": "أستطيع يوم الثلاثاء أيضاً.",
+        "id": "planning-a-study-session-1"
+      },
+      {
+        "goal": "اختر الساعة العاشرة، ضمن الوقت المتاح لك.",
+        "prompt": "Wil je om negen uur of om tien uur beginnen?",
+        "translation": "هل تريد أن تبدأ الساعة التاسعة أم العاشرة؟",
+        "choices": [
+          {
+            "text": "Om tien uur, graag.",
+            "translation": "الساعة العاشرة، من فضلك.",
+            "feedback": "تبدأ الفترة المتاحة لك الساعة العاشرة."
+          },
+          {
+            "text": "Om negen uur, graag.",
+            "translation": "الساعة التاسعة، من فضلك.",
+            "feedback": "التاسعة تسبق الفترة المتاحة لك."
+          },
+          {
+            "text": "Maandag om tien uur.",
+            "translation": "الاثنين الساعة العاشرة.",
+            "feedback": "اتفقتم على الثلاثاء؛ هذا الرد يغيّر اليوم."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Goed, dinsdag om tien uur.",
+        "responseTranslation": "حسناً، الثلاثاء الساعة العاشرة.",
+        "id": "planning-a-study-session-2"
+      },
+      {
+        "goal": "اذكر نصف ساعة بوصفها مدة التدريب.",
+        "prompt": "Hoelang wil je oefenen?",
+        "translation": "كم من الوقت تريد أن تتدرب؟",
+        "choices": [
+          {
+            "text": "Om half elf.",
+            "translation": "الساعة العاشرة والنصف.",
+            "feedback": "هذا وقت على الساعة، بينما السؤال عن المدة."
+          },
+          {
+            "text": "Twee uur.",
+            "translation": "ساعتين.",
+            "feedback": "الموقف يحدد نصف ساعة، كما أن ساعتين تتجاوزان الوقت المتاح."
+          },
+          {
+            "text": "Een halfuur.",
+            "translation": "نصف ساعة.",
+            "feedback": "halfuur مدة مقدارها ثلاثون دقيقة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Dan oefenen we van tien uur tot half elf.",
+        "responseTranslation": "إذن نتدرب من العاشرة إلى العاشرة والنصف.",
+        "id": "planning-a-study-session-3"
+      },
+      {
+        "goal": "أكّد وقت الانتهاء والمكان اللذين اتفقتما عليهما.",
+        "prompt": "Dus we zijn om half elf klaar. Zullen we in de bibliotheek oefenen?",
+        "translation": "إذن ننتهي الساعة العاشرة والنصف. هل نتدرب في المكتبة؟",
+        "choices": [
+          {
+            "text": "Ja, om elf uur zijn we klaar.",
+            "translation": "نعم، ننتهي الساعة الحادية عشرة.",
+            "feedback": "half elf تعني العاشرة والنصف، لا الحادية عشرة."
+          },
+          {
+            "text": "Ja, in de bibliotheek, van tien uur tot half elf.",
+            "translation": "نعم، في المكتبة، من العاشرة إلى العاشرة والنصف.",
+            "feedback": "أكّدت المكان وفترة التدريب التي تساوي نصف ساعة."
+          },
+          {
+            "text": "Ja, in het park, van tien uur tot half elf.",
+            "translation": "نعم، في الحديقة، من العاشرة إلى العاشرة والنصف.",
+            "feedback": "الوقت صحيح، لكن المكان المطلوب هو المكتبة."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Afgesproken. Tot dinsdag!",
+        "responseTranslation": "اتفقنا. إلى الثلاثاء!",
+        "id": "planning-a-study-session-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "في جدول خيالي جديد، أنت متاح الخميس من 14:00 إلى 15:00. اقترح التدريب في المكتبة لمدة نصف ساعة بدءاً من 14:00، واذكر وقت النهاية واسأل إن كان ذلك مناسباً.",
+      "model": "Zullen we donderdag van twee uur tot half drie in de bibliotheek oefenen? Dat is een halfuur. Past dat?",
+      "translation": "هل نتدرب الخميس من الثانية إلى الثانية والنصف في المكتبة؟ هذه مدة نصف ساعة. هل يناسبك ذلك؟",
+      "checklist": [
+        "هل غيّرت اليوم إلى الخميس وذكرت المكتبة؟",
+        "هل جعلت البداية 14:00 والنهاية 14:30، وميّزت المدة عن وقت الساعة؟",
+        "هل سألت إن كان الاقتراح مناسباً؟"
+      ]
+    }
+  },
+  {
+    "slug": "explaining-a-symptom",
+    "title": "وصف عرض وطلب توضيح",
+    "dutchTitle": "Een klacht uitleggen",
+    "unitId": "health-and-care",
+    "role": "شخص في موعد خيالي",
+    "partner": "الطبيبة",
+    "mission": "تدرّب ببيانات خيالية: لديك ألم في الركبة منذ أمس. عندما تستخدم الطبيبة كلمة لا تفهمها، اطلب كلمات أبسط ثم اطلب كتابة الكلمة. هذا موقف لتعلّم التواصل، وليس إرشاداً علاجياً.",
+    "sourceLessons": [
+      "describing-symptoms",
+      "doctor-appointment",
+      "asking-for-clarification"
+    ],
+    "turns": [
+      {
+        "goal": "اذكر موضع الألم المحدد في الموقف.",
+        "prompt": "Waar heeft u pijn?",
+        "translation": "أين تشعر بالألم؟",
+        "choices": [
+          {
+            "text": "Ik heb pijn in mijn knie.",
+            "translation": "أشعر بألم في ركبتي.",
+            "feedback": "ذكرت الركبة، وهي الموضع المحدد في الموقف."
+          },
+          {
+            "text": "Ik heb pijn in mijn arm.",
+            "translation": "أشعر بألم في ذراعي.",
+            "feedback": "الجملة مفهومة، لكن الموقف يحدد الركبة لا الذراع."
+          },
+          {
+            "text": "Mijn afspraak is morgen.",
+            "translation": "موعدي غداً.",
+            "feedback": "السؤال عن موضع الألم، لا عن وقت الموعد."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "U heeft pijn in uw knie.",
+        "responseTranslation": "تشعر بألم في ركبتك.",
+        "id": "explaining-a-symptom-1"
+      },
+      {
+        "goal": "اذكر أن الألم بدأ أمس، دون اختراع ساعة محددة.",
+        "prompt": "Sinds wanneer heeft u pijn?",
+        "translation": "منذ متى تشعر بالألم؟",
+        "choices": [
+          {
+            "text": "Morgen om tien uur.",
+            "translation": "غداً الساعة العاشرة.",
+            "feedback": "هذا وقت في المستقبل، وليس وقت بداية الألم."
+          },
+          {
+            "text": "Sinds vorige week.",
+            "translation": "منذ الأسبوع الماضي.",
+            "feedback": "الموقف يذكر أمس، لا الأسبوع الماضي."
+          },
+          {
+            "text": "Sinds gisteren.",
+            "translation": "منذ أمس.",
+            "feedback": "نقلت وقت بداية الألم كما ورد في البيانات الخيالية."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Sinds gisteren, goed.",
+        "responseTranslation": "منذ أمس، حسناً.",
+        "id": "explaining-a-symptom-2"
+      },
+      {
+        "goal": "لا تفهم كلمة klachten. اطلب شرحها بكلمات أبسط.",
+        "prompt": "Heeft u nog andere klachten?",
+        "translation": "هل لديك أعراض أخرى؟",
+        "choices": [
+          {
+            "text": "Ja, dat begrijp ik.",
+            "translation": "نعم، أفهم ذلك.",
+            "feedback": "هذا يعلن أنك فهمت، بينما هدف الجولة طلب توضيح."
+          },
+          {
+            "text": "Ik begrijp het woord klachten niet. Kunt u het eenvoudiger zeggen?",
+            "translation": "لا أفهم كلمة klachten. هل يمكنك قول ذلك بطريقة أبسط؟",
+            "feedback": "حددت الكلمة غير المفهومة وطلبت شرحاً أبسط."
+          },
+          {
+            "text": "Ik wil mijn afspraak verzetten.",
+            "translation": "أريد تغيير موعدي.",
+            "feedback": "هذا يغيّر موضوع الحديث ولا يطلب توضيح الكلمة."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ik bedoel: heeft u ook ergens anders pijn, of voelt u zich ziek?",
+        "responseTranslation": "أقصد: هل تشعر بألم في مكان آخر أيضاً، أو هل تشعر بأنك مريض؟",
+        "id": "explaining-a-symptom-3"
+      },
+      {
+        "goal": "أصبحت تفهم المعنى. اطلب كتابة كلمة klachten لمراجعتها لاحقاً.",
+        "prompt": "Is het woord klachten nu duidelijk?",
+        "translation": "هل أصبحت كلمة klachten واضحة الآن؟",
+        "choices": [
+          {
+            "text": "Ja, dank u. Kunt u het woord voor mij opschrijven?",
+            "translation": "نعم، شكراً. هل يمكنك كتابة الكلمة لي؟",
+            "feedback": "أكّدت الفهم وطلبت كتابة الكلمة للمراجعة."
+          },
+          {
+            "text": "Ja, ik hoef het woord niet te zien.",
+            "translation": "نعم، لا أحتاج إلى رؤية الكلمة.",
+            "feedback": "هذا لا يحقق هدف طلب الكلمة مكتوبة."
+          },
+          {
+            "text": "Nee, mijn afspraak is dinsdag.",
+            "translation": "لا، موعدي الثلاثاء.",
+            "feedback": "ذكرت موعداً ولم تطلب كتابة الكلمة."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Natuurlijk. Ik schrijf klachten op.",
+        "responseTranslation": "بالطبع. سأكتب klachten.",
+        "id": "explaining-a-symptom-4"
+      }
+    ],
+    "transfer": {
+      "prompt": "استخدم بيانات خيالية مختلفة: ألم في الذراع منذ هذا الصباح. اكتب وصفاً قصيراً، ثم اطلب من الطبيبة التحدث ببطء. لا تضف تشخيصاً أو علاجاً.",
+      "model": "Ik heb pijn in mijn arm, sinds vanochtend. Kunt u langzaam praten, alstublieft?",
+      "translation": "أشعر بألم في ذراعي منذ هذا الصباح. هل يمكنك التحدث ببطء، من فضلك؟",
+      "checklist": [
+        "هل غيّرت موضع الألم إلى الذراع ووقت البداية إلى هذا الصباح؟",
+        "هل طلبت التحدث ببطء بصيغة مهذبة؟"
+      ]
+    }
   }
 ]

@@ -1,9 +1,12 @@
+import { audioSources } from "./lib/audio-sources.mjs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { planAudio, publishableManifest, readJson, validateCatalog, verifyAsset } from "./lib/audio-assets.mjs";
 const root = fileURLToPath(new URL("../", import.meta.url));
+const practice = await readJson(join(root, "src/data/a1-practice.json"));
+const pronunciation = await readJson(join(root, "src/data/pronunciation.json"));
 if (process.argv.slice(2).some((arg) => arg !== "--require-complete")) throw new Error("Supported argument: --require-complete");
-const jobs = planAudio(await readJson(join(root, "src/data/lessons.json")), await readJson(join(root, "src/data/audio-pronunciation.json")));
+const jobs = planAudio(audioSources(await readJson(join(root, "src/data/lessons.json")), practice, pronunciation), await readJson(join(root, "src/data/audio-pronunciation.json")));
 const catalog = await readJson(join(root, "src/lib/audio-catalog.json"));
 validateCatalog(catalog);
 const directory = join(root, "public/audio");

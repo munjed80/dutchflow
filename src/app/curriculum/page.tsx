@@ -11,6 +11,8 @@ export default function CurriculumPage() {
     <div className="breadcrumb"><Link href="/learn">الدروس</Link><span> / خريطة التعلّم</span></div>
     <div className="page-heading"><span className="eyebrow">منهج A1 قيد الاستكمال</span><h1>اعرف ما تتعلّمه،<br /><em>وما يأتي بعده.</em></h1><p>خريطة من {curriculum.length} محاور تربط أهداف التواصل بالدروس والنصوص المتاحة. اختر ما تحتاجه، ثم عد لتتدرّب في سياق آخر.</p></div>
     <p className="reading-note">المتاح الآن: {lessons.length} درساً و{readings.length} نصوص قراءة و{scenarios.length} مواقف حوارية موجّهة. الأهداف تصف ما نعمل على تغطيته؛ وجود درس في المحور أو إكماله لا يعني إتقان مهارات المحور أو مستوى A1 كاملاً.</p>
+    <p className="curriculum-entry"><Link className="text-link" href="/a1-practice">طبّق في مراجعات A1 المتكاملة ←</Link></p>
+    <p className="curriculum-entry"><Link className="text-link" href="/grammar">مرجع القواعد والأمثلة ←</Link></p>
     <nav className="curriculum-index" aria-label="محاور خريطة التعلّم">{curriculum.map((unit, index) => <a href={`#${unit.id}`} key={unit.id}>{String(index + 1).padStart(2, "0")} · {unit.title}</a>)}</nav>
     <div className="curriculum-units">{curriculum.map((unit, index) => {
       const available = unit.lessonSlugs.length + unit.readingSlugs.length > 0;
@@ -23,6 +25,7 @@ export default function CurriculumPage() {
           {unit.readingSlugs.map((slug) => <li key={slug}><Link href={`/reading/${slug}`}>قراءة: {getReading(slug)!.title} ←</Link></li>)}</ul>
         </div>}
         {scenarios.some((scenario) => scenario.unitId === unit.id) && <div className="scenario-links"><h3>طبّق في حوار موجّه</h3><ul>{scenarios.filter((scenario) => scenario.unitId === unit.id).map((scenario) => <li key={scenario.slug}><Link href={`/scenarios/${scenario.slug}`}>{scenario.title} ←</Link></li>)}</ul></div>}
+        <p><Link className="text-link" href={`/a1-practice/${unit.id}`}>مراجعة المحور: قراءة واستماع وكتابة وحديث ←</Link></p>
         <details className="curriculum-remaining"><summary>{available ? "ما الذي سنضيفه لاستكمال التدريب؟" : "ماذا سيشمل هذا المحور؟"}</summary><ul>{unit.remaining.map((gap) => <li key={gap}>{gap}</li>)}</ul></details>
       </section>;
     })}</div>

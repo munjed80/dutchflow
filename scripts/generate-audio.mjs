@@ -1,3 +1,5 @@
+import { validatePractice } from "./lib/validate-a1-practice.mjs";
+import { audioSources } from "./lib/audio-sources.mjs";
 import { mkdir, writeFile, rename, open, unlink } from "node:fs/promises";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -5,9 +7,11 @@ import { validateCurriculum } from "./lib/validate-curriculum.mjs";
 import { atomicJson, planAudio, readJson, sha256, synthesize, validateCatalog, verifyAsset } from "./lib/audio-assets.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
+const practice = await readJson(join(root, "src/data/a1-practice.json"));
+const pronunciation = await readJson(join(root, "src/data/pronunciation.json"));
 const lessons = await readJson(join(root, "src/data/lessons.json"));
 const modules = await readJson(join(root, "src/data/modules.json"));
-const errors = validateCurriculum(lessons, modules);
+const errors = [...validateCurriculum(lessons, modules), ...validatePractice(practice, await readJson(join(root, "src/data/a1-roadmap.json")))];
 if (errors.length) throw new Error(`Invalid curriculum:\n${errors.join("\n")}`);
 const args = process.argv.slice(2);
 if (args.some((arg) => arg !== "--dry-run" && !/^--limit=\d+$/.test(arg))) throw new Error("Supported arguments: --dry-run --limit=<positive phrase count>");
@@ -15,7 +19,7 @@ const limitArg = args.find((arg) => arg.startsWith("--limit="));
 const limit = limitArg ? Number(limitArg.split("=")[1]) : Infinity;
 if (limitArg && (!Number.isSafeInteger(limit) || limit < 1)) throw new Error("--limit must be a positive integer.");
 const overrides = await readJson(join(root, "src/data/audio-pronunciation.json"));
-const allJobs = planAudio(lessons, overrides);
+const allJobs = planAudio(audioSources(lessons, practice, pronunciation), overrides);
 const jobs = allJobs.slice(0, limit === Infinity ? undefined : limit * 4);
 const directory = join(root, "public/audio");
 const catalogPath = join(root, "src/lib/audio-catalog.json");

@@ -11,7 +11,7 @@ test("scenarios are discoverable from lessons and curriculum, and unknown routes
   await page.goto("/learn");
   await page.getByRole("link", { name: "تدرّب على المواقف الحوارية ←" }).click();
   await expect(page).toHaveURL("/scenarios");
-  await expect(page.locator(".scenario-tile")).toHaveCount(8);
+  await expect(page.locator(".scenario-tile")).toHaveCount(scenarios.length);
   await page.locator(".scenario-tile").first().getByRole("link", { name: "ابدأ الموقف ←" }).click();
   await expect(page).toHaveURL(`/scenarios/${scenarios[0].slug}`);
   await expect(page.locator(".scenario-mission")).toContainText("لا تُحفظ الإجابات");

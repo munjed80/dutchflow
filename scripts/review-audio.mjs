@@ -1,9 +1,12 @@
+import { audioSources } from "./lib/audio-sources.mjs";
 import { mkdir, open, unlink } from "node:fs/promises";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { atomicJson, planAudio, publishableManifest, readJson, validateCatalog, verifyAsset } from "./lib/audio-assets.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
+const practice = await readJson(join(root, "src/data/a1-practice.json"));
+const pronunciation = await readJson(join(root, "src/data/pronunciation.json"));
 const args = process.argv.slice(2);
 if (args.length !== 1 || !/^--(approve|reject)=[a-z0-9-]+\.mp3$/.test(args[0])) throw new Error("After listening to a clip, use --approve=<filename.mp3> or --reject=<filename.mp3>. This is a human review declaration, not an automated quality score.");
 const [action, filename] = args[0].slice(2).split("=");
@@ -12,7 +15,7 @@ await mkdir(directory, { recursive: true });
 const lockPath = join(directory, ".generation.lock");
 const lock = await open(lockPath, "wx").catch(() => { throw new Error("Audio generation/review is locked; finish that process first."); });
 try {
-  const jobs = planAudio(await readJson(join(root, "src/data/lessons.json")), await readJson(join(root, "src/data/audio-pronunciation.json")));
+  const jobs = planAudio(audioSources(await readJson(join(root, "src/data/lessons.json")), practice, pronunciation), await readJson(join(root, "src/data/audio-pronunciation.json")));
   const catalogPath = join(root, "src/lib/audio-catalog.json");
   const catalog = await readJson(catalogPath);
   validateCatalog(catalog);

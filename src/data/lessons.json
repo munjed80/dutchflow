@@ -1549,9 +1549,393 @@
     ]
   },
   {
-    "slug": "at-the-shop",
+    "slug": "people-and-questions",
+    "moduleId": "first-steps",
     "level": "A1",
     "number": "13",
+    "title": "الضمائر والأسئلة الأساسية",
+    "dutchTitle": "Wie ben jij?",
+    "description": "استخدم ضمائر المفرد والجمع واسأل عن الشخص والمكان واللغة.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "استخدم ضمائر المفرد والجمع واسأل عن الشخص والمكان واللغة.",
+    "grammar": {
+      "title": "الضمائر مع zijn والسؤال",
+      "explanation": "ik ben، jij/je bent، hij/zij/het is، wij/we zijn، jullie zijn، zij/ze zijn، u bent. في سؤال نعم/لا يتقدم الفعل: Ben jij ...؟ تسقط t مع jij/je بعد الفعل، وتبقى مع u: Bent u ...؟",
+      "example": "Ben jij nieuw? Ja, ik ben nieuw.",
+      "translation": "هل أنت جديد؟ نعم، أنا جديد."
+    },
+    "phrases": [
+      {
+        "id": "a1-people-and-questions-01",
+        "dutch": "Ben jij nieuw in de klas?",
+        "arabic": "هل أنت جديد في الصف؟",
+        "tip": "جديد؛ في هذا السؤال يأتي الوصف بعد zijn."
+      },
+      {
+        "id": "a1-people-and-questions-02",
+        "dutch": "Ja, ik ben nieuw. Ik heet Omar.",
+        "arabic": "نعم، أنا جديد. اسمي عمر.",
+        "tip": "يُدعى؛ استخدم ik heet لتعريف الاسم."
+      },
+      {
+        "id": "a1-people-and-questions-03",
+        "dutch": "Wie zijn die mensen?",
+        "arabic": "من أولئك الأشخاص؟",
+        "tip": "الشخص؛ mensen جمع شائع بمعنى الناس أو الأشخاص."
+      },
+      {
+        "id": "a1-people-and-questions-04",
+        "dutch": "Zij zijn onze buren. Wij wonen hier.",
+        "arabic": "هم جيراننا. نحن نسكن هنا.",
+        "tip": "الجار؛ buren تعني الجيران."
+      },
+      {
+        "id": "a1-people-and-questions-05",
+        "dutch": "Waar komen jullie vandaan?",
+        "arabic": "من أين أنتما أو أنتم؟",
+        "tip": "ضمير المخاطب للجمع؛ يستخدم لاثنين أو أكثر."
+      },
+      {
+        "id": "a1-people-and-questions-06",
+        "dutch": "Wij komen uit Spanje en spreken Spaans.",
+        "arabic": "نحن من إسبانيا ونتحدث الإسبانية.",
+        "tip": "يتحدث؛ أسماء اللغات مثل Spaans تبدأ بحرف كبير."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-people-and-questions-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-people-and-questions-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-people-and-questions-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-people-and-questions-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-people-and-questions-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-people-and-questions-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "people-and-questions-q1",
+        "prompt": "اختر السؤال عن هوية شخص.",
+        "options": [
+          "Wie is dat?",
+          "Waar is dat?",
+          "Wanneer is dat?"
+        ],
+        "correctIndex": 0,
+        "explanation": "Wie يسأل عن الشخص، وwaar عن المكان، وwanneer عن الزمن."
+      },
+      {
+        "id": "people-and-questions-q2",
+        "prompt": "أكمل: Wij ... hier.",
+        "options": [
+          "woont",
+          "wonen",
+          "woon"
+        ],
+        "correctIndex": 1,
+        "explanation": "مع wij نستعمل صيغة الجمع wonen."
+      },
+      {
+        "id": "people-and-questions-q3",
+        "prompt": "اختر سؤالاً صحيحاً مع jij.",
+        "options": [
+          "Bent jij nieuw?",
+          "Ben jij nieuw?",
+          "Is jij nieuw?"
+        ],
+        "correctIndex": 1,
+        "explanation": "نقول jij bent، لكن Ben jij ...؟ دون t."
+      },
+      {
+        "id": "people-and-questions-q4",
+        "prompt": "ما معنى jullie هنا؟",
+        "options": [
+          "أنا",
+          "هو",
+          "أنتم"
+        ],
+        "correctIndex": 2,
+        "explanation": "jullie يخاطب أكثر من شخص."
+      }
+    ]
+  },
+  {
+    "slug": "belongings-and-articles",
+    "moduleId": "first-steps",
+    "level": "A1",
+    "number": "14",
+    "title": "الأغراض والملكية وأدوات التعريف",
+    "dutchTitle": "Van wie is deze tas?",
+    "description": "ميّز de وhet وeen، واسأل عن ملكية غرض وأشر إليه.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "ميّز de وhet وeen، واسأل عن ملكية غرض وأشر إليه.",
+    "grammar": {
+      "title": "أدوات التعريف والإشارة",
+      "explanation": "احفظ الاسم مع أداته: de tas، het boek. قبل اسم de أو اسم جمع نستخدم deze/die؛ قبل اسم het مفرد نستخدم dit/dat. أما عند التعريف بعبارة Dit is ... فيصح Dit is mijn tas أيضاً. een غير محددة للمفرد، وجمع الأسماء المعرفة يستخدم de. نقول ons boek لكن onze tas وonze boeken.",
+      "example": "Dit is ons boek. Deze tas is van mij.",
+      "translation": "هذا كتابنا. هذه الحقيبة لي."
+    },
+    "phrases": [
+      {
+        "id": "a1-belongings-and-articles-01",
+        "dutch": "Van wie is deze tas?",
+        "arabic": "لمن هذه الحقيبة؟",
+        "tip": "الحقيبة؛ مع de نستخدم deze أو die."
+      },
+      {
+        "id": "a1-belongings-and-articles-02",
+        "dutch": "Deze tas is van mij. Dat is jouw boek.",
+        "arabic": "هذه الحقيبة لي. ذلك كتابك.",
+        "tip": "الكتاب؛ مع het المفرد نستخدم dit أو dat."
+      },
+      {
+        "id": "a1-belongings-and-articles-03",
+        "dutch": "Is dit jullie huis?",
+        "arabic": "هل هذا منزلكم؟",
+        "tip": "المنزل؛ jullie قد تعني أنتم أو ملكيتكم بحسب موقعها."
+      },
+      {
+        "id": "a1-belongings-and-articles-04",
+        "dutch": "Ja, dit is ons huis. Onze fietsen staan buiten.",
+        "arabic": "نعم، هذا منزلنا. دراجاتنا في الخارج.",
+        "tip": "الدراجة؛ جمع المعرفة يأخذ de."
+      },
+      {
+        "id": "a1-belongings-and-articles-05",
+        "dutch": "Heb je een pen voor mij?",
+        "arabic": "هل لديك قلم لي؟",
+        "tip": "القلم؛ een تقدم شيئاً غير محدد للمرة الأولى."
+      },
+      {
+        "id": "a1-belongings-and-articles-06",
+        "dutch": "Ja, hier is een pen. De pen is blauw.",
+        "arabic": "نعم، إليك قلماً. القلم أزرق.",
+        "tip": "أزرق؛ de pen بعد تقديم القلم بـ een pen تشير إلى القلم نفسه."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-belongings-and-articles-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-belongings-and-articles-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-belongings-and-articles-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-belongings-and-articles-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-belongings-and-articles-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-belongings-and-articles-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "belongings-and-articles-q1",
+        "prompt": "أكمل: ... boek is van mij.",
+        "options": [
+          "Deze",
+          "Dit",
+          "Die"
+        ],
+        "correctIndex": 1,
+        "explanation": "boek اسم het، لذلك نستخدم dit للمفرد القريب."
+      },
+      {
+        "id": "belongings-and-articles-q2",
+        "prompt": "أكمل: ... fietsen staan buiten.",
+        "options": [
+          "Het",
+          "Een",
+          "De"
+        ],
+        "correctIndex": 2,
+        "explanation": "كل الأسماء المعرفة في الجمع تأخذ de."
+      },
+      {
+        "id": "belongings-and-articles-q3",
+        "prompt": "أكمل: Dit is ... huis.",
+        "options": [
+          "ons",
+          "onze",
+          "wij"
+        ],
+        "correctIndex": 0,
+        "explanation": "het huis مفرد محايد، لذلك ons huis."
+      },
+      {
+        "id": "belongings-and-articles-q4",
+        "prompt": "ما معنى van mij؟",
+        "options": [
+          "لك",
+          "لي",
+          "لهم"
+        ],
+        "correctIndex": 1,
+        "explanation": "mij بعد van تشير إلى المتكلم."
+      }
+    ]
+  },
+  {
+    "slug": "daily-actions-and-order",
+    "moduleId": "first-steps",
+    "level": "A1",
+    "number": "15",
+    "title": "أفعال اليوم وترتيب الجملة",
+    "dutchTitle": "Mijn dag begint vroeg",
+    "description": "رتّب أنشطة يومك واستخدم الفعل المنفصل وأسئلة التكرار.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "رتّب أنشطة يومك واستخدم الفعل المنفصل وأسئلة التكرار.",
+    "grammar": {
+      "title": "المضارع والفعل المنفصل والربط",
+      "explanation": "في الجملة الخبرية يأتي الفعل المصرف في الموقع الثاني. الجزء المنفصل يأتي في آخر الجملة: Ik sta om zeven uur op. بعد en أو maar تبدأ جملة بسيطة جديدة؛ وبعد want يبقى ترتيب الجملة الرئيسية.",
+      "example": "Ik sta vroeg op, want ik werk om acht uur.",
+      "translation": "أستيقظ مبكراً لأن عملي يبدأ الساعة الثامنة."
+    },
+    "phrases": [
+      {
+        "id": "a1-daily-actions-and-order-01",
+        "dutch": "Hoe laat sta je op?",
+        "arabic": "في أي ساعة تستيقظ؟",
+        "tip": "يستيقظ أو ينهض؛ ينفصل op في الجملة الرئيسية."
+      },
+      {
+        "id": "a1-daily-actions-and-order-02",
+        "dutch": "Ik sta om zeven uur op en ik ontbijt thuis.",
+        "arabic": "أستيقظ الساعة السابعة وأتناول الفطور في المنزل.",
+        "tip": "يتناول الفطور؛ ontbijt اسم أيضاً بحسب السياق."
+      },
+      {
+        "id": "a1-daily-actions-and-order-03",
+        "dutch": "Wat doe je na het ontbijt?",
+        "arabic": "ماذا تفعل بعد الفطور؟",
+        "tip": "يفعل؛ na تعني بعد."
+      },
+      {
+        "id": "a1-daily-actions-and-order-04",
+        "dutch": "Dan neem ik de bus, want mijn werk is ver weg.",
+        "arabic": "ثم أستقل الحافلة لأن عملي بعيد.",
+        "tip": "يأخذ أو يستقل؛ neem de bus تعني استقل الحافلة."
+      },
+      {
+        "id": "a1-daily-actions-and-order-05",
+        "dutch": "Werk je elke dag?",
+        "arabic": "هل تعمل كل يوم؟",
+        "tip": "كل يوم؛ elke قبل اسم مفرد هنا."
+      },
+      {
+        "id": "a1-daily-actions-and-order-06",
+        "dutch": "Nee, op zondag rust ik uit, maar op maandag werk ik.",
+        "arabic": "لا، أستريح يوم الأحد، لكنني أعمل يوم الاثنين.",
+        "tip": "يستريح؛ uit ينفصل مثل op في opstaan."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-daily-actions-and-order-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-daily-actions-and-order-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-daily-actions-and-order-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-daily-actions-and-order-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-daily-actions-and-order-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-daily-actions-and-order-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "daily-actions-and-order-q1",
+        "prompt": "اختر الترتيب الصحيح.",
+        "options": [
+          "Om zeven uur ik sta op.",
+          "Om zeven uur sta ik op.",
+          "Om zeven uur op sta ik."
+        ],
+        "correctIndex": 1,
+        "explanation": "بعد عبارة الوقت يأتي الفعل ثم الفاعل."
+      },
+      {
+        "id": "daily-actions-and-order-q2",
+        "prompt": "ما معنى elke dag؟",
+        "options": [
+          "مرة أسبوعياً",
+          "أحياناً",
+          "كل يوم"
+        ],
+        "correctIndex": 2,
+        "explanation": "elke dag تعني كل يوم."
+      },
+      {
+        "id": "daily-actions-and-order-q3",
+        "prompt": "أكمل: Ik neem de bus, want ...",
+        "options": [
+          "mijn werk is ver weg",
+          "is mijn werk ver weg",
+          "mijn werk ver weg is"
+        ],
+        "correctIndex": 0,
+        "explanation": "بعد want نستخدم ترتيب الجملة الرئيسية."
+      },
+      {
+        "id": "daily-actions-and-order-q4",
+        "prompt": "ما مصدر sta ... op؟",
+        "options": [
+          "staan op",
+          "opstaan",
+          "opstaat"
+        ],
+        "correctIndex": 1,
+        "explanation": "مصدر الفعل يكتب كلمة واحدة: opstaan."
+      }
+    ]
+  },
+  {
+    "slug": "at-the-shop",
+    "level": "A1",
+    "number": "16",
     "title": "في المتجر",
     "dutchTitle": "In de winkel",
     "description": "اسأل عن السعر والمكان وادفع عند الصندوق.",
@@ -1651,7 +2035,7 @@
     "slug": "cafe-order",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "14",
+    "number": "17",
     "title": "في المقهى",
     "dutchTitle": "In het café",
     "description": "اطلب مشروباً وحدد إضافاته واطلب الحساب بأدب.",
@@ -1754,7 +2138,7 @@
     "slug": "groceries-and-quantities",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "15",
+    "number": "18",
     "title": "الأطعمة والكميات والأسعار",
     "dutchTitle": "Boodschappen en hoeveelheden",
     "description": "اطلب كمية محددة من الطعام، وميّز بين سعر الكيلو وسعر الكمية المطلوبة.",
@@ -1902,7 +2286,7 @@
     "slug": "clothes-and-sizes",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "16",
+    "number": "19",
     "title": "الملابس والمقاسات",
     "dutchTitle": "Kleding passen",
     "description": "اطلب سترة بلون ومقاس محددين، وجرّبها، ثم اطلب مقاساً آخر إذا كانت صغيرة.",
@@ -2050,7 +2434,7 @@
     "slug": "directions",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "17",
+    "number": "20",
     "title": "السؤال عن الطريق",
     "dutchTitle": "De weg vragen",
     "description": "اسأل عن مكان واتبع تعليمات اليمين واليسار والسير إلى الأمام.",
@@ -2153,7 +2537,7 @@
     "slug": "public-transport",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "18",
+    "number": "21",
     "title": "بالحافلة والترام",
     "dutchTitle": "Met de bus en tram",
     "description": "تحقق من وجهة الحافلة واسأل عن محطة النزول.",
@@ -2256,7 +2640,7 @@
     "slug": "train-tickets",
     "moduleId": "around-town",
     "level": "A1",
-    "number": "19",
+    "number": "22",
     "title": "تذكرة القطار",
     "dutchTitle": "Een treinkaartje",
     "description": "اطلب تذكرة وميّز بين الذهاب فقط والذهاب والعودة.",
@@ -2362,7 +2746,7 @@
   {
     "slug": "a-train-connection",
     "level": "A1",
-    "number": "20",
+    "number": "23",
     "title": "تغيير القطار وقراءة الموعد",
     "dutchTitle": "Overstappen",
     "description": "ميّز الانطلاق من الوصول واسأل عن تغيير القطار والرصيف.",
@@ -2508,10 +2892,522 @@
     ]
   },
   {
+    "slug": "food-and-drinks",
+    "moduleId": "around-town",
+    "level": "A1",
+    "number": "24",
+    "title": "أطعمة ومشروبات يومية",
+    "dutchTitle": "Wat eten we vandaag?",
+    "description": "سمّ أطعمة أساسية واطلب كمية ومشروباً دون سكر.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "سمّ أطعمة أساسية واطلب كمية ومشروباً دون سكر.",
+    "grammar": {
+      "title": "الأسماء والكميات",
+      "explanation": "بعض أسماء الطعام مثل rijst وwater تستعمل دون جمع في معنى المادة. نحدد الكمية بوحدة: een kilo rijst، twee flessen water. بعد een نستخدم halve للمؤنث/المذكر هنا: een halve kilo.",
+      "example": "We kopen een kilo rijst en twee flessen water.",
+      "translation": "نشتري كيلوغراماً من الأرز وزجاجتي ماء."
+    },
+    "phrases": [
+      {
+        "id": "a1-food-and-drinks-01",
+        "dutch": "Hebben we brood, kaas en eieren?",
+        "arabic": "هل لدينا خبز وجبن وبيض؟",
+        "tip": "البيضة؛ eieren جمع غير منتظم."
+      },
+      {
+        "id": "a1-food-and-drinks-02",
+        "dutch": "We hebben kaas, maar geen brood en geen eieren.",
+        "arabic": "لدينا جبن، لكن ليس لدينا خبز ولا بيض.",
+        "tip": "الجبن بوصفه مادة غذائية في هذه الجملة."
+      },
+      {
+        "id": "a1-food-and-drinks-03",
+        "dutch": "Wil je rijst met kip of soep met groenten?",
+        "arabic": "هل تريد أرزاً مع الدجاج أم حساءً بالخضروات؟",
+        "tip": "الخضار؛ groenten جمع شائع."
+      },
+      {
+        "id": "a1-food-and-drinks-04",
+        "dutch": "Graag rijst met kip. Koop ook een kilo appels.",
+        "arabic": "أريد أرزاً مع الدجاج، من فضلك. اشترِ أيضاً كيلوغراماً من التفاح.",
+        "tip": "التفاحة؛ kilo تحدد كمية التفاح."
+      },
+      {
+        "id": "a1-food-and-drinks-05",
+        "dutch": "Wat wil je drinken: water, melk, thee of koffie?",
+        "arabic": "ماذا تريد أن تشرب: ماءً أم حليباً أم شاياً أم قهوة؟",
+        "tip": "يشرب؛ wil drinken تجمع فعلاً مصرفاً ومصدراً."
+      },
+      {
+        "id": "a1-food-and-drinks-06",
+        "dutch": "Thee zonder suiker, alstublieft.",
+        "arabic": "شاي دون سكر، من فضلك.",
+        "tip": "دون؛ استخدمها لطلب حذف شيء من الطلب."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-food-and-drinks-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-food-and-drinks-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-food-and-drinks-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-food-and-drinks-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-food-and-drinks-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-food-and-drinks-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "food-and-drinks-q1",
+        "prompt": "ما جمع ei؟",
+        "options": [
+          "eien",
+          "eieren",
+          "eis"
+        ],
+        "correctIndex": 1,
+        "explanation": "جمع ei هو eieren."
+      },
+      {
+        "id": "food-and-drinks-q2",
+        "prompt": "ما المطلوب في الجملة الأخيرة؟",
+        "options": [
+          "قهوة بحليب",
+          "ماء بارد",
+          "شاي دون سكر"
+        ],
+        "correctIndex": 2,
+        "explanation": "Thee بدون suiker."
+      },
+      {
+        "id": "food-and-drinks-q3",
+        "prompt": "كيف تطلب زجاجتي ماء؟",
+        "options": [
+          "twee flessen water",
+          "twee fles water",
+          "twee water fles"
+        ],
+        "correctIndex": 0,
+        "explanation": "نعد الزجاجات: twee flessen، ثم نذكر المحتوى water."
+      },
+      {
+        "id": "food-and-drinks-q4",
+        "prompt": "ماذا ينقص المتحدثين؟",
+        "options": [
+          "الجبن فقط",
+          "الخبز والبيض",
+          "الأرز فقط"
+        ],
+        "correctIndex": 1,
+        "explanation": "قالا geen brood en geen eieren."
+      }
+    ]
+  },
+  {
+    "slug": "colours-and-clothing",
+    "moduleId": "around-town",
+    "level": "A1",
+    "number": "25",
+    "title": "الألوان والملابس والوصف",
+    "dutchTitle": "Een rode trui",
+    "description": "صف قطعة ملابس بلونها وميّز صيغ الصفة مع de وhet.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "صف قطعة ملابس بلونها وميّز صيغ الصفة مع de وhet.",
+    "grammar": {
+      "title": "الصفة قبل الاسم وبعده",
+      "explanation": "بعد zijn لا نضيف e للصفة: De trui is rood. قبل de-woord نقول een rode trui. مع het-woord مفرد غير محدد نقول een wit shirt، لكن het witte shirt. هذا نمط البداية، وللصفات استثناءات نتعلمها تدريجياً.",
+      "example": "De trui is rood. Ik koop een rode trui.",
+      "translation": "الكنزة حمراء. أشتري كنزة حمراء."
+    },
+    "phrases": [
+      {
+        "id": "a1-colours-and-clothing-01",
+        "dutch": "Zoek je een rode trui of een groene jas?",
+        "arabic": "هل تبحث عن كنزة حمراء أم سترة خضراء؟",
+        "tip": "الكنزة؛ rode وgroene صفتان قبل اسم de."
+      },
+      {
+        "id": "a1-colours-and-clothing-02",
+        "dutch": "Een rode trui, graag. Ik heb al een groene jas.",
+        "arabic": "كنزة حمراء، من فضلك. لدي سترة خضراء بالفعل.",
+        "tip": "أخضر؛ groene jas مع اسم de."
+      },
+      {
+        "id": "a1-colours-and-clothing-03",
+        "dutch": "Wil je ook een wit shirt?",
+        "arabic": "هل تريد أيضاً قميصاً أبيض؟",
+        "tip": "قميص أو تيشيرت؛ een wit shirt دون e لأن shirt اسم het مفرد غير محدد."
+      },
+      {
+        "id": "a1-colours-and-clothing-04",
+        "dutch": "Nee, ik zoek een zwarte broek en bruine schoenen.",
+        "arabic": "لا، أبحث عن بنطال أسود وحذاء بني.",
+        "tip": "الحذاء؛ schoenen قد تعني زوج الحذاء أو عدة أحذية بحسب السياق."
+      },
+      {
+        "id": "a1-colours-and-clothing-05",
+        "dutch": "Zijn deze gele sokken goed?",
+        "arabic": "هل هذه الجوارب الصفراء مناسبة؟",
+        "tip": "الجورب؛ هذه الجوارب deze sokken."
+      },
+      {
+        "id": "a1-colours-and-clothing-06",
+        "dutch": "Ja, die zijn goed. Wat kosten ze samen?",
+        "arabic": "نعم، هي مناسبة. كم سعرها معاً؟",
+        "tip": "معاً؛ السؤال هنا عن السعر الإجمالي للجوارب."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-colours-and-clothing-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-colours-and-clothing-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-colours-and-clothing-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-colours-and-clothing-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-colours-and-clothing-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-colours-and-clothing-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "colours-and-clothing-q1",
+        "prompt": "اختر الصيغة الصحيحة.",
+        "options": [
+          "een witte shirt",
+          "een wit shirt",
+          "een wit trui"
+        ],
+        "correctIndex": 1,
+        "explanation": "shirt اسم het مفرد غير محدد، لذلك wit."
+      },
+      {
+        "id": "colours-and-clothing-q2",
+        "prompt": "أكمل: De trui is ...",
+        "options": [
+          "rode",
+          "roden",
+          "rood"
+        ],
+        "correctIndex": 2,
+        "explanation": "الصفة بعد is هنا دون e."
+      },
+      {
+        "id": "colours-and-clothing-q3",
+        "prompt": "ما لون البنطال المطلوب؟",
+        "options": [
+          "أسود",
+          "أبيض",
+          "أصفر"
+        ],
+        "correctIndex": 0,
+        "explanation": "zwarte broek تعني بنطالاً أسود."
+      },
+      {
+        "id": "colours-and-clothing-q4",
+        "prompt": "ما جمع schoen؟",
+        "options": [
+          "schoens",
+          "schoenen",
+          "schoene"
+        ],
+        "correctIndex": 1,
+        "explanation": "الجمع schoenen."
+      }
+    ]
+  },
+  {
+    "slug": "preferences-and-negation",
+    "moduleId": "around-town",
+    "level": "A1",
+    "number": "26",
+    "title": "التفضيل والنفي والاختيار",
+    "dutchTitle": "Wat vind je lekker?",
+    "description": "عبّر عما تحبه وما لا تريده، واستخدم niet وgeen في سياقهما.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "عبّر عما تحبه وما لا تريده، واستخدم niet وgeen في سياقهما.",
+    "grammar": {
+      "title": "niet أم geen؟",
+      "explanation": "geen ينفي اسماً غير معرف: geen koffie، geen appels. niet ينفي فعلاً أو صفة أو اسماً معرفاً: Ik drink niet، niet lekker، niet deze thee. موضع niet يتغير بحسب الجزء المنفي؛ ابدأ بهذه الأنماط.",
+      "example": "Ik drink geen koffie. Deze thee is niet lekker.",
+      "translation": "لا أشرب القهوة. هذا الشاي ليس لذيذاً."
+    },
+    "phrases": [
+      {
+        "id": "a1-preferences-and-negation-01",
+        "dutch": "Drink je graag koffie?",
+        "arabic": "هل تحب شرب القهوة؟",
+        "tip": "بسرور أو أحب أن؛ يأتي مع الفعل للتعبير عن التفضيل."
+      },
+      {
+        "id": "a1-preferences-and-negation-02",
+        "dutch": "Nee, ik drink geen koffie. Ik drink liever thee.",
+        "arabic": "لا، لا أشرب القهوة. أفضل شرب الشاي.",
+        "tip": "أفضل؛ للمقارنة بين رغبتين."
+      },
+      {
+        "id": "a1-preferences-and-negation-03",
+        "dutch": "Vind je deze thee lekker?",
+        "arabic": "هل تجد هذا الشاي لذيذاً؟",
+        "tip": "لذيذ؛ مع الطعام والشراب هنا."
+      },
+      {
+        "id": "a1-preferences-and-negation-04",
+        "dutch": "Nee, deze thee is niet lekker. Hij is koud.",
+        "arabic": "لا، هذا الشاي ليس لذيذاً. إنه بارد.",
+        "tip": "بارد؛ niet تنفي الصفة lekker."
+      },
+      {
+        "id": "a1-preferences-and-negation-05",
+        "dutch": "Wil je iets anders?",
+        "arabic": "هل تريد شيئاً آخر؟",
+        "tip": "شيئاً آخر؛ niets anders تعني لا شيء آخر."
+      },
+      {
+        "id": "a1-preferences-and-negation-06",
+        "dutch": "Ja, graag een glas water. Ik heb dorst.",
+        "arabic": "نعم، كوب ماء من فضلك. أشعر بالعطش.",
+        "tip": "العطش؛ في الهولندية نقول dorst hebben."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-preferences-and-negation-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-preferences-and-negation-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-preferences-and-negation-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-preferences-and-negation-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-preferences-and-negation-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-preferences-and-negation-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "preferences-and-negation-q1",
+        "prompt": "أكمل: Ik wil ... appels.",
+        "options": [
+          "niet",
+          "geen",
+          "nee"
+        ],
+        "correctIndex": 1,
+        "explanation": "ننفي الاسم غير المحدد بـ geen."
+      },
+      {
+        "id": "preferences-and-negation-q2",
+        "prompt": "أكمل: Deze koffie is ... warm.",
+        "options": [
+          "geen",
+          "nee",
+          "niet"
+        ],
+        "correctIndex": 2,
+        "explanation": "ننفي الصفة warm بـ niet."
+      },
+      {
+        "id": "preferences-and-negation-q3",
+        "prompt": "ما معنى Ik drink liever thee؟",
+        "options": [
+          "أفضل شرب الشاي",
+          "لا أشرب الشاي أبداً",
+          "أشرب الشاي أمس"
+        ],
+        "correctIndex": 0,
+        "explanation": "liever تعبر عن التفضيل بين بديلين."
+      },
+      {
+        "id": "preferences-and-negation-q4",
+        "prompt": "كيف تقول أشعر بالعطش؟",
+        "options": [
+          "Ik ben dorst.",
+          "Ik heb dorst.",
+          "Ik doe dorst."
+        ],
+        "correctIndex": 1,
+        "explanation": "التعبير الثابت هو dorst hebben."
+      }
+    ]
+  },
+  {
+    "slug": "places-and-routes",
+    "moduleId": "around-town",
+    "level": "A1",
+    "number": "27",
+    "title": "أماكن الحي وتعليمات الطريق",
+    "dutchTitle": "Waar is de bibliotheek?",
+    "description": "افهم تعليمات يمين ويسار ومباشرة وحدد مكاناً مقابل مكان آخر.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "افهم تعليمات يمين ويسار ومباشرة وحدد مكاناً مقابل مكان آخر.",
+    "grammar": {
+      "title": "تعليمات قصيرة بصيغة الأمر",
+      "explanation": "في الأمر المباشر نستعمل صيغة مثل loop، ga، neem دون فاعل. لإعطاء تعليمات مهذبة يمكن إضافة alstublieft. naar للاتجاه، bij قرب أو عند، tegenover مقابل.",
+      "example": "Loop rechtdoor en ga bij de bank linksaf.",
+      "translation": "امشِ مباشرة ثم انعطف يساراً عند المصرف."
+    },
+    "phrases": [
+      {
+        "id": "a1-places-and-routes-01",
+        "dutch": "Waar is de bibliotheek?",
+        "arabic": "أين المكتبة؟",
+        "tip": "المكتبة؛ استعارة الكتب تختلف عن شرائها من boekwinkel."
+      },
+      {
+        "id": "a1-places-and-routes-02",
+        "dutch": "Loop rechtdoor tot de bank.",
+        "arabic": "امشِ مباشرة حتى المصرف.",
+        "tip": "مباشرة دون انعطاف."
+      },
+      {
+        "id": "a1-places-and-routes-03",
+        "dutch": "Moet ik bij de bank linksaf of rechtsaf?",
+        "arabic": "هل يجب أن أنعطف عند المصرف يساراً أم يميناً؟",
+        "tip": "المصرف هنا؛ bank قد تعني أريكة في سياق المنزل."
+      },
+      {
+        "id": "a1-places-and-routes-04",
+        "dutch": "Ga linksaf. De bibliotheek is tegenover de school.",
+        "arabic": "انعطف يساراً. المكتبة مقابل المدرسة.",
+        "tip": "مقابل؛ على الجانب المواجه."
+      },
+      {
+        "id": "a1-places-and-routes-05",
+        "dutch": "Is de ingang naast de supermarkt?",
+        "arabic": "هل المدخل بجانب السوبرماركت؟",
+        "tip": "المدخل؛ tegenover مقابل وnaast بجانب."
+      },
+      {
+        "id": "a1-places-and-routes-06",
+        "dutch": "Ja, neem daar de eerste deur rechts.",
+        "arabic": "نعم، خذ أول باب على اليمين هناك.",
+        "tip": "الباب؛ eerste تعني الأول."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-places-and-routes-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-places-and-routes-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-places-and-routes-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-places-and-routes-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-places-and-routes-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-places-and-routes-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "places-and-routes-q1",
+        "prompt": "أين تنعطف يساراً؟",
+        "options": [
+          "عند المدرسة",
+          "عند المصرف",
+          "عند المنزل"
+        ],
+        "correctIndex": 1,
+        "explanation": "التعليمات تحدد المصرف نقطة للانعطاف."
+      },
+      {
+        "id": "places-and-routes-q2",
+        "prompt": "ما معنى tegenover؟",
+        "options": [
+          "داخل",
+          "تحت",
+          "مقابل"
+        ],
+        "correctIndex": 2,
+        "explanation": "تعني على الجانب المواجه."
+      },
+      {
+        "id": "places-and-routes-q3",
+        "prompt": "ما صيغة الأمر من lopen هنا؟",
+        "options": [
+          "Loop rechtdoor.",
+          "Loopt jij rechtdoor.",
+          "Lopen jij rechtdoor."
+        ],
+        "correctIndex": 0,
+        "explanation": "في الأمر المباشر نستعمل Loop دون فاعل."
+      },
+      {
+        "id": "places-and-routes-q4",
+        "prompt": "أي باب تطلب التعليمات؟",
+        "options": [
+          "الثاني يساراً",
+          "الأول يميناً",
+          "الأخير يميناً"
+        ],
+        "correctIndex": 1,
+        "explanation": "de eerste deur rechts."
+      }
+    ]
+  },
+  {
     "slug": "home-and-address",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "21",
+    "number": "28",
     "title": "عنوانك وبيتك",
     "dutchTitle": "Mijn adres en woning",
     "description": "اذكر عنوانك وصف غرفاً بسيطة في البيت.",
@@ -2610,7 +3506,7 @@
     "slug": "rooms-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "22",
+    "number": "29",
     "title": "الغرف وما يوجد في المنزل",
     "dutchTitle": "De kamers in huis",
     "description": "صف الغرف في منزل بسيط وميّز بين وجود شيء واحد وأشياء متعددة.",
@@ -2758,7 +3654,7 @@
     "slug": "furniture-and-location",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "23",
+    "number": "30",
     "title": "الأثاث وتحديد المكان",
     "dutchTitle": "Waar staan de meubels?",
     "description": "حدّد موضع الأثاث والأغراض باستخدام بجانب وتحت وبين وأمام.",
@@ -2906,7 +3802,7 @@
     "slug": "neighbours",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "24",
+    "number": "31",
     "title": "التعارف مع الجيران",
     "dutchTitle": "De buren",
     "description": "عرّف بنفسك كجار جديد واسأل عن مدة السكن في الحي.",
@@ -3013,7 +3909,7 @@
     "slug": "repairs-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "25",
+    "number": "32",
     "title": "مشكلة في البيت",
     "dutchTitle": "Een reparatie melden",
     "description": "أبلغ عن عطل واطلب زيارة لإصلاحه.",
@@ -3116,7 +4012,7 @@
     "slug": "workday",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "26",
+    "number": "33",
     "title": "أول يوم عمل",
     "dutchTitle": "Mijn eerste werkdag",
     "description": "اسأل عن بداية الوردية والاستراحة ومكان المقصف.",
@@ -3219,7 +4115,7 @@
     "slug": "school-and-family",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "27",
+    "number": "34",
     "title": "الأسرة والمدرسة",
     "dutchTitle": "Gezin en school",
     "description": "تحدث عن طفلك وافهم سؤالاً بسيطاً عن المدرسة.",
@@ -3314,7 +4210,7 @@
     "slug": "family-at-home",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "28",
+    "number": "35",
     "title": "العائلة في البيت",
     "dutchTitle": "Thuis met het gezin",
     "description": "قدّم أفراد العائلة، وقل من يعيش في البيت، واسأل عن الإخوة والأخوات.",
@@ -3450,7 +4346,7 @@
     "slug": "message-to-school",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "29",
+    "number": "36",
     "title": "رسالة إلى المدرسة",
     "dutchTitle": "Een bericht aan school",
     "description": "أخبر المدرسة بالغياب، واذكر السبب، واسأل عن الواجب أو وقت اللقاء.",
@@ -3598,7 +4494,7 @@
     "slug": "free-time-hobbies",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "30",
+    "number": "37",
     "title": "الهوايات ووقت الفراغ",
     "dutchTitle": "Hobby's en vrije tijd",
     "description": "قل ما تحب فعله في وقت الفراغ، واسأل شخصاً آخر عن هوايته.",
@@ -3742,7 +4638,7 @@
     "slug": "weather-today",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "31",
+    "number": "38",
     "title": "الطقس اليوم",
     "dutchTitle": "Het weer vandaag",
     "description": "اسأل عن الطقس، وافهم وصفاً بسيطاً، وخذ معك ما تحتاج إليه.",
@@ -3886,7 +4782,7 @@
     "slug": "invitations-and-plans",
     "moduleId": "daily-life",
     "level": "A1",
-    "number": "32",
+    "number": "39",
     "title": "الدعوات والخطط",
     "dutchTitle": "Afspreken en plannen",
     "description": "ادعُ شخصاً، واقبل أو ارفض بلطف، واتفق على الوقت والمكان.",
@@ -4025,7 +4921,7 @@
   {
     "slug": "asking-at-work",
     "level": "A1",
-    "number": "33",
+    "number": "40",
     "title": "فهم مهمة وطلب المساعدة",
     "dutchTitle": "Een taak op het werk",
     "description": "اسأل عن ترتيب العمل ومكان الأدوات، واطلب شرحاً قبل البدء.",
@@ -4171,9 +5067,521 @@
     ]
   },
   {
+    "slug": "describing-people",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "41",
+    "title": "وصف الأشخاص والأسرة",
+    "dutchTitle": "Mijn broer en mijn zus",
+    "description": "صف أشخاصاً باستخدام العمر والشعر والطول والعلاقات العائلية.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "صف أشخاصاً باستخدام العمر والشعر والطول والعلاقات العائلية.",
+    "grammar": {
+      "title": "الصفة والملكية",
+      "explanation": "صف الشخص بعد is دون e: Hij is lang. استخدم heeft مع ما يملكه أو صفاته الجسدية: Zij heeft bruin haar. zijn تعني هو يكون أو ملكيته بحسب السياق؛ haar قد تعني شعر أو ملكيتها.",
+      "example": "Mijn broer is lang. Zijn haar is zwart.",
+      "translation": "أخي طويل. شعره أسود."
+    },
+    "phrases": [
+      {
+        "id": "a1-describing-people-01",
+        "dutch": "Wie is die lange man?",
+        "arabic": "من ذلك الرجل الطويل؟",
+        "tip": "الرجل؛ lange صفة قبل الاسم المعرف."
+      },
+      {
+        "id": "a1-describing-people-02",
+        "dutch": "Dat is mijn broer. Hij is dertig jaar.",
+        "arabic": "ذلك أخي. عمره ثلاثون عاماً.",
+        "tip": "الأخ؛ العمر مع zijn لا hebben."
+      },
+      {
+        "id": "a1-describing-people-03",
+        "dutch": "Heeft hij kinderen?",
+        "arabic": "هل لديه أطفال؟",
+        "tip": "الطفل؛ جمعه الأطفال kinderen."
+      },
+      {
+        "id": "a1-describing-people-04",
+        "dutch": "Ja, een zoon en een dochter. Zijn zoon heeft zwart haar.",
+        "arabic": "نعم، ابن وابنة. ابنه له شعر أسود.",
+        "tip": "الشعر بمعناه الجماعي في وصف الرأس، دون جمع هنا."
+      },
+      {
+        "id": "a1-describing-people-05",
+        "dutch": "En wie is die vrouw met een bril?",
+        "arabic": "ومن تلك المرأة التي ترتدي نظارة؟",
+        "tip": "النظارة؛ كلمة مفردة في الهولندية."
+      },
+      {
+        "id": "a1-describing-people-06",
+        "dutch": "Dat is mijn zus. Zij is klein en haar ogen zijn groen.",
+        "arabic": "تلك أختي. هي قصيرة وعيناها خضراوان.",
+        "tip": "العين؛ ogen جمع، لذلك zijn groen."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-describing-people-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-describing-people-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-describing-people-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-describing-people-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-describing-people-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-describing-people-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "describing-people-q1",
+        "prompt": "ما معنى zijn zoon في الحوار؟",
+        "options": [
+          "ابنه",
+          "ابنها",
+          "ابنك"
+        ],
+        "correctIndex": 0,
+        "explanation": "zijn قبل الاسم هنا تدل على ملكية الرجل."
+      },
+      {
+        "id": "describing-people-q2",
+        "prompt": "أكمل: Haar ogen ... groen.",
+        "options": [
+          "is",
+          "zijn",
+          "heeft"
+        ],
+        "correctIndex": 1,
+        "explanation": "ogen جمع، فنستخدم zijn."
+      },
+      {
+        "id": "describing-people-q3",
+        "prompt": "كيف نذكر العمر؟",
+        "options": [
+          "Hij heeft dertig jaar.",
+          "Hij doet dertig jaar.",
+          "Hij is dertig jaar."
+        ],
+        "correctIndex": 2,
+        "explanation": "العمر في الهولندية مع zijn."
+      },
+      {
+        "id": "describing-people-q4",
+        "prompt": "من ترتدي النظارة؟",
+        "options": [
+          "الأم",
+          "الأخت",
+          "الابنة"
+        ],
+        "correctIndex": 1,
+        "explanation": "المتحدث يجيب Dat is mijn zus."
+      }
+    ]
+  },
+  {
+    "slug": "household-actions",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "42",
+    "title": "أعمال المنزل والمكان",
+    "dutchTitle": "Thuis opruimen",
+    "description": "صف مكان غرض واطلب فتح نافذة وترتيب المنزل.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "صف مكان غرض واطلب فتح نافذة وترتيب المنزل.",
+    "grammar": {
+      "title": "الضمائر بعد الفعل وحروف المكان",
+      "explanation": "نقول Ik help jou/je وJij helpt mij/me، لا ik help jij. مع الغرض المفرد het boek نستعمل het: Ik leg het op de tafel. فوق op، تحت onder، خلف achter، بين tussen.",
+      "example": "Kun je mij helpen? Het boek ligt achter de lamp.",
+      "translation": "هل يمكنك مساعدتي؟ الكتاب خلف المصباح."
+    },
+    "phrases": [
+      {
+        "id": "a1-household-actions-01",
+        "dutch": "Kun je mij helpen met opruimen?",
+        "arabic": "هل يمكنك مساعدتي في الترتيب؟",
+        "tip": "يرتب؛ بعد met يأتي المصدر opruimen هنا."
+      },
+      {
+        "id": "a1-household-actions-02",
+        "dutch": "Ja, waar moet ik de boeken leggen?",
+        "arabic": "نعم، أين يجب أن أضع الكتب؟",
+        "tip": "يضع شيئاً؛ leggen فعل الوضع وliggen وصف الوجود."
+      },
+      {
+        "id": "a1-household-actions-03",
+        "dutch": "Leg ze op de plank, achter de lamp.",
+        "arabic": "ضعها على الرف، خلف المصباح.",
+        "tip": "لوح أو رف؛ مكان الكتب هنا."
+      },
+      {
+        "id": "a1-household-actions-04",
+        "dutch": "Goed. Zal ik ook het raam openmaken?",
+        "arabic": "حسناً. هل أفتح النافذة أيضاً؟",
+        "tip": "النافذة؛ openmaken فعل منفصل بمعنى يفتح."
+      },
+      {
+        "id": "a1-household-actions-05",
+        "dutch": "Ja, graag. De sleutel ligt onder de stoel.",
+        "arabic": "نعم، من فضلك. المفتاح تحت الكرسي.",
+        "tip": "المفتاح؛ ligt لوصف مكان غرض موضوع."
+      },
+      {
+        "id": "a1-household-actions-06",
+        "dutch": "Ik zie hem. Daarna maak ik de keuken schoon.",
+        "arabic": "أراه. بعد ذلك أنظف المطبخ.",
+        "tip": "ينظف؛ ينفصل schoon في الجملة الرئيسية."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-household-actions-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-household-actions-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-household-actions-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-household-actions-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-household-actions-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-household-actions-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "household-actions-q1",
+        "prompt": "أين توضع الكتب؟",
+        "options": [
+          "تحت الكرسي",
+          "على الرف خلف المصباح",
+          "داخل المطبخ"
+        ],
+        "correctIndex": 1,
+        "explanation": "op de plank, achter de lamp."
+      },
+      {
+        "id": "household-actions-q2",
+        "prompt": "أكمل: Kun je ... helpen؟ عن المتكلم.",
+        "options": [
+          "ik",
+          "mijn",
+          "mij"
+        ],
+        "correctIndex": 2,
+        "explanation": "mij مفعول به؛ ik فاعل وmijn ملكية."
+      },
+      {
+        "id": "household-actions-q3",
+        "prompt": "ما معنى schoonmaken؟",
+        "options": [
+          "ينظف",
+          "يغلق",
+          "يشتري"
+        ],
+        "correctIndex": 0,
+        "explanation": "maak ... schoon تعني ينظف."
+      },
+      {
+        "id": "household-actions-q4",
+        "prompt": "ما الجملة التي تصف مكان المفتاح؟",
+        "options": [
+          "Ik leg de sleutel neer.",
+          "De sleutel ligt onder de stoel.",
+          "Ik zoek de sleutel."
+        ],
+        "correctIndex": 1,
+        "explanation": "ligt تصف مكانه، بينما leg تصف وضعه."
+      }
+    ]
+  },
+  {
+    "slug": "jobs-and-workplaces",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "43",
+    "title": "المهن وأماكن العمل",
+    "dutchTitle": "Wat voor werk doe je?",
+    "description": "اذكر مهنتك ومكان عملك ومهنة شخص آخر.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "اذكر مهنتك ومكان عملك ومهنة شخص آخر.",
+    "grammar": {
+      "title": "اسم المهنة بعد zijn",
+      "explanation": "عند ذكر المهنة دون وصف نستخدم عادة الاسم بلا een: Ik ben bakker. إذا وصفنا الشخص يمكن قول Hij is een goede bakker. مع werken نستخدم in لمكان العمل أو bij لجهة العمل.",
+      "example": "Ik ben kok. Ik werk in een restaurant.",
+      "translation": "أنا طاهٍ. أعمل في مطعم."
+    },
+    "phrases": [
+      {
+        "id": "a1-jobs-and-workplaces-01",
+        "dutch": "Wat voor werk doe je?",
+        "arabic": "ما نوع عملك؟",
+        "tip": "العمل بوصفه نشاطاً أو وظيفة هنا، دون جمع."
+      },
+      {
+        "id": "a1-jobs-and-workplaces-02",
+        "dutch": "Ik ben kok. Ik werk in een restaurant.",
+        "arabic": "أنا طاهٍ. أعمل في مطعم.",
+        "tip": "الطاهي؛ عادة بلا أداة بعد ben عند ذكر المهنة."
+      },
+      {
+        "id": "a1-jobs-and-workplaces-03",
+        "dutch": "Is je broer ook kok?",
+        "arabic": "هل أخوك طاهٍ أيضاً؟",
+        "tip": "أيضاً؛ لإضافة شخص أو معلومة مشابهة."
+      },
+      {
+        "id": "a1-jobs-and-workplaces-04",
+        "dutch": "Nee, hij is chauffeur. Hij rijdt een bus.",
+        "arabic": "لا، هو سائق. يقود حافلة.",
+        "tip": "السائق؛ rijdt من rijden."
+      },
+      {
+        "id": "a1-jobs-and-workplaces-05",
+        "dutch": "Waar werkt je zus?",
+        "arabic": "أين تعمل أختك؟",
+        "tip": "يعمل؛ Waar يسأل عن المكان."
+      },
+      {
+        "id": "a1-jobs-and-workplaces-06",
+        "dutch": "Zij is verpleegkundige en werkt in een ziekenhuis.",
+        "arabic": "هي ممرضة وتعمل في مستشفى.",
+        "tip": "المستشفى؛ verpleegkundige تعني ممرضاً أو ممرضة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-jobs-and-workplaces-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-jobs-and-workplaces-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-jobs-and-workplaces-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-jobs-and-workplaces-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-jobs-and-workplaces-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-jobs-and-workplaces-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "jobs-and-workplaces-q1",
+        "prompt": "ما مهنة المتحدث؟",
+        "options": [
+          "طاهٍ",
+          "سائق",
+          "ممرض"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ik ben kok."
+      },
+      {
+        "id": "jobs-and-workplaces-q2",
+        "prompt": "ما الجملة المعتادة لذكر المهنة؟",
+        "options": [
+          "Ik ben een werk kok.",
+          "Ik ben kok.",
+          "Ik heb kok."
+        ],
+        "correctIndex": 1,
+        "explanation": "نستخدم zijn واسم المهنة."
+      },
+      {
+        "id": "jobs-and-workplaces-q3",
+        "prompt": "أين تعمل الأخت؟",
+        "options": [
+          "في متجر",
+          "في مدرسة",
+          "في مستشفى"
+        ],
+        "correctIndex": 2,
+        "explanation": "in een ziekenhuis."
+      },
+      {
+        "id": "jobs-and-workplaces-q4",
+        "prompt": "أكمل: Mijn broer ... een bus.",
+        "options": [
+          "rijden",
+          "rijdt",
+          "rijd"
+        ],
+        "correctIndex": 1,
+        "explanation": "مع hij أو اسم مفرد نستخدم rijdt."
+      }
+    ]
+  },
+  {
+    "slug": "abilities-and-rules",
+    "moduleId": "daily-life",
+    "level": "A1",
+    "number": "44",
+    "title": "القدرة والإذن والحاجة",
+    "dutchTitle": "Kan ik hier fietsen?",
+    "description": "ميّز القدرة عن الإذن والواجب في مواقف بسيطة.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "ميّز القدرة عن الإذن والواجب في مواقف بسيطة.",
+    "grammar": {
+      "title": "kunnen وmogen وmoeten وwillen",
+      "explanation": "kunnen للقدرة أو الإمكان، mogen للإذن، moeten للحاجة أو الواجب، willen للرغبة. الفعل الثاني مصدر في نهاية الجملة: Ik kan zwemmen. في السؤال يبدأ الفعل المصرف: Mag ik ...؟",
+      "example": "Ik wil zwemmen, maar ik kan niet zwemmen.",
+      "translation": "أريد السباحة، لكنني لا أستطيع السباحة."
+    },
+    "phrases": [
+      {
+        "id": "a1-abilities-and-rules-01",
+        "dutch": "Kun je zwemmen?",
+        "arabic": "هل تستطيع السباحة؟",
+        "tip": "يسبح؛ بعد kunnen نستخدم المصدر zwemmen."
+      },
+      {
+        "id": "a1-abilities-and-rules-02",
+        "dutch": "Ja, maar ik wil vandaag fietsen.",
+        "arabic": "نعم، لكنني أريد ركوب الدراجة اليوم.",
+        "tip": "يريد؛ wil اليوم تعبر عن الرغبة."
+      },
+      {
+        "id": "a1-abilities-and-rules-03",
+        "dutch": "Mag ik hier mijn fiets neerzetten?",
+        "arabic": "هل يُسمح لي أن أضع دراجتي هنا؟",
+        "tip": "يُسمح له؛ Mag ik ...؟ للسؤال عن الإذن."
+      },
+      {
+        "id": "a1-abilities-and-rules-04",
+        "dutch": "Ja, dat mag. Je moet de ingang vrij houden.",
+        "arabic": "نعم، يُسمح بذلك. يجب أن تُبقي المدخل خالياً.",
+        "tip": "يجب أو يحتاج؛ هذه تعليمات المكان الخيالي فقط."
+      },
+      {
+        "id": "a1-abilities-and-rules-05",
+        "dutch": "Moet ik nu vertrekken?",
+        "arabic": "هل يجب أن أغادر الآن؟",
+        "tip": "يغادر؛ ليس فعلاً منفصلاً."
+      },
+      {
+        "id": "a1-abilities-and-rules-06",
+        "dutch": "Nee, je kunt nog even blijven.",
+        "arabic": "لا، يمكنك البقاء قليلاً بعد.",
+        "tip": "يبقى؛ kunt blijven تجمع الفعل المصرف والمصدر."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-abilities-and-rules-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-abilities-and-rules-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-abilities-and-rules-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-abilities-and-rules-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-abilities-and-rules-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-abilities-and-rules-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "abilities-and-rules-q1",
+        "prompt": "أي سؤال يطلب الإذن؟",
+        "options": [
+          "Mag ik hier zitten?",
+          "Waar zit ik?",
+          "Hoe lang zit ik hier?"
+        ],
+        "correctIndex": 0,
+        "explanation": "Mag ik ...؟ يسأل عن السماح."
+      },
+      {
+        "id": "abilities-and-rules-q2",
+        "prompt": "أكمل: Ik kan goed ...",
+        "options": [
+          "zwemt",
+          "zwemmen",
+          "zwem"
+        ],
+        "correctIndex": 1,
+        "explanation": "بعد kan نستخدم المصدر."
+      },
+      {
+        "id": "abilities-and-rules-q3",
+        "prompt": "ما معنى Je moet de ingang vrij houden؟",
+        "options": [
+          "يمكن إغلاق المدخل",
+          "يجب شراء دراجة",
+          "يجب إبقاء المدخل خالياً"
+        ],
+        "correctIndex": 2,
+        "explanation": "moet للواجب وvrij houden للإبقاء خالياً هنا."
+      },
+      {
+        "id": "abilities-and-rules-q4",
+        "prompt": "ما معنى blijven؟",
+        "options": [
+          "يبقى",
+          "يغادر",
+          "يركض"
+        ],
+        "correctIndex": 0,
+        "explanation": "blijven عكس vertrekken في هذا السياق."
+      }
+    ]
+  },
+  {
     "slug": "doctor-appointment",
     "level": "A1",
-    "number": "34",
+    "number": "45",
     "title": "موعد عند طبيب الأسرة",
     "dutchTitle": "Bij de huisarts",
     "description": "اشرح عرضاً بسيطاً وحدد منذ متى بدأت المشكلة.",
@@ -4277,7 +5685,7 @@
     "slug": "pharmacy",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "35",
+    "number": "46",
     "title": "في الصيدلية",
     "dutchTitle": "Bij de apotheek",
     "description": "اطلب استلام دوائك واسأل الصيدلي عن طريقة استخدامه.",
@@ -4384,7 +5792,7 @@
     "slug": "municipal-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "36",
+    "number": "47",
     "title": "موعد في البلدية",
     "dutchTitle": "Bij de gemeente",
     "description": "أخبر موظف الاستقبال أن لديك موعداً وافهم طلب إثبات الهوية.",
@@ -4491,7 +5899,7 @@
     "slug": "phone-calls",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "37",
+    "number": "48",
     "title": "مكالمة قصيرة",
     "dutchTitle": "Telefoneren",
     "description": "عرّف بنفسك في الهاتف واطلب تكرار الكلام أو إبطاءه.",
@@ -4594,7 +6002,7 @@
     "slug": "letters-and-messages",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "38",
+    "number": "49",
     "title": "فهم رسالة موعد",
     "dutchTitle": "Een afspraakbericht lezen",
     "description": "استخرج يوم الموعد وساعته وما يجب إحضاره من رسالة قصيرة.",
@@ -4693,7 +6101,7 @@
     "slug": "filling-in-a-form",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "39",
+    "number": "50",
     "title": "ملء استمارة الخدمة",
     "dutchTitle": "Een formulier invullen",
     "description": "املأ استمارة بسيطة، واذكر بياناتك، واطلب شرح خانة غير واضحة.",
@@ -4843,7 +6251,7 @@
     "slug": "changing-an-appointment",
     "moduleId": "appointments",
     "level": "A1",
-    "number": "40",
+    "number": "51",
     "title": "تغيير موعدك",
     "dutchTitle": "Een afspraak verzetten",
     "description": "اطلب تغيير الموعد، واسأل عن وقت بديل، وثبّت الموعد الجديد.",
@@ -4992,7 +6400,7 @@
   {
     "slug": "describing-symptoms",
     "level": "A1",
-    "number": "41",
+    "number": "52",
     "title": "وصف الأعراض وطلب التوضيح",
     "dutchTitle": "Vertellen wat je voelt",
     "description": "اذكر موضع الألم وبدايته واطلب شرحاً واضحاً دون استنتاج علاج.",
@@ -5134,6 +6542,134 @@
         ],
         "correctIndex": 1,
         "explanation": "السؤال يطلب شرحاً بكلمات بسيطة."
+      }
+    ]
+  },
+  {
+    "slug": "body-and-feelings",
+    "moduleId": "appointments",
+    "level": "A1",
+    "number": "53",
+    "title": "أعضاء الجسم والشعور العام",
+    "dutchTitle": "Hoe voel je je?",
+    "description": "سمّ أعضاء الجسم وعبّر عن التعب والألم دون وصف علاج.",
+    "durationMinutes": 10,
+    "context": "موقف تعليمي ببيانات خيالية. اقرأ الحوار ثم غيّر التفاصيل في مهام التطبيق.",
+    "goal": "سمّ أعضاء الجسم وعبّر عن التعب والألم دون وصف علاج.",
+    "grammar": {
+      "title": "التعبير عن الشعور",
+      "explanation": "Ik voel me ... للشعور: moe، goed. نقول Je voelt je ... وHij voelt zich ... . في سؤال Hoe voel je je؟ الأولى je فاعل والثانية جزء من voelen. الألم مع hebben، وبعض الأحاسيس مع zijn: Ik ben moe.",
+      "example": "Ik voel me moe. Mijn hoofd doet pijn.",
+      "translation": "أشعر بالتعب. رأسي يؤلمني."
+    },
+    "phrases": [
+      {
+        "id": "a1-body-and-feelings-01",
+        "dutch": "Hoe voel je je vandaag?",
+        "arabic": "كيف تشعر اليوم؟",
+        "tip": "يشعر؛ الضمير يتغير مع المتكلم."
+      },
+      {
+        "id": "a1-body-and-feelings-02",
+        "dutch": "Ik ben moe en mijn hoofd doet pijn.",
+        "arabic": "أنا متعب ورأسي يؤلمني.",
+        "tip": "الرأس؛ doet pijn تعني يؤلم."
+      },
+      {
+        "id": "a1-body-and-feelings-03",
+        "dutch": "Heb je ook pijn in je rug of je buik?",
+        "arabic": "هل تشعر أيضاً بألم في ظهرك أو بطنك؟",
+        "tip": "الظهر؛ سؤال تعليمي عن موضع الألم."
+      },
+      {
+        "id": "a1-body-and-feelings-04",
+        "dutch": "Nee, mijn rug en mijn buik doen geen pijn.",
+        "arabic": "لا، ظهري وبطني لا يؤلمانني.",
+        "tip": "البطن؛ فاعلان معاً يتبعهما doen."
+      },
+      {
+        "id": "a1-body-and-feelings-05",
+        "dutch": "Kun je je hand en je voet aanwijzen?",
+        "arabic": "هل تستطيع الإشارة إلى يدك وقدمك؟",
+        "tip": "اليد؛ aanwijzen تعني يشير إلى شيء لتحديده."
+      },
+      {
+        "id": "a1-body-and-feelings-06",
+        "dutch": "Ja, dit is mijn hand en dit is mijn voet.",
+        "arabic": "نعم، هذه يدي وهذه قدمي.",
+        "tip": "القدم؛ voeten جمع."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أ",
+        "phraseId": "a1-body-and-feelings-01"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-body-and-feelings-02"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-body-and-feelings-03"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-body-and-feelings-04"
+      },
+      {
+        "speaker": "أ",
+        "phraseId": "a1-body-and-feelings-05"
+      },
+      {
+        "speaker": "ب",
+        "phraseId": "a1-body-and-feelings-06"
+      }
+    ],
+    "questions": [
+      {
+        "id": "body-and-feelings-q1",
+        "prompt": "أكمل: Ik voel ... moe.",
+        "options": [
+          "zich",
+          "me",
+          "je"
+        ],
+        "correctIndex": 1,
+        "explanation": "مع ik نستخدم me في هذا التعبير."
+      },
+      {
+        "id": "body-and-feelings-q2",
+        "prompt": "أي عضو يؤلم المتحدث؟",
+        "options": [
+          "القدم",
+          "البطن",
+          "الرأس"
+        ],
+        "correctIndex": 2,
+        "explanation": "قال mijn hoofd doet pijn."
+      },
+      {
+        "id": "body-and-feelings-q3",
+        "prompt": "ما جمع voet؟",
+        "options": [
+          "voeten",
+          "handen",
+          "armen"
+        ],
+        "correctIndex": 0,
+        "explanation": "جمع voet هو voeten. handen جمع hand وarmen جمع arm."
+      },
+      {
+        "id": "body-and-feelings-q4",
+        "prompt": "لماذا doen في mijn rug en mijn buik doen geen pijn؟",
+        "options": [
+          "لأن الجملة سؤال",
+          "لوجود فاعلين معاً",
+          "لأنها في الماضي"
+        ],
+        "correctIndex": 1,
+        "explanation": "rug وbuik معاً يعاملان كجمع."
       }
     ]
   }
