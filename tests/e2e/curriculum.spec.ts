@@ -73,7 +73,7 @@ test("mobile production, phrase review, and new lesson completion survive the ex
   await expect(page.locator(".success-message")).toBeVisible();
   await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("dutchflow-progress-v1")!).completedLessons)).toEqual(["pharmacy", lesson.slug]);
   await page.getByRole("navigation", { name: "التنقل بين الدروس" }).getByRole("link", { name: /الدرس التالي/ }).click();
-  await expect(page).toHaveURL("/learn/contact-details");
+  await expect(page).toHaveURL("/learn/asking-for-clarification");
   await expect(page.getByRole("textbox").first()).toHaveValue("");
   await expect(page.locator("input:checked")).toHaveCount(0);
   await page.goto("/progress");

@@ -58,9 +58,9 @@ The four grammar foundation tables collect present tense, question words, noun/p
 
 ## Compatibility and editorial checks
 
-All pre-expansion lesson slugs, phrase IDs and Dutch texts remain unchanged. Only display numbers change as lessons are inserted into their module groups. Existing 17 reading texts, ten scenarios and placement questions are preserved. Additional audio IDs are disjoint from lesson/review IDs. Shared source planning ensures approval/generation/integrity checks agree.
+All pre-expansion lesson slugs, phrase IDs and Dutch texts remain unchanged. Only display numbers change as lessons are inserted into their module groups. Reading/scenario identities and answer keys remain stable; their editorial corrections are recorded in `A1_DETAILED_REVIEW.md`. Placement questions are unchanged. Additional audio IDs are disjoint from lesson/review IDs. Shared source planning ensures approval/generation/integrity checks agree.
 
-Implementation review checked new dialogue flow, Dutch/Arabic pairing, selected answer intent, exact evidence, numerical consistency, changed transfer details and noun forms. Automated checks establish structure/behavior, not independent linguistic sign-off. Fictional prices, schedules, map and personal data must stay clearly fictional.
+The core and detailed editorial passes are complete for all authored course banks listed in `A1_DETAILED_REVIEW.md`. Implementation review checked new dialogue flow, Dutch/Arabic pairing, selected answer intent, exact evidence, numerical consistency, changed transfer details and noun forms. Automated checks establish structure/behavior, not independent linguistic sign-off. Fictional prices, schedules, map and personal data must stay clearly fictional.
 
 ## Unfinished release gates — do not relabel as complete
 

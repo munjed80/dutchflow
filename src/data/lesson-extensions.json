@@ -47,7 +47,7 @@
     ],
     "tasks": [
       {
-        "prompt": "تخيّل أنك اسْمُك الأول Nour واسم عائلتك Haddad. عرّف بهما في جملتين.",
+        "prompt": "تخيّل أن اسمك الأول Nour واسم عائلتك Haddad. عرّف بهما في جملتين.",
         "model": "Mijn voornaam is Nour. Mijn achternaam is Haddad.",
         "translation": "اسمي الأول نور. اسم عائلتي حداد.",
         "checklist": [
@@ -573,7 +573,7 @@
         "term": "liever",
         "kind": "expression",
         "forms": "liever binnen · liever thuis",
-        "meaning": "يفضّل؛ تقارن بين خيارين ولو لم يذكر الخيار الآخر صراحةً.",
+        "meaning": "يفضّل أو بالأحرى؛ ظرف مقارنة يُستعمل مع فعل، مثل Ik blijf liever binnen: أفضّل البقاء في الداخل.",
         "phraseId": "a1-weather-today-06"
       },
       {
@@ -653,7 +653,7 @@
     ],
     "tasks": [
       {
-        "prompt": "تريد دعوة زميلك إلى الحديقة بعد ظهر السبت. اكتب دعوتين قصيرتين: اسأل أولاً عن الوقت ثم اقترح الخطة.",
+        "prompt": "تريد دعوة زميلك إلى الحديقة بعد ظهر السبت. اكتب سؤالين قصيرين: اسأل أولاً عن توفّر الوقت ثم اقترح الخطة.",
         "model": "Heb je zaterdagmiddag tijd? Zullen we naar het park gaan?",
         "translation": "هل لديك وقت بعد ظهر السبت؟ هل نذهب إلى الحديقة؟",
         "checklist": [
@@ -720,12 +720,12 @@
     ],
     "tasks": [
       {
-        "prompt": "اكتب جملتين قصيرتين عن طفلين في عائلتك: واحدة عن الذهاب إلى المدرسة وواحدة عن الغياب بسبب المرض.",
+        "prompt": "اكتب جملتين قصيرتين عن طفلين في أسرة خيالية: واحدة عن الذهاب إلى المدرسة وواحدة عن الغياب بسبب المرض.",
         "model": "Mijn dochter gaat naar school. Mijn zoon is vandaag ziek en blijft thuis.",
         "translation": "ابنتي تذهب إلى المدرسة. ابني مريض اليوم ويبقى في البيت.",
         "checklist": [
-          "هل استخدمت naar school مع الجملة الأولى؟",
-          "هل استخدمت hij أو blijft thuis أو المرض في الجملة الثانية؟"
+          "هل استخدمت naar school للذهاب إلى المدرسة؟",
+          "هل ذكرت المرض والبقاء في المنزل في الجملة الثانية؟"
         ]
       },
       {
@@ -787,11 +787,11 @@
     ],
     "tasks": [
       {
-        "prompt": "قدّم أسرتك في ثلاث جمل قصيرة: من يعيش معك، وكم لديك من الأطفال، ومن يزورك أحياناً.",
+        "prompt": "قدّم أسرة خيالية في ثلاث جمل قصيرة: من يعيش معك، وكم لديك من الأطفال، ومن يزورك أحياناً.",
         "model": "Ik woon met mijn man en twee kinderen. Ik heb een zoon en een dochter. Mijn zus komt soms op bezoek.",
         "translation": "أعيش مع زوجي وطفلين. لدي ابن وابنة. أختي تأتي أحياناً للزيارة.",
         "checklist": [
-          "هل ذكرت من يعيش معك باستخدام met؟",
+          "هل ذكرت من يعيش معك وعدد الأطفال؟",
           "هل أضفت جملة عن زيارة أحد أفراد العائلة؟"
         ]
       },
@@ -855,7 +855,7 @@
     "tasks": [
       {
         "prompt": "اكتب رسالة قصيرة من سطرين إلى المدرسة: اذكر أن طفلك مريض اليوم واطلب إرسال الواجب.",
-        "model": "Goedemorgen, mijn zoon Adam is vandaag ziek. Kunt u het huiswerk sturen?",
+        "model": "Goedemorgen, mijn zoon Adam is vandaag ziek.\nKunt u het huiswerk sturen?",
         "translation": "صباح الخير، ابني آدم مريض اليوم. هل يمكنك إرسال الواجب؟",
         "checklist": [
           "هل ذكرت سبب الغياب في السطر الأول؟",
@@ -968,7 +968,7 @@
         "term": "langzamer",
         "kind": "expression",
         "forms": "wat langzamer · iets langzamer",
-        "meaning": "أبطأ قليلاً.",
+        "meaning": "أبطأ؛ wat langzamer وiets langzamer تعنيان أبطأ قليلاً.",
         "phraseId": "a1-phone-calls-03"
       },
       {
@@ -1056,8 +1056,8 @@
     "tasks": [
       {
         "prompt": "اكتب سطرين من رسالة موعد تدريبية: اذكر اليوم والساعة، ثم اذكر ما يجب إحضاره.",
-        "model": "Uw afspraak is op donderdag. De afspraak begint om tien uur. Neem uw identiteitsbewijs mee.",
-        "translation": "موعدك يوم الخميس. يبدأ الموعد الساعة العاشرة. أحضر إثبات هويتك معك.",
+        "model": "Uw afspraak is op donderdag om tien uur.\nNeem uw identiteitsbewijs mee.",
+        "translation": "موعدك يوم الخميس الساعة العاشرة.\nأحضر إثبات هويتك معك.",
         "checklist": [
           "هل استخدمت op مع اليوم وom مع الساعة؟",
           "هل أضفت المستند المطلوب؟"
@@ -1190,8 +1190,8 @@
     "tasks": [
       {
         "prompt": "اكتب رسالة خيالية باسم Nour لطلب تغيير موعد. اقترح الثلاثاء الساعة 10:30 بدلاً من الجمعة، وأضف تحية وتوقيعاً.",
-        "model": "Beste medewerker,\n\nIk wil mijn afspraak verzetten. Kan ik dinsdag om half elf komen?\n\nMet vriendelijke groet,\nNour",
-        "translation": "الموظف المحترم،\n\nأريد تغيير موعدي. هل يمكنني الحضور يوم الثلاثاء الساعة العاشرة والنصف؟\n\nمع أطيب التحيات،\nنور",
+        "model": "Beste medewerker,\n\nIk wil mijn afspraak van vrijdag verzetten. Kan ik dinsdag om half elf komen?\n\nMet vriendelijke groet,\nNour",
+        "translation": "الموظف المحترم،\n\nأريد تغيير موعدي المحدد يوم الجمعة. هل يمكنني الحضور يوم الثلاثاء الساعة العاشرة والنصف؟\n\nمع أطيب التحيات،\nنور",
         "checklist": [
           "هل طلبت تغيير الموعد واقترحت الثلاثاء؟",
           "هل استخدمت half elf للساعة 10:30؟",
@@ -1201,11 +1201,11 @@
       },
       {
         "prompt": "اكتب سؤالاً عن توفر موعد الأسبوع القادم، ثم أضف طلباً لإرسال رسالة نصية بالتأكيد.",
-        "model": "Is er volgende week nog plaats? Kunt u ook een sms sturen?",
-        "translation": "هل ما زال هناك مكان الأسبوع القادم؟ هل يمكنك أيضاً إرسال رسالة نصية؟",
+        "model": "Is er volgende week nog plaats? Kunt u de afspraak ook per sms bevestigen?",
+        "translation": "هل ما زال هناك موعد متاح الأسبوع القادم؟ هل يمكنك أيضاً تأكيد الموعد برسالة نصية؟",
         "checklist": [
           "هل استخدمت nog plaats للسؤال عن التوفر؟",
-          "هل طلبت تأكيداً إضافياً عبر sms؟"
+          "هل طلبت تأكيد الموعد عبر sms؟"
         ]
       }
     ]
@@ -1259,8 +1259,8 @@
     "tasks": [
       {
         "prompt": "استخدم عنواناً خيالياً: شارع Kerkstraat، المنزل رقم 24. اكتب جملة عن الشارع وأخرى عن رقم المنزل.",
-        "model": "Ik woon aan de Kerkstraat. Op nummer vierentwintig.",
-        "translation": "أسكن في شارع كيركسترات، في الرقم أربعة وعشرين.",
+        "model": "Ik woon aan de Kerkstraat. Mijn huisnummer is vierentwintig.",
+        "translation": "أسكن في شارع كيركسترات. رقم منزلي أربعة وعشرون.",
         "checklist": [
           "هل ذكرت اسم الشارع؟",
           "هل غيّرت رقم المنزل إلى 24؟"
@@ -1530,8 +1530,8 @@
     "tasks": [
       {
         "prompt": "اكتب رسالة قصيرة باسم خيالي هو Rami: التدفئة لا تعمل، واطلب إرسال شخص للإصلاح. اذكر أنك متاح يوم الخميس الساعة الثالثة عصراً، وأضف تحية وتوقيعاً.",
-        "model": "Beste verhuurder,\n\nDe verwarming werkt niet. Kunt u iemand sturen? Ik ben donderdag om drie uur thuis.\n\nMet vriendelijke groet,\nRami",
-        "translation": "صاحب المنزل المحترم،\n\nالتدفئة لا تعمل. هل يمكنك إرسال شخص؟ سأكون في المنزل يوم الخميس الساعة الثالثة.\n\nمع التحية،\nرامي",
+        "model": "Beste verhuurder,\n\nDe verwarming werkt niet. Kunt u iemand sturen? Ik ben donderdagmiddag om drie uur thuis.\n\nMet vriendelijke groet,\nRami",
+        "translation": "المؤجّر المحترم،\n\nالتدفئة لا تعمل. هل يمكنك إرسال شخص؟ سأكون في المنزل يوم الخميس الساعة الثالثة عصراً.\n\nمع التحية،\nرامي",
         "checklist": [
           "هل وصفت المشكلة وطلبت المساعدة بأدب؟",
           "هل ذكرت الخميس والساعة الثالثة وأضفت التحية والتوقيع؟"
@@ -2564,7 +2564,7 @@
         "term": "het spoor",
         "kind": "noun",
         "forms": "de sporen",
-        "meaning": "مسار القطار أو رقم رصيفه.",
+        "meaning": "مسار القطار؛ spoor drie يحدد المسار رقم 3 الذي ينطلق منه القطار. الرصيف الذي يقف عليه المسافرون يسمى het perron.",
         "phraseId": "a1-a-train-connection-02"
       },
       {
@@ -2920,7 +2920,7 @@
         "term": "nemen",
         "kind": "verb",
         "forms": "ik neem / zij neemt / wij nemen",
-        "meaning": "يأخذ أو يستقل؛ neem de bus تعني استقل الحافلة.",
+        "meaning": "يأخذ أو يستقل؛ Ik neem de bus تعني أستقل الحافلة، أما Neem de bus! فتعني استقل الحافلة!",
         "phraseId": "a1-daily-actions-and-order-04"
       },
       {
@@ -3068,7 +3068,7 @@
         "term": "samen",
         "kind": "expression",
         "forms": "samen / samen met",
-        "meaning": "معاً؛ السؤال هنا عن السعر الإجمالي للجوارب.",
+        "meaning": "معاً؛ في سؤال السعر تشير إلى مجموع ثمن الأشياء المقصودة في الحديث.",
         "phraseId": "a1-colours-and-clothing-06"
       }
     ],
@@ -3121,7 +3121,7 @@
         "term": "koud",
         "kind": "expression",
         "forms": "koud / koude",
-        "meaning": "بارد؛ niet تنفي الصفة lekker.",
+        "meaning": "بارد؛ بعد is نقول koud دون e. في هذا السياق يوضح برود الشاي سبب عدم استساغته.",
         "phraseId": "a1-preferences-and-negation-04"
       },
       {
@@ -3285,11 +3285,11 @@
       },
       {
         "prompt": "صف أخاً خيالياً طويلاً يرتدي نظارة.",
-        "model": "Mijn broer is lang. Hij heeft een bril.",
+        "model": "Mijn broer is lang. Hij draagt een bril.",
         "translation": "أخي طويل. يرتدي نظارة.",
         "checklist": [
           "هل استخدمت lang دون e بعد is؟",
-          "هل استخدمت een bril بالمفرد؟"
+          "هل استخدمت draagt een bril للتعبير عن ارتداء النظارة؟"
         ]
       }
     ]
@@ -3346,8 +3346,8 @@
         "model": "Leg het boek onder de lamp. Maak de deur open, alsjeblieft.",
         "translation": "ضع الكتاب تحت المصباح. افتح الباب، من فضلك.",
         "checklist": [
-          "هل غيّرت الغرض والمكان؟",
-          "هل وضعت open في نهاية الطلب؟"
+          "هل ذكرت الكتاب تحت المصباح وطلبت فتح الباب؟",
+          "هل فصلت Maak عن open؟ يمكن أن تأتي alsjeblieft بعد open."
         ]
       },
       {
@@ -3409,7 +3409,7 @@
     ],
     "tasks": [
       {
-        "prompt": "عرّف بشخص خيالي يعمل خبازاً في مخبز. استخدم bakker وbakkerij.",
+        "prompt": "تحدث باسم شخص خيالي يعمل خبازاً في مخبز. استخدم bakker وbakkerij.",
         "model": "Ik ben bakker. Ik werk in een bakkerij.",
         "translation": "أنا خباز. أعمل في مخبز.",
         "checklist": [
@@ -3442,7 +3442,7 @@
         "term": "willen",
         "kind": "verb",
         "forms": "ik wil / hij wil / wij willen",
-        "meaning": "يريد؛ wil اليوم تعبر عن الرغبة.",
+        "meaning": "يريد؛ في ik wil vandaag fietsen يعبّر wil عن الرغبة وvandaag عن اليوم.",
         "phraseId": "a1-abilities-and-rules-02"
       },
       {
@@ -3502,7 +3502,7 @@
         "term": "voelen",
         "kind": "verb",
         "forms": "ik voel me / jij voelt je / hij voelt zich",
-        "meaning": "يشعر؛ الضمير يتغير مع المتكلم.",
+        "meaning": "يشعر؛ في zich voelen يتغير الضمير الانعكاسي مع الفاعل: ik voel me، jij voelt je، hij voelt zich.",
         "phraseId": "a1-body-and-feelings-01"
       },
       {
@@ -3544,7 +3544,7 @@
     "tasks": [
       {
         "prompt": "استخدم مثالاً خيالياً: تشعر أنك بخير لكن قدمك تؤلمك منذ أمس.",
-        "model": "Ik voel me goed, maar mijn voet doet pijn sinds gisteren.",
+        "model": "Ik voel me goed, maar mijn voet doet sinds gisteren pijn.",
         "translation": "أشعر أنني بخير، لكن قدمي تؤلمني منذ أمس.",
         "checklist": [
           "هل استخدمت me مع ik؟",

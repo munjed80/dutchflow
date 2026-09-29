@@ -54,7 +54,7 @@ test("a lesson can be completed and retried without an incorrect success message
   await expect(page.locator(".retry-message")).toContainText("1 من 3");
   await expect(page.locator(".success-message")).toHaveCount(0);
   await page.getByRole("navigation", { name: "التنقل بين الدروس" }).getByRole("link", { name: /الدرس التالي/ }).click();
-  await expect(page).toHaveURL(/\/learn\/spelling-your-name$/);
+  await expect(page).toHaveURL(/\/learn\/people-and-questions$/);
   await expect(page.locator('input[type="radio"]:checked')).toHaveCount(0);
   await expect(page.locator(".retry-message")).toHaveCount(0);
   await page.goto("/progress");

@@ -29,7 +29,7 @@
             "Achternaam: Eva"
           ],
           "correctIndex": 1,
-          "evidence": "Ik woon nu in Haarlem, op nummer 18.",
+          "evidence": "Hallo, ik ben Sofia Costa. Ik kom uit Portugal. Ik woon nu in Haarlem, op nummer 18.",
           "explanation": "woonplaats هي Haarlem واسم العائلة Costa ورقم المنزل 18.",
           "id": "practice-introducing-yourself-read-2"
         }
@@ -120,7 +120,7 @@
             "90 دقيقة"
           ],
           "correctIndex": 0,
-          "evidence": "Dinsdag: 09:00–10:30.",
+          "evidence": "Dinsdag: 09:00–10:30. Donderdag: 13:00–14:30. Neem een pen en een schrift mee. De school is op vrijdag gesloten. Je kunt op dinsdag na de les tot 11:00 in de bibliotheek oefenen.",
           "explanation": "ينتهي الدرس 10:30 والتدرب متاح حتى 11:00 في الجملة الأخيرة.",
           "id": "practice-numbers-and-time-read-2"
         }
@@ -158,7 +158,7 @@
       ]
     },
     "writing": {
-      "prompt": "أرسل رسالة: أنت متاح الأربعاء من 15:00 إلى 16:00، واقترح لقاء نصف ساعة بدءاً من 15:00.",
+      "prompt": "أرسل رسالة: أنت متاح الأربعاء من 15:00 إلى 16:00، واقترح التدريب معاً لمدة نصف ساعة بدءاً من 15:00.",
       "model": "Woensdag kan ik van drie tot vier uur. Zullen we van drie uur tot half vier oefenen?",
       "translation": "أستطيع الأربعاء من الثالثة إلى الرابعة. هل نتدرب من الثالثة إلى الثالثة والنصف؟",
       "checklist": [
@@ -223,7 +223,7 @@
       "translation": "مرحباً، معك سارة، والدة ميلا. ابنتي لن تأتي إلى المدرسة اليوم. إنها مريضة. هل يمكنك إرسال الواجب بالبريد الإلكتروني؟ سأتصل مجدداً غداً.",
       "questions": [
         {
-          "prompt": "كيف تطلب الأم الواجب؟",
+          "prompt": "بأي وسيلة تريد الأم استلام الواجب؟",
           "options": [
             "بالبريد الإلكتروني",
             "في رسالة ورقية",
@@ -259,11 +259,11 @@
     },
     "speaking": {
       "prompt": "صف أسرة خيالية: شخصان بالغان وطفلان. اذكر اسم طفل وعمره، واسأل شريكك عن أسرته دون طلب بيانات حساسة.",
-      "model": "Wij wonen met vier mensen thuis. Mijn dochter heet Lina. Zij is acht jaar. Heb jij kinderen?",
-      "translation": "نعيش أربعة أشخاص في المنزل. اسم ابنتي لينا. عمرها ثماني سنوات. هل لديك أطفال؟",
+      "model": "Ons gezin heeft twee volwassenen en twee kinderen. Mijn dochter heet Lina. Zij is acht jaar. Heb jij kinderen?",
+      "translation": "تتكون أسرتنا من شخصين بالغين وطفلين. اسم ابنتي لينا. عمرها ثماني سنوات. هل لديك أطفال؟",
       "checklist": [
-        "هل فرقت بين hij وzij وwij؟",
-        "هل كان العمر مفهوماً وهل طرحت سؤالاً؟"
+        "هل ذكرت شخصين بالغين وطفلين واستخدمت zij عند الحديث عن الابنة؟",
+        "هل ذكرت اسم الطفل وعمره وطرحت سؤالاً عن الأسرة؟"
       ],
       "partnerPrompts": [
         "Wie woont er bij jou?",
@@ -381,12 +381,12 @@
             "أربعة يوروهات"
           ],
           "correctIndex": 0,
-          "evidence": "een appel 50 cent",
+          "evidence": "vier appels, een brood en melk. We hebben nog kaas. In deze oefenwinkel kost een appel 50 cent",
           "explanation": "أربع مرات 50 سنتاً تساوي يوروين.",
           "id": "practice-food-and-shopping-read-1"
         },
         {
-          "prompt": "ماذا لا نحتاج إلى شرائه لأن لدينا منه؟",
+          "prompt": "ما الطعام الذي ما زال لديهم في المنزل؟",
           "options": [
             "الحليب",
             "الجبن",
@@ -394,7 +394,7 @@
           ],
           "correctIndex": 1,
           "evidence": "We hebben nog kaas.",
-          "explanation": "الجبن متوفر بالفعل.",
+          "explanation": "We hebben nog kaas تعني ما زال لدينا جبن؛ هذا هو الطعام المتوفر المذكور في النص.",
           "id": "practice-food-and-shopping-read-2"
         }
       ]
@@ -402,7 +402,7 @@
     "listening": {
       "id": "a1-passage-food-and-shopping",
       "text": "Goedemiddag. Ik zoek een blauwe broek, maat veertig. Deze broek is te klein. Heeft u een grotere maat? Ik wil de zwarte broek ook graag passen.",
-      "translation": "مساء الخير. أبحث عن بنطال أزرق، مقاس أربعين. هذا البنطال صغير جداً. هل لديكم مقاس أكبر؟ أريد أيضاً تجربة البنطال الأسود.",
+      "translation": "طاب نهارك. أبحث عن بنطال أزرق، مقاس أربعين. هذا البنطال أصغر مما أحتاج. هل لديكم مقاس أكبر؟ أريد أيضاً تجربة البنطال الأسود.",
       "questions": [
         {
           "prompt": "ما المشكلة بالمقاس الحالي؟",
@@ -472,7 +472,7 @@
             "09:40"
           ],
           "correctIndex": 1,
-          "evidence": "bij Centrum om 09:25.",
+          "evidence": "Bij School is hij om 09:18 en bij Centrum om 09:25. De volgende bus vertrekt twintig minuten later. Je afspraak in Centrum is om 09:40. Loop vanaf de halte vijf minuten rechtdoor naar de bibliotheek.",
           "explanation": "الوصول للمحطة 09:25 ثم خمس دقائق مشياً؛ الوصول للمكتبة 09:30.",
           "id": "practice-travel-and-directions-read-1"
         },
@@ -484,7 +484,7 @@
             "لا، أصل 09:50"
           ],
           "correctIndex": 2,
-          "evidence": "De volgende bus vertrekt twintig minuten later.",
+          "evidence": "De bus vertrekt van halte Park om 09:10. Bij School is hij om 09:18 en bij Centrum om 09:25. De volgende bus vertrekt twintig minuten later. Je afspraak in Centrum is om 09:40. Loop vanaf de halte vijf minuten rechtdoor naar de bibliotheek.",
           "explanation": "الحافلة التالية تؤخر الوصول عشرين دقيقة عن 09:30، فيصبح 09:50.",
           "id": "practice-travel-and-directions-read-2"
         }
@@ -547,9 +547,9 @@
       ]
     },
     "writing": {
-      "prompt": "اكتب لصديق أنك تصل محطة School الساعة 10:15، واطلب لقاءه عند المدخل.",
-      "model": "Ik kom om kwart over tien aan bij halte School. Kunnen we bij de ingang afspreken?",
-      "translation": "أصل إلى محطة School الساعة العاشرة والربع. هل يمكننا اللقاء عند المدخل؟",
+      "prompt": "اكتب لصديق أنك تصل محطة القطار Noord الساعة 10:15، واطلب لقاءه عند مدخل المحطة.",
+      "model": "Ik kom om kwart over tien aan op station Noord. Kunnen we bij de ingang van het station afspreken?",
+      "translation": "أصل إلى محطة نورد الساعة العاشرة والربع. هل يمكننا اللقاء عند مدخل المحطة؟",
       "checklist": [
         "هل نقلت الوقت 10:15 بدقة؟",
         "هل وضحت المكان وطلبت الاتفاق؟"
@@ -648,7 +648,7 @@
     },
     "speaking": {
       "prompt": "مثّل دور شخص في موعد خيالي. اذكر موضع ألم ووقت بدايته، واطلب تكرار السؤال ثم كتابته إذا بقي غير واضح.",
-      "model": "Ik heb pijn in mijn knie, sinds gisteren. Kunt u dat herhalen? Kunt u de vraag opschrijven?",
+      "model": "Ik heb sinds gisteren pijn in mijn knie. Kunt u dat herhalen? Kunt u de vraag opschrijven?",
       "translation": "أشعر بألم في ركبتي منذ أمس. هل يمكنك تكرار ذلك؟ هل يمكنك كتابة السؤال؟",
       "checklist": [
         "هل كان موضع الألم وبدايته واضحين؟",
@@ -770,7 +770,7 @@
             "تذهب للاستراحة"
           ],
           "correctIndex": 1,
-          "evidence": "Schrijf daarna het aantal op de lijst.",
+          "evidence": "Tel eerst de dozen. Schrijf daarna het aantal op de lijst.",
           "explanation": "الخطوة التالية للعد هي الكتابة، وليس النقل.",
           "id": "practice-work-and-tasks-read-1"
         },
@@ -838,7 +838,7 @@
       ],
       "partnerPrompts": [
         "Wat voor werk doe je?",
-        "Kun je de stoelen bij de tafel zetten?",
+        "Zet eerst de stoelen bij de tafel. Open daarna de deur.",
         "Wat doe je daarna?"
       ]
     }
@@ -921,8 +921,8 @@
     },
     "speaking": {
       "prompt": "اذكر هوايتين تحبهما، وادعُ شريكك لنشاط. إذا لم يناسبه الوقت، اقترح وقتاً آخر ثم أكّد التفاصيل.",
-      "model": "Ik lees graag en ik fiets graag. Zullen we zondag fietsen? Kan het om twee uur? Goed, zondag om twee uur bij het park.",
-      "translation": "أحب القراءة وركوب الدراجة. هل نركب الدراجة الأحد؟ هل يمكن الساعة الثانية؟ حسناً، الأحد الثانية عند الحديقة.",
+      "model": "Ik lees graag en ik fiets graag. Zullen we zondag fietsen? Kan het om twee uur? Om drie uur kan ik ook. Zullen we bij het park afspreken?",
+      "translation": "أحب القراءة وركوب الدراجة. هل نركب الدراجة الأحد؟ هل يمكن الساعة الثانية؟ الثالثة تناسبني أيضاً. هل نلتقي عند الحديقة؟",
       "checklist": [
         "هل استخدمت graag مع هوايتين؟",
         "هل عدّلت الاقتراح بناءً على رد الشريك وأكدت اليوم والوقت والمكان؟"
@@ -930,7 +930,8 @@
       "partnerPrompts": [
         "Wat doe je graag?",
         "Om twee uur kan ik niet. Kan het om drie uur?",
-        "Waar spreken we af?"
+        "Waar spreken we af?",
+        "Goed, zondag om drie uur bij het park. Tot dan!"
       ]
     }
   },
@@ -961,7 +962,7 @@
             "5 دقائق"
           ],
           "correctIndex": 0,
-          "evidence": "Bus 6 komt daar om 09:45 aan. Vanaf de halte loop je vijf minuten naar de ingang.",
+          "evidence": "We oefenen vrijdag van 10:00 tot 11:00 in de bibliotheek aan het Parkplein. Bus 6 komt daar om 09:45 aan. Vanaf de halte loop je vijf minuten naar de ingang.",
           "explanation": "تصل المدخل 09:50 ويبدأ الدرس 10:00.",
           "id": "practice-final-review-read-1"
         },
@@ -1070,8 +1071,8 @@
     },
     "speaking": {
       "prompt": "مع شريك: قدّم نفسك، واشرح طريقاً قصيراً إلى المدرسة، واطلب مشروباً، ثم اتفقا على لقاء. اطلب التكرار عند الحاجة. تكلم بجمل قصيرة، ويمكن للشريك التحدث ببطء.",
-      "model": "Ik heet Adam en ik woon in Delft. Loop rechtdoor en ga linksaf. Ik wil graag thee. Zullen we vrijdag om half elf afspreken? Kun je dat herhalen?",
-      "translation": "اسمي آدم وأسكن في دلفت. امشِ مباشرة ثم انعطف يساراً. أريد شاياً، من فضلك. هل نلتقي الجمعة العاشرة والنصف؟ هل يمكنك تكرار ذلك؟",
+      "model": "Ik heet Adam en ik woon in Delft. Loop rechtdoor en ga linksaf. Ik wil graag thee. Zullen we vrijdag om half elf afspreken? Kun je dat herhalen? Maandag kan ik ook. Om half elf?",
+      "translation": "اسمي آدم وأسكن في دلفت. امشِ مباشرة ثم انعطف يساراً. أريد شاياً، من فضلك. هل نلتقي الجمعة العاشرة والنصف؟ هل يمكنك تكرار ذلك؟ الاثنين يناسبني أيضاً. الساعة العاشرة والنصف؟",
       "checklist": [
         "هل فهم الشريك المعلومات الأساسية دون قراءة النموذج؟",
         "هل سألت وأجبت وطلبت توضيحاً عند الحاجة؟",
@@ -1081,7 +1082,8 @@
         "Waar woon je?",
         "Hoe kom ik bij de school?",
         "Wat wil je drinken?",
-        "Vrijdag kan ik niet. Kun je maandag?"
+        "Vrijdag kan ik niet. Kun je maandag?",
+        "Ja, maandag om half elf. Tot dan!"
       ]
     }
   }
