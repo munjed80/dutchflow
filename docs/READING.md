@@ -45,3 +45,7 @@ Editorial review during implementation checked narrative consistency, Dutch/Arab
 Browser tests cover discovery, all seventeen routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. The services reading has a dedicated mobile flow covering paragraph formatting, a wrong Friday-deadline answer corrected to **before Friday**, regrading, reload, catalogue return and unchanged completion/review storage. The guest-room mobile flow checks arrival time versus work finish, furniture locations, required answers, evidence and regrading. The shopping-list mobile flow distinguishes the price per kilogram from the requested quantity, corrects a mistaken price with passage evidence, and checks the conditional bread substitute. CI continues to run the full account, lesson, placement, listening, writing, and review suites.
 
 The September review adds `a-journey-with-a-change`, `a-colleague-shows-the-task`, and `a-question-at-the-practice`; the school-absence text now promises a callback instead of implying a return-to-school rule. See [review details](A1_REVIEW_2026-09.md).
+
+## Detailed editorial review completed
+
+The 2026-09-29 editorial pass is complete for this content bank. See `A1_DETAILED_REVIEW.md` for exact scope, per-resource coverage and corrections. Independent educator/learner validation and owner-managed recording approval remain separate.

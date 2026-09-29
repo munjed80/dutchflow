@@ -1,6 +1,6 @@
 # A1 editorial review — September 2026
 
-This review follows the merged A1 expansion. It covers the 53 core lesson phrase/translation pairs, grammar notes and answer keys, and the order of the learning path. It is an implementation/editorial review, not an independent teacher sign-off. The enrichment, reading, scenario and integrated practice banks still need a separate full editorial pass; schema checks alone do not establish linguistic quality.
+This review follows the merged A1 expansion. It covers the 53 core lesson phrase/translation pairs, grammar notes and answer keys, and the order of the learning path. It is an implementation/editorial review, not an independent teacher sign-off. The subsequent full enrichment, reading, scenario and integrated-practice editorial pass is complete; see `A1_DETAILED_REVIEW.md` for its coverage and corrections. Schema checks alone do not establish linguistic quality.
 
 ## Changes
 
@@ -20,9 +20,8 @@ Lesson slugs, phrase IDs, all 343 spoken lesson texts, dialogue references, ques
 
 The learning-map tests protect prerequisite ordering and consistent roadmap order. Content validation, native tests, TypeScript/build and the learning-path/curriculum browser tests cover this change. Compare audio sources by ID and text against the merged base when editing content while recording work is in progress.
 
-## Remaining editorial work
+## Follow-up status
 
-1. Review all 318 lexical notes and 106 production models against their lesson context.
-2. Review reading, scenario and integrated practice answers against the exact supporting text, including oral and writing rubrics.
-3. Obtain independent Dutch/pedagogical feedback and learner trials. Record concrete corrections rather than treating automated validation as this review.
-4. The owner generates, listens to and approves the fixed recordings separately.
+The requested review of all 318 lexical notes, 106 lesson production tasks, 17 readings, ten scenarios and eleven integrated packs is complete. See `A1_DETAILED_REVIEW.md` for the reviewed source snapshot and corrections.
+
+Independent educator feedback and observed learner performance remain separate release validation. The owner generates, listens to and approves fixed recordings; no spoken source changed in the detailed audit.

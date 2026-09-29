@@ -58,7 +58,7 @@
           {
             "text": "H-A-D-A-D.",
             "translation": "الحروف H-A-D-A-D.",
-            "feedback": "تنقص هنا إحدى حرفي D المتجاورين في Haddad."
+            "feedback": "ينقص هنا أحد حرفي D المتجاورين في Haddad."
           }
         ],
         "correctIndex": 0,
@@ -1121,7 +1121,7 @@
         "id": "planning-a-study-session-3"
       },
       {
-        "goal": "أكّد وقت الانتهاء والمكان اللذين اتفقتما عليهما.",
+        "goal": "أكّد وقت الانتهاء ووافق على اقتراح التدريب في المكتبة.",
         "prompt": "Dus we zijn om half elf klaar. Zullen we in de bibliotheek oefenen?",
         "translation": "إذن ننتهي الساعة العاشرة والنصف. هل نتدرب في المكتبة؟",
         "choices": [
@@ -1279,7 +1279,7 @@
     ],
     "transfer": {
       "prompt": "استخدم بيانات خيالية مختلفة: ألم في الذراع منذ هذا الصباح. اكتب وصفاً قصيراً، ثم اطلب من الطبيبة التحدث ببطء. لا تضف تشخيصاً أو علاجاً.",
-      "model": "Ik heb pijn in mijn arm, sinds vanochtend. Kunt u langzaam praten, alstublieft?",
+      "model": "Ik heb sinds vanochtend pijn in mijn arm. Kunt u langzaam praten, alstublieft?",
       "translation": "أشعر بألم في ذراعي منذ هذا الصباح. هل يمكنك التحدث ببطء، من فضلك؟",
       "checklist": [
         "هل غيّرت موضع الألم إلى الذراع ووقت البداية إلى هذا الصباح؟",

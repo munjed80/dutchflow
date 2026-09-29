@@ -19,7 +19,7 @@ Examples are linear, not branching simulations: the next partner reply is author
 
 Attempts and writing remain only in React memory. Reload, restarting or navigation to a different scenario clears them. The player is keyed by scenario slug. The feature writes no localStorage, sessionStorage, cloud completion, review list or payment entitlement. It remains usable without an account and during account lookup failure. Existing shared providers may still perform their normal account lookup.
 
-There is no audio playback or recording in this release. Scenario text has its own IDs and is not added to the existing 271-phrase audio/review bank; the audio generator still plans 1,084 variants. Optional phrase saving remains available in the source lessons.
+There is no audio playback or recording in this release. Scenario text has its own IDs and is not added to the existing 343-phrase lesson audio/review bank; the full audio generator plans 1,468 variants including connected passages and pronunciation drills. Optional phrase saving remains available in the source lessons.
 
 ## Server and client data
 
@@ -46,3 +46,7 @@ Native tests cover content contracts and invalid input, first-answer retention, 
 `explaining-a-symptom` uses fictional knee pain since yesterday, asks for a simpler explanation of `klachten`, then requests the word in writing. Its transfer changes body location and onset. It provides communication practice only, with no diagnosis, triage or treatment.
 
 All ten thematic units now have one guided scenario (40 turns and ten transfer tasks). This is text coverage, not complete interaction competence or A1 readiness. Existing lesson/audio identities are unchanged, and independent Dutch/Arabic review is still pending.
+
+## Detailed editorial review completed
+
+The 2026-09-29 editorial pass is complete for this content bank. See `A1_DETAILED_REVIEW.md` for exact scope, per-resource coverage and corrections. Independent educator/learner validation and owner-managed recording approval remain separate.

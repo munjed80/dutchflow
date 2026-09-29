@@ -1017,7 +1017,7 @@
     "grammar": {
       "title": "الفعل المنفصل afspreken في الخطة",
       "example": "Om twee uur spreekt ze met Noor af bij het station.",
-      "translation": "الساعة الثانية تتفق على اللقاء مع نور عند المحطة.",
+      "translation": "تلتقي نور عند المحطة الساعة الثانية.",
       "explanation": "الفعل afspreken ينفصل في الجملة البسيطة: spreekt ... af. تبدأ الجملة هنا بعبارة الوقت Om twee uur، لذلك يأتي الفعل spreekt قبل الفاعل ze."
     },
     "questions": [
@@ -1082,12 +1082,12 @@
       "message-to-school"
     ],
     "text": "Goedemorgen juf Emma, mijn dochter Lina is vandaag ziek en blijft thuis. Zij heeft sinds vannacht koorts. Kunt u het huiswerk naar mij mailen? Mijn man is vanmiddag thuis, dus u kunt hem ook bellen als dat makkelijker is. Ik weet nog niet of Lina morgen naar school komt. Ik bel u morgenochtend. Alvast bedankt voor uw hulp. Met vriendelijke groet, Samira Haddad.",
-    "translation": "صباح الخير يا معلمة إيما، ابنتي لينا مريضة اليوم وستبقى في البيت. لديها حمى منذ الليلة الماضية. هل يمكنك إرسال الواجب إليّ بالبريد؟ زوجي سيكون في البيت بعد الظهر، لذلك يمكنك أيضاً الاتصال به إذا كان ذلك أسهل. لا أعرف بعد إن كانت لينا ستأتي إلى المدرسة غداً. سأتصل بك غداً صباحاً. شكراً مقدماً على مساعدتك. مع خالص التحية، سميرة حداد.",
+    "translation": "صباح الخير يا معلمة إيما، ابنتي لينا مريضة اليوم وستبقى في البيت. لديها حمى منذ الليلة الماضية. هل يمكنك إرسال الواجب إليّ بالبريد الإلكتروني؟ زوجي سيكون في البيت بعد الظهر، لذلك يمكنك أيضاً الاتصال به إذا كان ذلك أسهل. لا أعرف بعد إن كانت لينا ستأتي إلى المدرسة غداً. سأتصل بك غداً صباحاً. شكراً مقدماً على مساعدتك. مع خالص التحية، سميرة حداد.",
     "vocabulary": [
       {
-        "term": "afwezig",
+        "term": "thuisblijven",
         "excerpt": "blijft thuis",
-        "meaning": "غائب عن المدرسة؛ النص يعبر عنه هنا بالبقاء في البيت."
+        "meaning": "يبقى في المنزل؛ blijft thuis هي الصيغة الواردة هنا، وبسبب المرض لن تذهب لينا إلى المدرسة."
       },
       {
         "term": "sinds vannacht",
@@ -1134,7 +1134,7 @@
         "prompt": "ماذا تطلب سميرة من المعلمة؟",
         "options": [
           "أن تغيّر الصف",
-          "أن ترسل الواجب بالبريد",
+          "أن ترسل الواجب بالبريد الإلكتروني",
           "أن تحجز موعداً جديداً"
         ],
         "correctIndex": 1,
@@ -1212,7 +1212,7 @@
       "title": "om ... te: هدف الفعل",
       "example": "Bel ons dan vóór vrijdag om een nieuwe afspraak te maken.",
       "translation": "اتصل بنا قبل يوم الجمعة لتحديد موعد جديد.",
-      "explanation": "توضح om ... te هنا الهدف من الاتصال: ترتيب موعد جديد. بعد om يأتي المصدر مع te، بينما يبقى الزمن أو الموعد مثل vóór vrijdag خارج هذا التركيب."
+      "explanation": "يوضح تركيب om ... te + المصدر هدف الاتصال: ترتيب موعد جديد. تأتي een nieuwe afspraak بين om وte maken في هذا المثال. أما vóór vrijdag فتحدد مهلة الاتصال، وتعني قبل الجمعة."
     },
     "questions": [
       {
@@ -1281,7 +1281,7 @@
       {
         "term": "het spoor",
         "excerpt": "spoor 2",
-        "meaning": "رقم المسار أو الرصيف هنا."
+        "meaning": "مسار القطار رقم 2؛ أما الرصيف الذي يقف عليه المسافرون فيسمى het perron."
       },
       {
         "term": "overstappen",
