@@ -52,3 +52,28 @@ test("enrichment validation protects same-lesson examples, noun forms, and produ
   for (const expected of ["reference this lesson", "noun requires article", "invalid production task", "unknown or duplicate lesson"]) assert.ok(errors.includes(expected), expected);
   for (const bad of [null, [null], [{}]]) assert.ok(validateLearningMap(bad, bad, lessons, readings).length);
 });
+
+test("foundation lessons precede their applications in both learning views", () => {
+  const position = new Map(lessons.map((lesson, index) => [lesson.slug, index]));
+  const prerequisites = [
+    ["people-and-questions", "school-and-family"],
+    ["numbers-and-prices", "numbers-and-age"],
+    ["numbers-and-prices", "contact-details"],
+    ["months-and-seasons", "dates-and-calendar"],
+    ["food-and-drinks", "cafe-order"],
+    ["preferences-and-negation", "cafe-order"],
+    ["colours-and-clothing", "clothes-and-sizes"],
+    ["directions", "places-and-routes"],
+    ["places-and-routes", "public-transport"],
+    ["family-at-home", "message-to-school"],
+    ["jobs-and-workplaces", "asking-at-work"],
+    ["body-and-feelings", "doctor-appointment"],
+  ];
+  for (const [foundation, application] of prerequisites) {
+    assert.ok(position.get(foundation) < position.get(application), `${foundation} before ${application}`);
+  }
+  for (const unit of units) {
+    const positions = unit.lessonSlugs.map((slug) => position.get(slug));
+    assert.deepEqual(positions, [...positions].sort((a, b) => a - b), unit.id);
+  }
+});

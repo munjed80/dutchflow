@@ -10,10 +10,10 @@
     "lessonSlugs": [
       "introductions",
       "personal-details",
-      "spelling-your-name",
-      "contact-details",
-      "asking-for-clarification",
       "people-and-questions",
+      "spelling-your-name",
+      "asking-for-clarification",
+      "contact-details",
       "belongings-and-articles"
     ],
     "readingSlugs": [
@@ -33,14 +33,14 @@
       "أسأل عن وقت نشاط وأجيب عنه."
     ],
     "lessonSlugs": [
+      "numbers-and-prices",
       "numbers-and-age",
       "time-and-days",
       "daily-routine",
-      "dates-and-calendar",
-      "weekly-routine",
-      "numbers-and-prices",
+      "daily-actions-and-order",
       "months-and-seasons",
-      "daily-actions-and-order"
+      "dates-and-calendar",
+      "weekly-routine"
     ],
     "readingSlugs": [
       "a-morning-routine",
@@ -60,10 +60,10 @@
       "أكتب رسالة قصيرة عن غياب أو موعد."
     ],
     "lessonSlugs": [
-      "school-and-family",
       "family-at-home",
-      "message-to-school",
-      "describing-people"
+      "describing-people",
+      "school-and-family",
+      "message-to-school"
     ],
     "readingSlugs": [
       "a-school-trip",
@@ -86,9 +86,9 @@
       "home-and-address",
       "rooms-at-home",
       "furniture-and-location",
+      "household-actions",
       "neighbours",
-      "repairs-at-home",
-      "household-actions"
+      "repairs-at-home"
     ],
     "readingSlugs": [
       "a-new-neighbour",
@@ -109,13 +109,13 @@
       "أعبّر عن تفضيل بسيط."
     ],
     "lessonSlugs": [
+      "food-and-drinks",
+      "preferences-and-negation",
       "at-the-shop",
       "cafe-order",
       "groceries-and-quantities",
-      "clothes-and-sizes",
-      "food-and-drinks",
       "colours-and-clothing",
-      "preferences-and-negation"
+      "clothes-and-sizes"
     ],
     "readingSlugs": [
       "shopping-for-lunch",
@@ -136,10 +136,10 @@
     ],
     "lessonSlugs": [
       "directions",
+      "places-and-routes",
       "public-transport",
       "train-tickets",
-      "a-train-connection",
-      "places-and-routes"
+      "a-train-connection"
     ],
     "readingSlugs": [
       "a-different-bus-stop",
@@ -159,10 +159,10 @@
       "أفهم تغيير موعد مكتوباً."
     ],
     "lessonSlugs": [
+      "body-and-feelings",
       "doctor-appointment",
-      "pharmacy",
       "describing-symptoms",
-      "body-and-feelings"
+      "pharmacy"
     ],
     "readingSlugs": [
       "a-changed-appointment",
@@ -205,9 +205,9 @@
       "أطلب مساعدة من زميل."
     ],
     "lessonSlugs": [
+      "jobs-and-workplaces",
       "workday",
-      "asking-at-work",
-      "jobs-and-workplaces"
+      "asking-at-work"
     ],
     "readingSlugs": [
       "a-workday-message",
@@ -228,9 +228,9 @@
     ],
     "lessonSlugs": [
       "free-time-hobbies",
+      "abilities-and-rules",
       "weather-today",
-      "invitations-and-plans",
-      "abilities-and-rules"
+      "invitations-and-plans"
     ],
     "readingSlugs": [
       "a-saturday-park-plan"

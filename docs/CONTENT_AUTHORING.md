@@ -4,13 +4,13 @@ Read `docs/A1_CURRICULUM.md` for thematic goals, readiness gates, vocabulary for
 
 For the separate original reading texts, contextual vocabulary, grammar examples, and evidenced questions, read `docs/READING.md`. Reading slugs and question IDs are separate from lesson/audio phrase IDs. Do not add reading texts to the audio manifest implicitly.
 
-`src/data/modules.json` defines the ordered modules. `src/data/lessons.json` is the ordered lesson source for rendering, quizzes, and generated phrase audio. The current release contains 41 introductory lessons across four modules; this is not a complete CEFR A1 syllabus or an official exam preparation guarantee.
+`src/data/modules.json` defines the ordered modules. `src/data/lessons.json` is the ordered lesson source for rendering, quizzes, and generated phrase audio. The current release contains 53 lessons across four modules. The authored A1 scope is documented in `docs/A1_COMPLETION.md`; it is not an official exam preparation guarantee or an independent pedagogical sign-off.
 
 For separate guided text dialogues, read `docs/SCENARIOS.md`. Scenario IDs do not belong to the lesson/audio bank; their tasks do not grant lesson completion.
 
 ## Add or edit a lesson
 
-1. Choose an existing `moduleId` and place the lesson with that module's other lessons. Update sequential display `number` values after reordering.
+1. Choose an existing `moduleId` and place the lesson with that module's other lessons. Update sequential display `number` values after reordering, and keep each roadmap unit’s lesson links in that same relative order. Place vocabulary and grammar foundations before the situations that reuse them; see `docs/A1_EDITORIAL_REVIEW.md`.
 2. Keep existing `slug` values and phrase `id` values stable. Slugs are used in URLs and saved completion. Phrase IDs identify generated audio. Never reuse an ID for unrelated content.
 3. Include a practical `goal`, the situation in `context`, and natural Dutch phrases with Arabic meanings and short explanations. Add a `grammar` title, explanation, Dutch example, and Arabic translation.
 4. Dialogue turns reference phrase IDs from the same lesson. Ensure the exchange makes sense when read aloud; validation checks the references, not linguistic coherence. In particular, check that each answer responds to the preceding question, dates contain the details required by the task, and a new appointment time is proposed and accepted before confirmation.
@@ -21,6 +21,6 @@ For separate guided text dialogues, read `docs/SCENARIOS.md`. Scenario IDs do no
 
 - The original routes `introductions`, `doctor-appointment`, and `at-the-shop` remain valid. Their lesson numbers may change; progress follows their slugs.
 - New lesson phrases are included automatically by `npm run audio:generate -- --dry-run`. The generator validates the entire curriculum even when using `--limit`.
-- Voice generation requires credentials and has not been run for this catalogue. The current 271 phrases correspond to 1084 files with two voices and two speeds.
+- Voice generation requires credentials and has not been run for this catalogue. The current 343 lesson phrases, 11 connected listening passages and 13 pronunciation drills total 367 sources: 1468 files with two voices and two speeds. The project owner is generating and reviewing the recordings.
 - The generator fingerprints exact SSML, voice, speed and format. Changed spoken content requires new files and fresh listening approval; Arabic-only edits keep audio identity. Read `AUDIO_PRODUCTION.md` before generating or publishing assets.
 - After generation, listen to the files before publishing the MP3s and manifest together. At larger scale, publish audio to object storage instead of keeping thousands of binaries in Git.
