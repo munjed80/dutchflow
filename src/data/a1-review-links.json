@@ -1,0 +1,355 @@
+{
+  "reading-neighbour-1": [
+    "neighbours"
+  ],
+  "reading-neighbour-2": [
+    "numbers-and-age"
+  ],
+  "reading-neighbour-3": [
+    "invitations-and-plans",
+    "time-and-days"
+  ],
+  "reading-morning-1": [
+    "time-and-days"
+  ],
+  "reading-morning-2": [
+    "time-and-days"
+  ],
+  "reading-morning-3": [
+    "daily-routine"
+  ],
+  "reading-shopping-1": [
+    "preferences-and-negation"
+  ],
+  "reading-shopping-2": [
+    "at-the-shop"
+  ],
+  "reading-shopping-3": [
+    "cafe-order"
+  ],
+  "reading-shopping-list-1": [
+    "groceries-and-quantities"
+  ],
+  "reading-shopping-list-2": [
+    "groceries-and-quantities"
+  ],
+  "reading-shopping-list-3": [
+    "numbers-and-prices",
+    "groceries-and-quantities"
+  ],
+  "reading-shopping-list-4": [
+    "food-and-drinks",
+    "preferences-and-negation"
+  ],
+  "reading-bus-1": [
+    "public-transport"
+  ],
+  "reading-bus-2": [
+    "directions"
+  ],
+  "reading-bus-3": [
+    "places-and-routes"
+  ],
+  "reading-appointment-1": [
+    "changing-an-appointment",
+    "time-and-days"
+  ],
+  "reading-appointment-2": [
+    "home-and-address"
+  ],
+  "reading-appointment-3": [
+    "changing-an-appointment",
+    "phone-calls"
+  ],
+  "reading-school-1": [
+    "time-and-days"
+  ],
+  "reading-school-2": [
+    "weather-today"
+  ],
+  "reading-school-3": [
+    "school-and-family"
+  ],
+  "reading-repair-1": [
+    "repairs-at-home"
+  ],
+  "reading-repair-2": [
+    "repairs-at-home",
+    "time-and-days"
+  ],
+  "reading-repair-3": [
+    "phone-calls"
+  ],
+  "reading-guest-room-1": [
+    "time-and-days"
+  ],
+  "reading-guest-room-2": [
+    "rooms-at-home"
+  ],
+  "reading-guest-room-3": [
+    "furniture-and-location"
+  ],
+  "reading-guest-room-4": [
+    "repairs-at-home"
+  ],
+  "reading-work-1": [
+    "asking-at-work",
+    "furniture-and-location"
+  ],
+  "reading-work-2": [
+    "workday"
+  ],
+  "reading-work-3": [
+    "asking-at-work"
+  ],
+  "reading-lesweek-1": [
+    "dates-and-calendar"
+  ],
+  "reading-lesweek-2": [
+    "weekly-routine"
+  ],
+  "reading-lesweek-3": [
+    "weekly-routine",
+    "time-and-days"
+  ],
+  "reading-lesweek-4": [
+    "weekly-routine"
+  ],
+  "reading-park-plan-1": [
+    "time-and-days"
+  ],
+  "reading-park-plan-2": [
+    "weather-today"
+  ],
+  "reading-park-plan-3": [
+    "invitations-and-plans"
+  ],
+  "reading-park-plan-4": [
+    "workday"
+  ],
+  "reading-absence-1": [
+    "message-to-school"
+  ],
+  "reading-absence-2": [
+    "message-to-school"
+  ],
+  "reading-absence-3": [
+    "family-at-home",
+    "phone-calls"
+  ],
+  "reading-absence-4": [
+    "phone-calls"
+  ],
+  "reading-document-1": [
+    "dates-and-calendar",
+    "time-and-days"
+  ],
+  "reading-document-2": [
+    "filling-in-a-form"
+  ],
+  "reading-document-3": [
+    "changing-an-appointment"
+  ],
+  "reading-document-4": [
+    "filling-in-a-form"
+  ],
+  "reading-a-journey-with-a-change-1": [
+    "a-train-connection",
+    "time-and-days"
+  ],
+  "reading-a-journey-with-a-change-2": [
+    "a-train-connection"
+  ],
+  "reading-a-journey-with-a-change-3": [
+    "a-train-connection",
+    "time-and-days"
+  ],
+  "reading-a-journey-with-a-change-4": [
+    "train-tickets"
+  ],
+  "reading-a-colleague-shows-the-task-1": [
+    "asking-at-work"
+  ],
+  "reading-a-colleague-shows-the-task-2": [
+    "furniture-and-location"
+  ],
+  "reading-a-colleague-shows-the-task-3": [
+    "asking-for-clarification"
+  ],
+  "reading-a-colleague-shows-the-task-4": [
+    "time-and-days"
+  ],
+  "reading-a-question-at-the-practice-1": [
+    "doctor-appointment",
+    "time-and-days"
+  ],
+  "reading-a-question-at-the-practice-2": [
+    "describing-symptoms"
+  ],
+  "reading-a-question-at-the-practice-3": [
+    "asking-for-clarification"
+  ],
+  "reading-a-question-at-the-practice-4": [
+    "describing-symptoms"
+  ],
+  "practice-introducing-yourself-read-1": [
+    "people-and-questions"
+  ],
+  "practice-introducing-yourself-read-2": [
+    "contact-details"
+  ],
+  "practice-introducing-yourself-listen-1": [
+    "numbers-and-prices"
+  ],
+  "practice-introducing-yourself-listen-2": [
+    "asking-for-clarification"
+  ],
+  "practice-numbers-and-time-read-1": [
+    "weekly-routine",
+    "time-and-days"
+  ],
+  "practice-numbers-and-time-read-2": [
+    "weekly-routine",
+    "time-and-days"
+  ],
+  "practice-numbers-and-time-listen-1": [
+    "time-and-days"
+  ],
+  "practice-numbers-and-time-listen-2": [
+    "numbers-and-prices"
+  ],
+  "practice-family-and-school-read-1": [
+    "school-and-family"
+  ],
+  "practice-family-and-school-read-2": [
+    "school-and-family"
+  ],
+  "practice-family-and-school-listen-1": [
+    "message-to-school"
+  ],
+  "practice-family-and-school-listen-2": [
+    "message-to-school",
+    "phone-calls"
+  ],
+  "practice-home-and-neighbourhood-read-1": [
+    "repairs-at-home"
+  ],
+  "practice-home-and-neighbourhood-read-2": [
+    "repairs-at-home"
+  ],
+  "practice-home-and-neighbourhood-listen-1": [
+    "furniture-and-location"
+  ],
+  "practice-home-and-neighbourhood-listen-2": [
+    "household-actions",
+    "daily-actions-and-order"
+  ],
+  "practice-food-and-shopping-read-1": [
+    "numbers-and-prices",
+    "groceries-and-quantities"
+  ],
+  "practice-food-and-shopping-read-2": [
+    "food-and-drinks"
+  ],
+  "practice-food-and-shopping-listen-1": [
+    "clothes-and-sizes"
+  ],
+  "practice-food-and-shopping-listen-2": [
+    "colours-and-clothing"
+  ],
+  "practice-travel-and-directions-read-1": [
+    "a-train-connection",
+    "time-and-days"
+  ],
+  "practice-travel-and-directions-read-2": [
+    "a-train-connection",
+    "time-and-days"
+  ],
+  "practice-travel-and-directions-listen-1": [
+    "a-train-connection"
+  ],
+  "practice-travel-and-directions-listen-2": [
+    "a-train-connection"
+  ],
+  "practice-health-and-care-read-1": [
+    "places-and-routes"
+  ],
+  "practice-health-and-care-read-2": [
+    "doctor-appointment",
+    "changing-an-appointment"
+  ],
+  "practice-health-and-care-listen-1": [
+    "body-and-feelings"
+  ],
+  "practice-health-and-care-listen-2": [
+    "describing-symptoms"
+  ],
+  "practice-services-and-messages-read-1": [
+    "filling-in-a-form"
+  ],
+  "practice-services-and-messages-read-2": [
+    "letters-and-messages"
+  ],
+  "practice-services-and-messages-listen-1": [
+    "changing-an-appointment",
+    "time-and-days"
+  ],
+  "practice-services-and-messages-listen-2": [
+    "phone-calls",
+    "changing-an-appointment"
+  ],
+  "practice-work-and-tasks-read-1": [
+    "asking-at-work"
+  ],
+  "practice-work-and-tasks-read-2": [
+    "asking-at-work"
+  ],
+  "practice-work-and-tasks-listen-1": [
+    "asking-at-work",
+    "household-actions"
+  ],
+  "practice-work-and-tasks-listen-2": [
+    "workday",
+    "time-and-days"
+  ],
+  "practice-leisure-and-plans-read-1": [
+    "invitations-and-plans",
+    "time-and-days"
+  ],
+  "practice-leisure-and-plans-read-2": [
+    "weather-today"
+  ],
+  "practice-leisure-and-plans-listen-1": [
+    "free-time-hobbies"
+  ],
+  "practice-leisure-and-plans-listen-2": [
+    "invitations-and-plans",
+    "time-and-days"
+  ],
+  "practice-final-review-read-1": [
+    "a-train-connection",
+    "time-and-days"
+  ],
+  "practice-final-review-read-2": [
+    "at-the-shop"
+  ],
+  "practice-final-review-read-3": [
+    "letters-and-messages"
+  ],
+  "practice-final-review-read-4": [
+    "belongings-and-articles"
+  ],
+  "practice-final-review-listen-1": [
+    "changing-an-appointment"
+  ],
+  "practice-final-review-listen-2": [
+    "weekly-routine",
+    "time-and-days"
+  ],
+  "practice-final-review-listen-3": [
+    "phone-calls"
+  ],
+  "practice-final-review-listen-4": [
+    "belongings-and-articles"
+  ]
+}

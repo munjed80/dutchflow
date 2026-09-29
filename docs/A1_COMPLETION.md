@@ -69,3 +69,7 @@ The core and detailed editorial passes are complete for all authored course bank
 3. **Learner performance validation:** observe independent writing and spoken interaction with real learners, give feedback and adjust tasks. Self-review criteria and model answers are teaching support, not evidence of successful acquisition.
 
 Course-content breadth has been expanded in this PR; a fully reviewed multimedia A1 release remains blocked by these concrete external steps. Account/hosting/privacy launch readiness is a separate project concern and paid exams remain deferred.
+
+## Practice follow-up polish
+
+All 108 library/integrated comprehension questions now have authored links to relevant A1 lessons. Checked mistakes produce deduplicated suggestions with question numbers; changed answers and resets clear stale advice. Pack navigation continues through the final review. See `A1_TARGETED_REVIEW.md`. This improves the learning loop without adding assessment claims or changing the reviewed content/audio bank.

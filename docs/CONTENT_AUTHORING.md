@@ -24,3 +24,7 @@ For separate guided text dialogues, read `docs/SCENARIOS.md`. Scenario IDs do no
 - Voice generation requires credentials and has not been run for this catalogue. The current 343 lesson phrases, 11 connected listening passages and 13 pronunciation drills total 367 sources: 1468 files with two voices and two speeds. The project owner is generating and reviewing the recordings.
 - The generator fingerprints exact SSML, voice, speed and format. Changed spoken content requires new files and fresh listening approval; Arabic-only edits keep audio identity. Read `AUDIO_PRODUCTION.md` before generating or publishing assets.
 - After generation, listen to the files before publishing the MP3s and manifest together. At larger scale, publish audio to object storage instead of keeping thousands of binaries in Git.
+
+## Remediation links
+
+Every library reading and integrated reading/listening question must have one or two relevant published lesson links in `src/data/a1-review-links.json`. Keep the mapping synchronized with question IDs and objectives. `content:check` verifies complete coverage; review relevance yourself using `docs/A1_TARGETED_REVIEW.md`.
