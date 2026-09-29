@@ -49,3 +49,7 @@ The September review adds `a-journey-with-a-change`, `a-colleague-shows-the-task
 ## Detailed editorial review completed
 
 The 2026-09-29 editorial pass is complete for this content bank. See `A1_DETAILED_REVIEW.md` for exact scope, per-resource coverage and corrections. Independent educator/learner validation and owner-managed recording approval remain separate.
+
+## Follow-up lessons after checking
+
+Each of the 60 questions has authored review links. A checked incorrect answer contributes relevant lessons to a deduplicated list with question numbers; editing or resetting clears stale suggestions. See `A1_TARGETED_REVIEW.md`. Existing passage evidence, scoring, free access and temporary state are unchanged.

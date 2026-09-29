@@ -1,3 +1,4 @@
+import { validateReviewLinks } from "./lib/validate-review-links.mjs";
 import { audioSources } from "./lib/audio-sources.mjs";
 import { validatePractice } from "./lib/validate-a1-practice.mjs";
 import { planAudio } from "./lib/audio-assets.mjs";
@@ -17,7 +18,8 @@ const extensions = JSON.parse(await readFile(new URL("../src/data/lesson-extensi
 const scenarios = JSON.parse(await readFile(new URL("../src/data/scenarios.json", import.meta.url), "utf8"));
 const practice = JSON.parse(await readFile(new URL("../src/data/a1-practice.json", import.meta.url), "utf8"));
 const pronunciation = JSON.parse(await readFile(new URL("../src/data/pronunciation.json", import.meta.url), "utf8"));
-const errors = [...validatePractice(practice, units), ...validateCurriculum(lessons, modules), ...validatePlacement(placement, lessons), ...validateReadings(readings, lessons), ...validateLearningMap(units, extensions, lessons, readings), ...validateScenarios(scenarios, lessons, units)];
+const reviewLinks = JSON.parse(await readFile(new URL("../src/data/a1-review-links.json", import.meta.url), "utf8"));
+const errors = [...validateReviewLinks(reviewLinks, readings, practice, lessons), ...validatePractice(practice, units), ...validateCurriculum(lessons, modules), ...validatePlacement(placement, lessons), ...validateReadings(readings, lessons), ...validateLearningMap(units, extensions, lessons, readings), ...validateScenarios(scenarios, lessons, units)];
 
 try { planAudio(audioSources(lessons, practice, pronunciation), JSON.parse(await readFile(new URL("../src/data/audio-pronunciation.json", import.meta.url), "utf8"))); } catch (error) { errors.push(error.message); }
 

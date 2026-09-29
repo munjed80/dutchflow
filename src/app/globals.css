@@ -379,3 +379,11 @@ em{font-style:normal;color:var(--teal)}
 .grammar-foundation td { overflow-wrap: normal; word-break: normal; }
 .grammar-foundation .practice-table table { min-width: 420px; }
 .grammar-foundation .practice-table { direction: ltr; }
+
+.practice-review { margin-block: 1.5rem; padding: 1.5rem; }
+.practice-review h3 { margin-top: 0; }
+.practice-review ul { list-style: none; padding: 0; margin-block: 1rem; }
+.practice-review li { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; padding-block: .75rem; border-bottom: 1px solid var(--line); }
+.practice-review a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; overflow-wrap: anywhere; }
+.practice-review .quiet { font-size: .875rem; }
+@media (max-width: 720px) { .practice-review { padding: 1.25rem; } }
