@@ -1566,5 +1566,846 @@
         "explanation": "nog een keer تعني مرة أخرى."
       }
     ]
+  },
+  {
+    "slug": "a-language-group-card",
+    "title": "بطاقة لمجموعة اللغة",
+    "dutchTitle": "Een kaartje voor de taalgroep",
+    "topic": "التعارف والبيانات",
+    "sourceLessons": [
+      "introductions",
+      "personal-details",
+      "contact-details",
+      "asking-for-clarification"
+    ],
+    "text": "Hallo, ik ben Huda. Ik kom uit Marokko en ik woon nu in Leiden, in de Molenstraat. Mijn telefoonnummer staat op het formulier. In de taalgroep zit ik naast Emma. Zij spreekt langzaam met mij als ik iets niet begrijp. Op dinsdagavond stuur ik haar soms een bericht.",
+    "translation": "مرحباً، أنا هدى. أنا من المغرب وأسكن الآن في لايدن، في شارع مولن. رقم هاتفي موجود في الاستمارة. في مجموعة اللغة أجلس بجانب إيما. هي تتحدث معي ببطء عندما لا أفهم شيئاً. مساء الثلاثاء أرسل لها أحياناً رسالة.",
+    "vocabulary": [
+      {
+        "term": "het telefoonnummer",
+        "excerpt": "telefoonnummer",
+        "meaning": "رقم الهاتف؛ معلومة اتصال شخصية."
+      },
+      {
+        "term": "het formulier",
+        "excerpt": "formulier",
+        "meaning": "الاستمارة التي تُكتب فيها البيانات."
+      },
+      {
+        "term": "naast",
+        "excerpt": "naast Emma",
+        "meaning": "بجانب؛ تحدد المكان قرب شخص أو شيء."
+      },
+      {
+        "term": "langzaam",
+        "excerpt": "langzaam",
+        "meaning": "ببطء؛ هنا لتسهيل الفهم."
+      },
+      {
+        "term": "dinsdagavond",
+        "excerpt": "dinsdagavond",
+        "meaning": "مساء الثلاثاء؛ وقت محدد في الأسبوع."
+      }
+    ],
+    "grammar": {
+      "title": "als مع سبب عملي",
+      "example": "Zij spreekt langzaam met mij als ik iets niet begrijp.",
+      "translation": "هي تتحدث معي ببطء عندما لا أفهم شيئاً.",
+      "explanation": "تربط als هنا الموقف بالفعل المناسب له. المتحدثة لا تقول إنها لا تفهم دائماً، بل تحدد ما يحدث عندما يظهر هذا الموقف."
+    },
+    "questions": [
+      {
+        "id": "reading-language-group-card-1",
+        "prompt": "في أي مدينة تسكن هدى الآن؟",
+        "options": [
+          "لايدن",
+          "المغرب",
+          "شارع مولن"
+        ],
+        "correctIndex": 0,
+        "evidence": "ik woon nu in Leiden, in de Molenstraat.",
+        "explanation": "Leiden هي المدينة، أما Molenstraat فهو اسم الشارع."
+      },
+      {
+        "id": "reading-language-group-card-2",
+        "prompt": "ماذا تفعل إيما عندما لا تفهم هدى شيئاً؟",
+        "options": [
+          "تكتب العنوان",
+          "تتحدث ببطء",
+          "تغيّر المجموعة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Zij spreekt langzaam met mij als ik iets niet begrijp.",
+        "explanation": "المساعدة هنا هي التحدث ببطء، لا تغيير المكان أو الورقة."
+      },
+      {
+        "id": "reading-language-group-card-3",
+        "prompt": "متى ترسل هدى رسالة إلى إيما أحياناً؟",
+        "options": [
+          "صباح الاثنين",
+          "مساء الثلاثاء",
+          "ظهر الجمعة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Op dinsdagavond stuur ik haar soms een bericht.",
+        "explanation": "dinsdagavond تعني مساء الثلاثاء."
+      }
+    ]
+  },
+  {
+    "slug": "a-note-about-the-study-week",
+    "title": "ملاحظة عن أسبوع الدراسة",
+    "dutchTitle": "Een bericht over de oefenweek",
+    "topic": "الوقت والجدول",
+    "sourceLessons": [
+      "dates-and-calendar",
+      "weekly-routine",
+      "time-and-days"
+    ],
+    "text": "Onze oefenweek begint op maandag 6 mei. Op dinsdag is er les van 18:00 tot 19:15. Op donderdag oefenen we thuis nog dertig minuten. Vrijdag is er geen les. Op zaterdag schrijven we de nieuwe woorden om 10:00 in de bibliotheek.",
+    "translation": "يبدأ أسبوع التدريب لدينا يوم الاثنين 6 مايو. يوم الثلاثاء يوجد درس من 18:00 إلى 19:15. يوم الخميس نتدرّب في المنزل ثلاثين دقيقة إضافية. الجمعة لا يوجد درس. يوم السبت نكتب الكلمات الجديدة الساعة 10:00 في المكتبة.",
+    "vocabulary": [
+      {
+        "term": "de oefenweek",
+        "excerpt": "oefenweek",
+        "meaning": "أسبوع التدريب أو المراجعة."
+      },
+      {
+        "term": "tot",
+        "excerpt": "tot 19:15",
+        "meaning": "حتى؛ تحدد نهاية الفترة الزمنية."
+      },
+      {
+        "term": "dertig minuten",
+        "excerpt": "dertig minuten",
+        "meaning": "ثلاثون دقيقة؛ مدة قصيرة محددة."
+      },
+      {
+        "term": "geen les",
+        "excerpt": "geen les",
+        "meaning": "لا يوجد درس في هذا اليوم."
+      },
+      {
+        "term": "de bibliotheek",
+        "excerpt": "bibliotheek",
+        "meaning": "المكتبة؛ مكان المراجعة أو الكتابة."
+      }
+    ],
+    "grammar": {
+      "title": "ظرف اليوم في أول الجملة",
+      "example": "Op zaterdag schrijven we de nieuwe woorden om 10:00 in de bibliotheek.",
+      "translation": "يوم السبت نكتب الكلمات الجديدة الساعة 10:00 في المكتبة.",
+      "explanation": "عندما تبدأ الجملة بعبارة يوم مثل Op zaterdag يأتي الفعل schrij​ven بعدها مباشرة قبل we في الجملة الرئيسية."
+    },
+    "questions": [
+      {
+        "id": "reading-study-week-1",
+        "prompt": "في أي تاريخ يبدأ أسبوع التدريب؟",
+        "options": [
+          "الاثنين 6 مايو",
+          "الثلاثاء 6 يونيو",
+          "السبت 10 مايو"
+        ],
+        "correctIndex": 0,
+        "evidence": "Onze oefenweek begint op maandag 6 mei.",
+        "explanation": "الجملة الأولى تحدد اليوم والتاريخ معاً."
+      },
+      {
+        "id": "reading-study-week-2",
+        "prompt": "كم يدوم درس الثلاثاء؟",
+        "options": [
+          "45 دقيقة",
+          "75 دقيقة",
+          "90 دقيقة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Op dinsdag is er les van 18:00 tot 19:15.",
+        "explanation": "من 18:00 إلى 19:15 تساوي 75 دقيقة."
+      },
+      {
+        "id": "reading-study-week-3",
+        "prompt": "في أي يوم لا يوجد درس؟",
+        "options": [
+          "الخميس",
+          "الجمعة",
+          "السبت"
+        ],
+        "correctIndex": 1,
+        "evidence": "Vrijdag is er geen les.",
+        "explanation": "الجمعة هو اليوم الوحيد الذي يقال فيه صراحة لا يوجد درس."
+      }
+    ]
+  },
+  {
+    "slug": "a-message-about-parent-evening",
+    "title": "رسالة عن لقاء أولياء الأمور",
+    "dutchTitle": "Een bericht over de ouderavond",
+    "topic": "الأسرة والمدرسة",
+    "sourceLessons": [
+      "school-and-family",
+      "family-at-home",
+      "message-to-school"
+    ],
+    "text": "Beste ouder, op woensdag 13 november is er een oudergesprek op school. U kunt om 16:00 of om 16:20 komen. Neem het schrift van uw kind mee. Kunt u niet komen? Stuur dan vóór dinsdag een kort bericht. Daarna kiezen we samen een andere tijd.",
+    "translation": "ولي الأمر العزيز، يوجد يوم الأربعاء 13 نوفمبر لقاء أولياء أمور في المدرسة. يمكنك الحضور الساعة 16:00 أو 16:20. أحضر دفتر طفلك معك. لا تستطيع الحضور؟ أرسل قبل الثلاثاء رسالة قصيرة. بعد ذلك نختار معاً وقتاً آخر.",
+    "vocabulary": [
+      {
+        "term": "het oudergesprek",
+        "excerpt": "oudergesprek",
+        "meaning": "لقاء أو حديث بين المدرسة وولي الأمر."
+      },
+      {
+        "term": "het schrift",
+        "excerpt": "schrift",
+        "meaning": "دفتر الطالب أو كراسته."
+      },
+      {
+        "term": "mee",
+        "excerpt": "mee",
+        "meaning": "معك؛ تأتي هنا مع الفعل meenemen."
+      },
+      {
+        "term": "vóór dinsdag",
+        "excerpt": "vóór dinsdag",
+        "meaning": "قبل يوم الثلاثاء؛ تحدد آخر موعد."
+      },
+      {
+        "term": "samen",
+        "excerpt": "samen",
+        "meaning": "معاً؛ أي بالاتفاق بين الطرفين."
+      }
+    ],
+    "grammar": {
+      "title": "أو بين خيارين واضحين",
+      "example": "U kunt om 16:00 of om 16:20 komen.",
+      "translation": "يمكنك الحضور الساعة 16:00 أو 16:20.",
+      "explanation": "تربط of هنا بين خيارين واضحين للوقت. هذا يترك للمستلم حرية اختيار أحد الموعدين فقط."
+    },
+    "questions": [
+      {
+        "id": "reading-parent-evening-1",
+        "prompt": "ماذا يجب أن يحضر ولي الأمر معه؟",
+        "options": [
+          "دفتر الطفل",
+          "وجبة الغداء",
+          "بطاقة الحافلة"
+        ],
+        "correctIndex": 0,
+        "evidence": "Neem het schrift van uw kind mee.",
+        "explanation": "المطلوب هو schrift، أي الدفتر."
+      },
+      {
+        "id": "reading-parent-evening-2",
+        "prompt": "ما الموعدان المتاحان؟",
+        "options": [
+          "16:00 أو 16:20",
+          "13:00 أو 16:00",
+          "الثلاثاء أو الأربعاء"
+        ],
+        "correctIndex": 0,
+        "evidence": "U kunt om 16:00 of om 16:20 komen.",
+        "explanation": "المواعيد خياران في اليوم نفسه، وليسا يومين مختلفين."
+      },
+      {
+        "id": "reading-parent-evening-3",
+        "prompt": "متى يجب إرسال رسالة إذا تعذر الحضور؟",
+        "options": [
+          "بعد الأربعاء",
+          "قبل الثلاثاء",
+          "في 16:20"
+        ],
+        "correctIndex": 1,
+        "evidence": "Stuur dan vóór dinsdag een kort bericht.",
+        "explanation": "vóór dinsdag تعني قبل الثلاثاء، لا بعد اللقاء."
+      }
+    ]
+  },
+  {
+    "slug": "a-note-about-the-key",
+    "title": "ملاحظة عن المفتاح",
+    "dutchTitle": "Een briefje over de sleutel",
+    "topic": "المنزل والحي",
+    "sourceLessons": [
+      "furniture-and-location",
+      "neighbours",
+      "repairs-at-home"
+    ],
+    "text": "Hallo buurvrouw, ik ben even weg. De sleutel ligt in de blauwe doos naast de deur. Mijn zoon is om 15:00 thuis. De monteur komt tussen 16:00 en 17:00 voor de kapotte kraan in de keuken. Kunt u hem binnenlaten als ik laat ben? Dank u.",
+    "translation": "مرحباً يا جارتي، أنا خارج البيت قليلاً. المفتاح موجود في الصندوق الأزرق بجانب الباب. ابني في المنزل الساعة 15:00. الفني يأتي بين 16:00 و17:00 من أجل الصنبور المعطل في المطبخ. هل يمكنك إدخاله إذا تأخرت؟ شكراً لك.",
+    "vocabulary": [
+      {
+        "term": "de sleutel",
+        "excerpt": "sleutel",
+        "meaning": "المفتاح؛ يُترك هنا للوصول إلى البيت."
+      },
+      {
+        "term": "de doos",
+        "excerpt": "doos",
+        "meaning": "صندوق؛ مكان وضع المفتاح."
+      },
+      {
+        "term": "naast de deur",
+        "excerpt": "naast de deur",
+        "meaning": "بجانب الباب؛ يحدد موقع الشيء بدقة."
+      },
+      {
+        "term": "de monteur",
+        "excerpt": "monteur",
+        "meaning": "الفني الذي يأتي للإصلاح."
+      },
+      {
+        "term": "de kraan",
+        "excerpt": "kraan",
+        "meaning": "صنبور الماء في المطبخ أو الحمام."
+      }
+    ],
+    "grammar": {
+      "title": "tussen ... en ... لمدى الوقت",
+      "example": "De monteur komt tussen 16:00 en 17:00 voor de kapotte kraan in de keuken.",
+      "translation": "الفني يأتي بين 16:00 و17:00 من أجل الصنبور المعطل في المطبخ.",
+      "explanation": "تحدد tussen ... en ... هنا فترة زمنية، لا ساعة واحدة مؤكدة. لذلك ما زال وقت الوصول ضمن هذا المجال."
+    },
+    "questions": [
+      {
+        "id": "reading-key-note-1",
+        "prompt": "أين يوجد المفتاح؟",
+        "options": [
+          "في الصندوق الأزرق بجانب الباب",
+          "على الطاولة في المطبخ",
+          "مع الفني"
+        ],
+        "correctIndex": 0,
+        "evidence": "De sleutel ligt in de blauwe doos naast de deur.",
+        "explanation": "المفتاح ليس على الطاولة ولا مع الفني؛ مكانه محدد في الصندوق."
+      },
+      {
+        "id": "reading-key-note-2",
+        "prompt": "ما المشكلة التي سيأتي الفني من أجلها؟",
+        "options": [
+          "المصباح الأحمر",
+          "الصنبور المعطل في المطبخ",
+          "الباب الخارجي"
+        ],
+        "correctIndex": 1,
+        "evidence": "De monteur komt tussen 16:00 en 17:00 voor de kapotte kraan in de keuken.",
+        "explanation": "المشكلة هي kapotte kraan، أي صنبور معطل."
+      },
+      {
+        "id": "reading-key-note-3",
+        "prompt": "متى يكون الابن في المنزل؟",
+        "options": [
+          "15:00",
+          "16:00",
+          "17:00"
+        ],
+        "correctIndex": 0,
+        "evidence": "Mijn zoon is om 15:00 thuis.",
+        "explanation": "الجملة تعطي وقت وجوده في المنزل بوضوح."
+      }
+    ]
+  },
+  {
+    "slug": "a-message-before-the-market",
+    "title": "رسالة قبل السوق",
+    "dutchTitle": "Een bericht vóór de markt",
+    "topic": "الطعام والتسوّق",
+    "sourceLessons": [
+      "food-and-drinks",
+      "groceries-and-quantities",
+      "preferences-and-negation"
+    ],
+    "text": "Vanavond eten we soep en brood. Koop op de markt één kilo aardappels, twee uien en een bos wortels. We hebben thuis nog rijst en thee, dus die hoef je niet te kopen. Als de rode appels duur zijn, neem dan liever peren.",
+    "translation": "سنتناول هذا المساء حساءً وخبزاً. اشترِ من السوق كيلو بطاطا وبصلتين وربطة جزر. ما زال لدينا في البيت أرز وشاي، لذلك لا تحتاج إلى شرائهما. إذا كانت التفاحات الحمراء غالية، فخذ إجاصاً بدلاً منها.",
+    "vocabulary": [
+      {
+        "term": "de markt",
+        "excerpt": "markt",
+        "meaning": "السوق؛ مكان شراء الخضار والفواكه."
+      },
+      {
+        "term": "de ui",
+        "excerpt": "uien",
+        "meaning": "البصل؛ هنا في صيغة الجمع."
+      },
+      {
+        "term": "de wortel",
+        "excerpt": "wortels",
+        "meaning": "الجزر؛ جمعها wortels."
+      },
+      {
+        "term": "hoeven",
+        "excerpt": "hoef je niet",
+        "meaning": "لا تحتاج إلى؛ تأتي هنا مع niet لبيان عدم الحاجة."
+      },
+      {
+        "term": "liever",
+        "excerpt": "liever peren",
+        "meaning": "يفضل الإجاص في هذا الشرط بدلاً من التفاح."
+      }
+    ],
+    "grammar": {
+      "title": "شرط بسيط مع als",
+      "example": "Als de rode appels duur zijn, neem dan liever peren.",
+      "translation": "إذا كانت التفاحات الحمراء غالية، فخذ إجاصاً بدلاً منها.",
+      "explanation": "تربط als هنا بين الشرط والبديل العملي. النتيجة ليست إلغاء الشراء كله، بل اختيار شيء آخر."
+    },
+    "questions": [
+      {
+        "id": "reading-market-message-1",
+        "prompt": "ما الذي لا يحتاجون إلى شرائه؟",
+        "options": [
+          "الأرز والشاي",
+          "الحساء والخبز",
+          "البطاطا والبصل"
+        ],
+        "correctIndex": 0,
+        "evidence": "We hebben thuis nog rijst en thee, dus die hoef je niet te kopen.",
+        "explanation": "الموجود في البيت بالفعل هو الأرز والشاي."
+      },
+      {
+        "id": "reading-market-message-2",
+        "prompt": "كم عدد حبات البصل المطلوبة؟",
+        "options": [
+          "واحدة",
+          "اثنتان",
+          "ثلاث"
+        ],
+        "correctIndex": 1,
+        "evidence": "één kilo aardappels, twee uien en een bos wortels.",
+        "explanation": "twee تعني اثنتين، أما aardappels فهي البطاطا بالكيلو."
+      },
+      {
+        "id": "reading-market-message-3",
+        "prompt": "متى يختار المرسل الإجاص بدلاً من التفاح؟",
+        "options": [
+          "إذا كان التفاح الأحمر غالياً",
+          "إذا لم توجد بطاطا",
+          "إذا كان الخبز رخيصاً"
+        ],
+        "correctIndex": 0,
+        "evidence": "Als de rode appels duur zijn, neem dan liever peren.",
+        "explanation": "البديل مرتبط بسعر التفاح الأحمر فقط."
+      }
+    ]
+  },
+  {
+    "slug": "a-route-from-the-station",
+    "title": "طريق من المحطة",
+    "dutchTitle": "Een route vanaf het station",
+    "topic": "المواصلات والاتجاهات",
+    "sourceLessons": [
+      "directions",
+      "places-and-routes",
+      "a-train-connection"
+    ],
+    "text": "Je trein komt om 08:40 aan op station Zuid. Neem uitgang B en loop vijf minuten rechtdoor. Ga daarna linksaf bij de apotheek. Het kantoor is tegenover de bank. Als je de bus wilt nemen, vertrekt lijn 12 om 08:50 vanaf halte Stationsplein.",
+    "translation": "يصل قطارك الساعة 08:40 إلى محطة Zuid. خذ المخرج B وامشِ خمس دقائق إلى الأمام مباشرة. ثم انعطف يساراً عند الصيدلية. المكتب مقابل البنك. إذا أردت أن تأخذ الحافلة، فإن الخط 12 ينطلق الساعة 08:50 من محطة Stationsplein.",
+    "vocabulary": [
+      {
+        "term": "de uitgang",
+        "excerpt": "uitgang B",
+        "meaning": "المخرج؛ مثل مخرج المحطة."
+      },
+      {
+        "term": "de apotheek",
+        "excerpt": "apotheek",
+        "meaning": "الصيدلية؛ علامة في الطريق."
+      },
+      {
+        "term": "tegenover",
+        "excerpt": "tegenover de bank",
+        "meaning": "مقابل؛ يحدد موقعاً على الجهة الأخرى."
+      },
+      {
+        "term": "de halte",
+        "excerpt": "halte Stationsplein",
+        "meaning": "محطة الحافلة أو الترام."
+      },
+      {
+        "term": "vanaf",
+        "excerpt": "vanaf halte Stationsplein",
+        "meaning": "من محطة Stationsplein؛ يحدد نقطة الانطلاق."
+      }
+    ],
+    "grammar": {
+      "title": "Daarna لترتيب الخطوات",
+      "example": "Ga daarna linksaf bij de apotheek.",
+      "translation": "بعد ذلك انعطف يساراً عند الصيدلية.",
+      "explanation": "بعد الوصول إلى الخطوة الأولى تضيف Daarna الخطوة التالية في المسار. هذا يساعد المتعلم على ترتيب التعليمات على الطريق."
+    },
+    "questions": [
+      {
+        "id": "reading-route-from-station-1",
+        "prompt": "أي مخرج يجب أن تأخذه؟",
+        "options": [
+          "A",
+          "B",
+          "12"
+        ],
+        "correctIndex": 1,
+        "evidence": "Neem uitgang B en loop vijf minuten rechtdoor.",
+        "explanation": "B هو المخرج، أما 12 فهو رقم الحافلة."
+      },
+      {
+        "id": "reading-route-from-station-2",
+        "prompt": "أين يوجد المكتب؟",
+        "options": [
+          "بجانب البنك",
+          "أمام الصيدلية",
+          "مقابل البنك"
+        ],
+        "correctIndex": 2,
+        "evidence": "Het kantoor is tegenover de bank.",
+        "explanation": "tegenover تعني مقابل، وليس بجانب."
+      },
+      {
+        "id": "reading-route-from-station-3",
+        "prompt": "متى تنطلق الحافلة إذا اخترت الحافلة؟",
+        "options": [
+          "08:40",
+          "08:50",
+          "09:20"
+        ],
+        "correctIndex": 1,
+        "evidence": "vertrekt lijn 12 om 08:50 vanaf halte Stationsplein.",
+        "explanation": "08:40 هو وقت وصول القطار، أما الحافلة فتنطلق 08:50."
+      }
+    ]
+  },
+  {
+    "slug": "a-short-note-from-the-practice",
+    "title": "ملاحظة قصيرة من العيادة",
+    "dutchTitle": "Een kort bericht van de praktijk",
+    "topic": "الصحة والرعاية",
+    "sourceLessons": [
+      "doctor-appointment",
+      "describing-symptoms",
+      "asking-for-clarification"
+    ],
+    "text": "Beste mevrouw Saleh, de arts leest eerst uw formulier. Schrijf daarom uw klacht en de begindag duidelijk op. Begrijpt u een woord niet? Vraag het aan de balie. Uw afspraak blijft op maandag om 09:10. Dit bericht geeft geen medisch advies; het is taaltraining.",
+    "translation": "السيدة صالح المحترمة، يقرأ الطبيب استمارتك أولاً. لذلك اكتب الشكوى ويوم البداية بوضوح. لا تفهمين كلمة ما؟ اسألي عنها في الاستقبال. يبقى موعدك يوم الاثنين الساعة 09:10. هذه الرسالة لا تقدم نصيحة طبية؛ إنها تدريب لغوي.",
+    "vocabulary": [
+      {
+        "term": "de arts",
+        "excerpt": "arts",
+        "meaning": "الطبيب أو الطبيبة في هذا السياق."
+      },
+      {
+        "term": "de klacht",
+        "excerpt": "klacht",
+        "meaning": "الشكوى أو العرض الذي تصفه."
+      },
+      {
+        "term": "de begindag",
+        "excerpt": "begindag",
+        "meaning": "يوم البداية؛ اليوم الذي بدأت فيه المشكلة."
+      },
+      {
+        "term": "duidelijk",
+        "excerpt": "duidelijk",
+        "meaning": "بوضوح؛ بشكل سهل القراءة والفهم."
+      },
+      {
+        "term": "de balie",
+        "excerpt": "balie",
+        "meaning": "مكتب الاستقبال أو الخدمة."
+      }
+    ],
+    "grammar": {
+      "title": "لذلك مع daarom",
+      "example": "Schrijf daarom uw klacht en de begindag duidelijk op.",
+      "translation": "لذلك اكتب الشكوى ويوم البداية بوضوح.",
+      "explanation": "تربط daarom السبب بالنتيجة العملية: بما أن الطبيب يقرأ الاستمارة أولاً، ينبغي كتابة المعلومات بوضوح."
+    },
+    "questions": [
+      {
+        "id": "reading-practice-note-1",
+        "prompt": "ما الشيئان اللذان يجب كتابتهما بوضوح؟",
+        "options": [
+          "الاسم والعنوان",
+          "الشكوى ويوم البداية",
+          "رقم الحافلة والوقت"
+        ],
+        "correctIndex": 1,
+        "evidence": "Schrijf daarom uw klacht en de begindag duidelijk op.",
+        "explanation": "المطلوب ليس بيانات السكن، بل الشكوى وبداية المشكلة."
+      },
+      {
+        "id": "reading-practice-note-2",
+        "prompt": "إلى أين تذهب إذا لم تفهم كلمة؟",
+        "options": [
+          "إلى البنك",
+          "إلى الاستقبال",
+          "إلى المكتبة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Begrijpt u een woord niet? Vraag het aan de balie.",
+        "explanation": "الاستقبال هو المكان الذي يُطلب منه التوضيح."
+      },
+      {
+        "id": "reading-practice-note-3",
+        "prompt": "متى يبقى الموعد؟",
+        "options": [
+          "الاثنين 09:10",
+          "الثلاثاء 09:10",
+          "الاثنين 10:09"
+        ],
+        "correctIndex": 0,
+        "evidence": "Uw afspraak blijft op maandag om 09:10.",
+        "explanation": "الجملة الأخيرة قبل التنبيه تحدد اليوم والوقت بدقة."
+      }
+    ]
+  },
+  {
+    "slug": "a-form-before-the-appointment",
+    "title": "استمارة قبل الموعد",
+    "dutchTitle": "Een formulier vóór de afspraak",
+    "topic": "الخدمات والرسائل",
+    "sourceLessons": [
+      "filling-in-a-form",
+      "letters-and-messages",
+      "changing-an-appointment"
+    ],
+    "text": "Voor uw afspraak vragen wij nog twee gegevens: uw telefoonnummer en uw geboortedatum. Uw adres hebben we al. Stuur de informatie vandaag per e-mail. Daarna bellen wij u terug met het juiste tijdstip. Zonder deze gegevens blijft uw afspraak voorlopig openstaan.",
+    "translation": "قبل موعدك نطلب منك بعدُ معلومتين: رقم هاتفك وتاريخ ميلادك. عنوانك موجود لدينا بالفعل. أرسل المعلومات اليوم عبر البريد الإلكتروني. بعد ذلك سنتصل بك مجدداً بالوقت الصحيح. من دون هذه البيانات سيبقى موعدك مفتوحاً مؤقتاً.",
+    "vocabulary": [
+      {
+        "term": "het gegeven",
+        "excerpt": "gegevens",
+        "meaning": "البيانات أو المعلومات المطلوبة."
+      },
+      {
+        "term": "de geboortedatum",
+        "excerpt": "geboortedatum",
+        "meaning": "تاريخ الميلاد."
+      },
+      {
+        "term": "per e-mail",
+        "excerpt": "per e-mail",
+        "meaning": "عبر البريد الإلكتروني."
+      },
+      {
+        "term": "terugbellen",
+        "excerpt": "bellen wij u terug",
+        "meaning": "نعاود الاتصال بك."
+      },
+      {
+        "term": "voorlopig",
+        "excerpt": "voorlopig",
+        "meaning": "مؤقتاً أو إلى حين استكمال البيانات."
+      }
+    ],
+    "grammar": {
+      "title": "Zonder لغياب المعلومة",
+      "example": "Zonder deze gegevens blijft uw afspraak voorlopig openstaan.",
+      "translation": "من دون هذه البيانات سيبقى موعدك مفتوحاً مؤقتاً.",
+      "explanation": "توضح Zonder هنا الشرط الناقص الذي يمنع تثبيت الموعد نهائياً. المتلقي يحتاج إلى إرسال البيانات أولاً."
+    },
+    "questions": [
+      {
+        "id": "reading-form-before-appointment-1",
+        "prompt": "ما المعلومتان المطلوبتان؟",
+        "options": [
+          "رقم الهاتف وتاريخ الميلاد",
+          "العنوان واسم المدرسة",
+          "رقم الحافلة ووقت الوصول"
+        ],
+        "correctIndex": 0,
+        "evidence": "uw telefoonnummer en uw geboortedatum.",
+        "explanation": "العنوان موجود بالفعل؛ المطلوب رقم الهاتف وتاريخ الميلاد."
+      },
+      {
+        "id": "reading-form-before-appointment-2",
+        "prompt": "كيف يجب إرسال المعلومات؟",
+        "options": [
+          "بمكالمة هاتفية فقط",
+          "عبر البريد الإلكتروني اليوم",
+          "بزيارة شخصية غداً"
+        ],
+        "correctIndex": 1,
+        "evidence": "Stuur de informatie vandaag per e-mail.",
+        "explanation": "النص يحدد اليوم والطريقة معاً."
+      },
+      {
+        "id": "reading-form-before-appointment-3",
+        "prompt": "هل الموعد مؤكد بدون هذه البيانات؟",
+        "options": [
+          "نعم، مؤكد تماماً",
+          "لا، يبقى مفتوحاً مؤقتاً",
+          "نعم، لكنه ينتقل إلى الجمعة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Zonder deze gegevens blijft uw afspraak voorlopig openstaan.",
+        "explanation": "openstaan voorlopig تعني أن الموعد غير محسم بعد."
+      }
+    ]
+  },
+  {
+    "slug": "a-list-for-the-early-shift",
+    "title": "قائمة للوردية المبكرة",
+    "dutchTitle": "Een lijst voor de vroege dienst",
+    "topic": "العمل والتعليمات",
+    "sourceLessons": [
+      "jobs-and-workplaces",
+      "asking-at-work",
+      "workday"
+    ],
+    "text": "Voor de vroege dienst lees je eerst de lijst bij de computer. Daarna zet je drie dozen op het rek bij de deur. De rode doos blijft op de tafel voor Eva. Om 09:30 breng je koffie naar de kantine. Vraag meteen om hulp als een naam ontbreekt.",
+    "translation": "في الوردية المبكرة تقرأ أولاً القائمة عند الكمبيوتر. بعد ذلك تضع ثلاثة صناديق على الرف عند الباب. الصندوق الأحمر يبقى على الطاولة من أجل إيفا. الساعة 09:30 تحمل القهوة إلى المقصف. اطلب المساعدة فوراً إذا كان اسم ما ناقصاً.",
+    "vocabulary": [
+      {
+        "term": "de vroege dienst",
+        "excerpt": "vroege dienst",
+        "meaning": "الوردية أو النوبة المبكرة."
+      },
+      {
+        "term": "het rek",
+        "excerpt": "rek",
+        "meaning": "الرف الذي توضع عليه الصناديق."
+      },
+      {
+        "term": "de deur",
+        "excerpt": "deur",
+        "meaning": "الباب؛ يحدد مكان الرف هنا."
+      },
+      {
+        "term": "de kantine",
+        "excerpt": "kantine",
+        "meaning": "المقصف أو غرفة الاستراحة في العمل."
+      },
+      {
+        "term": "ontbreken",
+        "excerpt": "ontbreekt",
+        "meaning": "يكون ناقصاً أو مفقوداً."
+      }
+    ],
+    "grammar": {
+      "title": "الطلب الفوري عند وجود مشكلة",
+      "example": "Vraag meteen om hulp als een naam ontbreekt.",
+      "translation": "اطلب المساعدة فوراً إذا كان اسم ما ناقصاً.",
+      "explanation": "يظهر الشرط هنا بعد als: في حال وجود اسم ناقص، تكون النتيجة العملية هي طلب المساعدة فوراً."
+    },
+    "questions": [
+      {
+        "id": "reading-early-shift-1",
+        "prompt": "أين تضع الصناديق الثلاثة؟",
+        "options": [
+          "على الرف عند الباب",
+          "في المقصف",
+          "على طاولة إيفا"
+        ],
+        "correctIndex": 0,
+        "evidence": "Daarna zet je drie dozen op het rek bij de deur.",
+        "explanation": "يوضع معظم الصناديق على الرف، بينما الصندوق الأحمر فقط يبقى على الطاولة."
+      },
+      {
+        "id": "reading-early-shift-2",
+        "prompt": "أي صندوق يبقى على الطاولة؟",
+        "options": [
+          "الصندوق الأحمر",
+          "كل الصناديق الثلاثة",
+          "صندوق القهوة"
+        ],
+        "correctIndex": 0,
+        "evidence": "De rode doos blijft op de tafel voor Eva.",
+        "explanation": "النص يميز الصندوق الأحمر عن بقية الصناديق."
+      },
+      {
+        "id": "reading-early-shift-3",
+        "prompt": "متى تحمل القهوة إلى المقصف؟",
+        "options": [
+          "09:00",
+          "09:30",
+          "10:30"
+        ],
+        "correctIndex": 1,
+        "evidence": "Om 09:30 breng je koffie naar de kantine.",
+        "explanation": "الوقت المحدد للقهوة هو التاسعة والنصف."
+      }
+    ]
+  },
+  {
+    "slug": "a-plan-for-a-film-evening",
+    "title": "خطة لأمسية فيلم",
+    "dutchTitle": "Een plan voor een filmavond",
+    "topic": "الهوايات والخطط",
+    "sourceLessons": [
+      "free-time-hobbies",
+      "weather-today",
+      "invitations-and-plans"
+    ],
+    "text": "Hoi Lina, vrijdagavond is er een film in het buurthuis. Ik kan pas om 19:30 komen, want ik werk tot zeven uur. Als het mooi weer blijft, lopen we erheen. Anders neem ik de fiets. Zullen we voor de ingang afspreken? Laat je het vandaag nog weten?",
+    "translation": "مرحباً لينا، توجد أمسية فيلم مساء الجمعة في مركز الحي. لا أستطيع الحضور إلا الساعة 19:30، لأنني أعمل حتى السابعة. إذا بقي الطقس جميلاً سنمشي إلى هناك. وإلا فسآخذ الدراجة. هل نلتقي أمام المدخل؟ أخبريني اليوم إذاً.",
+    "vocabulary": [
+      {
+        "term": "het buurthuis",
+        "excerpt": "buurthuis",
+        "meaning": "مركز الحي أو المبنى المجتمعي."
+      },
+      {
+        "term": "pas",
+        "excerpt": "pas om 19:30",
+        "meaning": "فقط عند أو ليس قبل؛ يحدد تأخر التوفر."
+      },
+      {
+        "term": "blijven",
+        "excerpt": "blijft",
+        "meaning": "يبقى أو يستمر؛ هنا عن الطقس."
+      },
+      {
+        "term": "anders",
+        "excerpt": "Anders",
+        "meaning": "وإلا أو في غير ذلك الحال."
+      },
+      {
+        "term": "de ingang",
+        "excerpt": "ingang",
+        "meaning": "المدخل؛ نقطة اللقاء المقترحة."
+      }
+    ],
+    "grammar": {
+      "title": "want لذكر السبب",
+      "example": "Ik kan pas om 19:30 komen, want ik werk tot zeven uur.",
+      "translation": "لا أستطيع الحضور إلا الساعة 19:30، لأنني أعمل حتى السابعة.",
+      "explanation": "تقدم want السبب المباشر بعد الخبر الأول. لذلك يفهم القارئ لماذا يتأخر وقت اللقاء."
+    },
+    "questions": [
+      {
+        "id": "reading-film-evening-1",
+        "prompt": "لماذا لا يستطيع المرسل الحضور إلا 19:30؟",
+        "options": [
+          "لأنه يعمل حتى السابعة",
+          "لأن الفيلم يبدأ صباحاً",
+          "لأن الدراجة معطلة"
+        ],
+        "correctIndex": 0,
+        "evidence": "Ik kan pas om 19:30 komen, want ik werk tot zeven uur.",
+        "explanation": "الجملة نفسها تذكر السبب بعد want."
+      },
+      {
+        "id": "reading-film-evening-2",
+        "prompt": "ماذا يفعل إذا لم يبقَ الطقس جميلاً؟",
+        "options": [
+          "يلغي الخطة حتماً",
+          "يأخذ الدراجة",
+          "يذهب إلى المدرسة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Anders neem ik de fiets.",
+        "explanation": "Anders تشير إلى الخطة البديلة عندما لا يبقى الطقس جميلاً."
+      },
+      {
+        "id": "reading-film-evening-3",
+        "prompt": "أين يقترح اللقاء؟",
+        "options": [
+          "أمام المدخل",
+          "عند الجسر",
+          "في القطار"
+        ],
+        "correctIndex": 0,
+        "evidence": "Zullen we voor de ingang afspreken?",
+        "explanation": "voor de ingang تحدد نقطة اللقاء المقترحة."
+      }
+    ]
   }
 ]

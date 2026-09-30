@@ -7,10 +7,10 @@ import { planAudio } from "../scripts/lib/audio-assets.mjs";
 const read = async (name) => JSON.parse(await readFile(new URL(`../src/data/${name}.json`, import.meta.url), "utf8"));
 const [packs, units, lessons, sounds, overrides] = await Promise.all(["a1-practice", "a1-roadmap", "lessons", "pronunciation", "audio-pronunciation"].map(read));
 
-test("each theme has new reception and production practice plus a cumulative review", () => {
+test("each theme has reception and production practice plus a cumulative review", () => {
   assert.deepEqual(validatePractice(packs, units), []);
   assert.equal(packs.length, 11);
-  assert.equal(packs.reduce((sum, pack) => sum + pack.reading.questions.length + pack.listening.questions.length, 0), 48);
+  assert.equal(packs.reduce((sum, pack) => sum + pack.reading.questions.length + pack.listening.questions.length, 0), 68);
   const lessonTexts = new Set(lessons.flatMap((lesson) => lesson.phrases.map((phrase) => phrase.dutch)));
   for (const pack of packs) {
     assert.ok(!lessonTexts.has(pack.listening.text));

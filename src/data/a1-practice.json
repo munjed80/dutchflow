@@ -32,6 +32,18 @@
           "evidence": "Hallo, ik ben Sofia Costa. Ik kom uit Portugal. Ik woon nu in Haarlem, op nummer 18.",
           "explanation": "woonplaats هي Haarlem واسم العائلة Costa ورقم المنزل 18.",
           "id": "practice-introducing-yourself-read-2"
+        },
+        {
+          "id": "practice-introducing-yourself-read-3",
+          "prompt": "في أي مدينة تسكن صوفيا الآن؟",
+          "options": [
+            "هارلم",
+            "البرتغال",
+            "المنزل 18"
+          ],
+          "correctIndex": 0,
+          "evidence": "Ik woon nu in Haarlem, op nummer 18.",
+          "explanation": "Haarlem هي المدينة؛ أما 18 فهو رقم المنزل."
         }
       ]
     },
@@ -63,6 +75,18 @@
           "evidence": "Kunt u langzaam praten, alstublieft?",
           "explanation": "طلب التحدث ببطء، وليس ترجمة كل شيء.",
           "id": "practice-introducing-yourself-listen-2"
+        },
+        {
+          "id": "practice-introducing-yourself-listen-3",
+          "prompt": "من يكون كريم في التسجيل؟",
+          "options": [
+            "المعلم الجديد",
+            "الجار الجديد",
+            "الزميل الجديد"
+          ],
+          "correctIndex": 1,
+          "evidence": "Ik ben uw nieuwe buurman.",
+          "explanation": "buurman تعني الجار الرجل."
         }
       ]
     },
@@ -123,6 +147,18 @@
           "evidence": "Dinsdag: 09:00–10:30. Donderdag: 13:00–14:30. Neem een pen en een schrift mee. De school is op vrijdag gesloten. Je kunt op dinsdag na de les tot 11:00 in de bibliotheek oefenen.",
           "explanation": "ينتهي الدرس 10:30 والتدرب متاح حتى 11:00 في الجملة الأخيرة.",
           "id": "practice-numbers-and-time-read-2"
+        },
+        {
+          "id": "practice-numbers-and-time-read-3",
+          "prompt": "ماذا يجب أن تحضر معك؟",
+          "options": [
+            "قلماً ودفتراً",
+            "ماءً وحقيبة",
+            "معطفاً فقط"
+          ],
+          "correctIndex": 0,
+          "evidence": "Neem een pen en een schrift mee.",
+          "explanation": "المطلوب pen وschrift معاً."
         }
       ]
     },
@@ -154,6 +190,18 @@
           "evidence": "We zitten deze keer in lokaal zes.",
           "explanation": "zes تعني ستة.",
           "id": "practice-numbers-and-time-listen-2"
+        },
+        {
+          "id": "practice-numbers-and-time-listen-3",
+          "prompt": "كم دقيقة يدوم الدرس في التسجيل؟",
+          "options": [
+            "30 دقيقة",
+            "45 دقيقة",
+            "60 دقيقة"
+          ],
+          "correctIndex": 1,
+          "evidence": "Onze les begint morgen om kwart over negen. We zijn om tien uur klaar.",
+          "explanation": "من 09:15 إلى 10:00 تساوي 45 دقيقة."
         }
       ]
     },
@@ -214,6 +262,18 @@
           "evidence": "De kinderen nemen een tas en water mee.",
           "explanation": "tas حقيبة وwater ماء.",
           "id": "practice-family-and-school-read-2"
+        },
+        {
+          "id": "practice-family-and-school-read-3",
+          "prompt": "متى يعود الأطفال إلى المدرسة؟",
+          "options": [
+            "10:00",
+            "11:00",
+            "12:00"
+          ],
+          "correctIndex": 2,
+          "evidence": "We vertrekken om 10:00 en zijn om 12:00 terug op school.",
+          "explanation": "العودة إلى المدرسة تكون في الساعة 12:00."
         }
       ]
     },
@@ -245,6 +305,18 @@
           "evidence": "Ik bel morgen weer.",
           "explanation": "الأم تعد بالاتصال فقط؛ لم تؤكد عودة الطفلة.",
           "id": "practice-family-and-school-listen-2"
+        },
+        {
+          "id": "practice-family-and-school-listen-3",
+          "prompt": "من هي سارة في التسجيل؟",
+          "options": [
+            "المعلمة",
+            "الأم",
+            "الجارة"
+          ],
+          "correctIndex": 1,
+          "evidence": "met Sara, de moeder van Mila.",
+          "explanation": "de moeder van Mila تعني أم ميلا."
         }
       ]
     },
@@ -305,6 +377,18 @@
           "evidence": "Laat je weten of dat kan?",
           "explanation": "المرسل يطلب تأكيد الإمكان، فلا يوجد اتفاق بعد.",
           "id": "practice-home-and-neighbourhood-read-2"
+        },
+        {
+          "id": "practice-home-and-neighbourhood-read-3",
+          "prompt": "حتى أي ساعة يكون عمر في المنزل يوم الاثنين؟",
+          "options": [
+            "حتى 14:00",
+            "حتى 16:00",
+            "حتى 17:00"
+          ],
+          "correctIndex": 0,
+          "evidence": "Ik ben maandag tot 14:00 thuis.",
+          "explanation": "الجملة تحدد الاثنين فقط حتى 14:00."
         }
       ]
     },
@@ -336,6 +420,18 @@
           "evidence": "Wil je eerst het raam dichtdoen",
           "explanation": "eerst تحدد الخطوة الأولى.",
           "id": "practice-home-and-neighbourhood-listen-2"
+        },
+        {
+          "id": "practice-home-and-neighbourhood-listen-3",
+          "prompt": "أين توجد الكتب؟",
+          "options": [
+            "على الرف",
+            "بجانب الحقيبة",
+            "تحت الطاولة"
+          ],
+          "correctIndex": 0,
+          "evidence": "De boeken staan op de plank.",
+          "explanation": "الكتب على الرف، وليس المفتاح."
         }
       ]
     },
@@ -396,6 +492,18 @@
           "evidence": "We hebben nog kaas.",
           "explanation": "We hebben nog kaas تعني ما زال لدينا جبن؛ هذا هو الطعام المتوفر المذكور في النص.",
           "id": "practice-food-and-shopping-read-2"
+        },
+        {
+          "id": "practice-food-and-shopping-read-3",
+          "prompt": "كم ثمن عبوتي الحليب معاً؟",
+          "options": [
+            "يورو واحد",
+            "يوروان",
+            "ثلاثة يوروهات"
+          ],
+          "correctIndex": 1,
+          "evidence": "melk één euro per pak. Neem twee pakken melk mee.",
+          "explanation": "إذا كانت العبوة الواحدة بيورو واحد فعبوتان تكلفان يوروين."
         }
       ]
     },
@@ -427,6 +535,18 @@
           "evidence": "Ik wil de zwarte broek ook graag passen.",
           "explanation": "zwarte تعني أسود.",
           "id": "practice-food-and-shopping-listen-2"
+        },
+        {
+          "id": "practice-food-and-shopping-listen-3",
+          "prompt": "ما المقاس المطلوب أولاً؟",
+          "options": [
+            "4",
+            "14",
+            "40"
+          ],
+          "correctIndex": 2,
+          "evidence": "Ik zoek een blauwe broek, maat veertig.",
+          "explanation": "veertig تعني 40."
         }
       ]
     },
@@ -487,6 +607,18 @@
           "evidence": "De bus vertrekt van halte Park om 09:10. Bij School is hij om 09:18 en bij Centrum om 09:25. De volgende bus vertrekt twintig minuten later. Je afspraak in Centrum is om 09:40. Loop vanaf de halte vijf minuten rechtdoor naar de bibliotheek.",
           "explanation": "الحافلة التالية تؤخر الوصول عشرين دقيقة عن 09:30، فيصبح 09:50.",
           "id": "practice-travel-and-directions-read-2"
+        },
+        {
+          "id": "practice-travel-and-directions-read-3",
+          "prompt": "ما رقم خط الحافلة في النص؟",
+          "options": [
+            "6",
+            "8",
+            "12"
+          ],
+          "correctIndex": 1,
+          "evidence": "Fictieve buslijn 8 naar Centrum.",
+          "explanation": "الخط هو 8؛ أما 12 فلا يظهر في هذا النص."
         }
       ],
       "table": {
@@ -543,6 +675,18 @@
           "evidence": "U hoeft niet over te stappen.",
           "explanation": "hoeft niet تعني لا تحتاج إلى ذلك.",
           "id": "practice-travel-and-directions-listen-2"
+        },
+        {
+          "id": "practice-travel-and-directions-listen-3",
+          "prompt": "في أي ساعة ينطلق القطار؟",
+          "options": [
+            "12:30",
+            "13:30",
+            "14:30"
+          ],
+          "correctIndex": 1,
+          "evidence": "Hij vertrekt om half twee.",
+          "explanation": "half twee تعني الواحدة والنصف، أي 13:30."
         }
       ]
     },
@@ -603,6 +747,18 @@
           "evidence": "Bel ons om een andere afspraak te maken.",
           "explanation": "النص يطلب الاتصال ولا يذكر تشخيصاً أو علاجاً.",
           "id": "practice-health-and-care-read-2"
+        },
+        {
+          "id": "practice-health-and-care-read-3",
+          "prompt": "في أي غرفة انتظار تجلس بعد الاستقبال؟",
+          "options": [
+            "1",
+            "2",
+            "الطابق الأرضي"
+          ],
+          "correctIndex": 1,
+          "evidence": "Daarna kunt u in wachtkamer 2 gaan zitten.",
+          "explanation": "رقم غرفة الانتظار هو 2."
         }
       ]
     },
@@ -634,6 +790,18 @@
           "evidence": "sinds maandag.",
           "explanation": "لا يمكن تحويل الاثنين إلى أمس دون معرفة اليوم الحالي.",
           "id": "practice-health-and-care-listen-2"
+        },
+        {
+          "id": "practice-health-and-care-listen-3",
+          "prompt": "ماذا يطلب المتحدث بالإضافة إلى تكرار السؤال؟",
+          "options": [
+            "التحدث ببطء أكثر",
+            "إلغاء الموعد",
+            "إرسال دواء"
+          ],
+          "correctIndex": 0,
+          "evidence": "Kunt u de vraag herhalen en iets langzamer praten?",
+          "explanation": "الطلبان هما التكرار والتحدث ببطء أكثر."
         }
       ]
     },
@@ -694,6 +862,18 @@
           "evidence": "U krijgt daarna een e-mail met de eerste lesdatum.",
           "explanation": "12 أكتوبر حد لإرجاع الاستمارة، لا تاريخ الدرس.",
           "id": "practice-services-and-messages-read-2"
+        },
+        {
+          "id": "practice-services-and-messages-read-3",
+          "prompt": "أي معلومة ليست إلزامية في الاستمارة؟",
+          "options": [
+            "الاسم الأول",
+            "رقم الهاتف",
+            "البريد الإلكتروني"
+          ],
+          "correctIndex": 1,
+          "evidence": "Het telefoonnummer is niet verplicht.",
+          "explanation": "ليس مطلوباً إلزامياً في هذا النص إلا رقم الهاتف."
         }
       ]
     },
@@ -725,6 +905,18 @@
           "evidence": "Bel ons terug om dit te bevestigen.",
           "explanation": "الموعد الجديد ينتظر تأكيداً.",
           "id": "practice-services-and-messages-listen-2"
+        },
+        {
+          "id": "practice-services-and-messages-listen-3",
+          "prompt": "ماذا يجب أن يفعل المستمع بخصوص الموعد الجديد؟",
+          "options": [
+            "يصل مباشرة دون رد",
+            "يتصل مجدداً لتأكيده",
+            "يرسل استمارة جديدة"
+          ],
+          "correctIndex": 1,
+          "evidence": "Bel ons terug om dit te bevestigen.",
+          "explanation": "المطلوب إعادة الاتصال لتأكيد الموعد الجديد."
         }
       ]
     },
@@ -785,6 +977,18 @@
           "evidence": "Eva controleert eerst de namen.",
           "explanation": "إيفا تفحص الأسماء قبل وضع الصناديق على الرف.",
           "id": "practice-work-and-tasks-read-2"
+        },
+        {
+          "id": "practice-work-and-tasks-read-3",
+          "prompt": "متى توجد الاستراحة؟",
+          "options": [
+            "08:30",
+            "09:00",
+            "10:00"
+          ],
+          "correctIndex": 2,
+          "evidence": "Om 10:00 is er pauze.",
+          "explanation": "وقت الاستراحة مذكور صراحة في نهاية النص."
         }
       ]
     },
@@ -816,6 +1020,18 @@
           "evidence": "De winkel gaat om negen uur open.",
           "explanation": "negen uur تعني التاسعة.",
           "id": "practice-work-and-tasks-listen-2"
+        },
+        {
+          "id": "practice-work-and-tasks-listen-3",
+          "prompt": "من الذي سيقدم المساعدة؟",
+          "options": [
+            "الزبون",
+            "المتحدث",
+            "المدير غير المذكور"
+          ],
+          "correctIndex": 1,
+          "evidence": "Ik help je.",
+          "explanation": "المتحدث نفسه يقول إنه سيساعد."
         }
       ]
     },
@@ -876,6 +1092,18 @@
           "evidence": "Als het regent, gaan we naar het café naast het park.",
           "explanation": "هذه خطة مشروطة بالمطر، وليست تقريراً بأن المطر بدأ.",
           "id": "practice-leisure-and-plans-read-2"
+        },
+        {
+          "id": "practice-leisure-and-plans-read-3",
+          "prompt": "ماذا ستأخذ سارة معها لأن الجو سيصبح بارداً؟",
+          "options": [
+            "مظلّة",
+            "سترة",
+            "كتاباً"
+          ],
+          "correctIndex": 1,
+          "evidence": "Het wordt koud, dus ik neem een jas mee.",
+          "explanation": "jas تعني سترة أو معطفاً خفيفاً."
         }
       ]
     },
@@ -907,6 +1135,18 @@
           "evidence": "zondag om half vier fietsen? We kunnen bij de brug afspreken.",
           "explanation": "half vier تعني الثالثة والنصف؛ المكان الجسر.",
           "id": "practice-leisure-and-plans-listen-2"
+        },
+        {
+          "id": "practice-leisure-and-plans-listen-3",
+          "prompt": "ماذا يطلب المتحدث من سام أن يرسله؟",
+          "options": [
+            "رسالة",
+            "صورة للجسر",
+            "خريطة"
+          ],
+          "correctIndex": 0,
+          "evidence": "Stuur je mij een bericht?",
+          "explanation": "bericht تعني رسالة قصيرة."
         }
       ]
     },
