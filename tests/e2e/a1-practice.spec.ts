@@ -62,6 +62,7 @@ for (const pack of packs) test(`${pack.slug}: reading, assisted listening and pr
 test("only ended playback unlocks listening; stop and stale events cannot bypass it; retry becomes assisted", async ({ page }) => {
   await speech(page);
   await page.goto("/a1-practice/numbers-and-time");
+  const pack = packs.find((item) => item.slug === "numbers-and-time")!;
   const listen = page.locator("#listen");
   await listen.getByRole("button", { name: "استمع إلى الجملة", exact: true }).click();
   await expect(listen.getByRole("radio")).toHaveCount(0);
@@ -70,7 +71,7 @@ test("only ended playback unlocks listening; stop and stale events cannot bypass
   await expect(listen.getByRole("radio")).toHaveCount(0);
   await listen.getByRole("button", { name: "استمع إلى الجملة", exact: true }).click();
   await page.evaluate(() => Reflect.get(window, "finishPassage")());
-  await expect(listen.getByRole("radio")).toHaveCount(6);
+  await expect(listen.getByRole("radio")).toHaveCount(pack.listening.questions.length * 3);
   await expect(listen.locator(".passage-transcript")).toHaveCount(0);
   for (const group of await listen.locator(".reading-question").all()) await group.getByRole("radio").first().check();
   await listen.getByRole("button", { name: "تحقّق من فهمك" }).click();
@@ -86,12 +87,13 @@ test("missing Dutch audio remains honest and offers text help; map and timetable
   await speech(page, false);
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/a1-practice/travel-and-directions");
+  const pack = packs.find((item) => item.slug === "travel-and-directions")!;
   const listen = page.locator("#listen");
   await listen.getByRole("button", { name: "استمع إلى الجملة", exact: true }).click();
   await expect(listen).toContainText("لا يتوفر صوت هولندي");
   await expect(listen.getByRole("radio")).toHaveCount(0);
   await listen.getByRole("button", { name: "اعرض نص المقطع للمساعدة" }).click();
-  await expect(listen.getByRole("radio")).toHaveCount(6);
+  await expect(listen.getByRole("radio")).toHaveCount(pack.listening.questions.length * 3);
   await expect(page.getByRole("table")).toHaveAccessibleName("Fictieve buslijn 8");
   await expect(page.getByRole("img")).toHaveAccessibleName("Oefenkaart: van Halte naar School");
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

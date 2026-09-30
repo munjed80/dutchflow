@@ -28,7 +28,7 @@ for (const extension of extensions) {
     const lesson = lessons.find((item) => item.slug === extension.lessonSlug)!;
     await page.goto(`/learn/${lesson.slug}`);
     await expect(page.locator(".phrase-card")).toHaveCount(lesson.phrases.length);
-    await expect(page.locator(".lesson-enrichment dt")).toHaveCount(6);
+    await expect(page.locator(".lesson-enrichment dt")).toHaveCount(extension.vocabulary.length);
     for (const [index, entry] of extension.vocabulary.entries()) {
       await expect(page.locator(".vocabulary-forms").nth(index)).toHaveText(entry.forms);
       await expect(page.locator(".lesson-enrichment dd").nth(index)).toContainText(lesson.phrases.find((phrase) => phrase.id === entry.phraseId)!.dutch);
