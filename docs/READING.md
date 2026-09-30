@@ -1,6 +1,6 @@
 # Contextual reading library
 
-The free `/reading` library extends the existing phrase-based lessons with seventeen original short Dutch texts for guided beginner reading. These are authored teaching examples, not copied letters, live service instructions, official exam material, or a complete CEFR syllabus.
+The free `/reading` library extends the existing phrase-based lessons with twenty-seven original short Dutch texts for guided beginner reading. These are authored teaching examples, not copied letters, live service instructions, official exam material, or a complete CEFR syllabus.
 
 ## Current content
 
@@ -23,8 +23,18 @@ The free `/reading` library extends the existing phrase-based lessons with seven
 | Een collega doet het voor | A colleague demonstrates a task | Main-clause order after `daarna` |
 | Een vraag bij de praktijk | Requesting a simple written explanation | `sinds` for onset |
 | Een zaterdag in het park | A weekend invitation, the weather, and a meeting plan | Separable `afspreken` in a time/place plan |
+| Een kaartje voor de taalgroep | Contact details, group support and a weekly message | `als` for a practical response |
+| Een bericht over de oefenweek | Dates, lesson duration and weekly follow-up practice | Main-clause order after a day phrase |
+| Een bericht over de ouderavond | Parent evening choices, materials and deadline | `of` between two available times |
+| Een briefje over de sleutel | Leaving a key, a neighbour and a repair visit | `tussen ... en ...` for a time range |
+| Een bericht vóór de markt | Shopping quantities, what not to buy and a fallback choice | Conditional `als` with a practical alternative |
+| Een route vanaf het station | Exit, directions and an optional bus | `daarna` for step order |
+| Een kort bericht van de praktijk | Writing a complaint clearly and asking at the desk | `daarom` for a practical consequence |
+| Een formulier vóór de afspraak | Missing form details and callback flow | `zonder` for missing required information |
+| Een lijst voor de vroege dienst | Ordered shift tasks and missing-name escalation | An immediate request triggered by `als` |
+| Een plan voor een filmavond | Availability, weather-dependent travel and meeting point | `want` with a direct reason |
 
-There are 91 contextual vocabulary/expression notes, seventeen grammar notes, and 60 comprehension questions. The original 20 lesson slugs and 101 protected spoken phrase texts/IDs remain compatible. Saved progress and review IDs are preserved; the audio manifest is still empty. Reading texts are not automatically included in audio generation or the saved phrase review list.
+There are 141 contextual vocabulary/expression notes, twenty-seven grammar notes, and 90 comprehension questions. The original 20 lesson slugs and 101 protected spoken phrase texts/IDs remain compatible. Saved progress and review IDs are preserved; the audio manifest is still empty. Reading texts are not automatically included in audio generation or the saved phrase review list.
 
 ## Learning flow
 
@@ -42,14 +52,14 @@ Edit `src/data/readings.json`. Keep slugs and question IDs stable; use unique qu
 
 Editorial review during implementation checked narrative consistency, Dutch/Arabic correspondence, the distinction between old and new appointment times, `half negen`/`half tien`, task ordering, relevant lesson links, and contextual vocabulary. **Independent review by a qualified Dutch/Arabic language editor is still pending.** Do not describe the texts as certified A1 material or professionally language-reviewed. Further enrichment should add longer varied passages, broader vocabulary, and original production tasks after reviewing this bank.
 
-Browser tests cover discovery, all seventeen routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. The services reading has a dedicated mobile flow covering paragraph formatting, a wrong Friday-deadline answer corrected to **before Friday**, regrading, reload, catalogue return and unchanged completion/review storage. The guest-room mobile flow checks arrival time versus work finish, furniture locations, required answers, evidence and regrading. The shopping-list mobile flow distinguishes the price per kilogram from the requested quantity, corrects a mistaken price with passage evidence, and checks the conditional bread substitute. CI continues to run the full account, lesson, placement, listening, writing, and review suites.
+Browser tests cover discovery, all twenty-seven routes and 404, translation reveal, contextual notes, required answers, answer evidence, changed-answer regrading, restart/navigation/reload, mobile layout, and unchanged guest/review storage. The services reading has a dedicated mobile flow covering paragraph formatting, a wrong Friday-deadline answer corrected to **before Friday**, regrading, reload, catalogue return and unchanged completion/review storage. The guest-room mobile flow checks arrival time versus work finish, furniture locations, required answers, evidence and regrading. The shopping-list mobile flow distinguishes the price per kilogram from the requested quantity, corrects a mistaken price with passage evidence, and checks the conditional bread substitute. CI continues to run the full account, lesson, placement, listening, writing, and review suites.
 
 The September review adds `a-journey-with-a-change`, `a-colleague-shows-the-task`, and `a-question-at-the-practice`; the school-absence text now promises a callback instead of implying a return-to-school rule. See [review details](A1_REVIEW_2026-09.md).
 
 ## Detailed editorial review completed
 
-The 2026-09-29 editorial pass is complete for this content bank. See `A1_DETAILED_REVIEW.md` for exact scope, per-resource coverage and corrections. Independent educator/learner validation and owner-managed recording approval remain separate.
+The 2026-09-29 editorial pass is complete for the earlier seventeen-text bank captured in `A1_DETAILED_REVIEW.md`. The later ten-text enrichment wave extends the library across all ten thematic units and still needs its own focused editorial follow-up. Independent educator/learner validation and owner-managed recording approval remain separate.
 
 ## Follow-up lessons after checking
 
-Each of the 60 questions has authored review links. A checked incorrect answer contributes relevant lessons to a deduplicated list with question numbers; editing or resetting clears stale suggestions. See `A1_TARGETED_REVIEW.md`. Existing passage evidence, scoring, free access and temporary state are unchanged.
+Each of the 90 questions has authored review links. A checked incorrect answer contributes relevant lessons to a deduplicated list with question numbers; editing or resetting clears stale suggestions. See `A1_TARGETED_REVIEW.md`. Existing passage evidence, scoring, free access and temporary state are unchanged.

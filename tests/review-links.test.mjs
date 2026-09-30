@@ -7,7 +7,7 @@ const [links, readings, packs, lessons] = await Promise.all(["a1-review-links", 
 
 test("every reading and integrated question has a small, valid remediation route", () => {
   assert.deepEqual(validateReviewLinks(links, readings, packs, lessons), []);
-  assert.equal(Object.keys(links).length, 108);
+  assert.equal(Object.keys(links).length, 158);
 });
 
 test("review mapping rejects missing, stale, duplicate, unknown and oversized targets", () => {
