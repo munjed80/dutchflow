@@ -749,7 +749,7 @@
             "15 دقيقة"
           ],
           "correctIndex": 2,
-          "evidence": "Bij Centrum om 09:25. Je afspraak in Centrum is om 09:40.",
+          "evidence": "bij Centrum om 09:25. De volgende bus vertrekt twintig minuten later. Je afspraak in Centrum is om 09:40.",
           "explanation": "من 09:25 إلى 09:40 تبقى 15 دقيقة قبل الموعد."
         }
       ],
