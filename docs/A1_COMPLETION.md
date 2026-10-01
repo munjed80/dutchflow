@@ -19,7 +19,7 @@ The [Council of Europe global scale](https://www.coe.int/en/web/common-european-
 | Guided scenarios/turns/transfer tasks | 10 / 40 / 10 | `/scenarios` |
 | Integrated unit packs + final review | 10 + 1 | `/a1-practice` |
 | New reading sources / connected listening passages | 11 / 11 | Integrated packs (separate from reading library) |
-| Integrated comprehension questions | 68 | Explicit source evidence |
+| Integrated comprehension questions | 88 | Explicit source evidence |
 | Additional writing / oral-partner tasks | 11 / 11 | Integrated packs |
 | Grammar reference notes / foundation tables | 53 / 4 | `/grammar` |
 | Alphabet and sound drills | 13 | `/pronunciation` |
@@ -72,4 +72,4 @@ Course-content breadth has been expanded in this PR; a fully reviewed multimedia
 
 ## Practice follow-up polish
 
-All 158 library/integrated comprehension questions now have authored links to relevant A1 lessons. Checked mistakes produce deduplicated suggestions with question numbers; changed answers and resets clear stale advice. Pack navigation continues through the final review. See `A1_TARGETED_REVIEW.md`. This improves the learning loop without adding assessment claims or changing the lesson/audio bank.
+All 178 library/integrated comprehension questions now have authored links to relevant A1 lessons. Checked mistakes produce deduplicated suggestions with question numbers; changed answers and resets clear stale advice. Pack navigation continues through the final review. See `A1_TARGETED_REVIEW.md`. This improves the learning loop without adding assessment claims or changing the lesson/audio bank.

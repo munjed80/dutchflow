@@ -10,7 +10,7 @@ const [packs, units, lessons, sounds, overrides] = await Promise.all(["a1-practi
 test("each theme has reception and production practice plus a cumulative review", () => {
   assert.deepEqual(validatePractice(packs, units), []);
   assert.equal(packs.length, 11);
-  assert.equal(packs.reduce((sum, pack) => sum + pack.reading.questions.length + pack.listening.questions.length, 0), 68);
+  assert.equal(packs.reduce((sum, pack) => sum + pack.reading.questions.length + pack.listening.questions.length, 0), 88);
   const lessonTexts = new Set(lessons.flatMap((lesson) => lesson.phrases.map((phrase) => phrase.dutch)));
   for (const pack of packs) {
     assert.ok(!lessonTexts.has(pack.listening.text));

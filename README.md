@@ -32,7 +32,7 @@ The lesson content lives in `src/data/lessons.json`, and ordered modules live in
 
 ## Integrated A1 practice
 
-- `/a1-practice` supplies ten unit reviews and a cumulative free review: 11 new reading sources, 11 short connected listening passages, 68 evidenced questions, 11 writing tasks and 11 oral/partner tasks with examples and self-review criteria. These sources are separate from the 27 reading-library texts.
+- `/a1-practice` supplies ten unit reviews and a cumulative free review: 11 new reading sources, 11 short connected listening passages, 88 evidenced questions, 11 writing tasks and 11 oral/partner tasks with examples and self-review criteria. These sources are separate from the 27 reading-library texts.
 - `/grammar` collects the 53 lesson grammar notes plus four foundation tables for verbs, questions, noun plurals and pronouns/possession. `/pronunciation` supplies 13 sound/alphabet drills.
 - A fictional travel timetable and accessible route map support practical interpretation. Listening questions unlock only after full playback or explicit text help; retry after seeing evidence is marked assisted. All attempts stay in memory and grant no completion or proficiency score.
 - The audio inventory now includes 343 lesson phrases, 11 passages and 13 sound drills: **1,468 variants planned, zero approved MP3s**. Missing Dutch device voices have explicit text-help fallback. See [A1 scope and remaining release gates](docs/A1_COMPLETION.md).
