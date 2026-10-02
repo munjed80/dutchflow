@@ -19,14 +19,14 @@ The [Council of Europe global scale](https://www.coe.int/en/web/common-european-
 | Guided scenarios/turns/transfer tasks | 10 / 40 / 10 | `/scenarios` |
 | Integrated unit packs + final review | 10 + 1 | `/a1-practice` |
 | New reading sources / connected listening passages | 11 / 11 | Integrated packs (separate from reading library) |
-| Integrated comprehension questions | 88 | Explicit source evidence |
-| Additional writing / oral-partner tasks | 11 / 11 | Integrated packs |
+| Integrated comprehension questions | 90 | Explicit source evidence |
+| Additional writing / oral-partner tasks | 22 / 11 | Integrated packs |
 | Grammar reference notes / foundation tables | 53 / 4 | `/grammar` |
 | Alphabet and sound drills | 13 | `/pronunciation` |
 | Planned audio sources / variants | 367 / 1,468 | Generation inventory |
 | Approved real MP3s | 0 | Service credentials not configured |
 
-Numbers measure resources, not learning hours, skill percentages or level attainment. The free final review has eight comprehension questions plus writing and speaking, with no combined pass/fail, certificate, stored result or payment.
+Numbers measure resources, not learning hours, skill percentages or level attainment. The free final review has ten comprehension questions plus two writing tasks and one speaking task, with no combined pass/fail, certificate, stored result or payment.
 
 ## Coverage matrix
 
@@ -72,4 +72,4 @@ Course-content breadth has been expanded in this PR; a fully reviewed multimedia
 
 ## Practice follow-up polish
 
-All 178 library/integrated comprehension questions now have authored links to relevant A1 lessons. Checked mistakes produce deduplicated suggestions with question numbers; changed answers and resets clear stale advice. Pack navigation continues through the final review. See `A1_TARGETED_REVIEW.md`. This improves the learning loop without adding assessment claims or changing the lesson/audio bank.
+All 180 library/integrated comprehension questions now have authored links to relevant A1 lessons. Checked mistakes produce deduplicated suggestions with question numbers; changed answers and resets clear stale advice. Pack navigation continues through the final review. See `A1_TARGETED_REVIEW.md`. This improves the learning loop without adding assessment claims or changing the lesson/audio bank.

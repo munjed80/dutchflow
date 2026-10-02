@@ -48,14 +48,15 @@ for (const pack of packs) test(`${pack.slug}: reading, assisted listening and pr
   await expect(listen.locator(".reading-result")).toContainText(`${pack.listening.questions.length} من ${pack.listening.questions.length}`);
   await expect(listen).toContainText("لا يُحسب استماعاً مستقلاً");
   await page.locator("#write textarea").fill("Mijn eigen tekst.");
-  await page.locator("#write summary").click();
-  await expect(page.locator("#write .production-model")).toHaveText(pack.writing.model);
+  await expect(page.locator("#write textarea")).toHaveCount(pack.writing.length);
+  for (let index = 0; index < pack.writing.length; index += 1) await page.locator("#write summary").nth(index).click();
+  await expect(page.locator("#write .production-model")).toHaveText(pack.writing.map((task) => task.model));
   await page.locator("#speak summary").click();
   await expect(page.locator("#speak details p[lang=nl]")).toHaveText(pack.speaking.model);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   for (const key of ["dutchflow-progress-v1", "dutchflow-review-v1"]) expect(await page.evaluate((key) => localStorage.getItem(key), key)).toBeNull();
   await page.reload();
-  await expect(page.locator("#write textarea")).toHaveValue("");
+  await expect(page.locator("#write textarea").first()).toHaveValue("");
   await expect(page.locator(".passage-transcript")).toHaveCount(0);
 });
 

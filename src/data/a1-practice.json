@@ -114,15 +114,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "املأ هذه البيانات بجمل قصيرة لشخص خيالي: الاسم الكامل، بلد الأصل، مدينة السكن واللغة. لا تدخل عنوانك الحقيقي.",
-      "model": "Ik heet Adam Ali. Ik kom uit Egypte. Ik woon in Leiden. Ik spreek Arabisch.",
-      "translation": "اسمي آدم علي. أنا من مصر. أسكن في لايدن. أتحدث العربية.",
-      "checklist": [
-        "هل ميزت الاسم والبلد والمدينة واللغة؟",
-        "هل بدأت الجمل بحرف كبير وأنهيتها بنقطة؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "املأ هذه البيانات بجمل قصيرة لشخص خيالي: الاسم الكامل، بلد الأصل، مدينة السكن واللغة. لا تدخل عنوانك الحقيقي.",
+        "model": "Ik heet Adam Ali. Ik kom uit Egypte. Ik woon in Leiden. Ik spreek Arabisch.",
+        "translation": "اسمي آدم علي. أنا من مصر. أسكن في لايدن. أتحدث العربية.",
+        "checklist": [
+          "هل ميزت الاسم والبلد والمدينة واللغة؟",
+          "هل بدأت الجمل بحرف كبير وأنهيتها بنقطة؟"
+        ]
+      },
+      {
+        "prompt": "اكتب رسالة ترحيب قصيرة إلى جارة خيالية جديدة: اذكر اسمك ومدينتك، واسأل بأي لغة تفضلان أن تتحدثا.",
+        "model": "Hallo Sara, welkom in de straat. Ik heet Youssef en ik woon in Haarlem. Spreek je liever Nederlands of Engels?",
+        "translation": "مرحباً سارة، أهلاً بك في الشارع. اسمي يوسف وأسكن في هارلم. هل تفضلين التحدث بالهولندية أم بالإنجليزية؟",
+        "checklist": [
+          "هل قدمت نفسك بجمل قصيرة وواضحة؟",
+          "هل أنهيت الرسالة بسؤال مناسب عن اللغة؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "قدّم نفسك بشخصية خيالية في ثلاث جمل، ثم اسأل شريكاً عن اسمه ومدينته. اطلب التكرار إذا لم تفهم.",
       "model": "Ik heet Sara. Ik kom uit Spanje. Ik woon in Delft. Hoe heet jij? Waar woon je? Kun je dat herhalen?",
@@ -253,15 +264,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "أرسل رسالة: أنت متاح الأربعاء من 15:00 إلى 16:00، واقترح التدريب معاً لمدة نصف ساعة بدءاً من 15:00.",
-      "model": "Woensdag kan ik van drie tot vier uur. Zullen we van drie uur tot half vier oefenen?",
-      "translation": "أستطيع الأربعاء من الثالثة إلى الرابعة. هل نتدرب من الثالثة إلى الثالثة والنصف؟",
-      "checklist": [
-        "هل فرقت بين التوفر ومدة اللقاء؟",
-        "هل half vier تعني 15:30 في رسالتك؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "أرسل رسالة: أنت متاح الأربعاء من 15:00 إلى 16:00، واقترح التدريب معاً لمدة نصف ساعة بدءاً من 15:00.",
+        "model": "Woensdag kan ik van drie tot vier uur. Zullen we van drie uur tot half vier oefenen?",
+        "translation": "أستطيع الأربعاء من الثالثة إلى الرابعة. هل نتدرب من الثالثة إلى الثالثة والنصف؟",
+        "checklist": [
+          "هل فرقت بين التوفر ومدة اللقاء؟",
+          "هل half vier تعني 15:30 في رسالتك؟"
+        ]
+      },
+      {
+        "prompt": "اكتب رسالة تؤكد أن الأربعاء 15:30 مناسب لك لمدة 45 دقيقة، واسأل هل القاعة 6 ما زالت صحيحة.",
+        "model": "Woensdag kan ik om half vier. Ik kan vijfenveertig minuten blijven. Is lokaal zes nog goed?",
+        "translation": "أستطيع الأربعاء الساعة الثالثة والنصف. أستطيع البقاء خمساً وأربعين دقيقة. هل القاعة 6 ما زالت مناسبة؟",
+        "checklist": [
+          "هل ذكرت وقت البدء والمدة معاً؟",
+          "هل أضفت سؤالاً يؤكد المكان؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "اذكر وقت استيقاظك ووقت نشاطين في يوم خيالي. اسأل شريكك عن يوم ووقت يناسبانه للقاء.",
       "model": "Ik sta om zeven uur op. Om acht uur ontbijt ik. Om negen uur werk ik. Welke dag kun je afspreken? Hoe laat?",
@@ -392,15 +414,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "اكتب رسالة خيالية للمدرسة: ابنك سام لا يستطيع الحضور اليوم، واطلب إرسال الواجب. أضف تحية وتوقيعاً.",
-      "model": "Beste meester, mijn zoon Sam kan vandaag niet komen. Kunt u het huiswerk sturen? Groet, Noor.",
-      "translation": "أستاذي العزيز، ابني سام لا يستطيع الحضور اليوم. هل يمكنك إرسال الواجب؟ تحياتي، نور.",
-      "checklist": [
-        "هل أوضحت اسم الطفل والغياب اليوم؟",
-        "هل أضفت الطلب والتحية والتوقيع؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "اكتب رسالة خيالية للمدرسة: ابنك سام لا يستطيع الحضور اليوم، واطلب إرسال الواجب. أضف تحية وتوقيعاً.",
+        "model": "Beste meester, mijn zoon Sam kan vandaag niet komen. Kunt u het huiswerk sturen? Groet, Noor.",
+        "translation": "أستاذي العزيز، ابني سام لا يستطيع الحضور اليوم. هل يمكنك إرسال الواجب؟ تحياتي، نور.",
+        "checklist": [
+          "هل أوضحت اسم الطفل والغياب اليوم؟",
+          "هل أضفت الطلب والتحية والتوقيع؟"
+        ]
+      },
+      {
+        "prompt": "اكتب رسالة إلى المدرسة: طفلك سيعود غداً، لكنه يحتاج الواجب اليوم بالبريد الإلكتروني.",
+        "model": "Beste school, Mila komt morgen weer naar school. Kunt u het huiswerk vandaag per e-mail sturen? Dank u wel.",
+        "translation": "المدرسة المحترمة، ستعود ميلا غداً إلى المدرسة. هل يمكنكم إرسال الواجب اليوم بالبريد الإلكتروني؟ شكراً لكم.",
+        "checklist": [
+          "هل ميزت بين اليوم والغد بوضوح؟",
+          "هل طلبت الواجب عبر البريد الإلكتروني؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "صف أسرة خيالية: شخصان بالغان وطفلان. اذكر اسم طفل وعمره، واسأل شريكك عن أسرته دون طلب بيانات حساسة.",
       "model": "Ons gezin heeft twee volwassenen en twee kinderen. Mijn dochter heet Lina. Zij is acht jaar. Heb jij kinderen?",
@@ -531,15 +564,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "اكتب رسالة إصلاح خيالية: باب غرفة النوم لا يغلق، وأنت متاح الجمعة بعد 13:00. اطلب موعداً ولا تفترض تأكيده.",
-      "model": "Hallo, de deur van de slaapkamer gaat niet dicht. Vrijdag ben ik na één uur thuis. Kunt u dan komen? Groet, Adam.",
-      "translation": "مرحباً، باب غرفة النوم لا يغلق. أنا في المنزل الجمعة بعد الواحدة. هل يمكنك القدوم حينها؟ تحياتي، آدم.",
-      "checklist": [
-        "هل ذكرت المشكلة والغرفة؟",
-        "هل قدمت وقت التوفر وطلبت الرد؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "اكتب رسالة إصلاح خيالية: باب غرفة النوم لا يغلق، وأنت متاح الجمعة بعد 13:00. اطلب موعداً ولا تفترض تأكيده.",
+        "model": "Hallo, de deur van de slaapkamer gaat niet dicht. Vrijdag ben ik na één uur thuis. Kunt u dan komen? Groet, Adam.",
+        "translation": "مرحباً، باب غرفة النوم لا يغلق. أنا في المنزل الجمعة بعد الواحدة. هل يمكنك القدوم حينها؟ تحياتي، آدم.",
+        "checklist": [
+          "هل ذكرت المشكلة والغرفة؟",
+          "هل قدمت وقت التوفر وطلبت الرد؟"
+        ]
+      },
+      {
+        "prompt": "اترك ملاحظة لضيف خيالي: المفتاح تحت الأصيص الأزرق، والكوب في المطبخ، واطلب منه إغلاق النافذة بعد الدخول.",
+        "model": "De sleutel ligt onder de blauwe pot. De beker staat in de keuken. Wil je na binnenkomst het raam dichtdoen?",
+        "translation": "المفتاح تحت الأصيص الأزرق. الكوب في المطبخ. هل تريد أن تغلق النافذة بعد الدخول؟",
+        "checklist": [
+          "هل ذكرت مكانين مختلفين بوضوح؟",
+          "هل طلبت خطوة لاحقة بعد الدخول؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "صف غرفة خيالية فيها طاولة وكرسي ونافذة. اطلب من شريكك وضع كتاب في موضع تختاره ثم تحقق من مكانه.",
       "model": "Er staat een tafel naast het raam. De stoel staat voor de tafel. Leg het boek op de tafel, alsjeblieft. Waar ligt het nu?",
@@ -670,15 +714,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "اطلب نصف كيلو طماطم وست بيضات، ثم اسأل عن السعر الإجمالي.",
-      "model": "Mag ik een halve kilo tomaten en zes eieren? Hoeveel kost dat samen?",
-      "translation": "هل يمكنني الحصول على نصف كيلو طماطم وست بيضات؟ كم السعر معاً؟",
-      "checklist": [
-        "هل حافظت على الكمية والعدد؟",
-        "هل سألت عن السعر الإجمالي؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "اطلب نصف كيلو طماطم وست بيضات، ثم اسأل عن السعر الإجمالي.",
+        "model": "Mag ik een halve kilo tomaten en zes eieren? Hoeveel kost dat samen?",
+        "translation": "هل يمكنني الحصول على نصف كيلو طماطم وست بيضات؟ كم السعر معاً؟",
+        "checklist": [
+          "هل حافظت على الكمية والعدد؟",
+          "هل سألت عن السعر الإجمالي؟"
+        ]
+      },
+      {
+        "prompt": "اكتب رسالة تسوق قصيرة: خبزان وعلبة حليب واحدة، ولا قهوة، واسأل أيضاً عن البنطال الأسود بمقاس 42.",
+        "model": "Koop twee broden en één pak melk. Koop geen koffie. Heeft u de zwarte broek in maat tweeënveertig?",
+        "translation": "اشترِ خبزين وعلبة حليب واحدة. لا تشترِ قهوة. هل لديكم البنطال الأسود بمقاس 42؟",
+        "checklist": [
+          "هل استخدمت العدد مع المشتريات بوضوح؟",
+          "هل أضفت سؤالاً عن اللون والمقاس؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "تبادل الأدوار في متجر خيالي: اطلب كنزة خضراء، قل إنها كبيرة جداً، ثم اطلب مقاساً أصغر واسأل عن السعر.",
       "model": "Ik zoek een groene trui. Deze is te groot. Heeft u een kleinere maat? Wat kost deze trui?",
@@ -834,15 +889,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "اكتب لصديق أنك تصل محطة القطار Noord الساعة 10:15، واطلب لقاءه عند مدخل المحطة.",
-      "model": "Ik kom om kwart over tien aan op station Noord. Kunnen we bij de ingang van het station afspreken?",
-      "translation": "أصل إلى محطة نورد الساعة العاشرة والربع. هل يمكننا اللقاء عند مدخل المحطة؟",
-      "checklist": [
-        "هل نقلت الوقت 10:15 بدقة؟",
-        "هل وضحت المكان وطلبت الاتفاق؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "اكتب لصديق أنك تصل محطة القطار Noord الساعة 10:15، واطلب لقاءه عند مدخل المحطة.",
+        "model": "Ik kom om kwart over tien aan op station Noord. Kunnen we bij de ingang van het station afspreken?",
+        "translation": "أصل إلى محطة نورد الساعة العاشرة والربع. هل يمكننا اللقاء عند مدخل المحطة؟",
+        "checklist": [
+          "هل نقلت الوقت 10:15 بدقة؟",
+          "هل وضحت المكان وطلبت الاتفاق؟"
+        ]
+      },
+      {
+        "prompt": "اكتب لزميل أنك ستصل 09:25، وتمشي خمس دقائق من المحطة، واسأل هل يبقى الموعد 09:40 مناسباً.",
+        "model": "Ik kom om 09:25 aan. Vanaf de halte loop ik vijf minuten. Is 09:40 nog goed voor onze afspraak?",
+        "translation": "سأصل الساعة 09:25. أمشي خمس دقائق من المحطة. هل تبقى الساعة 09:40 مناسبة لموعدنا؟",
+        "checklist": [
+          "هل فرقت بين وقت الوصول ووقت الموعد؟",
+          "هل حوّلت المعلومة إلى سؤال تأكيد؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "استخدم الخريطة أدناه: ابدأ من Halte وتوجّه شمالاً حتى التقاطع، ثم يميناً إلى المدرسة. أعطِ التعليمات لشريكك واطلب منه تكرارها.",
       "model": "Loop rechtdoor tot het kruispunt. Ga rechtsaf. De school is aan het einde van de straat. Kun je dat herhalen?",
@@ -973,15 +1039,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "اكتب وصفاً خيالياً: ألم في الرأس منذ هذا الصباح. اطلب شرحاً بكلمات بسيطة دون اقتراح علاج.",
-      "model": "Mijn hoofd doet pijn sinds vanochtend. Kunt u eenvoudige woorden gebruiken?",
-      "translation": "رأسي يؤلمني منذ هذا الصباح. هل يمكنك استخدام كلمات بسيطة؟",
-      "checklist": [
-        "هل ذكرت الموضع ووقت البداية؟",
-        "هل طلبت تبسيط اللغة؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "اكتب وصفاً خيالياً: ألم في الرأس منذ هذا الصباح. اطلب شرحاً بكلمات بسيطة دون اقتراح علاج.",
+        "model": "Mijn hoofd doet pijn sinds vanochtend. Kunt u eenvoudige woorden gebruiken?",
+        "translation": "رأسي يؤلمني منذ هذا الصباح. هل يمكنك استخدام كلمات بسيطة؟",
+        "checklist": [
+          "هل ذكرت الموضع ووقت البداية؟",
+          "هل طلبت تبسيط اللغة؟"
+        ]
+      },
+      {
+        "prompt": "اكتب رسالة قصيرة للعيادة: لديك ألم منذ الثلاثاء، ولا تستطيع إلا بعد 11:00، فاطلب موعداً آخر.",
+        "model": "Beste praktijk, ik heb sinds dinsdag pijn. Ik kan alleen na elf uur komen. Kunt u een andere afspraak geven?",
+        "translation": "العيادة المحترمة، لدي ألم منذ الثلاثاء. لا أستطيع الحضور إلا بعد الحادية عشرة. هل يمكنكم إعطاء موعد آخر؟",
+        "checklist": [
+          "هل ذكرت منذ متى بدأ العرض؟",
+          "هل طلبت موعداً آخر بناءً على وقتك المتاح؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "مثّل دور شخص في موعد خيالي. اذكر موضع ألم ووقت بدايته، واطلب تكرار السؤال ثم كتابته إذا بقي غير واضح.",
       "model": "Ik heb sinds gisteren pijn in mijn knie. Kunt u dat herhalen? Kunt u de vraag opschrijven?",
@@ -1112,15 +1189,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "أرسل رداً قصيراً: الجمعة الثالثة لا تناسبك. اطلب الاثنين العاشرة، دون افتراض توفر الموعد.",
-      "model": "Beste medewerker, vrijdag om drie uur kan ik niet. Kan ik maandag om tien uur komen? Met vriendelijke groet, Lina.",
-      "translation": "الموظف المحترم، لا أستطيع الجمعة الثالثة. هل يمكنني القدوم الاثنين العاشرة؟ مع التحية، لينا.",
-      "checklist": [
-        "هل رفضت الوقت القديم بوضوح؟",
-        "هل اقترحت وقتاً جديداً بصيغة سؤال وأضفت خاتمة؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "أرسل رداً قصيراً: الجمعة الثالثة لا تناسبك. اطلب الاثنين العاشرة، دون افتراض توفر الموعد.",
+        "model": "Beste medewerker, vrijdag om drie uur kan ik niet. Kan ik maandag om tien uur komen? Met vriendelijke groet, Lina.",
+        "translation": "الموظف المحترم، لا أستطيع الجمعة الثالثة. هل يمكنني القدوم الاثنين العاشرة؟ مع التحية، لينا.",
+        "checklist": [
+          "هل رفضت الوقت القديم بوضوح؟",
+          "هل اقترحت وقتاً جديداً بصيغة سؤال وأضفت خاتمة؟"
+        ]
+      },
+      {
+        "prompt": "اكتب بريداً: أرسلت الاستمارة، لكنك لا تفهم هل رقم الهاتف إلزامي، واطلب تاريخ الدرس الأول.",
+        "model": "Beste medewerker, ik heb het formulier gestuurd. Is het telefoonnummer verplicht? Wanneer krijg ik de eerste lesdatum?",
+        "translation": "الموظف المحترم، أرسلت الاستمارة. هل رقم الهاتف إلزامي؟ متى أحصل على تاريخ الدرس الأول؟",
+        "checklist": [
+          "هل سألت عن المعلومة المطلوبة بوضوح؟",
+          "هل أضفت سؤالاً عن تاريخ الدرس الأول؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "اتصل بموظف خيالي. اذكر سبب الاتصال، واسأل عن معنى حقل e-mailadres، ثم أعد الموعد الذي يقترحه للتأكد.",
       "model": "Ik bel over het formulier. Wat betekent e-mailadres? Dus maandag om tien uur? Dank u wel.",
@@ -1251,15 +1339,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "اكتب لزميل أنك تبدأ الحادية عشرة وتحتاج مساعدة في قراءة قائمة.",
-      "model": "Hallo Eva, ik begin om elf uur. Kun je mij helpen met het lezen van de lijst? Bedankt!",
-      "translation": "مرحباً إيفا، أبدأ الساعة الحادية عشرة. هل يمكنك مساعدتي في قراءة القائمة؟ شكراً!",
-      "checklist": [
-        "هل ذكرت الوقت الجديد؟",
-        "هل حددت نوع المساعدة المطلوبة؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "اكتب لزميل أنك تبدأ الحادية عشرة وتحتاج مساعدة في قراءة قائمة.",
+        "model": "Hallo Eva, ik begin om elf uur. Kun je mij helpen met het lezen van de lijst? Bedankt!",
+        "translation": "مرحباً إيفا، أبدأ الساعة الحادية عشرة. هل يمكنك مساعدتي في قراءة القائمة؟ شكراً!",
+        "checklist": [
+          "هل ذكرت الوقت الجديد؟",
+          "هل حددت نوع المساعدة المطلوبة؟"
+        ]
+      },
+      {
+        "prompt": "اكتب لزميل: تبدأ 08:30، ستعد الصناديق أولاً ثم تكتب العدد، واطلب المساعدة إذا لم تستطع قراءة الاسم.",
+        "model": "Ik begin om 08:30. Eerst tel ik de dozen en daarna schrijf ik het aantal op. Kun je mij helpen als ik een naam niet kan lezen?",
+        "translation": "أبدأ 08:30. أولاً أعد الصناديق ثم أكتب العدد. هل يمكنك مساعدتي إذا لم أستطع قراءة اسم؟",
+        "checklist": [
+          "هل حافظت على ترتيب eerst/daarna؟",
+          "هل طلبت نوعاً محدداً من المساعدة؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "عرّف بمهنة ومكان عمل خياليين. اطلب من شريكك تعليمات من خطوتين، ثم أعدهما بالترتيب واطلب مثالاً إذا لم تفهم.",
       "model": "Ik ben verkoper. Ik werk in een winkel. Wat moet ik eerst doen? Dus eerst de stoelen, daarna de deur. Kun je het voordoen?",
@@ -1390,15 +1489,26 @@
         }
       ]
     },
-    "writing": {
-      "prompt": "اعتذر عن السبت واقترح المشي الاثنين 16:00 عند المكتبة، ثم اطلب رداً.",
-      "model": "Zaterdag kan ik niet. Zullen we maandag om vier uur bij de bibliotheek afspreken om te wandelen? Laat je weten of dat kan?",
-      "translation": "لا أستطيع السبت. هل نلتقي الاثنين الرابعة عند المكتبة للمشي؟ أخبرني إن كان ذلك ممكناً.",
-      "checklist": [
-        "هل غيّرت اليوم والساعة والمكان؟",
-        "هل طلبت رداً بدلاً من افتراض الاتفاق؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "اعتذر عن السبت واقترح المشي الاثنين 16:00 عند المكتبة، ثم اطلب رداً.",
+        "model": "Zaterdag kan ik niet. Zullen we maandag om vier uur bij de bibliotheek afspreken om te wandelen? Laat je weten of dat kan?",
+        "translation": "لا أستطيع السبت. هل نلتقي الاثنين الرابعة عند المكتبة للمشي؟ أخبرني إن كان ذلك ممكناً.",
+        "checklist": [
+          "هل غيّرت اليوم والساعة والمكان؟",
+          "هل طلبت رداً بدلاً من افتراض الاتفاق؟"
+        ]
+      },
+      {
+        "prompt": "أرسل رسالة: الأحد 15:00 مناسب، وإذا أمطرت تفضل المقهى، واسأل هل سيحضر الطرف الآخر ماءً.",
+        "model": "Zondag om drie uur kan ik. Als het regent, ga ik liever naar het café. Neem jij water mee?",
+        "translation": "أستطيع الأحد الساعة الثالثة. إذا أمطرت فأنا أفضل المقهى. هل ستحضر أنت الماء؟",
+        "checklist": [
+          "هل جمعت بين وقت مناسب وخطة بديلة؟",
+          "هل أضفت سؤال متابعة قصيراً؟"
+        ]
+      }
+    ],
     "speaking": {
       "prompt": "اذكر هوايتين تحبهما، وادعُ شريكك لنشاط. إذا لم يناسبه الوقت، اقترح وقتاً آخر ثم أكّد التفاصيل.",
       "model": "Ik lees graag en ik fiets graag. Zullen we zondag fietsen? Kan het om twee uur? Om drie uur kan ik ook. Zullen we bij het park afspreken?",
@@ -1481,6 +1591,18 @@
           "evidence": "Neem een schrift en een pen mee.",
           "explanation": "النص يذكر schrift وpen.",
           "id": "practice-final-review-read-4"
+        },
+        {
+          "id": "practice-final-review-read-5",
+          "prompt": "هل تدفع ثمن الدرس نفسه؟",
+          "options": [
+            "نعم، يوروين",
+            "لا، الدرس مجاني",
+            "نعم، بعد الحافلة"
+          ],
+          "correctIndex": 1,
+          "evidence": "Je hoeft niet te betalen voor de les.",
+          "explanation": "النص يوضح أن الدرس نفسه مجاني، بينما يوروين للمشروب بعده."
         }
       ]
     },
@@ -1536,34 +1658,58 @@
           "evidence": "Neem hetzelfde schrift mee.",
           "explanation": "hetzelfde تعني نفسه.",
           "id": "practice-final-review-listen-4"
+        },
+        {
+          "id": "practice-final-review-listen-5",
+          "prompt": "لماذا تغير مكان التدريب؟",
+          "options": [
+            "لأن المكتبة مغلقة يوم الجمعة",
+            "لأن الشريك لا يستطيع الحضور",
+            "لأن الدرس أصبح عبر الهاتف"
+          ],
+          "correctIndex": 0,
+          "evidence": "De bibliotheek is vrijdag dicht.",
+          "explanation": "إغلاق المكتبة يوم الجمعة هو سبب الانتقال إلى المدرسة."
         }
       ]
     },
-    "writing": {
-      "prompt": "اكتب رداً من 4–6 جمل: أكّد الموعد الجديد الوارد في الصوت، واذكر أنك تفضل الشاي، واسأل عن عنوان المدرسة. استخدم اسماً خيالياً.",
-      "model": "Hallo Eva, vrijdag om half elf kan ik komen. We oefenen in lokaal drie op school. Ik drink graag thee. Wat is het adres van de school? Groet, Adam.",
-      "translation": "مرحباً إيفا، أستطيع الحضور الجمعة العاشرة والنصف. نتدرب في القاعة الثالثة في المدرسة. أحب شرب الشاي. ما عنوان المدرسة؟ تحياتي، آدم.",
-      "checklist": [
-        "هل استخدمت بيانات الموعد الجديد لا القديم؟",
-        "هل ذكرت تفضيلك وطلبت العنوان؟",
-        "هل تتضمن الرسالة تحية وجملاً مفهومة وتوقيعاً؟"
-      ]
-    },
+    "writing": [
+      {
+        "prompt": "اكتب رداً من 4–6 جمل: أكّد الموعد الجديد الوارد في الصوت، واذكر أنك تفضل الشاي، واسأل عن عنوان المدرسة. استخدم اسماً خيالياً.",
+        "model": "Hallo Eva, vrijdag om half elf kan ik komen. We oefenen in lokaal drie op school. Ik drink graag thee. Wat is het adres van de school? Groet, Adam.",
+        "translation": "مرحباً إيفا، أستطيع الحضور الجمعة العاشرة والنصف. نتدرب في القاعة الثالثة في المدرسة. أحب شرب الشاي. ما عنوان المدرسة؟ تحياتي، آدم.",
+        "checklist": [
+          "هل استخدمت بيانات الموعد الجديد لا القديم؟",
+          "هل ذكرت تفضيلك وطلبت العنوان؟",
+          "هل تتضمن الرسالة تحية وجملاً مفهومة وتوقيعاً؟"
+        ]
+      },
+      {
+        "prompt": "اكتب خطة قصيرة لصديق جديد: الحافلة تصل 09:45، امشِ خمس دقائق، أحضر دفتراً وقلماً، وأرسل رسالة الخميس إذا كنت قادماً.",
+        "model": "Bus 6 komt om 09:45 aan. Loop daarna vijf minuten naar de bibliotheek. Neem een schrift en een pen mee. Stuur donderdag een bericht als je komt.",
+        "translation": "تصل الحافلة 6 الساعة 09:45. امشِ بعدها خمس دقائق إلى المكتبة. أحضر دفتراً وقلماً. أرسل رسالة الخميس إذا كنت قادماً.",
+        "checklist": [
+          "هل كتبت التعليمات بترتيب واضح؟",
+          "هل ذكرت ما يجب إحضاره ومتى يرسل الرد؟"
+        ]
+      }
+    ],
     "speaking": {
-      "prompt": "مع شريك: قدّم نفسك، واشرح طريقاً قصيراً إلى المدرسة، واطلب مشروباً، ثم اتفقا على لقاء. اطلب التكرار عند الحاجة. تكلم بجمل قصيرة، ويمكن للشريك التحدث ببطء.",
-      "model": "Ik heet Adam en ik woon in Delft. Loop rechtdoor en ga linksaf. Ik wil graag thee. Zullen we vrijdag om half elf afspreken? Kun je dat herhalen? Maandag kan ik ook. Om half elf?",
-      "translation": "اسمي آدم وأسكن في دلفت. امشِ مباشرة ثم انعطف يساراً. أريد شاياً، من فضلك. هل نلتقي الجمعة العاشرة والنصف؟ هل يمكنك تكرار ذلك؟ الاثنين يناسبني أيضاً. الساعة العاشرة والنصف؟",
+      "prompt": "مع شريك: قدّم نفسك، واشرح طريقاً قصيراً إلى المدرسة، واطلب مشروباً، ثم اتفقا على لقاء وكررا ما يجب إحضاره. اطلب التكرار عند الحاجة. تكلم بجمل قصيرة، ويمكن للشريك التحدث ببطء.",
+      "model": "Ik heet Adam en ik woon in Delft. Loop rechtdoor en ga linksaf. Ik wil graag thee. Zullen we maandag om half elf afspreken? Neem je een schrift en een pen mee? Kun je dat herhalen?",
+      "translation": "اسمي آدم وأسكن في دلفت. امشِ مباشرة ثم انعطف يساراً. أريد شاياً، من فضلك. هل نلتقي الاثنين العاشرة والنصف؟ هل ستحضر دفتراً وقلماً؟ هل يمكنك تكرار ذلك؟",
       "checklist": [
-        "هل فهم الشريك المعلومات الأساسية دون قراءة النموذج؟",
-        "هل سألت وأجبت وطلبت توضيحاً عند الحاجة؟",
-        "هل استطعت تعديل الوقت عندما اقترح الشريك وقتاً مختلفاً؟"
+        "هل فهم الشريك التعارف والطريق والمشروب دون قراءة النموذج؟",
+        "هل أكدت اليوم والوقت وما يجب إحضاره؟",
+        "هل طلبت توضيحاً أو تكراراً عند الحاجة؟"
       ],
       "partnerPrompts": [
         "Waar woon je?",
         "Hoe kom ik bij de school?",
         "Wat wil je drinken?",
         "Vrijdag kan ik niet. Kun je maandag?",
-        "Ja, maandag om half elf. Tot dan!"
+        "Neem je een schrift en een pen mee?",
+        "Goed, maandag om half elf. Stuur je zondag een bericht?"
       ]
     }
   }

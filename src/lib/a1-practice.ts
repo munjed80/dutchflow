@@ -6,7 +6,7 @@ export type PracticePack = {
   slug: string; title: string; unitIds: string[];
   reading: { text: string; translation: string; questions: ReadingQuestion[]; table?: { caption: string; headers: string[]; rows: string[][] } };
   listening: { id: string; text: string; translation: string; questions: ReadingQuestion[] };
-  writing: ProductionTask;
+  writing: ProductionTask[];
   speaking: ProductionTask & { partnerPrompts: string[] };
 };
 export const practicePacks: PracticePack[] = data;
