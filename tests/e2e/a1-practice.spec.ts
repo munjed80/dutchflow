@@ -20,7 +20,7 @@ test("integrated practice is discoverable, every route works, and the grammar/so
   for (const pack of packs) {
     await page.goto(`/a1-practice/${pack.slug}`);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(pack.title);
-    await expect(page.locator(".speaking-practice li[lang=nl]")).toHaveCount(pack.speaking.partnerPrompts.length);
+    await expect(page.locator(".speaking-practice li[lang=nl]")).toHaveCount(pack.speaking.reduce((sum, task) => sum + task.partnerPrompts.length, 0));
   }
   expect((await request.get("/a1-practice/unknown")).status()).toBe(404);
   await page.goto("/curriculum");
@@ -51,8 +51,8 @@ for (const pack of packs) test(`${pack.slug}: reading, assisted listening and pr
   await page.locator("#write textarea").first().fill("Mijn eigen tekst.");
   for (let index = 0; index < pack.writing.length; index += 1) await page.locator("#write summary").nth(index).click();
   await expect(page.locator("#write .production-model")).toHaveText(pack.writing.map((task) => task.model));
-  await page.locator("#speak summary").click();
-  await expect(page.locator("#speak details p[lang=nl]")).toHaveText(pack.speaking.model);
+  for (let index = 0; index < pack.speaking.length; index += 1) await page.locator("#speak summary").nth(index).click();
+  await expect(page.locator("#speak details p[lang=nl]")).toHaveText(pack.speaking.map((task) => task.model));
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   for (const key of ["dutchflow-progress-v1", "dutchflow-review-v1"]) expect(await page.evaluate((key) => localStorage.getItem(key), key)).toBeNull();
   await page.reload();

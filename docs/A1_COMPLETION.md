@@ -20,17 +20,17 @@ The [Council of Europe global scale](https://www.coe.int/en/web/common-european-
 | Integrated unit packs + final review | 10 + 1 | `/a1-practice` |
 | New reading sources / connected listening passages | 11 / 11 | Integrated packs (separate from reading library) |
 | Integrated comprehension questions | 90 | Explicit source evidence |
-| Additional writing / oral-partner tasks | 22 / 11 | Integrated packs |
+| Additional writing / oral-partner tasks | 22 / 22 | Integrated packs |
 | Grammar reference notes / foundation tables | 53 / 4 | `/grammar` |
 | Alphabet and sound drills | 13 | `/pronunciation` |
 | Planned audio sources / variants | 367 / 1,468 | Generation inventory |
 | Approved real MP3s | 0 | Service credentials not configured |
 
-Numbers measure resources, not learning hours, skill percentages or level attainment. The free final review has ten comprehension questions plus two writing tasks and one speaking task, with no combined pass/fail, certificate, stored result or payment.
+Numbers measure resources, not learning hours, skill percentages or level attainment. The free final review has ten comprehension questions plus two writing tasks and two speaking tasks, with no combined pass/fail, certificate, stored result or payment.
 
 ## Coverage matrix
 
-Each unit now has lessons, a reading-library text, a guided text scenario, a new integrated reading/listening source, a writing transfer and an oral/partner task. Route `/a1-practice/<unit-id>` uses the IDs below; `/a1-practice/final-review` combines new details from several themes.
+Each unit now has lessons, a reading-library text, a guided text scenario, a new integrated reading/listening source, two writing transfer tasks and two oral/partner tasks. Route `/a1-practice/<unit-id>` uses the IDs below; `/a1-practice/final-review` combines new details from several themes.
 
 | Unit ID | Communicative coverage | New language support |
 | --- | --- | --- |
