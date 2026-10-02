@@ -47,8 +47,8 @@ for (const pack of packs) test(`${pack.slug}: reading, assisted listening and pr
   await listen.getByRole("button", { name: "تحقّق من فهمك" }).click();
   await expect(listen.locator(".reading-result")).toContainText(`${pack.listening.questions.length} من ${pack.listening.questions.length}`);
   await expect(listen).toContainText("لا يُحسب استماعاً مستقلاً");
-  await page.locator("#write textarea").fill("Mijn eigen tekst.");
   await expect(page.locator("#write textarea")).toHaveCount(pack.writing.length);
+  await page.locator("#write textarea").first().fill("Mijn eigen tekst.");
   for (let index = 0; index < pack.writing.length; index += 1) await page.locator("#write summary").nth(index).click();
   await expect(page.locator("#write .production-model")).toHaveText(pack.writing.map((task) => task.model));
   await page.locator("#speak summary").click();
