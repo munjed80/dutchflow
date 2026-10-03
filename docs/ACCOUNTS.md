@@ -40,3 +40,7 @@ These are self-reported free lesson completion markers. They are not secure exam
 `npm run test:e2e` uses a test-only launcher with an SMTP sink and private inbox bound to loopback. Local runs use ephemeral PGlite through the PostgreSQL protocol. CI supplies a disposable PostgreSQL 17 service via `TEST_DATABASE_URL`. Never set this variable to a real learner database. Tests exercise the real auth routes and emailed links; no test-login bypass or inbox API ships inside `src/app`.
 
 Before public launch: configure and verify production SMTP and database backups, verify proxy IP handling and HTTPS cookies, add learner data export/deletion, publish privacy/contact information, and define data retention. Full payment/exam features remain separate future work.
+
+## A2 catalogue extension
+
+The published slug catalogue now includes both A1 and the first A2 unit. Existing API validation and explicit guest import recognize those slugs without a migration. Guest storage retains one list of stable slugs; account storage retains the same `(user_id, lesson_slug)` key. `/progress` shows A1 out of 53 and `/progress?level=A2` shows A2 out of four, with no automatic level promotion. Mixed-level import and server persistence are covered in account browser tests.

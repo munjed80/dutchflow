@@ -1,3 +1,4 @@
+import a2Data from "@/data/a2-readings.json";
 import readingsData from "@/data/readings.json";
 
 export type ReadingQuestion = { id: string; prompt: string; options: string[]; correctIndex: number; evidence: string; explanation: string };
@@ -8,5 +9,5 @@ export type Reading = {
   grammar: { title: string; example: string; translation: string; explanation: string };
   questions: ReadingQuestion[];
 };
-export const readings: Reading[] = readingsData;
+export const readings: Reading[] = [...readingsData, ...a2Data];
 export function getReading(slug: string) { return readings.find((reading) => reading.slug === slug); }

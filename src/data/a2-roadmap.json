@@ -1,0 +1,24 @@
+[
+  {
+    "id": "a2-recent-activities",
+    "title": "ما فعلناه أمس",
+    "outcomes": [
+      "أميّز بين نشاط ماضٍ وروتين حاضر.",
+      "أرتّب أحداثاً قصيرة وأسأل عن وقتها ومكانها.",
+      "أجيب عن سؤال متابعة وأصحح تفصيلاً غير صحيح."
+    ],
+    "lessonSlugs": [
+      "a2-yesterday-and-today",
+      "a2-a-day-at-work",
+      "a2-a-weekend-visit",
+      "a2-telling-a-short-story"
+    ],
+    "readingSlugs": [
+      "a2-a-message-after-the-weekend"
+    ],
+    "remaining": [
+      "هذه أول وحدة من A2؛ بقية المحاور قيد الإعداد.",
+      "التسجيلات الثابتة والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
+    ]
+  }
+]

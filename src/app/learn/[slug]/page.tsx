@@ -1,10 +1,11 @@
+import { levelHref, curriculumHref, practiceHref } from "@/lib/levels";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LessonPlayer } from "@/components/LessonPlayer";
-import { courseModules, getLesson, lessons } from "@/lib/content";
+import { courseModules, getLesson, lessons, getLevelLessons } from "@/lib/content";
 import { scenarios } from "@/lib/scenarios";
 import { readings } from "@/lib/readings";
-import { curriculum, lessonExtensions } from "@/lib/curriculum";
+import { getCurriculum, lessonExtensions } from "@/lib/curriculum";
 import { LessonEnrichment } from "@/components/LessonEnrichment";
 
 export function generateStaticParams() { return lessons.map((lesson) => ({ slug: lesson.slug })); }
@@ -17,22 +18,24 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function LessonPage({ params }: { params: Promise<{ slug: string }> }) {
   const lesson = getLesson((await params).slug);
   if (!lesson) notFound();
-  const index = lessons.findIndex((item) => item.slug === lesson.slug);
-  const previousLesson = lessons[index - 1];
-  const nextLesson = lessons[index + 1];
+  const levelLessons = getLevelLessons(lesson.level);
+  const curriculum = getCurriculum(lesson.level);
+  const index = levelLessons.findIndex((item) => item.slug === lesson.slug);
+  const previousLesson = levelLessons[index - 1];
+  const nextLesson = levelLessons[index + 1];
   const module = courseModules.find((item) => item.id === lesson.moduleId);
   const unit = curriculum.find((item) => item.lessonSlugs.includes(lesson.slug));
   const extension = lessonExtensions.find((item) => item.lessonSlug === lesson.slug);
 
   return <div className="shell lesson-page">
-    <div className="breadcrumb"><Link href="/learn">كل الدروس</Link><span> / </span><span>{lesson.level}</span><span> / </span><span>{lesson.title}</span></div>
-    <div className="lesson-page-heading"><span className="eyebrow">{module?.title} · الدرس {lesson.number} من {lessons.length} · {lesson.durationMinutes} دقائق</span><h1>{lesson.title}</h1><p className="lesson-nl" lang="nl" dir="ltr">{lesson.dutchTitle}</p><p>{lesson.description}</p></div>
+    <div className="breadcrumb"><Link href={levelHref("/learn", lesson.level)}>كل الدروس</Link><span> / </span><span>{lesson.level}</span><span> / </span><span>{lesson.title}</span></div>
+    <div className="lesson-page-heading"><span className="eyebrow">{module?.title} · الدرس {lesson.number} من {levelLessons.length} · {lesson.durationMinutes} دقائق</span><h1>{lesson.title}</h1><p className="lesson-nl" lang="nl" dir="ltr">{lesson.dutchTitle}</p><p>{lesson.description}</p></div>
     <nav className="lesson-navigation" aria-label="التنقل بين الدروس">
-      {previousLesson ? <Link href={`/learn/${previousLesson.slug}`} rel="prev">→ الدرس السابق: {previousLesson.title}</Link> : <Link href="/learn">عرض مسار التعلّم</Link>}
-      {nextLesson ? <Link href={`/learn/${nextLesson.slug}`} rel="next">الدرس التالي: {nextLesson.title} ←</Link> : <Link href="/progress">شاهد تقدمك ←</Link>}
+      {previousLesson ? <Link href={`/learn/${previousLesson.slug}`} rel="prev">→ الدرس السابق: {previousLesson.title}</Link> : <Link href={levelHref("/learn", lesson.level)}>عرض مسار التعلّم</Link>}
+      {nextLesson ? <Link href={`/learn/${nextLesson.slug}`} rel="next">الدرس التالي: {nextLesson.title} ←</Link> : <Link href={levelHref("/progress", lesson.level)}>شاهد تقدمك ←</Link>}
     </nav>
-    {unit && <p className="curriculum-entry"><Link className="text-link" href={`/curriculum#${unit.id}`}>هدفك في خريطة A1: {unit.title} ←</Link></p>}
-    {unit && <p className="curriculum-entry"><Link className="text-link" href={`/a1-practice/${unit.id}`}>طبّق مهارات هذا المحور معاً ←</Link></p>}
+    {unit && <p className="curriculum-entry"><Link className="text-link" href={`${curriculumHref(lesson.level)}#${unit.id}`}>هدفك في خريطة {lesson.level}: {unit.title} ←</Link></p>}
+    {unit && <p className="curriculum-entry"><Link className="text-link" href={`${practiceHref(lesson.level)}/${unit.id}`}>طبّق مهارات هذا المحور معاً ←</Link></p>}
     <LessonPlayer key={lesson.slug} lesson={lesson} nextLesson={nextLesson} />
     {extension && <LessonEnrichment lesson={lesson} extension={extension} />}
     {scenarios.some((scenario) => scenario.sourceLessons.includes(lesson.slug)) && <section className="scenario-links"><h2>استخدم ما تعلّمته في حوار</h2><ul>{scenarios.filter((scenario) => scenario.sourceLessons.includes(lesson.slug)).map((scenario) => <li key={scenario.slug}><Link href={`/scenarios/${scenario.slug}`}>{scenario.title} ←</Link></li>)}</ul></section>}

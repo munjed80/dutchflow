@@ -1,3 +1,4 @@
+import { levelHref } from "@/lib/levels";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLesson, lessons } from "@/lib/content";
@@ -13,7 +14,7 @@ export default async function ListeningPage({ params }: { params: Promise<{ slug
   const lesson = getLesson((await params).slug);
   if (!lesson) notFound();
   return <div className="shell inner-page listening-page">
-    <nav className="breadcrumb" aria-label="مسار الصفحة"><Link href="/learn">كل الدروس</Link><span>/</span><Link href={`/learn/${lesson.slug}`}>{lesson.title}</Link><span>/ الاستماع</span></nav>
+    <nav className="breadcrumb" aria-label="مسار الصفحة"><Link href={levelHref("/learn", lesson.level)}>كل الدروس</Link><span>/</span><Link href={`/learn/${lesson.slug}`}>{lesson.title}</Link><span>/ الاستماع</span></nav>
     <div className="page-heading"><span className="eyebrow">تدريب مجاني · {lesson.level}</span><h1>اسمع الجملة.<br /><em>وافهم معناها.</em></h1><p>{lesson.title} · {lesson.phrases.length} جمل من الدرس، بالسرعة العادية أو البطيئة.</p></div>
     <ListeningPractice key={lesson.slug} rounds={buildListeningRounds(lesson.phrases)} lessonSlug={lesson.slug} />
   </div>;

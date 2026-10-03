@@ -1,11 +1,12 @@
 "use client";
 
+import { levelHref, type CourseLevel } from "@/lib/levels";
 import Link from "next/link";
 import { useLearning } from "./LearningProvider";
 import type { CourseModule, LessonSummary } from "@/lib/content";
 import { useLearningProgress } from "@/lib/use-learning-progress";
 
-export function ProgressOverview({ lessons, modules }: { lessons: LessonSummary[]; modules: CourseModule[] }) {
+export function ProgressOverview({ lessons, modules, level = "A1" }: { lessons: LessonSummary[]; modules: CourseModule[]; level?: CourseLevel }) {
   const completedLessons = useLearningProgress();
   const learning = useLearning();
 
@@ -15,14 +16,14 @@ export function ProgressOverview({ lessons, modules }: { lessons: LessonSummary[
   return (
     <>
       <div className="progress-summary panel">
-        <div><span className="eyebrow">مسارك الحالي · A1</span><h2>{count} <small>/ {lessons.length}</small></h2><p>دروس أتممتها</p></div>
+        <div><span className="eyebrow">مسارك الحالي · {level}</span><h2>{count} <small>/ {lessons.length}</small></h2><p>دروس أتممتها</p></div>
         <div className="progress-visual" role="progressbar" aria-valuenow={count} aria-valuemin={0} aria-valuemax={lessons.length} aria-label="الدروس المكتملة">
           <div style={{ width: `${(count / lessons.length) * 100}%` }} />
         </div>
         <p className="quiet">{learning.loading ? "جارٍ تحميل التقدّم…" : learning.user ? "هذا تقدّمك المحفوظ في حسابك." : "يُحفظ تقدّم الزائر على هذا الجهاز. سجّل الدخول لحفظه في حسابك."}</p>
         {learning.error && <div role="alert"><p>{learning.error}</p><button className="button button-secondary" onClick={() => void learning.refresh()}>أعد المحاولة</button></div>}
         <Link className="text-link" href="/account">{learning.user ? "إدارة حسابي واستيراد تقدّم الجهاز" : "حسابي"}</Link>
-        <Link className="button button-primary" href={nextLesson ? `/learn/${nextLesson.slug}` : "/learn"}>
+        <Link className="button button-primary" href={nextLesson ? `/learn/${nextLesson.slug}` : levelHref("/learn", level)}>
           {nextLesson ? "تابع التعلّم" : "راجع الدروس"} <span aria-hidden="true">←</span>
         </Link>
       </div>

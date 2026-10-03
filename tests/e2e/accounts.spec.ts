@@ -148,3 +148,23 @@ test("unconfigured deployments retain guest learning and show a clear account me
     await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "1");
   } finally { child.kill("SIGTERM"); }
 });
+
+test("A1 and A2 guest completion import together and remain separate in account progress views", async ({ page }) => {
+  await page.goto("/account");
+  await page.evaluate(() => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: ["introductions", "a2-yesterday-and-today"] })));
+  await signIn(page, "a2-import@example.test", "متعلّم المستويين");
+  let state = await (await page.request.get("/api/progress")).json();
+  expect(state.completedLessons).toEqual([]);
+  await page.getByRole("button", { name: "أضف تقدّم هذا الجهاز إلى حسابي" }).click();
+  await expect(page.getByRole("status")).toContainText("أُضيف تقدّم هذا الجهاز");
+  state = await (await page.request.get("/api/progress")).json();
+  expect(state.completedLessons.sort()).toEqual(["a2-yesterday-and-today", "introductions"]);
+  const response = await page.request.post("/api/progress", { headers: { Origin: origin }, data: { expectedUserId: state.user.id, completedLessons: ["a2-a-day-at-work"] } });
+  expect(response.status()).toBe(200);
+  await page.goto("/progress?level=A2");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "2");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "4");
+  await page.goto("/progress");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "1");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "53");
+});

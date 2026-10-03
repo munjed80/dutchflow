@@ -1,16 +1,18 @@
 import Link from "next/link";
 import { scenarios } from "@/lib/scenarios";
 import { curriculum } from "@/lib/curriculum";
-import { getLesson, lessons } from "@/lib/content";
+import { getLesson, getLevelLessons, sourceLevel } from "@/lib/content";
 import { getReading, readings } from "@/lib/readings";
 
 export const metadata = { title: "خريطة تعلّم A1" };
 
 export default function CurriculumPage() {
+  const lessons = getLevelLessons("A1");
   return <div className="shell inner-page curriculum-page">
+    <p className="curriculum-entry"><Link className="text-link" href="/a2">استكشف بداية A2 ←</Link></p>
     <div className="breadcrumb"><Link href="/learn">الدروس</Link><span> / خريطة التعلّم</span></div>
     <div className="page-heading"><span className="eyebrow">منهج A1 قيد الاستكمال</span><h1>اعرف ما تتعلّمه،<br /><em>وما يأتي بعده.</em></h1><p>خريطة من {curriculum.length} محاور تربط أهداف التواصل بالدروس والنصوص المتاحة. اختر ما تحتاجه، ثم عد لتتدرّب في سياق آخر.</p></div>
-    <p className="reading-note">المتاح الآن: {lessons.length} درساً و{readings.length} نصوص قراءة و{scenarios.length} مواقف حوارية موجّهة. الأهداف تصف ما نعمل على تغطيته؛ وجود درس في المحور أو إكماله لا يعني إتقان مهارات المحور أو مستوى A1 كاملاً.</p>
+    <p className="reading-note">المتاح الآن: {lessons.length} درساً و{readings.filter((r) => sourceLevel(r.sourceLessons) === "A1").length} نصوص قراءة و{scenarios.filter((r) => sourceLevel(r.sourceLessons) === "A1").length} مواقف حوارية موجّهة. الأهداف تصف ما نعمل على تغطيته؛ وجود درس في المحور أو إكماله لا يعني إتقان مهارات المحور أو مستوى A1 كاملاً.</p>
     <p className="curriculum-entry"><Link className="text-link" href="/a1-practice">طبّق في مراجعات A1 المتكاملة ←</Link></p>
     <p className="curriculum-entry"><Link className="text-link" href="/grammar">مرجع القواعد والأمثلة ←</Link></p>
     <nav className="curriculum-index" aria-label="محاور خريطة التعلّم">{curriculum.map((unit, index) => <a href={`#${unit.id}`} key={unit.id}>{String(index + 1).padStart(2, "0")} · {unit.title}</a>)}</nav>

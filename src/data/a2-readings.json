@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "a2-a-message-after-the-weekend",
+    "title": "رسالة بعد نهاية الأسبوع",
+    "dutchTitle": "Een bericht na het weekend",
+    "topic": "زيارة وأنشطة سابقة",
+    "sourceLessons": [
+      "a2-yesterday-and-today",
+      "a2-a-weekend-visit"
+    ],
+    "text": "Hoi Noor, zaterdag ben ik met mijn dochter naar mijn broer in Delft gegaan. We zijn met de trein gegaan. Eerst hebben we samen geluncht. Daarna hebben we in het park gewandeld. Mijn dochter heeft met haar neef gespeeld. Om vijf uur zijn we naar huis gegaan. Ik heb thuis nog een halfuur Nederlands geoefend. Vandaag werk ik weer in de winkel. Hoe was jouw weekend? Heb je je zus bezocht? Groetjes, Amir.",
+    "translation": "مرحباً نور، ذهبت السبت مع ابنتي إلى أخي في دلفت. ذهبنا بالقطار. تناولنا الغداء معاً أولاً. ثم تمشّينا في الحديقة. لعبت ابنتي مع ابن عمها. الساعة الخامسة ذهبنا إلى المنزل. تدربت في المنزل نصف ساعة إضافية على الهولندية. اليوم أعمل مجدداً في المتجر. كيف كانت نهاية أسبوعك؟ هل زرتِ أختك؟ تحياتي، أمير.",
+    "vocabulary": [
+      {
+        "term": "lunchen",
+        "excerpt": "geluncht",
+        "meaning": "يتناول الغداء؛ hebben geluncht للماضي."
+      },
+      {
+        "term": "de neef",
+        "excerpt": "neef",
+        "meaning": "ابن العم في سياق هذه الزيارة؛ وقد تعني neef ابن الأخ أو الأخت في سياق آخر."
+      },
+      {
+        "term": "spelen",
+        "excerpt": "gespeeld",
+        "meaning": "يلعب؛ heeft gespeeld."
+      },
+      {
+        "term": "bezoeken",
+        "excerpt": "bezocht",
+        "meaning": "يزور؛ لا نضيف ge إلى bezocht."
+      },
+      {
+        "term": "weer",
+        "excerpt": "weer",
+        "meaning": "مجدداً؛ عاد إلى روتين العمل."
+      },
+      {
+        "term": "het weekend",
+        "excerpt": "weekend",
+        "meaning": "نهاية الأسبوع؛ جمعها de weekenden."
+      }
+    ],
+    "grammar": {
+      "title": "حدث ماضٍ ثم روتين اليوم",
+      "example": "Vandaag werk ik weer in de winkel.",
+      "translation": "اليوم أعمل مجدداً في المتجر.",
+      "explanation": "werk حاضر مع Vandaag، بينما ben gegaan وheb geoefend يصفان أنشطة انتهت. لا يكفي حفظ كلمة gisteren؛ لاحظ صيغة الفعل والسياق معاً."
+    },
+    "questions": [
+      {
+        "id": "a2-reading-weekend-1",
+        "prompt": "مع من سافر أمير؟",
+        "options": [
+          "مع ابنته",
+          "مع أخته",
+          "مع زميله"
+        ],
+        "correctIndex": 0,
+        "evidence": "zaterdag ben ik met mijn dochter naar mijn broer in Delft gegaan.",
+        "explanation": "dochter هي الابنة؛ الأخ هو الشخص الذي زاره."
+      },
+      {
+        "id": "a2-reading-weekend-2",
+        "prompt": "ماذا فعلوا بعد الغداء؟",
+        "options": [
+          "عادوا إلى المتجر",
+          "تمشّوا في الحديقة",
+          "بدؤوا الدرس"
+        ],
+        "correctIndex": 1,
+        "evidence": "Eerst hebben we samen geluncht. Daarna hebben we in het park gewandeld.",
+        "explanation": "Daarna ترتب المشي بعد الغداء."
+      },
+      {
+        "id": "a2-reading-weekend-3",
+        "prompt": "كم تدرّب أمير على الهولندية في المنزل؟",
+        "options": [
+          "خمس دقائق",
+          "ساعة",
+          "نصف ساعة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Ik heb thuis nog een halfuur Nederlands geoefend.",
+        "explanation": "een halfuur ثلاثون دقيقة."
+      },
+      {
+        "id": "a2-reading-weekend-4",
+        "prompt": "أي معلومة تخص اليوم؟",
+        "options": [
+          "زيارة الأخ",
+          "العمل في المتجر",
+          "رحلة القطار"
+        ],
+        "correctIndex": 1,
+        "evidence": "Vandaag werk ik weer in de winkel.",
+        "explanation": "Vandaag تميز الروتين الحالي عن رحلة السبت."
+      }
+    ]
+  }
+]

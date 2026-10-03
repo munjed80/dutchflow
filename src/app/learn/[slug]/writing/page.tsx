@@ -1,3 +1,4 @@
+import { levelHref } from "@/lib/levels";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLesson, lessons } from "@/lib/content";
@@ -12,7 +13,7 @@ export default async function WritingPage({ params }: { params: Promise<{ slug: 
   const lesson = getLesson((await params).slug);
   if (!lesson) notFound();
   return <div className="shell inner-page writing-page">
-    <nav className="breadcrumb" aria-label="مسار الصفحة"><Link href="/learn">كل الدروس</Link><span>/</span><Link href={`/learn/${lesson.slug}`}>{lesson.title}</Link><span>/ الكتابة</span></nav>
+    <nav className="breadcrumb" aria-label="مسار الصفحة"><Link href={levelHref("/learn", lesson.level)}>كل الدروس</Link><span>/</span><Link href={`/learn/${lesson.slug}`}>{lesson.title}</Link><span>/ الكتابة</span></nav>
     <div className="page-heading"><span className="eyebrow">تدريب مجاني · {lesson.level}</span><h1>تذكّر الجملة.<br /><em>واكتبها بنفسك.</em></h1><p>{lesson.title} · {lesson.phrases.length} جمل للتدرّب على الكلمات وترتيبها.</p></div>
     <WritingPractice key={lesson.slug} phrases={lesson.phrases} lessonSlug={lesson.slug} />
   </div>;
