@@ -7,10 +7,12 @@ import { planAudio } from "../scripts/lib/audio-assets.mjs";
 const read = async (name) => JSON.parse(await readFile(new URL(`../src/data/${name}.json`, import.meta.url), "utf8"));
 const [packs, units, lessons, sounds, overrides] = await Promise.all(["a1-practice", "a1-roadmap", "lessons", "pronunciation", "audio-pronunciation"].map(read));
 
-test("each theme has new reception and production practice plus a cumulative review", () => {
+test("each theme has reception and production practice plus a cumulative review", () => {
   assert.deepEqual(validatePractice(packs, units), []);
   assert.equal(packs.length, 11);
-  assert.equal(packs.reduce((sum, pack) => sum + pack.reading.questions.length + pack.listening.questions.length, 0), 48);
+  assert.equal(packs.reduce((sum, pack) => sum + pack.reading.questions.length + pack.listening.questions.length, 0), 90);
+  assert.equal(packs.reduce((sum, pack) => sum + pack.writing.length, 0), 22);
+  assert.equal(packs.reduce((sum, pack) => sum + pack.speaking.length, 0), 22);
   const lessonTexts = new Set(lessons.flatMap((lesson) => lesson.phrases.map((phrase) => phrase.dutch)));
   for (const pack of packs) {
     assert.ok(!lessonTexts.has(pack.listening.text));
@@ -24,8 +26,8 @@ test("practice rejects missing themes, foreign evidence, bad answer keys, links 
   copy[0].unitIds = ["unknown"];
   copy[1].reading.questions[0].evidence = "not in this source";
   copy[2].listening.questions[0].correctIndex = 99;
-  copy[3].writing.model = "x".repeat(501);
-  copy[4].speaking.partnerPrompts = [];
+  copy[3].writing[0].model = "x".repeat(501);
+  copy[4].speaking[0].partnerPrompts = [];
   copy[5].reading.table.rows[0].pop();
   copy[6].listening.id = copy[0].listening.id;
   const errors = validatePractice(copy, units).join("\n");

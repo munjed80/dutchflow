@@ -13,24 +13,24 @@ The [Council of Europe global scale](https://www.coe.int/en/web/common-european-
 | Enriched lessons | 53 | `/learn` |
 | Reusable lesson phrases | 343 | Lesson, listening, recall-writing and review flows |
 | Lesson questions | 192 | Lesson quizzes |
-| Lexical/form notes | 318 | Lessons and `/vocabulary` |
-| Lesson production tasks | 106 | Lesson enrichment |
-| Reading-library texts/questions | 17 / 60 | `/reading` |
+| Lexical/form notes | 338 | Lessons and `/vocabulary` |
+| Lesson production tasks | 116 | Lesson enrichment |
+| Reading-library texts/questions | 27 / 90 | `/reading` |
 | Guided scenarios/turns/transfer tasks | 10 / 40 / 10 | `/scenarios` |
 | Integrated unit packs + final review | 10 + 1 | `/a1-practice` |
 | New reading sources / connected listening passages | 11 / 11 | Integrated packs (separate from reading library) |
-| Integrated comprehension questions | 48 | Explicit source evidence |
-| Additional writing / oral-partner tasks | 11 / 11 | Integrated packs |
+| Integrated comprehension questions | 90 | Explicit source evidence |
+| Additional writing / oral-partner tasks | 22 / 22 | Integrated packs |
 | Grammar reference notes / foundation tables | 53 / 4 | `/grammar` |
 | Alphabet and sound drills | 13 | `/pronunciation` |
 | Planned audio sources / variants | 367 / 1,468 | Generation inventory |
 | Approved real MP3s | 0 | Service credentials not configured |
 
-Numbers measure resources, not learning hours, skill percentages or level attainment. The free final review has eight comprehension questions plus writing and speaking, with no combined pass/fail, certificate, stored result or payment.
+Numbers measure resources, not learning hours, skill percentages or level attainment. The free final review has ten comprehension questions plus two writing tasks and two speaking tasks, with no combined pass/fail, certificate, stored result or payment.
 
 ## Coverage matrix
 
-Each unit now has lessons, a reading-library text, a guided text scenario, a new integrated reading/listening source, a writing transfer and an oral/partner task. Route `/a1-practice/<unit-id>` uses the IDs below; `/a1-practice/final-review` combines new details from several themes.
+Each unit now has lessons, a reading-library text, a guided text scenario, a new integrated reading/listening source, two writing transfer tasks and two oral/partner tasks. Route `/a1-practice/<unit-id>` uses the IDs below; `/a1-practice/final-review` combines new details from several themes.
 
 | Unit ID | Communicative coverage | New language support |
 | --- | --- | --- |
@@ -60,7 +60,7 @@ The four grammar foundation tables collect present tense, question words, noun/p
 
 All pre-expansion lesson slugs, phrase IDs and Dutch texts remain unchanged. Only display numbers change as lessons are inserted into their module groups. Reading/scenario identities and answer keys remain stable; their editorial corrections are recorded in `A1_DETAILED_REVIEW.md`. Placement questions are unchanged. Additional audio IDs are disjoint from lesson/review IDs. Shared source planning ensures approval/generation/integrity checks agree.
 
-The core and detailed editorial passes are complete for all authored course banks listed in `A1_DETAILED_REVIEW.md`. Implementation review checked new dialogue flow, Dutch/Arabic pairing, selected answer intent, exact evidence, numerical consistency, changed transfer details and noun forms. Automated checks establish structure/behavior, not independent linguistic sign-off. Fictional prices, schedules, map and personal data must stay clearly fictional.
+The core and detailed editorial passes recorded in `A1_DETAILED_REVIEW.md` remain complete for the pre-2026-09-30 bank snapshot they reviewed. The later all-unit enrichment wave adds new reading texts, extra integrated questions, and additional lesson enrichment that still needs its own focused editorial follow-up. Automated checks establish structure/behavior, not independent linguistic sign-off. Fictional prices, schedules, map and personal data must stay clearly fictional.
 
 ## Unfinished release gates — do not relabel as complete
 
@@ -72,4 +72,4 @@ Course-content breadth has been expanded in this PR; a fully reviewed multimedia
 
 ## Practice follow-up polish
 
-All 108 library/integrated comprehension questions now have authored links to relevant A1 lessons. Checked mistakes produce deduplicated suggestions with question numbers; changed answers and resets clear stale advice. Pack navigation continues through the final review. See `A1_TARGETED_REVIEW.md`. This improves the learning loop without adding assessment claims or changing the reviewed content/audio bank.
+All 180 library/integrated comprehension questions now have authored links to relevant A1 lessons. Checked mistakes produce deduplicated suggestions with question numbers; changed answers and resets clear stale advice. Pack navigation continues through the final review. See `A1_TARGETED_REVIEW.md`. This improves the learning loop without adding assessment claims or changing the lesson/audio bank.

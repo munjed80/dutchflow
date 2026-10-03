@@ -27,11 +27,16 @@ export default async function PracticePage({ params }: { params: Promise<{ slug:
       <ReadingQuiz key={`${slug}-reading`} questions={pack.reading.questions} reviewLessons={getQuestionReviewLessons(pack.reading.questions)} />
     </section>
     <div id="listen"><PassageListening key={slug} passage={pack.listening} reviewLessons={getQuestionReviewLessons(pack.listening.questions)} /></div>
-    <section id="write"><h2>٣. اكتب رسالة جديدة</h2><ProductionPractice key={slug} tasks={[pack.writing]} /></section>
-    <section id="speak" className="panel speaking-practice"><h2>٤. تحدث وتبادل الأدوار</h2><p>{pack.speaking.prompt}</p><p className="quiet">تحدث بصوتك مع شريك أو معلّم، ثم بدّلا الأدوار. إذا كنت وحدك، قل الإجابة قبل فتح المثال. لا يُسجّل صوتك ولا يُمنح تقييم للنطق.</p>
+    <section id="write"><h2>٣. اكتب في مواقف جديدة</h2><ProductionPractice key={slug} tasks={pack.writing} /></section>
+    <section id="speak" className="panel speaking-practice"><h2>٤. تحدث وتبادل الأدوار</h2><p>تحدث بصوتك مع شريك أو معلّم، ثم بدّلا الأدوار. إذا كنت وحدك، قل الإجابة قبل فتح المثال. لا يُسجّل صوتك ولا يُمنح تقييم للنطق.</p>
       {slug === "travel-and-directions" && <figure className="practice-map"><svg viewBox="0 0 520 320" role="img" aria-labelledby="map-title" aria-describedby="map-desc" lang="nl" style={{ direction: "ltr" }}><title id="map-title">Oefenkaart: van Halte naar School</title><desc id="map-desc">Halte ligt onderaan. Een straat loopt omhoog tot een kruispunt. Links ligt Park, rechts ligt School. Ga vanaf Halte rechtdoor en dan rechtsaf naar School.</desc><path d="M260 270 V100 M70 100 H450" stroke="#c6c9c0" strokeWidth="34" fill="none"/><path d="M260 270 V100 M70 100 H450" stroke="#fff" strokeWidth="2" strokeDasharray="8 8" fill="none"/><circle cx="260" cy="270" r="9" fill="#315b49"/><text x="260" y="307" textAnchor="middle">Halte · start</text><text x="55" y="60">Park</text><text x="400" y="60">School</text><text x="290" y="160">Kruispunt</text><text x="20" y="270">↑ Noord</text></svg><figcaption>خريطة خيالية: ابدأ من المحطة واتجه نحو أعلى الخريطة.</figcaption></figure>}
-      <h3>أسئلة الشريك</h3><ul>{pack.speaking.partnerPrompts.map((prompt) => <li key={prompt} lang="nl" dir="ltr">{prompt}</li>)}</ul>
-      <details><summary>راجع مثالاً ومعايير الحديث</summary><p lang="nl" dir="ltr">{pack.speaking.model}</p><p>{pack.speaking.translation}</p><ul>{pack.speaking.checklist.map((criterion) => <li key={criterion}>{criterion}</li>)}</ul><p>اطلب من الشريك تحديد معلومة فهمها، ومعلومة تحتاج إلى توضيح. أعد الحديث ببيانات جديدة. هذه مراجعة ذاتية وليست إثباتاً لإتقان المستوى.</p></details>
+      {pack.speaking.map((task, index) => <div className="panel production-task speaking-task" key={task.prompt}>
+        <h3>{index + 1}. {task.prompt}</h3>
+        <p className="quiet">اطلب من الشريك تحديد معلومة فهمها، ومعلومة تحتاج إلى توضيح. أعد الحديث ببيانات جديدة بعد كل محاولة.</p>
+        <h4>أسئلة الشريك</h4>
+        <ul>{task.partnerPrompts.map((prompt) => <li key={prompt} lang="nl" dir="ltr">{prompt}</li>)}</ul>
+        <details><summary>راجع مثالاً ومعايير الحديث</summary><p lang="nl" dir="ltr">{task.model}</p><p>{task.translation}</p><ul>{task.checklist.map((criterion) => <li key={criterion}>{criterion}</li>)}</ul><p>هذه مراجعة ذاتية وليست إثباتاً لإتقان المستوى.</p></details>
+      </div>)}
     </section>
     <section className="panel"><h2>ماذا تراجع بعد المحاولة؟</h2><p>ارجع إلى الدروس المرتبطة بالأخطاء، وجرّب الكتابة والحديث مجدداً بأسماء وأوقات أخرى. لا توجد درجة نجاح موحدة لهذه المراجعة.</p><ul>{pack.unitIds.map((id) => <li key={id}><Link href={`/curriculum#${id}`}>{curriculum.find((unit) => unit.id === id)!.title} ←</Link></li>)}</ul><Link href="/grammar">مرجع القواعد ←</Link></section>
     <nav className="reading-related" aria-label="التنقل بين مراجعات A1">

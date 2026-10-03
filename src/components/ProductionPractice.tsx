@@ -6,7 +6,7 @@ import type { ProductionTask } from "@/lib/curriculum";
 export function ProductionPractice({ tasks }: { tasks: ProductionTask[] }) {
   const [answers, setAnswers] = useState<string[]>(() => tasks.map(() => ""));
   return <section className="production-practice" aria-labelledby="production-heading">
-    <h2 id="production-heading">طبّق في موقف جديد</h2>
+    <h2 id="production-heading">{tasks.length > 1 ? "طبّق في مواقف جديدة" : "طبّق في موقف جديد"}</h2>
     <p>اكتب إجابتك ثم قارنها بالمثال وأسئلة المراجعة. قد تكون هناك صيغ صحيحة أخرى؛ هذا تدريب ذاتي دون درجة أو تصحيح آلي.</p>
     <p className="quiet">استخدم بيانات الموقف الخيالية. إجاباتك مؤقتة وتُمسح عند مغادرة الدرس أو إعادة تحميله.</p>
     {tasks.map((task, index) => <div className="panel production-task" key={task.prompt}>

@@ -22,8 +22,8 @@ test("the A1 map covers every published resource and preserves all original phra
     for (const [id, dutch] of Object.entries(phrases)) assert.equal(lesson.phrases.find((phrase) => phrase.id === id)?.dutch, dutch, id);
   }
   assert.equal(extensions.length, 53);
-  assert.equal(extensions.flatMap((item) => item.vocabulary).length, 318);
-  assert.equal(extensions.flatMap((item) => item.tasks).length, 106);
+  assert.equal(extensions.flatMap((item) => item.vocabulary).length, 338);
+  assert.equal(extensions.flatMap((item) => item.tasks).length, 116);
 });
 
 test("mapping validation rejects broken links, duplicate assignments, and missing coverage or goals", () => {

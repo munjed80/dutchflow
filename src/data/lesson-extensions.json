@@ -110,6 +110,20 @@
         "forms": "ik schrijf op · u schrijft op · wij schrijven op",
         "meaning": "يدوّن؛ op تنفصل في هذه التصريفات.",
         "phraseId": "a1-contact-details-08"
+      },
+      {
+        "term": "de straat",
+        "kind": "noun",
+        "forms": "de straten",
+        "meaning": "الشارع؛ يأتي هنا جزءاً من العنوان داخل اسم الشارع.",
+        "phraseId": "a1-contact-details-02"
+      },
+      {
+        "term": "op nummer",
+        "kind": "expression",
+        "forms": "op nummer twaalf · op nummer achttien",
+        "meaning": "في رقم؛ نستخدمها مع رقم المنزل داخل العنوان.",
+        "phraseId": "a1-contact-details-02"
       }
     ],
     "tasks": [
@@ -130,6 +144,15 @@
         "checklist": [
           "هل قلت uw adres؟",
           "هل أبقيت opschrijven متصلاً بعد Kunt u؟"
+        ]
+      },
+      {
+        "prompt": "أنت تملأ بطاقة تسجيل خيالية: تسكن في لاهاي ورمزك البريدي 2511 AA. اكتب الجملتين، ثم اطلب من الموظف أن يعيد الرمز البريدي للتأكد.",
+        "model": "Ik woon in Den Haag. Mijn postcode is 2511 AA. Kunt u de postcode herhalen?",
+        "translation": "أسكن في لاهاي. رمزي البريدي هو 2511 AA. هل يمكنك إعادة الرمز البريدي؟",
+        "checklist": [
+          "هل فصلت مدينة السكن عن الرمز البريدي؟",
+          "هل طلبت إعادة postcode للتأكد من البيانات؟"
         ]
       }
     ]
@@ -312,6 +335,20 @@
         "forms": "kwart over negen = 09:15 · kwart voor elf = 10:45",
         "meaning": "ربع ساعة قبل الحادية عشرة؛ الأرقام هنا للأوقات الصباحية في الحوار.",
         "phraseId": "a1-weekly-routine-07"
+      },
+      {
+        "term": "de donderdag",
+        "kind": "noun",
+        "forms": "de donderdagen",
+        "meaning": "يوم الخميس؛ يمكن أن يأتي ضمن قائمة أيام الروتين الأسبوعي.",
+        "phraseId": "a1-weekly-routine-03"
+      },
+      {
+        "term": "na de les",
+        "kind": "expression",
+        "forms": "na de les oefenen · na de les naar huis gaan",
+        "meaning": "بعد الدرس؛ يربط النشاط اللاحق بوقت انتهاء الحصة.",
+        "phraseId": "a1-weekly-routine-08"
       }
     ],
     "tasks": [
@@ -332,6 +369,15 @@
         "checklist": [
           "هل ذكرت الساعة التالية، tien، بعد voor؟",
           "هل وضعت om قبل الوقت؟"
+        ]
+      },
+      {
+        "prompt": "رتّب أسبوع تدريب خيالي: عندك درس يوم الثلاثاء ويوم الخميس، وبعد درس الخميس تتدرّب في المكتبة. اكتب ثلاث جمل قصيرة.",
+        "model": "Op dinsdag en donderdag heb ik les. De les begint om kwart over negen. Na de les oefen ik in de bibliotheek.",
+        "translation": "لدي درس يوم الثلاثاء ويوم الخميس. يبدأ الدرس الساعة التاسعة والربع. بعد الدرس أتدرّب في المكتبة.",
+        "checklist": [
+          "هل ذكرت اليومين بترتيب واضح؟",
+          "هل استخدمت Na de les لربط النشاط اللاحق بالدرس؟"
         ]
       }
     ]
@@ -649,6 +695,20 @@
         "forms": "tot een andere keer · misschien een andere keer",
         "meaning": "مرة أخرى في وقت آخر؛ تستخدم لتأجيل الخطة بلطف.",
         "phraseId": "a1-invitations-and-plans-08"
+      },
+      {
+        "term": "zaterdagmiddag",
+        "kind": "expression",
+        "forms": "zaterdagmiddag kan ik · zaterdagmiddag afspreken",
+        "meaning": "بعد ظهر السبت؛ يحدد وقتاً أدق من ذكر السبت وحده.",
+        "phraseId": "a1-invitations-and-plans-02"
+      },
+      {
+        "term": "om twee uur",
+        "kind": "expression",
+        "forms": "om twee uur bij het station · om twee uur in het park",
+        "meaning": "الساعة الثانية؛ يمكن نقلها إلى أماكن لقاء مختلفة.",
+        "phraseId": "a1-invitations-and-plans-06"
       }
     ],
     "tasks": [
@@ -668,6 +728,15 @@
         "checklist": [
           "هل اعتذرت أولاً؟",
           "هل اقترحت تأجيلاً باستخدام een andere keer؟"
+        ]
+      },
+      {
+        "prompt": "اقبل الدعوة يوم السبت بعد الظهر، لكن غيّر مكان اللقاء إلى مدخل الحديقة الساعة الثانية. اكتب ردّاً من جملتين.",
+        "model": "Ja, zaterdagmiddag kan ik. Zullen we om twee uur bij de ingang van het park afspreken?",
+        "translation": "نعم، أستطيع بعد ظهر السبت. هل نلتقي الساعة الثانية عند مدخل الحديقة؟",
+        "checklist": [
+          "هل قبلت الوقت أولاً؟",
+          "هل غيّرت المكان مع الحفاظ على أسلوب الاقتراح؟"
         ]
       }
     ]
@@ -850,6 +919,20 @@
         "forms": "ik hoor · u hoort · wij horen",
         "meaning": "يسمع أو يتلقى خبراً؛ هنا ينتظر المعلم تحديثاً غداً.",
         "phraseId": "a1-message-to-school-08"
+      },
+      {
+        "term": "vandaag niet",
+        "kind": "expression",
+        "forms": "vandaag niet naar school · vandaag niet komen",
+        "meaning": "اليوم لا؛ تُستخدم هنا لتوضيح الغياب عن المدرسة في هذا اليوم بالذات.",
+        "phraseId": "a1-message-to-school-02"
+      },
+      {
+        "term": "vanmiddag",
+        "kind": "expression",
+        "forms": "ik stuur het vanmiddag · ik bel vanmiddag",
+        "meaning": "بعد الظهر اليوم؛ تحدد وقت المتابعة في نفس اليوم.",
+        "phraseId": "a1-message-to-school-05"
       }
     ],
     "tasks": [
@@ -869,6 +952,15 @@
         "checklist": [
           "هل بدأت بالشكر على الرسالة؟",
           "هل ذكرت وقت إرسال الواجب؟"
+        ]
+      },
+      {
+        "prompt": "اكتب تحديثاً قصيراً من المدرسة: الواجب سيصل بعد الظهر، والمدرسة ستنتظر اتصالاً غداً بشأن عودة الطفل.",
+        "model": "Ik stuur het huiswerk vanmiddag. Morgen hoor ik of Nora weer kan komen.",
+        "translation": "سأرسل الواجب بعد الظهر. غداً سأسمع ما إذا كانت نورا ستستطيع العودة.",
+        "checklist": [
+          "هل ذكرت vanmiddag لإرسال الواجب؟",
+          "هل أبقيت العودة غداً معلّقة وليست مؤكدة؟"
         ]
       }
     ]
@@ -1185,6 +1277,20 @@
         "forms": "meteen noteren · meteen bellen",
         "meaning": "فوراً أو مباشرة.",
         "phraseId": "a1-changing-an-appointment-08"
+      },
+      {
+        "term": "vrijdagmiddag",
+        "kind": "expression",
+        "forms": "vrijdagmiddag kan ik wel · vrijdagmiddag is nog vrij",
+        "meaning": "بعد ظهر الجمعة؛ يحدد جزءاً من اليوم لا اليوم فقط.",
+        "phraseId": "a1-changing-an-appointment-03"
+      },
+      {
+        "term": "volgende week",
+        "kind": "expression",
+        "forms": "volgende week nog plaats · volgende week vrijdag",
+        "meaning": "الأسبوع القادم؛ يُستخدم للبحث عن بديل قريب للموعد.",
+        "phraseId": "a1-changing-an-appointment-09"
       }
     ],
     "tasks": [
@@ -1206,6 +1312,15 @@
         "checklist": [
           "هل استخدمت nog plaats للسؤال عن التوفر؟",
           "هل طلبت تأكيد الموعد عبر sms؟"
+        ]
+      },
+      {
+        "prompt": "اكتب رسالة قصيرة: لا تستطيع صباح الثلاثاء، لكنك تستطيع الجمعة القادمة الساعة الثانية. اطلب أيضاً رسالة نصية لتأكيد الوقت.",
+        "model": "Dinsdag in de ochtend kan ik niet. Volgende week vrijdag om twee uur kan ik wel. Kunt u ook een sms sturen?",
+        "translation": "لا أستطيع صباح الثلاثاء. أستطيع الجمعة القادمة الساعة الثانية. هل يمكنك أيضاً إرسال رسالة نصية؟",
+        "checklist": [
+          "هل فرقت بين الصباح والجمعة القادمة؟",
+          "هل أضفت طلب التأكيد عبر sms؟"
         ]
       }
     ]
@@ -1525,6 +1640,20 @@
         "forms": "morgen om tien uur",
         "meaning": "غداً؛ لا تعني الصباح في هذه الجملة.",
         "phraseId": "a1-repairs-at-home-05"
+      },
+      {
+        "term": "wanneer",
+        "kind": "expression",
+        "forms": "Wanneer kunt u komen? · Wanneer bent u thuis?",
+        "meaning": "متى؛ تُستخدم هنا للسؤال عن وقت الزيارة أو الإصلاح.",
+        "phraseId": "a1-repairs-at-home-04"
+      },
+      {
+        "term": "om tien uur",
+        "kind": "expression",
+        "forms": "morgen om tien uur · donderdag om tien uur",
+        "meaning": "الساعة العاشرة؛ صيغة وقت يمكن نقلها إلى مواعيد إصلاح أخرى.",
+        "phraseId": "a1-repairs-at-home-05"
       }
     ],
     "tasks": [
@@ -1546,6 +1675,15 @@
           "هل طلبت الخميس الساعة الثالثة بصيغة سؤال؟"
         ],
         "cue": "Ik kan woensdag om tien uur komen. Schikt dat?"
+      },
+      {
+        "prompt": "الماء الساخن لا يعمل أيضاً، لكن موعد الغد العاشرة لا يناسبك. اطلب موعداً جديداً يوم الجمعة الساعة العاشرة بصيغة مهذبة.",
+        "model": "Er is ook geen warm water. Morgen om tien uur kan ik niet. Kunt u vrijdag om tien uur komen?",
+        "translation": "لا يوجد ماء ساخن أيضاً. لا أستطيع غداً الساعة العاشرة. هل يمكنك القدوم الجمعة الساعة العاشرة؟",
+        "checklist": [
+          "هل أضفت المشكلة الثانية بوضوح؟",
+          "هل طلبت موعد الجمعة بصيغة سؤال ينتظر التأكيد؟"
+        ]
       }
     ]
   },
@@ -1728,6 +1866,20 @@
         "forms": "ik heb nodig · u heeft nodig · wij hebben nodig",
         "meaning": "يحتاج؛ في الجملة يوضع الشيء المطلوب عادة بين hebben وnodig.",
         "phraseId": "a1-groceries-and-quantities-07"
+      },
+      {
+        "term": "alstublieft",
+        "kind": "expression",
+        "forms": "een halve kilo, alstublieft · een brood, alstublieft",
+        "meaning": "من فضلك؛ تُخفف الطلب عند ذكر الكمية أو السلعة.",
+        "phraseId": "a1-groceries-and-quantities-02"
+      },
+      {
+        "term": "verder nog iets",
+        "kind": "expression",
+        "forms": "Wilt u verder nog iets? · verder nog iets nodig",
+        "meaning": "أي شيء آخر أيضاً؛ سؤال متابعة شائع بعد الطلب الأول.",
+        "phraseId": "a1-groceries-and-quantities-05"
       }
     ],
     "tasks": [
@@ -1749,6 +1901,15 @@
           "هل ذكرت ما تريده بدلاً منه؟"
         ],
         "cue": "Heeft u ook melk nodig?"
+      },
+      {
+        "prompt": "البائع يسأل إن كنت تحتاج شيئاً آخر. أجب بأنك تريد نصف كيلو طماطم إضافية وخبزاً، ثم اسأل عن السعر معاً.",
+        "model": "Ja, nog een halve kilo tomaten en een brood, alstublieft. Hoeveel kost dat samen?",
+        "translation": "نعم، نصف كيلو إضافية من الطماطم ورغيف خبز، من فضلك. كم يكلف ذلك معاً؟",
+        "checklist": [
+          "هل استخدمت nog مع الطلب الإضافي؟",
+          "هل أضفت سؤالاً عن السعر الإجمالي؟"
+        ]
       }
     ]
   },
@@ -2601,6 +2762,20 @@
         "forms": "de reis duurt · de reizen duren",
         "meaning": "يستغرق مدة.",
         "phraseId": "a1-a-train-connection-08"
+      },
+      {
+        "term": "vanaf",
+        "kind": "expression",
+        "forms": "vanaf spoor drie · vanaf station Zuid",
+        "meaning": "من أو ابتداءً من؛ تحدد نقطة الانطلاق هنا.",
+        "phraseId": "a1-a-train-connection-02"
+      },
+      {
+        "term": "een halfuur",
+        "kind": "expression",
+        "forms": "de reis duurt een halfuur · een halfuur wachten",
+        "meaning": "نصف ساعة؛ هنا مدة الرحلة كلها.",
+        "phraseId": "a1-a-train-connection-08"
       }
     ],
     "tasks": [
@@ -2620,6 +2795,15 @@
         "checklist": [
           "هل بقي overstappen متصلاً بعد moet؟",
           "هل انفصل kom عن aan؟"
+        ]
+      },
+      {
+        "prompt": "لخّص رحلة خيالية في جملتين: القطار ينطلق 09:00 من الرصيف 3، تبدّل في Centrum، وتصل 09:30.",
+        "model": "De trein vertrekt om negen uur vanaf spoor drie. Ik stap op station Centrum over en kom om half tien aan.",
+        "translation": "ينطلق القطار الساعة التاسعة من الرصيف 3. أبدّل في محطة Centrum وأصل الساعة التاسعة والنصف.",
+        "checklist": [
+          "هل ذكرت نقطة الانطلاق ووقت الوصول؟",
+          "هل أوضحت مكان التبديل بالفعل overstappen؟"
         ]
       }
     ]
@@ -2668,6 +2852,20 @@
         "forms": "ik help · je helpt · wij helpen",
         "meaning": "يساعد.",
         "phraseId": "a1-asking-at-work-07"
+      },
+      {
+        "term": "daarna",
+        "kind": "expression",
+        "forms": "Daarna zet je ze op de tafel. · Daarna probeer ik het zelf.",
+        "meaning": "بعد ذلك؛ ترتب الخطوة الثانية أو اللاحقة.",
+        "phraseId": "a1-asking-at-work-03"
+      },
+      {
+        "term": "één keer",
+        "kind": "expression",
+        "forms": "het één keer voordoen · één keer herhalen",
+        "meaning": "مرة واحدة؛ تستخدم لطلب مثال عملي واحد قبل المحاولة.",
+        "phraseId": "a1-asking-at-work-06"
       }
     ],
     "tasks": [
@@ -2687,6 +2885,15 @@
         "checklist": [
           "هل طلبت شرحاً عملياً؟",
           "هل حافظت على je في الحديث غير الرسمي؟"
+        ]
+      },
+      {
+        "prompt": "اسأل أولاً أين توجد القائمة، ثم اطلب من زميلك أن يشرح الخطوة مرة واحدة، وبعدها قل إنك ستجرّبها بنفسك.",
+        "model": "Waar ligt de lijst? Kun je het één keer voordoen? Dank je, daarna probeer ik het zelf.",
+        "translation": "أين توجد القائمة؟ هل يمكنك أن تشرحها مرة واحدة؟ شكراً، بعد ذلك سأجرّبها بنفسي.",
+        "checklist": [
+          "هل بدأت بالسؤال عن القائمة؟",
+          "هل استخدمت daarna قبل قولك إنك ستجرب بنفسك؟"
         ]
       }
     ]
@@ -2735,6 +2942,20 @@
         "forms": "ik ben moe · ook moe",
         "meaning": "متعب؛ وصف لا يشخّص سبب التعب.",
         "phraseId": "a1-describing-symptoms-04"
+      },
+      {
+        "term": "sinds vanochtend",
+        "kind": "expression",
+        "forms": "sinds vanochtend · sinds maandag",
+        "meaning": "منذ هذا الصباح؛ يحدد بداية العرض أو المشكلة.",
+        "phraseId": "a1-describing-symptoms-04"
+      },
+      {
+        "term": "eenvoudige woorden",
+        "kind": "expression",
+        "forms": "in eenvoudige woorden uitleggen · eenvoudige woorden gebruiken",
+        "meaning": "كلمات بسيطة؛ تُستخدم لطلب شرح مفهوم وواضح.",
+        "phraseId": "a1-describing-symptoms-06"
       }
     ],
     "tasks": [
@@ -2754,6 +2975,15 @@
         "checklist": [
           "هل طلبت التوضيح بأدب؟",
           "هل وضعت المصدر في نهاية كل سؤال؟"
+        ]
+      },
+      {
+        "prompt": "اكتب جملتين: لديك ألم في ظهرك منذ هذا الصباح، ثم اطلب من الموظف أن يشرح السؤال بكلمات بسيطة.",
+        "model": "Mijn rug doet pijn sinds vanochtend. Kunt u dat in eenvoudige woorden uitleggen?",
+        "translation": "ظهري يؤلمني منذ هذا الصباح. هل يمكنك شرح ذلك بكلمات بسيطة؟",
+        "checklist": [
+          "هل ذكرت موضع الألم وبدايته؟",
+          "هل طلبت شرحاً أبسط دون طلب علاج؟"
         ]
       }
     ]

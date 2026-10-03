@@ -28,11 +28,9 @@ export function validatePractice(packs, units) {
       }
       if (source.table && (!text(source.table.caption) || !list(source.table.headers, text, 2) || !list(source.table.rows, (row) => list(row, text) && row.length === source.table.headers.length, 2))) errors.push("Practice: invalid table");
     }
-    for (const kind of ["writing", "speaking"]) {
-      const task = pack[kind];
-      if (!task || !arabic(task.prompt) || !text(task.model) || task.model.length > 500 || !arabic(task.translation) || !list(task.checklist, arabic, 2)) errors.push("Practice: production task");
-      if (kind === "speaking" && !list(task?.partnerPrompts, text, 3)) errors.push("Practice: partner prompts");
-    }
+    if (!list(pack.writing, (task) => task && arabic(task.prompt) && text(task.model) && task.model.length <= 500 && arabic(task.translation) && list(task.checklist, arabic, 2))) errors.push("Practice: production task");
+    if (!list(pack.speaking, (task) => task && arabic(task.prompt) && text(task.model) && task.model.length <= 500 && arabic(task.translation) && list(task.checklist, arabic, 2))) errors.push("Practice: production task");
+    if (!list(pack.speaking, (task) => list(task?.partnerPrompts, text, 3))) errors.push("Practice: partner prompts");
   }
   for (const unit of unitIds) if (!packs.some((pack) => pack?.slug === unit && pack.unitIds?.length === 1 && pack.unitIds[0] === unit)) errors.push(`Practice: missing unit pack ${unit}`);
   const final = packs.find((pack) => pack?.slug === "final-review");
