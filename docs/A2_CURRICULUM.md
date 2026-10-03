@@ -1,6 +1,6 @@
 # A2 preparation and first delivery slice
 
-Planning only, updated 2026-10-03 after review of merged PR #21. No A2 lesson, route, proficiency score or certificate is released by this document. Paid exams remain deferred.
+Updated 2026-10-03. The first authored unit and level-aware infrastructure are now implemented; see `A2_FIRST_UNIT.md` for delivered scope, routes and validation. The remaining sequence is planning only. No proficiency score or certificate is introduced; paid exams remain deferred.
 
 ## Starting point and boundaries
 
@@ -16,7 +16,7 @@ The Council of Europe's [global scale](https://www.coe.int/en/web/common-europea
 | Comprehension and production | Evidence-backed questions and original-response tasks exist | Observe learners on unfamiliar details and adjust scaffolding / educator |
 | Real audio | Repository manifest has zero approved variants | Owner generates, listens and approves; `audio:check -- --require-complete` must pass for A1 recorded release |
 | Independent language review | No external sign-off recorded | Dutch/Arabic educator reviews wording, task load and descriptor mapping |
-| A2 planning | This ordered scope and acceptance criteria | Prepare first slice; no automatic learner-level promotion |
+| A2 first slice | Four lessons and supporting resources implemented | Pilot and review the slice before expanding unit 2; no automatic promotion |
 | Public launch | Account infrastructure/privacy readiness separate | Follow `ACCOUNTS.md`; do not equate course counts with launch readiness |
 
 A2 design and an isolated draft can proceed alongside owner-managed recording work. Publishing A2 requires its own reviewed material and playback checks; it must not imply that A1's remaining release gates have passed. The learner's A1 lesson-completion total is self-reported, not a gate, placement result or credential.
@@ -36,9 +36,9 @@ A2 design and an isolated draft can proceed alongside owner-managed recording wo
 
 Introduce grammar through useful exchanges; do not teach the entire past-tense system in one lesson. Recycle each new pattern in at least two later units. Reading length alone is not the difficulty target: vocabulary, discourse, support and response demands matter together.
 
-## First implementation slice: unit 1
+## First implementation slice: unit 1 (authored)
 
-Proposed four lessons (names and IDs remain draft until authored):
+Four authored lessons (published IDs are now stable):
 
 1. `a2-yesterday-and-today`: contrast a present routine with two completed activities; scaffold `Ik heb gewerkt` and `Ik ben naar huis gegaan`.
 2. `a2-a-day-at-work`: state completed tasks in order and ask a colleague a follow-up question.
@@ -56,14 +56,14 @@ Acceptance:
 - Dutch/Arabic review and a small learner pilot inform revisions. Record concrete observations, such as whether the learner communicated when an event happened and answered a follow-up, rather than inventing a pass percentage.
 - New audio IDs use an A2 namespace; approved A1 filenames/hashes and pronunciation overrides remain unchanged. Review actual playback before marking the slice ready.
 
-## Technical work required before adding A2 to the catalogue
+## Level-aware implementation contract
 
-Current code assumes a single A1 path in several places. Do this as a focused implementation step before placing A2 records in production data:
+The first slice implements the following boundaries. Preserve them when adding further units; the bullets describe the contract, not unfinished prerequisites:
 
 - `src/lib/content.ts`: carry an explicit level in `LessonSummary` and module summaries; use a bounded level type for published levels. Keep old slugs and completion keys.
 - `LessonCatalogue` and `ProgressOverview`: separate level selection, navigation and completion denominators. A1 must remain 53 lessons after adding A2; never relabel a combined total as A1.
 - Lesson previous/next and recommendations: define within-level order explicitly. Finishing A1 must not silently start or certify A2.
-- Curriculum, readings, scenarios and integrated practice: add level-aware source validation and projections, preserving every existing A1 URL. Decide a common pack schema before duplicating the A1-specific route/data layer.
+- Curriculum, readings, scenarios and integrated practice: use per-level source validation and projections, preserving every existing A1 URL. `IntegratedPractice` shares rendering and `PracticePack` shares the schema across the two route prefixes.
 - Progress APIs/import: accept published A2 slugs through the existing validated catalogue, preserve old data, and keep completion separate from assessment. Review existing account tests before changing contracts.
 - Placement: the existing 16-question starting-point bank does not assess A2. Leave it unchanged until a separate reviewed design exists.
 - Audio: extend the shared source inventory once, with unique IDs across levels; generation, review and integrity checks must use the same list.

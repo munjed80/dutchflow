@@ -1,0 +1,594 @@
+[
+  {
+    "slug": "a2-yesterday-and-today",
+    "moduleId": "a2-recent-activities",
+    "level": "A2",
+    "number": "01",
+    "title": "أمس واليوم",
+    "dutchTitle": "Gisteren en vandaag",
+    "description": "تحدّث عن نشاطين انتهيا، وقارنهما بما تفعله اليوم.",
+    "durationMinutes": 12,
+    "context": "تسأل زميلتك عن يومك السابق قبل بدء الدرس.",
+    "goal": "أصف نشاطاً ماضياً ونشاطاً حاضراً وأسأل عن يوم شخص آخر.",
+    "grammar": {
+      "title": "الماضي المركب مع hebben وzijn",
+      "explanation": "نستخدم هنا hebben أو zijn مع اسم المفعول للحديث عن أفعال انتهت. احفظ النمط مع الفعل: heb gewerkt، heb gekookt، ben gegaan. في هذه الجمل القصيرة يأتي اسم المفعول في النهاية. لا تختَر zijn مع كل فعل حركة؛ سنوسّع الاستعمال لاحقاً.",
+      "example": "Gisteren heb ik gewerkt. Vandaag werk ik thuis.",
+      "translation": "عملت أمس. اليوم أعمل في المنزل."
+    },
+    "phrases": [
+      {
+        "id": "a2-yesterday-and-today-01",
+        "dutch": "Wat heb je gisteren gedaan?",
+        "arabic": "ماذا فعلت أمس؟",
+        "tip": "heb هو الفعل المصرف، وgedaan صيغة doen في هذا الزمن."
+      },
+      {
+        "id": "a2-yesterday-and-today-02",
+        "dutch": "Ik heb gisteren gewerkt.",
+        "arabic": "عملت أمس.",
+        "tip": "werken → heeft gewerkt؛ الحدث انتهى."
+      },
+      {
+        "id": "a2-yesterday-and-today-03",
+        "dutch": "Daarna ben ik naar huis gegaan.",
+        "arabic": "بعد ذلك ذهبت إلى المنزل.",
+        "tip": "gaan → is gegaan؛ نستخدم هنا ben مع ik."
+      },
+      {
+        "id": "a2-yesterday-and-today-04",
+        "dutch": "Ik heb thuis gekookt.",
+        "arabic": "طبخت في المنزل.",
+        "tip": "koken → heeft gekookt."
+      },
+      {
+        "id": "a2-yesterday-and-today-05",
+        "dutch": "Vandaag werk ik thuis.",
+        "arabic": "اليوم أعمل في المنزل.",
+        "tip": "werk حاضر؛ لا نستخدم اسم المفعول هنا."
+      },
+      {
+        "id": "a2-yesterday-and-today-06",
+        "dutch": "Heb je ook Nederlands geoefend?",
+        "arabic": "هل تدربت على الهولندية أيضاً؟",
+        "tip": "oefenen → heeft geoefend؛ يبدأ السؤال بـ Heb."
+      },
+      {
+        "id": "a2-yesterday-and-today-07",
+        "dutch": "Ja, ik heb een halfuur geoefend.",
+        "arabic": "نعم، تدربت نصف ساعة.",
+        "tip": "een halfuur مدة وليست وقتاً على الساعة."
+      },
+      {
+        "id": "a2-yesterday-and-today-08",
+        "dutch": "En wat heb jij gedaan?",
+        "arabic": "وماذا فعلت أنت؟",
+        "tip": "jij يبرز السؤال عن الطرف الآخر."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-yesterday-and-today-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-yesterday-and-today-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-yesterday-and-today-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-yesterday-and-today-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-yesterday-and-today-05"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-yesterday-and-today-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-yesterday-and-today-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-yesterday-and-today-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-yesterday-and-today-q1",
+        "prompt": "اختر الجملة التي تتحدث عن عمل انتهى أمس.",
+        "options": [
+          "Ik werk vandaag.",
+          "Ik heb gisteren gewerkt.",
+          "Ik werk morgen."
+        ],
+        "correctIndex": 1,
+        "explanation": "heb gewerkt مع gisteren يخبر عن نشاط أمس."
+      },
+      {
+        "id": "a2-yesterday-and-today-q2",
+        "prompt": "أكمل: Daarna ... ik naar huis gegaan.",
+        "options": [
+          "heb",
+          "werk",
+          "ben"
+        ],
+        "correctIndex": 2,
+        "explanation": "النمط هنا هو ben gegaan مع الذهاب إلى مكان."
+      },
+      {
+        "id": "a2-yesterday-and-today-q3",
+        "prompt": "ماذا تعني een halfuur في المثال؟",
+        "options": [
+          "مدة ثلاثين دقيقة",
+          "الساعة الثانية عشرة",
+          "نصف يوم"
+        ],
+        "correctIndex": 0,
+        "explanation": "المقصود مدة التدريب، لا ساعة بدئه."
+      },
+      {
+        "id": "a2-yesterday-and-today-q4",
+        "prompt": "أي سؤال يسأل عن نشاط سابق؟",
+        "options": [
+          "Waar werk je nu?",
+          "Wat heb je gisteren gedaan?",
+          "Wanneer werk je morgen?"
+        ],
+        "correctIndex": 1,
+        "explanation": "heb gedaan يسأل عما فعله الشخص."
+      }
+    ]
+  },
+  {
+    "slug": "a2-a-day-at-work",
+    "moduleId": "a2-recent-activities",
+    "level": "A2",
+    "number": "02",
+    "title": "ما أنجزته في العمل",
+    "dutchTitle": "Een dag op het werk",
+    "description": "رتّب مهام أنجزتها وحدّد ما لم تنجزه بعد.",
+    "durationMinutes": 12,
+    "context": "تحدّث زميلك عن نهاية وردية خيالية.",
+    "goal": "أذكر مهمتين منجزتين ومهمة لم أنجزها وأسأل زميلي عن عمله.",
+    "grammar": {
+      "title": "اسم المفعول مع الفعل المنفصل",
+      "explanation": "opruimen يصبح opgeruimd: يدخل ge بين الجزأين. أما controleren فيصبح gecontroleerd. تعلّم الصيغ مع أمثلتها؛ لا نضيف ge بالطريقة نفسها إلى كل فعل. nog niet تعني أن المهمة لم تُنجز بعد.",
+      "example": "Ik heb de tafel nog niet opgeruimd.",
+      "translation": "لم أرتّب الطاولة بعد."
+    },
+    "phrases": [
+      {
+        "id": "a2-a-day-at-work-01",
+        "dutch": "Wat heb je vandaag op het werk gedaan?",
+        "arabic": "ماذا فعلت اليوم في العمل؟",
+        "tip": "يمكن استخدام الماضي المركب لنشاط انتهى في يوم لم ينتهِ بعد."
+      },
+      {
+        "id": "a2-a-day-at-work-02",
+        "dutch": "Eerst heb ik de dozen geteld.",
+        "arabic": "عددت الصناديق أولاً.",
+        "tip": "tellen → geteld؛ eerst تضع الخطوة الأولى."
+      },
+      {
+        "id": "a2-a-day-at-work-03",
+        "dutch": "Daarna heb ik de lijst gecontroleerd.",
+        "arabic": "بعد ذلك راجعت القائمة.",
+        "tip": "controleren → gecontroleerd."
+      },
+      {
+        "id": "a2-a-day-at-work-04",
+        "dutch": "Heb je de tafel ook opgeruimd?",
+        "arabic": "هل رتّبت الطاولة أيضاً؟",
+        "tip": "opruimen → opgeruimd."
+      },
+      {
+        "id": "a2-a-day-at-work-05",
+        "dutch": "Nee, ik heb de tafel nog niet opgeruimd.",
+        "arabic": "لا، لم أرتّب الطاولة بعد.",
+        "tip": "nog niet تعني ليس بعد."
+      },
+      {
+        "id": "a2-a-day-at-work-06",
+        "dutch": "Ik heb eerst Eva om hulp gevraagd.",
+        "arabic": "طلبت المساعدة من إيفا أولاً.",
+        "tip": "vragen → gevraagd؛ om hulp vragen طلب المساعدة."
+      },
+      {
+        "id": "a2-a-day-at-work-07",
+        "dutch": "Wat heeft Eva gedaan?",
+        "arabic": "ماذا فعلت إيفا؟",
+        "tip": "نستخدم heeft مع Eva."
+      },
+      {
+        "id": "a2-a-day-at-work-08",
+        "dutch": "Zij heeft de namen op de lijst gelezen.",
+        "arabic": "قرأت الأسماء في القائمة.",
+        "tip": "lezen → gelezen؛ صيغة غير منتظمة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-a-day-at-work-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-a-day-at-work-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-a-day-at-work-03"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-a-day-at-work-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-a-day-at-work-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-a-day-at-work-06"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-a-day-at-work-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-a-day-at-work-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-a-day-at-work-q1",
+        "prompt": "أي مهمة حدثت مباشرة بعد عدّ الصناديق؟",
+        "options": [
+          "ترتيب الطاولة",
+          "قراءة البريد",
+          "مراجعة القائمة"
+        ],
+        "correctIndex": 2,
+        "explanation": "Daarna heb ik de lijst gecontroleerd تحدد الخطوة اللاحقة."
+      },
+      {
+        "id": "a2-a-day-at-work-q2",
+        "prompt": "ما معنى nog niet opgeruimd؟",
+        "options": [
+          "لم يرتّب بعد",
+          "لن يرتّب أبداً",
+          "رتّب مرتين"
+        ],
+        "correctIndex": 0,
+        "explanation": "nog niet لا تعني الرفض الدائم."
+      },
+      {
+        "id": "a2-a-day-at-work-q3",
+        "prompt": "أكمل: Eva ... de namen gelezen.",
+        "options": [
+          "heb",
+          "heeft",
+          "ben"
+        ],
+        "correctIndex": 1,
+        "explanation": "مع المفرد Eva نستخدم heeft."
+      },
+      {
+        "id": "a2-a-day-at-work-q4",
+        "prompt": "ما صيغة opruimen في المثال؟",
+        "options": [
+          "opruimd",
+          "geopruimen",
+          "opgeruimd"
+        ],
+        "correctIndex": 2,
+        "explanation": "يدخل ge بين op وruimd."
+      }
+    ]
+  },
+  {
+    "slug": "a2-a-weekend-visit",
+    "moduleId": "a2-recent-activities",
+    "level": "A2",
+    "number": "03",
+    "title": "زيارة في نهاية الأسبوع",
+    "dutchTitle": "Een bezoek in het weekend",
+    "description": "احكِ عن زيارة وحدّد مع من ذهبت وكيف عدت.",
+    "durationMinutes": 12,
+    "context": "تتبادل الحديث مع زميلة عن يوم السبت.",
+    "goal": "أذكر مكان الزيارة ورفيقي ونشاطاً فعلناه وأجيب عن سؤال متابعة.",
+    "grammar": {
+      "title": "صيغ شائعة مع zijn وhebben",
+      "explanation": "نقول ben naar ... gegaan وben thuisgekomen عند الذهاب والوصول، ونقول heb gedronken مع الشرب. صيغة الجمع: we zijn gegaan وwe hebben gedronken. احفظ الأفعال في سياقها؛ ليست كل أفعال الحركة مع zijn.",
+      "example": "We hebben samen thee gedronken.",
+      "translation": "شربنا الشاي معاً."
+    },
+    "phrases": [
+      {
+        "id": "a2-a-weekend-visit-01",
+        "dutch": "Waar ben je zaterdag geweest?",
+        "arabic": "أين كنت يوم السبت؟",
+        "tip": "geweest صيغة zijn في الماضي المركب."
+      },
+      {
+        "id": "a2-a-weekend-visit-02",
+        "dutch": "Ik ben naar mijn zus in Leiden gegaan.",
+        "arabic": "ذهبت إلى أختي في لايدن.",
+        "tip": "نستخدم ben gegaan في هذا المثال."
+      },
+      {
+        "id": "a2-a-weekend-visit-03",
+        "dutch": "Met wie ben je gegaan?",
+        "arabic": "مع من ذهبت؟",
+        "tip": "met wie تسأل عن المرافق."
+      },
+      {
+        "id": "a2-a-weekend-visit-04",
+        "dutch": "Ik ben met mijn zoon gegaan.",
+        "arabic": "ذهبت مع ابني.",
+        "tip": "كرر المعلومة المطلوبة فقط عند الإجابة."
+      },
+      {
+        "id": "a2-a-weekend-visit-05",
+        "dutch": "Wat hebben jullie samen gedaan?",
+        "arabic": "ماذا فعلتم معاً؟",
+        "tip": "hebben مع jullie."
+      },
+      {
+        "id": "a2-a-weekend-visit-06",
+        "dutch": "We hebben thee gedronken en in het park gewandeld.",
+        "arabic": "شربنا الشاي وتمشّينا في الحديقة.",
+        "tip": "drinken → gedronken؛ wandelen هنا مع hebben."
+      },
+      {
+        "id": "a2-a-weekend-visit-07",
+        "dutch": "Hoe laat ben je thuisgekomen?",
+        "arabic": "في أي ساعة وصلت إلى المنزل؟",
+        "tip": "thuiskomen → thuisgekomen."
+      },
+      {
+        "id": "a2-a-weekend-visit-08",
+        "dutch": "Ik ben om zes uur met de trein thuisgekomen.",
+        "arabic": "وصلت إلى المنزل الساعة السادسة بالقطار.",
+        "tip": "يذكر الوقت ووسيلة العودة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-a-weekend-visit-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-a-weekend-visit-02"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-a-weekend-visit-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-a-weekend-visit-04"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-a-weekend-visit-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-a-weekend-visit-06"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-a-weekend-visit-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-a-weekend-visit-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-a-weekend-visit-q1",
+        "prompt": "Met wie ben je gegaan? يسأل عن ماذا؟",
+        "options": [
+          "وقت العودة",
+          "المرافق",
+          "مكان العمل"
+        ],
+        "correctIndex": 1,
+        "explanation": "met wie تعني مع من."
+      },
+      {
+        "id": "a2-a-weekend-visit-q2",
+        "prompt": "أي جملة توافق مثال المشي في الحديقة؟",
+        "options": [
+          "We hebben in het park gewandeld.",
+          "We zijn thee gedronken.",
+          "We hebben naar Leiden gegaan."
+        ],
+        "correctIndex": 0,
+        "explanation": "wandelen هنا نشاط دون تحديد انتقال إلى وجهة، ويأتي مع hebben."
+      },
+      {
+        "id": "a2-a-weekend-visit-q3",
+        "prompt": "ما وسيلة العودة في الحوار؟",
+        "options": [
+          "الحافلة",
+          "الدراجة",
+          "القطار"
+        ],
+        "correctIndex": 2,
+        "explanation": "met de trein تعني بالقطار."
+      },
+      {
+        "id": "a2-a-weekend-visit-q4",
+        "prompt": "أكمل: We ... thee gedronken.",
+        "options": [
+          "zijn",
+          "hebben",
+          "ben"
+        ],
+        "correctIndex": 1,
+        "explanation": "drinken يأخذ hebben، ومع we نستخدم hebben."
+      }
+    ]
+  },
+  {
+    "slug": "a2-telling-a-short-story",
+    "moduleId": "a2-recent-activities",
+    "level": "A2",
+    "number": "04",
+    "title": "احكِ ما حدث باختصار",
+    "dutchTitle": "Vertel wat er is gebeurd",
+    "description": "اربط أحداثاً قصيرة وصحّح تفصيلاً فهمه شريكك خطأً.",
+    "durationMinutes": 12,
+    "context": "تشرح لزميل سبب وصولك متأخراً إلى درس خيالي.",
+    "goal": "أرتّب ثلاثة أحداث وأصحح الوقت عند طلب التوضيح.",
+    "grammar": {
+      "title": "ترتيب الأحداث والسؤال عن تفصيل",
+      "explanation": "استخدم eerst ثم daarna ثم ten slotte لترتيب أحداث قصيرة. بعد هذه العبارات يأتي الفعل المصرف قبل الفاعل في الجملة الرئيسية: Daarna heb ik ... هذه بداية تدريب على الماضي، وليست قاعدة أن كل قصة تستخدم زمناً واحداً.",
+      "example": "Daarna heb ik een bericht naar de docent gestuurd.",
+      "translation": "بعد ذلك أرسلت رسالة إلى المعلم."
+    },
+    "phrases": [
+      {
+        "id": "a2-telling-a-short-story-01",
+        "dutch": "Wat is er gisteren gebeurd?",
+        "arabic": "ماذا حدث أمس؟",
+        "tip": "gebeuren → is gebeurd؛ لا نضيف ge أخرى."
+      },
+      {
+        "id": "a2-telling-a-short-story-02",
+        "dutch": "Eerst heb ik op de bus gewacht.",
+        "arabic": "انتظرت الحافلة أولاً.",
+        "tip": "wachten op تعني ينتظر."
+      },
+      {
+        "id": "a2-telling-a-short-story-03",
+        "dutch": "De bus is niet gekomen.",
+        "arabic": "لم تأتِ الحافلة.",
+        "tip": "komen → is gekomen."
+      },
+      {
+        "id": "a2-telling-a-short-story-04",
+        "dutch": "Daarna heb ik een bericht naar de docent gestuurd.",
+        "arabic": "بعد ذلك أرسلت رسالة إلى المعلم.",
+        "tip": "sturen → gestuurd."
+      },
+      {
+        "id": "a2-telling-a-short-story-05",
+        "dutch": "Ten slotte ben ik naar school gelopen.",
+        "arabic": "في النهاية مشيت إلى المدرسة.",
+        "tip": "هنا lopen انتقال إلى وجهة محددة، لذلك ben gelopen."
+      },
+      {
+        "id": "a2-telling-a-short-story-06",
+        "dutch": "Ben je om negen uur aangekomen?",
+        "arabic": "هل وصلت الساعة التاسعة؟",
+        "tip": "aankomen → aangekomen."
+      },
+      {
+        "id": "a2-telling-a-short-story-07",
+        "dutch": "Nee, ik ben om kwart over negen aangekomen.",
+        "arabic": "لا، وصلت الساعة التاسعة والربع.",
+        "tip": "صحّح الوقت بعد Nee."
+      },
+      {
+        "id": "a2-telling-a-short-story-08",
+        "dutch": "Dus je hebt eerst gewacht en daarna een bericht gestuurd?",
+        "arabic": "إذن انتظرت أولاً ثم أرسلت رسالة؟",
+        "tip": "أعد المعلومات للتأكد؛ هنا يشترك الفعلان في hebt."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-telling-a-short-story-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-telling-a-short-story-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-telling-a-short-story-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-telling-a-short-story-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-telling-a-short-story-05"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-telling-a-short-story-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-telling-a-short-story-07"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-telling-a-short-story-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-telling-a-short-story-q1",
+        "prompt": "لماذا مشى المتحدث إلى المدرسة؟",
+        "options": [
+          "لأن المدرسة مغلقة",
+          "لأن الحافلة لم تأتِ",
+          "لأنه نسي حقيبته"
+        ],
+        "correctIndex": 1,
+        "explanation": "De bus is niet gekomen تعطي السبب في الحوار."
+      },
+      {
+        "id": "a2-telling-a-short-story-q2",
+        "prompt": "ماذا فعل بعد الانتظار وقبل المشي؟",
+        "options": [
+          "أرسل رسالة إلى المعلم",
+          "شرب الشاي",
+          "عاد إلى المنزل"
+        ],
+        "correctIndex": 0,
+        "explanation": "رسالة المعلم تأتي بعد Daarna وقبل Ten slotte."
+      },
+      {
+        "id": "a2-telling-a-short-story-q3",
+        "prompt": "ما وقت الوصول الذي صحّحه؟",
+        "options": [
+          "09:00",
+          "08:45",
+          "09:15"
+        ],
+        "correctIndex": 2,
+        "explanation": "kwart over negen تعني التاسعة والربع."
+      },
+      {
+        "id": "a2-telling-a-short-story-q4",
+        "prompt": "أي ترتيب صحيح بعد Daarna؟",
+        "options": [
+          "Daarna ik heb gewacht.",
+          "Daarna heb ik gewacht.",
+          "Daarna gewacht ik heb."
+        ],
+        "correctIndex": 1,
+        "explanation": "الفعل المصرف heb يسبق ik بعد Daarna."
+      }
+    ]
+  }
+]

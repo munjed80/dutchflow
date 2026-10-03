@@ -1,5 +1,6 @@
 "use client";
 
+import { levelHref, type CourseLevel } from "@/lib/levels";
 import Link from "next/link";
 import { useState } from "react";
 import type { CourseModule, LessonSummary } from "@/lib/content";
@@ -9,7 +10,7 @@ function normalizeSearch(text: string) {
   return text.normalize("NFD").replace(/[\u0300-\u036f\u064b-\u065f\u0670]/g, "").toLowerCase().trim();
 }
 
-export function LessonCatalogue({ lessons, modules }: { lessons: LessonSummary[]; modules: CourseModule[] }) {
+export function LessonCatalogue({ lessons, modules, level = "A1" }: { lessons: LessonSummary[]; modules: CourseModule[]; level?: CourseLevel }) {
   const completedLessons = useLearningProgress();
   const [query, setQuery] = useState("");
   const [selectedModule, setSelectedModule] = useState("all");
@@ -26,12 +27,12 @@ export function LessonCatalogue({ lessons, modules }: { lessons: LessonSummary[]
         <h2>{nextLesson?.title ?? "وقت المراجعة"}</h2>
         <p>{nextLesson ? "تابع بالترتيب، أو اختر الموقف الذي تحتاجه اليوم." : "يمكنك إعادة أي درس أو مراجعة نتائج تقدمك."}</p>
       </div>
-      <Link className="button button-primary" href={nextLesson ? `/learn/${nextLesson.slug}` : "/progress"}>
+      <Link className="button button-primary" href={nextLesson ? `/learn/${nextLesson.slug}` : levelHref("/progress", level)}>
         {nextLesson ? "تابع هذا الدرس" : "شاهد تقدمك"} <span aria-hidden="true">←</span>
       </Link>
     </div>
 
-    <p className="placement-invitation">تبدأ للمرة الأولى؟ <Link className="text-link" href="/placement">جرّب اختبار البداية المجاني ←</Link></p>
+    {level === "A1" && <p className="placement-invitation">تبدأ للمرة الأولى؟ <Link className="text-link" href="/placement">جرّب اختبار البداية المجاني ←</Link></p>}
     <div className="catalogue-tools">
       <label className="search-label" htmlFor="lesson-search">ابحث عن درس</label>
       <input id="lesson-search" type="search" className="lesson-search" value={query}

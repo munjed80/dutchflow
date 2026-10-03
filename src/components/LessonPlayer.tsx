@@ -1,5 +1,6 @@
 "use client";
 
+import { levelHref } from "@/lib/levels";
 import Link from "next/link";
 import { useState } from "react";
 import type { Lesson } from "@/lib/content";
@@ -139,7 +140,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
         {completed && nextLesson && <Link className="next-lesson" href={`/learn/${nextLesson.slug}`}>
           <span>الدرس التالي <strong>{nextLesson.title}</strong></span><span aria-hidden="true">←</span>
         </Link>}
-        {completed && !nextLesson && <Link className="next-lesson" href="/progress">شاهد تقدمك وراجع الدروس المتبقية <span aria-hidden="true">←</span></Link>}
+        {completed && !nextLesson && <Link className="next-lesson" href={levelHref("/progress", lesson.level)}>شاهد تقدمك وراجع الدروس المتبقية <span aria-hidden="true">←</span></Link>}
       </section>
     </>
   );

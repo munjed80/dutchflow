@@ -1,0 +1,270 @@
+[
+  {
+    "lessonSlug": "a2-yesterday-and-today",
+    "vocabulary": [
+      {
+        "term": "werken",
+        "kind": "verb",
+        "forms": "ik werk · ik heb gewerkt",
+        "meaning": "يعمل؛ قارن الحاضر بالفعل المنتهي.",
+        "phraseId": "a2-yesterday-and-today-02"
+      },
+      {
+        "term": "gaan",
+        "kind": "verb",
+        "forms": "ik ga · ik ben gegaan",
+        "meaning": "يذهب؛ هنا مع bestemming، أي جهة الوصول.",
+        "phraseId": "a2-yesterday-and-today-03"
+      },
+      {
+        "term": "koken",
+        "kind": "verb",
+        "forms": "ik kook · ik heb gekookt",
+        "meaning": "يطبخ.",
+        "phraseId": "a2-yesterday-and-today-04"
+      },
+      {
+        "term": "oefenen",
+        "kind": "verb",
+        "forms": "ik oefen · ik heb geoefend",
+        "meaning": "يتدرّب أو يتمرّن.",
+        "phraseId": "a2-yesterday-and-today-06"
+      },
+      {
+        "term": "gisteren",
+        "kind": "expression",
+        "forms": "gisteren gewerkt · gisteren geoefend",
+        "meaning": "أمس؛ اليوم السابق.",
+        "phraseId": "a2-yesterday-and-today-02"
+      },
+      {
+        "term": "een halfuur",
+        "kind": "expression",
+        "forms": "een halfuur oefenen · een halfuur gewerkt",
+        "meaning": "نصف ساعة؛ مدة زمنية.",
+        "phraseId": "a2-yesterday-and-today-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب بشخصية خيالية ثلاث جمل: عملت أمس، ثم ذهبت إلى المنزل، واليوم تتدرّب على الهولندية.",
+        "model": "Gisteren heb ik gewerkt. Daarna ben ik naar huis gegaan. Vandaag oefen ik Nederlands.",
+        "translation": "عملت أمس. بعد ذلك ذهبت إلى المنزل. اليوم أتدرّب على الهولندية.",
+        "checklist": [
+          "هل استخدمت heb gewerkt وben gegaan للماضي؟",
+          "هل ميّزت اليوم بالحاضر؟"
+        ]
+      },
+      {
+        "prompt": "اكتب إلى صديق: طبخت أمس وتدرّبت نصف ساعة، ثم اسأله ماذا فعل هو.",
+        "model": "Gisteren heb ik gekookt. Ik heb een halfuur geoefend. Wat heb jij gedaan?",
+        "translation": "طبخت أمس. تدربت نصف ساعة. ماذا فعلت أنت؟",
+        "checklist": [
+          "هل ذكرت النشاطين والمدة؟",
+          "هل أنهيت بسؤال عن الماضي؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-a-day-at-work",
+    "vocabulary": [
+      {
+        "term": "tellen",
+        "kind": "verb",
+        "forms": "ik tel · ik heb geteld",
+        "meaning": "يعدّ الأشياء.",
+        "phraseId": "a2-a-day-at-work-02"
+      },
+      {
+        "term": "controleren",
+        "kind": "verb",
+        "forms": "ik controleer · ik heb gecontroleerd",
+        "meaning": "يراجع أو يفحص.",
+        "phraseId": "a2-a-day-at-work-03"
+      },
+      {
+        "term": "opruimen",
+        "kind": "verb",
+        "forms": "ik ruim op · ik heb opgeruimd",
+        "meaning": "يرتب المكان أو يزيل الفوضى.",
+        "phraseId": "a2-a-day-at-work-04"
+      },
+      {
+        "term": "vragen",
+        "kind": "verb",
+        "forms": "ik vraag · ik heb gevraagd",
+        "meaning": "يسأل أو يطلب.",
+        "phraseId": "a2-a-day-at-work-06"
+      },
+      {
+        "term": "lezen",
+        "kind": "verb",
+        "forms": "ik lees · ik heb gelezen",
+        "meaning": "يقرأ.",
+        "phraseId": "a2-a-day-at-work-08"
+      },
+      {
+        "term": "de lijst",
+        "kind": "noun",
+        "forms": "de lijsten",
+        "meaning": "القائمة؛ تربط الأسماء بالمهام.",
+        "phraseId": "a2-a-day-at-work-03"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب تحديثاً: عددت أربعة صناديق وراجعت القائمة، لكنك لم ترتّب الطاولة بعد.",
+        "model": "Ik heb vier dozen geteld. Daarna heb ik de lijst gecontroleerd. Ik heb de tafel nog niet opgeruimd.",
+        "translation": "عددت أربعة صناديق. ثم راجعت القائمة. لم أرتّب الطاولة بعد.",
+        "checklist": [
+          "هل ذكرت العدد وترتيب المهمتين؟",
+          "هل أبقيت ترتيب الطاولة مهمة غير منجزة؟"
+        ]
+      },
+      {
+        "prompt": "طلبت المساعدة من نور، وهي قرأت القائمة. اكتب ذلك ثم اسأل زميلك هل رتّب الطاولة.",
+        "model": "Ik heb Noor om hulp gevraagd. Zij heeft de lijst gelezen. Heb je de tafel opgeruimd?",
+        "translation": "طلبت المساعدة من نور. قرأت القائمة. هل رتّبت الطاولة؟",
+        "checklist": [
+          "هل استخدمت heeft مع Zij؟",
+          "هل سألت باستخدام Heb je ...؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-a-weekend-visit",
+    "vocabulary": [
+      {
+        "term": "zijn",
+        "kind": "verb",
+        "forms": "ik ben · ik ben geweest",
+        "meaning": "يكون؛ geweest في سؤال الزيارة.",
+        "phraseId": "a2-a-weekend-visit-01"
+      },
+      {
+        "term": "de zus",
+        "kind": "noun",
+        "forms": "de zussen",
+        "meaning": "الأخت.",
+        "phraseId": "a2-a-weekend-visit-02"
+      },
+      {
+        "term": "drinken",
+        "kind": "verb",
+        "forms": "ik drink · ik heb gedronken",
+        "meaning": "يشرب.",
+        "phraseId": "a2-a-weekend-visit-06"
+      },
+      {
+        "term": "wandelen",
+        "kind": "verb",
+        "forms": "ik wandel · ik heb gewandeld",
+        "meaning": "يتمشّى؛ هنا نشاط في الحديقة.",
+        "phraseId": "a2-a-weekend-visit-06"
+      },
+      {
+        "term": "thuiskomen",
+        "kind": "verb",
+        "forms": "ik kom thuis · ik ben thuisgekomen",
+        "meaning": "يصل إلى المنزل.",
+        "phraseId": "a2-a-weekend-visit-07"
+      },
+      {
+        "term": "met wie",
+        "kind": "expression",
+        "forms": "Met wie ben je gegaan?",
+        "meaning": "مع من؛ للسؤال عن المرافق.",
+        "phraseId": "a2-a-weekend-visit-03"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "زرْت أخاك في دلفت يوم الأحد مع صديق وشربتما القهوة. اكتب ثلاث جمل عن الزيارة.",
+        "model": "Zondag ben ik naar mijn broer in Delft gegaan. Ik ben met een vriend gegaan. We hebben koffie gedronken.",
+        "translation": "ذهبت الأحد إلى أخي في دلفت. ذهبت مع صديق. شربنا القهوة.",
+        "checklist": [
+          "هل ذكرت اليوم والمكان والمرافق؟",
+          "هل استخدمت zijn مع gegaan وhebben مع gedronken؟"
+        ]
+      },
+      {
+        "prompt": "عدت إلى المنزل الساعة الثامنة بالحافلة. أخبر صديقك بذلك ثم اسأله متى عاد هو.",
+        "model": "Ik ben om acht uur met de bus thuisgekomen. Hoe laat ben jij thuisgekomen?",
+        "translation": "وصلت إلى المنزل الساعة الثامنة بالحافلة. في أي ساعة وصلت أنت؟",
+        "checklist": [
+          "هل ذكرت الوقت ووسيلة العودة؟",
+          "هل طرحت سؤال متابعة مناسباً؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-telling-a-short-story",
+    "vocabulary": [
+      {
+        "term": "gebeuren",
+        "kind": "verb",
+        "forms": "het gebeurt · het is gebeurd",
+        "meaning": "يحدث؛ لا نضيف ge إلى gebeurd مرة أخرى.",
+        "phraseId": "a2-telling-a-short-story-01"
+      },
+      {
+        "term": "wachten",
+        "kind": "verb",
+        "forms": "ik wacht · ik heb gewacht",
+        "meaning": "ينتظر؛ غالباً مع op للشيء المنتظَر.",
+        "phraseId": "a2-telling-a-short-story-02"
+      },
+      {
+        "term": "komen",
+        "kind": "verb",
+        "forms": "ik kom · ik ben gekomen",
+        "meaning": "يأتي.",
+        "phraseId": "a2-telling-a-short-story-03"
+      },
+      {
+        "term": "sturen",
+        "kind": "verb",
+        "forms": "ik stuur · ik heb gestuurd",
+        "meaning": "يرسل.",
+        "phraseId": "a2-telling-a-short-story-04"
+      },
+      {
+        "term": "aankomen",
+        "kind": "verb",
+        "forms": "ik kom aan · ik ben aangekomen",
+        "meaning": "يصل إلى مكان.",
+        "phraseId": "a2-telling-a-short-story-06"
+      },
+      {
+        "term": "ten slotte",
+        "kind": "expression",
+        "forms": "ten slotte naar school · ten slotte aangekomen",
+        "meaning": "في النهاية؛ آخر خطوة في التسلسل.",
+        "phraseId": "a2-telling-a-short-story-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب ثلاث جمل: انتظرت القطار أولاً، ثم أرسلت رسالة إلى نور، وفي النهاية ذهبت إلى المنزل.",
+        "model": "Eerst heb ik op de trein gewacht. Daarna heb ik een bericht naar Noor gestuurd. Ten slotte ben ik naar huis gegaan.",
+        "translation": "انتظرت القطار أولاً. ثم أرسلت رسالة إلى نور. وفي النهاية ذهبت إلى المنزل.",
+        "checklist": [
+          "هل رتبت الأحداث بثلاث عبارات واضحة؟",
+          "هل يأتي الفعل المصرف قبل ik بعد عبارة الترتيب؟"
+        ]
+      },
+      {
+        "prompt": "يسألك زميل: وصلت العاشرة؟ صحح الوقت إلى العاشرة والنصف، ثم قل إنك أرسلت رسالة إلى المعلم.",
+        "model": "Nee, ik ben om half elf aangekomen. Ik heb een bericht naar de docent gestuurd.",
+        "translation": "لا، وصلت العاشرة والنصف. أرسلت رسالة إلى المعلم.",
+        "checklist": [
+          "هل صححت الوقت إلى half elf؟",
+          "هل ذكرت الرسالة بصيغة heb gestuurd؟"
+        ]
+      }
+    ]
+  }
+]

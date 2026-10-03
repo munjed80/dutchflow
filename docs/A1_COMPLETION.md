@@ -76,4 +76,4 @@ All 180 library/integrated comprehension questions now have authored links to re
 
 ## Preparing A2
 
-See `A2_CURRICULUM.md` for the ordered proposal and first four-lesson delivery slice. A2 planning can proceed while the owner completes A1 recordings; no A2 learner content or automatic promotion is introduced by this review.
+See `A2_CURRICULUM.md` for the ordered proposal and first four-lesson delivery slice. A2 planning can proceed while the owner completes A1 recordings; the first A2 unit is now implemented separately in `A2_FIRST_UNIT.md`, with no automatic promotion or change to A1 totals.

@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "a2-recent-activities",
+    "title": "مراجعة: أمس واليوم ومهمة جديدة",
+    "unitIds": [
+      "a2-recent-activities"
+    ],
+    "reading": {
+      "text": "Dag Noor, gisteren heb ik in het buurthuis geholpen. Eerst heb ik zes tafels schoongemaakt. Daarna heb ik met Eva de stoelen klaargezet. We hebben om twaalf uur samen gegeten. Ik heb de keuken nog niet opgeruimd. Dat doe ik vandaag om tien uur. Kun jij vandaag de kopjes afwassen? Stuur mij een bericht als je kunt helpen. Groet, Sam.",
+      "translation": "مرحباً نور، ساعدت أمس في مركز الحي. نظفت ست طاولات أولاً. ثم جهزت الكراسي مع إيفا. تناولنا الطعام معاً الساعة الثانية عشرة. لم أرتب المطبخ بعد. سأفعل ذلك اليوم الساعة العاشرة. هل يمكنك غسل الأكواب اليوم؟ أرسلي رسالة إذا استطعت المساعدة. تحياتي، سام.",
+      "questions": [
+        {
+          "id": "a2-practice-read-1",
+          "prompt": "كم طاولة نظف سام أمس؟",
+          "options": [
+            "خمس",
+            "ست",
+            "اثنتا عشرة"
+          ],
+          "correctIndex": 1,
+          "evidence": "Eerst heb ik zes tafels schoongemaakt.",
+          "explanation": "zes تعني ستاً؛ twaalf وقت تناول الطعام."
+        },
+        {
+          "id": "a2-practice-read-2",
+          "prompt": "ما المهمة التي لم ينجزها سام عند كتابة الرسالة؟",
+          "options": [
+            "تجهيز الكراسي",
+            "تنظيف الطاولات",
+            "ترتيب المطبخ"
+          ],
+          "correctIndex": 2,
+          "evidence": "Ik heb de keuken nog niet opgeruimd.",
+          "explanation": "nog niet تعني أن المهمة لم تنتهِ بعد."
+        },
+        {
+          "id": "a2-practice-read-3",
+          "prompt": "متى ينوي سام ترتيب المطبخ؟",
+          "options": [
+            "اليوم العاشرة",
+            "أمس الثانية عشرة",
+            "اليوم الحادية عشرة"
+          ],
+          "correctIndex": 0,
+          "evidence": "Ik heb de keuken nog niet opgeruimd. Dat doe ik vandaag om tien uur.",
+          "explanation": "Dat تعود إلى ترتيب المطبخ؛ الخطة اليوم العاشرة."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-recent-activities",
+      "text": "Hallo Noor, met Sam. Ik heb vanochtend de keuken opgeruimd. Eva heeft de kopjes afgewassen. Je hoeft dus niet meer af te wassen. Kun je vandaag om elf uur de stoelen buiten zetten? We drinken om half twaalf samen koffie. Bel je mij terug?",
+      "translation": "مرحباً نور، معك سام. رتبت المطبخ هذا الصباح. غسلت إيفا الأكواب. لذلك لم تعودي بحاجة إلى غسلها. هل يمكنك وضع الكراسي في الخارج اليوم الساعة الحادية عشرة؟ نشرب القهوة معاً الساعة الحادية عشرة والنصف. هل تعاودين الاتصال بي؟",
+      "questions": [
+        {
+          "id": "a2-practice-listen-1",
+          "prompt": "من غسل الأكواب؟",
+          "options": [
+            "سام",
+            "نور",
+            "إيفا"
+          ],
+          "correctIndex": 2,
+          "evidence": "Eva heeft de kopjes afgewassen.",
+          "explanation": "إيفا أنجزت هذه المهمة، لذلك لم تعد مطلوبة من نور."
+        },
+        {
+          "id": "a2-practice-listen-2",
+          "prompt": "ما المهمة الجديدة ووقتها؟",
+          "options": [
+            "الكراسي في الخارج الساعة 11:00",
+            "غسل الأكواب الساعة 10:00",
+            "ترتيب المطبخ الساعة 11:30"
+          ],
+          "correctIndex": 0,
+          "evidence": "Kun je vandaag om elf uur de stoelen buiten zetten?",
+          "explanation": "المطلوب الجديد هو الكراسي عند الحادية عشرة."
+        },
+        {
+          "id": "a2-practice-listen-3",
+          "prompt": "بماذا يجب أن ترد نور؟",
+          "options": [
+            "بالحضور دون رد",
+            "بإعادة الاتصال",
+            "بإرسال استمارة"
+          ],
+          "correctIndex": 1,
+          "evidence": "Bel je mij terug?",
+          "explanation": "سام يطلب اتصالاً بعد تحديثه الصوتي."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب تحديثاً خيالياً: نظفت أربع طاولات أمس، واليوم غسلت الأكواب. لم ترتب الكراسي بعد، فاطلب من نور المساعدة.",
+        "model": "Gisteren heb ik vier tafels schoongemaakt. Vandaag heb ik de kopjes afgewassen. Ik heb de stoelen nog niet klaargezet. Noor, kun je mij helpen?",
+        "translation": "نظفت أربع طاولات أمس. اليوم غسلت الأكواب. لم أجهز الكراسي بعد. نور، هل يمكنك مساعدتي؟",
+        "checklist": [
+          "هل ميزت النشاطين المنجزين عن المهمة المتبقية؟",
+          "هل ذكرت العدد وطلب المساعدة؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أدِّ دور سام مع شريك بدور نور: أخبرها بما أنجزته اليوم، واطلب تجهيز الكراسي الساعة 11:00. عندما تقول إنها لا تستطيع إلا 11:15، وافق وأعد الوقت الجديد.",
+        "model": "Ik heb de keuken opgeruimd. Kun je om elf uur de stoelen klaarzetten?\nPartner: Ik kan pas om kwart over elf.\nDat is goed. Dus om kwart over elf. Dank je wel.",
+        "translation": "رتبت المطبخ. هل يمكنك تجهيز الكراسي الحادية عشرة؟\nالشريك: لا أستطيع إلا الحادية عشرة والربع.\nحسناً. إذن الحادية عشرة والربع. شكراً لك.",
+        "checklist": [
+          "هل ذكرت مهمة منجزة وطلباً جديداً؟",
+          "هل أجبت عن تغيير الوقت وأعدته بوضوح؟"
+        ],
+        "partnerPrompts": [
+          "Wat heb je vandaag gedaan?",
+          "Ik kan pas om kwart over elf. Kan dat ook?",
+          "Hoe laat spreken we nu af?"
+        ]
+      }
+    ]
+  }
+]

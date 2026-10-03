@@ -1,5 +1,5 @@
 /** Structural/content-reference checks, never CEFR or pronunciation certification. */
-export function validatePractice(packs, units) {
+export function validatePractice(packs, units, { requireCumulative = true } = {}) {
   const errors = [];
   const text = (value) => typeof value === "string" && value.trim().length > 0;
   const arabic = (value) => text(value) && /[\u0600-\u06ff]/u.test(value);
@@ -38,6 +38,6 @@ export function validatePractice(packs, units) {
   }
   for (const unit of unitIds) if (!packs.some((pack) => pack?.slug === unit && pack.unitIds?.length === 1 && pack.unitIds[0] === unit)) errors.push(`Practice: missing unit pack ${unit}`);
   const final = packs.find((pack) => pack?.slug === "final-review");
-  if (!final || final.unitIds?.length !== unitIds.size || !final.unitIds.every((id) => unitIds.has(id))) errors.push("Practice: missing cumulative review");
+  if (requireCumulative && (!final || final.unitIds?.length !== unitIds.size || !final.unitIds.every((id) => unitIds.has(id)))) errors.push("Practice: missing cumulative review");
   return errors;
 }

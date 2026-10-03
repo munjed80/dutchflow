@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "a2-talking-after-the-weekend",
+    "unitId": "a2-recent-activities",
+    "title": "حديث بعد نهاية الأسبوع",
+    "dutchTitle": "Praten na het weekend",
+    "role": "أنت آدم؛ زرت أختك في دلفت السبت مع ابنك، وشربتما الشاي وعدتما السادسة.",
+    "partner": "زميلتك نور",
+    "mission": "أخبر نور عن الزيارة الخيالية، وأجب عن المرافق والنشاط، وصحّح وقت العودة إلى السادسة.",
+    "sourceLessons": [
+      "a2-a-weekend-visit",
+      "a2-telling-a-short-story"
+    ],
+    "turns": [
+      {
+        "id": "a2-weekend-turn-1",
+        "goal": "اذكر أين ذهبت السبت.",
+        "prompt": "Waar ben je zaterdag geweest?",
+        "translation": "أين كنت السبت؟",
+        "choices": [
+          {
+            "text": "Ik ga morgen naar mijn werk.",
+            "translation": "سأذهب غداً إلى عملي.",
+            "feedback": "هذا عن الغد، والسؤال عن السبت الماضي."
+          },
+          {
+            "text": "Ik ben naar mijn zus in Delft gegaan.",
+            "translation": "ذهبت إلى أختي في دلفت.",
+            "feedback": "ذكرت الشخص والمكان بصيغة الماضي."
+          },
+          {
+            "text": "Ik heb een zus.",
+            "translation": "لدي أخت.",
+            "feedback": "هذه معلومة عن الأسرة ولا تحدد الزيارة."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Leuk! Met wie ben je gegaan?",
+        "responseTranslation": "جميل! مع من ذهبت؟"
+      },
+      {
+        "id": "a2-weekend-turn-2",
+        "goal": "اذكر المرافق حسب بطاقة دورك.",
+        "prompt": "Met wie ben je gegaan?",
+        "translation": "مع من ذهبت؟",
+        "choices": [
+          {
+            "text": "Ik ben met mijn zoon gegaan.",
+            "translation": "ذهبت مع ابني.",
+            "feedback": "هذا يحدد المرافق المطلوب."
+          },
+          {
+            "text": "Ik ben om zes uur thuisgekomen.",
+            "translation": "عدت إلى المنزل السادسة.",
+            "feedback": "هذا وقت العودة وليس المرافق."
+          },
+          {
+            "text": "Ik ben met de trein gegaan.",
+            "translation": "ذهبت بالقطار.",
+            "feedback": "هذه وسيلة النقل، لا الشخص المرافق."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "En wat hebben jullie samen gedaan?",
+        "responseTranslation": "وماذا فعلتم معاً؟"
+      },
+      {
+        "id": "a2-weekend-turn-3",
+        "goal": "اذكر النشاط الذي فعلتموه.",
+        "prompt": "Wat hebben jullie samen gedaan?",
+        "translation": "ماذا فعلتم معاً؟",
+        "choices": [
+          {
+            "text": "We gaan zondag wandelen.",
+            "translation": "سنتمشى الأحد.",
+            "feedback": "هذا اقتراح أو خطة، لا النشاط المطلوب."
+          },
+          {
+            "text": "We wonen in Delft.",
+            "translation": "نسكن في دلفت.",
+            "feedback": "هذا مكان السكن وليس النشاط."
+          },
+          {
+            "text": "We hebben thee gedronken.",
+            "translation": "شربنا الشاي.",
+            "feedback": "أجبت بنشاط من الزيارة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Ben je om vijf uur thuisgekomen?",
+        "responseTranslation": "هل عدت إلى المنزل الخامسة؟"
+      },
+      {
+        "id": "a2-weekend-turn-4",
+        "goal": "صحح وقت العودة إلى السادسة.",
+        "prompt": "Ben je om vijf uur thuisgekomen?",
+        "translation": "هل وصلت إلى المنزل الخامسة؟",
+        "choices": [
+          {
+            "text": "Ja, om vijf uur.",
+            "translation": "نعم، الخامسة.",
+            "feedback": "هذا يؤكد وقتاً مخالفاً لبطاقة دورك."
+          },
+          {
+            "text": "Nee, ik ben om zes uur thuisgekomen.",
+            "translation": "لا، وصلت السادسة.",
+            "feedback": "صححت الوقت بصيغة واضحة."
+          },
+          {
+            "text": "Mijn zus woont in Delft.",
+            "translation": "أختي تسكن في دلفت.",
+            "feedback": "المكان معروف؛ المطلوب تصحيح الوقت."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Dus om zes uur. Bedankt voor je verhaal!",
+        "responseTranslation": "إذن السادسة. شكراً لأنك أخبرتني!"
+      }
+    ],
+    "transfer": {
+      "prompt": "غيّر التفاصيل: زرت أخاك في لايدن الأحد مع صديق، وشربتم القهوة. أخبر نور بذلك ثم اسألها ماذا فعلت هي.",
+      "model": "Zondag ben ik met een vriend naar mijn broer in Leiden gegaan. We hebben koffie gedronken. Wat heb jij gedaan?",
+      "translation": "ذهبت الأحد مع صديق إلى أخي في لايدن. شربنا القهوة. ماذا فعلت أنت؟",
+      "checklist": [
+        "هل استخدمت التفاصيل الجديدة بدلاً من نسخ الحوار؟",
+        "هل سألت نور سؤال متابعة عن الماضي؟"
+      ]
+    }
+  }
+]

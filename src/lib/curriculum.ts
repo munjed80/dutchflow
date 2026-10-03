@@ -1,3 +1,6 @@
+import a2Roadmap from "@/data/a2-roadmap.json";
+import a2Extensions from "@/data/a2-lesson-extensions.json";
+import type { CourseLevel } from "./levels";
 import roadmapData from "@/data/a1-roadmap.json";
 import extensionData from "@/data/lesson-extensions.json";
 
@@ -9,4 +12,6 @@ export type LessonExtension = {
   tasks: ProductionTask[];
 };
 export const curriculum: CurriculumUnit[] = roadmapData;
-export const lessonExtensions: LessonExtension[] = extensionData;
+export const lessonExtensions: LessonExtension[] = [...extensionData, ...a2Extensions];
+export const a2Curriculum: CurriculumUnit[] = a2Roadmap;
+export function getCurriculum(level: CourseLevel) { return level === "A1" ? curriculum : a2Curriculum; }

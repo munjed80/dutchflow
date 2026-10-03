@@ -1,34 +1,24 @@
-import { validateReviewLinks } from "./lib/validate-review-links.mjs";
-import { audioSources } from "./lib/audio-sources.mjs";
-import { validatePractice } from "./lib/validate-a1-practice.mjs";
-import { planAudio } from "./lib/audio-assets.mjs";
-import { validateScenarios } from "./lib/validate-scenarios.mjs";
 import { readFile } from "node:fs/promises";
-import { validatePlacement } from "./lib/validate-placement.mjs";
+import { readCourse } from "./lib/course-inventory.mjs";
+import { validateCourse } from "./lib/validate-course.mjs";
 import { validateCurriculum } from "./lib/validate-curriculum.mjs";
 import { validateReadings } from "./lib/validate-readings.mjs";
-import { validateLearningMap } from "./lib/validate-learning-map.mjs";
-
-const lessons = JSON.parse(await readFile(new URL("../src/data/lessons.json", import.meta.url), "utf8"));
-const modules = JSON.parse(await readFile(new URL("../src/data/modules.json", import.meta.url), "utf8"));
-const placement = JSON.parse(await readFile(new URL("../src/data/placement.json", import.meta.url), "utf8"));
-const readings = JSON.parse(await readFile(new URL("../src/data/readings.json", import.meta.url), "utf8"));
-const units = JSON.parse(await readFile(new URL("../src/data/a1-roadmap.json", import.meta.url), "utf8"));
-const extensions = JSON.parse(await readFile(new URL("../src/data/lesson-extensions.json", import.meta.url), "utf8"));
-const scenarios = JSON.parse(await readFile(new URL("../src/data/scenarios.json", import.meta.url), "utf8"));
-const practice = JSON.parse(await readFile(new URL("../src/data/a1-practice.json", import.meta.url), "utf8"));
-const pronunciation = JSON.parse(await readFile(new URL("../src/data/pronunciation.json", import.meta.url), "utf8"));
-const reviewLinks = JSON.parse(await readFile(new URL("../src/data/a1-review-links.json", import.meta.url), "utf8"));
-const errors = [...validateReviewLinks(reviewLinks, readings, practice, lessons), ...validatePractice(practice, units), ...validateCurriculum(lessons, modules), ...validatePlacement(placement, lessons), ...validateReadings(readings, lessons), ...validateLearningMap(units, extensions, lessons, readings), ...validateScenarios(scenarios, lessons, units)];
-
-try { planAudio(audioSources(lessons, practice, pronunciation), JSON.parse(await readFile(new URL("../src/data/audio-pronunciation.json", import.meta.url), "utf8"))); } catch (error) { errors.push(error.message); }
-
-if (errors.length) {
-  for (const error of errors) console.error(error);
-  process.exitCode = 1;
-} else {
-  console.log(`A1 practice valid: ${practice.length} packs; ${pronunciation.length} sound drills.`);
-  console.log(`Scenarios valid: ${scenarios.length} situations, ${scenarios.reduce((sum, scenario) => sum + scenario.turns.length, 0)} guided turns.`);
-  console.log(`Learning map valid: ${units.length} units, ${extensions.length} enriched lessons.`);
-  console.log(`Content valid: ${modules.length} modules, ${lessons.length} lessons, ${lessons.reduce((sum, lesson) => sum + lesson.phrases.length, 0)} phrases, ${lessons.reduce((sum, lesson) => sum + lesson.questions.length, 0)} questions; ${placement.questions.length} placement questions; ${readings.length} readings, ${readings.reduce((sum, reading) => sum + reading.questions.length, 0)} reading questions.`);
-}
+import { validateScenarios } from "./lib/validate-scenarios.mjs";
+import { validateReviewLinks } from "./lib/validate-review-links.mjs";
+import { validatePlacement } from "./lib/validate-placement.mjs";
+import { loadAudioInventory } from "./lib/audio-inventory.mjs";
+import { planAudio } from "./lib/audio-assets.mjs";
+const a1 = await readCourse("A1"), a2 = await readCourse("A2");
+const lessons = [...a1.lessons, ...a2.lessons], readings = [...a1.readings, ...a2.readings];
+const errors = [...validateCourse(a1, "A1"), ...validateCourse(a2, "A2"),
+  ...validateCurriculum(lessons, [...a1.modules, ...a2.modules]),
+  ...validateReadings(readings, lessons),
+  ...validateScenarios([...a1.scenarios, ...a2.scenarios], lessons, [...a1.units, ...a2.units]),
+  ...validateReviewLinks({ ...a1.reviewLinks, ...a2.reviewLinks }, readings, [...a1.practice, ...a2.practice], lessons),
+  ...validatePlacement(JSON.parse(await readFile(new URL("../src/data/placement.json", import.meta.url), "utf8")), a1.lessons),
+];
+const questionIds = [...readings.flatMap((reading) => reading.questions), ...[...a1.practice, ...a2.practice].flatMap((pack) => [...pack.reading.questions, ...pack.listening.questions])].map((question) => question.id);
+if (new Set(questionIds).size !== questionIds.length) errors.push("Course: duplicate comprehension question ID across levels/banks");
+try { const { sources, overrides } = await loadAudioInventory(); planAudio(sources, overrides); } catch (error) { errors.push(error.message); }
+if (errors.length) { for (const error of errors) console.error(error); process.exitCode = 1; }
+else for (const [level, course] of [["A1", a1], ["A2", a2]]) console.log(`${level}: ${course.lessons.length} lessons, ${course.readings.length} readings, ${course.scenarios.length} scenarios and ${course.practice.length} integrated packs validated.`);

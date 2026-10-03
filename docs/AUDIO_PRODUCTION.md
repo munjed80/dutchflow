@@ -2,9 +2,9 @@
 
 ## Current status
 
-No production credentials or MP3s are present. The manifest is empty, so playback still uses the Dutch device voice. The 41-lesson bank contains 271 phrases and plans 1,084 variants (two voices, two speeds). Paid exams are deferred while A1 and audio are completed.
+The repository manifest contains no approved recordings. Playback falls back to a Dutch device voice. The shared inventory has 400 sources / 1,600 variants: A1 has 343 lesson phrases + 11 connected passages + 13 drills (1,468 variants); A2 adds 32 lesson phrases + one connected passage (132 variants). No synthesis was performed in this implementation.
 
-This pipeline generates **lesson phrases only**. Readings and guided scenarios do not silently enter the audio bank. Complete phrase audio does not satisfy the curriculum requirement for unseen connected listening passages.
+`loadAudioInventory` is the common source for generation, approval and integrity checks. All A1 jobs remain unchanged and first. Library readings, writing models and text scenarios are not silently added to audio. Paid exams remain deferred.
 
 ## Configure and generate
 
@@ -12,17 +12,17 @@ Create a local `.env` using `.env.example`. Set `AZURE_SPEECH_KEY` and the match
 
 ```bash
 npm run content:check
-npm run audio:generate -- --dry-run
-node --env-file=.env scripts/generate-audio.mjs --limit=1
+npm run audio:generate -- --dry-run --level=A1
+node --env-file=.env scripts/generate-audio.mjs --level=A1 --limit=1
 ```
 
 The first batch has four clips. Listen before generating the remaining bank:
 
 ```bash
-node --env-file=.env scripts/generate-audio.mjs
+node --env-file=.env scripts/generate-audio.mjs --level=A1
 ```
 
-Azure receives only authored Dutch teaching phrases, not learner answers. Synthesis is a paid external operation according to the resource plan; the dry run prints job counts, cache hits and an approximate storage budget. At 48 kbit/s and an assumed five seconds per clip the current bank is about 31 MiB; real lengths vary. Review actual size before committing binaries. The existing deployment serves `/audio/` from `public/audio`; object storage/CDN migration remains future work.
+Azure receives only authored Dutch teaching phrases, not learner answers. Synthesis is a paid external operation according to the resource plan; the dry run prints job counts, cache hits and an approximate storage budget. At 48 kbit/s and an assumed five seconds per clip the combined bank is about 46 MiB; real lengths vary. Review actual size before committing binaries. The existing deployment serves `/audio/` from `public/audio`; object storage/CDN migration remains future work.
 
 ## Integrity and resumability
 
@@ -75,4 +75,16 @@ The shared `audioSources` inventory includes **343 lesson phrases, 11 connected 
 
 The earlier five-second-per-clip storage estimate is a rough reference, not a cost quote: connected passages and the alphabet are longer. Current passage playback permits up to 90 seconds; all recordings, including slow playback, must actually finish within that bound. Check the 26-letter alphabet and sound contrasts with a Dutch speaker; device fallback does not honor SSML pronunciation overrides and is not an approved reference recording.
 
-No real credentials, synthesis, audio decoding or listening approval was available during this expansion. `audio:check -- --require-complete` still fails at 0/1,468. Do not flip review flags without listening or mark the course recording gate complete.
+No real credentials, synthesis, audio decoding or listening approval was available during this expansion. `audio:check -- --require-complete --level=A1` still fails at 0/1,468. Do not flip review flags without listening or mark the course recording gate complete.
+
+## Choosing a level
+
+Use `--level=A1` to continue the existing recording project or `--level=A2` for the new 33-source slice. Without a level flag, generation and completeness cover both levels. `--limit` applies after level selection. No credentials are needed for a dry run.
+
+```bash
+npm run audio:generate -- --dry-run --level=A2
+npm run audio:check -- --require-complete --level=A1
+npm run audio:check -- --require-complete --level=A2
+```
+
+A scoped strict check measures completeness only for that level, but still verifies global manifest consistency and existing catalog-asset integrity. Approval/rejection always rebuilds the full manifest; approving A2 must never remove approved A1 URLs. The new native test compares every legacy request, filename and SSML byte before the appended jobs.

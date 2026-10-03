@@ -23,6 +23,7 @@ export function validateCurriculum(lessons, modules) {
   modules.forEach((module, index) => {
     const path = `modules[${index}]`;
     if (!isRecord(module)) { errors.push(`${path}: must be an object`); return; }
+    if (module.level !== undefined && !["A1", "A2"].includes(module.level)) errors.push(`${path}.level: unsupported module level`);
     requireId(module.id, `${path}.id`, moduleIds);
     requireText(module.title, `${path}.title`);
     requireText(module.description, `${path}.description`);
@@ -32,14 +33,19 @@ export function validateCurriculum(lessons, modules) {
   const phraseIds = new Set();
   const questionIds = new Set();
   let previousModuleIndex = -1;
+  const levelCounts = new Map();
 
   lessons.forEach((lesson, index) => {
     const path = `lessons[${index}]`;
     if (!isRecord(lesson)) { errors.push(`${path}: must be an object`); return; }
     requireId(lesson.slug, `${path}.slug`, slugs);
     for (const key of ["title", "dutchTitle", "description", "context", "goal"]) requireText(lesson[key], `${path}.${key}`);
-    if (lesson.level !== "A1") errors.push(`${path}.level: this curriculum currently supports A1 only`);
-    if (lesson.number !== String(index + 1).padStart(2, "0")) errors.push(`${path}.number: must follow the lesson order`);
+    if (!["A1", "A2"].includes(lesson.level)) errors.push(`${path}.level: unsupported course level`);
+    const number = (levelCounts.get(lesson.level) ?? 0) + 1;
+    levelCounts.set(lesson.level, number);
+    const module = modules.find((item) => item?.id === lesson.moduleId);
+    if (module && (module.level ?? "A1") !== lesson.level) errors.push(`${path}.moduleId: level mismatch`);
+    if (lesson.number !== String(number).padStart(2, "0")) errors.push(`${path}.number: must follow the lesson order`);
     if (!Number.isInteger(lesson.durationMinutes) || lesson.durationMinutes < 1) errors.push(`${path}.durationMinutes: must be a positive integer`);
     if (!moduleIds.has(lesson.moduleId)) errors.push(`${path}.moduleId: unknown module`);
     const moduleIndex = modules.findIndex((module) => module?.id === lesson.moduleId);

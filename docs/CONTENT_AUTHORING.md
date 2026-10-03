@@ -28,3 +28,9 @@ For separate guided text dialogues, read `docs/SCENARIOS.md`. Scenario IDs do no
 ## Remediation links
 
 Every library reading and integrated reading/listening question must have one or two relevant published lesson links in `src/data/a1-review-links.json`. Keep the mapping synchronized with question IDs and objectives. `content:check` verifies complete coverage; review relevance yourself using `docs/A1_TARGETED_REVIEW.md`.
+
+## Level-aware authoring
+
+A1 banks retain their original filenames; the first A2 unit uses separate `a2-*.json` banks. Read `A2_FIRST_UNIT.md` for the schema and route contract. Run `content:check` across both levels, not just one file. New slugs, phrase IDs, unit IDs and question IDs must be globally unique; new A2 IDs begin with `a2-`. Display numbering restarts at 01 for each level. Module levels and lesson levels must agree; source links/remediation stay within their validated level.
+
+Every unit needs distinct reading/listening sources, evidence-backed questions and original production/interaction. Adding A2 lessons must not change A1's denominator, ordering, recommendation boundary or any existing audio request. Update the current handoff and audio inventory documentation when adding sources.
