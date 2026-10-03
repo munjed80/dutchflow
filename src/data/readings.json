@@ -1608,7 +1608,7 @@
       }
     ],
     "grammar": {
-      "title": "als مع سبب عملي",
+      "title": "als بمعنى عندما في موقف متكرر",
       "example": "Zij spreekt langzaam met mij als ik iets niet begrijp.",
       "translation": "هي تتحدث معي ببطء عندما لا أفهم شيئاً.",
       "explanation": "تربط als هنا الموقف بالفعل المناسب له. المتحدثة لا تقول إنها لا تفهم دائماً، بل تحدد ما يحدث عندما يظهر هذا الموقف."
@@ -1695,7 +1695,7 @@
       "title": "ظرف اليوم في أول الجملة",
       "example": "Op zaterdag schrijven we de nieuwe woorden om 10:00 in de bibliotheek.",
       "translation": "يوم السبت نكتب الكلمات الجديدة الساعة 10:00 في المكتبة.",
-      "explanation": "عندما تبدأ الجملة بعبارة يوم مثل Op zaterdag يأتي الفعل schrij​ven بعدها مباشرة قبل we في الجملة الرئيسية."
+      "explanation": "عندما تبدأ الجملة بعبارة يوم مثل Op zaterdag يأتي الفعل schrijven بعدها مباشرة قبل we في الجملة الرئيسية."
     },
     "questions": [
       {
@@ -1724,7 +1724,7 @@
       },
       {
         "id": "reading-study-week-3",
-        "prompt": "في أي يوم لا يوجد درس؟",
+        "prompt": "في أي يوم يذكر النص صراحةً أنه لا يوجد درس؟",
         "options": [
           "الخميس",
           "الجمعة",
@@ -1739,7 +1739,7 @@
   {
     "slug": "a-message-about-parent-evening",
     "title": "رسالة عن لقاء أولياء الأمور",
-    "dutchTitle": "Een bericht over de ouderavond",
+    "dutchTitle": "Een bericht over het oudergesprek",
     "topic": "الأسرة والمدرسة",
     "sourceLessons": [
       "school-and-family",
@@ -2083,7 +2083,7 @@
       "asking-for-clarification"
     ],
     "text": "Beste mevrouw Saleh, de arts leest eerst uw formulier. Schrijf daarom uw klacht en de begindag duidelijk op. Begrijpt u een woord niet? Vraag het aan de balie. Uw afspraak blijft op maandag om 09:10. Dit bericht geeft geen medisch advies; het is taaltraining.",
-    "translation": "السيدة صالح المحترمة، يقرأ الطبيب استمارتك أولاً. لذلك اكتب الشكوى ويوم البداية بوضوح. لا تفهمين كلمة ما؟ اسألي عنها في الاستقبال. يبقى موعدك يوم الاثنين الساعة 09:10. هذه الرسالة لا تقدم نصيحة طبية؛ إنها تدريب لغوي.",
+    "translation": "السيدة صالح المحترمة، يقرأ الطبيب استمارتك أولاً. لذلك اكتبي الشكوى ويوم البداية بوضوح. لا تفهمين كلمة ما؟ اسألي عنها في الاستقبال. يبقى موعدك يوم الاثنين الساعة 09:10. هذه الرسالة لا تقدم نصيحة طبية؛ إنها تدريب لغوي.",
     "vocabulary": [
       {
         "term": "de arts",
@@ -2114,7 +2114,7 @@
     "grammar": {
       "title": "لذلك مع daarom",
       "example": "Schrijf daarom uw klacht en de begindag duidelijk op.",
-      "translation": "لذلك اكتب الشكوى ويوم البداية بوضوح.",
+      "translation": "لذلك اكتبي الشكوى ويوم البداية بوضوح.",
       "explanation": "تربط daarom السبب بالنتيجة العملية: بما أن الطبيب يقرأ الاستمارة أولاً، ينبغي كتابة المعلومات بوضوح."
     },
     "questions": [
@@ -2166,8 +2166,8 @@
       "letters-and-messages",
       "changing-an-appointment"
     ],
-    "text": "Voor uw afspraak vragen wij nog twee gegevens: uw telefoonnummer en uw geboortedatum. Uw adres hebben we al. Stuur de informatie vandaag per e-mail. Daarna bellen wij u terug met het juiste tijdstip. Zonder deze gegevens blijft uw afspraak voorlopig openstaan.",
-    "translation": "قبل موعدك نطلب منك بعدُ معلومتين: رقم هاتفك وتاريخ ميلادك. عنوانك موجود لدينا بالفعل. أرسل المعلومات اليوم عبر البريد الإلكتروني. بعد ذلك سنتصل بك مجدداً بالوقت الصحيح. من دون هذه البيانات سيبقى موعدك مفتوحاً مؤقتاً.",
+    "text": "Voor uw afspraak vragen wij nog twee gegevens: uw telefoonnummer en uw geboortedatum. Uw adres hebben we al. Stuur de informatie vandaag per e-mail. Daarna bellen wij u terug met het juiste tijdstip. Zonder deze gegevens kunnen we uw afspraak nog niet bevestigen.",
+    "translation": "قبل موعدك، ما زلنا نحتاج إلى معلومتين: رقم هاتفك وتاريخ ميلادك. عنوانك موجود لدينا بالفعل. أرسل المعلومات اليوم عبر البريد الإلكتروني. بعد ذلك سنتصل بك مجدداً لإخبارك بوقت الموعد. من دون هذه البيانات لا نستطيع تأكيد موعدك بعد.",
     "vocabulary": [
       {
         "term": "het gegeven",
@@ -2190,15 +2190,15 @@
         "meaning": "نعاود الاتصال بك."
       },
       {
-        "term": "voorlopig",
-        "excerpt": "voorlopig",
-        "meaning": "مؤقتاً أو إلى حين استكمال البيانات."
+        "term": "bevestigen",
+        "excerpt": "bevestigen",
+        "meaning": "يؤكد؛ هنا تأكيد الموعد بعد استلام البيانات."
       }
     ],
     "grammar": {
       "title": "Zonder لغياب المعلومة",
-      "example": "Zonder deze gegevens blijft uw afspraak voorlopig openstaan.",
-      "translation": "من دون هذه البيانات سيبقى موعدك مفتوحاً مؤقتاً.",
+      "example": "Zonder deze gegevens kunnen we uw afspraak nog niet bevestigen.",
+      "translation": "من دون هذه البيانات لا نستطيع تأكيد موعدك بعد.",
       "explanation": "توضح Zonder هنا الشرط الناقص الذي يمنع تثبيت الموعد نهائياً. المتلقي يحتاج إلى إرسال البيانات أولاً."
     },
     "questions": [
@@ -2231,12 +2231,12 @@
         "prompt": "هل الموعد مؤكد بدون هذه البيانات؟",
         "options": [
           "نعم، مؤكد تماماً",
-          "لا، يبقى مفتوحاً مؤقتاً",
+          "لا، لا يمكن تأكيده بعد",
           "نعم، لكنه ينتقل إلى الجمعة"
         ],
         "correctIndex": 1,
-        "evidence": "Zonder deze gegevens blijft uw afspraak voorlopig openstaan.",
-        "explanation": "openstaan voorlopig تعني أن الموعد غير محسم بعد."
+        "evidence": "Zonder deze gegevens kunnen we uw afspraak nog niet bevestigen.",
+        "explanation": "nog niet bevestigen تعني عدم إمكانية التأكيد بعد؛ يجب إرسال البيانات أولاً."
       }
     ]
   },
@@ -2296,7 +2296,7 @@
         ],
         "correctIndex": 0,
         "evidence": "Daarna zet je drie dozen op het rek bij de deur.",
-        "explanation": "يوضع معظم الصناديق على الرف، بينما الصندوق الأحمر فقط يبقى على الطاولة."
+        "explanation": "النص يطلب وضع ثلاثة صناديق على الرف عند الباب، وإبقاء الصندوق الأحمر على الطاولة."
       },
       {
         "id": "reading-early-shift-2",
@@ -2335,7 +2335,7 @@
       "invitations-and-plans"
     ],
     "text": "Hoi Lina, vrijdagavond is er een film in het buurthuis. Ik kan pas om 19:30 komen, want ik werk tot zeven uur. Als het mooi weer blijft, lopen we erheen. Anders neem ik de fiets. Zullen we voor de ingang afspreken? Laat je het vandaag nog weten?",
-    "translation": "مرحباً لينا، توجد أمسية فيلم مساء الجمعة في مركز الحي. لا أستطيع الحضور إلا الساعة 19:30، لأنني أعمل حتى السابعة. إذا بقي الطقس جميلاً سنمشي إلى هناك. وإلا فسآخذ الدراجة. هل نلتقي أمام المدخل؟ أخبريني اليوم إذاً.",
+    "translation": "مرحباً لينا، توجد أمسية فيلم مساء الجمعة في مركز الحي. لا أستطيع الحضور إلا الساعة 19:30، لأنني أعمل حتى السابعة. إذا بقي الطقس جميلاً سنمشي إلى هناك. وإلا فسآخذ الدراجة. هل نلتقي أمام المدخل؟ هل تخبرينني اليوم؟",
     "vocabulary": [
       {
         "term": "het buurthuis",
@@ -2391,7 +2391,7 @@
           "يذهب إلى المدرسة"
         ],
         "correctIndex": 1,
-        "evidence": "Anders neem ik de fiets.",
+        "evidence": "Als het mooi weer blijft, lopen we erheen. Anders neem ik de fiets.",
         "explanation": "Anders تشير إلى الخطة البديلة عندما لا يبقى الطقس جميلاً."
       },
       {

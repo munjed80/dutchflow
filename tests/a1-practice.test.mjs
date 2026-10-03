@@ -60,3 +60,13 @@ test("foundation tables retain valid dimensions and link only to published lesso
     for (const slug of table.sourceLessons) assert.ok(lessons.some((lesson) => lesson.slug === slug));
   }
 });
+
+// A distinct ID must not hide a repeated question within the same activity.
+test("practice rejects repeated prompts within a source while allowing reuse across sources", () => {
+  const copy = structuredClone(packs);
+  copy[0].reading.questions[1].prompt = `  ${copy[0].reading.questions[0].prompt.replaceAll(" ", "  ")}  `;
+  assert.ok(validatePractice(copy, units).some((error) => error.includes("duplicate question prompt in introducing-yourself/reading")));
+  copy[0].reading.questions[1].prompt = packs[0].reading.questions[1].prompt;
+  copy[0].listening.questions[0].prompt = copy[0].reading.questions[0].prompt;
+  assert.deepEqual(validatePractice(copy, units), []);
+});
