@@ -117,5 +117,124 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "a2-work-coordination",
+    "title": "مراجعة: أنجزنا جزءاً ونؤكد الباقي",
+    "unitIds": [
+      "a2-work-coordination"
+    ],
+    "reading": {
+      "text": "Dag Amir, voor de bijeenkomst heb ik twaalf formulieren gecontroleerd. Ik heb er negen in de blauwe map gelegd. De andere drie liggen nog naast de computer, want de namen ontbreken. Kun jij de namen aan Noor vragen en de formulieren daarna in de map leggen? De bijeenkomst begint om vier uur. De map moet voor kwart voor vier bij de receptie liggen. Bel mij uiterlijk om half vier om te vertellen of alles lukt. Groet, Lina.",
+      "translation": "مرحباً أمير، راجعت اثنتي عشرة استمارة من أجل الاجتماع. وضعت تسعاً منها في الملف الأزرق. الاستمارات الثلاث الأخرى ما زالت بجانب الحاسوب لأن الأسماء غير موجودة. هل يمكنك سؤال نور عن الأسماء ثم وضع الاستمارات في الملف؟ يبدأ الاجتماع الساعة الرابعة. يجب أن يكون الملف عند الاستقبال قبل الرابعة إلا ربعاً. اتصل بي في موعد أقصاه الثالثة والنصف لتخبرني إن كان كل شيء يسير كما ينبغي. تحياتي، لينا.",
+      "questions": [
+        {
+          "id": "a2-work-practice-read-1",
+          "prompt": "ما الذي يمنع إكمال الاستمارات الثلاث؟",
+          "options": [
+            "غياب الأسماء",
+            "ضياع الملف",
+            "غياب لينا"
+          ],
+          "correctIndex": 0,
+          "evidence": "De andere drie liggen nog naast de computer, want de namen ontbreken.",
+          "explanation": "ontbreken تعني أن الأسماء غير موجودة."
+        },
+        {
+          "id": "a2-work-practice-read-2",
+          "prompt": "أي ترتيب مطلوب من أمير؟",
+          "options": [
+            "نقل الملف ثم سؤال نور",
+            "سؤال نور عن الأسماء ثم وضع الاستمارات في الملف",
+            "إلغاء الاجتماع ثم الاتصال"
+          ],
+          "correctIndex": 1,
+          "evidence": "Kun jij de namen aan Noor vragen en de formulieren daarna in de map leggen?",
+          "explanation": "daarna ترتب وضع الاستمارات بعد سؤال نور."
+        },
+        {
+          "id": "a2-work-practice-read-3",
+          "prompt": "ما أقصى موعد للاتصال، وأين يجب وضع الملف بعد ذلك؟",
+          "options": [
+            "16:00 بجانب الحاسوب",
+            "15:45 بجانب الباب",
+            "15:30 عند الاستقبال قبل 15:45"
+          ],
+          "correctIndex": 2,
+          "evidence": "De map moet voor kwart voor vier bij de receptie liggen. Bel mij uiterlijk om half vier om te vertellen of alles lukt.",
+          "explanation": "الاتصال بحد أقصى 15:30، والملف عند الاستقبال قبل 15:45."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-work-coordination",
+      "text": "Hoi Amir, met Lina. Noor heeft de drie namen gestuurd. Je hoeft haar dus niet meer te bellen. Leg de laatste drie formulieren in de groene map, niet in de blauwe. De bijeenkomst begint nu om half vijf. Breng de groene map voor vier uur naar kamer twee. Stuur mij uiterlijk om kwart voor vier een bericht. Bellen hoeft niet meer. Dank je!",
+      "translation": "مرحباً أمير، معك لينا. أرسلت نور الأسماء الثلاثة، لذا لم تعد بحاجة إلى الاتصال بها. ضع الاستمارات الثلاث الأخيرة في الملف الأخضر، وليس الأزرق. أصبح الاجتماع يبدأ الساعة الرابعة والنصف. أحضر الملف الأخضر إلى الغرفة الثانية قبل الرابعة. أرسل لي رسالة في موعد أقصاه الرابعة إلا ربعاً. لم يعد الاتصال ضرورياً. شكراً!",
+      "questions": [
+        {
+          "id": "a2-work-practice-listen-1",
+          "prompt": "ما المهمة التي لم تعد مطلوبة من أمير؟",
+          "options": [
+            "إحضار الملف",
+            "وضع الاستمارات في الملف",
+            "الاتصال بنور لطلب الأسماء"
+          ],
+          "correctIndex": 2,
+          "evidence": "Noor heeft de drie namen gestuurd. Je hoeft haar dus niet meer te bellen.",
+          "explanation": "نور أرسلت الأسماء بالفعل؛ لا حاجة إلى طلبها هاتفياً."
+        },
+        {
+          "id": "a2-work-practice-listen-2",
+          "prompt": "ما اللون والمكان الصحيحان بعد التحديث؟",
+          "options": [
+            "الملف الأخضر إلى الغرفة الثانية",
+            "الملف الأزرق إلى الاستقبال",
+            "الملف الأخضر بجانب الحاسوب"
+          ],
+          "correctIndex": 0,
+          "evidence": "Leg de laatste drie formulieren in de groene map, niet in de blauwe. De bijeenkomst begint nu om half vijf. Breng de groene map voor vier uur naar kamer twee.",
+          "explanation": "المعلومتان تغيرتا؛ اعتمد الأخضر والغرفة الثانية."
+        },
+        {
+          "id": "a2-work-practice-listen-3",
+          "prompt": "كيف ومتى يجب تأكيد الإنجاز الآن؟",
+          "options": [
+            "باتصال عند 16:30",
+            "برسالة بحد أقصى 15:45",
+            "برسالة بعد 16:00"
+          ],
+          "correctIndex": 1,
+          "evidence": "Stuur mij uiterlijk om kwart voor vier een bericht. Bellen hoeft niet meer.",
+          "explanation": "تطلب لينا رسالة بدلاً من الاتصال، بحد أقصى 15:45."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب تحديثاً خيالياً لنور: فحصت سبع طلبيات وحزمت خمساً. لم تحزم اثنتين لأن الصناديق نفدت. اطلب منها جلب الصناديق الساعة الثانية، واطلب تأكيد الإمكانية.",
+        "model": "Hoi Noor, ik heb zeven bestellingen gecontroleerd. Ik heb er vijf ingepakt. De andere twee zijn nog niet klaar, want de dozen zijn op. Kun je om twee uur nieuwe dozen halen? Lukt dat?",
+        "translation": "مرحباً نور، راجعت سبع طلبيات. حزمت خمساً منها. الطلبيتان الأخريان ليستا جاهزتين لأن الصناديق نفدت. هل يمكنك جلب صناديق جديدة الساعة الثانية؟ هل هذا ممكن؟",
+        "checklist": [
+          "هل ميزت المنجز والمتبقي مع السبب؟",
+          "هل ذكرت المهمة والساعة وسألت عن التأكيد؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أنت أمير وشريكك لينا: تريد لينا الاستمارات في الملف الأحمر قبل 13:00. اسأل هل تقصد الملف بجانب الطابعة. تصحح لك أنه فوق الخزانة، ثم تطلب رسالة بحلول 12:45. أعد المكان والمهلة للتأكيد.",
+        "model": "Bedoel je de rode map naast de printer?\nPartner: Nee, de rode map op de kast. Stuur mij uiterlijk om kwart voor één een bericht.\nDus de formulieren in de rode map op de kast, voor één uur. Ik stuur je uiterlijk om kwart voor één een bericht. Klopt dat?\nPartner: Ja, precies.",
+        "translation": "هل تقصدين الملف الأحمر بجانب الطابعة؟\nالشريك: لا، الملف الأحمر فوق الخزانة. أرسل لي رسالة في موعد أقصاه الواحدة إلا ربعاً.\nإذن الاستمارات في الملف الأحمر فوق الخزانة قبل الواحدة. سأرسل لك رسالة في موعد أقصاه الواحدة إلا ربعاً. هل هذا صحيح؟\nالشريك: نعم، بالضبط.",
+        "checklist": [
+          "هل طلبت توضيح المكان واستوعبت التصحيح؟",
+          "هل ميزت مهلة المهمة عن مهلة الرسالة وطلبت التأكيد؟"
+        ],
+        "partnerPrompts": [
+          "Kun je de formulieren voor één uur in de rode map leggen?",
+          "Nee, de rode map op de kast. Stuur mij uiterlijk om kwart voor één een bericht.",
+          "Ja, precies."
+        ]
+      }
+    ]
   }
 ]

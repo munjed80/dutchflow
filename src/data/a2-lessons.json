@@ -590,5 +590,597 @@
         "explanation": "الفعل المصرف heb يسبق ik بعد Daarna."
       }
     ]
+  },
+  {
+    "slug": "a2-reporting-task-progress",
+    "moduleId": "a2-work-coordination",
+    "level": "A2",
+    "number": "05",
+    "title": "أخبر زميلك بتقدّم المهمة",
+    "dutchTitle": "Vertellen hoe ver je bent",
+    "description": "أميّز بين المهمة المكتملة والمتبقية وأتفق على الخطوة التالية.",
+    "durationMinutes": 12,
+    "context": "تتبادل أنت ونور تحديثاً عن صناديق في متجر خيالي.",
+    "goal": "أميّز بين المهمة المكتملة والمتبقية وأتفق على الخطوة التالية.",
+    "grammar": {
+      "title": "al وnog niet في متابعة العمل",
+      "explanation": "al تعني هنا أن المهمة أُنجزت بالفعل، وnog niet أنها لم تُنجز بعد. قارن الفعل المنتهي بالخطة التالية. نقول inpakken → ingepakt، ونفصل الفعل في الحاضر: ik pak ... in.",
+      "example": "Ik heb de dozen al ingepakt.",
+      "translation": "لقد حزمت الصناديق بالفعل."
+    },
+    "phrases": [
+      {
+        "id": "a2-reporting-task-progress-01",
+        "dutch": "Heb je de bestelling al gecontroleerd?",
+        "arabic": "هل راجعت الطلبية بالفعل؟",
+        "tip": "al تسأل هنا هل أُنجزت المهمة."
+      },
+      {
+        "id": "a2-reporting-task-progress-02",
+        "dutch": "Ja, ik heb alle zes dozen gecontroleerd.",
+        "arabic": "نعم، فحصت الصناديق الستة كلها.",
+        "tip": "alle zes لا تعني بعض الصناديق."
+      },
+      {
+        "id": "a2-reporting-task-progress-03",
+        "dutch": "Ik heb er vier ingepakt.",
+        "arabic": "حزمت أربعة منها.",
+        "tip": "er تعود إلى الصناديق؛ inpakken → ingepakt."
+      },
+      {
+        "id": "a2-reporting-task-progress-04",
+        "dutch": "De andere twee zijn nog niet klaar.",
+        "arabic": "الصندوقان الآخران ليسا جاهزين بعد.",
+        "tip": "nog niet klaar تعني عدم الجاهزية حتى الآن."
+      },
+      {
+        "id": "a2-reporting-task-progress-05",
+        "dutch": "Wat moet er nog gebeuren?",
+        "arabic": "ما الذي ما زال يجب إنجازه؟",
+        "tip": "سؤال شائع عن العمل المتبقي."
+      },
+      {
+        "id": "a2-reporting-task-progress-06",
+        "dutch": "Ik moet de laatste twee dozen nog inpakken.",
+        "arabic": "ما زال عليّ حزم الصندوقين الأخيرين.",
+        "tip": "بعد moet نستخدم المصدر inpakken."
+      },
+      {
+        "id": "a2-reporting-task-progress-07",
+        "dutch": "Dan controleer ik de adressen.",
+        "arabic": "سأراجع العناوين عندئذ.",
+        "tip": "الفعل controleer يسبق ik بعد Dan."
+      },
+      {
+        "id": "a2-reporting-task-progress-08",
+        "dutch": "Goed, daarna zetten we alles bij de deur.",
+        "arabic": "حسناً، بعد ذلك نضع كل شيء بجانب الباب.",
+        "tip": "نراجع eerst وdaarna من الوحدة السابقة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-reporting-task-progress-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-04"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-reporting-task-progress-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-06"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-reporting-task-progress-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-reporting-task-progress-q1",
+        "prompt": "كم صندوقاً فُحص في الحوار؟",
+        "options": [
+          "أربعة",
+          "ستة",
+          "اثنان"
+        ],
+        "correctIndex": 1,
+        "explanation": "alle zes dozen تعني الصناديق الستة كلها."
+      },
+      {
+        "id": "a2-reporting-task-progress-q2",
+        "prompt": "ما العمل الذي ما زال متبقياً على آدم؟",
+        "options": [
+          "فحص ستة صناديق",
+          "حزم صندوقين",
+          "قراءة العناوين"
+        ],
+        "correctIndex": 1,
+        "explanation": "يقول إنه يجب أن يحزم الصندوقين الأخيرين."
+      },
+      {
+        "id": "a2-reporting-task-progress-q3",
+        "prompt": "ماذا تشير إليه er في Ik heb er vier ingepakt؟",
+        "options": [
+          "أربعة عناوين",
+          "أربع طلبيات جديدة",
+          "أربعة من الصناديق"
+        ],
+        "correctIndex": 2,
+        "explanation": "er تستبدل اسم الأشياء المعدودة المعروفة من السياق."
+      },
+      {
+        "id": "a2-reporting-task-progress-q4",
+        "prompt": "أكمل: Ik heb de dozen al ... .",
+        "options": [
+          "ingepakt",
+          "inpakken",
+          "pak in"
+        ],
+        "correctIndex": 0,
+        "explanation": "مع heb نستخدم اسم المفعول ingepakt."
+      }
+    ]
+  },
+  {
+    "slug": "a2-explaining-a-delay",
+    "moduleId": "a2-work-coordination",
+    "level": "A2",
+    "number": "06",
+    "title": "اشرح سبب التأخير",
+    "dutchTitle": "Een vertraging uitleggen",
+    "description": "أشرح تأخر مهمة بسبب بسيط وأقترح وقتاً جديداً.",
+    "durationMinutes": 12,
+    "context": "الطابعة في المكتب الخيالي لا تعمل، فتشرح لنور سبب تأخر القائمة.",
+    "goal": "أشرح تأخر مهمة بسبب بسيط وأقترح وقتاً جديداً.",
+    "grammar": {
+      "title": "ربط السبب باستخدام want",
+      "explanation": "want تربط هنا جملتين رئيسيتين؛ يبقى الفاعل قبل الفعل في مثال السبب: want de printer werkt niet. لا ننقل الفعل إلى النهاية كما يحدث في الجملة التابعة مع omdat. نركز الآن على want ونؤجل تدريب الجمل التابعة.",
+      "example": "Ik kan niet printen, want de printer werkt niet.",
+      "translation": "لا أستطيع الطباعة لأن الطابعة لا تعمل."
+    },
+    "phrases": [
+      {
+        "id": "a2-explaining-a-delay-01",
+        "dutch": "Is de lijst al klaar?",
+        "arabic": "هل القائمة جاهزة بالفعل؟",
+        "tip": "klaar تعني جاهزة."
+      },
+      {
+        "id": "a2-explaining-a-delay-02",
+        "dutch": "Nee, ik kan niet printen, want de printer werkt niet.",
+        "arabic": "لا، لا أستطيع الطباعة لأن الطابعة لا تعمل.",
+        "tip": "want تقدم سبب المشكلة مع ترتيب الجملة الرئيسية."
+      },
+      {
+        "id": "a2-explaining-a-delay-03",
+        "dutch": "Heb je hulp gevraagd?",
+        "arabic": "هل طلبت المساعدة؟",
+        "tip": "نراجع heb gevraagd من الوحدة الأولى."
+      },
+      {
+        "id": "a2-explaining-a-delay-04",
+        "dutch": "Ja, ik heb de collega van de receptie gebeld.",
+        "arabic": "نعم، اتصلت بزميل الاستقبال.",
+        "tip": "bellen → gebeld."
+      },
+      {
+        "id": "a2-explaining-a-delay-05",
+        "dutch": "Hij komt om half elf.",
+        "arabic": "سيأتي الساعة العاشرة والنصف.",
+        "tip": "half elf تعني 10:30."
+      },
+      {
+        "id": "a2-explaining-a-delay-06",
+        "dutch": "Kun je de lijst om elf uur brengen?",
+        "arabic": "هل يمكنك إحضار القائمة الساعة الحادية عشرة؟",
+        "tip": "هذا اقتراح لوقت تسليم جديد."
+      },
+      {
+        "id": "a2-explaining-a-delay-07",
+        "dutch": "Ja, dat lukt. Ik breng de lijst om elf uur.",
+        "arabic": "نعم، يمكنني ذلك. سأحضر القائمة الساعة الحادية عشرة.",
+        "tip": "dat lukt تؤكد القدرة على تنفيذ الاقتراح."
+      },
+      {
+        "id": "a2-explaining-a-delay-08",
+        "dutch": "Dank je. Stuur mij nu alvast de lijst per e-mail.",
+        "arabic": "شكراً. أرسل لي القائمة الآن بالبريد الإلكتروني ريثما تأتي بها.",
+        "tip": "alvast تشير هنا إلى إجراء يمكن إنجازه مسبقاً."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-explaining-a-delay-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-a-delay-02"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-explaining-a-delay-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-a-delay-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-a-delay-05"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-explaining-a-delay-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-a-delay-07"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-explaining-a-delay-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-explaining-a-delay-q1",
+        "prompt": "لماذا لم تُطبع القائمة؟",
+        "options": [
+          "الطابعة لا تعمل",
+          "القائمة مفقودة",
+          "نور في عطلة"
+        ],
+        "correctIndex": 0,
+        "explanation": "المشكلة المذكورة هي de printer werkt niet."
+      },
+      {
+        "id": "a2-explaining-a-delay-q2",
+        "prompt": "أي وقت يخص وصول زميل الاستقبال؟",
+        "options": [
+          "11:00",
+          "10:00",
+          "10:30"
+        ],
+        "correctIndex": 2,
+        "explanation": "Hij komt om half elf؛ أما 11:00 فهو وقت إحضار القائمة."
+      },
+      {
+        "id": "a2-explaining-a-delay-q3",
+        "prompt": "أي جملة تعطي سبباً بترتيب صحيح بعد want؟",
+        "options": [
+          "Ik wacht, want de printer niet werkt.",
+          "Ik wacht, want de printer werkt niet.",
+          "Ik wacht, want werkt niet de printer."
+        ],
+        "correctIndex": 1,
+        "explanation": "بعد want تبدأ هنا جملة رئيسية: de printer werkt niet."
+      },
+      {
+        "id": "a2-explaining-a-delay-q4",
+        "prompt": "ماذا تطلب نور الآن قبل إحضار القائمة؟",
+        "options": [
+          "إلغاء القائمة",
+          "انتظار الغد",
+          "إرسالها بالبريد الإلكتروني"
+        ],
+        "correctIndex": 2,
+        "explanation": "nu alvast تحدد الإجراء المطلوب الآن."
+      }
+    ]
+  },
+  {
+    "slug": "a2-clarifying-instructions",
+    "moduleId": "a2-work-coordination",
+    "level": "A2",
+    "number": "07",
+    "title": "اطلب توضيح التعليمات",
+    "dutchTitle": "Instructies verduidelijken",
+    "description": "أطلب إعادة الشرح وأؤكد ترتيب المهمة ومكانها.",
+    "durationMinutes": 12,
+    "context": "تخاطب مشرفة خيالية بصيغة u للتأكد من تعليمات تجهيز أوراق.",
+    "goal": "أطلب إعادة الشرح وأؤكد ترتيب المهمة ومكانها.",
+    "grammar": {
+      "title": "طلب التوضيح بأدب",
+      "explanation": "Kunt u ...? طلب مهذب بصيغة u. يأتي المصدر لاحقاً: Kunt u dat herhalen? وللتأكد نستخدم Bedoelt u ...? مع إعادة التفصيل المشكوك فيه. في هذا الحوار حافظ على u بدلاً من خلطها مع je.",
+      "example": "Kunt u dat nog een keer uitleggen?",
+      "translation": "هل يمكنكم شرح ذلك مرة أخرى؟"
+    },
+    "phrases": [
+      {
+        "id": "a2-clarifying-instructions-01",
+        "dutch": "Wilt u eerst deze formulieren controleren?",
+        "arabic": "هل يمكنكم مراجعة هذه الاستمارات أولاً؟",
+        "tip": "Wilt u هنا طلب مهذب وليس سؤالاً عن الرغبة فقط."
+      },
+      {
+        "id": "a2-clarifying-instructions-02",
+        "dutch": "Kunt u dat nog een keer uitleggen?",
+        "arabic": "هل يمكنكم شرح ذلك مرة أخرى؟",
+        "tip": "u صيغة مخاطبة مهذبة؛ uitleggen تعني يشرح."
+      },
+      {
+        "id": "a2-clarifying-instructions-03",
+        "dutch": "Controleer eerst de namen. Leg de formulieren daarna in de blauwe map.",
+        "arabic": "راجعوا الأسماء أولاً. ضعوا الاستمارات بعد ذلك في الملف الأزرق.",
+        "tip": "تتكون التعليمات من خطوتين مرتبتين."
+      },
+      {
+        "id": "a2-clarifying-instructions-04",
+        "dutch": "Bedoelt u de map naast de computer?",
+        "arabic": "هل تقصدون الملف بجانب الحاسوب؟",
+        "tip": "Bedoelt u تسأل عن المقصود."
+      },
+      {
+        "id": "a2-clarifying-instructions-05",
+        "dutch": "Nee, de blauwe map op de kast.",
+        "arabic": "لا، الملف الأزرق فوق الخزانة.",
+        "tip": "تصحيح المكان: op بدلاً من naast."
+      },
+      {
+        "id": "a2-clarifying-instructions-06",
+        "dutch": "Dus eerst de namen controleren en daarna de formulieren in die map leggen?",
+        "arabic": "إذن أراجع الأسماء أولاً ثم أضع الاستمارات في ذلك الملف؟",
+        "tip": "إعادة التعليمات للتأكد تمنع سوء الفهم."
+      },
+      {
+        "id": "a2-clarifying-instructions-07",
+        "dutch": "Ja, precies. Alleen de formulieren van vandaag.",
+        "arabic": "نعم، بالضبط. استمارات اليوم فقط.",
+        "tip": "alleen تحدد نطاق المهمة."
+      },
+      {
+        "id": "a2-clarifying-instructions-08",
+        "dutch": "Duidelijk, dank u wel.",
+        "arabic": "واضح، شكراً لكم.",
+        "tip": "شكر بصيغة u نفسها."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المشرفة",
+        "phraseId": "a2-clarifying-instructions-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-clarifying-instructions-02"
+      },
+      {
+        "speaker": "المشرفة",
+        "phraseId": "a2-clarifying-instructions-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-clarifying-instructions-04"
+      },
+      {
+        "speaker": "المشرفة",
+        "phraseId": "a2-clarifying-instructions-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-clarifying-instructions-06"
+      },
+      {
+        "speaker": "المشرفة",
+        "phraseId": "a2-clarifying-instructions-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-clarifying-instructions-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-clarifying-instructions-q1",
+        "prompt": "ما الخطوة الأولى المطلوبة؟",
+        "options": [
+          "إغلاق الخزانة",
+          "مراجعة الأسماء",
+          "طباعة استمارات جديدة"
+        ],
+        "correctIndex": 1,
+        "explanation": "Controleer eerst de namen تحدد الخطوة الأولى."
+      },
+      {
+        "id": "a2-clarifying-instructions-q2",
+        "prompt": "أين الملف المقصود بعد التصحيح؟",
+        "options": [
+          "بجانب الحاسوب",
+          "تحت الطاولة",
+          "فوق الخزانة"
+        ],
+        "correctIndex": 2,
+        "explanation": "المشرفة تصحح إلى de blauwe map op de kast."
+      },
+      {
+        "id": "a2-clarifying-instructions-q3",
+        "prompt": "أي استمارات تشمل المهمة؟",
+        "options": [
+          "استمارات اليوم فقط",
+          "استمارات الأسبوع كله",
+          "الاستمارات الفارغة فقط"
+        ],
+        "correctIndex": 0,
+        "explanation": "Alleen de formulieren van vandaag تحدد النطاق."
+      },
+      {
+        "id": "a2-clarifying-instructions-q4",
+        "prompt": "كيف تطلب إعادة الشرح بصيغة u؟",
+        "options": [
+          "Kunt u dat nog een keer uitleggen?",
+          "Kun je dat uitleggen?",
+          "Ik heb het uitgelegd."
+        ],
+        "correctIndex": 0,
+        "explanation": "Kunt u ... صيغة المخاطبة المطلوبة؛ je غير رسمية."
+      }
+    ]
+  },
+  {
+    "slug": "a2-confirming-a-handover",
+    "moduleId": "a2-work-coordination",
+    "level": "A2",
+    "number": "08",
+    "title": "أكد تسليم المهمة",
+    "dutchTitle": "Een overdracht bevestigen",
+    "description": "أتفق على من يفعل ماذا وأصحح موعد التسليم.",
+    "durationMinutes": 12,
+    "context": "تتفق أنت ونور على توزيع مهمتين قبل وصول زبون خيالي.",
+    "goal": "أتفق على من يفعل ماذا وأصحح موعد التسليم.",
+    "grammar": {
+      "title": "موعد محدد أم مهلة؟",
+      "explanation": "om tien uur تعني الساعة العاشرة، أما voor tien uur فتعني قبل العاشرة في هذه الجملة. uiterlijk tien uur تعني في موعد أقصاه العاشرة. أعد المهمة واسم المسؤول والوقت لتتأكد من الاتفاق.",
+      "example": "De dozen moeten voor tien uur klaar zijn.",
+      "translation": "يجب أن تكون الصناديق جاهزة قبل العاشرة."
+    },
+    "phrases": [
+      {
+        "id": "a2-confirming-a-handover-01",
+        "dutch": "Wie brengt de dozen naar de klant?",
+        "arabic": "من يوصل الصناديق إلى الزبون؟",
+        "tip": "Wie تسأل عن المسؤول عن العمل."
+      },
+      {
+        "id": "a2-confirming-a-handover-02",
+        "dutch": "Ik breng ze. Kun jij de adressen controleren?",
+        "arabic": "أنا أوصلها. هل يمكنك أنت مراجعة العناوين؟",
+        "tip": "ze تعود إلى الصناديق المعروفة."
+      },
+      {
+        "id": "a2-confirming-a-handover-03",
+        "dutch": "Ja. Wanneer moeten de dozen klaar zijn?",
+        "arabic": "نعم. متى يجب أن تكون الصناديق جاهزة؟",
+        "tip": "متى تنتهي المهمة، لا متى تبدأ؟"
+      },
+      {
+        "id": "a2-confirming-a-handover-04",
+        "dutch": "Voor tien uur, want de klant komt om tien uur.",
+        "arabic": "قبل العاشرة، لأن الزبون يأتي الساعة العاشرة.",
+        "tip": "نفرق بين قبل الوقت وعند الوقت."
+      },
+      {
+        "id": "a2-confirming-a-handover-05",
+        "dutch": "Dus ik controleer de adressen en jij brengt de dozen?",
+        "arabic": "إذن أراجع أنا العناوين وتوصلين أنت الصناديق؟",
+        "tip": "ik وjij تؤكدان توزيع المسؤولية."
+      },
+      {
+        "id": "a2-confirming-a-handover-06",
+        "dutch": "Ja. Stuur mij een bericht als alles klaar is.",
+        "arabic": "نعم. أرسل لي رسالة عندما يصبح كل شيء جاهزاً.",
+        "tip": "als alles klaar is عبارة جاهزة للتأكيد؛ نتوسع في als لاحقاً."
+      },
+      {
+        "id": "a2-confirming-a-handover-07",
+        "dutch": "Ik stuur je uiterlijk om kwart voor tien een bericht.",
+        "arabic": "سأرسل لك رسالة في موعد أقصاه العاشرة إلا ربعاً.",
+        "tip": "uiterlijk يعني أقصى موعد، وkwart voor tien هو 09:45."
+      },
+      {
+        "id": "a2-confirming-a-handover-08",
+        "dutch": "Afgesproken. Dank je wel.",
+        "arabic": "اتفقنا. شكراً لك.",
+        "tip": "Afgesproken تستخدم لتأكيد الاتفاق."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-handover-01"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-handover-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-handover-03"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-handover-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-handover-05"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-handover-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-handover-07"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-handover-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-confirming-a-handover-q1",
+        "prompt": "من يراجع العناوين حسب الاتفاق؟",
+        "options": [
+          "الزبون",
+          "نور",
+          "آدم"
+        ],
+        "correctIndex": 2,
+        "explanation": "آدم يعيد دوره: ik controleer de adressen."
+      },
+      {
+        "id": "a2-confirming-a-handover-q2",
+        "prompt": "ما الفرق بين جاهزية الصناديق ووصول الزبون؟",
+        "options": [
+          "الصناديق قبل 10:00 والزبون عند 10:00",
+          "كلاهما في 09:45 بالضبط",
+          "الصناديق بعد 10:00"
+        ],
+        "correctIndex": 0,
+        "explanation": "voor tien uur مهلة قبل الوقت؛ om tien uur وقت الوصول."
+      },
+      {
+        "id": "a2-confirming-a-handover-q3",
+        "prompt": "ماذا يعني uiterlijk om kwart voor tien هنا؟",
+        "options": [
+          "الساعة 10:15 فقط",
+          "في موعد أقصاه 09:45",
+          "بعد 09:45"
+        ],
+        "correctIndex": 1,
+        "explanation": "uiterlijk تعطي الحد الأقصى؛ لا تمنع الإرسال أبكر."
+      },
+      {
+        "id": "a2-confirming-a-handover-q4",
+        "prompt": "ما الرد الذي يؤكد الاتفاق؟",
+        "options": [
+          "Dat weet ik niet.",
+          "Misschien morgen.",
+          "Afgesproken."
+        ],
+        "correctIndex": 2,
+        "explanation": "Afgesproken تعني اتفقنا."
+      }
+    ]
   }
 ]

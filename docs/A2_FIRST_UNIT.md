@@ -1,5 +1,7 @@
 # First A2 unit: recent activities and routines
 
+This document records the first-unit snapshot. For current totals and unit 2, see `A2_WORK_COORDINATION.md`.
+
 ## Delivered scope (2026-10-03)
 
 This is the first authored A2 unit, openly labelled an early course slice. It is available for practice, not an assertion that A2 is complete, independently reviewed or certified. Recorded audio and educator/learner validation remain outstanding. Paid exams remain deferred.

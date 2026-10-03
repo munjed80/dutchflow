@@ -98,5 +98,106 @@
         "explanation": "Vandaag تميز الروتين الحالي عن رحلة السبت."
       }
     ]
+  },
+  {
+    "slug": "a2-a-shift-handover",
+    "title": "رسالة لتسليم الوردية",
+    "dutchTitle": "Een bericht voor de volgende dienst",
+    "topic": "عمل منجز ومهلة جديدة",
+    "sourceLessons": [
+      "a2-reporting-task-progress",
+      "a2-explaining-a-delay",
+      "a2-confirming-a-handover"
+    ],
+    "text": "Hoi Lina, ik heb vanochtend acht bestellingen gecontroleerd. Zes bestellingen zijn ingepakt. De andere twee zijn nog niet klaar, want de grote dozen zijn op. Amir haalt om één uur nieuwe dozen uit het magazijn. Kun jij daarna de laatste twee bestellingen inpakken? Zet alleen de bestellingen voor Utrecht bij de achterdeur. De chauffeur komt om drie uur. Alles moet voor half drie klaar zijn. Stuur mij uiterlijk om half drie een bericht. De adressen staan op de lijst in de groene map. Groet, Eva.",
+    "translation": "مرحباً لينا، راجعت هذا الصباح ثماني طلبيات. حُزمت ست طلبيات. الطلبيتان الأخريان ليستا جاهزتين بعد لأن الصناديق الكبيرة نفدت. سيجلب أمير الساعة الواحدة صناديق جديدة من المستودع. هل يمكنك بعد ذلك حزم الطلبيتين الأخيرتين؟ ضعي طلبيات أوترخت فقط بجانب الباب الخلفي. سيأتي السائق الساعة الثالثة. يجب أن يصبح كل شيء جاهزاً قبل الثانية والنصف. أرسلي لي رسالة في موعد أقصاه الثانية والنصف. العناوين موجودة في القائمة داخل الملف الأخضر. تحياتي، إيفا.",
+    "vocabulary": [
+      {
+        "term": "de bestelling",
+        "excerpt": "bestellingen",
+        "meaning": "الطلبية؛ الجمع de bestellingen. هنا ثماني طلبيات وليست ثمانية صناديق بالضرورة."
+      },
+      {
+        "term": "op zijn",
+        "excerpt": "de grote dozen zijn op",
+        "meaning": "نفد المخزون؛ op هنا لا تعني فوق."
+      },
+      {
+        "term": "halen",
+        "excerpt": "haalt",
+        "meaning": "يجلب من مكان؛ أمير يجلب الصناديق من المستودع."
+      },
+      {
+        "term": "het magazijn",
+        "excerpt": "magazijn",
+        "meaning": "المستودع؛ جمعه de magazijnen."
+      },
+      {
+        "term": "de achterdeur",
+        "excerpt": "achterdeur",
+        "meaning": "الباب الخلفي؛ جمعه de achterdeuren."
+      },
+      {
+        "term": "uiterlijk",
+        "excerpt": "uiterlijk om half drie",
+        "meaning": "في موعد أقصاه 14:30، وليس 15:00."
+      }
+    ],
+    "grammar": {
+      "title": "سبب وموعدان مختلفان",
+      "example": "De andere twee zijn nog niet klaar, want de grote dozen zijn op.",
+      "translation": "الطلبيتان الأخريان ليستا جاهزتين بعد لأن الصناديق الكبيرة نفدت.",
+      "explanation": "بعد want يرد السبب بترتيب الجملة الرئيسية: de grote dozen zijn op. لا تخلط وقت جاهزية الطلبيات مع وصول السائق."
+    },
+    "questions": [
+      {
+        "id": "a2-handover-read-1",
+        "prompt": "لماذا لم تجهز الطلبيتان الأخيرتان؟",
+        "options": [
+          "العناوين غير موجودة",
+          "الصناديق الكبيرة نفدت",
+          "السائق غادر"
+        ],
+        "correctIndex": 1,
+        "evidence": "De andere twee zijn nog niet klaar, want de grote dozen zijn op.",
+        "explanation": "سبب التأخير نقص الصناديق، وليس العناوين."
+      },
+      {
+        "id": "a2-handover-read-2",
+        "prompt": "ما المطلوب من لينا بعد جلب الصناديق؟",
+        "options": [
+          "مراجعة ثماني طلبيات من البداية",
+          "الاتصال بالسائق لإلغاء الرحلة",
+          "حزم الطلبيتين الأخيرتين"
+        ],
+        "correctIndex": 2,
+        "evidence": "Amir haalt om één uur nieuwe dozen uit het magazijn. Kun jij daarna de laatste twee bestellingen inpakken?",
+        "explanation": "بعد وصول الصناديق تحزم لينا الطلبيتين المتبقيتين."
+      },
+      {
+        "id": "a2-handover-read-3",
+        "prompt": "أي طلبيات توضع بجانب الباب الخلفي؟",
+        "options": [
+          "طلبيات أوترخت فقط",
+          "الطلبيات الثماني كلها",
+          "الطلبيات الفارغة فقط"
+        ],
+        "correctIndex": 0,
+        "evidence": "Zet alleen de bestellingen voor Utrecht bij de achterdeur.",
+        "explanation": "alleen تقيد المهمة بطلبيات أوترخت."
+      },
+      {
+        "id": "a2-handover-read-4",
+        "prompt": "أي ترتيب يوافق مهل الرسالة؟",
+        "options": [
+          "الجاهزية قبل 15:00 والرسالة 16:00",
+          "الجاهزية قبل 14:30 والرسالة بحد أقصى 14:30 والسائق 15:00",
+          "السائق 14:30 والجاهزية بعده"
+        ],
+        "correctIndex": 1,
+        "evidence": "De chauffeur komt om drie uur. Alles moet voor half drie klaar zijn. Stuur mij uiterlijk om half drie een bericht.",
+        "explanation": "half drie هي 14:30 في سياق العمل بعد الظهر، وتسبق وصول السائق."
+      }
+    ]
   }
 ]

@@ -28,5 +28,35 @@
   ],
   "a2-practice-listen-3": [
     "a2-telling-a-short-story"
+  ],
+  "a2-handover-read-1": [
+    "a2-explaining-a-delay"
+  ],
+  "a2-handover-read-2": [
+    "a2-reporting-task-progress"
+  ],
+  "a2-handover-read-3": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-handover-read-4": [
+    "a2-confirming-a-handover"
+  ],
+  "a2-work-practice-read-1": [
+    "a2-explaining-a-delay"
+  ],
+  "a2-work-practice-read-2": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-work-practice-read-3": [
+    "a2-confirming-a-handover"
+  ],
+  "a2-work-practice-listen-1": [
+    "a2-reporting-task-progress"
+  ],
+  "a2-work-practice-listen-2": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-work-practice-listen-3": [
+    "a2-confirming-a-handover"
   ]
 }

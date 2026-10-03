@@ -126,5 +126,135 @@
         "هل سألت نور سؤال متابعة عن الماضي؟"
       ]
     }
+  },
+  {
+    "slug": "a2-arranging-the-next-task",
+    "unitId": "a2-work-coordination",
+    "title": "نتفق على المهمة المتبقية",
+    "dutchTitle": "De volgende taak afspreken",
+    "role": "أنت أمير. فحصت ست طلبيات وحزمت أربعاً. لم تحزم اثنتين لأن الصناديق نفدت. تستطيع إنهاء الباقي قبل 14:00، ولا تستطيع قبل 13:00.",
+    "partner": "زميلتك لينا",
+    "mission": "أبلغ عن العمل المنجز وسبب التأخير، واقترح مهلة ممكنة ثم صحح مكان التسليم عندما توضحه لينا.",
+    "sourceLessons": [
+      "a2-reporting-task-progress",
+      "a2-explaining-a-delay",
+      "a2-clarifying-instructions",
+      "a2-confirming-a-handover"
+    ],
+    "turns": [
+      {
+        "id": "a2-work-turn-1",
+        "goal": "ميّز ما فحصته عمّا حزمته.",
+        "prompt": "Hoe ver ben je met de bestellingen?",
+        "translation": "إلى أين وصلت في تجهيز الطلبيات؟",
+        "choices": [
+          {
+            "text": "Ik heb zes bestellingen gecontroleerd en vier ingepakt.",
+            "translation": "فحصت ست طلبيات وحزمت أربعاً.",
+            "feedback": "حددّت مرحلتي العمل والعددين الصحيحين."
+          },
+          {
+            "text": "Ik heb alle zes bestellingen ingepakt.",
+            "translation": "حزمت الطلبيات الست كلها.",
+            "feedback": "لم تحزم إلا أربعاً حسب بطاقة دورك."
+          },
+          {
+            "text": "Ik controleer morgen de adressen.",
+            "translation": "سأراجع العناوين غداً.",
+            "feedback": "هذا لا يجيب عن التقدم الحالي."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Waarom zijn de andere twee nog niet klaar?",
+        "responseTranslation": "لماذا ليست الطلبيتان الأخريان جاهزتين بعد؟"
+      },
+      {
+        "id": "a2-work-turn-2",
+        "goal": "اشرح سبب التأخير الحقيقي.",
+        "prompt": "Waarom zijn de andere twee nog niet klaar?",
+        "translation": "لماذا ليست الطلبيتان الأخريان جاهزتين بعد؟",
+        "choices": [
+          {
+            "text": "Ik ben morgen vrij.",
+            "translation": "أنا في إجازة غداً.",
+            "feedback": "هذا ليس سبب التأخير المذكور."
+          },
+          {
+            "text": "Ze zijn nog niet klaar, want de dozen zijn op.",
+            "translation": "ليستا جاهزتين بعد لأن الصناديق نفدت.",
+            "feedback": "ربطت المشكلة بسببها باستخدام want."
+          },
+          {
+            "text": "Ze zijn allebei al klaar.",
+            "translation": "كلتاهما جاهزة بالفعل.",
+            "feedback": "هذا يناقض المعلومات السابقة."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ik haal nieuwe dozen. Kun je alles voor één uur afmaken?",
+        "responseTranslation": "سأجلب صناديق جديدة. هل يمكنك إكمال كل شيء قبل الواحدة؟"
+      },
+      {
+        "id": "a2-work-turn-3",
+        "goal": "اقترح المهلة التي تستطيع الالتزام بها.",
+        "prompt": "Kun je alles voor één uur afmaken?",
+        "translation": "هل يمكنك إكمال كل شيء قبل الواحدة؟",
+        "choices": [
+          {
+            "text": "Ja, voor één uur is goed.",
+            "translation": "نعم، قبل الواحدة مناسب.",
+            "feedback": "بطاقة دورك تقول إن هذا الموعد غير ممكن."
+          },
+          {
+            "text": "Ik heb vier bestellingen ingepakt.",
+            "translation": "حزمت أربع طلبيات.",
+            "feedback": "هذا تحديث قديم؛ السؤال الآن عن المهلة."
+          },
+          {
+            "text": "Voor één uur lukt niet. Kan het voor twee uur?",
+            "translation": "لا يمكن قبل الواحدة. هل يمكن قبل الثانية؟",
+            "feedback": "صرحت بالتعذر واقترحت وقتاً ممكناً دون افتراض الموافقة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Ja, voor twee uur is goed. Zet alles bij de achterdeur, niet bij de receptie.",
+        "responseTranslation": "نعم، قبل الثانية مناسب. ضع كل شيء بجانب الباب الخلفي، وليس عند الاستقبال."
+      },
+      {
+        "id": "a2-work-turn-4",
+        "goal": "أكد المهلة والمكان بعد التوضيح.",
+        "prompt": "Waar zet je de bestellingen en wanneer zijn ze klaar?",
+        "translation": "أين ستضع الطلبيات ومتى تصبح جاهزة؟",
+        "choices": [
+          {
+            "text": "Bij de receptie, voor één uur.",
+            "translation": "عند الاستقبال قبل الواحدة.",
+            "feedback": "المكان والمهلة يخالفان الاتفاق."
+          },
+          {
+            "text": "Bij de achterdeur. Ze zijn voor twee uur klaar.",
+            "translation": "بجانب الباب الخلفي. ستكون جاهزة قبل الثانية.",
+            "feedback": "أعدت المكان والمهلة المتفق عليهما."
+          },
+          {
+            "text": "Bij de achterdeur, morgen.",
+            "translation": "بجانب الباب الخلفي غداً.",
+            "feedback": "المكان صحيح لكن اليوم غير متفق عليه."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Precies, dank je. Stuur mij een bericht als alles klaar is.",
+        "responseTranslation": "بالضبط، شكراً. أرسل لي رسالة عندما يصبح كل شيء جاهزاً."
+      }
+    ],
+    "transfer": {
+      "prompt": "في موقف جديد فحصت خمس طلبيات وحزمت ثلاثاً. لم تحزم اثنتين لأن الصناديق نفدت. اقترح إنهاء الباقي قبل الثالثة واسأل إن كان ذلك مناسباً.",
+      "model": "Ik heb vijf bestellingen gecontroleerd en drie ingepakt. De andere twee zijn nog niet klaar, want de dozen zijn op. Kan ik ze voor drie uur afmaken?",
+      "translation": "فحصت خمس طلبيات وحزمت ثلاثاً. الطلبيتان الأخريان ليستا جاهزتين لأن الصناديق نفدت. هل يمكنني إكمالهما قبل الثالثة؟",
+      "checklist": [
+        "هل استعملت الأعداد الجديدة وذكرت السبب؟",
+        "هل اقترحت مهلة جديدة وطلبت الموافقة؟"
+      ]
+    }
   }
 ]

@@ -43,4 +43,4 @@ Before public launch: configure and verify production SMTP and database backups,
 
 ## A2 catalogue extension
 
-The published slug catalogue now includes both A1 and the first A2 unit. Existing API validation and explicit guest import recognize those slugs without a migration. Guest storage retains one list of stable slugs; account storage retains the same `(user_id, lesson_slug)` key. `/progress` shows A1 out of 53 and `/progress?level=A2` shows A2 out of four, with no automatic level promotion. Mixed-level import and server persistence are covered in account browser tests.
+The published slug catalogue now includes both A1 and the two authored A2 units. Existing API validation and explicit guest import recognize those slugs without a migration. Guest storage retains one list of stable slugs; account storage retains the same `(user_id, lesson_slug)` key. `/progress` shows A1 out of 53 and `/progress?level=A2` shows A2 out of eight, with no automatic level promotion. Mixed-level import and server persistence are covered in account browser tests.

@@ -175,3 +175,15 @@ A2 banks use separate `a2-*.json` files and stable prefixed IDs. `validateCourse
 Continue with unit 2 after reviewing this slice; reuse the recent-activity patterns in work coordination. Independent educator/learner feedback and actual audio quality are still unverified. Paid exams remain deferred.
 
 Validation: 60 native tests and all 128 unique Chromium end-to-end tests passed (run in three batches; the four A2 cases also repeated in the final batch). Content/audio checks, TypeScript and production build passed. Mobile (390px) catalogue and desktop map were inspected; no horizontal overflow. Local account coverage used disposable PGlite/SMTP; GitHub CI uses PostgreSQL.
+
+### A2 unit 2 handoff (2026-10-04, current)
+
+PR #23 is merged; its CI passed. `docs/A2_WORK_COORDINATION.md` now records the current delivery and internal editorial review. A2 has two units / eight lessons / 64 phrases / 32 lesson questions, 48 notes / 16 lesson tasks, two readings / 12 notes / eight questions, two four-turn scenarios with transfer, and two integrated packs (12 questions / two writing / two partner tasks). Earlier first-unit totals above are historical snapshots.
+
+New unit `a2-work-coordination` teaches task progress, delay with `want`, polite clarification, and responsibility/deadlines (`voor`, `om`, `uiterlijk`). New lesson numbers are 05–08. Navigation now continues from unit 1 to unit 2 and ends there. Existing A1 authored data and every unit 1 record remain unchanged. A1 progress remains out of 53; A2 is now out of eight. Keep level labels and counts data-driven as units grow.
+
+Audio now totals 433 sources / 1,732 variants (A1 1,468; A2 264). The 1,600 previously planned requests retain their exact synthesis content and filenames; the unit 1 passage can shift in list order, which is not an identity. A native fingerprint regression protects its 132 requests. No recording generation or approval was performed; the owner remains responsible. Paid exams stay deferred.
+
+Next planned unit is housing/services, recycling past events, reasons, clarification and time agreements. External educator review, learner feedback and audio quality remain unverified; neither eight lessons nor completion percentages constitute A2 certification.
+
+Validation for unit 2: 61 native tests and 41 focused Chromium tests passed, plus content/audio checks, TypeScript and production build. Mobile partner practice and desktop unit map visually checked. The full CI suite runs on the PR.
