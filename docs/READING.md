@@ -25,7 +25,7 @@ The free `/reading` library extends the existing phrase-based lessons with twent
 | Een zaterdag in het park | A weekend invitation, the weather, and a meeting plan | Separable `afspreken` in a time/place plan |
 | Een kaartje voor de taalgroep | Contact details, group support and a weekly message | `als` for a practical response |
 | Een bericht over de oefenweek | Dates, lesson duration and weekly follow-up practice | Main-clause order after a day phrase |
-| Een bericht over de ouderavond | Parent evening choices, materials and deadline | `of` between two available times |
+| Een bericht over het oudergesprek | Parent meeting choices, materials and deadline | `of` between two available times |
 | Een briefje over de sleutel | Leaving a key, a neighbour and a repair visit | `tussen ... en ...` for a time range |
 | Een bericht vóór de markt | Shopping quantities, what not to buy and a fallback choice | Conditional `als` with a practical alternative |
 | Een route vanaf het station | Exit, directions and an optional bus | `daarna` for step order |
@@ -58,7 +58,7 @@ The September review adds `a-journey-with-a-change`, `a-colleague-shows-the-task
 
 ## Detailed editorial review completed
 
-The 2026-09-29 editorial pass is complete for the earlier seventeen-text bank captured in `A1_DETAILED_REVIEW.md`. The later ten-text enrichment wave extends the library across all ten thematic units and still needs its own focused editorial follow-up. Independent educator/learner validation and owner-managed recording approval remain separate.
+The 2026-09-29 editorial pass is complete for the earlier seventeen-text bank captured in `A1_DETAILED_REVIEW.md`. The ten-text enrichment follow-up is complete in `A1_ENRICHMENT_REVIEW.md`; it covers every added passage, translation, vocabulary note, grammar note and question. Independent educator/learner validation and owner-managed recording approval remain separate.
 
 ## Follow-up lessons after checking
 

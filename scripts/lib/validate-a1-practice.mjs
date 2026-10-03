@@ -20,7 +20,11 @@ export function validatePractice(packs, units) {
         audioIds.add(source.id);
       }
       if (!list(source.questions, (q) => q && typeof q === "object", 2)) { errors.push("Practice: questions required"); continue; }
+      const prompts = new Set();
       for (const q of source.questions) {
+        const prompt = typeof q.prompt === "string" ? q.prompt.normalize("NFC").trim().replace(/\s+/gu, " ") : "";
+        if (prompt && prompts.has(prompt)) errors.push(`Practice: duplicate question prompt in ${pack.slug}/${kind}`);
+        prompts.add(prompt);
         if (!safe(q.id) || questionIds.has(q.id)) errors.push("Practice: question ID");
         questionIds.add(q.id);
         if (!arabic(q.prompt) || !arabic(q.explanation) || !text(q.evidence) || !source.text.includes(q.evidence)) errors.push("Practice: question evidence or explanation");

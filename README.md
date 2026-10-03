@@ -69,7 +69,7 @@ Follow [generation, review and release instructions](docs/AUDIO_PRODUCTION.md). 
 
 ## Roadmap
 
-1. Review and complete the A1 units using [the curriculum readiness gates](docs/A1_CURRICULUM.md). Prioritize recorded listening, broader vocabulary and independent production before adding A2 or B1. The non-shipping A2 preparation outline lives in [docs/A2_CURRICULUM.md](docs/A2_CURRICULUM.md).
+1. Review and complete the A1 units using [the curriculum readiness gates](docs/A1_CURRICULUM.md). The PR #21 enrichment editorial review is complete; see [the review ledger](docs/A1_ENRICHMENT_REVIEW.md). Owner-managed recorded audio and independent educator/learner validation remain open. The non-shipping A2 preparation outline lives in [docs/A2_CURRICULUM.md](docs/A2_CURRICULUM.md).
 2. Generate and review the audio. Add a content authoring workflow and audio quality checks.
 3. Configure production PostgreSQL and SMTP, verify delivery and backups, and add account export/deletion and a published privacy policy before public launch.
 4. **Deferred by the owner until A1 and audio are ready:** build secure paid practice exams: authenticated purchases, one €4.95 attempt per payment, server-side scoring, provider webhooks, receipts, and clear retry/refund handling. Do not unlock an exam based on a browser redirect alone.

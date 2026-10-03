@@ -373,11 +373,11 @@
       },
       {
         "prompt": "رتّب أسبوع تدريب خيالي: عندك درس يوم الثلاثاء ويوم الخميس، وبعد درس الخميس تتدرّب في المكتبة. اكتب ثلاث جمل قصيرة.",
-        "model": "Op dinsdag en donderdag heb ik les. De les begint om kwart over negen. Na de les oefen ik in de bibliotheek.",
-        "translation": "لدي درس يوم الثلاثاء ويوم الخميس. يبدأ الدرس الساعة التاسعة والربع. بعد الدرس أتدرّب في المكتبة.",
+        "model": "Op dinsdag heb ik les. Op donderdag heb ik ook les. Na de les op donderdag oefen ik in de bibliotheek.",
+        "translation": "لدي درس يوم الثلاثاء. لدي درس أيضاً يوم الخميس. بعد درس الخميس أتدرّب في المكتبة.",
         "checklist": [
           "هل ذكرت اليومين بترتيب واضح؟",
-          "هل استخدمت Na de les لربط النشاط اللاحق بالدرس؟"
+          "هل خصصت التدريب في المكتبة لما بعد درس الخميس؟"
         ]
       }
     ]
@@ -955,9 +955,9 @@
         ]
       },
       {
-        "prompt": "اكتب تحديثاً قصيراً من المدرسة: الواجب سيصل بعد الظهر، والمدرسة ستنتظر اتصالاً غداً بشأن عودة الطفل.",
-        "model": "Ik stuur het huiswerk vanmiddag. Morgen hoor ik of Nora weer kan komen.",
-        "translation": "سأرسل الواجب بعد الظهر. غداً سأسمع ما إذا كانت نورا ستستطيع العودة.",
+        "prompt": "اكتب تحديثاً خيالياً بصفتك المعلم إلى ولي أمر نورا: سترسل الواجب بعد الظهر، واطلب اتصالاً غداً لمعرفة إن كانت نورا تستطيع العودة.",
+        "model": "Ik stuur het huiswerk vanmiddag. Kunt u morgen bellen om te vertellen of Nora weer naar school kan komen?",
+        "translation": "سأرسل الواجب بعد الظهر. هل يمكنك الاتصال غداً لإخبارنا إن كانت نورا تستطيع العودة إلى المدرسة؟",
         "checklist": [
           "هل ذكرت vanmiddag لإرسال الواجب؟",
           "هل أبقيت العودة غداً معلّقة وليست مؤكدة؟"
@@ -1316,8 +1316,8 @@
       },
       {
         "prompt": "اكتب رسالة قصيرة: لا تستطيع صباح الثلاثاء، لكنك تستطيع الجمعة القادمة الساعة الثانية. اطلب أيضاً رسالة نصية لتأكيد الوقت.",
-        "model": "Dinsdag in de ochtend kan ik niet. Volgende week vrijdag om twee uur kan ik wel. Kunt u ook een sms sturen?",
-        "translation": "لا أستطيع صباح الثلاثاء. أستطيع الجمعة القادمة الساعة الثانية. هل يمكنك أيضاً إرسال رسالة نصية؟",
+        "model": "Dinsdagochtend kan ik niet. Volgende week vrijdag om twee uur kan ik wel. Kunt u de nieuwe afspraak per sms bevestigen?",
+        "translation": "لا أستطيع صباح الثلاثاء. أستطيع الجمعة في الأسبوع القادم الساعة الثانية. هل يمكنك تأكيد الموعد الجديد برسالة نصية؟",
         "checklist": [
           "هل فرقت بين الصباح والجمعة القادمة؟",
           "هل أضفت طلب التأكيد عبر sms؟"
@@ -2888,9 +2888,9 @@
         ]
       },
       {
-        "prompt": "اسأل أولاً أين توجد القائمة، ثم اطلب من زميلك أن يشرح الخطوة مرة واحدة، وبعدها قل إنك ستجرّبها بنفسك.",
+        "prompt": "اسأل أولاً أين توجد القائمة، ثم اطلب من زميلك أن يريك عملياً كيف ينفّذ الخطوة مرة واحدة، وبعدها قل إنك ستجرّبها بنفسك.",
         "model": "Waar ligt de lijst? Kun je het één keer voordoen? Dank je, daarna probeer ik het zelf.",
-        "translation": "أين توجد القائمة؟ هل يمكنك أن تشرحها مرة واحدة؟ شكراً، بعد ذلك سأجرّبها بنفسي.",
+        "translation": "أين توجد القائمة؟ هل يمكنك أن تريني عملياً كيف تنفّذها مرة واحدة؟ شكراً، بعد ذلك سأجرّبها بنفسي.",
         "checklist": [
           "هل بدأت بالسؤال عن القائمة؟",
           "هل استخدمت daarna قبل قولك إنك ستجرب بنفسك؟"

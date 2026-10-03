@@ -24,7 +24,7 @@ The [Council of Europe global scale](https://www.coe.int/en/web/common-european-
 | Grammar reference notes / foundation tables | 53 / 4 | `/grammar` |
 | Alphabet and sound drills | 13 | `/pronunciation` |
 | Planned audio sources / variants | 367 / 1,468 | Generation inventory |
-| Approved real MP3s | 0 | Service credentials not configured |
+| Approved real MP3s | 0 | No approved assets in the repository manifest |
 
 Numbers measure resources, not learning hours, skill percentages or level attainment. The free final review has ten comprehension questions plus two writing tasks and two speaking tasks, with no combined pass/fail, certificate, stored result or payment.
 
@@ -60,7 +60,7 @@ The four grammar foundation tables collect present tense, question words, noun/p
 
 All pre-expansion lesson slugs, phrase IDs and Dutch texts remain unchanged. Only display numbers change as lessons are inserted into their module groups. Reading/scenario identities and answer keys remain stable; their editorial corrections are recorded in `A1_DETAILED_REVIEW.md`. Placement questions are unchanged. Additional audio IDs are disjoint from lesson/review IDs. Shared source planning ensures approval/generation/integrity checks agree.
 
-The core and detailed editorial passes recorded in `A1_DETAILED_REVIEW.md` remain complete for the pre-2026-09-30 bank snapshot they reviewed. The later all-unit enrichment wave adds new reading texts, extra integrated questions, and additional lesson enrichment that still needs its own focused editorial follow-up. Automated checks establish structure/behavior, not independent linguistic sign-off. Fictional prices, schedules, map and personal data must stay clearly fictional.
+The core and detailed editorial passes recorded in `A1_DETAILED_REVIEW.md` remain complete for the pre-2026-09-30 bank snapshot they reviewed. The complete PR #21 enrichment follow-up is recorded in `A1_ENRICHMENT_REVIEW.md`, with its own scope and hashes. Automated checks establish structure/behavior, not independent linguistic sign-off. Fictional prices, schedules, map and personal data must stay clearly fictional.
 
 ## Unfinished release gates — do not relabel as complete
 
@@ -73,3 +73,7 @@ Course-content breadth has been expanded in this PR; a fully reviewed multimedia
 ## Practice follow-up polish
 
 All 180 library/integrated comprehension questions now have authored links to relevant A1 lessons. Checked mistakes produce deduplicated suggestions with question numbers; changed answers and resets clear stale advice. Pack navigation continues through the final review. See `A1_TARGETED_REVIEW.md`. This improves the learning loop without adding assessment claims or changing the lesson/audio bank.
+
+## Preparing A2
+
+See `A2_CURRICULUM.md` for the ordered proposal and first four-lesson delivery slice. A2 planning can proceed while the owner completes A1 recordings; no A2 learner content or automatic promotion is introduced by this review.

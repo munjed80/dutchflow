@@ -506,11 +506,11 @@
     "asking-for-clarification"
   ],
   "practice-services-and-messages-read-3": [
-    "filling-in-a-form"
+    "dates-and-calendar",
+    "letters-and-messages"
   ],
   "practice-services-and-messages-listen-3": [
-    "changing-an-appointment",
-    "phone-calls"
+    "changing-an-appointment"
   ],
   "practice-work-and-tasks-read-3": [
     "workday",
@@ -530,7 +530,7 @@
     "school-and-family"
   ],
   "practice-introducing-yourself-listen-4": [
-    "neighbours"
+    "introductions"
   ],
   "practice-numbers-and-time-read-4": [
     "dates-and-calendar"
@@ -539,11 +539,9 @@
     "weekly-routine"
   ],
   "practice-family-and-school-read-4": [
-    "time-and-days",
     "school-and-family"
   ],
   "practice-family-and-school-listen-4": [
-    "letters-and-messages",
     "message-to-school"
   ],
   "practice-home-and-neighbourhood-read-4": [
@@ -551,7 +549,7 @@
     "repairs-at-home"
   ],
   "practice-home-and-neighbourhood-listen-4": [
-    "household-actions"
+    "colours-and-clothing"
   ],
   "practice-food-and-shopping-read-4": [
     "numbers-and-prices",
@@ -565,34 +563,33 @@
     "time-and-days"
   ],
   "practice-travel-and-directions-listen-4": [
-    "public-transport"
+    "a-train-connection"
   ],
   "practice-health-and-care-read-4": [
-    "doctor-appointment"
-  ],
-  "practice-health-and-care-listen-4": [
-    "describing-symptoms",
+    "doctor-appointment",
     "time-and-days"
   ],
+  "practice-health-and-care-listen-4": [
+    "asking-for-clarification"
+  ],
   "practice-services-and-messages-read-4": [
-    "filling-in-a-form",
-    "letters-and-messages"
+    "filling-in-a-form"
   ],
   "practice-services-and-messages-listen-4": [
-    "changing-an-appointment"
+    "letters-and-messages"
   ],
   "practice-work-and-tasks-read-4": [
     "asking-at-work"
   ],
   "practice-work-and-tasks-listen-4": [
-    "workday"
+    "furniture-and-location"
   ],
   "practice-leisure-and-plans-read-4": [
-    "weather-today",
     "invitations-and-plans"
   ],
   "practice-leisure-and-plans-listen-4": [
-    "invitations-and-plans"
+    "invitations-and-plans",
+    "food-and-drinks"
   ],
   "practice-final-review-read-5": [
     "preferences-and-negation"

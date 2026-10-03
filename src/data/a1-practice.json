@@ -102,15 +102,15 @@
         },
         {
           "id": "practice-introducing-yourself-listen-4",
-          "prompt": "أي موقف تسمعه في التسجيل؟",
+          "prompt": "بأي تحية يبدأ كريم حديثه؟",
           "options": [
-            "تعارف بين جيران",
-            "تغيير موعد مع الطبيب",
-            "طلب شراء من متجر"
+            "صباح الخير",
+            "مساء الخير",
+            "إلى اللقاء"
           ],
           "correctIndex": 0,
-          "evidence": "Ik ben uw nieuwe buurman.",
-          "explanation": "buurman الجديد يدل على موقف تعارف بين جيران."
+          "evidence": "Goedemorgen.",
+          "explanation": "Goedemorgen تحية الصباح."
         }
       ]
     },
@@ -151,16 +151,16 @@
       },
       {
         "prompt": "مع شريك: رحّب بجار خيالي جديد، واذكر اسمك ومدينتك، ثم اسأله كيف يكتب اسم الشارع وأي لغة يفضلها للتواصل.",
-        "model": "Welkom in de straat. Ik heet Youssef en ik woon in Haarlem. Hoe schrijf je de straatnaam? Spreek je liever Nederlands of Engels?",
-        "translation": "أهلاً بك في الشارع. اسمي يوسف وأسكن في هارلم. كيف تكتب اسم الشارع؟ هل تفضل الهولندية أم الإنجليزية؟",
+        "model": "Welkom! Ik heet Youssef. Ik woon in Haarlem. Hoe schrijf je de straatnaam?\nPartner: Molenstraat. M-O-L-E-N-S-T-R-A-A-T.\nDank je. Spreek je liever Nederlands of Engels?\nPartner: Liever Nederlands.",
+        "translation": "أهلاً بك! اسمي يوسف. أسكن في هارلم. كيف تكتب اسم الشارع؟\nالشريك: مولنسترات، ثم يتهجّى الاسم.\nشكراً. هل تفضل الهولندية أم الإنجليزية؟\nالشريك: أفضل الهولندية.",
         "checklist": [
           "هل رحبت وعرّفت نفسك قبل طرح الأسئلة؟",
           "هل سألت عن الكتابة واللغة المفضلة بوضوح؟"
         ],
         "partnerPrompts": [
-          "Hoe heet de straat?",
-          "Kun je de straatnaam spellen?",
-          "Spreek je liever Nederlands of Engels?"
+          "Ik heet Sara. Hoe heet jij?",
+          "De straat heet Molenstraat. Wil je dat ik de naam spel?",
+          "Ik spreek liever Nederlands. En jij?"
         ]
       }
     ]
@@ -292,8 +292,8 @@
       },
       {
         "prompt": "اكتب رسالة تؤكد أن الأربعاء 15:30 مناسب لك لمدة 45 دقيقة، واسأل هل القاعة 6 ما زالت صحيحة.",
-        "model": "Woensdag kan ik om half vier. Ik kan vijfenveertig minuten blijven. Is lokaal zes nog goed?",
-        "translation": "أستطيع الأربعاء الساعة الثالثة والنصف. أستطيع البقاء خمساً وأربعين دقيقة. هل القاعة 6 ما زالت مناسبة؟",
+        "model": "Woensdag kan ik om half vier. Ik kan vijfenveertig minuten blijven. Oefenen we nog steeds in lokaal zes?",
+        "translation": "أستطيع الأربعاء الساعة الثالثة والنصف. أستطيع البقاء خمساً وأربعين دقيقة. هل ما زلنا نتدرّب في القاعة 6؟",
         "checklist": [
           "هل ذكرت وقت البدء والمدة معاً؟",
           "هل أضفت سؤالاً يؤكد المكان؟"
@@ -317,16 +317,16 @@
       },
       {
         "prompt": "مع شريك: اقترح وقت تدريب ومدته، ثم غيّر الموعد إلى وقت آخر مناسب، وأعد اليوم والقاعة للتأكد.",
-        "model": "Zullen we woensdag om half vier oefenen? Ik kan vijfenveertig minuten blijven. Kan het ook om vier uur? Is lokaal zes nog goed?",
-        "translation": "هل نتدرب الأربعاء الثالثة والنصف؟ أستطيع البقاء خمساً وأربعين دقيقة. هل يمكن أيضاً الرابعة؟ هل القاعة 6 ما زالت مناسبة؟",
+        "model": "Zullen we woensdag om half vier oefenen? Ik kan vijfenveertig minuten blijven.\nPartner: Kan het om vier uur in lokaal zes?\nJa, woensdag om vier uur in lokaal zes. Dan oefenen we tot kwart voor vijf.",
+        "translation": "هل نتدرّب الأربعاء الثالثة والنصف؟ أستطيع البقاء خمساً وأربعين دقيقة.\nالشريك: هل يمكن الرابعة في القاعة 6؟\nنعم، الأربعاء الرابعة في القاعة 6. نتدرّب إذن حتى الخامسة إلا ربعاً.",
         "checklist": [
-          "هل ذكرت الوقت والمدة ثم غيرتهما بوضوح؟",
-          "هل كررت اليوم والقاعة للتأكد؟"
+          "هل ذكرت الوقت والمدة ثم وافقت على الوقت البديل؟",
+          "هل أعدت اليوم والوقت والقاعة ووقت الانتهاء؟"
         ],
         "partnerPrompts": [
           "Hoe lang kun je blijven?",
-          "Kan het om vier uur?",
-          "Is lokaal zes nog goed?"
+          "Kan het woensdag om vier uur in lokaal zes?",
+          "Hoe laat zijn we dan klaar?"
         ]
       }
     ]
@@ -379,15 +379,15 @@
         },
         {
           "id": "practice-family-and-school-read-4",
-          "prompt": "متى يعود الأطفال إلى المدرسة؟",
+          "prompt": "إلى أين يذهب الصف يوم الخميس؟",
           "options": [
-            "10:00",
-            "12:00",
-            "بعد الغداء"
+            "إلى الحديقة",
+            "إلى المكتبة",
+            "إلى المتجر"
           ],
           "correctIndex": 1,
-          "evidence": "We vertrekken om 10:00 en zijn om 12:00 terug op school.",
-          "explanation": "العودة إلى المدرسة مذكورة صراحة عند 12:00."
+          "evidence": "donderdag gaan we met de klas naar de bibliotheek.",
+          "explanation": "bibliotheek تعني المكتبة؛ المدرسة هي مكان العودة والغداء."
         }
       ]
     },
@@ -434,15 +434,15 @@
         },
         {
           "id": "practice-family-and-school-listen-4",
-          "prompt": "كيف تريد الأم استلام الواجب؟",
+          "prompt": "لماذا لا تأتي ميلا إلى المدرسة اليوم؟",
           "options": [
-            "برسالة ورقية",
-            "بالبريد الإلكتروني",
-            "عبر الجارة"
+            "لأن المدرسة مغلقة",
+            "لأنها مريضة",
+            "لأنها في رحلة"
           ],
           "correctIndex": 1,
-          "evidence": "Kunt u het huiswerk per e-mail sturen?",
-          "explanation": "per e-mail تعني عبر البريد الإلكتروني."
+          "evidence": "Mijn dochter komt vandaag niet naar school. Ze is ziek.",
+          "explanation": "Ze تعود على الابنة ميلا؛ سبب الغياب هو المرض."
         }
       ]
     },
@@ -458,8 +458,8 @@
       },
       {
         "prompt": "اكتب رسالة إلى المدرسة: طفلك سيعود غداً، لكنه يحتاج الواجب اليوم بالبريد الإلكتروني.",
-        "model": "Beste school, Mila komt morgen weer naar school. Kunt u het huiswerk vandaag per e-mail sturen? Dank u wel.",
-        "translation": "المدرسة المحترمة، ستعود ميلا غداً إلى المدرسة. هل يمكنكم إرسال الواجب اليوم بالبريد الإلكتروني؟ شكراً لكم.",
+        "model": "Beste meester Jan, Mila komt morgen weer naar school. Kunt u het huiswerk vandaag per e-mail sturen? Dank u wel.",
+        "translation": "الأستاذ يان المحترم، ستعود ميلا غداً إلى المدرسة. هل يمكنك إرسال الواجب اليوم بالبريد الإلكتروني؟ شكراً لك.",
         "checklist": [
           "هل ميزت بين اليوم والغد بوضوح؟",
           "هل طلبت الواجب عبر البريد الإلكتروني؟"
@@ -482,17 +482,17 @@
         ]
       },
       {
-        "prompt": "مع شريك: اشرح أن الطفل سيغيب اليوم ويعود غداً، واطلب الواجب والغداء بصيغة مهذبة، ثم أعد ما فهمته.",
-        "model": "Mila komt vandaag niet naar school. Morgen komt ze terug. Kunt u het huiswerk per e-mail sturen? Is de lunch op school? Dus morgen weer naar school?",
-        "translation": "ميلا لن تأتي إلى المدرسة اليوم. غداً ستعود. هل يمكنكم إرسال الواجب بالبريد الإلكتروني؟ هل الغداء في المدرسة؟ إذن غداً تعود إلى المدرسة؟",
+        "prompt": "مع شريك يؤدي دور المعلم: اشرح أن الطفلة ستغيب اليوم وتعود غداً، واطلب إرسال الواجب واسأل عن مكان الغداء، ثم أعد المعلومات التي يؤكدها المعلم.",
+        "model": "Mila komt vandaag niet naar school. Morgen komt ze terug. Kunt u het huiswerk per e-mail sturen? Is de lunch op school?\nPartner: Ja, ik stuur het huiswerk vandaag. De lunch is op school.\nDank u. Dus vandaag krijg ik het huiswerk en morgen eet Mila op school.",
+        "translation": "ميلا لن تأتي إلى المدرسة اليوم. تعود غداً. هل يمكنك إرسال الواجب بالبريد الإلكتروني؟ هل الغداء في المدرسة؟\nالشريك: نعم، سأرسل الواجب اليوم. الغداء في المدرسة.\nشكراً. إذن أستلم الواجب اليوم وتتغدى ميلا في المدرسة غداً.",
         "checklist": [
           "هل ميزت بين الغياب اليوم والعودة غداً؟",
           "هل طلبت معلومتين وأعدت ما فهمته؟"
         ],
         "partnerPrompts": [
           "Komt Mila morgen terug?",
-          "Wilt u het huiswerk per e-mail?",
-          "Is de lunch op school?"
+          "Ik stuur het huiswerk vandaag per e-mail.",
+          "De lunch is op school. Is alles duidelijk?"
         ]
       }
     ]
@@ -600,15 +600,15 @@
         },
         {
           "id": "practice-home-and-neighbourhood-listen-4",
-          "prompt": "ما المهمة الأولى المطلوبة؟",
+          "prompt": "أي لون للحقيبة الموجودة بجانب المفتاح؟",
           "options": [
-            "سقي النباتات",
-            "إغلاق النافذة",
-            "وضع الكتب على الرف"
+            "الأزرق",
+            "الأحمر",
+            "الأسود"
           ],
           "correctIndex": 1,
-          "evidence": "Wil je eerst het raam dichtdoen en daarna de planten water geven?",
-          "explanation": "eerst تشير إلى أن إغلاق النافذة هو الخطوة الأولى."
+          "evidence": "De sleutel ligt op de tafel, naast de rode tas.",
+          "explanation": "rode تصف لون الحقيبة، لا لون المفتاح أو الطاولة."
         }
       ]
     },
@@ -624,8 +624,8 @@
       },
       {
         "prompt": "اترك ملاحظة لضيف خيالي: المفتاح تحت الأصيص الأزرق، والكوب في المطبخ، واطلب منه إغلاق النافذة بعد الدخول.",
-        "model": "De sleutel ligt onder de blauwe pot. De beker staat in de keuken. Wil je na binnenkomst het raam dichtdoen?",
-        "translation": "المفتاح تحت الأصيص الأزرق. الكوب في المطبخ. هل تريد أن تغلق النافذة بعد الدخول؟",
+        "model": "De sleutel ligt onder de blauwe pot. De beker staat in de keuken. Wil je het raam dichtdoen als je binnen bent?",
+        "translation": "المفتاح تحت الأصيص الأزرق. الكوب في المطبخ. هل يمكنك إغلاق النافذة عندما تكون في الداخل؟",
         "checklist": [
           "هل ذكرت مكانين مختلفين بوضوح؟",
           "هل طلبت خطوة لاحقة بعد الدخول؟"
@@ -648,17 +648,17 @@
         ]
       },
       {
-        "prompt": "مع شريك: صف أين توجد الأشياء في البيت، ثم اطلب خطوتين بعد الدخول، وأعد الترتيب للتأكد.",
-        "model": "De sleutel ligt onder de blauwe pot. De beker staat in de keuken. Doe na binnenkomst eerst het raam dicht en geef daarna de planten water. Dus eerst het raam, daarna de planten?",
-        "translation": "المفتاح تحت الأصيص الأزرق. الكوب في المطبخ. بعد الدخول أغلق النافذة أولاً ثم اسقِ النباتات. إذن أولاً النافذة ثم النباتات؟",
+        "prompt": "مع شريك يؤدي دور الضيف: صف مكان المفتاح والكوب، واطلب إغلاق النافذة ثم سقي النباتات بعد دخوله. صحّح الترتيب عندما يعيده الشريك خطأً.",
+        "model": "De sleutel ligt onder de blauwe pot. De beker staat in de keuken. Doe eerst het raam dicht en geef daarna de planten water.\nPartner: Eerst de planten?\nNee, eerst het raam dichtdoen, daarna de planten water geven.",
+        "translation": "المفتاح تحت الأصيص الأزرق. الكوب في المطبخ. أغلق النافذة أولاً ثم اسقِ النباتات.\nالشريك: النباتات أولاً؟\nلا، إغلاق النافذة أولاً، ثم سقي النباتات.",
         "checklist": [
-          "هل وصفت المكانين بوضوح؟",
-          "هل أعدت ترتيب الخطوتين كما سمعت؟"
+          "هل وصفت مكان المفتاح والكوب بوضوح؟",
+          "هل صححت الترتيب باستخدام eerst وdaarna؟"
         ],
         "partnerPrompts": [
           "Waar ligt de sleutel?",
-          "Wat doe je eerst na binnenkomst?",
-          "Wat doe je daarna?"
+          "Waar staat de beker?",
+          "Eerst de planten water geven en dan het raam dichtdoen?"
         ]
       }
     ]
@@ -711,15 +711,15 @@
         },
         {
           "id": "practice-food-and-shopping-read-4",
-          "prompt": "كم تدفع للحليب كله في هذا التدريب؟",
+          "prompt": "كم ثمن الخبز وعبوتي الحليب معاً؟",
           "options": [
-            "يورو واحد",
-            "يوروَان",
-            "ثلاثة يورو"
+            "يوروان",
+            "أربعة يوروهات",
+            "خمسة يوروهات"
           ],
           "correctIndex": 1,
-          "evidence": "melk één euro per pak. Neem twee pakken melk mee.",
-          "explanation": "سعر العبوة يورو واحد والمطلوب عبوتان، إذن المجموع يوروَان."
+          "evidence": "een brood twee euro en melk één euro per pak. Neem twee pakken melk mee.",
+          "explanation": "الخبز بيوروين والحليب بيورو لكل عبوة: 2 + 1 + 1 = 4 يورو."
         }
       ]
     },
@@ -766,15 +766,15 @@
         },
         {
           "id": "practice-food-and-shopping-listen-4",
-          "prompt": "أي بنطال يريد أن يقيس أيضاً؟",
+          "prompt": "ماذا يطلب المتحدث لحل مشكلة المقاس؟",
           "options": [
-            "البنطال الأزرق",
-            "البنطال الأسود",
-            "البنطال الصغير"
+            "مقاساً أصغر",
+            "مقاساً أكبر",
+            "اللون نفسه فقط"
           ],
           "correctIndex": 1,
-          "evidence": "Ik wil de zwarte broek ook graag passen.",
-          "explanation": "zwarte broek هو البنطال الأسود الذي يريد قياسه أيضاً."
+          "evidence": "Deze broek is te klein. Heeft u een grotere maat?",
+          "explanation": "grotere maat تعني مقاساً أكبر؛ الطلب يأتي لأن البنطال صغير جداً."
         }
       ]
     },
@@ -789,9 +789,9 @@
         ]
       },
       {
-        "prompt": "اكتب رسالة تسوق قصيرة: خبزان وعلبة حليب واحدة، ولا قهوة، واسأل أيضاً عن البنطال الأسود بمقاس 42.",
-        "model": "Koop twee broden en één pak melk. Koop geen koffie. Heeft u de zwarte broek in maat tweeënveertig?",
-        "translation": "اشترِ خبزين وعلبة حليب واحدة. لا تشترِ قهوة. هل لديكم البنطال الأسود بمقاس 42؟",
+        "prompt": "في متجر خيالي يبيع الطعام والملابس، اكتب طلباً للموظف: خبزان وعلبة حليب واحدة، ولا قهوة. اسأل أيضاً عن البنطال الأسود بمقاس 42.",
+        "model": "Ik wil graag twee broden en één pak melk, maar geen koffie. Heeft u ook de zwarte broek in maat tweeënveertig?",
+        "translation": "أريد خبزين وعلبة حليب واحدة، لكن دون قهوة. هل لديكم أيضاً البنطال الأسود بمقاس 42؟",
         "checklist": [
           "هل استخدمت العدد مع المشتريات بوضوح؟",
           "هل أضفت سؤالاً عن اللون والمقاس؟"
@@ -814,17 +814,17 @@
         ]
       },
       {
-        "prompt": "مع شريك: اطلب مشتريات محددة، ثم اسأل عن بنطال بلون ومقاس مختلفين، وكرر السعر أو الكمية للتأكد.",
-        "model": "Koop twee broden en één pak melk. Koop geen koffie. Heeft u de zwarte broek in maat tweeënveertig? Dus twee broden en één pak melk?",
-        "translation": "اشترِ خبزين وعلبة حليب واحدة. لا تشترِ قهوة. هل لديكم البنطال الأسود بمقاس 42؟ إذن خبزان وعلبة حليب واحدة؟",
+        "prompt": "مع شريك يؤدي دور موظف متجر خيالي يبيع الطعام والملابس: اطلب خبزين وعلبة حليب وارفض القهوة، ثم اسأل عن بنطال أسود بمقاس 42 وصحّح المقاس إذا أعاده الموظف خطأً.",
+        "model": "Ik wil graag twee broden en één pak melk.\nPartner: Wil je ook koffie?\nNee, geen koffie. Heeft u de zwarte broek in maat tweeënveertig?\nPartner: Maat veertig?\nNee, maat tweeënveertig, alstublieft.",
+        "translation": "أريد خبزين وعلبة حليب واحدة.\nالشريك: هل تريد قهوة أيضاً؟\nلا، دون قهوة. هل لديكم البنطال الأسود بمقاس 42؟\nالشريك: مقاس 40؟\nلا، مقاس 42 من فضلك.",
         "checklist": [
-          "هل جمعت بين طلب المشتريات والسؤال عن المقاس؟",
-          "هل كررت الكمية أو الطلب للتأكد؟"
+          "هل طلبت الطعام وحددت اللون والمقاس بأدب؟",
+          "هل صححت المقاس من 40 إلى 42؟"
         ],
         "partnerPrompts": [
-          "Hoeveel broden wil je?",
-          "Welke maat zoek je?",
-          "Wil je ook koffie?"
+          "Hoeveel broden wilt u?",
+          "Wilt u ook koffie?",
+          "Een zwarte broek in maat veertig?"
         ]
       }
     ]
@@ -877,7 +877,7 @@
         },
         {
           "id": "practice-travel-and-directions-read-4",
-          "prompt": "كم دقيقة تبقى قبل الموعد عندما تصل الحافلة إلى Centrum؟",
+          "prompt": "كم دقيقة تبقى قبل الموعد عندما تصل الحافلة الأولى إلى Centrum، قبل المشي؟",
           "options": [
             "5 دقائق",
             "10 دقائق",
@@ -947,25 +947,25 @@
           "id": "practice-travel-and-directions-listen-3",
           "prompt": "في أي ساعة ينطلق القطار؟",
           "options": [
-            "12:30",
-            "13:30",
-            "14:30"
+            "الثانية عشرة والنصف",
+            "الواحدة والنصف",
+            "الثانية والنصف"
           ],
           "correctIndex": 1,
           "evidence": "Hij vertrekt om half twee.",
-          "explanation": "half twee تعني الواحدة والنصف، أي 13:30."
+          "explanation": "half twee تعني الواحدة والنصف: نصف ساعة قبل الثانية. لا يحدد التسجيل صباحاً أو بعد الظهر."
         },
         {
           "id": "practice-travel-and-directions-listen-4",
-          "prompt": "هل تحتاج إلى تبديل القطار؟",
+          "prompt": "في أي محطة يتوقف القطار أيضاً؟",
           "options": [
-            "نعم، مرة واحدة",
-            "لا، دون تبديل",
-            "مرتان"
+            "Zuid",
+            "Centrum",
+            "Park"
           ],
           "correctIndex": 1,
-          "evidence": "U hoeft niet over te stappen.",
-          "explanation": "over te stappen تعني تبديل القطار، والجملة تقول إنك لا تحتاج إليه."
+          "evidence": "De trein stopt ook in Centrum.",
+          "explanation": "ook تضيف محطة Centrum إلى معلومات الرحلة."
         }
       ]
     },
@@ -1068,15 +1068,15 @@
         },
         {
           "id": "practice-health-and-care-read-4",
-          "prompt": "أين تبلغ أولاً قبل الانتظار؟",
+          "prompt": "متى يكون الموعد مع الطبيب؟",
           "options": [
-            "في غرفة الانتظار 2",
-            "عند مكتب الاستقبال في الطابق الأرضي",
-            "عند الصيدلية"
+            "الخميس 11:20",
+            "الجمعة 11:20",
+            "الجمعة 12:20"
           ],
           "correctIndex": 1,
-          "evidence": "Meld u eerst bij de balie op de begane grond.",
-          "explanation": "الجملة تحدد أول خطوة: balie op de begane grond."
+          "evidence": "uw afspraak is vrijdag om 11:20 bij dokter Vos.",
+          "explanation": "vrijdag هو الجمعة و11:20 هو وقت الموعد."
         }
       ]
     },
@@ -1123,15 +1123,15 @@
         },
         {
           "id": "practice-health-and-care-listen-4",
-          "prompt": "منذ متى يوجد ألم القدم؟",
+          "prompt": "لماذا يطلب المتحدث إعادة السؤال؟",
           "options": [
-            "منذ اليوم",
-            "منذ الاثنين",
-            "منذ الجمعة"
+            "لأنه لم يسمع اسمه",
+            "لأنه لا يفهم السؤال جيداً",
+            "لأنه يريد تغيير الموعد"
           ],
           "correctIndex": 1,
-          "evidence": "Ik heb pijn in mijn voet, sinds maandag.",
-          "explanation": "sinds maandag تعني منذ يوم الاثنين."
+          "evidence": "Ik begrijp uw vraag niet goed.",
+          "explanation": "المتحدث يوضح صعوبة فهم السؤال؛ لا يذكر تغيير الموعد."
         }
       ]
     },
@@ -1147,8 +1147,8 @@
       },
       {
         "prompt": "اكتب رسالة قصيرة للعيادة: لديك ألم منذ الثلاثاء، ولا تستطيع إلا بعد 11:00، فاطلب موعداً آخر.",
-        "model": "Beste praktijk, ik heb sinds dinsdag pijn. Ik kan alleen na elf uur komen. Kunt u een andere afspraak geven?",
-        "translation": "العيادة المحترمة، لدي ألم منذ الثلاثاء. لا أستطيع الحضور إلا بعد الحادية عشرة. هل يمكنكم إعطاء موعد آخر؟",
+        "model": "Goedemorgen, ik heb sinds dinsdag pijn. Ik kan alleen na elf uur komen. Kunnen we een andere afspraak maken?",
+        "translation": "صباح الخير، لدي ألم منذ الثلاثاء. لا أستطيع الحضور إلا بعد الحادية عشرة. هل يمكننا تحديد موعد آخر؟",
         "checklist": [
           "هل ذكرت منذ متى بدأ العرض؟",
           "هل طلبت موعداً آخر بناءً على وقتك المتاح؟"
@@ -1172,16 +1172,16 @@
       },
       {
         "prompt": "مع شريك: صف عرضاً بدأ في يوم محدد، واطلب موعداً بعد وقت معين، ثم اطلب إعادة السؤال ببطء إذا لم تفهم.",
-        "model": "Ik heb sinds dinsdag pijn in mijn voet. Ik kan alleen na elf uur komen. Kunt u de vraag langzamer herhalen?",
-        "translation": "لدي ألم في قدمي منذ الثلاثاء. لا أستطيع الحضور إلا بعد الحادية عشرة. هل يمكنك إعادة السؤال ببطء؟",
+        "model": "Ik heb sinds dinsdag pijn in mijn voet. Kan ik een afspraak na elf uur maken?\nPartner: Kunt u donderdag om half twaalf komen?\nKunt u de vraag langzamer herhalen?",
+        "translation": "لدي ألم في قدمي منذ الثلاثاء. هل يمكنني تحديد موعد بعد الحادية عشرة؟\nالشريك: هل يمكنك القدوم الخميس الساعة الحادية عشرة والنصف؟\nهل يمكنك إعادة السؤال ببطء؟",
         "checklist": [
           "هل ذكرت بداية العرض ووقت التوفر؟",
           "هل طلبت التكرار أو التوضيح عند الحاجة؟"
         ],
         "partnerPrompts": [
-          "Sinds wanneer heb je pijn?",
-          "Wanneer kun je komen?",
-          "Begrijp je mijn vraag?"
+          "Sinds wanneer heeft u pijn?",
+          "Wanneer kunt u komen?",
+          "Kunt u donderdag om half twaalf komen?"
         ]
       }
     ]
@@ -1222,27 +1222,27 @@
         },
         {
           "id": "practice-services-and-messages-read-3",
-          "prompt": "أي معلومة ليست إلزامية في الاستمارة؟",
+          "prompt": "متى يجب إعادة الاستمارة؟",
           "options": [
-            "الاسم الأول",
-            "رقم الهاتف",
-            "البريد الإلكتروني"
+            "في 12 أكتوبر فقط",
+            "قبل 12 أكتوبر",
+            "بعد 12 أكتوبر"
           ],
           "correctIndex": 1,
-          "evidence": "Het telefoonnummer is niet verplicht.",
-          "explanation": "ليس مطلوباً إلزامياً في هذا النص إلا رقم الهاتف."
+          "evidence": "Stuur het formulier vóór 12 oktober terug.",
+          "explanation": "vóór تعني قبل التاريخ المذكور، وليس فيه أو بعده."
         },
         {
           "id": "practice-services-and-messages-read-4",
-          "prompt": "لماذا لا يكون موعد الدرس مؤكداً بعد؟",
+          "prompt": "أي مجموعة تضم البيانات المطلوبة كلها؟",
           "options": [
-            "لأن رقم الهاتف ناقص دائماً",
-            "لأنهم سيرسلون تاريخ الدرس الأول لاحقاً بالبريد الإلكتروني",
-            "لأن النموذج يجب أن يرسل بعد 12 أكتوبر"
+            "الاسم ورقم الهاتف فقط",
+            "الاسم الأول واسم العائلة والبريد الإلكتروني",
+            "العنوان وتاريخ الميلاد"
           ],
           "correctIndex": 1,
-          "evidence": "U krijgt daarna een e-mail met de eerste lesdatum. Uw inschrijving is dus nog geen bevestiging van een lesdatum.",
-          "explanation": "التأكيد يأتي لاحقاً في بريد إلكتروني فيه أول تاريخ للدرس."
+          "evidence": "Vul uw voornaam, achternaam en e-mailadres in.",
+          "explanation": "هذه هي الحقول الثلاثة المطلوبة؛ رقم الهاتف اختياري."
         }
       ]
     },
@@ -1277,27 +1277,27 @@
         },
         {
           "id": "practice-services-and-messages-listen-3",
-          "prompt": "ماذا يجب أن يفعل المستمع بخصوص الموعد الجديد؟",
+          "prompt": "ماذا حدث لموعد الأربعاء؟",
           "options": [
-            "يصل مباشرة دون رد",
-            "يتصل مجدداً لتأكيده",
-            "يرسل استمارة جديدة"
+            "تأكد الموعد",
+            "أُلغي الموعد",
+            "انتقل إلى الصباح"
           ],
           "correctIndex": 1,
-          "evidence": "Bel ons terug om dit te bevestigen.",
-          "explanation": "المطلوب إعادة الاتصال لتأكيد الموعد الجديد."
+          "evidence": "Uw afspraak op woensdag gaat niet door.",
+          "explanation": "gaat niet door تعني أن الموعد لن يُعقد."
         },
         {
           "id": "practice-services-and-messages-listen-4",
-          "prompt": "ماذا يجب أن تفعل إذا كان وقت الجمعة مناسباً؟",
+          "prompt": "من الجهة التي أرسلت الرسالة الصوتية؟",
           "options": [
-            "ترسل رسالة إلى الجار",
-            "تعود بالاتصال لتأكيده",
-            "تذهب مباشرة يوم الأربعاء"
+            "البلدية",
+            "مدرسة اللغة",
+            "عيادة الطبيب"
           ],
           "correctIndex": 1,
-          "evidence": "Bel ons terug om dit te bevestigen.",
-          "explanation": "التسجيل يطلب الاتصال مجدداً من أجل التأكيد."
+          "evidence": "Hallo, dit is een bericht van de taalschool.",
+          "explanation": "taalschool هي مدرسة اللغة، وهي الجهة المتصلة."
         }
       ]
     },
@@ -1400,15 +1400,15 @@
         },
         {
           "id": "practice-work-and-tasks-read-4",
-          "prompt": "من يفحص الأسماء أولاً؟",
+          "prompt": "أي عمل يجب الانتظار قبل تنفيذه؟",
           "options": [
-            "آدم",
-            "إيفا",
-            "الزبون"
+            "عدّ الصناديق",
+            "وضع الصناديق على الرف",
+            "كتابة العدد"
           ],
           "correctIndex": 1,
-          "evidence": "Eva controleert eerst de namen.",
-          "explanation": "الجملة تنص مباشرة على أن Eva هي من تفحص الأسماء أولاً."
+          "evidence": "Zet de dozen nog niet op het rek. Eva controleert eerst de namen.",
+          "explanation": "nog niet تعني ليس بعد؛ يجب انتظار فحص الأسماء قبل وضع الصناديق على الرف."
         }
       ]
     },
@@ -1455,15 +1455,15 @@
         },
         {
           "id": "practice-work-and-tasks-listen-4",
-          "prompt": "متى يفتح المتجر اليوم؟",
+          "prompt": "أين توضع الكراسي؟",
           "options": [
-            "08:30",
-            "09:00",
-            "10:00"
+            "عند الباب",
+            "بجانب الطاولة",
+            "في المستودع"
           ],
           "correctIndex": 1,
-          "evidence": "De winkel gaat om negen uur open.",
-          "explanation": "om negen uur تعني الساعة التاسعة."
+          "evidence": "Zet eerst de stoelen bij de tafel.",
+          "explanation": "bij de tafel تحدد موضع الكراسي."
         }
       ]
     },
@@ -1566,15 +1566,15 @@
         },
         {
           "id": "practice-leisure-and-plans-read-4",
-          "prompt": "إلى أين يذهبان إذا أمطرت؟",
+          "prompt": "ماذا تطلب سارة في نهاية رسالتها؟",
           "options": [
-            "إلى المكتبة",
-            "إلى المقهى بجانب الحديقة",
-            "إلى المنزل مباشرة"
+            "إحضار الطعام",
+            "إخبارها إن كان الطرف الآخر سيأتي",
+            "حجز تذكرة"
           ],
           "correctIndex": 1,
-          "evidence": "Als het regent, gaan we naar het café naast het park.",
-          "explanation": "الجملة الشرطية تذكر الذهاب إلى المقهى بجانب الحديقة عند المطر."
+          "evidence": "Laat je weten of je komt?",
+          "explanation": "سارة تطلب ردّاً بشأن الحضور؛ الدعوة وحدها ليست تأكيداً."
         }
       ]
     },
@@ -1621,15 +1621,15 @@
         },
         {
           "id": "practice-leisure-and-plans-listen-4",
-          "prompt": "أين يقترح سام اللقاء؟",
+          "prompt": "ماذا يُطلب من سام أن يحضر معه؟",
           "options": [
-            "عند الجسر",
-            "في المقهى",
-            "عند المدرسة"
+            "ماءً",
+            "دفترًا",
+            "معطفاً"
           ],
           "correctIndex": 0,
-          "evidence": "We kunnen bij de brug afspreken.",
-          "explanation": "bij de brug تعني عند الجسر."
+          "evidence": "Neem water mee.",
+          "explanation": "المتحدث يخاطب سام ويطلب منه إحضار الماء."
         }
       ]
     },
@@ -1671,16 +1671,16 @@
       },
       {
         "prompt": "مع شريك: اقترح نشاطاً ووقتاً ومكاناً، ثم بدّل الخطة إذا كان الجو سيئاً، واطلب من الشريك تأكيد ما سيحضره.",
-        "model": "Zullen we zondag om drie uur bij het park afspreken? Als het regent, ga ik liever naar het café. Neem jij water mee?",
-        "translation": "هل نلتقي الأحد الساعة الثالثة عند الحديقة؟ إذا أمطرت فأنا أفضل المقهى. هل ستحضر أنت الماء؟",
+        "model": "Zullen we zondag om drie uur bij het park afspreken om te wandelen?\nPartner: En als het regent?\nDan gaan we naar het café. Neem jij water mee?\nPartner: Ja, ik neem water mee.",
+        "translation": "هل نلتقي الأحد الثالثة عند الحديقة لنتمشى؟\nالشريك: وإذا أمطرت؟\nنذهب حينها إلى المقهى. هل ستحضر الماء؟\nالشريك: نعم، سأحضر الماء.",
         "checklist": [
           "هل ذكرت النشاط والوقت والمكان؟",
           "هل قدمت خطة بديلة وطلبت تأكيد ما سيحضره الشريك؟"
         ],
         "partnerPrompts": [
-          "Waar spreken we af?",
+          "Waar en hoe laat spreken we af?",
           "Wat doen we als het regent?",
-          "Neem jij water mee?"
+          "Ja, ik neem water mee."
         ]
       }
     ]
@@ -1845,7 +1845,7 @@
         ]
       },
       {
-        "prompt": "اكتب خطة قصيرة لصديق جديد: الحافلة تصل 09:45، امشِ خمس دقائق، أحضر دفتراً وقلماً، وأرسل رسالة الخميس إذا كنت قادماً.",
+        "prompt": "تدرّب على الرسالة الأولى فقط، قبل خبر إغلاق المكتبة: اكتب لصديق أن الحافلة تصل 09:45، وعليه المشي خمس دقائق وإحضار دفتر وقلم وإرسال رد يوم الخميس إذا كان قادماً.",
         "model": "Bus 6 komt om 09:45 aan. Loop daarna vijf minuten naar de bibliotheek. Neem een schrift en een pen mee. Stuur donderdag een bericht als je komt.",
         "translation": "تصل الحافلة 6 الساعة 09:45. امشِ بعدها خمس دقائق إلى المكتبة. أحضر دفتراً وقلماً. أرسل رسالة الخميس إذا كنت قادماً.",
         "checklist": [
@@ -1874,9 +1874,9 @@
         ]
       },
       {
-        "prompt": "مع شريك: اجمع بين التعارف، الطريق، وقت اللقاء، وما يجب إحضاره في محادثة واحدة، ثم غيّر اليوم أو المكان عندما يقترح الشريك ذلك.",
-        "model": "Ik heet Adam en ik woon in Delft. Neem bus 6 en loop vijf minuten naar de bibliotheek. Neem een schrift en een pen mee. Zullen we maandag om half elf afspreken? Als de bibliotheek dicht is, gaan we naar lokaal drie op school.",
-        "translation": "اسمي آدم وأسكن في دلفت. خذ الحافلة 6 وامشِ خمس دقائق إلى المكتبة. أحضر دفتراً وقلماً. هل نلتقي الاثنين العاشرة والنصف؟ إذا كانت المكتبة مغلقة نذهب إلى القاعة الثالثة في المدرسة.",
+        "prompt": "ابدأ موقفاً خيالياً جديداً مع شريك: قدّم نفسك واشرح الطريق إلى المكتبة وموعد الجمعة العاشرة وما يجب إحضاره. عندما يقترح الشريك الاثنين العاشرة والنصف في المدرسة، أجب وأكد التغيير.",
+        "model": "Ik heet Adam en ik woon in Delft. Neem bus 6 en loop vijf minuten naar de bibliotheek. Neem een schrift en een pen mee. Zullen we vrijdag om tien uur afspreken?\nPartner: Vrijdag kan ik niet. Kan het maandag om half elf op school?\nJa, maandag om half elf in lokaal drie op school. Tot dan!",
+        "translation": "اسمي آدم وأسكن في دلفت. خذ الحافلة 6 وامشِ خمس دقائق إلى المكتبة. أحضر دفتراً وقلماً. هل نلتقي الجمعة العاشرة؟\nالشريك: لا أستطيع الجمعة. هل يمكن الاثنين العاشرة والنصف في المدرسة؟\nنعم، الاثنين العاشرة والنصف في القاعة 3 في المدرسة. إلى اللقاء!",
         "checklist": [
           "هل جمعت التعارف والطريق والموعد وما يجب إحضاره في تسلسل واحد؟",
           "هل استطعت تغيير اليوم أو المكان عندما اقترح الشريك بديلاً؟",
@@ -1886,7 +1886,7 @@
           "Waar woon je?",
           "Hoe kom ik bij de bibliotheek?",
           "Wat moet ik meenemen?",
-          "Maandag om half elf kan ik. En als de bibliotheek dicht is?"
+          "Vrijdag kan ik niet. Kan het maandag om half elf op school?"
         ]
       }
     ]
