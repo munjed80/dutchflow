@@ -11,7 +11,7 @@ export default async function LearnPage({ searchParams }: { searchParams: Promis
   const courseModules = getLevelModules(level);
   const lessons = getLevelLessons(level);
   return <div className="shell inner-page learning-path-page">
-    {level === "A2" && <p className="reading-note">المتاح الآن أول وحدة A2. بقية المنهج قيد الإعداد، والتسجيلات الثابتة والمراجعة المستقلة لم تكتمل بعد.</p>}
+    {level === "A2" && <p className="reading-note">وحدات A2 المتاحة الآن: {courseModules.length}. بقية المنهج قيد الإعداد، والتسجيلات الثابتة والمراجعة المستقلة لم تكتمل بعد.</p>}
     <p className="curriculum-entry"><Link className="text-link" href="/pronunciation">الحروف وأصوات الهولندية ←</Link></p>
     <div className="page-heading"><span className="eyebrow">مسار {level} · تعلّم مجاناً</span><h1>الهولندية <em>لحياتك اليومية.</em></h1><p>الدروس المجانية: {lessons.length} · الوحدات العملية: {courseModules.length}. اختر درساً وتدرّب بالوتيرة التي تناسبك.</p></div>
     <LevelNavigation path="/learn" level={level} />

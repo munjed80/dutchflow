@@ -28,5 +28,95 @@
   ],
   "a2-practice-listen-3": [
     "a2-telling-a-short-story"
+  ],
+  "a2-handover-read-1": [
+    "a2-explaining-a-delay"
+  ],
+  "a2-handover-read-2": [
+    "a2-reporting-task-progress"
+  ],
+  "a2-handover-read-3": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-handover-read-4": [
+    "a2-confirming-a-handover"
+  ],
+  "a2-work-practice-read-1": [
+    "a2-explaining-a-delay"
+  ],
+  "a2-work-practice-read-2": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-work-practice-read-3": [
+    "a2-confirming-a-handover"
+  ],
+  "a2-work-practice-listen-1": [
+    "a2-reporting-task-progress"
+  ],
+  "a2-work-practice-listen-2": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-work-practice-listen-3": [
+    "a2-confirming-a-handover"
+  ],
+  "a2-housing-read-1": [
+    "a2-following-up-on-a-repair"
+  ],
+  "a2-housing-read-2": [
+    "a2-comparing-conditions-at-home"
+  ],
+  "a2-housing-read-3": [
+    "a2-arranging-a-repair-visit"
+  ],
+  "a2-housing-read-4": [
+    "a2-arranging-a-repair-visit"
+  ],
+  "a2-housing-practice-read-1": [
+    "a2-reporting-a-recurring-problem"
+  ],
+  "a2-housing-practice-read-2": [
+    "a2-following-up-on-a-repair"
+  ],
+  "a2-housing-practice-read-3": [
+    "a2-arranging-a-repair-visit"
+  ],
+  "a2-housing-practice-listen-1": [
+    "a2-arranging-a-repair-visit"
+  ],
+  "a2-housing-practice-listen-2": [
+    "a2-following-up-on-a-repair"
+  ],
+  "a2-housing-practice-listen-3": [
+    "a2-arranging-a-repair-visit"
+  ],
+  "a2-options-read-1": [
+    "a2-explaining-an-appointment-conflict"
+  ],
+  "a2-options-read-2": [
+    "a2-comparing-appointment-options"
+  ],
+  "a2-options-read-3": [
+    "a2-comparing-appointment-options"
+  ],
+  "a2-options-read-4": [
+    "a2-asking-for-an-appointment-update"
+  ],
+  "a2-appointments-practice-read-1": [
+    "a2-explaining-an-appointment-conflict"
+  ],
+  "a2-appointments-practice-read-2": [
+    "a2-asking-for-an-appointment-update"
+  ],
+  "a2-appointments-practice-read-3": [
+    "a2-asking-for-an-appointment-update"
+  ],
+  "a2-appointments-practice-listen-1": [
+    "a2-confirming-a-replacement-appointment"
+  ],
+  "a2-appointments-practice-listen-2": [
+    "a2-confirming-a-replacement-appointment"
+  ],
+  "a2-appointments-practice-listen-3": [
+    "a2-confirming-a-replacement-appointment"
   ]
 }

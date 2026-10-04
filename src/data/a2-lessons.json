@@ -590,5 +590,1781 @@
         "explanation": "الفعل المصرف heb يسبق ik بعد Daarna."
       }
     ]
+  },
+  {
+    "slug": "a2-reporting-task-progress",
+    "moduleId": "a2-work-coordination",
+    "level": "A2",
+    "number": "05",
+    "title": "أخبر زميلك بتقدّم المهمة",
+    "dutchTitle": "Vertellen hoe ver je bent",
+    "description": "أميّز بين المهمة المكتملة والمتبقية وأتفق على الخطوة التالية.",
+    "durationMinutes": 12,
+    "context": "تتبادل أنت ونور تحديثاً عن صناديق في متجر خيالي.",
+    "goal": "أميّز بين المهمة المكتملة والمتبقية وأتفق على الخطوة التالية.",
+    "grammar": {
+      "title": "al وnog niet في متابعة العمل",
+      "explanation": "al تعني هنا أن المهمة أُنجزت بالفعل، وnog niet أنها لم تُنجز بعد. قارن الفعل المنتهي بالخطة التالية. نقول inpakken → ingepakt، ونفصل الفعل في الحاضر: ik pak ... in.",
+      "example": "Ik heb de dozen al ingepakt.",
+      "translation": "لقد حزمت الصناديق بالفعل."
+    },
+    "phrases": [
+      {
+        "id": "a2-reporting-task-progress-01",
+        "dutch": "Heb je de bestelling al gecontroleerd?",
+        "arabic": "هل راجعت الطلبية بالفعل؟",
+        "tip": "al تسأل هنا هل أُنجزت المهمة."
+      },
+      {
+        "id": "a2-reporting-task-progress-02",
+        "dutch": "Ja, ik heb alle zes dozen gecontroleerd.",
+        "arabic": "نعم، فحصت الصناديق الستة كلها.",
+        "tip": "alle zes لا تعني بعض الصناديق."
+      },
+      {
+        "id": "a2-reporting-task-progress-03",
+        "dutch": "Ik heb er vier ingepakt.",
+        "arabic": "حزمت أربعة منها.",
+        "tip": "er تعود إلى الصناديق؛ inpakken → ingepakt."
+      },
+      {
+        "id": "a2-reporting-task-progress-04",
+        "dutch": "De andere twee zijn nog niet klaar.",
+        "arabic": "الصندوقان الآخران ليسا جاهزين بعد.",
+        "tip": "nog niet klaar تعني عدم الجاهزية حتى الآن."
+      },
+      {
+        "id": "a2-reporting-task-progress-05",
+        "dutch": "Wat moet er nog gebeuren?",
+        "arabic": "ما الذي ما زال يجب إنجازه؟",
+        "tip": "سؤال شائع عن العمل المتبقي."
+      },
+      {
+        "id": "a2-reporting-task-progress-06",
+        "dutch": "Ik moet de laatste twee dozen nog inpakken.",
+        "arabic": "ما زال عليّ حزم الصندوقين الأخيرين.",
+        "tip": "بعد moet نستخدم المصدر inpakken."
+      },
+      {
+        "id": "a2-reporting-task-progress-07",
+        "dutch": "Dan controleer ik de adressen.",
+        "arabic": "سأراجع العناوين عندئذ.",
+        "tip": "الفعل controleer يسبق ik بعد Dan."
+      },
+      {
+        "id": "a2-reporting-task-progress-08",
+        "dutch": "Goed, daarna zetten we alles bij de deur.",
+        "arabic": "حسناً، بعد ذلك نضع كل شيء بجانب الباب.",
+        "tip": "نراجع eerst وdaarna من الوحدة السابقة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-reporting-task-progress-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-04"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-reporting-task-progress-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-06"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-reporting-task-progress-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-task-progress-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-reporting-task-progress-q1",
+        "prompt": "كم صندوقاً فُحص في الحوار؟",
+        "options": [
+          "أربعة",
+          "ستة",
+          "اثنان"
+        ],
+        "correctIndex": 1,
+        "explanation": "alle zes dozen تعني الصناديق الستة كلها."
+      },
+      {
+        "id": "a2-reporting-task-progress-q2",
+        "prompt": "ما العمل الذي ما زال متبقياً على آدم؟",
+        "options": [
+          "فحص ستة صناديق",
+          "حزم صندوقين",
+          "قراءة العناوين"
+        ],
+        "correctIndex": 1,
+        "explanation": "يقول إنه يجب أن يحزم الصندوقين الأخيرين."
+      },
+      {
+        "id": "a2-reporting-task-progress-q3",
+        "prompt": "ماذا تشير إليه er في Ik heb er vier ingepakt؟",
+        "options": [
+          "أربعة عناوين",
+          "أربع طلبيات جديدة",
+          "أربعة من الصناديق"
+        ],
+        "correctIndex": 2,
+        "explanation": "er تستبدل اسم الأشياء المعدودة المعروفة من السياق."
+      },
+      {
+        "id": "a2-reporting-task-progress-q4",
+        "prompt": "أكمل: Ik heb de dozen al ... .",
+        "options": [
+          "ingepakt",
+          "inpakken",
+          "pak in"
+        ],
+        "correctIndex": 0,
+        "explanation": "مع heb نستخدم اسم المفعول ingepakt."
+      }
+    ]
+  },
+  {
+    "slug": "a2-explaining-a-delay",
+    "moduleId": "a2-work-coordination",
+    "level": "A2",
+    "number": "06",
+    "title": "اشرح سبب التأخير",
+    "dutchTitle": "Een vertraging uitleggen",
+    "description": "أشرح تأخر مهمة بسبب بسيط وأقترح وقتاً جديداً.",
+    "durationMinutes": 12,
+    "context": "الطابعة في المكتب الخيالي لا تعمل، فتشرح لنور سبب تأخر القائمة.",
+    "goal": "أشرح تأخر مهمة بسبب بسيط وأقترح وقتاً جديداً.",
+    "grammar": {
+      "title": "ربط السبب باستخدام want",
+      "explanation": "want تربط هنا جملتين رئيسيتين؛ يبقى الفاعل قبل الفعل في مثال السبب: want de printer werkt niet. لا ننقل الفعل إلى النهاية كما يحدث في الجملة التابعة مع omdat. نركز الآن على want ونؤجل تدريب الجمل التابعة.",
+      "example": "Ik kan niet printen, want de printer werkt niet.",
+      "translation": "لا أستطيع الطباعة لأن الطابعة لا تعمل."
+    },
+    "phrases": [
+      {
+        "id": "a2-explaining-a-delay-01",
+        "dutch": "Is de lijst al klaar?",
+        "arabic": "هل القائمة جاهزة بالفعل؟",
+        "tip": "klaar تعني جاهزة."
+      },
+      {
+        "id": "a2-explaining-a-delay-02",
+        "dutch": "Nee, ik kan niet printen, want de printer werkt niet.",
+        "arabic": "لا، لا أستطيع الطباعة لأن الطابعة لا تعمل.",
+        "tip": "want تقدم سبب المشكلة مع ترتيب الجملة الرئيسية."
+      },
+      {
+        "id": "a2-explaining-a-delay-03",
+        "dutch": "Heb je hulp gevraagd?",
+        "arabic": "هل طلبت المساعدة؟",
+        "tip": "نراجع heb gevraagd من الوحدة الأولى."
+      },
+      {
+        "id": "a2-explaining-a-delay-04",
+        "dutch": "Ja, ik heb de collega van de receptie gebeld.",
+        "arabic": "نعم، اتصلت بزميل الاستقبال.",
+        "tip": "bellen → gebeld."
+      },
+      {
+        "id": "a2-explaining-a-delay-05",
+        "dutch": "Hij komt om half elf.",
+        "arabic": "سيأتي الساعة العاشرة والنصف.",
+        "tip": "half elf تعني 10:30."
+      },
+      {
+        "id": "a2-explaining-a-delay-06",
+        "dutch": "Kun je de lijst om elf uur brengen?",
+        "arabic": "هل يمكنك إحضار القائمة الساعة الحادية عشرة؟",
+        "tip": "هذا اقتراح لوقت تسليم جديد."
+      },
+      {
+        "id": "a2-explaining-a-delay-07",
+        "dutch": "Ja, dat lukt. Ik breng de lijst om elf uur.",
+        "arabic": "نعم، يمكنني ذلك. سأحضر القائمة الساعة الحادية عشرة.",
+        "tip": "dat lukt تؤكد القدرة على تنفيذ الاقتراح."
+      },
+      {
+        "id": "a2-explaining-a-delay-08",
+        "dutch": "Dank je. Stuur mij nu alvast de lijst per e-mail.",
+        "arabic": "شكراً. أرسل لي القائمة الآن بالبريد الإلكتروني ريثما تأتي بها.",
+        "tip": "alvast تشير هنا إلى إجراء يمكن إنجازه مسبقاً."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-explaining-a-delay-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-a-delay-02"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-explaining-a-delay-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-a-delay-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-a-delay-05"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-explaining-a-delay-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-a-delay-07"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-explaining-a-delay-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-explaining-a-delay-q1",
+        "prompt": "لماذا لم تُطبع القائمة؟",
+        "options": [
+          "الطابعة لا تعمل",
+          "القائمة مفقودة",
+          "نور في عطلة"
+        ],
+        "correctIndex": 0,
+        "explanation": "المشكلة المذكورة هي de printer werkt niet."
+      },
+      {
+        "id": "a2-explaining-a-delay-q2",
+        "prompt": "أي وقت يخص وصول زميل الاستقبال؟",
+        "options": [
+          "11:00",
+          "10:00",
+          "10:30"
+        ],
+        "correctIndex": 2,
+        "explanation": "Hij komt om half elf؛ أما 11:00 فهو وقت إحضار القائمة."
+      },
+      {
+        "id": "a2-explaining-a-delay-q3",
+        "prompt": "أي جملة تعطي سبباً بترتيب صحيح بعد want؟",
+        "options": [
+          "Ik wacht, want de printer niet werkt.",
+          "Ik wacht, want de printer werkt niet.",
+          "Ik wacht, want werkt niet de printer."
+        ],
+        "correctIndex": 1,
+        "explanation": "بعد want تبدأ هنا جملة رئيسية: de printer werkt niet."
+      },
+      {
+        "id": "a2-explaining-a-delay-q4",
+        "prompt": "ماذا تطلب نور الآن قبل إحضار القائمة؟",
+        "options": [
+          "إلغاء القائمة",
+          "انتظار الغد",
+          "إرسالها بالبريد الإلكتروني"
+        ],
+        "correctIndex": 2,
+        "explanation": "nu alvast تحدد الإجراء المطلوب الآن."
+      }
+    ]
+  },
+  {
+    "slug": "a2-clarifying-instructions",
+    "moduleId": "a2-work-coordination",
+    "level": "A2",
+    "number": "07",
+    "title": "اطلب توضيح التعليمات",
+    "dutchTitle": "Instructies verduidelijken",
+    "description": "أطلب إعادة الشرح وأؤكد ترتيب المهمة ومكانها.",
+    "durationMinutes": 12,
+    "context": "تخاطب مشرفة خيالية بصيغة u للتأكد من تعليمات تجهيز أوراق.",
+    "goal": "أطلب إعادة الشرح وأؤكد ترتيب المهمة ومكانها.",
+    "grammar": {
+      "title": "طلب التوضيح بأدب",
+      "explanation": "Kunt u ...? طلب مهذب بصيغة u. يأتي المصدر لاحقاً: Kunt u dat herhalen? وللتأكد نستخدم Bedoelt u ...? مع إعادة التفصيل المشكوك فيه. في هذا الحوار حافظ على u بدلاً من خلطها مع je.",
+      "example": "Kunt u dat nog een keer uitleggen?",
+      "translation": "هل يمكنكم شرح ذلك مرة أخرى؟"
+    },
+    "phrases": [
+      {
+        "id": "a2-clarifying-instructions-01",
+        "dutch": "Wilt u eerst deze formulieren controleren?",
+        "arabic": "هل يمكنكم مراجعة هذه الاستمارات أولاً؟",
+        "tip": "Wilt u هنا طلب مهذب وليس سؤالاً عن الرغبة فقط."
+      },
+      {
+        "id": "a2-clarifying-instructions-02",
+        "dutch": "Kunt u dat nog een keer uitleggen?",
+        "arabic": "هل يمكنكم شرح ذلك مرة أخرى؟",
+        "tip": "u صيغة مخاطبة مهذبة؛ uitleggen تعني يشرح."
+      },
+      {
+        "id": "a2-clarifying-instructions-03",
+        "dutch": "Controleer eerst de namen. Leg de formulieren daarna in de blauwe map.",
+        "arabic": "راجعوا الأسماء أولاً. ضعوا الاستمارات بعد ذلك في الملف الأزرق.",
+        "tip": "تتكون التعليمات من خطوتين مرتبتين."
+      },
+      {
+        "id": "a2-clarifying-instructions-04",
+        "dutch": "Bedoelt u de map naast de computer?",
+        "arabic": "هل تقصدون الملف بجانب الحاسوب؟",
+        "tip": "Bedoelt u تسأل عن المقصود."
+      },
+      {
+        "id": "a2-clarifying-instructions-05",
+        "dutch": "Nee, de blauwe map op de kast.",
+        "arabic": "لا، الملف الأزرق فوق الخزانة.",
+        "tip": "تصحيح المكان: op بدلاً من naast."
+      },
+      {
+        "id": "a2-clarifying-instructions-06",
+        "dutch": "Dus eerst de namen controleren en daarna de formulieren in die map leggen?",
+        "arabic": "إذن أراجع الأسماء أولاً ثم أضع الاستمارات في ذلك الملف؟",
+        "tip": "إعادة التعليمات للتأكد تمنع سوء الفهم."
+      },
+      {
+        "id": "a2-clarifying-instructions-07",
+        "dutch": "Ja, precies. Alleen de formulieren van vandaag.",
+        "arabic": "نعم، بالضبط. استمارات اليوم فقط.",
+        "tip": "alleen تحدد نطاق المهمة."
+      },
+      {
+        "id": "a2-clarifying-instructions-08",
+        "dutch": "Duidelijk, dank u wel.",
+        "arabic": "واضح، شكراً لكم.",
+        "tip": "شكر بصيغة u نفسها."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المشرفة",
+        "phraseId": "a2-clarifying-instructions-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-clarifying-instructions-02"
+      },
+      {
+        "speaker": "المشرفة",
+        "phraseId": "a2-clarifying-instructions-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-clarifying-instructions-04"
+      },
+      {
+        "speaker": "المشرفة",
+        "phraseId": "a2-clarifying-instructions-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-clarifying-instructions-06"
+      },
+      {
+        "speaker": "المشرفة",
+        "phraseId": "a2-clarifying-instructions-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-clarifying-instructions-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-clarifying-instructions-q1",
+        "prompt": "ما الخطوة الأولى المطلوبة؟",
+        "options": [
+          "إغلاق الخزانة",
+          "مراجعة الأسماء",
+          "طباعة استمارات جديدة"
+        ],
+        "correctIndex": 1,
+        "explanation": "Controleer eerst de namen تحدد الخطوة الأولى."
+      },
+      {
+        "id": "a2-clarifying-instructions-q2",
+        "prompt": "أين الملف المقصود بعد التصحيح؟",
+        "options": [
+          "بجانب الحاسوب",
+          "تحت الطاولة",
+          "فوق الخزانة"
+        ],
+        "correctIndex": 2,
+        "explanation": "المشرفة تصحح إلى de blauwe map op de kast."
+      },
+      {
+        "id": "a2-clarifying-instructions-q3",
+        "prompt": "أي استمارات تشمل المهمة؟",
+        "options": [
+          "استمارات اليوم فقط",
+          "استمارات الأسبوع كله",
+          "الاستمارات الفارغة فقط"
+        ],
+        "correctIndex": 0,
+        "explanation": "Alleen de formulieren van vandaag تحدد النطاق."
+      },
+      {
+        "id": "a2-clarifying-instructions-q4",
+        "prompt": "كيف تطلب إعادة الشرح بصيغة u؟",
+        "options": [
+          "Kunt u dat nog een keer uitleggen?",
+          "Kun je dat uitleggen?",
+          "Ik heb het uitgelegd."
+        ],
+        "correctIndex": 0,
+        "explanation": "Kunt u ... صيغة المخاطبة المطلوبة؛ je غير رسمية."
+      }
+    ]
+  },
+  {
+    "slug": "a2-confirming-a-handover",
+    "moduleId": "a2-work-coordination",
+    "level": "A2",
+    "number": "08",
+    "title": "أكد تسليم المهمة",
+    "dutchTitle": "Een overdracht bevestigen",
+    "description": "أتفق على من يفعل ماذا وأصحح موعد التسليم.",
+    "durationMinutes": 12,
+    "context": "تتفق أنت ونور على توزيع مهمتين قبل وصول زبون خيالي.",
+    "goal": "أتفق على من يفعل ماذا وأصحح موعد التسليم.",
+    "grammar": {
+      "title": "موعد محدد أم مهلة؟",
+      "explanation": "om tien uur تعني الساعة العاشرة، أما voor tien uur فتعني قبل العاشرة في هذه الجملة. uiterlijk tien uur تعني في موعد أقصاه العاشرة. أعد المهمة واسم المسؤول والوقت لتتأكد من الاتفاق.",
+      "example": "De dozen moeten voor tien uur klaar zijn.",
+      "translation": "يجب أن تكون الصناديق جاهزة قبل العاشرة."
+    },
+    "phrases": [
+      {
+        "id": "a2-confirming-a-handover-01",
+        "dutch": "Wie brengt de dozen naar de klant?",
+        "arabic": "من يوصل الصناديق إلى الزبون؟",
+        "tip": "Wie تسأل عن المسؤول عن العمل."
+      },
+      {
+        "id": "a2-confirming-a-handover-02",
+        "dutch": "Ik breng ze. Kun jij de adressen controleren?",
+        "arabic": "أنا أوصلها. هل يمكنك أنت مراجعة العناوين؟",
+        "tip": "ze تعود إلى الصناديق المعروفة."
+      },
+      {
+        "id": "a2-confirming-a-handover-03",
+        "dutch": "Ja. Wanneer moeten de dozen klaar zijn?",
+        "arabic": "نعم. متى يجب أن تكون الصناديق جاهزة؟",
+        "tip": "متى تنتهي المهمة، لا متى تبدأ؟"
+      },
+      {
+        "id": "a2-confirming-a-handover-04",
+        "dutch": "Voor tien uur, want de klant komt om tien uur.",
+        "arabic": "قبل العاشرة، لأن الزبون يأتي الساعة العاشرة.",
+        "tip": "نفرق بين قبل الوقت وعند الوقت."
+      },
+      {
+        "id": "a2-confirming-a-handover-05",
+        "dutch": "Dus ik controleer de adressen en jij brengt de dozen?",
+        "arabic": "إذن أراجع أنا العناوين وتوصلين أنت الصناديق؟",
+        "tip": "ik وjij تؤكدان توزيع المسؤولية."
+      },
+      {
+        "id": "a2-confirming-a-handover-06",
+        "dutch": "Ja. Stuur mij een bericht als alles klaar is.",
+        "arabic": "نعم. أرسل لي رسالة عندما يصبح كل شيء جاهزاً.",
+        "tip": "als alles klaar is عبارة جاهزة للتأكيد؛ نتوسع في als لاحقاً."
+      },
+      {
+        "id": "a2-confirming-a-handover-07",
+        "dutch": "Ik stuur je uiterlijk om kwart voor tien een bericht.",
+        "arabic": "سأرسل لك رسالة في موعد أقصاه العاشرة إلا ربعاً.",
+        "tip": "uiterlijk يعني أقصى موعد، وkwart voor tien هو 09:45."
+      },
+      {
+        "id": "a2-confirming-a-handover-08",
+        "dutch": "Afgesproken. Dank je wel.",
+        "arabic": "اتفقنا. شكراً لك.",
+        "tip": "Afgesproken تستخدم لتأكيد الاتفاق."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-handover-01"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-handover-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-handover-03"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-handover-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-handover-05"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-handover-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-handover-07"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-handover-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-confirming-a-handover-q1",
+        "prompt": "من يراجع العناوين حسب الاتفاق؟",
+        "options": [
+          "الزبون",
+          "نور",
+          "آدم"
+        ],
+        "correctIndex": 2,
+        "explanation": "آدم يعيد دوره: ik controleer de adressen."
+      },
+      {
+        "id": "a2-confirming-a-handover-q2",
+        "prompt": "ما الفرق بين جاهزية الصناديق ووصول الزبون؟",
+        "options": [
+          "الصناديق قبل 10:00 والزبون عند 10:00",
+          "كلاهما في 09:45 بالضبط",
+          "الصناديق بعد 10:00"
+        ],
+        "correctIndex": 0,
+        "explanation": "voor tien uur مهلة قبل الوقت؛ om tien uur وقت الوصول."
+      },
+      {
+        "id": "a2-confirming-a-handover-q3",
+        "prompt": "ماذا يعني uiterlijk om kwart voor tien هنا؟",
+        "options": [
+          "الساعة 10:15 فقط",
+          "في موعد أقصاه 09:45",
+          "بعد 09:45"
+        ],
+        "correctIndex": 1,
+        "explanation": "uiterlijk تعطي الحد الأقصى؛ لا تمنع الإرسال أبكر."
+      },
+      {
+        "id": "a2-confirming-a-handover-q4",
+        "prompt": "ما الرد الذي يؤكد الاتفاق؟",
+        "options": [
+          "Dat weet ik niet.",
+          "Misschien morgen.",
+          "Afgesproken."
+        ],
+        "correctIndex": 2,
+        "explanation": "Afgesproken تعني اتفقنا."
+      }
+    ]
+  },
+  {
+    "slug": "a2-reporting-a-recurring-problem",
+    "moduleId": "a2-housing-services",
+    "level": "A2",
+    "number": "09",
+    "title": "أبلغ عن مشكلة متكررة",
+    "dutchTitle": "Een terugkerend probleem melden",
+    "description": "أحدد المشكلة ومكانها وبدايتها وأميز عودتها عن استمرارها.",
+    "durationMinutes": 12,
+    "context": "تتصل بخدمة الصيانة في موقف خيالي للإبلاغ عن صنبور المطبخ.",
+    "goal": "أحدد المشكلة ومكانها وبدايتها وأميز عودتها عن استمرارها.",
+    "grammar": {
+      "title": "sinds وweer وnog steeds",
+      "explanation": "sinds maandag تحدد بداية المشكلة التي تستمر الآن، فنستخدم هنا الحاضر lekt. weer تعني أن المشكلة عادت، وnog steeds تعني أنها ما زالت قائمة. ليست الكلمتان مترادفتين.",
+      "example": "De kraan lekt sinds maandag.",
+      "translation": "الصنبور يسرّب الماء منذ الاثنين."
+    },
+    "phrases": [
+      {
+        "id": "a2-reporting-a-recurring-problem-01",
+        "dutch": "Goedemorgen, ik wil een probleem in mijn woning melden.",
+        "arabic": "صباح الخير، أريد الإبلاغ عن مشكلة في مسكني.",
+        "tip": "een probleem melden تعني الإبلاغ عن مشكلة."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-02",
+        "dutch": "Wat is er aan de hand?",
+        "arabic": "ما المشكلة؟",
+        "tip": "سؤال شائع لمعرفة ما يحدث."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-03",
+        "dutch": "De kraan in de keuken lekt weer.",
+        "arabic": "صنبور المطبخ يسرّب الماء مجدداً.",
+        "tip": "weer تعني أن التسرب عاد."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-04",
+        "dutch": "Sinds wanneer lekt de kraan?",
+        "arabic": "منذ متى يسرّب الصنبور الماء؟",
+        "tip": "Sinds wanneer تسأل عن بداية المشكلة."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-05",
+        "dutch": "Sinds maandag. Vorige week heeft een monteur de kraan gerepareerd.",
+        "arabic": "منذ الاثنين. أصلح فني الصنبور الأسبوع الماضي.",
+        "tip": "نميز بداية المشكلة الحالية عن الإصلاح السابق."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-06",
+        "dutch": "Lekt de kraan nu nog steeds?",
+        "arabic": "هل ما زال الصنبور يسرّب الماء الآن؟",
+        "tip": "nog steeds تسأل هل المشكلة مستمرة الآن."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-07",
+        "dutch": "Ja, er liggen elke ochtend druppels onder de kraan.",
+        "arabic": "نعم، توجد قطرات كل صباح تحت الصنبور.",
+        "tip": "elke ochtend تحدد تكرار الملاحظة."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-08",
+        "dutch": "Ik noteer het. Wat is uw adres?",
+        "arabic": "سأسجل ذلك. ما عنوانكم؟",
+        "tip": "استخدم عنواناً خيالياً في التدريب."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-a-recurring-problem-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-reporting-a-recurring-problem-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-a-recurring-problem-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-reporting-a-recurring-problem-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-a-recurring-problem-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-reporting-a-recurring-problem-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-a-recurring-problem-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-reporting-a-recurring-problem-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-reporting-a-recurring-problem-q1",
+        "prompt": "متى بدأت المشكلة الحالية؟",
+        "options": [
+          "الأسبوع الماضي قبل الإصلاح",
+          "منذ الاثنين",
+          "ستبدأ غداً"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sinds maandag تجيب عن بداية التسرب الحالي؛ الإصلاح حدث الأسبوع الماضي."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-q2",
+        "prompt": "ماذا تضيف weer إلى وصف التسرب؟",
+        "options": [
+          "أنه عاد بعد أن حدث سابقاً",
+          "أنه انتهى نهائياً",
+          "أنه سيحدث مستقبلاً"
+        ],
+        "correctIndex": 0,
+        "explanation": "weer تشير إلى عودة المشكلة."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-q3",
+        "prompt": "أين تظهر القطرات في الحوار؟",
+        "options": [
+          "فوق الخزانة",
+          "عند نافذة الغرفة",
+          "تحت صنبور المطبخ"
+        ],
+        "correctIndex": 2,
+        "explanation": "onder de kraan تعني تحت الصنبور، وقد حدد المتحدث أنه صنبور المطبخ."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-q4",
+        "prompt": "أي سؤال يتحقق من استمرار المشكلة الآن؟",
+        "options": [
+          "Wat is uw adres?",
+          "Lekt de kraan nu nog steeds?",
+          "Wie heeft de kraan gerepareerd?"
+        ],
+        "correctIndex": 1,
+        "explanation": "nog steeds تسأل عن استمرار التسرب في الوقت الحالي."
+      }
+    ]
+  },
+  {
+    "slug": "a2-comparing-conditions-at-home",
+    "moduleId": "a2-housing-services",
+    "level": "A2",
+    "number": "10",
+    "title": "صف ما تغيّر في المنزل",
+    "dutchTitle": "Verschillen in huis beschrijven",
+    "description": "أقارن بين غرفتين وأصف تغيراً لاحظته دون تشخيص سببه.",
+    "durationMinutes": 12,
+    "context": "تشرح لموظفة الصيانة ما تلاحظه حول نافذة غرفة النوم في مسكن خيالي.",
+    "goal": "أقارن بين غرفتين وأصف تغيراً لاحظته دون تشخيص سببه.",
+    "grammar": {
+      "title": "المقارنة باستخدام dan",
+      "explanation": "نتدرّب على koud → kouder وgroot → groter وgoed → beter. تأتي dan لربط طرفي المقارنة: kouder dan de woonkamer. هذه أوصاف للملاحظة، لا تشخيص فني.",
+      "example": "De slaapkamer is kouder dan de woonkamer.",
+      "translation": "غرفة النوم أبرد من غرفة المعيشة."
+    },
+    "phrases": [
+      {
+        "id": "a2-comparing-conditions-at-home-01",
+        "dutch": "Wat merkt u in de slaapkamer?",
+        "arabic": "ماذا تلاحظون في غرفة النوم؟",
+        "tip": "merken تعني يلاحظ."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-02",
+        "dutch": "De slaapkamer is kouder dan de woonkamer.",
+        "arabic": "غرفة النوم أبرد من غرفة المعيشة.",
+        "tip": "kouder dan للمقارنة بين الغرفتين."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-03",
+        "dutch": "Gaat het raam goed dicht?",
+        "arabic": "هل تُغلق النافذة جيداً؟",
+        "tip": "dichtgaan هنا إغلاق النافذة."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-04",
+        "dutch": "Nee, het raam sluit niet goed.",
+        "arabic": "لا، النافذة لا تُغلق جيداً.",
+        "tip": "sluiten تعني يغلق."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-05",
+        "dutch": "Is het probleem groter dan vorige week?",
+        "arabic": "هل المشكلة أكبر من الأسبوع الماضي؟",
+        "tip": "نقارن الوضع الحالي بالوضع السابق."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-06",
+        "dutch": "Ja, ik voel nu meer koude lucht bij het raam.",
+        "arabic": "نعم، أشعر الآن بهواء بارد أكثر قرب النافذة.",
+        "tip": "meer صيغة المقارنة من veel."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-07",
+        "dutch": "De deur sluit wel goed, beter dan het raam.",
+        "arabic": "أما الباب فيُغلق جيداً، أفضل من النافذة.",
+        "tip": "wel تؤكد المقابلة مع niet؛ goed → beter."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-08",
+        "dutch": "Dank u. Ik geef uw beschrijving door aan de monteur.",
+        "arabic": "شكراً لكم. سأنقل وصفكم إلى الفني.",
+        "tip": "الوصف هو ما لاحظته، وليس سبباً افترضته."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-conditions-at-home-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-conditions-at-home-02"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-conditions-at-home-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-conditions-at-home-04"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-conditions-at-home-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-conditions-at-home-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-conditions-at-home-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-conditions-at-home-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-comparing-conditions-at-home-q1",
+        "prompt": "أي غرفة أبرد حسب الوصف؟",
+        "options": [
+          "غرفة المعيشة",
+          "كلتاهما متساويتان",
+          "غرفة النوم"
+        ],
+        "correctIndex": 2,
+        "explanation": "De slaapkamer is kouder dan de woonkamer تحدد اتجاه المقارنة."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-q2",
+        "prompt": "ما الذي يُغلق بشكل أفضل؟",
+        "options": [
+          "النافذة",
+          "الباب",
+          "لا أحد منهما"
+        ],
+        "correctIndex": 1,
+        "explanation": "الباب يُغلق جيداً، أفضل من النافذة."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-q3",
+        "prompt": "أكمل المقارنة: De kamer is kouder ... de keuken.",
+        "options": [
+          "dan",
+          "want",
+          "sinds"
+        ],
+        "correctIndex": 0,
+        "explanation": "نستخدم dan في المقارنة التي نتدرب عليها."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-q4",
+        "prompt": "أي ملاحظة تدل على تغير الوضع؟",
+        "options": [
+          "الفني حضر اليوم",
+          "هناك هواء بارد أكثر قرب النافذة الآن",
+          "النافذة أُصلحت بالكامل"
+        ],
+        "correctIndex": 1,
+        "explanation": "المتحدث يقول ik voel nu meer koude lucht؛ لا يذكر زيارة جديدة أو اكتمال الإصلاح."
+      }
+    ]
+  },
+  {
+    "slug": "a2-arranging-a-repair-visit",
+    "moduleId": "a2-housing-services",
+    "level": "A2",
+    "number": "11",
+    "title": "رتّب زيارة للصيانة",
+    "dutchTitle": "Een bezoek van de monteur afspreken",
+    "description": "أذكر متى أكون في المنزل وأميز فترة الزيارة عن موعد محدد.",
+    "durationMinutes": 12,
+    "context": "تتفق مع موظفة الصيانة على زيارة خيالية وتؤكد فترة حضور الفني.",
+    "goal": "أذكر متى أكون في المنزل وأميز فترة الزيارة عن موعد محدد.",
+    "grammar": {
+      "title": "فترة بين وقتين ووقت بدء التوفر",
+      "explanation": "tussen twee en vier uur فترة بين الثانية والرابعة، وليست وعداً بالوصول عند الثانية بالضبط. vanaf twee uur تحدد بداية التوفر، وtot vier uur تحدد نهايته. نعيد اليوم والفترة قبل تأكيد الاتفاق.",
+      "example": "Ik ben vanaf twee uur thuis.",
+      "translation": "سأكون في المنزل اعتباراً من الثانية."
+    },
+    "phrases": [
+      {
+        "id": "a2-arranging-a-repair-visit-01",
+        "dutch": "De monteur kan dinsdag tussen negen en elf uur komen.",
+        "arabic": "يمكن للفني الحضور الثلاثاء بين التاسعة والحادية عشرة.",
+        "tip": "هذه فترة زيارة، وليست ساعة وصول دقيقة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-02",
+        "dutch": "Dinsdagochtend kan ik niet, want ik werk dan.",
+        "arabic": "لا أستطيع صباح الثلاثاء لأنني أعمل حينها.",
+        "tip": "نراجع السبب باستخدام want."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-03",
+        "dutch": "Kan de monteur donderdagmiddag komen?",
+        "arabic": "هل يمكن للفني الحضور بعد ظهر الخميس؟",
+        "tip": "طلب بديل ينتظر موافقة الموظفة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-04",
+        "dutch": "Donderdag kan hij tussen twee en vier uur komen.",
+        "arabic": "يمكنه الحضور الخميس بين الثانية والرابعة.",
+        "tip": "فترة جديدة في اليوم البديل."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-05",
+        "dutch": "Dat past. Ik ben vanaf twee uur thuis.",
+        "arabic": "هذا مناسب. سأكون في المنزل اعتباراً من الثانية.",
+        "tip": "vanaf تحدد بداية التوفر."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-06",
+        "dutch": "Bent u tot vier uur thuis?",
+        "arabic": "هل ستكونون في المنزل حتى الرابعة؟",
+        "tip": "tot تحدد نهاية فترة التوفر المطلوبة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-07",
+        "dutch": "Ja. Dus donderdag tussen twee en vier uur?",
+        "arabic": "نعم. إذن الخميس بين الثانية والرابعة؟",
+        "tip": "كرر اليوم والفترة، لا تحوّلها إلى موعد عند الثانية فقط."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-08",
+        "dutch": "Ja. U krijgt een bevestiging per e-mail.",
+        "arabic": "نعم. ستصلكم رسالة تأكيد بالبريد الإلكتروني.",
+        "tip": "هذا اتفاق خيالي للتدريب، وليس حجزاً حقيقياً."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-arranging-a-repair-visit-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-arranging-a-repair-visit-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-arranging-a-repair-visit-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-arranging-a-repair-visit-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-arranging-a-repair-visit-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-arranging-a-repair-visit-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-arranging-a-repair-visit-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-arranging-a-repair-visit-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-arranging-a-repair-visit-q1",
+        "prompt": "لماذا لا يناسب المتحدث الموعد الأول؟",
+        "options": [
+          "لأنه يعمل صباح الثلاثاء",
+          "لأنه في المنزل الخميس",
+          "لأن الفني ألغى كل المواعيد"
+        ],
+        "correctIndex": 0,
+        "explanation": "want ik werk dan يشرح عدم مناسبة صباح الثلاثاء."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-q2",
+        "prompt": "ما فترة الزيارة المتفق عليها؟",
+        "options": [
+          "الثلاثاء 09:00–11:00",
+          "الخميس 14:00–16:00",
+          "الخميس 09:00–11:00"
+        ],
+        "correctIndex": 1,
+        "explanation": "الموظفة توافق على الخميس بين الثانية والرابعة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-q3",
+        "prompt": "هل الاتفاق يعني أن الفني يصل الساعة 14:00 بالضبط؟",
+        "options": [
+          "نعم دائماً",
+          "نعم لأن vanaf تعني بالضبط",
+          "لا، الحضور ضمن فترة 14:00–16:00"
+        ],
+        "correctIndex": 2,
+        "explanation": "tussen تعطي فترة؛ بداية توفر الساكن ليست ساعة وصول مؤكدة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-q4",
+        "prompt": "ماذا تعني Ik ben vanaf twee uur thuis؟",
+        "options": [
+          "سأغادر المنزل الثانية",
+          "سأكون في المنزل من الثانية فصاعداً",
+          "أنا في المنزل حتى الثانية فقط"
+        ],
+        "correctIndex": 1,
+        "explanation": "vanaf بداية التوفر؛ حتى الثانية تعبر عنها tot."
+      }
+    ]
+  },
+  {
+    "slug": "a2-following-up-on-a-repair",
+    "moduleId": "a2-housing-services",
+    "level": "A2",
+    "number": "12",
+    "title": "تابع المشكلة بعد الزيارة",
+    "dutchTitle": "Na de reparatie contact opnemen",
+    "description": "أوضح ما أُصلح وما بقي دون حل وأطلب خطوة متابعة واضحة.",
+    "durationMinutes": 12,
+    "context": "تعاود الاتصال بعد زيارة صيانة خيالية للمطبخ وغرفة النوم.",
+    "goal": "أوضح ما أُصلح وما بقي دون حل وأطلب خطوة متابعة واضحة.",
+    "grammar": {
+      "title": "al وnog steeds وnog niet في المتابعة",
+      "explanation": "al gerepareerd تخبر أن الإصلاح أُنجز. nog steeds تصف مشكلة مستمرة، وnog niet opgelost تعني أنها لم تُحل بعد. وجود زيارة سابقة لا يعني أن كل المشكلات حُلّت.",
+      "example": "De kraan is al gerepareerd, maar het raam sluit nog steeds niet goed.",
+      "translation": "أُصلح الصنبور بالفعل، لكن النافذة ما زالت لا تُغلق جيداً."
+    },
+    "phrases": [
+      {
+        "id": "a2-following-up-on-a-repair-01",
+        "dutch": "Goedemiddag, de monteur is gisteren bij mij geweest.",
+        "arabic": "مساء الخير، زارني الفني أمس.",
+        "tip": "نراجع is geweest من الوحدة الأولى."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-02",
+        "dutch": "Is alles nu opgelost?",
+        "arabic": "هل حُلّ كل شيء الآن؟",
+        "tip": "السؤال عن النتيجة لا عن مجرد حدوث الزيارة."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-03",
+        "dutch": "De kraan is al gerepareerd. Hij lekt niet meer.",
+        "arabic": "أُصلح الصنبور بالفعل. لم يعد يسرّب الماء.",
+        "tip": "niet meer تعني أن التسرب توقف."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-04",
+        "dutch": "Maar het raam in de slaapkamer sluit nog steeds niet goed.",
+        "arabic": "لكن نافذة غرفة النوم ما زالت لا تُغلق جيداً.",
+        "tip": "maar تقابل التحسن بمشكلة باقية."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-05",
+        "dutch": "Heeft u dat gisteren aan de monteur verteld?",
+        "arabic": "هل أخبرتم الفني بذلك أمس؟",
+        "tip": "vertellen → verteld؛ بلا ge إضافية."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-06",
+        "dutch": "Ja, maar dat probleem is nog niet opgelost.",
+        "arabic": "نعم، لكن تلك المشكلة لم تُحل بعد.",
+        "tip": "نميز الإبلاغ عن المشكلة من حلها."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-07",
+        "dutch": "Ik vraag de monteur om u morgen terug te bellen.",
+        "arabic": "سأطلب من الفني معاودة الاتصال بكم غداً.",
+        "tip": "هذه خطوة اتصال، وليست تأكيد زيارة جديدة."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-08",
+        "dutch": "Dank u. Dus hij belt mij morgen terug over het raam?",
+        "arabic": "شكراً لكم. إذن سيعاود الاتصال بي غداً بشأن النافذة؟",
+        "tip": "أعد موضوع الاتصال واليوم للتأكد."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-following-up-on-a-repair-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-04"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-following-up-on-a-repair-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-06"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-following-up-on-a-repair-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-following-up-on-a-repair-q1",
+        "prompt": "أي مشكلة انتهت بعد الزيارة؟",
+        "options": [
+          "إغلاق النافذة",
+          "تسرب الصنبور",
+          "كل المشكلات"
+        ],
+        "correctIndex": 1,
+        "explanation": "Hij lekt niet meer تؤكد انتهاء التسرب فقط."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-q2",
+        "prompt": "ما المشكلة التي ما زالت قائمة؟",
+        "options": [
+          "النافذة لا تُغلق جيداً",
+          "الصنبور يسرّب مجدداً",
+          "الهاتف لا يعمل"
+        ],
+        "correctIndex": 0,
+        "explanation": "النافذة ما زالت لا تُغلق جيداً رغم إصلاح الصنبور."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-q3",
+        "prompt": "ما الخطوة التي قالت الموظفة إنها ستطلبها؟",
+        "options": [
+          "زيارة اليوم عند الثالثة",
+          "استبدال كل النوافذ فوراً",
+          "اتصال من الفني غداً"
+        ],
+        "correctIndex": 2,
+        "explanation": "terug te bellen تعني معاودة الاتصال، ولا تؤكد زيارة."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-q4",
+        "prompt": "أي عبارة تعني أن التسرب توقف؟",
+        "options": [
+          "Hij lekt nog steeds.",
+          "Hij lekt niet meer.",
+          "Hij lekt weer."
+        ],
+        "correctIndex": 1,
+        "explanation": "niet meer تعني لم يعد؛ nog steeds استمرار، وweer عودة."
+      }
+    ]
+  },
+  {
+    "slug": "a2-explaining-an-appointment-conflict",
+    "moduleId": "a2-appointments-followup",
+    "level": "A2",
+    "number": "13",
+    "title": "اشرح تعارض الموعد",
+    "dutchTitle": "Uitleggen waarom een afspraak niet past",
+    "description": "أشرح سبب عدم مناسبة الموعد وأطلب تغييره دون افتراض قبول الطلب.",
+    "durationMinutes": 12,
+    "context": "تتصل بمركز تدريب خيالي لتغيير موعد مقابلة التعارف.",
+    "goal": "أشرح سبب عدم مناسبة الموعد وأطلب تغييره دون افتراض قبول الطلب.",
+    "grammar": {
+      "title": "سبب بسيط باستخدام omdat",
+      "explanation": "بعد omdat نستخدم جملة تابعة؛ في أمثلتنا ذات الفعل الواحد يأتي الفعل المصرف في النهاية: omdat ik dan werk. قارنها بـ want ik werk dan. نتدرّب هنا على السبب بعد الجملة الرئيسية، ونؤجل ترتيب مجموعات الأفعال.",
+      "example": "Ik kan dinsdag niet komen omdat ik dan werk.",
+      "translation": "لا أستطيع الحضور الثلاثاء لأنني أعمل حينها."
+    },
+    "phrases": [
+      {
+        "id": "a2-explaining-an-appointment-conflict-01",
+        "dutch": "Goedemorgen, ik heb dinsdag om twee uur een kennismakingsgesprek.",
+        "arabic": "صباح الخير، لدي مقابلة تعارف الثلاثاء الساعة الثانية.",
+        "tip": "kennismakingsgesprek مقابلة أولية للتعارف."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-02",
+        "dutch": "Ik kan dan niet komen omdat ik werk.",
+        "arabic": "لا أستطيع الحضور حينها لأنني أعمل.",
+        "tip": "werk في نهاية الجملة التابعة بعد omdat."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-03",
+        "dutch": "Wilt u de afspraak verzetten?",
+        "arabic": "هل تريدون تغيير الموعد؟",
+        "tip": "verzetten هنا نقل الموعد إلى وقت آخر."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-04",
+        "dutch": "Ja, graag. Kan het gesprek op een andere dag plaatsvinden?",
+        "arabic": "نعم، من فضلكم. هل يمكن أن تُجرى المقابلة في يوم آخر؟",
+        "tip": "هذا طلب، ولا يعني أن التغيير تأكد."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-05",
+        "dutch": "Bent u woensdag beschikbaar?",
+        "arabic": "هل أنتم متاحون الأربعاء؟",
+        "tip": "beschikbaar متاح."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-06",
+        "dutch": "Ja, woensdag ben ik vrij.",
+        "arabic": "نعم، أنا متفرغ الأربعاء.",
+        "tip": "بعد woensdag يأتي ben قبل ik."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-07",
+        "dutch": "Welk tijdstip past u het best?",
+        "arabic": "أي وقت يناسبكم أكثر؟",
+        "tip": "السؤال عن الوقت بعد معرفة اليوم المتاح."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-08",
+        "dutch": "Het liefst in de ochtend, omdat ik in de middag les heb.",
+        "arabic": "أفضل الصباح، لأن لدي درساً بعد الظهر.",
+        "tip": "heb يأتي بعد les في نهاية هذا السبب."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-an-appointment-conflict-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-an-appointment-conflict-02"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-an-appointment-conflict-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-an-appointment-conflict-04"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-an-appointment-conflict-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-an-appointment-conflict-06"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-an-appointment-conflict-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-explaining-an-appointment-conflict-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-explaining-an-appointment-conflict-q1",
+        "prompt": "لماذا لا يناسب الموعد الحالي المتحدث؟",
+        "options": [
+          "لأنه يعمل حينها",
+          "لأن المركز مغلق",
+          "لأنه لم يطلب مقابلة"
+        ],
+        "correctIndex": 0,
+        "explanation": "المتحدث يقول omdat ik werk."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-q2",
+        "prompt": "أي ترتيب صحيح للسبب بعد omdat؟",
+        "options": [
+          "omdat ik heb les",
+          "omdat ik les heb",
+          "omdat heb ik les"
+        ],
+        "correctIndex": 1,
+        "explanation": "في هذا المثال ينتقل الفعل heb إلى نهاية الجملة التابعة."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-q3",
+        "prompt": "هل سؤال Kan het gesprek op een andere dag plaatsvinden? يؤكد موعداً جديداً؟",
+        "options": [
+          "نعم، الموعد الجديد الأربعاء التاسعة",
+          "نعم، أُلغي كل شيء تلقائياً",
+          "لا، إنه طلب ينتظر اتفاقاً"
+        ],
+        "correctIndex": 2,
+        "explanation": "السؤال يطلب تغييراً، ولا يحدد موعداً مقبولاً من الطرفين."
+      },
+      {
+        "id": "a2-explaining-an-appointment-conflict-q4",
+        "prompt": "لماذا يفضل المتحدث صباح الأربعاء؟",
+        "options": [
+          "لأن لديه درساً بعد الظهر",
+          "لأن الأربعاء غير متاح",
+          "لأن المقابلة انتهت"
+        ],
+        "correctIndex": 0,
+        "explanation": "omdat ik in de middag les heb يشرح تفضيل الصباح."
+      }
+    ]
+  },
+  {
+    "slug": "a2-comparing-appointment-options",
+    "moduleId": "a2-appointments-followup",
+    "level": "A2",
+    "number": "14",
+    "title": "قارن بين المواعيد البديلة",
+    "dutchTitle": "Afspraakmogelijkheden vergelijken",
+    "description": "أقارن بين بديلين وأختار ما يناسبني مع توضيح السبب.",
+    "durationMinutes": 12,
+    "context": "تعرض موظفة المركز خيارين في موقعين مختلفين قبل تسجيل الموعد.",
+    "goal": "أقارن بين بديلين وأختار ما يناسبني مع توضيح السبب.",
+    "grammar": {
+      "title": "المقارنة والتفضيل مع سبب",
+      "explanation": "نراجع المقارنة: dichter bij het station أقرب إلى المحطة، وverder weg أبعد. liever تعبر عن التفضيل. نربط الاختيار بسبب بسيط: omdat ik met de trein kom، حيث يأتي kom في النهاية.",
+      "example": "Ik kies liever woensdag omdat ik met de trein kom.",
+      "translation": "أفضل اختيار الأربعاء لأنني آتي بالقطار."
+    },
+    "phrases": [
+      {
+        "id": "a2-comparing-appointment-options-01",
+        "dutch": "U kunt woensdag om tien uur op locatie Centrum terecht.",
+        "arabic": "يمكنكم الحضور الأربعاء الساعة العاشرة إلى موقع سنتروم.",
+        "tip": "terechtkunnen هنا إمكانية الحصول على موعد."
+      },
+      {
+        "id": "a2-comparing-appointment-options-02",
+        "dutch": "Of donderdag om vier uur op locatie Noord.",
+        "arabic": "أو الخميس الساعة الرابعة في موقع نورد.",
+        "tip": "بديل يختلف في اليوم والوقت والمكان."
+      },
+      {
+        "id": "a2-comparing-appointment-options-03",
+        "dutch": "Welke locatie is dichter bij het station?",
+        "arabic": "أي موقع أقرب إلى المحطة؟",
+        "tip": "dichter bij تعني أقرب إلى."
+      },
+      {
+        "id": "a2-comparing-appointment-options-04",
+        "dutch": "Centrum is dichterbij. Noord is verder weg.",
+        "arabic": "سنتروم أقرب. نورد أبعد.",
+        "tip": "dichterbij تُكتب كلمة واحدة هنا لعدم ذكر ما بعدها."
+      },
+      {
+        "id": "a2-comparing-appointment-options-05",
+        "dutch": "Dan kies ik liever woensdag omdat ik met de trein kom.",
+        "arabic": "إذن أفضل اختيار الأربعاء لأنني آتي بالقطار.",
+        "tip": "الاختيار يربط وسيلة النقل بقرب الموقع."
+      },
+      {
+        "id": "a2-comparing-appointment-options-06",
+        "dutch": "Het gesprek duurt op beide locaties twintig minuten.",
+        "arabic": "تستغرق المقابلة عشرين دقيقة في كلا الموقعين.",
+        "tip": "beide تعني كليهما؛ المدة متساوية."
+      },
+      {
+        "id": "a2-comparing-appointment-options-07",
+        "dutch": "Is woensdag om tien uur nog beschikbaar?",
+        "arabic": "هل الأربعاء الساعة العاشرة ما زال متاحاً؟",
+        "tip": "تحقق من بقاء العرض قبل افتراض حجزه."
+      },
+      {
+        "id": "a2-comparing-appointment-options-08",
+        "dutch": "Ja. Zal ik die afspraak voor u vastleggen?",
+        "arabic": "نعم. هل أسجل لكم ذلك الموعد؟",
+        "tip": "سؤال ينتظر الموافقة على تسجيل الموعد."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-appointment-options-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-appointment-options-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-appointment-options-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-appointment-options-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-appointment-options-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-appointment-options-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-appointment-options-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-appointment-options-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-comparing-appointment-options-q1",
+        "prompt": "أي اختيار يجمع تفاصيل عرض سنتروم؟",
+        "options": [
+          "الخميس 16:00 في سنتروم",
+          "الأربعاء 10:00 في سنتروم",
+          "الأربعاء 16:00 في نورد"
+        ],
+        "correctIndex": 1,
+        "explanation": "العرض الأول الأربعاء العاشرة في موقع سنتروم."
+      },
+      {
+        "id": "a2-comparing-appointment-options-q2",
+        "prompt": "لماذا يفضل المتحدث سنتروم؟",
+        "options": [
+          "لأن المقابلة فيه أقصر",
+          "لأنه لا يستخدم القطار",
+          "لأنه أقرب إلى المحطة وهو يأتي بالقطار"
+        ],
+        "correctIndex": 2,
+        "explanation": "سنتروم أقرب؛ المقابلة مدتها نفسها في الموقعين."
+      },
+      {
+        "id": "a2-comparing-appointment-options-q3",
+        "prompt": "ماذا تقول الرسالة عن مدة المقابلة؟",
+        "options": [
+          "عشرون دقيقة في الموقعين",
+          "عشر دقائق في سنتروم فقط",
+          "أربعون دقيقة في نورد"
+        ],
+        "correctIndex": 0,
+        "explanation": "op beide locaties twintig minuten تعني المدة نفسها في كليهما."
+      },
+      {
+        "id": "a2-comparing-appointment-options-q4",
+        "prompt": "ما الذي تنتظره الموظفة في آخر الحوار؟",
+        "options": [
+          "سبب إغلاق المركز",
+          "موافقة على تسجيل الموعد المختار",
+          "تغيير مدة المقابلة"
+        ],
+        "correctIndex": 1,
+        "explanation": "Zal ik ... vastleggen? تسأل عن الموافقة على التسجيل."
+      }
+    ]
+  },
+  {
+    "slug": "a2-confirming-a-replacement-appointment",
+    "moduleId": "a2-appointments-followup",
+    "level": "A2",
+    "number": "15",
+    "title": "أكد الموعد الجديد",
+    "dutchTitle": "Een vervangende afspraak bevestigen",
+    "description": "أتحقق من اليوم والوقت والمكان وأميز وقت الحضور عن بدء المقابلة.",
+    "durationMinutes": 12,
+    "context": "تثبت موظفة المركز موعدك الجديد وتوضح الوصول المبكر وإلغاء الموعد السابق.",
+    "goal": "أتحقق من اليوم والوقت والمكان وأميز وقت الحضور عن بدء المقابلة.",
+    "grammar": {
+      "title": "بدلاً من الموعد السابق والوصول قبله",
+      "explanation": "in plaats van تعني بدلاً من، وvervalt تعني أن الموعد السابق لم يعد سارياً. tien minuten eerder هنا مقارنة بوقت بدء المقابلة، وليست تغييراً لوقت بدايتها. احفظ النمط is verzet naar، أي نُقل إلى.",
+      "example": "De afspraak is verzet naar woensdag om tien uur.",
+      "translation": "نُقل الموعد إلى الأربعاء الساعة العاشرة."
+    },
+    "phrases": [
+      {
+        "id": "a2-confirming-a-replacement-appointment-01",
+        "dutch": "Mag ik woensdag om tien uur op locatie Centrum voor u vastleggen?",
+        "arabic": "هل أسجل لكم الأربعاء الساعة العاشرة في موقع سنتروم؟",
+        "tip": "تعاد التفاصيل قبل التأكيد."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-02",
+        "dutch": "Ja, graag. Dus woensdag om tien uur in Centrum.",
+        "arabic": "نعم، من فضلكم. إذن الأربعاء الساعة العاشرة في سنتروم.",
+        "tip": "موافقة صريحة مع إعادة الموعد والموقع."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-03",
+        "dutch": "Dat klopt. Uw afspraak op dinsdag vervalt.",
+        "arabic": "صحيح. موعدكم يوم الثلاثاء أُلغي.",
+        "tip": "لا يصبح لديك موعدان بعد قبول البديل."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-04",
+        "dutch": "In welke ruimte is het gesprek?",
+        "arabic": "في أي غرفة تُجرى المقابلة؟",
+        "tip": "ruimte هنا غرفة داخل المركز."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-05",
+        "dutch": "In kamer drie. Meld u eerst bij de receptie.",
+        "arabic": "في الغرفة الثالثة. سجلوا حضوركم أولاً عند الاستقبال.",
+        "tip": "الغرفة ليست أول مكان تتوجه إليه عند الوصول."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-06",
+        "dutch": "Moet ik om tien uur aanwezig zijn?",
+        "arabic": "هل يجب أن أكون حاضراً الساعة العاشرة؟",
+        "tip": "يسأل عن وقت الحضور، لا مدة المقابلة."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-07",
+        "dutch": "Graag tien minuten eerder, dus om tien voor tien.",
+        "arabic": "يفضل قبل ذلك بعشر دقائق، أي العاشرة إلا عشر دقائق.",
+        "tip": "الحضور 09:50، وبداية المقابلة تظل 10:00."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-08",
+        "dutch": "Goed, ik ben om tien voor tien bij de receptie.",
+        "arabic": "حسناً، سأكون عند الاستقبال الساعة العاشرة إلا عشر دقائق.",
+        "tip": "أعد المكان ووقت الحضور للتأكد."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-confirming-a-replacement-appointment-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-replacement-appointment-02"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-confirming-a-replacement-appointment-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-replacement-appointment-04"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-confirming-a-replacement-appointment-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-replacement-appointment-06"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-confirming-a-replacement-appointment-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-confirming-a-replacement-appointment-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-confirming-a-replacement-appointment-q1",
+        "prompt": "ماذا حدث لموعد الثلاثاء بعد الاتفاق؟",
+        "options": [
+          "بقي مع موعد الأربعاء",
+          "نُقل إلى الغرفة فقط",
+          "أُلغي وحل محله موعد الأربعاء"
+        ],
+        "correctIndex": 2,
+        "explanation": "Uw afspraak op dinsdag vervalt تنهي سريان الموعد القديم."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-q2",
+        "prompt": "متى يحضر المتحدث وأين يتوجه أولاً؟",
+        "options": [
+          "09:50 عند الاستقبال",
+          "10:00 مباشرة إلى الغرفة الثالثة",
+          "10:10 عند الاستقبال"
+        ],
+        "correctIndex": 0,
+        "explanation": "الحضور أبكر بعشر دقائق، مع التسجيل أولاً عند الاستقبال."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-q3",
+        "prompt": "هل تغير بدء المقابلة إلى 09:50؟",
+        "options": [
+          "نعم، يبدأ اللقاء مبكراً حتماً",
+          "لا، ذلك وقت الحضور وبداية اللقاء 10:00",
+          "نعم، الموعد أصبح الثلاثاء"
+        ],
+        "correctIndex": 1,
+        "explanation": "الوصول المبكر لا يغير وقت بدء المقابلة المؤكد."
+      },
+      {
+        "id": "a2-confirming-a-replacement-appointment-q4",
+        "prompt": "أي معلومة تجيب عن In welke ruimte؟",
+        "options": [
+          "الأربعاء",
+          "عشرون دقيقة",
+          "الغرفة الثالثة"
+        ],
+        "correctIndex": 2,
+        "explanation": "السؤال يطلب الغرفة لا اليوم أو المدة."
+      }
+    ]
+  },
+  {
+    "slug": "a2-asking-for-an-appointment-update",
+    "moduleId": "a2-appointments-followup",
+    "level": "A2",
+    "number": "16",
+    "title": "استفسر عن طلبك",
+    "dutchTitle": "Navragen hoe het met uw verzoek staat",
+    "description": "أتابع طلباً لم يصل تأكيده وأحدد مهلة الرد دون افتراض الحجز.",
+    "durationMinutes": 12,
+    "context": "طلبت تغيير موعد مقابلة خيالية يوم الاثنين، ولم تصلك رسالة تأكيد حتى الآن.",
+    "goal": "أتابع طلباً لم يصل تأكيده وأحدد مهلة الرد دون افتراض الحجز.",
+    "grammar": {
+      "title": "طلب مُستلم أم موعد مؤكد؟",
+      "explanation": "ontvangen يصف استلام الطلب، بينما vaststaan يصف ثبوت الموعد. nog geen reactie تعني لم يصل رد بعد. نستخدم of في سؤال غير مباشر جاهز: Kunt u controleren of ...? ونتدرّب على معنى الجملة دون تعميم ترتيب مجموعات الأفعال.",
+      "example": "De nieuwe afspraak staat nog niet vast.",
+      "translation": "الموعد الجديد لم يتأكد بعد."
+    },
+    "phrases": [
+      {
+        "id": "a2-asking-for-an-appointment-update-01",
+        "dutch": "Goedemiddag, ik heb maandag gevraagd om mijn afspraak te verzetten.",
+        "arabic": "مساء الخير، طلبت الاثنين تغيير موعدي.",
+        "tip": "نراجع heb gevraagd للإشارة إلى طلب سابق."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-02",
+        "dutch": "Heeft u al een bevestiging gekregen?",
+        "arabic": "هل تلقيتم رسالة تأكيد بالفعل؟",
+        "tip": "gekregen صيغة krijgen في الماضي المركب."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-03",
+        "dutch": "Nee, ik heb nog geen reactie ontvangen.",
+        "arabic": "لا، لم أتلق رداً بعد.",
+        "tip": "nog geen تأتي هنا قبل الاسم reactie."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-04",
+        "dutch": "Kunt u controleren of mijn verzoek is ontvangen?",
+        "arabic": "هل يمكنكم التحقق من استلام طلبي؟",
+        "tip": "of تقدم هنا سؤالاً غير مباشر، ولا تعني أو للاختيار."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-05",
+        "dutch": "Ik zie uw verzoek. De nieuwe afspraak staat nog niet vast.",
+        "arabic": "أرى طلبكم. الموعد الجديد لم يتأكد بعد.",
+        "tip": "ظهور الطلب لا يعني حجز الموعد المطلوب."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-06",
+        "dutch": "Wanneer kan ik een reactie verwachten?",
+        "arabic": "متى يمكنني توقع رد؟",
+        "tip": "سؤال متابعة عن الرد لا عن وقت المقابلة."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-07",
+        "dutch": "U krijgt uiterlijk vrijdag om twaalf uur bericht.",
+        "arabic": "ستصلكم رسالة في موعد أقصاه الجمعة الثانية عشرة.",
+        "tip": "هذه مهلة للرد وليست موعد المقابلة."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-08",
+        "dutch": "Dank u. Dus de afspraak is nog niet bevestigd?",
+        "arabic": "شكراً لكم. إذن الموعد لم يُؤكد بعد؟",
+        "tip": "طلب التأكد من الحالة يمنع افتراض قبول التغيير."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-asking-for-an-appointment-update-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-asking-for-an-appointment-update-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-asking-for-an-appointment-update-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-asking-for-an-appointment-update-04"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-asking-for-an-appointment-update-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-asking-for-an-appointment-update-06"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-asking-for-an-appointment-update-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-asking-for-an-appointment-update-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-asking-for-an-appointment-update-q1",
+        "prompt": "ما الذي تحقق منه الموظف في الحوار؟",
+        "options": [
+          "حجز الجمعة 12:00 للمقابلة",
+          "وجود الطلب دون تأكيد الموعد الجديد",
+          "إلغاء جميع مواعيد المركز"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ik zie uw verzoek يتبعها أن الموعد لم يثبت بعد."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-q2",
+        "prompt": "ماذا تمثل الجمعة 12:00 هنا؟",
+        "options": [
+          "بداية المقابلة",
+          "وقت الحضور قبل اللقاء",
+          "أقصى موعد لوصول الرد"
+        ],
+        "correctIndex": 2,
+        "explanation": "bericht يحدد أن الحديث عن الرسالة، لا عن موعد لقاء."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-q3",
+        "prompt": "ما السؤال المناسب لمتابعة طلب غير مؤكد؟",
+        "options": [
+          "Wanneer kan ik een reactie verwachten?",
+          "Dus ik kom vrijdag om twaalf uur?",
+          "Hoe lang duurt de bevestigde afspraak?"
+        ],
+        "correctIndex": 0,
+        "explanation": "السؤال الأول يسأل عن الرد دون افتراض وجود موعد مؤكد."
+      },
+      {
+        "id": "a2-asking-for-an-appointment-update-q4",
+        "prompt": "ماذا تعني nog geen reactie ontvangen؟",
+        "options": [
+          "وصل التأكيد مرتين",
+          "لم يصل رد بعد",
+          "الطلب مرفوض نهائياً"
+        ],
+        "correctIndex": 1,
+        "explanation": "غياب الرد لا يثبت رفض الطلب ولا قبوله."
+      }
+    ]
   }
 ]

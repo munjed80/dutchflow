@@ -175,3 +175,39 @@ A2 banks use separate `a2-*.json` files and stable prefixed IDs. `validateCourse
 Continue with unit 2 after reviewing this slice; reuse the recent-activity patterns in work coordination. Independent educator/learner feedback and actual audio quality are still unverified. Paid exams remain deferred.
 
 Validation: 60 native tests and all 128 unique Chromium end-to-end tests passed (run in three batches; the four A2 cases also repeated in the final batch). Content/audio checks, TypeScript and production build passed. Mobile (390px) catalogue and desktop map were inspected; no horizontal overflow. Local account coverage used disposable PGlite/SMTP; GitHub CI uses PostgreSQL.
+
+### A2 unit 2 handoff (2026-10-04, current)
+
+PR #23 is merged; its CI passed. `docs/A2_WORK_COORDINATION.md` now records the current delivery and internal editorial review. A2 has two units / eight lessons / 64 phrases / 32 lesson questions, 48 notes / 16 lesson tasks, two readings / 12 notes / eight questions, two four-turn scenarios with transfer, and two integrated packs (12 questions / two writing / two partner tasks). Earlier first-unit totals above are historical snapshots.
+
+New unit `a2-work-coordination` teaches task progress, delay with `want`, polite clarification, and responsibility/deadlines (`voor`, `om`, `uiterlijk`). New lesson numbers are 05–08. Navigation now continues from unit 1 to unit 2 and ends there. Existing A1 authored data and every unit 1 record remain unchanged. A1 progress remains out of 53; A2 is now out of eight. Keep level labels and counts data-driven as units grow.
+
+Audio now totals 433 sources / 1,732 variants (A1 1,468; A2 264). The 1,600 previously planned requests retain their exact synthesis content and filenames; the unit 1 passage can shift in list order, which is not an identity. A native fingerprint regression protects its 132 requests. No recording generation or approval was performed; the owner remains responsible. Paid exams stay deferred.
+
+Next planned unit is housing/services, recycling past events, reasons, clarification and time agreements. External educator review, learner feedback and audio quality remain unverified; neither eight lessons nor completion percentages constitute A2 certification.
+
+Validation for unit 2: 61 native tests and 41 focused Chromium tests passed, plus content/audio checks, TypeScript and production build. Mobile partner practice and desktop unit map visually checked. The full CI suite runs on the PR.
+
+### A2 unit 3 handoff (2026-10-04, current)
+
+PR #24 was still open (not merged) when the owner requested the next step. Its original head `219331c` passed CI. Unit 3 is a follow-up on the same PR, not a duplicate request. Read `docs/A2_HOUSING_SERVICES.md` for the current inventory, editorial scope and source facts. Earlier unit totals above are historical snapshots.
+
+A2 now has three units / 12 lessons / 96 phrases / 48 lesson questions, 72 lexical notes / 24 lesson tasks, three readings / 18 notes / 12 questions, three four-turn scenarios with transfers, and three integrated packs (18 comprehension questions / three writing / three partner tasks). New lesson numbers 09–12 belong to `a2-housing-services`: report recurrence/onset, compare observed conditions, negotiate a repair window, and distinguish resolved from unresolved problems. A callback is not a confirmed visit; a time window is not an exact arrival hour. Housing examples are fictional language tasks, not technical or legal advice.
+
+All existing A1 files and every A2 unit 1–2 record remain unchanged. Navigation continues to unit 3 and stops there; progress totals are A1 53 / A2 12. Browser tests now derive general catalogue/grammar counts from data but explicitly verify the new 09/12 boundary and endpoint behavior. No account schema, storage key, placement or score changes.
+
+Audio: 466 sources / 1,864 variants, including 396 A2 variants. A new native fingerprint protects all 264 requests from the preceding two units, alongside unit 1 and A1 checks. No synthesis or approval took place; the owner handles recordings. Independent educator review and learner feedback remain outstanding. Paid exams stay deferred. Next planned unit: appointments/follow-up with guided reason clauses, comparing offers and confirming replacements.
+
+Unit 3 validation: 62 native tests and 44 focused Chromium tests passed, plus content/audio checks, A2 dry-run planning, TypeScript and production build. Mobile lesson and desktop map visually inspected without overflow. Full CI runs on the updated PR.
+
+### A2 unit 4 handoff (2026-10-04, current)
+
+The owner requested appointments/follow-up explicitly. PR #24 was still open, and housing head `c880dce` passed full CI; this is another follow-up on the same PR. `docs/A2_APPOINTMENTS_FOLLOWUP.md` is now the current delivery inventory and internal editorial ledger. Older unit totals above are historical.
+
+A2 now has four units / 16 lessons / 128 phrases / 64 lesson questions, 96 lexical notes / 32 lesson writing tasks, four readings / 24 notes / 16 questions, four four-turn scenarios with transfers, and four integrated packs (24 comprehension questions / four writing / four partner tasks). Unit `a2-appointments-followup` uses lesson numbers 13–16: explain conflicts with simple `omdat` clauses, compare alternatives, confirm replacements/early arrival, and follow up on unconfirmed requests. Receipt or a stated preference is not confirmation; a reply deadline is not a booked meeting; early arrival is not an earlier meeting start.
+
+All A1 authored files and every A2 unit 1–3 record remain unchanged. A1 progress stays out of 53; A2 is out of 16. Navigation connects the fourth resources and stops at their endpoints. No schema, storage, account-import or placement changes. Audio totals are 499 sources / 1,996 variants (A1 1,468; A2 528). A regression fingerprint protects the 396 previous A2 requests, in addition to the earlier fingerprints. `--level=A2` selects the entire available level, not just the newest unit; its documentation now makes this explicit.
+
+No recording generation or approval was performed. Independent language review and learner observation remain open; authored-unit counts are not proficiency percentages. Paid exams stay deferred. Next planned unit is shopping/choices, recycling comparisons and polite requests with demonstratives and quantities in unfamiliar purchase problems.
+
+Unit 4 validation: 63 native tests and 47 focused Chromium tests passed; content/audio checks, A2 dry-run planning, TypeScript and production build passed. Mobile partner practice and desktop reading visually inspected with no overflow. Full CI runs separately on the updated PR.

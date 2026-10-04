@@ -117,5 +117,362 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "a2-work-coordination",
+    "title": "مراجعة: أنجزنا جزءاً ونؤكد الباقي",
+    "unitIds": [
+      "a2-work-coordination"
+    ],
+    "reading": {
+      "text": "Dag Amir, voor de bijeenkomst heb ik twaalf formulieren gecontroleerd. Ik heb er negen in de blauwe map gelegd. De andere drie liggen nog naast de computer, want de namen ontbreken. Kun jij de namen aan Noor vragen en de formulieren daarna in de map leggen? De bijeenkomst begint om vier uur. De map moet voor kwart voor vier bij de receptie liggen. Bel mij uiterlijk om half vier om te vertellen of alles lukt. Groet, Lina.",
+      "translation": "مرحباً أمير، راجعت اثنتي عشرة استمارة من أجل الاجتماع. وضعت تسعاً منها في الملف الأزرق. الاستمارات الثلاث الأخرى ما زالت بجانب الحاسوب لأن الأسماء غير موجودة. هل يمكنك سؤال نور عن الأسماء ثم وضع الاستمارات في الملف؟ يبدأ الاجتماع الساعة الرابعة. يجب أن يكون الملف عند الاستقبال قبل الرابعة إلا ربعاً. اتصل بي في موعد أقصاه الثالثة والنصف لتخبرني إن كان كل شيء يسير كما ينبغي. تحياتي، لينا.",
+      "questions": [
+        {
+          "id": "a2-work-practice-read-1",
+          "prompt": "ما الذي يمنع إكمال الاستمارات الثلاث؟",
+          "options": [
+            "غياب الأسماء",
+            "ضياع الملف",
+            "غياب لينا"
+          ],
+          "correctIndex": 0,
+          "evidence": "De andere drie liggen nog naast de computer, want de namen ontbreken.",
+          "explanation": "ontbreken تعني أن الأسماء غير موجودة."
+        },
+        {
+          "id": "a2-work-practice-read-2",
+          "prompt": "أي ترتيب مطلوب من أمير؟",
+          "options": [
+            "نقل الملف ثم سؤال نور",
+            "سؤال نور عن الأسماء ثم وضع الاستمارات في الملف",
+            "إلغاء الاجتماع ثم الاتصال"
+          ],
+          "correctIndex": 1,
+          "evidence": "Kun jij de namen aan Noor vragen en de formulieren daarna in de map leggen?",
+          "explanation": "daarna ترتب وضع الاستمارات بعد سؤال نور."
+        },
+        {
+          "id": "a2-work-practice-read-3",
+          "prompt": "ما أقصى موعد للاتصال، وأين يجب وضع الملف بعد ذلك؟",
+          "options": [
+            "16:00 بجانب الحاسوب",
+            "15:45 بجانب الباب",
+            "15:30 عند الاستقبال قبل 15:45"
+          ],
+          "correctIndex": 2,
+          "evidence": "De map moet voor kwart voor vier bij de receptie liggen. Bel mij uiterlijk om half vier om te vertellen of alles lukt.",
+          "explanation": "الاتصال بحد أقصى 15:30، والملف عند الاستقبال قبل 15:45."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-work-coordination",
+      "text": "Hoi Amir, met Lina. Noor heeft de drie namen gestuurd. Je hoeft haar dus niet meer te bellen. Leg de laatste drie formulieren in de groene map, niet in de blauwe. De bijeenkomst begint nu om half vijf. Breng de groene map voor vier uur naar kamer twee. Stuur mij uiterlijk om kwart voor vier een bericht. Bellen hoeft niet meer. Dank je!",
+      "translation": "مرحباً أمير، معك لينا. أرسلت نور الأسماء الثلاثة، لذا لم تعد بحاجة إلى الاتصال بها. ضع الاستمارات الثلاث الأخيرة في الملف الأخضر، وليس الأزرق. أصبح الاجتماع يبدأ الساعة الرابعة والنصف. أحضر الملف الأخضر إلى الغرفة الثانية قبل الرابعة. أرسل لي رسالة في موعد أقصاه الرابعة إلا ربعاً. لم يعد الاتصال ضرورياً. شكراً!",
+      "questions": [
+        {
+          "id": "a2-work-practice-listen-1",
+          "prompt": "ما المهمة التي لم تعد مطلوبة من أمير؟",
+          "options": [
+            "إحضار الملف",
+            "وضع الاستمارات في الملف",
+            "الاتصال بنور لطلب الأسماء"
+          ],
+          "correctIndex": 2,
+          "evidence": "Noor heeft de drie namen gestuurd. Je hoeft haar dus niet meer te bellen.",
+          "explanation": "نور أرسلت الأسماء بالفعل؛ لا حاجة إلى طلبها هاتفياً."
+        },
+        {
+          "id": "a2-work-practice-listen-2",
+          "prompt": "ما اللون والمكان الصحيحان بعد التحديث؟",
+          "options": [
+            "الملف الأخضر إلى الغرفة الثانية",
+            "الملف الأزرق إلى الاستقبال",
+            "الملف الأخضر بجانب الحاسوب"
+          ],
+          "correctIndex": 0,
+          "evidence": "Leg de laatste drie formulieren in de groene map, niet in de blauwe. De bijeenkomst begint nu om half vijf. Breng de groene map voor vier uur naar kamer twee.",
+          "explanation": "المعلومتان تغيرتا؛ اعتمد الأخضر والغرفة الثانية."
+        },
+        {
+          "id": "a2-work-practice-listen-3",
+          "prompt": "كيف ومتى يجب تأكيد الإنجاز الآن؟",
+          "options": [
+            "باتصال عند 16:30",
+            "برسالة بحد أقصى 15:45",
+            "برسالة بعد 16:00"
+          ],
+          "correctIndex": 1,
+          "evidence": "Stuur mij uiterlijk om kwart voor vier een bericht. Bellen hoeft niet meer.",
+          "explanation": "تطلب لينا رسالة بدلاً من الاتصال، بحد أقصى 15:45."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب تحديثاً خيالياً لنور: فحصت سبع طلبيات وحزمت خمساً. لم تحزم اثنتين لأن الصناديق نفدت. اطلب منها جلب الصناديق الساعة الثانية، واطلب تأكيد الإمكانية.",
+        "model": "Hoi Noor, ik heb zeven bestellingen gecontroleerd. Ik heb er vijf ingepakt. De andere twee zijn nog niet klaar, want de dozen zijn op. Kun je om twee uur nieuwe dozen halen? Lukt dat?",
+        "translation": "مرحباً نور، راجعت سبع طلبيات. حزمت خمساً منها. الطلبيتان الأخريان ليستا جاهزتين لأن الصناديق نفدت. هل يمكنك جلب صناديق جديدة الساعة الثانية؟ هل هذا ممكن؟",
+        "checklist": [
+          "هل ميزت المنجز والمتبقي مع السبب؟",
+          "هل ذكرت المهمة والساعة وسألت عن التأكيد؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أنت أمير وشريكك لينا: تريد لينا الاستمارات في الملف الأحمر قبل 13:00. اسأل هل تقصد الملف بجانب الطابعة. تصحح لك أنه فوق الخزانة، ثم تطلب رسالة بحلول 12:45. أعد المكان والمهلة للتأكيد.",
+        "model": "Bedoel je de rode map naast de printer?\nPartner: Nee, de rode map op de kast. Stuur mij uiterlijk om kwart voor één een bericht.\nDus de formulieren in de rode map op de kast, voor één uur. Ik stuur je uiterlijk om kwart voor één een bericht. Klopt dat?\nPartner: Ja, precies.",
+        "translation": "هل تقصدين الملف الأحمر بجانب الطابعة؟\nالشريك: لا، الملف الأحمر فوق الخزانة. أرسل لي رسالة في موعد أقصاه الواحدة إلا ربعاً.\nإذن الاستمارات في الملف الأحمر فوق الخزانة قبل الواحدة. سأرسل لك رسالة في موعد أقصاه الواحدة إلا ربعاً. هل هذا صحيح؟\nالشريك: نعم، بالضبط.",
+        "checklist": [
+          "هل طلبت توضيح المكان واستوعبت التصحيح؟",
+          "هل ميزت مهلة المهمة عن مهلة الرسالة وطلبت التأكيد؟"
+        ],
+        "partnerPrompts": [
+          "Kun je de formulieren voor één uur in de rode map leggen?",
+          "Nee, de rode map op de kast. Stuur mij uiterlijk om kwart voor één een bericht.",
+          "Ja, precies."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "a2-housing-services",
+    "title": "مراجعة: مشكلة باقية وموعد متغيّر",
+    "unitIds": [
+      "a2-housing-services"
+    ],
+    "reading": {
+      "text": "Beste Omar, we hebben uw melding ontvangen. De deur van de slaapkamer klemt sinds zaterdag. Het raam is vorige week gerepareerd en sluit nu goed. Onze monteur komt vrijdag tussen tien en twaalf uur voor de deur. U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon. Wilt u voor donderdag vier uur per e-mail bevestigen dat u thuis bent? Het bezoek is op uw eigen adres. Met vriendelijke groet, Team Onderhoud.",
+      "translation": "السيد عمر، استلمنا بلاغك. باب غرفة النوم يعلق منذ السبت. أُصلحت النافذة الأسبوع الماضي وأصبحت تُغلق جيداً الآن. سيأتي فنينا الجمعة بين العاشرة والثانية عشرة من أجل الباب. أبلغتَ أن جرس الباب لا يعمل؛ لذلك سيتصل الفني بهاتفك عند الوصول. هل يمكنك التأكيد بالبريد الإلكتروني قبل الخميس الساعة الرابعة أنك ستكون في المنزل؟ الزيارة في عنوانك أنت. مع التحية، فريق الصيانة.",
+      "questions": [
+        {
+          "id": "a2-housing-practice-read-1",
+          "prompt": "أي مشكلة تحتاج إلى الفحص ومتى بدأت؟",
+          "options": [
+            "النافذة منذ الاثنين",
+            "جرس الباب منذ الأسبوع الماضي",
+            "باب غرفة النوم منذ السبت"
+          ],
+          "correctIndex": 2,
+          "evidence": "De deur van de slaapkamer klemt sinds zaterdag. Het raam is vorige week gerepareerd en sluit nu goed. Onze monteur komt vrijdag tussen tien en twaalf uur voor de deur.",
+          "explanation": "النافذة أُصلحت؛ الزيارة المقررة من أجل باب غرفة النوم."
+        },
+        {
+          "id": "a2-housing-practice-read-2",
+          "prompt": "لماذا سيتصل الفني بالهاتف عند الوصول؟",
+          "options": [
+            "لأن جرس الباب لا يعمل",
+            "لأن الزيارة أُلغيت",
+            "لأن النافذة مفتوحة"
+          ],
+          "correctIndex": 0,
+          "evidence": "U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon.",
+          "explanation": "الاتصال وسيلة الإبلاغ بالوصول بسبب عطل الجرس، وليس إلغاءً."
+        },
+        {
+          "id": "a2-housing-practice-read-3",
+          "prompt": "متى يجب إرسال الرد ومتى تكون الزيارة حسب الرسالة المكتوبة؟",
+          "options": [
+            "الرد الجمعة والزيارة الخميس",
+            "الرد قبل الخميس 16:00 والزيارة الجمعة 10:00–12:00",
+            "الرد الخميس 12:00 والزيارة الجمعة 16:00"
+          ],
+          "correctIndex": 1,
+          "evidence": "Onze monteur komt vrijdag tussen tien en twaalf uur voor de deur. U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon. Wilt u voor donderdag vier uur per e-mail bevestigen dat u thuis bent?",
+          "explanation": "مهلة الرد تسبق يوم الزيارة ولا تعطي ساعة الوصول."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-housing-services",
+      "text": "Hallo Omar, met Eva van Team Onderhoud. De monteur komt vrijdag tussen één en drie uur, niet in de ochtend. Hij komt voor de deur van de slaapkamer. Uw deurbel is inmiddels gerepareerd, dus hij belt bij aankomst aan. Kunt u de nieuwe tijd vandaag, donderdag, voor zes uur per e-mail bevestigen? Dank u wel.",
+      "translation": "مرحباً عمر، معك إيفا من فريق الصيانة. سيأتي الفني الجمعة بين الواحدة والثالثة، وليس صباحاً. سيأتي من أجل باب غرفة النوم. أُصلح جرس بابك في هذه الأثناء، لذلك سيرن الجرس عند الوصول. هل يمكنك تأكيد الفترة الجديدة بالبريد الإلكتروني اليوم، الخميس، قبل السادسة؟ شكراً لك.",
+      "questions": [
+        {
+          "id": "a2-housing-practice-listen-1",
+          "prompt": "ما فترة الزيارة الجديدة؟",
+          "options": [
+            "الجمعة 10:00–12:00",
+            "الخميس 13:00–15:00",
+            "الجمعة 13:00–15:00"
+          ],
+          "correctIndex": 2,
+          "evidence": "De monteur komt vrijdag tussen één en drie uur, niet in de ochtend.",
+          "explanation": "اليوم بقي الجمعة، لكن الفترة انتقلت إلى بعد الظهر."
+        },
+        {
+          "id": "a2-housing-practice-listen-2",
+          "prompt": "كيف سيعلن الفني وصوله الآن؟",
+          "options": [
+            "برن جرس الباب",
+            "بإلغاء الزيارة",
+            "بالاتصال بالهاتف فقط"
+          ],
+          "correctIndex": 0,
+          "evidence": "Uw deurbel is inmiddels gerepareerd, dus hij belt bij aankomst aan.",
+          "explanation": "aanbellen تعني رن الجرس؛ الجرس أُصلح فتغيرت طريقة الإبلاغ بالوصول."
+        },
+        {
+          "id": "a2-housing-practice-listen-3",
+          "prompt": "ما مهلة الرد بعد التحديث؟",
+          "options": [
+            "قبل الخميس 16:00",
+            "قبل الخميس 18:00",
+            "قبل الجمعة 15:00"
+          ],
+          "correctIndex": 1,
+          "evidence": "Kunt u de nieuwe tijd vandaag, donderdag, voor zes uur per e-mail bevestigen?",
+          "explanation": "اليوم محدد في الصوت بالخميس، والمهلة الجديدة قبل السادسة."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب بلاغاً خيالياً: صنبور الحمام يسرّب مجدداً منذ الأحد رغم إصلاحه الجمعة. اقترح زيارة الأربعاء بين العاشرة والثانية عشرة، واسأل إن كانت الفترة ممكنة.",
+        "model": "De kraan in de badkamer lekt weer sinds zondag. Vrijdag heeft een monteur de kraan gerepareerd. Kan de monteur woensdag tussen tien en twaalf uur komen?",
+        "translation": "صنبور الحمام يسرّب مجدداً منذ الأحد. أصلح فني الصنبور الجمعة. هل يمكن للفني الحضور الأربعاء بين العاشرة والثانية عشرة؟",
+        "checklist": [
+          "هل حددت المكان وبداية عودة المشكلة والإصلاح السابق؟",
+          "هل طلبت فترة جديدة دون افتراض قبولها؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أنت ساكن وشريكك موظف صيانة: نافذة المطبخ ما زالت لا تُغلق جيداً بعد زيارة الاثنين. يعرض الموظف الثلاثاء صباحاً لكنك تعمل. اطلب الخميس بعد الظهر. بعد أن يعرض 15:00–17:00، أكد وجودك طوال الفترة واطلب تأكيداً بالبريد.",
+        "model": "De monteur is maandag geweest, maar het raam in de keuken sluit nog steeds niet goed.\nPartner: Kan hij dinsdag tussen negen en elf uur komen?\nDinsdagochtend werk ik. Kan hij donderdagmiddag komen?\nPartner: Donderdag kan hij tussen drie en vijf uur komen.\nDat past. Ik ben donderdag van drie tot vijf uur thuis. Kunt u een bevestiging per e-mail sturen?",
+        "translation": "حضر الفني الاثنين، لكن نافذة المطبخ ما زالت لا تُغلق جيداً.\nالشريك: هل يمكنه الحضور الثلاثاء بين التاسعة والحادية عشرة؟\nأعمل صباح الثلاثاء. هل يمكنه الحضور بعد ظهر الخميس؟\nالشريك: يمكنه الخميس بين الثالثة والخامسة.\nهذا مناسب. سأكون الخميس في المنزل من الثالثة حتى الخامسة. هل يمكنكم إرسال تأكيد بالبريد الإلكتروني؟",
+        "checklist": [
+          "هل أوضحت المشكلة الباقية وسبب رفض العرض الأول؟",
+          "هل استجبت للفترة التي عرضها الشريك وأكدتها كاملة؟"
+        ],
+        "partnerPrompts": [
+          "Kan hij dinsdag tussen negen en elf uur komen?",
+          "Donderdag kan hij tussen drie en vijf uur komen.",
+          "Ja, ik stuur u een bevestiging."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "a2-appointments-followup",
+    "title": "مراجعة: من طلب التغيير إلى التأكيد",
+    "unitIds": [
+      "a2-appointments-followup"
+    ],
+    "reading": {
+      "text": "Beste Sam, we hebben uw verzoek ontvangen. U kunt dinsdag om tien uur niet komen omdat u dan werkt. Die afspraak op locatie Centrum is geannuleerd. U hebt gevraagd om donderdagmiddag op dezelfde locatie te komen. We moeten nog kijken of er een plaats vrij is. Uw nieuwe afspraak is dus nog niet bevestigd. U krijgt uiterlijk woensdag om vier uur per e-mail een reactie. In de bevestiging staan de tijd, de locatie en het kamernummer. Met vriendelijke groet, Team Taalcentrum.",
+      "translation": "السيد سام، استلمنا طلبك. لا تستطيع الحضور الثلاثاء الساعة العاشرة لأنك تعمل حينها. أُلغي ذلك الموعد في موقع سنتروم. طلبت الحضور بعد ظهر الخميس في الموقع نفسه. ما زلنا بحاجة إلى التحقق من توفر مكان. لذلك لم يُؤكد موعدك الجديد بعد. ستصلك استجابة بالبريد الإلكتروني في موعد أقصاه الأربعاء الساعة الرابعة. يتضمن التأكيد الوقت والموقع ورقم الغرفة. مع التحية، فريق مركز اللغة.",
+      "questions": [
+        {
+          "id": "a2-appointments-practice-read-1",
+          "prompt": "ما سبب تغيير الموعد؟",
+          "options": [
+            "العمل الثلاثاء وقت الموعد",
+            "العمل الخميس وقت التأكيد",
+            "إغلاق موقع نورد"
+          ],
+          "correctIndex": 0,
+          "evidence": "U kunt dinsdag om tien uur niet komen omdat u dan werkt.",
+          "explanation": "السبب مرتبط بالثلاثاء الساعة العاشرة."
+        },
+        {
+          "id": "a2-appointments-practice-read-2",
+          "prompt": "ما حالة طلب الخميس بعد الظهر؟",
+          "options": [
+            "حجز مؤكد في نورد",
+            "طلب ينتظر التحقق من توفر مكان",
+            "رفض نهائي لكل المواعيد"
+          ],
+          "correctIndex": 1,
+          "evidence": "U hebt gevraagd om donderdagmiddag op dezelfde locatie te komen. We moeten nog kijken of er een plaats vrij is. Uw nieuwe afspraak is dus nog niet bevestigd.",
+          "explanation": "المركز استلم الطلب لكنه لم يؤكد وقتاً أو مكاناً جديداً."
+        },
+        {
+          "id": "a2-appointments-practice-read-3",
+          "prompt": "ماذا سيحدث بحد أقصى الأربعاء 16:00؟",
+          "options": [
+            "تبدأ المقابلة",
+            "يحضر سام إلى الاستقبال",
+            "تصل استجابة بالبريد الإلكتروني"
+          ],
+          "correctIndex": 2,
+          "evidence": "U krijgt uiterlijk woensdag om vier uur per e-mail een reactie.",
+          "explanation": "الساعة مهلة استجابة وليست موعد زيارة."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-appointments-followup",
+      "text": "Hallo Sam, met Noor van het taalcentrum. Uw nieuwe afspraak is bevestigd: donderdag om drie uur op locatie Noord, niet in Centrum. Het gesprek is in kamer vier. Wilt u tien minuten eerder bij de receptie zijn? Dat is om tien voor drie. Past dit toch niet? Bel ons dan vandaag, woensdag, voor vijf uur.",
+      "translation": "مرحباً سام، معك نور من مركز اللغة. تأكد موعدك الجديد: الخميس الساعة الثالثة في موقع نورد، وليس سنتروم. المقابلة في الغرفة الرابعة. هل يمكنك الحضور قبلها بعشر دقائق عند الاستقبال؟ أي الساعة الثالثة إلا عشر دقائق. هل هذا لا يناسبك رغم ذلك؟ اتصل بنا إذن اليوم، الأربعاء، قبل الخامسة.",
+      "questions": [
+        {
+          "id": "a2-appointments-practice-listen-1",
+          "prompt": "متى تبدأ المقابلة المؤكدة؟",
+          "options": [
+            "الأربعاء 16:00",
+            "الخميس 15:00",
+            "الخميس 14:50"
+          ],
+          "correctIndex": 1,
+          "evidence": "Uw nieuwe afspraak is bevestigd: donderdag om drie uur op locatie Noord, niet in Centrum.",
+          "explanation": "وقت المقابلة الخميس 15:00؛ 14:50 وقت الحضور المبكر."
+        },
+        {
+          "id": "a2-appointments-practice-listen-2",
+          "prompt": "ما الموقع الصحيح رغم طلب سام السابق؟",
+          "options": [
+            "سنتروم",
+            "كلا الموقعين",
+            "نورد"
+          ],
+          "correctIndex": 2,
+          "evidence": "Uw nieuwe afspraak is bevestigd: donderdag om drie uur op locatie Noord, niet in Centrum.",
+          "explanation": "التأكيد يحدد نورد صراحة؛ لا تعتمد الموقع الذي طُلب سابقاً."
+        },
+        {
+          "id": "a2-appointments-practice-listen-3",
+          "prompt": "أين ومتى يحضر سام أولاً؟",
+          "options": [
+            "الاستقبال عند 14:50",
+            "الغرفة الرابعة عند 15:10",
+            "الاستقبال الأربعاء 17:00"
+          ],
+          "correctIndex": 0,
+          "evidence": "Het gesprek is in kamer vier. Wilt u tien minuten eerder bij de receptie zijn? Dat is om tien voor drie.",
+          "explanation": "الغرفة مكان المقابلة؛ التسجيل أولاً عند الاستقبال قبلها بعشر دقائق."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب إلى مركز خيالي: لا تستطيع الحضور الاثنين 09:00 لأن لديك درساً. تفضل الأربعاء 14:00 في نورد. اطلب التحقق من توفره وإرسال تأكيد، ولا تقل إنه حُجز بالفعل.",
+        "model": "Ik kan maandag om negen uur niet komen omdat ik les heb. Ik kom liever woensdag om twee uur op locatie Noord. Is dat nog beschikbaar? Kunt u mij een bevestiging sturen?",
+        "translation": "لا أستطيع الحضور الاثنين التاسعة لأن لدي درساً. أفضل الحضور الأربعاء الثانية في موقع نورد. هل هذا ما زال متاحاً؟ هل يمكنكم إرسال تأكيد لي؟",
+        "checklist": [
+          "هل وضعت heb في نهاية السبب وذكرت تفاصيل البديل؟",
+          "هل طلبت التوفر والتأكيد دون افتراض الحجز؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أنت متعلم وشريكك موظف المركز. لا تستطيع الاثنين صباحاً لأنك تعمل. يعرض الشريك الثلاثاء 11:00 في سنتروم أو الأربعاء 15:00 في نورد. اختر الأربعاء لأن لديك درساً الثلاثاء. بعد أن يؤكد الموظف الأربعاء ويطلب الحضور قبل عشر دقائق، أعد الوقت والموقع ووقت الحضور.",
+        "model": "Maandagochtend kan ik niet komen omdat ik werk.\nPartner: Dinsdag om elf uur in Centrum of woensdag om drie uur in Noord?\nIk kies woensdag omdat ik dinsdag les heb.\nPartner: Woensdag om drie uur in Noord is bevestigd. Kom tien minuten eerder.\nDus woensdag om drie uur in Noord. Ik ben om tien voor drie aanwezig.",
+        "translation": "لا أستطيع الحضور صباح الاثنين لأنني أعمل.\nالشريك: الثلاثاء الحادية عشرة في سنتروم أم الأربعاء الثالثة في نورد؟\nأختار الأربعاء لأن لدي درساً الثلاثاء.\nالشريك: تأكد الأربعاء الثالثة في نورد. احضر قبلها بعشر دقائق.\nإذن الأربعاء الثالثة في نورد. سأحضر الثالثة إلا عشر دقائق.",
+        "checklist": [
+          "هل شرحت التعارض واستخدمت سبباً لاختيار البديل؟",
+          "هل انتظرت تأكيد الشريك وميزت وقت الحضور من بدء المقابلة؟"
+        ],
+        "partnerPrompts": [
+          "Dinsdag om elf uur in Centrum of woensdag om drie uur in Noord?",
+          "Woensdag om drie uur in Noord is bevestigd. Kom tien minuten eerder.",
+          "Welke tijd staat er nu in je agenda?"
+        ]
+      }
+    ]
   }
 ]

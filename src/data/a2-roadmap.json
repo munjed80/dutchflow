@@ -20,5 +20,71 @@
       "هذه أول وحدة من A2؛ بقية المحاور قيد الإعداد.",
       "التسجيلات الثابتة والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
     ]
+  },
+  {
+    "id": "a2-work-coordination",
+    "title": "نتفق على العمل والخطوة التالية",
+    "outcomes": [
+      "أميز بين عمل منجز وآخر متبقٍ وأشرح تأخيراً بسيطاً.",
+      "أطلب توضيح التعليمات وأعيد ترتيبها ومكانها.",
+      "أحدد المسؤول والمهمة والمهلة وأرد على تغيير الوقت."
+    ],
+    "lessonSlugs": [
+      "a2-reporting-task-progress",
+      "a2-explaining-a-delay",
+      "a2-clarifying-instructions",
+      "a2-confirming-a-handover"
+    ],
+    "readingSlugs": [
+      "a2-a-shift-handover"
+    ],
+    "remaining": [
+      "هذه الوحدة جزء من A2؛ بقية المسار ما زالت قيد الإعداد.",
+      "التسجيلات والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
+    ]
+  },
+  {
+    "id": "a2-housing-services",
+    "title": "مشكلة في المنزل وزيارة للصيانة",
+    "outcomes": [
+      "أحدد مكان المشكلة وبدايتها وأميز استمرارها عن عودتها.",
+      "أقارن بين أوضاع ألاحظها وأطلب فترة زيارة مناسبة.",
+      "أصف ما أُصلح وما بقي وأؤكد خطوة المتابعة."
+    ],
+    "lessonSlugs": [
+      "a2-reporting-a-recurring-problem",
+      "a2-comparing-conditions-at-home",
+      "a2-arranging-a-repair-visit",
+      "a2-following-up-on-a-repair"
+    ],
+    "readingSlugs": [
+      "a2-a-repair-confirmation"
+    ],
+    "remaining": [
+      "بقية وحدات A2 ما زالت قيد الإعداد.",
+      "التسجيلات والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
+    ]
+  },
+  {
+    "id": "a2-appointments-followup",
+    "title": "من طلب التغيير إلى الموعد المؤكد",
+    "outcomes": [
+      "أشرح سبب تعارض الموعد باستخدام omdat في جملة بسيطة.",
+      "أقارن بديلين وأختار أحدهما دون افتراض حجزه.",
+      "أميز وقت الموعد والحضور ومهلة الرد وأتحقق من التأكيد."
+    ],
+    "lessonSlugs": [
+      "a2-explaining-an-appointment-conflict",
+      "a2-comparing-appointment-options",
+      "a2-confirming-a-replacement-appointment",
+      "a2-asking-for-an-appointment-update"
+    ],
+    "readingSlugs": [
+      "a2-two-appointment-options"
+    ],
+    "remaining": [
+      "بقية وحدات A2 ما زالت قيد الإعداد.",
+      "التسجيلات والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
+    ]
   }
 ]
