@@ -802,5 +802,273 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "a2-explaining-an-appointment-conflict",
+    "vocabulary": [
+      {
+        "term": "het kennismakingsgesprek",
+        "kind": "noun",
+        "forms": "de kennismakingsgesprekken",
+        "meaning": "مقابلة تعارف أو لقاء أولي.",
+        "phraseId": "a2-explaining-an-appointment-conflict-01"
+      },
+      {
+        "term": "omdat",
+        "kind": "expression",
+        "forms": "omdat ik werk · omdat ik les heb",
+        "meaning": "لأن؛ تربط السبب بجملة تابعة في أمثلتنا.",
+        "phraseId": "a2-explaining-an-appointment-conflict-02"
+      },
+      {
+        "term": "verzetten",
+        "kind": "verb",
+        "forms": "ik verzet · ik heb verzet",
+        "meaning": "يغير موعداً؛ اسم المفعول verzet بلا ge إضافية.",
+        "phraseId": "a2-explaining-an-appointment-conflict-03"
+      },
+      {
+        "term": "plaatsvinden",
+        "kind": "verb",
+        "forms": "het vindt plaats · het heeft plaatsgevonden",
+        "meaning": "يحدث أو يُجرى؛ هنا إجراء المقابلة.",
+        "phraseId": "a2-explaining-an-appointment-conflict-04"
+      },
+      {
+        "term": "beschikbaar",
+        "kind": "expression",
+        "forms": "woensdag beschikbaar zijn",
+        "meaning": "متاح في الوقت المطلوب.",
+        "phraseId": "a2-explaining-an-appointment-conflict-05"
+      },
+      {
+        "term": "het tijdstip",
+        "kind": "noun",
+        "forms": "de tijdstippen",
+        "meaning": "وقت محدد لحدث.",
+        "phraseId": "a2-explaining-an-appointment-conflict-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب إلى مركز تدريب خيالي: لا تستطيع الحضور الخميس لأن لديك درساً، واطلب يوماً آخر. استخدم omdat.",
+        "model": "Ik kan donderdag niet komen omdat ik les heb. Kan het gesprek op een andere dag plaatsvinden?",
+        "translation": "لا أستطيع الحضور الخميس لأن لدي درساً. هل يمكن إجراء المقابلة في يوم آخر؟",
+        "checklist": [
+          "هل وضعت heb بعد les في السبب؟",
+          "هل طلبت بديلاً دون إعلان موعد غير مؤكد؟"
+        ]
+      },
+      {
+        "prompt": "أنت متفرغ الجمعة وتفضل بعد الظهر لأنك تعمل صباحاً. اكتب جملتين لتوضيح ذلك باستخدام omdat.",
+        "model": "Vrijdag ben ik beschikbaar. Ik kom het liefst in de middag omdat ik in de ochtend werk.",
+        "translation": "أنا متاح الجمعة. أفضل الحضور بعد الظهر لأنني أعمل صباحاً.",
+        "checklist": [
+          "هل ذكرت اليوم والفترة المفضلين؟",
+          "هل وضعت werk في نهاية السبب؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-comparing-appointment-options",
+    "vocabulary": [
+      {
+        "term": "de locatie",
+        "kind": "noun",
+        "forms": "de locaties",
+        "meaning": "الموقع أو الفرع.",
+        "phraseId": "a2-comparing-appointment-options-01"
+      },
+      {
+        "term": "dichter bij",
+        "kind": "expression",
+        "forms": "dichter bij het station",
+        "meaning": "أقرب إلى المحطة.",
+        "phraseId": "a2-comparing-appointment-options-03"
+      },
+      {
+        "term": "verder weg",
+        "kind": "expression",
+        "forms": "Noord is verder weg",
+        "meaning": "أبعد؛ وصف موقع نورد في هذا المثال.",
+        "phraseId": "a2-comparing-appointment-options-04"
+      },
+      {
+        "term": "liever",
+        "kind": "expression",
+        "forms": "ik kies liever woensdag",
+        "meaning": "أفضل؛ للتعبير عن الاختيار.",
+        "phraseId": "a2-comparing-appointment-options-05"
+      },
+      {
+        "term": "beide",
+        "kind": "expression",
+        "forms": "op beide locaties",
+        "meaning": "في كلا الموقعين.",
+        "phraseId": "a2-comparing-appointment-options-06"
+      },
+      {
+        "term": "vastleggen",
+        "kind": "verb",
+        "forms": "ik leg vast · ik heb vastgelegd",
+        "meaning": "يسجل أو يثبت اتفاقاً.",
+        "phraseId": "a2-comparing-appointment-options-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "في موقف جديد: نورد أقرب إلى الحافلة، وتأتي بالحافلة. اختر الخميس في نورد واشرح السبب باستخدام omdat.",
+        "model": "Ik kies liever donderdag op locatie Noord omdat ik met de bus kom. Noord is dichter bij de bushalte.",
+        "translation": "أفضل اختيار الخميس في موقع نورد لأنني آتي بالحافلة. نورد أقرب إلى موقف الحافلة.",
+        "checklist": [
+          "هل استخدمت تفاصيل الموقف الجديد لا المثال السابق؟",
+          "هل شرحت وسيلة النقل وقرب الموقع؟"
+        ]
+      },
+      {
+        "prompt": "يعرض عليك المركز الاثنين 09:00 أو الثلاثاء 15:00. اختر الثلاثاء لأنك تعمل الاثنين، واسأل هل الثلاثاء ما زال متاحاً.",
+        "model": "Ik kies liever dinsdag om drie uur omdat ik maandag werk. Is dinsdag om drie uur nog beschikbaar?",
+        "translation": "أفضل اختيار الثلاثاء الثالثة لأنني أعمل الاثنين. هل الثلاثاء الثالثة ما زال متاحاً؟",
+        "checklist": [
+          "هل ميزت الاختيار عن حجز مؤكد؟",
+          "هل ذكرت الوقت ووضعت werk في نهاية السبب؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-confirming-a-replacement-appointment",
+    "vocabulary": [
+      {
+        "term": "vervallen",
+        "kind": "verb",
+        "forms": "de afspraak vervalt · de afspraak is vervallen",
+        "meaning": "يُلغى أو ينتهي سريانه؛ هنا الموعد السابق.",
+        "phraseId": "a2-confirming-a-replacement-appointment-03"
+      },
+      {
+        "term": "de ruimte",
+        "kind": "noun",
+        "forms": "de ruimtes",
+        "meaning": "الغرفة أو المساحة؛ هنا غرفة اللقاء.",
+        "phraseId": "a2-confirming-a-replacement-appointment-04"
+      },
+      {
+        "term": "zich melden",
+        "kind": "verb",
+        "forms": "ik meld me · ik heb me gemeld",
+        "meaning": "يسجل حضوره لدى الاستقبال في هذا السياق.",
+        "phraseId": "a2-confirming-a-replacement-appointment-05"
+      },
+      {
+        "term": "aanwezig",
+        "kind": "expression",
+        "forms": "aanwezig zijn",
+        "meaning": "حاضر في المكان.",
+        "phraseId": "a2-confirming-a-replacement-appointment-06"
+      },
+      {
+        "term": "eerder",
+        "kind": "expression",
+        "forms": "tien minuten eerder",
+        "meaning": "أبكر بعشر دقائق من الوقت المرجعي.",
+        "phraseId": "a2-confirming-a-replacement-appointment-07"
+      },
+      {
+        "term": "de receptie",
+        "kind": "noun",
+        "forms": "de recepties",
+        "meaning": "مكتب الاستقبال.",
+        "phraseId": "a2-confirming-a-replacement-appointment-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "أكد موعداً جديداً الجمعة 11:30 في نورد، ووضح أن موعد الخميس أُلغي.",
+        "model": "Ik bevestig de afspraak op vrijdag om half twaalf op locatie Noord. De afspraak op donderdag vervalt.",
+        "translation": "أؤكد الموعد الجمعة الحادية عشرة والنصف في موقع نورد. موعد الخميس أُلغي.",
+        "checklist": [
+          "هل ذكرت اليوم والوقت والمكان الجديد؟",
+          "هل أوضحت إلغاء الموعد السابق؟"
+        ]
+      },
+      {
+        "prompt": "مقابلتك تبدأ 14:00 ويُطلب الحضور قبلها بعشر دقائق عند الاستقبال. اكتب وقت البدء ووقت الحضور كلّاً على حدة.",
+        "model": "Het gesprek begint om twee uur. Ik ben om tien voor twee bij de receptie.",
+        "translation": "تبدأ المقابلة الثانية. سأكون عند الاستقبال الثانية إلا عشر دقائق.",
+        "checklist": [
+          "هل بقي وقت البدء 14:00؟",
+          "هل حسبت الحضور 13:50 وحددت الاستقبال؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-asking-for-an-appointment-update",
+    "vocabulary": [
+      {
+        "term": "de reactie",
+        "kind": "noun",
+        "forms": "de reacties",
+        "meaning": "الرد أو الاستجابة.",
+        "phraseId": "a2-asking-for-an-appointment-update-03"
+      },
+      {
+        "term": "ontvangen",
+        "kind": "verb",
+        "forms": "ik ontvang · ik heb ontvangen",
+        "meaning": "يستلم أو يتلقى؛ بلا ge إضافية.",
+        "phraseId": "a2-asking-for-an-appointment-update-03"
+      },
+      {
+        "term": "het verzoek",
+        "kind": "noun",
+        "forms": "de verzoeken",
+        "meaning": "الطلب؛ هنا طلب تغيير الموعد.",
+        "phraseId": "a2-asking-for-an-appointment-update-04"
+      },
+      {
+        "term": "vaststaan",
+        "kind": "verb",
+        "forms": "het staat vast · het heeft vastgestaan",
+        "meaning": "يكون ثابتاً أو مؤكداً.",
+        "phraseId": "a2-asking-for-an-appointment-update-05"
+      },
+      {
+        "term": "verwachten",
+        "kind": "verb",
+        "forms": "ik verwacht · ik heb verwacht",
+        "meaning": "يتوقع؛ هنا توقع الرد.",
+        "phraseId": "a2-asking-for-an-appointment-update-06"
+      },
+      {
+        "term": "bevestigen",
+        "kind": "verb",
+        "forms": "ik bevestig · ik heb bevestigd",
+        "meaning": "يؤكد؛ لا نضيف ge أخرى إلى bevestigd.",
+        "phraseId": "a2-asking-for-an-appointment-update-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب متابعة مهذبة: طلبت الثلاثاء تغيير الموعد ولم يصل رد بعد. اطلب التحقق من استلام الطلب.",
+        "model": "Ik heb dinsdag gevraagd om mijn afspraak te verzetten. Ik heb nog geen reactie ontvangen. Kunt u controleren of mijn verzoek is ontvangen?",
+        "translation": "طلبت الثلاثاء تغيير موعدي. لم أتلق رداً بعد. هل يمكنكم التحقق من استلام طلبي؟",
+        "checklist": [
+          "هل ذكرت يوم الطلب وحالة الرد؟",
+          "هل سألت عن الاستلام دون افتراض التأكيد؟"
+        ]
+      },
+      {
+        "prompt": "قيل لك إن الرد يصل بحد أقصى الاثنين 15:00. أعد مهلة الرد واسأل هل الموعد الجديد ما زال غير مؤكد.",
+        "model": "Dus ik krijg uiterlijk maandag om drie uur bericht? Is de nieuwe afspraak nog niet bevestigd?",
+        "translation": "إذن ستصلني رسالة في موعد أقصاه الاثنين الثالثة؟ هل الموعد الجديد ما زال غير مؤكد؟",
+        "checklist": [
+          "هل جعلت الساعة مهلة للرد لا موعداً للمقابلة؟",
+          "هل طلبت توضيح حالة التأكيد؟"
+        ]
+      }
+    ]
   }
 ]

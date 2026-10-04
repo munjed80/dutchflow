@@ -199,3 +199,15 @@ All existing A1 files and every A2 unit 1–2 record remain unchanged. Navigatio
 Audio: 466 sources / 1,864 variants, including 396 A2 variants. A new native fingerprint protects all 264 requests from the preceding two units, alongside unit 1 and A1 checks. No synthesis or approval took place; the owner handles recordings. Independent educator review and learner feedback remain outstanding. Paid exams stay deferred. Next planned unit: appointments/follow-up with guided reason clauses, comparing offers and confirming replacements.
 
 Unit 3 validation: 62 native tests and 44 focused Chromium tests passed, plus content/audio checks, A2 dry-run planning, TypeScript and production build. Mobile lesson and desktop map visually inspected without overflow. Full CI runs on the updated PR.
+
+### A2 unit 4 handoff (2026-10-04, current)
+
+The owner requested appointments/follow-up explicitly. PR #24 was still open, and housing head `c880dce` passed full CI; this is another follow-up on the same PR. `docs/A2_APPOINTMENTS_FOLLOWUP.md` is now the current delivery inventory and internal editorial ledger. Older unit totals above are historical.
+
+A2 now has four units / 16 lessons / 128 phrases / 64 lesson questions, 96 lexical notes / 32 lesson writing tasks, four readings / 24 notes / 16 questions, four four-turn scenarios with transfers, and four integrated packs (24 comprehension questions / four writing / four partner tasks). Unit `a2-appointments-followup` uses lesson numbers 13–16: explain conflicts with simple `omdat` clauses, compare alternatives, confirm replacements/early arrival, and follow up on unconfirmed requests. Receipt or a stated preference is not confirmation; a reply deadline is not a booked meeting; early arrival is not an earlier meeting start.
+
+All A1 authored files and every A2 unit 1–3 record remain unchanged. A1 progress stays out of 53; A2 is out of 16. Navigation connects the fourth resources and stops at their endpoints. No schema, storage, account-import or placement changes. Audio totals are 499 sources / 1,996 variants (A1 1,468; A2 528). A regression fingerprint protects the 396 previous A2 requests, in addition to the earlier fingerprints. `--level=A2` selects the entire available level, not just the newest unit; its documentation now makes this explicit.
+
+No recording generation or approval was performed. Independent language review and learner observation remain open; authored-unit counts are not proficiency percentages. Paid exams stay deferred. Next planned unit is shopping/choices, recycling comparisons and polite requests with demonstratives and quantities in unfamiliar purchase problems.
+
+Unit 4 validation: 63 native tests and 47 focused Chromium tests passed; content/audio checks, A2 dry-run planning, TypeScript and production build passed. Mobile partner practice and desktop reading visually inspected with no overflow. Full CI runs separately on the updated PR.

@@ -1,5 +1,7 @@
 # A2 unit 3: housing and services
 
+This records the unit 3 snapshot. Current totals and unit 4 are in `A2_APPOINTMENTS_FOLLOWUP.md`.
+
 Updated 2026-10-04. This follows the work-coordination unit on PR #24, which was still open when this work started; its original CI run passed. This document supersedes earlier inventory snapshots, not their teaching rationale.
 
 ## Delivered scope

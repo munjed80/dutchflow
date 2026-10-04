@@ -301,5 +301,107 @@
         "explanation": "مهلة الرد الأربعاء؛ موعد الزيارة الجمعة."
       }
     ]
+  },
+  {
+    "slug": "a2-two-appointment-options",
+    "title": "عرضان لموعد جديد",
+    "dutchTitle": "Twee mogelijkheden voor een nieuw gesprek",
+    "topic": "اختيار بديل بانتظار التأكيد",
+    "sourceLessons": [
+      "a2-explaining-an-appointment-conflict",
+      "a2-comparing-appointment-options",
+      "a2-confirming-a-replacement-appointment",
+      "a2-asking-for-an-appointment-update"
+    ],
+    "text": "Beste Lina, uw afspraak op donderdag om elf uur is geannuleerd omdat u dan werkt. We bieden twee andere mogelijkheden aan: dinsdag om half tien op locatie Centrum of woensdag om twee uur op locatie Noord. Beide gesprekken duren vijfentwintig minuten. Centrum ligt naast het station. Noord ligt verder van het station, maar er stopt een bus voor de deur. Wilt u uw voorkeur voor maandag twaalf uur per e-mail doorgeven? Uw antwoord is een verzoek, nog geen bevestigde afspraak. Daarna sturen wij u een aparte bevestiging met de definitieve tijd en locatie. Met vriendelijke groet, Team Taalcentrum.",
+    "translation": "السيدة لينا، أُلغي موعدك الخميس الساعة الحادية عشرة لأنك تعملين حينها. نعرض بديلين: الثلاثاء الساعة التاسعة والنصف في موقع سنتروم، أو الأربعاء الساعة الثانية في موقع نورد. تستغرق كلتا المقابلتين خمساً وعشرين دقيقة. يقع سنتروم بجانب المحطة. يقع نورد أبعد عن المحطة، لكن حافلة تقف أمام بابه. هل يمكنك إرسال تفضيلك بالبريد الإلكتروني قبل الاثنين الساعة الثانية عشرة؟ ردك طلب وليس موعداً مؤكداً بعد. سنرسل لك بعد ذلك تأكيداً منفصلاً بالوقت والمكان النهائيين. مع التحية، فريق مركز اللغة.",
+    "vocabulary": [
+      {
+        "term": "annuleren",
+        "excerpt": "geannuleerd",
+        "meaning": "يلغي؛ is geannuleerd تعني أُلغي."
+      },
+      {
+        "term": "de mogelijkheid",
+        "excerpt": "mogelijkheden",
+        "meaning": "الإمكانية أو الخيار؛ الجمع de mogelijkheden."
+      },
+      {
+        "term": "beide",
+        "excerpt": "Beide gesprekken",
+        "meaning": "كلتا المقابلتين؛ الحديث عن مدتهما معاً."
+      },
+      {
+        "term": "de voorkeur",
+        "excerpt": "voorkeur",
+        "meaning": "التفضيل أو الخيار المفضل."
+      },
+      {
+        "term": "apart",
+        "excerpt": "aparte bevestiging",
+        "meaning": "منفصل؛ رسالة التأكيد تأتي بعد الرد."
+      },
+      {
+        "term": "definitief",
+        "excerpt": "definitieve tijd",
+        "meaning": "نهائي؛ الوقت الذي سيظهر في التأكيد."
+      }
+    ],
+    "grammar": {
+      "title": "سبب الإلغاء بعد omdat",
+      "example": "uw afspraak op donderdag om elf uur is geannuleerd omdat u dan werkt.",
+      "translation": "أُلغي موعدك الخميس الساعة الحادية عشرة لأنك تعملين حينها.",
+      "explanation": "بعد omdat يأتي u ثم dan ثم werkt في نهاية السبب. نركز على ترتيب هذا المثال ذي الفعل الواحد؛ تفاصيل البديل ما زالت تحتاج إلى تأكيد."
+    },
+    "questions": [
+      {
+        "id": "a2-options-read-1",
+        "prompt": "لماذا أُلغي الموعد السابق؟",
+        "options": [
+          "لأن لينا تعمل وقت الموعد",
+          "لأن المركز لا يعمل يوم الخميس",
+          "لأن الموقعين متساويان في البعد"
+        ],
+        "correctIndex": 0,
+        "evidence": "uw afspraak op donderdag om elf uur is geannuleerd omdat u dan werkt.",
+        "explanation": "omdat u dan werkt تذكر السبب صراحة."
+      },
+      {
+        "id": "a2-options-read-2",
+        "prompt": "أي وصف صحيح لخيار نورد؟",
+        "options": [
+          "الثلاثاء 09:30 بجانب المحطة",
+          "الأربعاء 14:00 وأبعد عن المحطة مع حافلة أمام الباب",
+          "الأربعاء 12:00 دون مواصلات"
+        ],
+        "correctIndex": 1,
+        "evidence": "We bieden twee andere mogelijkheden aan: dinsdag om half tien op locatie Centrum of woensdag om twee uur op locatie Noord. Beide gesprekken duren vijfentwintig minuten. Centrum ligt naast het station. Noord ligt verder van het station, maar er stopt een bus voor de deur.",
+        "explanation": "نورد خيار الأربعاء؛ القرب من المحطة يخص سنتروم."
+      },
+      {
+        "id": "a2-options-read-3",
+        "prompt": "ما مدة المقابلة حسب العرضين؟",
+        "options": [
+          "عشرون دقيقة في سنتروم فقط",
+          "نصف ساعة في نورد فقط",
+          "خمس وعشرون دقيقة في كليهما"
+        ],
+        "correctIndex": 2,
+        "evidence": "Beide gesprekken duren vijfentwintig minuten.",
+        "explanation": "beide تربط المدة بكلا الخيارين."
+      },
+      {
+        "id": "a2-options-read-4",
+        "prompt": "ما الإجراء الصحيح قبل اعتبار الموعد محجوزاً؟",
+        "options": [
+          "الحضور الثلاثاء دون رد",
+          "إرسال التفضيل قبل الاثنين 12:00 ثم انتظار التأكيد المنفصل",
+          "اعتبار الاثنين 12:00 موعد المقابلة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Wilt u uw voorkeur voor maandag twaalf uur per e-mail doorgeven? Uw antwoord is een verzoek, nog geen bevestigde afspraak. Daarna sturen wij u een aparte bevestiging met de definitieve tijd en locatie.",
+        "explanation": "الاثنين مهلة للرد؛ إرسال الاختيار لا يساوي الحصول على التأكيد."
+      }
+    ]
   }
 ]

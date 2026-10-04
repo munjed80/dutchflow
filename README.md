@@ -2,7 +2,7 @@
 
 An Arabic-first Dutch learning website built with Next.js and TypeScript. The long-term model is free lessons and optional full practice-exam attempts at **€4.95 each**. DutchFlow is independent and does not issue official Dutch-language certificates.
 
-Three A2 units are now available as an authored preview: twelve lessons on recent activities, work coordination, and housing/services, plus reading, listening, writing and guided interaction. Use the level links on `/learn` or open `/a2`. A1 and A2 progress have separate totals; existing A1 URLs and progress are preserved. See [A2 unit 3 delivery notes](docs/A2_HOUSING_SERVICES.md). This is not a complete A2 release; real recorded audio and independent review remain pending.
+Four A2 units are now available as an authored preview: sixteen lessons on recent activities, work coordination, housing/services, and appointments/follow-up, plus reading, listening, writing and guided interaction. Use the level links on `/learn` or open `/a2`. A1 and A2 progress have separate totals; existing A1 URLs and progress are preserved. See [A2 unit 4 delivery notes](docs/A2_APPOINTMENTS_FOLLOWUP.md). This is not a complete A2 release; real recorded audio and independent review remain pending.
 
 ## Run locally
 
@@ -37,7 +37,7 @@ The lesson content lives in `src/data/lessons.json`, and ordered modules live in
 - `/a1-practice` supplies ten unit reviews and a cumulative free review: 11 new reading sources, 11 short connected listening passages, 90 evidenced questions, 22 writing tasks and 22 oral/partner tasks with examples and self-review criteria. These sources are separate from the 27 reading-library texts.
 - `/grammar` collects the 53 lesson grammar notes plus four foundation tables for verbs, questions, noun plurals and pronouns/possession. `/pronunciation` supplies 13 sound/alphabet drills.
 - A fictional travel timetable and accessible route map support practical interpretation. Listening questions unlock only after full playback or explicit text help; retry after seeing evidence is marked assisted. All attempts stay in memory and grant no completion or proficiency score.
-- The audio inventory includes the unchanged A1 bank (343 lesson phrases, 11 passages and 13 drills: 1,468 variants) plus 96 A2 phrases and three passages (396 variants): **1,864 variants planned, zero approved MP3s in the repository**. Use `--level=A1` to continue only the existing recordings. Missing Dutch device voices have explicit text-help fallback. See [A1 scope and remaining release gates](docs/A1_COMPLETION.md).
+- The audio inventory includes the unchanged A1 bank (343 lesson phrases, 11 passages and 13 drills: 1,468 variants) plus 128 A2 phrases and four passages (528 variants): **1,996 variants planned, zero approved MP3s in the repository**. Use `--level=A1` to continue only the existing recordings. Missing Dutch device voices have explicit text-help fallback. See [A1 scope and remaining release gates](docs/A1_COMPLETION.md).
 
 ## Validation
 

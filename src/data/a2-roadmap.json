@@ -64,5 +64,27 @@
       "بقية وحدات A2 ما زالت قيد الإعداد.",
       "التسجيلات والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
     ]
+  },
+  {
+    "id": "a2-appointments-followup",
+    "title": "من طلب التغيير إلى الموعد المؤكد",
+    "outcomes": [
+      "أشرح سبب تعارض الموعد باستخدام omdat في جملة بسيطة.",
+      "أقارن بديلين وأختار أحدهما دون افتراض حجزه.",
+      "أميز وقت الموعد والحضور ومهلة الرد وأتحقق من التأكيد."
+    ],
+    "lessonSlugs": [
+      "a2-explaining-an-appointment-conflict",
+      "a2-comparing-appointment-options",
+      "a2-confirming-a-replacement-appointment",
+      "a2-asking-for-an-appointment-update"
+    ],
+    "readingSlugs": [
+      "a2-two-appointment-options"
+    ],
+    "remaining": [
+      "بقية وحدات A2 ما زالت قيد الإعداد.",
+      "التسجيلات والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
+    ]
   }
 ]

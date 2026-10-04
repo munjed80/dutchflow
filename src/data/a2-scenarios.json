@@ -385,5 +385,135 @@
         "هل طلبت اليوم والفترة الجديدين دون تأكيد لم تحصل عليه؟"
       ]
     }
+  },
+  {
+    "slug": "a2-changing-an-intake-appointment",
+    "unitId": "a2-appointments-followup",
+    "title": "اختر بديلاً وانتظر تأكيده",
+    "dutchTitle": "Een ander kennismakingsgesprek afspreken",
+    "role": "أنت نور. لا تستطيعين الحضور الاثنين 09:00 لأنك تعملين. لديك درس الثلاثاء، وأنت متاحة الأربعاء بعد الظهر. تتنقلين بالحافلة. اسم الموقع الذي تفضلينه نورد.",
+    "partner": "موظف مركز التدريب",
+    "mission": "اشرحي تعارض الاثنين باستخدام omdat، واختاري الأربعاء من العرضين، ثم اطلبي التأكيد وأعيدي وقت المقابلة والحضور المبكر.",
+    "sourceLessons": [
+      "a2-explaining-an-appointment-conflict",
+      "a2-comparing-appointment-options",
+      "a2-confirming-a-replacement-appointment",
+      "a2-asking-for-an-appointment-update"
+    ],
+    "turns": [
+      {
+        "id": "a2-appointments-turn-1",
+        "goal": "اشرح سبب تعارض الموعد بترتيب صحيح بعد omdat.",
+        "prompt": "Waarom wilt u de afspraak op maandag om negen uur verzetten?",
+        "translation": "لماذا تريدون تغيير موعد الاثنين الساعة التاسعة؟",
+        "choices": [
+          {
+            "text": "Ik kan maandag niet komen omdat ik werk.",
+            "translation": "لا أستطيع الحضور الاثنين لأنني أعمل.",
+            "feedback": "ذكرت السبب بترتيب صحيح."
+          },
+          {
+            "text": "Ik kom maandag omdat ik vrij ben.",
+            "translation": "سأحضر الاثنين لأنني متفرغة.",
+            "feedback": "هذا يناقض تعارض الموعد في بطاقة دورك."
+          },
+          {
+            "text": "Ik kan niet komen omdat ik heb les.",
+            "translation": "لا أستطيع الحضور لأن لدي درساً.",
+            "feedback": "السبب يخالف دورك، والترتيب الصحيح هو omdat ik les heb."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "U kunt dinsdag om elf uur in Centrum of woensdag om drie uur in Noord komen. Wat kiest u?",
+        "responseTranslation": "يمكنكم الحضور الثلاثاء الحادية عشرة في سنتروم أو الأربعاء الثالثة في نورد. ماذا تختارون؟"
+      },
+      {
+        "id": "a2-appointments-turn-2",
+        "goal": "اختر العرض الذي يناسب وقتك واذكر سبب رفض اليوم الآخر.",
+        "prompt": "Dinsdag om elf uur in Centrum of woensdag om drie uur in Noord?",
+        "translation": "الثلاثاء الحادية عشرة في سنتروم أم الأربعاء الثالثة في نورد؟",
+        "choices": [
+          {
+            "text": "Dinsdag in Centrum, omdat ik dan les heb.",
+            "translation": "الثلاثاء في سنتروم لأن لدي درساً حينها.",
+            "feedback": "وجود الدرس هو سبب عدم مناسبة الثلاثاء."
+          },
+          {
+            "text": "Woensdag in Noord, omdat ik dinsdag les heb.",
+            "translation": "الأربعاء في نورد لأن لدي درساً الثلاثاء.",
+            "feedback": "اخترت الفترة الممكنة وشرحت التعارض."
+          },
+          {
+            "text": "Maandag om negen uur in Noord.",
+            "translation": "الاثنين التاسعة في نورد.",
+            "feedback": "هذا ليس أحد البديلين، والاثنين لا يناسبك."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Goed, ik kijk of woensdag nog vrij is. Heeft u nog een vraag?",
+        "responseTranslation": "حسناً، سأتحقق إن كان الأربعاء ما زال متاحاً. هل لديكم سؤال آخر؟"
+      },
+      {
+        "id": "a2-appointments-turn-3",
+        "goal": "تحقق من التأكيد بدلاً من افتراض الحجز.",
+        "prompt": "Heeft u nog een vraag?",
+        "translation": "هل لديكم سؤال آخر؟",
+        "choices": [
+          {
+            "text": "Ik kom dus zeker woensdag om drie uur.",
+            "translation": "إذن سأحضر حتماً الأربعاء الثالثة.",
+            "feedback": "الموظف ما زال يتحقق؛ الاختيار لم يتأكد بعد."
+          },
+          {
+            "text": "Mijn afspraak is dus dinsdag.",
+            "translation": "إذن موعدي الثلاثاء.",
+            "feedback": "هذا اليوم الذي لم تختاريه."
+          },
+          {
+            "text": "Kunt u de afspraak bevestigen?",
+            "translation": "هل يمكنكم تأكيد الموعد؟",
+            "feedback": "طلبت التأكيد في المرحلة المناسبة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Ja, woensdag om drie uur in Noord is nu bevestigd. Meld u om tien voor drie bij de receptie.",
+        "responseTranslation": "نعم، تأكد الآن الأربعاء الثالثة في نورد. سجلوا حضوركم الثالثة إلا عشر دقائق عند الاستقبال."
+      },
+      {
+        "id": "a2-appointments-turn-4",
+        "goal": "أعد وقت المقابلة والحضور والموقع بعد التأكيد.",
+        "prompt": "Wilt u de afspraak en de aankomsttijd herhalen?",
+        "translation": "هل تعيدون الموعد ووقت الحضور؟",
+        "choices": [
+          {
+            "text": "Woensdag om drie uur in Noord. Ik meld me om tien voor drie bij de receptie.",
+            "translation": "الأربعاء الثالثة في نورد. أسجل حضوري الثالثة إلا عشر دقائق عند الاستقبال.",
+            "feedback": "ميزت وقت اللقاء عن الحضور وأعدت الموقع الصحيح."
+          },
+          {
+            "text": "Woensdag om tien voor drie begint het gesprek in Centrum.",
+            "translation": "تبدأ المقابلة الأربعاء الثالثة إلا عشر دقائق في سنتروم.",
+            "feedback": "خلطت وقت الحضور بالبدء وغيّرت الموقع."
+          },
+          {
+            "text": "Dinsdag om elf uur in Centrum.",
+            "translation": "الثلاثاء الحادية عشرة في سنتروم.",
+            "feedback": "هذا البديل الذي رفضته، وليس الموعد المؤكد."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Dat klopt. De oude afspraak op maandag vervalt. U krijgt de bevestiging per e-mail.",
+        "responseTranslation": "صحيح. أُلغي موعد الاثنين القديم. ستصلكم رسالة التأكيد بالبريد الإلكتروني."
+      }
+    ],
+    "transfer": {
+      "prompt": "في موقف جديد تعملين الخميس ولا تستطيعين الموعد 10:00. تفضلين الجمعة 13:00 في سنتروم. اشرحي السبب واطلبي الموعد والتأكيد دون افتراض توفره.",
+      "model": "Ik kan donderdag om tien uur niet komen omdat ik werk. Kan ik vrijdag om één uur op locatie Centrum komen? Kunt u de afspraak bevestigen?",
+      "translation": "لا أستطيع الحضور الخميس العاشرة لأنني أعمل. هل يمكنني الحضور الجمعة الواحدة في موقع سنتروم؟ هل يمكنكم تأكيد الموعد؟",
+      "checklist": [
+        "هل استخدمت اليوم والوقت والموقع الجديد؟",
+        "هل فرقت بين طلب البديل والحصول على تأكيد؟"
+      ]
+    }
   }
 ]
