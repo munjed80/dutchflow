@@ -13,12 +13,12 @@ const a1 = await readCourse("A1"), a2 = await readCourse("A2");
 
 test("the published A2 units have connected reception, production, interaction and valid same-level references", () => {
   assert.deepEqual(validateCourse(a2, "A2"), []);
-  assert.equal(a2.lessons.length, 8);
-  assert.equal(a2.extensions.length, 8);
-  assert.equal(a2.lessons.flatMap((lesson) => lesson.phrases).length, 64);
-  assert.equal(a2.readings.length, 2);
+  assert.equal(a2.lessons.length, 12);
+  assert.equal(a2.extensions.length, 12);
+  assert.equal(a2.lessons.flatMap((lesson) => lesson.phrases).length, 96);
+  assert.equal(a2.readings.length, 3);
   assert.equal(a2.scenarios[0].turns.length, 4);
-  assert.equal(a2.practice.length, 2);
+  assert.equal(a2.practice.length, 3);
   for (const lesson of a2.lessons) {
     for (const round of buildListeningRounds(lesson.phrases)) {
       assert.equal(new Set(round.choices.map((choice) => choice.text)).size, 3);
@@ -46,15 +46,15 @@ test("cross-level mistakes, numbering, unknown levels and duplicate published id
   for (const message of ["lesson order", "unsupported course level", "level mismatch", "duplicate ID"]) assert.ok(invalid.includes(message), message);
 });
 
-test("shared audio planning retains every A1 job unchanged before appending 264 A2 variants", async () => {
+test("shared audio planning retains every A1 job unchanged before appending 396 A2 variants", async () => {
   const { sources, overrides, levels } = await loadAudioInventory();
   const pronunciation = JSON.parse(await readFile(new URL("../src/data/pronunciation.json", import.meta.url), "utf8"));
   const previous = planAudio(audioSources(a1.lessons, a1.practice, pronunciation), overrides);
   const all = planAudio(sources, overrides);
   assert.equal(previous.length, 1468);
   assert.deepEqual(all.slice(0, previous.length), previous);
-  assert.equal(all.length, 1732);
-  assert.equal(all.filter((job) => levels.get(job.phraseId) === "A2").length, 264);
+  assert.equal(all.length, 1864);
+  assert.equal(all.filter((job) => levels.get(job.phraseId) === "A2").length, 396);
   assert.equal(new Set(all.map((job) => job.filename)).size, all.length);
   assert.equal(audioLevel([]), undefined);
   assert.equal(audioLevel(["--dry-run", "--level=A1"]), "A1");
@@ -63,7 +63,7 @@ test("shared audio planning retains every A1 job unchanged before appending 264 
 
 test("audio CLI selection scopes generation and strict completeness without requiring credentials", async () => {
   const { spawnSync } = await import("node:child_process");
-  for (const [level, count] of [["A1", 1468], ["A2", 264]]) {
+  for (const [level, count] of [["A1", 1468], ["A2", 396]]) {
     const dry = spawnSync(process.execPath, ["scripts/generate-audio.mjs", "--dry-run", `--level=${level}`], { encoding: "utf8" });
     assert.equal(dry.status, 0, dry.stderr);
     assert.match(dry.stdout, new RegExp(`${count} variants`));
@@ -73,7 +73,7 @@ test("audio CLI selection scopes generation and strict completeness without requ
   assert.notEqual(invalid.status, 0);
   // The empty checked-in catalogue makes both strict gates fail at their own denominator.
   const catalog = JSON.parse(await readFile(new URL("../src/lib/audio-catalog.json", import.meta.url), "utf8"));
-  if (!Object.keys(catalog.assets).length) for (const [level, count] of [["A1", 1468], ["A2", 264]]) {
+  if (!Object.keys(catalog.assets).length) for (const [level, count] of [["A1", 1468], ["A2", 396]]) {
     const check = spawnSync(process.execPath, ["scripts/check-audio.mjs", "--require-complete", `--level=${level}`], { encoding: "utf8" });
     assert.equal(check.status, 1);
     assert.match(check.stdout, new RegExp(`0/${count} reviewed`));
@@ -81,7 +81,7 @@ test("audio CLI selection scopes generation and strict completeness without requ
   }
 });
 
-test("unit 1 synthesis requests remain byte-identical when unit 2 is appended", async () => {
+test("unit 1 synthesis requests remain byte-identical as A2 grows", async () => {
   const { sha256 } = await import("../scripts/lib/audio-assets.mjs");
   const unitOne = a2.lessons.filter((lesson) => lesson.moduleId === "a2-recent-activities");
   const pack = a2.practice.filter((item) => item.slug === "a2-recent-activities");
@@ -92,4 +92,15 @@ test("unit 1 synthesis requests remain byte-identical when unit 2 is appended", 
   const { sources, overrides } = await loadAudioInventory();
   const current = new Map(planAudio(sources, overrides).map((job) => [job.filename, job]));
   for (const job of jobs) assert.deepEqual(current.get(job.filename), job);
+});
+
+test("both preceding A2 units retain their exact requests when housing is appended", async () => {
+  const { sha256 } = await import("../scripts/lib/audio-assets.mjs");
+  const legacy = planAudio(audioSources(a2.lessons.slice(0, 8), a2.practice.slice(0, 2), []));
+  assert.equal(legacy.length, 264);
+  // All A2 requests from PR #24's original green head, not a regenerated expectation.
+  assert.equal(sha256(JSON.stringify(legacy)), "55b8f41cb172412d01414c508011806fba6402552085114d74975199478329e6");
+  const { sources, overrides } = await loadAudioInventory();
+  const current = new Map(planAudio(sources, overrides).map((job) => [job.filename, job]));
+  for (const job of legacy) assert.deepEqual(current.get(job.filename), job);
 });

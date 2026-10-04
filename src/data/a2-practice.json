@@ -236,5 +236,124 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "a2-housing-services",
+    "title": "مراجعة: مشكلة باقية وموعد متغيّر",
+    "unitIds": [
+      "a2-housing-services"
+    ],
+    "reading": {
+      "text": "Beste Omar, we hebben uw melding ontvangen. De deur van de slaapkamer klemt sinds zaterdag. Het raam is vorige week gerepareerd en sluit nu goed. Onze monteur komt vrijdag tussen tien en twaalf uur voor de deur. U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon. Wilt u voor donderdag vier uur per e-mail bevestigen dat u thuis bent? Het bezoek is op uw eigen adres. Met vriendelijke groet, Team Onderhoud.",
+      "translation": "السيد عمر، استلمنا بلاغك. باب غرفة النوم يعلق منذ السبت. أُصلحت النافذة الأسبوع الماضي وأصبحت تُغلق جيداً الآن. سيأتي فنينا الجمعة بين العاشرة والثانية عشرة من أجل الباب. أبلغتَ أن جرس الباب لا يعمل؛ لذلك سيتصل الفني بهاتفك عند الوصول. هل يمكنك التأكيد بالبريد الإلكتروني قبل الخميس الساعة الرابعة أنك ستكون في المنزل؟ الزيارة في عنوانك أنت. مع التحية، فريق الصيانة.",
+      "questions": [
+        {
+          "id": "a2-housing-practice-read-1",
+          "prompt": "أي مشكلة تحتاج إلى الفحص ومتى بدأت؟",
+          "options": [
+            "النافذة منذ الاثنين",
+            "جرس الباب منذ الأسبوع الماضي",
+            "باب غرفة النوم منذ السبت"
+          ],
+          "correctIndex": 2,
+          "evidence": "De deur van de slaapkamer klemt sinds zaterdag. Het raam is vorige week gerepareerd en sluit nu goed. Onze monteur komt vrijdag tussen tien en twaalf uur voor de deur.",
+          "explanation": "النافذة أُصلحت؛ الزيارة المقررة من أجل باب غرفة النوم."
+        },
+        {
+          "id": "a2-housing-practice-read-2",
+          "prompt": "لماذا سيتصل الفني بالهاتف عند الوصول؟",
+          "options": [
+            "لأن جرس الباب لا يعمل",
+            "لأن الزيارة أُلغيت",
+            "لأن النافذة مفتوحة"
+          ],
+          "correctIndex": 0,
+          "evidence": "U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon.",
+          "explanation": "الاتصال وسيلة الإبلاغ بالوصول بسبب عطل الجرس، وليس إلغاءً."
+        },
+        {
+          "id": "a2-housing-practice-read-3",
+          "prompt": "متى يجب إرسال الرد ومتى تكون الزيارة حسب الرسالة المكتوبة؟",
+          "options": [
+            "الرد الجمعة والزيارة الخميس",
+            "الرد قبل الخميس 16:00 والزيارة الجمعة 10:00–12:00",
+            "الرد الخميس 12:00 والزيارة الجمعة 16:00"
+          ],
+          "correctIndex": 1,
+          "evidence": "Onze monteur komt vrijdag tussen tien en twaalf uur voor de deur. U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon. Wilt u voor donderdag vier uur per e-mail bevestigen dat u thuis bent?",
+          "explanation": "مهلة الرد تسبق يوم الزيارة ولا تعطي ساعة الوصول."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-housing-services",
+      "text": "Hallo Omar, met Eva van Team Onderhoud. De monteur komt vrijdag tussen één en drie uur, niet in de ochtend. Hij komt voor de deur van de slaapkamer. Uw deurbel is inmiddels gerepareerd, dus hij belt bij aankomst aan. Kunt u de nieuwe tijd vandaag, donderdag, voor zes uur per e-mail bevestigen? Dank u wel.",
+      "translation": "مرحباً عمر، معك إيفا من فريق الصيانة. سيأتي الفني الجمعة بين الواحدة والثالثة، وليس صباحاً. سيأتي من أجل باب غرفة النوم. أُصلح جرس بابك في هذه الأثناء، لذلك سيرن الجرس عند الوصول. هل يمكنك تأكيد الفترة الجديدة بالبريد الإلكتروني اليوم، الخميس، قبل السادسة؟ شكراً لك.",
+      "questions": [
+        {
+          "id": "a2-housing-practice-listen-1",
+          "prompt": "ما فترة الزيارة الجديدة؟",
+          "options": [
+            "الجمعة 10:00–12:00",
+            "الخميس 13:00–15:00",
+            "الجمعة 13:00–15:00"
+          ],
+          "correctIndex": 2,
+          "evidence": "De monteur komt vrijdag tussen één en drie uur, niet in de ochtend.",
+          "explanation": "اليوم بقي الجمعة، لكن الفترة انتقلت إلى بعد الظهر."
+        },
+        {
+          "id": "a2-housing-practice-listen-2",
+          "prompt": "كيف سيعلن الفني وصوله الآن؟",
+          "options": [
+            "برن جرس الباب",
+            "بإلغاء الزيارة",
+            "بالاتصال بالهاتف فقط"
+          ],
+          "correctIndex": 0,
+          "evidence": "Uw deurbel is inmiddels gerepareerd, dus hij belt bij aankomst aan.",
+          "explanation": "aanbellen تعني رن الجرس؛ الجرس أُصلح فتغيرت طريقة الإبلاغ بالوصول."
+        },
+        {
+          "id": "a2-housing-practice-listen-3",
+          "prompt": "ما مهلة الرد بعد التحديث؟",
+          "options": [
+            "قبل الخميس 16:00",
+            "قبل الخميس 18:00",
+            "قبل الجمعة 15:00"
+          ],
+          "correctIndex": 1,
+          "evidence": "Kunt u de nieuwe tijd vandaag, donderdag, voor zes uur per e-mail bevestigen?",
+          "explanation": "اليوم محدد في الصوت بالخميس، والمهلة الجديدة قبل السادسة."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب بلاغاً خيالياً: صنبور الحمام يسرّب مجدداً منذ الأحد رغم إصلاحه الجمعة. اقترح زيارة الأربعاء بين العاشرة والثانية عشرة، واسأل إن كانت الفترة ممكنة.",
+        "model": "De kraan in de badkamer lekt weer sinds zondag. Vrijdag heeft een monteur de kraan gerepareerd. Kan de monteur woensdag tussen tien en twaalf uur komen?",
+        "translation": "صنبور الحمام يسرّب مجدداً منذ الأحد. أصلح فني الصنبور الجمعة. هل يمكن للفني الحضور الأربعاء بين العاشرة والثانية عشرة؟",
+        "checklist": [
+          "هل حددت المكان وبداية عودة المشكلة والإصلاح السابق؟",
+          "هل طلبت فترة جديدة دون افتراض قبولها؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أنت ساكن وشريكك موظف صيانة: نافذة المطبخ ما زالت لا تُغلق جيداً بعد زيارة الاثنين. يعرض الموظف الثلاثاء صباحاً لكنك تعمل. اطلب الخميس بعد الظهر. بعد أن يعرض 15:00–17:00، أكد وجودك طوال الفترة واطلب تأكيداً بالبريد.",
+        "model": "De monteur is maandag geweest, maar het raam in de keuken sluit nog steeds niet goed.\nPartner: Kan hij dinsdag tussen negen en elf uur komen?\nDinsdagochtend werk ik. Kan hij donderdagmiddag komen?\nPartner: Donderdag kan hij tussen drie en vijf uur komen.\nDat past. Ik ben donderdag van drie tot vijf uur thuis. Kunt u een bevestiging per e-mail sturen?",
+        "translation": "حضر الفني الاثنين، لكن نافذة المطبخ ما زالت لا تُغلق جيداً.\nالشريك: هل يمكنه الحضور الثلاثاء بين التاسعة والحادية عشرة؟\nأعمل صباح الثلاثاء. هل يمكنه الحضور بعد ظهر الخميس؟\nالشريك: يمكنه الخميس بين الثالثة والخامسة.\nهذا مناسب. سأكون الخميس في المنزل من الثالثة حتى الخامسة. هل يمكنكم إرسال تأكيد بالبريد الإلكتروني؟",
+        "checklist": [
+          "هل أوضحت المشكلة الباقية وسبب رفض العرض الأول؟",
+          "هل استجبت للفترة التي عرضها الشريك وأكدتها كاملة؟"
+        ],
+        "partnerPrompts": [
+          "Kan hij dinsdag tussen negen en elf uur komen?",
+          "Donderdag kan hij tussen drie en vijf uur komen.",
+          "Ja, ik stuur u een bevestiging."
+        ]
+      }
+    ]
   }
 ]

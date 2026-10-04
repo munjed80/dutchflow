@@ -534,5 +534,273 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "a2-reporting-a-recurring-problem",
+    "vocabulary": [
+      {
+        "term": "de woning",
+        "kind": "noun",
+        "forms": "de woningen",
+        "meaning": "المسكن؛ أوسع من huis في هذا السياق.",
+        "phraseId": "a2-reporting-a-recurring-problem-01"
+      },
+      {
+        "term": "melden",
+        "kind": "verb",
+        "forms": "ik meld · ik heb gemeld",
+        "meaning": "يبلغ عن أمر أو يسجله لدى جهة.",
+        "phraseId": "a2-reporting-a-recurring-problem-01"
+      },
+      {
+        "term": "lekken",
+        "kind": "verb",
+        "forms": "de kraan lekt · de kraan heeft gelekt",
+        "meaning": "يسرّب الماء؛ هنا الصنبور.",
+        "phraseId": "a2-reporting-a-recurring-problem-03"
+      },
+      {
+        "term": "sinds maandag",
+        "kind": "expression",
+        "forms": "sinds maandag lekken",
+        "meaning": "منذ الاثنين؛ بداية مشكلة مستمرة.",
+        "phraseId": "a2-reporting-a-recurring-problem-05"
+      },
+      {
+        "term": "nog steeds",
+        "kind": "expression",
+        "forms": "lekt nog steeds",
+        "meaning": "ما زال يسرّب؛ استمرار الوضع.",
+        "phraseId": "a2-reporting-a-recurring-problem-06"
+      },
+      {
+        "term": "de druppel",
+        "kind": "noun",
+        "forms": "de druppels",
+        "meaning": "القطرة؛ جمعها قطرات.",
+        "phraseId": "a2-reporting-a-recurring-problem-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "بلّغ عن صنبور الحمام: يسرّب الماء مجدداً منذ الجمعة، وقد أصلحه فني الأسبوع الماضي.",
+        "model": "De kraan in de badkamer lekt weer sinds vrijdag. Vorige week heeft een monteur de kraan gerepareerd.",
+        "translation": "صنبور الحمام يسرّب الماء مجدداً منذ الجمعة. أصلح فني الصنبور الأسبوع الماضي.",
+        "checklist": [
+          "هل حددت المكان وبداية المشكلة الجديدة؟",
+          "هل ميزت عودة المشكلة عن الإصلاح السابق؟"
+        ]
+      },
+      {
+        "prompt": "اكتب تحديثاً: نافذة غرفة النوم لا تُغلق منذ الثلاثاء، والمشكلة ما زالت قائمة. اطلب المساعدة بأدب.",
+        "model": "Het raam in de slaapkamer gaat sinds dinsdag niet dicht. Het probleem is er nog steeds. Kunt u mij helpen?",
+        "translation": "نافذة غرفة النوم لا تُغلق منذ الثلاثاء. المشكلة ما زالت قائمة. هل يمكنكم مساعدتي؟",
+        "checklist": [
+          "هل ذكرت الغرفة وبداية المشكلة؟",
+          "هل أوضحت الاستمرار وطلبت المساعدة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-comparing-conditions-at-home",
+    "vocabulary": [
+      {
+        "term": "koud",
+        "kind": "expression",
+        "forms": "koud · kouder dan",
+        "meaning": "بارد؛ أبرد من.",
+        "phraseId": "a2-comparing-conditions-at-home-02"
+      },
+      {
+        "term": "sluiten",
+        "kind": "verb",
+        "forms": "ik sluit · ik heb gesloten",
+        "meaning": "يغلق؛ الماضي المركب هنا gesloten.",
+        "phraseId": "a2-comparing-conditions-at-home-04"
+      },
+      {
+        "term": "groot",
+        "kind": "expression",
+        "forms": "groot · groter dan",
+        "meaning": "كبير؛ أكبر من.",
+        "phraseId": "a2-comparing-conditions-at-home-05"
+      },
+      {
+        "term": "veel",
+        "kind": "expression",
+        "forms": "veel · meer",
+        "meaning": "كثير؛ أكثر.",
+        "phraseId": "a2-comparing-conditions-at-home-06"
+      },
+      {
+        "term": "goed",
+        "kind": "expression",
+        "forms": "goed · beter dan",
+        "meaning": "جيد؛ أفضل من، وصيغة المقارنة غير منتظمة.",
+        "phraseId": "a2-comparing-conditions-at-home-07"
+      },
+      {
+        "term": "de beschrijving",
+        "kind": "noun",
+        "forms": "de beschrijvingen",
+        "meaning": "الوصف؛ ما تلاحظه وتبلّغ عنه.",
+        "phraseId": "a2-comparing-conditions-at-home-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صف مسكناً خيالياً: المطبخ أبرد من غرفة المعيشة، ونافذته لا تُغلق جيداً.",
+        "model": "De keuken is kouder dan de woonkamer. Het raam in de keuken sluit niet goed.",
+        "translation": "المطبخ أبرد من غرفة المعيشة. نافذة المطبخ لا تُغلق جيداً.",
+        "checklist": [
+          "هل حافظت على اتجاه المقارنة؟",
+          "هل حددت أي نافذة لا تُغلق جيداً؟"
+        ]
+      },
+      {
+        "prompt": "اكتب مقارنة جديدة: باب غرفة النوم يُغلق أفضل من النافذة، وتشعر اليوم بهواء بارد أقل قرب النافذة من أمس.",
+        "model": "De deur van de slaapkamer sluit beter dan het raam. Vandaag voel ik minder koude lucht bij het raam dan gisteren.",
+        "translation": "باب غرفة النوم يُغلق أفضل من النافذة. اليوم أشعر بهواء بارد أقل قرب النافذة من أمس.",
+        "checklist": [
+          "هل استخدمت beter dan لوصف الإغلاق؟",
+          "هل استخدمت minder للمقارنة الجديدة، لا meer؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-arranging-a-repair-visit",
+    "vocabulary": [
+      {
+        "term": "de monteur",
+        "kind": "noun",
+        "forms": "de monteurs",
+        "meaning": "الفني.",
+        "phraseId": "a2-arranging-a-repair-visit-01"
+      },
+      {
+        "term": "tussen ... en ...",
+        "kind": "expression",
+        "forms": "tussen twee en vier uur",
+        "meaning": "بين وقتين؛ فترة وصول.",
+        "phraseId": "a2-arranging-a-repair-visit-04"
+      },
+      {
+        "term": "vanaf",
+        "kind": "expression",
+        "forms": "vanaf twee uur",
+        "meaning": "من الثانية فصاعداً؛ بداية.",
+        "phraseId": "a2-arranging-a-repair-visit-05"
+      },
+      {
+        "term": "tot",
+        "kind": "expression",
+        "forms": "tot vier uur",
+        "meaning": "حتى الرابعة؛ نهاية.",
+        "phraseId": "a2-arranging-a-repair-visit-06"
+      },
+      {
+        "term": "passen",
+        "kind": "verb",
+        "forms": "dat past · dat heeft gepast",
+        "meaning": "يناسب؛ هنا الموعد مناسب.",
+        "phraseId": "a2-arranging-a-repair-visit-05"
+      },
+      {
+        "term": "de bevestiging",
+        "kind": "noun",
+        "forms": "de bevestigingen",
+        "meaning": "التأكيد؛ هنا رسالة تأكيد موعد.",
+        "phraseId": "a2-arranging-a-repair-visit-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "الموعد المقترح الاثنين صباحاً لا يناسبك لأنك تعمل. اطلب بدلاً منه الأربعاء بين الواحدة والثالثة، دون افتراض الموافقة.",
+        "model": "Maandagochtend kan ik niet, want ik werk dan. Kan de monteur woensdag tussen één en drie uur komen?",
+        "translation": "لا أستطيع صباح الاثنين لأنني أعمل حينها. هل يمكن للفني الحضور الأربعاء بين الواحدة والثالثة؟",
+        "checklist": [
+          "هل ذكرت التعذر وسببه؟",
+          "هل طلبت اليوم والفترة البديلين بصيغة سؤال؟"
+        ]
+      },
+      {
+        "prompt": "أكد زيارة الجمعة بين العاشرة والثانية عشرة. اكتب أنك في المنزل من العاشرة حتى الثانية عشرة واطلب رسالة تأكيد.",
+        "model": "Dus vrijdag tussen tien en twaalf uur? Ik ben van tien tot twaalf uur thuis. Kunt u een bevestiging sturen?",
+        "translation": "إذن الجمعة بين العاشرة والثانية عشرة؟ سأكون في المنزل من العاشرة حتى الثانية عشرة. هل يمكنكم إرسال تأكيد؟",
+        "checklist": [
+          "هل ذكرت اليوم والفترة كاملة؟",
+          "هل طلبت التأكيد بدلاً من وعد بساعة وصول دقيقة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-following-up-on-a-repair",
+    "vocabulary": [
+      {
+        "term": "oplossen",
+        "kind": "verb",
+        "forms": "ik los op · ik heb opgelost",
+        "meaning": "يحل مشكلة؛ فعل منفصل.",
+        "phraseId": "a2-following-up-on-a-repair-02"
+      },
+      {
+        "term": "repareren",
+        "kind": "verb",
+        "forms": "ik repareer · ik heb gerepareerd",
+        "meaning": "يصلح شيئاً؛ هنا الصنبور.",
+        "phraseId": "a2-following-up-on-a-repair-03"
+      },
+      {
+        "term": "niet meer",
+        "kind": "expression",
+        "forms": "lekt niet meer",
+        "meaning": "لم يعد يسرّب؛ توقف الوضع السابق.",
+        "phraseId": "a2-following-up-on-a-repair-03"
+      },
+      {
+        "term": "vertellen",
+        "kind": "verb",
+        "forms": "ik vertel · ik heb verteld",
+        "meaning": "يخبر؛ لا نضيف ge قبل verteld.",
+        "phraseId": "a2-following-up-on-a-repair-05"
+      },
+      {
+        "term": "terugbellen",
+        "kind": "verb",
+        "forms": "ik bel terug · ik heb teruggebeld",
+        "meaning": "يعاود الاتصال.",
+        "phraseId": "a2-following-up-on-a-repair-07"
+      },
+      {
+        "term": "over het raam",
+        "kind": "expression",
+        "forms": "bellen over het raam",
+        "meaning": "الاتصال بشأن النافذة؛ over تحدد الموضوع هنا.",
+        "phraseId": "a2-following-up-on-a-repair-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "أخبر الصيانة أن الفني زارك الاثنين وأصلح صنبور الحمام، لكنه لم يحل مشكلة نافذة المطبخ التي ما زالت لا تُغلق جيداً.",
+        "model": "De monteur is maandag bij mij geweest. De kraan in de badkamer is gerepareerd, maar het raam in de keuken sluit nog steeds niet goed.",
+        "translation": "زارني الفني الاثنين. أُصلح صنبور الحمام، لكن نافذة المطبخ ما زالت لا تُغلق جيداً.",
+        "checklist": [
+          "هل ذكرت اليوم والإصلاح المنجز؟",
+          "هل حددت المشكلة الباقية ومكانها الصحيح؟"
+        ]
+      },
+      {
+        "prompt": "بعد طلبك متابعة النافذة، اكتب سؤالاً لتأكيد أن الفني سيعاود الاتصال بك الجمعة بشأن النافذة، واسأل في أي وقت. لا تفترض زيارة.",
+        "model": "Dus de monteur belt mij vrijdag terug over het raam? Hoe laat belt hij?",
+        "translation": "إذن سيعاود الفني الاتصال بي الجمعة بشأن النافذة؟ في أي وقت سيتصل؟",
+        "checklist": [
+          "هل أكدت الاتصال وموضوعه واليوم؟",
+          "هل سألت عن الوقت دون تحويل الاتصال إلى زيارة؟"
+        ]
+      }
+    ]
   }
 ]

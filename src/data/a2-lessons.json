@@ -1182,5 +1182,597 @@
         "explanation": "Afgesproken تعني اتفقنا."
       }
     ]
+  },
+  {
+    "slug": "a2-reporting-a-recurring-problem",
+    "moduleId": "a2-housing-services",
+    "level": "A2",
+    "number": "09",
+    "title": "أبلغ عن مشكلة متكررة",
+    "dutchTitle": "Een terugkerend probleem melden",
+    "description": "أحدد المشكلة ومكانها وبدايتها وأميز عودتها عن استمرارها.",
+    "durationMinutes": 12,
+    "context": "تتصل بخدمة الصيانة في موقف خيالي للإبلاغ عن صنبور المطبخ.",
+    "goal": "أحدد المشكلة ومكانها وبدايتها وأميز عودتها عن استمرارها.",
+    "grammar": {
+      "title": "sinds وweer وnog steeds",
+      "explanation": "sinds maandag تحدد بداية المشكلة التي تستمر الآن، فنستخدم هنا الحاضر lekt. weer تعني أن المشكلة عادت، وnog steeds تعني أنها ما زالت قائمة. ليست الكلمتان مترادفتين.",
+      "example": "De kraan lekt sinds maandag.",
+      "translation": "الصنبور يسرّب الماء منذ الاثنين."
+    },
+    "phrases": [
+      {
+        "id": "a2-reporting-a-recurring-problem-01",
+        "dutch": "Goedemorgen, ik wil een probleem in mijn woning melden.",
+        "arabic": "صباح الخير، أريد الإبلاغ عن مشكلة في مسكني.",
+        "tip": "een probleem melden تعني الإبلاغ عن مشكلة."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-02",
+        "dutch": "Wat is er aan de hand?",
+        "arabic": "ما المشكلة؟",
+        "tip": "سؤال شائع لمعرفة ما يحدث."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-03",
+        "dutch": "De kraan in de keuken lekt weer.",
+        "arabic": "صنبور المطبخ يسرّب الماء مجدداً.",
+        "tip": "weer تعني أن التسرب عاد."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-04",
+        "dutch": "Sinds wanneer lekt de kraan?",
+        "arabic": "منذ متى يسرّب الصنبور الماء؟",
+        "tip": "Sinds wanneer تسأل عن بداية المشكلة."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-05",
+        "dutch": "Sinds maandag. Vorige week heeft een monteur de kraan gerepareerd.",
+        "arabic": "منذ الاثنين. أصلح فني الصنبور الأسبوع الماضي.",
+        "tip": "نميز بداية المشكلة الحالية عن الإصلاح السابق."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-06",
+        "dutch": "Lekt de kraan nu nog steeds?",
+        "arabic": "هل ما زال الصنبور يسرّب الماء الآن؟",
+        "tip": "nog steeds تسأل هل المشكلة مستمرة الآن."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-07",
+        "dutch": "Ja, er liggen elke ochtend druppels onder de kraan.",
+        "arabic": "نعم، توجد قطرات كل صباح تحت الصنبور.",
+        "tip": "elke ochtend تحدد تكرار الملاحظة."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-08",
+        "dutch": "Ik noteer het. Wat is uw adres?",
+        "arabic": "سأسجل ذلك. ما عنوانكم؟",
+        "tip": "استخدم عنواناً خيالياً في التدريب."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-a-recurring-problem-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-reporting-a-recurring-problem-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-a-recurring-problem-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-reporting-a-recurring-problem-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-a-recurring-problem-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-reporting-a-recurring-problem-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-reporting-a-recurring-problem-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-reporting-a-recurring-problem-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-reporting-a-recurring-problem-q1",
+        "prompt": "متى بدأت المشكلة الحالية؟",
+        "options": [
+          "الأسبوع الماضي قبل الإصلاح",
+          "منذ الاثنين",
+          "ستبدأ غداً"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sinds maandag تجيب عن بداية التسرب الحالي؛ الإصلاح حدث الأسبوع الماضي."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-q2",
+        "prompt": "ماذا تضيف weer إلى وصف التسرب؟",
+        "options": [
+          "أنه عاد بعد أن حدث سابقاً",
+          "أنه انتهى نهائياً",
+          "أنه سيحدث مستقبلاً"
+        ],
+        "correctIndex": 0,
+        "explanation": "weer تشير إلى عودة المشكلة."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-q3",
+        "prompt": "أين تظهر القطرات في الحوار؟",
+        "options": [
+          "فوق الخزانة",
+          "عند نافذة الغرفة",
+          "تحت صنبور المطبخ"
+        ],
+        "correctIndex": 2,
+        "explanation": "onder de kraan تعني تحت الصنبور، وقد حدد المتحدث أنه صنبور المطبخ."
+      },
+      {
+        "id": "a2-reporting-a-recurring-problem-q4",
+        "prompt": "أي سؤال يتحقق من استمرار المشكلة الآن؟",
+        "options": [
+          "Wat is uw adres?",
+          "Lekt de kraan nu nog steeds?",
+          "Wie heeft de kraan gerepareerd?"
+        ],
+        "correctIndex": 1,
+        "explanation": "nog steeds تسأل عن استمرار التسرب في الوقت الحالي."
+      }
+    ]
+  },
+  {
+    "slug": "a2-comparing-conditions-at-home",
+    "moduleId": "a2-housing-services",
+    "level": "A2",
+    "number": "10",
+    "title": "صف ما تغيّر في المنزل",
+    "dutchTitle": "Verschillen in huis beschrijven",
+    "description": "أقارن بين غرفتين وأصف تغيراً لاحظته دون تشخيص سببه.",
+    "durationMinutes": 12,
+    "context": "تشرح لموظفة الصيانة ما تلاحظه حول نافذة غرفة النوم في مسكن خيالي.",
+    "goal": "أقارن بين غرفتين وأصف تغيراً لاحظته دون تشخيص سببه.",
+    "grammar": {
+      "title": "المقارنة باستخدام dan",
+      "explanation": "نتدرّب على koud → kouder وgroot → groter وgoed → beter. تأتي dan لربط طرفي المقارنة: kouder dan de woonkamer. هذه أوصاف للملاحظة، لا تشخيص فني.",
+      "example": "De slaapkamer is kouder dan de woonkamer.",
+      "translation": "غرفة النوم أبرد من غرفة المعيشة."
+    },
+    "phrases": [
+      {
+        "id": "a2-comparing-conditions-at-home-01",
+        "dutch": "Wat merkt u in de slaapkamer?",
+        "arabic": "ماذا تلاحظون في غرفة النوم؟",
+        "tip": "merken تعني يلاحظ."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-02",
+        "dutch": "De slaapkamer is kouder dan de woonkamer.",
+        "arabic": "غرفة النوم أبرد من غرفة المعيشة.",
+        "tip": "kouder dan للمقارنة بين الغرفتين."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-03",
+        "dutch": "Gaat het raam goed dicht?",
+        "arabic": "هل تُغلق النافذة جيداً؟",
+        "tip": "dichtgaan هنا إغلاق النافذة."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-04",
+        "dutch": "Nee, het raam sluit niet goed.",
+        "arabic": "لا، النافذة لا تُغلق جيداً.",
+        "tip": "sluiten تعني يغلق."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-05",
+        "dutch": "Is het probleem groter dan vorige week?",
+        "arabic": "هل المشكلة أكبر من الأسبوع الماضي؟",
+        "tip": "نقارن الوضع الحالي بالوضع السابق."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-06",
+        "dutch": "Ja, ik voel nu meer koude lucht bij het raam.",
+        "arabic": "نعم، أشعر الآن بهواء بارد أكثر قرب النافذة.",
+        "tip": "meer صيغة المقارنة من veel."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-07",
+        "dutch": "De deur sluit wel goed, beter dan het raam.",
+        "arabic": "أما الباب فيُغلق جيداً، أفضل من النافذة.",
+        "tip": "wel تؤكد المقابلة مع niet؛ goed → beter."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-08",
+        "dutch": "Dank u. Ik geef uw beschrijving door aan de monteur.",
+        "arabic": "شكراً لكم. سأنقل وصفكم إلى الفني.",
+        "tip": "الوصف هو ما لاحظته، وليس سبباً افترضته."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-conditions-at-home-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-conditions-at-home-02"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-conditions-at-home-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-conditions-at-home-04"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-conditions-at-home-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-conditions-at-home-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-comparing-conditions-at-home-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-comparing-conditions-at-home-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-comparing-conditions-at-home-q1",
+        "prompt": "أي غرفة أبرد حسب الوصف؟",
+        "options": [
+          "غرفة المعيشة",
+          "كلتاهما متساويتان",
+          "غرفة النوم"
+        ],
+        "correctIndex": 2,
+        "explanation": "De slaapkamer is kouder dan de woonkamer تحدد اتجاه المقارنة."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-q2",
+        "prompt": "ما الذي يُغلق بشكل أفضل؟",
+        "options": [
+          "النافذة",
+          "الباب",
+          "لا أحد منهما"
+        ],
+        "correctIndex": 1,
+        "explanation": "الباب يُغلق جيداً، أفضل من النافذة."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-q3",
+        "prompt": "أكمل المقارنة: De kamer is kouder ... de keuken.",
+        "options": [
+          "dan",
+          "want",
+          "sinds"
+        ],
+        "correctIndex": 0,
+        "explanation": "نستخدم dan في المقارنة التي نتدرب عليها."
+      },
+      {
+        "id": "a2-comparing-conditions-at-home-q4",
+        "prompt": "أي ملاحظة تدل على تغير الوضع؟",
+        "options": [
+          "الفني حضر اليوم",
+          "هناك هواء بارد أكثر قرب النافذة الآن",
+          "النافذة أُصلحت بالكامل"
+        ],
+        "correctIndex": 1,
+        "explanation": "المتحدث يقول ik voel nu meer koude lucht؛ لا يذكر زيارة جديدة أو اكتمال الإصلاح."
+      }
+    ]
+  },
+  {
+    "slug": "a2-arranging-a-repair-visit",
+    "moduleId": "a2-housing-services",
+    "level": "A2",
+    "number": "11",
+    "title": "رتّب زيارة للصيانة",
+    "dutchTitle": "Een bezoek van de monteur afspreken",
+    "description": "أذكر متى أكون في المنزل وأميز فترة الزيارة عن موعد محدد.",
+    "durationMinutes": 12,
+    "context": "تتفق مع موظفة الصيانة على زيارة خيالية وتؤكد فترة حضور الفني.",
+    "goal": "أذكر متى أكون في المنزل وأميز فترة الزيارة عن موعد محدد.",
+    "grammar": {
+      "title": "فترة بين وقتين ووقت بدء التوفر",
+      "explanation": "tussen twee en vier uur فترة بين الثانية والرابعة، وليست وعداً بالوصول عند الثانية بالضبط. vanaf twee uur تحدد بداية التوفر، وtot vier uur تحدد نهايته. نعيد اليوم والفترة قبل تأكيد الاتفاق.",
+      "example": "Ik ben vanaf twee uur thuis.",
+      "translation": "سأكون في المنزل اعتباراً من الثانية."
+    },
+    "phrases": [
+      {
+        "id": "a2-arranging-a-repair-visit-01",
+        "dutch": "De monteur kan dinsdag tussen negen en elf uur komen.",
+        "arabic": "يمكن للفني الحضور الثلاثاء بين التاسعة والحادية عشرة.",
+        "tip": "هذه فترة زيارة، وليست ساعة وصول دقيقة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-02",
+        "dutch": "Dinsdagochtend kan ik niet, want ik werk dan.",
+        "arabic": "لا أستطيع صباح الثلاثاء لأنني أعمل حينها.",
+        "tip": "نراجع السبب باستخدام want."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-03",
+        "dutch": "Kan de monteur donderdagmiddag komen?",
+        "arabic": "هل يمكن للفني الحضور بعد ظهر الخميس؟",
+        "tip": "طلب بديل ينتظر موافقة الموظفة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-04",
+        "dutch": "Donderdag kan hij tussen twee en vier uur komen.",
+        "arabic": "يمكنه الحضور الخميس بين الثانية والرابعة.",
+        "tip": "فترة جديدة في اليوم البديل."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-05",
+        "dutch": "Dat past. Ik ben vanaf twee uur thuis.",
+        "arabic": "هذا مناسب. سأكون في المنزل اعتباراً من الثانية.",
+        "tip": "vanaf تحدد بداية التوفر."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-06",
+        "dutch": "Bent u tot vier uur thuis?",
+        "arabic": "هل ستكونون في المنزل حتى الرابعة؟",
+        "tip": "tot تحدد نهاية فترة التوفر المطلوبة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-07",
+        "dutch": "Ja. Dus donderdag tussen twee en vier uur?",
+        "arabic": "نعم. إذن الخميس بين الثانية والرابعة؟",
+        "tip": "كرر اليوم والفترة، لا تحوّلها إلى موعد عند الثانية فقط."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-08",
+        "dutch": "Ja. U krijgt een bevestiging per e-mail.",
+        "arabic": "نعم. ستصلكم رسالة تأكيد بالبريد الإلكتروني.",
+        "tip": "هذا اتفاق خيالي للتدريب، وليس حجزاً حقيقياً."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-arranging-a-repair-visit-01"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-arranging-a-repair-visit-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-arranging-a-repair-visit-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-arranging-a-repair-visit-04"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-arranging-a-repair-visit-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-arranging-a-repair-visit-06"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-arranging-a-repair-visit-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-arranging-a-repair-visit-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-arranging-a-repair-visit-q1",
+        "prompt": "لماذا لا يناسب المتحدث الموعد الأول؟",
+        "options": [
+          "لأنه يعمل صباح الثلاثاء",
+          "لأنه في المنزل الخميس",
+          "لأن الفني ألغى كل المواعيد"
+        ],
+        "correctIndex": 0,
+        "explanation": "want ik werk dan يشرح عدم مناسبة صباح الثلاثاء."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-q2",
+        "prompt": "ما فترة الزيارة المتفق عليها؟",
+        "options": [
+          "الثلاثاء 09:00–11:00",
+          "الخميس 14:00–16:00",
+          "الخميس 09:00–11:00"
+        ],
+        "correctIndex": 1,
+        "explanation": "الموظفة توافق على الخميس بين الثانية والرابعة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-q3",
+        "prompt": "هل الاتفاق يعني أن الفني يصل الساعة 14:00 بالضبط؟",
+        "options": [
+          "نعم دائماً",
+          "نعم لأن vanaf تعني بالضبط",
+          "لا، الحضور ضمن فترة 14:00–16:00"
+        ],
+        "correctIndex": 2,
+        "explanation": "tussen تعطي فترة؛ بداية توفر الساكن ليست ساعة وصول مؤكدة."
+      },
+      {
+        "id": "a2-arranging-a-repair-visit-q4",
+        "prompt": "ماذا تعني Ik ben vanaf twee uur thuis؟",
+        "options": [
+          "سأغادر المنزل الثانية",
+          "سأكون في المنزل من الثانية فصاعداً",
+          "أنا في المنزل حتى الثانية فقط"
+        ],
+        "correctIndex": 1,
+        "explanation": "vanaf بداية التوفر؛ حتى الثانية تعبر عنها tot."
+      }
+    ]
+  },
+  {
+    "slug": "a2-following-up-on-a-repair",
+    "moduleId": "a2-housing-services",
+    "level": "A2",
+    "number": "12",
+    "title": "تابع المشكلة بعد الزيارة",
+    "dutchTitle": "Na de reparatie contact opnemen",
+    "description": "أوضح ما أُصلح وما بقي دون حل وأطلب خطوة متابعة واضحة.",
+    "durationMinutes": 12,
+    "context": "تعاود الاتصال بعد زيارة صيانة خيالية للمطبخ وغرفة النوم.",
+    "goal": "أوضح ما أُصلح وما بقي دون حل وأطلب خطوة متابعة واضحة.",
+    "grammar": {
+      "title": "al وnog steeds وnog niet في المتابعة",
+      "explanation": "al gerepareerd تخبر أن الإصلاح أُنجز. nog steeds تصف مشكلة مستمرة، وnog niet opgelost تعني أنها لم تُحل بعد. وجود زيارة سابقة لا يعني أن كل المشكلات حُلّت.",
+      "example": "De kraan is al gerepareerd, maar het raam sluit nog steeds niet goed.",
+      "translation": "أُصلح الصنبور بالفعل، لكن النافذة ما زالت لا تُغلق جيداً."
+    },
+    "phrases": [
+      {
+        "id": "a2-following-up-on-a-repair-01",
+        "dutch": "Goedemiddag, de monteur is gisteren bij mij geweest.",
+        "arabic": "مساء الخير، زارني الفني أمس.",
+        "tip": "نراجع is geweest من الوحدة الأولى."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-02",
+        "dutch": "Is alles nu opgelost?",
+        "arabic": "هل حُلّ كل شيء الآن؟",
+        "tip": "السؤال عن النتيجة لا عن مجرد حدوث الزيارة."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-03",
+        "dutch": "De kraan is al gerepareerd. Hij lekt niet meer.",
+        "arabic": "أُصلح الصنبور بالفعل. لم يعد يسرّب الماء.",
+        "tip": "niet meer تعني أن التسرب توقف."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-04",
+        "dutch": "Maar het raam in de slaapkamer sluit nog steeds niet goed.",
+        "arabic": "لكن نافذة غرفة النوم ما زالت لا تُغلق جيداً.",
+        "tip": "maar تقابل التحسن بمشكلة باقية."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-05",
+        "dutch": "Heeft u dat gisteren aan de monteur verteld?",
+        "arabic": "هل أخبرتم الفني بذلك أمس؟",
+        "tip": "vertellen → verteld؛ بلا ge إضافية."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-06",
+        "dutch": "Ja, maar dat probleem is nog niet opgelost.",
+        "arabic": "نعم، لكن تلك المشكلة لم تُحل بعد.",
+        "tip": "نميز الإبلاغ عن المشكلة من حلها."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-07",
+        "dutch": "Ik vraag de monteur om u morgen terug te bellen.",
+        "arabic": "سأطلب من الفني معاودة الاتصال بكم غداً.",
+        "tip": "هذه خطوة اتصال، وليست تأكيد زيارة جديدة."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-08",
+        "dutch": "Dank u. Dus hij belt mij morgen terug over het raam?",
+        "arabic": "شكراً لكم. إذن سيعاود الاتصال بي غداً بشأن النافذة؟",
+        "tip": "أعد موضوع الاتصال واليوم للتأكد."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-following-up-on-a-repair-02"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-03"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-04"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-following-up-on-a-repair-05"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-06"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-following-up-on-a-repair-07"
+      },
+      {
+        "speaker": "آدم",
+        "phraseId": "a2-following-up-on-a-repair-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-following-up-on-a-repair-q1",
+        "prompt": "أي مشكلة انتهت بعد الزيارة؟",
+        "options": [
+          "إغلاق النافذة",
+          "تسرب الصنبور",
+          "كل المشكلات"
+        ],
+        "correctIndex": 1,
+        "explanation": "Hij lekt niet meer تؤكد انتهاء التسرب فقط."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-q2",
+        "prompt": "ما المشكلة التي ما زالت قائمة؟",
+        "options": [
+          "النافذة لا تُغلق جيداً",
+          "الصنبور يسرّب مجدداً",
+          "الهاتف لا يعمل"
+        ],
+        "correctIndex": 0,
+        "explanation": "النافذة ما زالت لا تُغلق جيداً رغم إصلاح الصنبور."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-q3",
+        "prompt": "ما الخطوة التي قالت الموظفة إنها ستطلبها؟",
+        "options": [
+          "زيارة اليوم عند الثالثة",
+          "استبدال كل النوافذ فوراً",
+          "اتصال من الفني غداً"
+        ],
+        "correctIndex": 2,
+        "explanation": "terug te bellen تعني معاودة الاتصال، ولا تؤكد زيارة."
+      },
+      {
+        "id": "a2-following-up-on-a-repair-q4",
+        "prompt": "أي عبارة تعني أن التسرب توقف؟",
+        "options": [
+          "Hij lekt nog steeds.",
+          "Hij lekt niet meer.",
+          "Hij lekt weer."
+        ],
+        "correctIndex": 1,
+        "explanation": "niet meer تعني لم يعد؛ nog steeds استمرار، وweer عودة."
+      }
+    ]
   }
 ]

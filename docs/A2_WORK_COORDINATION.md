@@ -1,5 +1,7 @@
 # A2 unit 2: work coordination
 
+This records the unit 2 snapshot. Current totals and the next delivery are in `A2_HOUSING_SERVICES.md`.
+
 Delivery date: 2026-10-04 (Europe/Amsterdam). Based on merged PR #23, whose CI completed successfully. This is an authored extension of the A2 preview; external educator review, learner observation and approved recordings remain outstanding.
 
 ## Delivered inventory

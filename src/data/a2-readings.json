@@ -199,5 +199,107 @@
         "explanation": "half drie هي 14:30 في سياق العمل بعد الظهر، وتسبق وصول السائق."
       }
     ]
+  },
+  {
+    "slug": "a2-a-repair-confirmation",
+    "title": "تأكيد زيارة لمشكلة لم تُحل",
+    "dutchTitle": "Een bevestiging voor een vervolgbezoek",
+    "topic": "نتيجة إصلاح وتغيير فترة الزيارة",
+    "sourceLessons": [
+      "a2-reporting-a-recurring-problem",
+      "a2-comparing-conditions-at-home",
+      "a2-arranging-a-repair-visit",
+      "a2-following-up-on-a-repair"
+    ],
+    "text": "Beste Sara, dinsdag heeft onze monteur de kraan in uw keuken gerepareerd. U hebt daarna gemeld dat het raam in de slaapkamer nog steeds niet goed sluit. De slaapkamer is kouder dan de woonkamer. We komen daarom nog een keer kijken. De afspraak van donderdag tussen negen en elf uur vervalt. U werkt dan. We hebben nu vrijdag tussen één en drie uur afgesproken. De monteur komt voor het raam, niet voor de kraan. Wilt u voor woensdag vier uur per e-mail bevestigen dat u vrijdag thuis bent? Met vriendelijke groet, Team Onderhoud.",
+    "translation": "السيدة سارة، أصلح فنينا الثلاثاء صنبور مطبخك. أبلغتِ بعد ذلك أن نافذة غرفة النوم ما زالت لا تُغلق جيداً. غرفة النوم أبرد من غرفة المعيشة. لذلك سنأتي لفحصها مرة أخرى. أُلغي موعد الخميس بين التاسعة والحادية عشرة؛ فأنت تعملين حينها. اتفقنا الآن على الجمعة بين الواحدة والثالثة. سيأتي الفني من أجل النافذة، وليس الصنبور. هل يمكنك التأكيد بالبريد الإلكتروني قبل الأربعاء الساعة الرابعة أنك ستكونين في المنزل الجمعة؟ مع التحية، فريق الصيانة.",
+    "vocabulary": [
+      {
+        "term": "daarna",
+        "excerpt": "daarna",
+        "meaning": "بعد ذلك؛ الإبلاغ جاء بعد إصلاح الصنبور."
+      },
+      {
+        "term": "nog steeds",
+        "excerpt": "nog steeds",
+        "meaning": "ما زالت؛ المشكلة لم تتوقف."
+      },
+      {
+        "term": "kouder dan",
+        "excerpt": "kouder dan",
+        "meaning": "أبرد من؛ قارن اتجاه الوصف بين الغرفتين."
+      },
+      {
+        "term": "vervallen",
+        "excerpt": "vervalt",
+        "meaning": "يُلغى أو لا يعود سارياً؛ هنا الموعد السابق."
+      },
+      {
+        "term": "bevestigen",
+        "excerpt": "bevestigen",
+        "meaning": "يؤكد؛ المطلوب رد بالبريد الإلكتروني."
+      },
+      {
+        "term": "onderhoud",
+        "excerpt": "Onderhoud",
+        "meaning": "الصيانة؛ اسم فريق العمل هنا."
+      }
+    ],
+    "grammar": {
+      "title": "مقارنة تشرح الملاحظة",
+      "example": "De slaapkamer is kouder dan de woonkamer.",
+      "translation": "غرفة النوم أبرد من غرفة المعيشة.",
+      "explanation": "kouder dan تقارن غرفة النوم بغرفة المعيشة. هذا وصف للحالة التي أبلغت عنها الساكنة، وليس تشخيصاً لسببها."
+    },
+    "questions": [
+      {
+        "id": "a2-housing-read-1",
+        "prompt": "لماذا سيأتي الفني مرة أخرى؟",
+        "options": [
+          "لإصلاح الصنبور الذي لم يُصلح",
+          "لفحص نافذة ما زالت لا تُغلق جيداً",
+          "لتغيير عنوان الساكنة"
+        ],
+        "correctIndex": 1,
+        "evidence": "U hebt daarna gemeld dat het raam in de slaapkamer nog steeds niet goed sluit. De slaapkamer is kouder dan de woonkamer. We komen daarom nog een keer kijken.",
+        "explanation": "الزيارة الأولى أصلحت الصنبور؛ المشكلة الباقية في النافذة."
+      },
+      {
+        "id": "a2-housing-read-2",
+        "prompt": "كيف تصف الرسالة الغرفتين؟",
+        "options": [
+          "غرفة المعيشة أبرد",
+          "حرارتهما متساوية",
+          "غرفة النوم أبرد"
+        ],
+        "correctIndex": 2,
+        "evidence": "De slaapkamer is kouder dan de woonkamer.",
+        "explanation": "ترتيب المقارنة يجعل غرفة النوم هي الأبرد."
+      },
+      {
+        "id": "a2-housing-read-3",
+        "prompt": "ما الموعد الساري الآن؟",
+        "options": [
+          "الجمعة بين 13:00 و15:00",
+          "الخميس بين 09:00 و11:00",
+          "الجمعة عند 13:00 بالضبط"
+        ],
+        "correctIndex": 0,
+        "evidence": "De afspraak van donderdag tussen negen en elf uur vervalt. U werkt dan. We hebben nu vrijdag tussen één en drie uur afgesproken.",
+        "explanation": "الخميس أُلغي؛ الجمعة فترة وليست ساعة وصول دقيقة."
+      },
+      {
+        "id": "a2-housing-read-4",
+        "prompt": "ما الرد المطلوب، وما مهلته؟",
+        "options": [
+          "اتصال يوم الجمعة",
+          "بريد إلكتروني قبل الأربعاء 16:00 لتأكيد الوجود الجمعة",
+          "زيارة المكتب الخميس 11:00"
+        ],
+        "correctIndex": 1,
+        "evidence": "Wilt u voor woensdag vier uur per e-mail bevestigen dat u vrijdag thuis bent?",
+        "explanation": "مهلة الرد الأربعاء؛ موعد الزيارة الجمعة."
+      }
+    ]
   }
 ]
