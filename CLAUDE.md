@@ -211,3 +211,13 @@ All A1 authored files and every A2 unit 1–3 record remain unchanged. A1 progre
 No recording generation or approval was performed. Independent language review and learner observation remain open; authored-unit counts are not proficiency percentages. Paid exams stay deferred. Next planned unit is shopping/choices, recycling comparisons and polite requests with demonstratives and quantities in unfamiliar purchase problems.
 
 Unit 4 validation: 63 native tests and 47 focused Chromium tests passed; content/audio checks, A2 dry-run planning, TypeScript and production build passed. Mobile partner practice and desktop reading visually inspected with no overflow. Full CI runs separately on the updated PR.
+
+### A2 unit 5 handoff (2026-10-04, current)
+
+PR #24 is merged at `e30b755`; its final head `285ffed` passed full GitHub CI. This delivery starts a new branch from main. `docs/A2_SHOPPING_CHOICES.md` is the current inventory and internal editorial ledger; earlier counts above are historical snapshots.
+
+A2 now has five units / 20 lessons / 160 phrases / 80 lesson questions, 120 lexical notes / 40 lesson writing tasks, five readings / 30 notes / 20 questions, five four-turn scenarios with transfers, and five integrated packs (30 comprehension questions / five writing / five partner tasks). Unit `a2-shopping-choices` contains lessons 17–20: purchase problems, product comparison, quantities/unit prices, and confirming alternatives. Teach `dit/dat` with singular het, `deze/die` with singular de and plurals; compare with `dan`, distinguish sets from pieces, total from surcharge, available stock from ready/reserved orders, and requests from acceptance. Shop examples are fictional, not legal return policies.
+
+All A1 files and all A2 units 1–4 records remain unchanged. Progress is A1 53 / A2 20; navigation connects the new resources and stops at their endpoints. Account/storage/placement contracts are unchanged. Audio inventory is 532 sources / 2,128 variants (A1 1,468; A2 660). The new regression fingerprint preserves all 528 earlier A2 requests exactly. The owner continues to handle generation and listening approval; no MP3 synthesis or approval was performed here.
+
+Unit 5 validation: all 64 native tests and all 140 Chromium end-to-end tests passed, plus content/audio checks, A2 dry-run planning, TypeScript and production build. Mobile partner practice and desktop reading were visually inspected without horizontal overflow. Full GitHub CI runs separately on the new PR. Independent educator review and learner observation remain open. A2 is still an authored preview; paid exams stay deferred. Next planned unit is school/local messages with required versus optional actions, deadlines and short relevant replies.

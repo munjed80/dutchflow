@@ -474,5 +474,124 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "a2-shopping-choices",
+    "title": "مراجعة: اختر البديل وتحقق من الطلب",
+    "unitIds": [
+      "a2-shopping-choices"
+    ],
+    "reading": {
+      "text": "Beste Lina, u hebt drie rode bewaardozen besteld. Elke doos kost vijf euro. Op dit moment hebben we maar één rode doos op voorraad. We kunnen u in plaats daarvan drie blauwe dozen aanbieden. Die zijn even groot als de rode dozen, maar kosten vier euro per stuk. Wilt u alle drie de dozen in het blauw? Dan is de totaalprijs twaalf euro. Dit is alleen een voorstel; we hebben uw bestelling nog niet aangepast. Laat ons per e-mail weten wat u kiest. Daarna bevestigen we wanneer uw bestelling klaarstaat. Met vriendelijke groet, Winkel De Kast.",
+      "translation": "السيدة لينا، طلبت ثلاث علب حمراء لحفظ الطعام. سعر كل علبة خمسة يورو. ليس لدينا حالياً إلا علبة حمراء واحدة في المخزون. يمكننا أن نعرض عليك بدلاً منها ثلاث علب زرقاء. حجمها يساوي حجم العلب الحمراء، لكن سعرها أربعة يورو للقطعة. هل تريدين العلب الثلاث كلها باللون الأزرق؟ يكون الإجمالي عندئذ اثني عشر يورو. هذا مجرد اقتراح؛ لم نعدل طلبك بعد. أخبرينا بالبريد الإلكتروني بما تختارين. سنؤكد بعد ذلك متى يصبح طلبك جاهزاً. مع التحية، متجر دي كاست.",
+      "questions": [
+        {
+          "id": "a2-shopping-practice-read-1",
+          "prompt": "ما المشكلة في تنفيذ الطلب الأصلي؟",
+          "options": [
+            "ثلاث علب حمراء جاهزة بالفعل",
+            "المتاح علبة حمراء واحدة من ثلاث مطلوبة",
+            "كل العلب الزرقاء أصغر"
+          ],
+          "correctIndex": 1,
+          "explanation": "النقص في عدد العلب الحمراء؛ حجم الزرقاء مساوٍ لحجم الحمراء.",
+          "evidence": "u hebt drie rode bewaardozen besteld. Elke doos kost vijf euro. Op dit moment hebben we maar één rode doos op voorraad."
+        },
+        {
+          "id": "a2-shopping-practice-read-2",
+          "prompt": "أي مقارنة صحيحة للبديل الأزرق المعروض؟",
+          "options": [
+            "أكبر وأغلى",
+            "أصغر بالسعر نفسه",
+            "بالحجم نفسه وأرخص للقطعة"
+          ],
+          "correctIndex": 2,
+          "explanation": "الحمراء خمسة يورو والزرقاء أربعة مع تساوي الحجم.",
+          "evidence": "Elke doos kost vijf euro. Op dit moment hebben we maar één rode doos op voorraad. We kunnen u in plaats daarvan drie blauwe dozen aanbieden. Die zijn even groot als de rode dozen, maar kosten vier euro per stuk."
+        },
+        {
+          "id": "a2-shopping-practice-read-3",
+          "prompt": "هل عُدل الطلب إلى ثلاث علب زرقاء بإجمالي 12 يورو؟",
+          "options": [
+            "لا، ما زال اقتراحاً ينتظر اختيار لينا",
+            "نعم، وهو جاهز للاستلام الآن",
+            "نعم، وسيصل إلى المنزل"
+          ],
+          "correctIndex": 0,
+          "explanation": "السؤال يعرض خياراً ولا يثبت قبول لينا له أو جاهزيته.",
+          "evidence": "Wilt u alle drie de dozen in het blauw? Dan is de totaalprijs twaalf euro. Dit is alleen een voorstel; we hebben uw bestelling nog niet aangepast."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-shopping-choices",
+      "text": "Hallo Lina, met Amir van de winkel. We hebben uw keuze ontvangen. U krijgt één rode en twee blauwe bewaardozen. De rode doos kost vijf euro, de blauwe dozen kosten samen acht euro. U betaalt dus dertien euro in totaal. Alles staat klaar bij de servicebalie. U kunt uw bestelling vandaag, vrijdag, voor vijf uur ophalen.",
+      "translation": "مرحباً لينا، معك أمير من المتجر. استلمنا اختيارك. ستحصلين على علبة حمراء وعلبتين زرقاوين لحفظ الطعام. سعر الحمراء خمسة يورو، وسعر العلبتين الزرقاوين معاً ثمانية يورو. إذن ستدفعين ثلاثة عشر يورو إجمالاً. كل شيء جاهز عند مكتب خدمة الزبائن. يمكنك استلام طلبك اليوم، الجمعة، قبل الخامسة.",
+      "questions": [
+        {
+          "id": "a2-shopping-practice-listen-1",
+          "prompt": "ما توزيع الألوان الذي تم تأكيده في المكالمة؟",
+          "options": [
+            "ثلاث علب زرقاء",
+            "علبة حمراء وعلبتان زرقاوان",
+            "علبتان حمراوان وعلبة زرقاء"
+          ],
+          "correctIndex": 1,
+          "explanation": "المكالمة تؤكد اختياراً مختلفاً عن اقتراح ثلاث علب زرقاء في الرسالة.",
+          "evidence": "U krijgt één rode en twee blauwe bewaardozen."
+        },
+        {
+          "id": "a2-shopping-practice-listen-2",
+          "prompt": "ما المبلغ الإجمالي الذي ستدفعه لينا؟",
+          "options": [
+            "ثمانية يورو",
+            "اثنا عشر يورو",
+            "ثلاثة عشر يورو"
+          ],
+          "correctIndex": 2,
+          "explanation": "الثمانية تخص الزرقاوين فقط، والاثنا عشر يخص الاقتراح السابق؛ الإجمالي المؤكد 13.",
+          "evidence": "De rode doos kost vijf euro, de blauwe dozen kosten samen acht euro. U betaalt dus dertien euro in totaal."
+        },
+        {
+          "id": "a2-shopping-practice-listen-3",
+          "prompt": "كيف تحصل لينا على الطلب الجاهز؟",
+          "options": [
+            "تستلمه من مكتب خدمة الزبائن اليوم الجمعة قبل الخامسة",
+            "ينقل إلى منزلها السبت بعد الخامسة",
+            "تذهب الجمعة عند الخامسة تماماً إلى الصندوق"
+          ],
+          "correctIndex": 0,
+          "explanation": "ophalen هو الاستلام؛ voor vijf uur تعني قبل الخامسة لا عندها.",
+          "evidence": "Alles staat klaar bij de servicebalie. U kunt uw bestelling vandaag, vrijdag, voor vijf uur ophalen."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب إلى متجر خيالي: طلبت أربعة أكواب صفراء لكن المتاح اثنان فقط. اختر كوبين أصفرين وكوبين أخضرين بالحجم نفسه. اسأل عن الإجمالي وعن موعد جاهزية الطلب دون افتراض السعر أو الوقت.",
+        "model": "Ik heb vier gele bekers besteld. U hebt nog maar twee gele bekers. Ik neem graag twee gele en twee groene bekers van dezelfde grootte. Wat is de totaalprijs? Wanneer staat mijn bestelling klaar?",
+        "translation": "طلبت أربعة أكواب صفراء. لم يبق لديكم إلا كوبان أصفران. أود أخذ كوبين أصفرين وكوبين أخضرين بالحجم نفسه. ما الإجمالي؟ متى يصبح طلبي جاهزاً؟",
+        "checklist": [
+          "هل أبقيت العدد أربعة وذكرت اللونين والحجم نفسه؟",
+          "هل سألت عن السعر والجاهزية دون اختراع تأكيد؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أنت الزبون وتبحث عن حقيبة خفيفة بحد أقصى 25 يورو. يعرض شريكك الموظف حقيبة خضراء خفيفة بـ22 وأخرى سوداء أثقل بـ28. اختر مع ذكر السبب، ثم اسأل عن توفر الخضراء. عندما يؤكد أنها متاحة ويطلب الدفع عند الصندوق، أعد اللون والسعر ومكان الدفع.",
+        "model": "Ik zoek een lichte tas van maximaal vijfentwintig euro.\nPartner: De groene kost tweeëntwintig euro. De zwarte is zwaarder en kost achtentwintig euro.\nIk kies de groene omdat ik een lichte tas nodig heb. Is die op voorraad?\nPartner: Ja, u kunt bij de kassa betalen.\nDus de groene tas voor tweeëntwintig euro. Ik betaal bij de kassa.",
+        "translation": "أبحث عن حقيبة خفيفة بحد أقصى خمسة وعشرين يورو.\nالشريك: الخضراء باثنين وعشرين يورو. السوداء أثقل وبثمانية وعشرين يورو.\nأختار الخضراء لأنني أحتاج حقيبة خفيفة. هل هي متوفرة؟\nالشريك: نعم، يمكنك الدفع عند الصندوق.\nإذن الحقيبة الخضراء باثنين وعشرين يورو. سأدفع عند الصندوق.",
+        "checklist": [
+          "هل اخترت ما يناسب الوزن والميزانية مع ذكر السبب؟",
+          "هل سألت عن التوفر ثم أعدت تفاصيل الشراء بعد رد الشريك؟"
+        ],
+        "partnerPrompts": [
+          "Wat voor tas zoekt u en wat wilt u maximaal uitgeven?",
+          "De groene kost tweeëntwintig euro. De zwarte is zwaarder en kost achtentwintig euro.",
+          "Ja, de groene is op voorraad. U kunt bij de kassa betalen."
+        ]
+      }
+    ]
   }
 ]

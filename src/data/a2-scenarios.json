@@ -515,5 +515,135 @@
         "هل فرقت بين طلب البديل والحصول على تأكيد؟"
       ]
     }
+  },
+  {
+    "slug": "a2-choosing-a-shop-replacement",
+    "unitId": "a2-shopping-choices",
+    "title": "اختر بديلاً يناسب المقاس والميزانية",
+    "dutchTitle": "Een passende vervanging kiezen",
+    "role": "أنت سام. اشتريت أمس قميصاً أزرق بالمقاس M وسعر 25 يورو، لكنه ضيق. تريد تجربة L وتقبل اللون الأخضر. يمكنك دفع خمسة يورو إضافية كحد أقصى.",
+    "partner": "موظفة متجر خيالي",
+    "mission": "اشرح المشكلة، واختر المقاس واللون المناسبين ضمن ميزانيتك، واطلب التجربة ثم أكد الفرق المالي بعد موافقة الموظفة على الاستبدال.",
+    "sourceLessons": [
+      "a2-explaining-a-purchase-problem",
+      "a2-comparing-products",
+      "a2-checking-quantities-and-prices",
+      "a2-confirming-a-shop-alternative"
+    ],
+    "turns": [
+      {
+        "id": "a2-shopping-turn-1",
+        "goal": "اشرح المشكلة وحدد المقاس المطلوب.",
+        "prompt": "Goedemiddag, waarmee kan ik u helpen?",
+        "translation": "مساء الخير، كيف يمكنني مساعدتكم؟",
+        "choices": [
+          {
+            "text": "Ik heb dit overhemd gisteren gekocht. M is te klein. Heeft u maat L?",
+            "translation": "اشتريت هذا القميص أمس. المقاس M ضيق علي. هل لديكم L؟",
+            "feedback": "ذكرت الشراء والمشكلة والمقاس المطلوب."
+          },
+          {
+            "text": "Ik heb maat L gekocht en ik zoek maat M.",
+            "translation": "اشتريت L وأبحث عن M.",
+            "feedback": "هذه جملة سليمة لكنها تعكس المقاسين في دورك."
+          },
+          {
+            "text": "Ik zoek drie blauwe bekers.",
+            "translation": "أبحث عن ثلاثة أكواب زرقاء.",
+            "feedback": "لا يطابق هذا طلبك المتعلق بالقميص."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "We hebben geen blauwe overhemden in L. Een groen overhemd in L kost achtentwintig euro. Een zwart overhemd in L kost tweeëndertig euro.",
+        "responseTranslation": "ليس لدينا قمصان زرقاء بالمقاس L. القميص الأخضر بالمقاس L بثمانية وعشرين يورو، والأسود بالمقاس L باثنين وثلاثين يورو."
+      },
+      {
+        "id": "a2-shopping-turn-2",
+        "goal": "اختر بديلاً يقع ضمن خمسة يورو إضافية إلى السعر الأصلي 25.",
+        "prompt": "Welk overhemd wilt u proberen?",
+        "translation": "أي قميص تريدون تجربته؟",
+        "choices": [
+          {
+            "text": "Het zwarte van tweeëndertig euro.",
+            "translation": "الأسود بسعر اثنين وثلاثين يورو.",
+            "feedback": "يحتاج سبعة يورو إضافية، أكثر من سقفك خمسة."
+          },
+          {
+            "text": "Het groene in maat L. Dat is goedkoper dan het zwarte.",
+            "translation": "الأخضر بالمقاس L. إنه أرخص من الأسود.",
+            "feedback": "المقاس مناسب للتجربة والفارق ثلاثة يورو ضمن ميزانيتك."
+          },
+          {
+            "text": "Het blauwe in maat L.",
+            "translation": "الأزرق بالمقاس L.",
+            "feedback": "هذا اللون بالمقاس المطلوب غير متاح في العرض."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Natuurlijk. De paskamer is rechts. Kijk eerst of maat L goed past.",
+        "responseTranslation": "بالطبع. غرفة القياس على اليمين. تحققوا أولاً إن كان المقاس L مناسباً."
+      },
+      {
+        "id": "a2-shopping-turn-3",
+        "goal": "بعد تجربة القميص الأخضر وملاءمته اطلب الاستبدال، ولا تفترض أنه مجاني.",
+        "prompt": "Past het groene overhemd goed?",
+        "translation": "هل القميص الأخضر مناسب؟",
+        "choices": [
+          {
+            "text": "Ja, dus ik hoef niets bij te betalen.",
+            "translation": "نعم، إذن لا يلزمني دفع أي فرق.",
+            "feedback": "ملاءمة القميص لا تلغي فرق السعر المذكور."
+          },
+          {
+            "text": "Nee, ik neem het blauwe in maat L.",
+            "translation": "لا، سآخذ الأزرق بالمقاس L.",
+            "feedback": "بطاقة الجولة تقول إنه مناسب؛ والأزرق L غير متاح."
+          },
+          {
+            "text": "Ja, het past goed. Kan ik mijn blauwe overhemd omruilen voor dit groene?",
+            "translation": "نعم، إنه مناسب. هل يمكنني استبدال قميصي الأزرق بهذا الأخضر؟",
+            "feedback": "أكدت الملاءمة وطلبت موافقة صريحة على البديل."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Ja, dat kan hier. Uw oude overhemd kostte vijfentwintig euro. Voor het groene overhemd betaalt u drie euro bij.",
+        "responseTranslation": "نعم، يمكن ذلك هنا. كان ثمن قميصكم القديم خمسة وعشرين يورو. تدفعون ثلاثة يورو إضافية مقابل الأخضر."
+      },
+      {
+        "id": "a2-shopping-turn-4",
+        "goal": "أكد القميص البديل وفرق السعر، لا السعر الكامل.",
+        "prompt": "Is dat akkoord?",
+        "translation": "هل توافقون؟",
+        "choices": [
+          {
+            "text": "Ja, het groene overhemd in maat L. Ik betaal drie euro bij.",
+            "translation": "نعم، القميص الأخضر بالمقاس L. سأدفع ثلاثة يورو إضافية.",
+            "feedback": "أعدت اللون والمقاس والفرق الصحيح."
+          },
+          {
+            "text": "Ja, ik betaal nu achtentwintig euro extra.",
+            "translation": "نعم، سأدفع الآن ثمانية وعشرين يورو إضافية.",
+            "feedback": "28 السعر الكامل للبديل، لا الفرق المتفق عليه."
+          },
+          {
+            "text": "Ja, ik neem het zwarte overhemd zonder bijbetaling.",
+            "translation": "نعم، سآخذ القميص الأسود دون دفع فرق.",
+            "feedback": "غيرت البديل وخالفت الاتفاق على فرق السعر."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Prima. U kunt het verschil bij de kassa betalen. Daarna krijgt u het groene overhemd en een nieuwe bon.",
+        "responseTranslation": "حسناً. يمكنكم دفع الفرق عند الصندوق. ثم تحصلون على القميص الأخضر وإيصال جديد."
+      }
+    ],
+    "transfer": {
+      "prompt": "موقف جديد: اشتريت سترة سوداء بـ40 يورو لكنها واسعة. جربت سترة بنية أصغر بـ43 وناسبتك. اطلب استبدالها واسأل إن كان الفرق ثلاثة يورو، دون افتراض موافقة المتجر.",
+      "model": "Ik heb deze zwarte jas voor veertig euro gekocht, maar hij is te groot. De kleinere bruine jas van drieënveertig euro past goed. Kan ik mijn jas omruilen? Moet ik dan drie euro bijbetalen?",
+      "translation": "اشتريت هذه السترة السوداء بأربعين يورو، لكنها واسعة أكثر من اللازم. السترة البنية الأصغر بثلاثة وأربعين يورو مناسبة. هل يمكنني استبدال سترتي؟ هل يلزمني عندئذ دفع ثلاثة يورو إضافية؟",
+      "checklist": [
+        "هل شرحت المشكلة وحددت البديل الذي جربته؟",
+        "هل سألت عن الموافقة وعن الفرق بدلاً من السعر الكامل؟"
+      ]
+    }
   }
 ]

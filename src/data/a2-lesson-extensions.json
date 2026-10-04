@@ -1070,5 +1070,273 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "a2-explaining-a-purchase-problem",
+    "vocabulary": [
+      {
+        "term": "het overhemd",
+        "kind": "noun",
+        "forms": "de overhemden",
+        "meaning": "القميص؛ اسم مفرد مع het.",
+        "phraseId": "a2-explaining-a-purchase-problem-01"
+      },
+      {
+        "term": "kopen",
+        "kind": "verb",
+        "forms": "ik koop · ik heb gekocht",
+        "meaning": "يشتري؛ gekocht صيغة غير منتظمة.",
+        "phraseId": "a2-explaining-a-purchase-problem-01"
+      },
+      {
+        "term": "de maat",
+        "kind": "noun",
+        "forms": "de maten",
+        "meaning": "المقاس؛ هنا مقاس الملابس.",
+        "phraseId": "a2-explaining-a-purchase-problem-03"
+      },
+      {
+        "term": "passen",
+        "kind": "verb",
+        "forms": "ik pas · ik heb gepast",
+        "meaning": "يجرّب الملابس، أو تكون مناسبة للمقاس بحسب السياق.",
+        "phraseId": "a2-explaining-a-purchase-problem-06"
+      },
+      {
+        "term": "omruilen",
+        "kind": "verb",
+        "forms": "ik ruil om · ik heb omgeruild",
+        "meaning": "يستبدل سلعة بأخرى؛ فعل منفصل.",
+        "phraseId": "a2-explaining-a-purchase-problem-07"
+      },
+      {
+        "term": "de bon",
+        "kind": "noun",
+        "forms": "de bonnen",
+        "meaning": "الإيصال الذي يثبت الشراء.",
+        "phraseId": "a2-explaining-a-purchase-problem-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اشتريت سترة أمس لكنها واسعة أكثر من اللازم. اذكر المشكلة واطلب مقاساً أصغر مستخدماً de jas.",
+        "model": "Ik heb deze jas gisteren gekocht. Hij is te groot. Heeft u een kleinere maat?",
+        "translation": "اشتريت هذه السترة أمس. إنها كبيرة أكثر من اللازم. هل لديكم مقاس أصغر؟",
+        "checklist": [
+          "هل استخدمت deze مع jas وذكرت وقت الشراء؟",
+          "هل طلبت أصغر لا أكبر؟"
+        ]
+      },
+      {
+        "prompt": "لديك قميص بالمقاس L وتريد تجربة M. اطلب التجربة والاستبدال إذا ناسبك، دون الادعاء أن الموظف وافق.",
+        "model": "Ik heb dit overhemd in maat L. Mag ik maat M passen? Kan ik het overhemd omruilen als maat M goed past?",
+        "translation": "لدي هذا القميص بالمقاس L. هل يمكنني تجربة M؟ هل يمكنني استبدال القميص إذا ناسبني M؟",
+        "checklist": [
+          "هل فرقت بين المقاس الحالي والمطلوب؟",
+          "هل صغت الطلب سؤالاً مشروطاً بملاءمة المقاس؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-comparing-products",
+    "vocabulary": [
+      {
+        "term": "de tas",
+        "kind": "noun",
+        "forms": "de tassen",
+        "meaning": "الحقيبة؛ لذلك نستخدم deze tas أو die tas.",
+        "phraseId": "a2-comparing-products-01"
+      },
+      {
+        "term": "uitgeven",
+        "kind": "verb",
+        "forms": "ik geef uit · ik heb uitgegeven",
+        "meaning": "ينفق المال؛ فعل منفصل.",
+        "phraseId": "a2-comparing-products-01"
+      },
+      {
+        "term": "maximaal",
+        "kind": "expression",
+        "forms": "maximaal dertig euro",
+        "meaning": "بحد أقصى؛ ليس المبلغ الواجب إنفاقه بالضبط.",
+        "phraseId": "a2-comparing-products-01"
+      },
+      {
+        "term": "licht",
+        "kind": "expression",
+        "forms": "licht · lichter · het lichtst",
+        "meaning": "خفيف ثم أخف؛ هنا نتحدث عن الوزن.",
+        "phraseId": "a2-comparing-products-03"
+      },
+      {
+        "term": "zwaar",
+        "kind": "expression",
+        "forms": "zwaar · zwaarder · het zwaarst",
+        "meaning": "ثقيل ثم أثقل.",
+        "phraseId": "a2-comparing-products-04"
+      },
+      {
+        "term": "goedkoop",
+        "kind": "expression",
+        "forms": "goedkoop · goedkoper · het goedkoopst",
+        "meaning": "رخيص ثم أرخص؛ المقارنة هنا في السعر.",
+        "phraseId": "a2-comparing-products-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "قارن حقيبتين: الخضراء 20 يورو وخفيفة، والبنية 27 يورو وأثقل. اختر الخضراء واذكر حاجتك إلى حقيبة خفيفة.",
+        "model": "De groene tas is goedkoper en lichter dan de bruine tas. Ik kies de groene tas omdat ik een lichte tas nodig heb.",
+        "translation": "الحقيبة الخضراء أرخص وأخف من البنية. أختار الخضراء لأنني أحتاج إلى حقيبة خفيفة.",
+        "checklist": [
+          "هل قارنت السعر والوزن في الاتجاه الصحيح؟",
+          "هل وضعت heb في نهاية السبب؟"
+        ]
+      },
+      {
+        "prompt": "تشير إلى حقيبة سوداء أمامك وأخرى زرقاء بعيدة. السوداء أغلى لكن أصغر. عبّر عن المقارنة مستخدماً deze وdie، ثم اسأل عن سعر السوداء.",
+        "model": "Deze zwarte tas is duurder, maar kleiner dan die blauwe tas. Hoeveel kost de zwarte tas?",
+        "translation": "هذه الحقيبة السوداء أغلى، لكنها أصغر من تلك الزرقاء. كم سعر الحقيبة السوداء؟",
+        "checklist": [
+          "هل استخدمت deze وdie مع tas؟",
+          "هل ربطت الصفتين المختلفتين بـ maar وطلبت السعر؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-checking-quantities-and-prices",
+    "vocabulary": [
+      {
+        "term": "de beker",
+        "kind": "noun",
+        "forms": "de bekers",
+        "meaning": "الكوب؛ هنا أكواب دون ذكر مادة محددة.",
+        "phraseId": "a2-checking-quantities-and-prices-01"
+      },
+      {
+        "term": "per stuk",
+        "kind": "expression",
+        "forms": "vier euro vijftig per stuk",
+        "meaning": "لكل قطعة؛ سعر الوحدة.",
+        "phraseId": "a2-checking-quantities-and-prices-01"
+      },
+      {
+        "term": "de set",
+        "kind": "noun",
+        "forms": "de sets",
+        "meaning": "المجموعة؛ يحدد van twee عدد قطعها هنا.",
+        "phraseId": "a2-checking-quantities-and-prices-02"
+      },
+      {
+        "term": "los",
+        "kind": "expression",
+        "forms": "een losse beker · losse bekers",
+        "meaning": "منفرد؛ يباع خارج المجموعة.",
+        "phraseId": "a2-checking-quantities-and-prices-03"
+      },
+      {
+        "term": "in totaal",
+        "kind": "expression",
+        "forms": "twaalf euro vijftig in totaal",
+        "meaning": "بالمجموع، لا سعر كل قطعة.",
+        "phraseId": "a2-checking-quantities-and-prices-04"
+      },
+      {
+        "term": "de inhoud",
+        "kind": "noun",
+        "forms": "geen meervoud in deze betekenis",
+        "meaning": "السعة هنا، مقاسة بالمليلتر.",
+        "phraseId": "a2-checking-quantities-and-prices-06"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "في متجر آخر القطعة بثلاثة يورو والمجموعة من قطعتين بخمسة. تحتاج ثلاثة أكواب. اطلب مجموعة وكوباً، ثم تحقق بسؤال من إجمالي ثمانية يورو.",
+        "model": "Ik wil graag één set van twee en één losse beker. Dat zijn drie bekers. Is dat acht euro in totaal?",
+        "translation": "أريد مجموعة من قطعتين وكوباً منفرداً. هذه ثلاثة أكواب. هل الإجمالي ثمانية يورو؟",
+        "checklist": [
+          "هل ميزت المجموعة من القطعة؟",
+          "هل أكدت العدد وسألت عن الإجمالي؟"
+        ]
+      },
+      {
+        "prompt": "تريد أربعة أكواب بالحجم نفسه. اسأل عن سعر القطعة ثم عمّا إذا كانت كل الأكواب بالحجم نفسه. لا تخترع سعراً أو سعة.",
+        "model": "Ik heb vier bekers nodig. Wat kosten deze bekers per stuk? Zijn ze allemaal even groot?",
+        "translation": "أحتاج إلى أربعة أكواب. كم سعر هذه الأكواب للقطعة؟ هل كلها بالحجم نفسه؟",
+        "checklist": [
+          "هل ذكرت العدد الجديد أربعة؟",
+          "هل سألت عن السعر والحجم دون افتراض الإجابة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-confirming-a-shop-alternative",
+    "vocabulary": [
+      {
+        "term": "de kom",
+        "kind": "noun",
+        "forms": "de kommen",
+        "meaning": "الوعاء؛ هنا وعاء للطعام.",
+        "phraseId": "a2-confirming-a-shop-alternative-01"
+      },
+      {
+        "term": "bestellen",
+        "kind": "verb",
+        "forms": "ik bestel · ik heb besteld",
+        "meaning": "يطلب سلعة؛ لا نضيف ge إلى besteld.",
+        "phraseId": "a2-confirming-a-shop-alternative-01"
+      },
+      {
+        "term": "op voorraad",
+        "kind": "expression",
+        "forms": "witte kommen op voorraad",
+        "meaning": "متاح في المخزون؛ ليس بالضرورة مجهزاً باسم العميل.",
+        "phraseId": "a2-confirming-a-shop-alternative-02"
+      },
+      {
+        "term": "liever ... dan",
+        "kind": "expression",
+        "forms": "liever één blauwe en één witte kom dan twee witte kommen",
+        "meaning": "تفضيل خيار على آخر.",
+        "phraseId": "a2-confirming-a-shop-alternative-04"
+      },
+      {
+        "term": "aanpassen",
+        "kind": "verb",
+        "forms": "ik pas aan · ik heb aangepast",
+        "meaning": "يعدل؛ فعل منفصل.",
+        "phraseId": "a2-confirming-a-shop-alternative-05"
+      },
+      {
+        "term": "ophalen",
+        "kind": "verb",
+        "forms": "ik haal op · ik heb opgehaald",
+        "meaning": "يستلم أو يذهب لإحضار شيء من مكانه.",
+        "phraseId": "a2-confirming-a-shop-alternative-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "طلبت ثلاثة أوعية خضراء، لكن المتاح أخضر واحد. اطلب وعاءين أبيضين بدلاً من الوعاءين الناقصين واسأل عن الإجمالي الجديد دون اختراع سعر.",
+        "model": "Ik heb drie groene kommen besteld. Ik neem graag één groene en twee witte kommen. Wat is de nieuwe totaalprijs?",
+        "translation": "طلبت ثلاثة أوعية خضراء. أود أخذ وعاء أخضر ووعاءين أبيضين. ما الإجمالي الجديد؟",
+        "checklist": [
+          "هل بقي العدد ثلاثة وميزت اللونين؟",
+          "هل سألت عن السعر بدلاً من افتراضه؟"
+        ]
+      },
+      {
+        "prompt": "أكد الموظف تجهيز وعاءين أبيضين بسعر إجمالي عشرة يورو للاستلام الجمعة قبل الخامسة. أعد التفاصيل واسأل هل الاستلام من مكتب خدمة الزبائن.",
+        "model": "Dus twee witte kommen voor tien euro in totaal. Ik haal ze vrijdag voor vijf uur op. Is dat bij de servicebalie?",
+        "translation": "إذن وعاءان أبيضان بعشرة يورو إجمالاً. سأستلمهما الجمعة قبل الخامسة. هل الاستلام من مكتب خدمة الزبائن؟",
+        "checklist": [
+          "هل ذكرت العدد واللون والسعر الإجمالي؟",
+          "هل ذكرت موعد الاستلام وسألت عن المكان غير المؤكد؟"
+        ]
+      }
+    ]
   }
 ]

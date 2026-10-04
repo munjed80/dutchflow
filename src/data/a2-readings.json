@@ -403,5 +403,107 @@
         "explanation": "الاثنين مهلة للرد؛ إرسال الاختيار لا يساوي الحصول على التأكيد."
       }
     ]
+  },
+  {
+    "slug": "a2-an-offer-for-matching-cups",
+    "title": "عرض لأكواب باللون نفسه",
+    "dutchTitle": "Een aanbod voor vier dezelfde bekers",
+    "topic": "السعة والعدد واللون والسعر",
+    "sourceLessons": [
+      "a2-explaining-a-purchase-problem",
+      "a2-comparing-products",
+      "a2-checking-quantities-and-prices",
+      "a2-confirming-a-shop-alternative"
+    ],
+    "text": "Beste Amir, u zoekt vier grote bekers in dezelfde kleur. Onze kleine bekers hebben een inhoud van tweehonderd milliliter en kosten drie euro per stuk. De grote bekers hebben een inhoud van driehonderd milliliter en kosten vier euro per stuk. Van de grote blauwe bekers hebben we nog maar twee stuks. We hebben wel vier grote groene bekers op voorraad. Die kosten samen zestien euro. U kunt deze groene bekers vandaag in de winkel bekijken. We hebben nog niets voor u gereserveerd. Wilt u ze laten reserveren? Antwoord dan op deze e-mail en vermeld de kleur en het aantal. Met vriendelijke groet, Winkel De Kast.",
+    "translation": "السيد أمير، تبحث عن أربعة أكواب كبيرة باللون نفسه. سعة أكوابنا الصغيرة مئتا مليلتر وسعرها ثلاثة يورو للقطعة. سعة الأكواب الكبيرة ثلاثمئة مليلتر وسعرها أربعة يورو للقطعة. لم يبق لدينا من الأكواب الزرقاء الكبيرة إلا قطعتان. لكن لدينا أربعة أكواب خضراء كبيرة في المخزون. سعرها معاً ستة عشر يورو. يمكنك معاينة هذه الأكواب الخضراء اليوم في المتجر. لم نحجز لك شيئاً بعد. هل تريد حجزها؟ أجب إذن عن هذا البريد الإلكتروني واذكر اللون والعدد. مع التحية، متجر دي كاست.",
+    "vocabulary": [
+      {
+        "term": "dezelfde",
+        "excerpt": "dezelfde kleur",
+        "meaning": "اللون نفسه لجميع الأكواب المطلوبة."
+      },
+      {
+        "term": "de inhoud",
+        "excerpt": "een inhoud van driehonderd milliliter",
+        "meaning": "السعة؛ ثلاثمئة مليلتر لكل كوب كبير."
+      },
+      {
+        "term": "nog maar",
+        "excerpt": "nog maar twee stuks",
+        "meaning": "لم يبق إلا قطعتان؛ أقل من العدد المطلوب."
+      },
+      {
+        "term": "wel",
+        "excerpt": "We hebben wel vier grote groene bekers",
+        "meaning": "تؤكد توفر البديل الأخضر مقابل نقص الأزرق."
+      },
+      {
+        "term": "reserveren",
+        "excerpt": "gereserveerd",
+        "meaning": "يحجز؛ وجود القطع بالمخزون لا يعني حجزها للعميل."
+      },
+      {
+        "term": "vermelden",
+        "excerpt": "vermeld de kleur en het aantal",
+        "meaning": "يذكر أو يدوّن اللون والعدد في الرد."
+      }
+    ],
+    "grammar": {
+      "title": "هذه مع الجمع",
+      "example": "U kunt deze groene bekers vandaag in de winkel bekijken.",
+      "translation": "يمكنك معاينة هذه الأكواب الخضراء اليوم في المتجر.",
+      "explanation": "نستخدم deze قبل bekers لأنها جمع. ومع جمع أسماء het نستخدم deze أيضاً، مثل deze glazen. أما المفرد فهو dit glas. هنا تشير الجملة إلى الأكواب الخضراء المذكورة في العرض."
+    },
+    "questions": [
+      {
+        "id": "a2-cups-read-1",
+        "prompt": "أي وصف يخص الكوب الكبير؟",
+        "options": [
+          "200 مليلتر بثلاثة يورو",
+          "300 مليلتر بأربعة يورو",
+          "300 مليلتر بستة عشر يورو للقطعة"
+        ],
+        "correctIndex": 1,
+        "explanation": "الجملة تذكر سعة القطعة الكبيرة وسعرها، لا سعر الأربع معاً.",
+        "evidence": "De grote bekers hebben een inhoud van driehonderd milliliter en kosten vier euro per stuk."
+      },
+      {
+        "id": "a2-cups-read-2",
+        "prompt": "أي لون يتوفر منه العدد المطلوب كاملاً من الأكواب الكبيرة؟",
+        "options": [
+          "الأزرق فقط",
+          "الأزرق والأخضر",
+          "الأخضر فقط"
+        ],
+        "correctIndex": 2,
+        "explanation": "المطلوب أربعة؛ الأزرق اثنان فقط، والأخضر أربعة.",
+        "evidence": "u zoekt vier grote bekers in dezelfde kleur. Onze kleine bekers hebben een inhoud van tweehonderd milliliter en kosten drie euro per stuk. De grote bekers hebben een inhoud van driehonderd milliliter en kosten vier euro per stuk. Van de grote blauwe bekers hebben we nog maar twee stuks. We hebben wel vier grote groene bekers op voorraad."
+      },
+      {
+        "id": "a2-cups-read-3",
+        "prompt": "على ماذا ينطبق مبلغ ستة عشر يورو؟",
+        "options": [
+          "الأكواب الخضراء الكبيرة الأربعة معاً",
+          "كل كوب أخضر كبير",
+          "الكوبان الأزرقان فقط"
+        ],
+        "correctIndex": 0,
+        "explanation": "samen تحدد أن السعر إجمالي للأربعة، وليس سعر القطعة.",
+        "evidence": "We hebben wel vier grote groene bekers op voorraad. Die kosten samen zestien euro."
+      },
+      {
+        "id": "a2-cups-read-4",
+        "prompt": "ماذا يفعل أمير إذا أراد حجز الأكواب الخضراء؟",
+        "options": [
+          "يفترض أنها محجوزة بسبب توفرها",
+          "يرد على البريد ويذكر اللون والعدد",
+          "ينتظر توصيلها دون رد"
+        ],
+        "correctIndex": 1,
+        "explanation": "المتجر لم يحجز شيئاً بعد؛ الرسالة تطلب رداً بمواصفات الطلب.",
+        "evidence": "We hebben nog niets voor u gereserveerd. Wilt u ze laten reserveren? Antwoord dan op deze e-mail en vermeld de kleur en het aantal."
+      }
+    ]
   }
 ]

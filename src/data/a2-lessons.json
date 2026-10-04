@@ -2366,5 +2366,597 @@
         "explanation": "غياب الرد لا يثبت رفض الطلب ولا قبوله."
       }
     ]
+  },
+  {
+    "slug": "a2-explaining-a-purchase-problem",
+    "moduleId": "a2-shopping-choices",
+    "level": "A2",
+    "number": "17",
+    "title": "اشرح مشكلة في مشترياتك",
+    "dutchTitle": "Een probleem met een aankoop uitleggen",
+    "description": "أذكر ما اشتريته والمشكلة وأطلب بديلاً مناسباً بأدب.",
+    "durationMinutes": 12,
+    "context": "اشتريت قميصاً أمس من متجر خيالي. جربته في المنزل فوجدته ضيقاً. تسأل الموظفة عن مقاس أكبر ولا تفترض قبول الاستبدال.",
+    "goal": "أذكر ما اشتريته والمشكلة وأطلب بديلاً مناسباً بأدب.",
+    "grammar": {
+      "title": "الإشارة إلى اسم مفرد مع het",
+      "explanation": "نقول het overhemd، ولذلك نستخدم dit overhemd للقميص الذي نشير إليه هنا، وdat overhemd لآخر هناك عند المقارنة المكانية. مع de نستخدم deze أو die، ومع الجمع أيضاً deze أو die. هذا تدريب على الإشارة إلى أشياء محددة؛ القرب والبعد لا يفسران كل استعمال في النصوص.",
+      "example": "Dit overhemd is te klein.",
+      "translation": "هذا القميص أصغر من المقاس المناسب."
+    },
+    "phrases": [
+      {
+        "id": "a2-explaining-a-purchase-problem-01",
+        "dutch": "Goedemiddag, ik heb dit overhemd gisteren gekocht.",
+        "arabic": "مساء الخير، اشتريت هذا القميص أمس.",
+        "tip": "heb gekocht يربط الشراء بوقت سابق."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-02",
+        "dutch": "Wat is het probleem met het overhemd?",
+        "arabic": "ما المشكلة في القميص؟",
+        "tip": "نذكر الشيء أولاً قبل شرح المشكلة."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-03",
+        "dutch": "Het is te klein. Heeft u een grotere maat?",
+        "arabic": "إنه صغير أكثر من اللازم. هل لديكم مقاس أكبر؟",
+        "tip": "te klein تعني أن الصغر مشكلة، لا مجرد مقارنة."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-04",
+        "dutch": "Welke maat heeft u nu?",
+        "arabic": "ما المقاس الموجود لديكم الآن؟",
+        "tip": "السؤال عن المقاس الحالي، لا المقاس المطلوب."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-05",
+        "dutch": "Ik heb maat M. Ik wil graag maat L proberen.",
+        "arabic": "لدي المقاس M. أود تجربة المقاس L.",
+        "tip": "نطلب التجربة دون افتراض ملاءمة البديل."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-06",
+        "dutch": "Dat overhemd daar is maat L. Wilt u het passen?",
+        "arabic": "ذلك القميص هناك بالمقاس L. هل تودون تجربته؟",
+        "tip": "dat مع het overhemd؛ passen تعني تجربة الملابس."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-07",
+        "dutch": "Ja, graag. Mag ik dit overhemd omruilen als maat L goed past?",
+        "arabic": "نعم، من فضلك. هل يمكنني استبدال هذا القميص إذا ناسبني المقاس L؟",
+        "tip": "Mag ik ...? طلب إذن؛ als هنا شرط."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-08",
+        "dutch": "Ik controleer eerst uw bon. Daarna bespreken we de mogelijkheden.",
+        "arabic": "سأتحقق أولاً من إيصالكم. ثم نناقش الخيارات.",
+        "tip": "هذا رد خاص بالموقف الخيالي، وليس قاعدة عامة للاستبدال."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الزبون",
+        "phraseId": "a2-explaining-a-purchase-problem-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-a-purchase-problem-02"
+      },
+      {
+        "speaker": "الزبون",
+        "phraseId": "a2-explaining-a-purchase-problem-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-a-purchase-problem-04"
+      },
+      {
+        "speaker": "الزبون",
+        "phraseId": "a2-explaining-a-purchase-problem-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-a-purchase-problem-06"
+      },
+      {
+        "speaker": "الزبون",
+        "phraseId": "a2-explaining-a-purchase-problem-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-a-purchase-problem-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-explaining-a-purchase-problem-q1",
+        "prompt": "ما المشكلة التي ذكرها الزبون؟",
+        "options": [
+          "القميص ضيق عليه",
+          "المقاس L كبير بعد تجربته",
+          "الإيصال لم يصل"
+        ],
+        "correctIndex": 0,
+        "explanation": "te klein يصف مشكلة القميص الحالي، ولم يُجرب L بعد."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-q2",
+        "prompt": "اختر الإشارة الصحيحة إلى het overhemd الموجود هنا.",
+        "options": [
+          "Deze overhemd is te klein.",
+          "Dit overhemd is te klein.",
+          "Die overhemd is te klein."
+        ],
+        "correctIndex": 1,
+        "explanation": "overhemd اسم مفرد مع het؛ نستخدم dit هنا."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-q3",
+        "prompt": "ما المقاس الحالي والمطلوب تجربته؟",
+        "options": [
+          "الحالي L والمطلوب M",
+          "الحالي M والمطلوب M",
+          "الحالي M والمطلوب L"
+        ],
+        "correctIndex": 2,
+        "explanation": "يقول الزبون Ik heb maat M ثم يطلب تجربة L."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-q4",
+        "prompt": "ما الذي وافقت الموظفة على فعله أولاً؟",
+        "options": [
+          "فحص الإيصال قبل مناقشة الخيارات",
+          "إرجاع المال فوراً",
+          "تأكيد الاستبدال دون فحص"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ik controleer eerst uw bon لا يؤكد قبول الاستبدال بعد."
+      }
+    ]
+  },
+  {
+    "slug": "a2-comparing-products",
+    "moduleId": "a2-shopping-choices",
+    "level": "A2",
+    "number": "18",
+    "title": "قارن بين منتجين",
+    "dutchTitle": "Twee producten vergelijken",
+    "description": "أقارن السعر والوزن وأختار منتجاً يناسب حاجتي وميزانيتي.",
+    "durationMinutes": 12,
+    "context": "تبحث لينا عن حقيبة خفيفة بحد أقصى ثلاثين يورو. تحمل حقيبة زرقاء وتشير إلى حقيبة سوداء على الرف.",
+    "goal": "أقارن السعر والوزن وأختار منتجاً يناسب حاجتي وميزانيتي.",
+    "grammar": {
+      "title": "المقارنة والإشارة مع de",
+      "explanation": "نستخدم deze tas وdie tas لأن tas اسم مع de. للمقارنة نتدرب على goedkoper dan وlichter dan. groter تعني أكبر، أما te groot فتعني أكبر من الملائم. لا تكفي صفة واحدة للاختيار؛ نربط المقارنة بحاجة المشتري.",
+      "example": "Deze tas is goedkoper dan die tas.",
+      "translation": "هذه الحقيبة أرخص من تلك الحقيبة."
+    },
+    "phrases": [
+      {
+        "id": "a2-comparing-products-01",
+        "dutch": "Ik zoek een lichte tas. Ik wil maximaal dertig euro uitgeven.",
+        "arabic": "أبحث عن حقيبة خفيفة. أريد إنفاق ثلاثين يورو كحد أقصى.",
+        "tip": "maximaal يحدد سقف الميزانية."
+      },
+      {
+        "id": "a2-comparing-products-02",
+        "dutch": "Deze blauwe tas kost achtentwintig euro. Die zwarte tas kost vijfendertig euro.",
+        "arabic": "هذه الحقيبة الزرقاء بثمانية وعشرين يورو. تلك الحقيبة السوداء بخمسة وثلاثين يورو.",
+        "tip": "هذه المقارنة بين حقيبتين محددتين."
+      },
+      {
+        "id": "a2-comparing-products-03",
+        "dutch": "Is de blauwe tas lichter dan de zwarte tas?",
+        "arabic": "هل الحقيبة الزرقاء أخف من السوداء؟",
+        "tip": "lichter صيغة المقارنة من licht."
+      },
+      {
+        "id": "a2-comparing-products-04",
+        "dutch": "Ja. De zwarte tas is groter, maar ook zwaarder.",
+        "arabic": "نعم. الحقيبة السوداء أكبر، لكنها أثقل أيضاً.",
+        "tip": "نربط ميزة الحجم بفرق الوزن باستخدام maar."
+      },
+      {
+        "id": "a2-comparing-products-05",
+        "dutch": "Deze tas is dus goedkoper en lichter dan die tas.",
+        "arabic": "إذن هذه الحقيبة أرخص وأخف من تلك.",
+        "tip": "تشير لينا إلى الزرقاء التي تحملها ثم السوداء على الرف."
+      },
+      {
+        "id": "a2-comparing-products-06",
+        "dutch": "Dat klopt. Welke tas kiest u?",
+        "arabic": "هذا صحيح. أي حقيبة تختارون؟",
+        "tip": "Welke تسأل عن الاختيار من البدائل."
+      },
+      {
+        "id": "a2-comparing-products-07",
+        "dutch": "Ik neem de blauwe tas omdat ik een lichte tas nodig heb.",
+        "arabic": "سآخذ الحقيبة الزرقاء لأنني أحتاج إلى حقيبة خفيفة.",
+        "tip": "نعيد ترتيب السبب: omdat ik ... nodig heb."
+      },
+      {
+        "id": "a2-comparing-products-08",
+        "dutch": "Prima, u kunt bij de kassa betalen.",
+        "arabic": "حسناً، يمكنكم الدفع عند الصندوق.",
+        "tip": "الاختيار تم، والدفع خطوة لاحقة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-comparing-products-01"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-products-02"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-comparing-products-03"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-products-04"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-comparing-products-05"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-products-06"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-comparing-products-07"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-products-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-comparing-products-q1",
+        "prompt": "أي حقيبة تقع ضمن ميزانية لينا؟",
+        "options": [
+          "السوداء فقط",
+          "الزرقاء فقط",
+          "كلاهما"
+        ],
+        "correctIndex": 1,
+        "explanation": "الزرقاء 28 ضمن سقف 30؛ السوداء 35 تتجاوزه."
+      },
+      {
+        "id": "a2-comparing-products-q2",
+        "prompt": "ما وصف السوداء مقارنة بالزرقاء؟",
+        "options": [
+          "أصغر وأخف",
+          "أرخص وأخف",
+          "أكبر وأثقل"
+        ],
+        "correctIndex": 2,
+        "explanation": "De zwarte tas is groter, maar ook zwaarder."
+      },
+      {
+        "id": "a2-comparing-products-q3",
+        "prompt": "أكمل المقارنة المعيارية: Deze tas is goedkoper ... die tas.",
+        "options": [
+          "dan",
+          "omdat",
+          "maar"
+        ],
+        "correctIndex": 0,
+        "explanation": "نتدرب على صفة المقارنة متبوعة بـ dan."
+      },
+      {
+        "id": "a2-comparing-products-q4",
+        "prompt": "لماذا اختارت لينا الزرقاء؟",
+        "options": [
+          "لأنها تريد أكبر حقيبة مهما كان السعر",
+          "لأنها تحتاج حقيبة خفيفة",
+          "لأن الزرقاء بخمسة وثلاثين يورو"
+        ],
+        "correctIndex": 1,
+        "explanation": "السبب الذي صرحت به هو حاجتها إلى حقيبة خفيفة."
+      }
+    ]
+  },
+  {
+    "slug": "a2-checking-quantities-and-prices",
+    "moduleId": "a2-shopping-choices",
+    "level": "A2",
+    "number": "19",
+    "title": "تحقق من الكمية والسعر",
+    "dutchTitle": "Aantal en prijs controleren",
+    "description": "أميز سعر القطعة من سعر المجموعة وأعيد عدد القطع والمبلغ الإجمالي.",
+    "durationMinutes": 12,
+    "context": "يريد سام ثلاثة أكواب فقط. يعرض المتجر الخيالي القطعة منفردة أو مجموعة من قطعتين. الأسعار تخص هذا المثال وحده.",
+    "goal": "أميز سعر القطعة من سعر المجموعة وأعيد عدد القطع والمبلغ الإجمالي.",
+    "grammar": {
+      "title": "المفرد والجمع وسعر القطعة",
+      "explanation": "نقول deze beker للمفرد مع de، وdeze bekers للجمع. per stuk تعني لكل قطعة؛ een set van twee تعني مجموعة من قطعتين. in totaal يوضح الإجمالي. عدد المجموعات لا يساوي عدد القطع.",
+      "example": "Deze bekers kosten vier euro vijftig per stuk.",
+      "translation": "سعر هذه الأكواب أربعة يورو وخمسون سنتاً للقطعة."
+    },
+    "phrases": [
+      {
+        "id": "a2-checking-quantities-and-prices-01",
+        "dutch": "Ik heb drie bekers nodig. Wat kosten deze bekers per stuk?",
+        "arabic": "أحتاج إلى ثلاثة أكواب. كم سعر هذه الأكواب للقطعة؟",
+        "tip": "نحدد العدد المطلوب قبل مقارنة طريقة البيع."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-02",
+        "dutch": "Ze kosten vier euro vijftig per stuk, of acht euro voor een set van twee.",
+        "arabic": "سعرها أربعة يورو وخمسون سنتاً للقطعة، أو ثمانية يورو لمجموعة من قطعتين.",
+        "tip": "سعر المجموعة يخص كوبين لا ثلاثة."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-03",
+        "dutch": "Kan ik één set en één losse beker kopen?",
+        "arabic": "هل يمكنني شراء مجموعة واحدة وكوب منفرد؟",
+        "tip": "één set plus één beker يحقق العدد المطلوب: ثلاثة."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-04",
+        "dutch": "Ja, dat zijn drie bekers voor twaalf euro vijftig in totaal.",
+        "arabic": "نعم، هذه ثلاثة أكواب بمبلغ إجمالي اثني عشر يورو وخمسين سنتاً.",
+        "tip": "8 + 4.50 = 12.50؛ نفصل السعر عن عدد القطع."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-05",
+        "dutch": "Zijn deze bekers allemaal even groot?",
+        "arabic": "هل هذه الأكواب كلها بالحجم نفسه؟",
+        "tip": "even groot تسأل عن تساوي الحجم."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-06",
+        "dutch": "Ja, elke beker heeft een inhoud van driehonderd milliliter.",
+        "arabic": "نعم، سعة كل كوب ثلاثمئة مليلتر.",
+        "tip": "elke مع اسم مفرد؛ السعة لكل كوب."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-07",
+        "dutch": "Dan neem ik één set en één losse beker, alstublieft.",
+        "arabic": "إذن سآخذ مجموعة واحدة وكوباً منفرداً، من فضلك.",
+        "tip": "نعيد الاختيار بدقة لتجنب شراء عدد زائد."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-08",
+        "dutch": "Goed, drie bekers voor twaalf euro vijftig. Wilt u een tas?",
+        "arabic": "حسناً، ثلاثة أكواب باثني عشر يورو وخمسين سنتاً. هل تريدون كيساً؟",
+        "tip": "تؤكد الموظفة عدد الأكواب وثمنها؛ الكيس سؤال إضافي."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "سام",
+        "phraseId": "a2-checking-quantities-and-prices-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-checking-quantities-and-prices-02"
+      },
+      {
+        "speaker": "سام",
+        "phraseId": "a2-checking-quantities-and-prices-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-checking-quantities-and-prices-04"
+      },
+      {
+        "speaker": "سام",
+        "phraseId": "a2-checking-quantities-and-prices-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-checking-quantities-and-prices-06"
+      },
+      {
+        "speaker": "سام",
+        "phraseId": "a2-checking-quantities-and-prices-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-checking-quantities-and-prices-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-checking-quantities-and-prices-q1",
+        "prompt": "على ماذا ينطبق سعر ثمانية يورو؟",
+        "options": [
+          "ثلاثة أكواب",
+          "كل كوب منفرد",
+          "مجموعة من كوبين"
+        ],
+        "correctIndex": 2,
+        "explanation": "voor een set van twee يحدد المجموعة والعدد."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-q2",
+        "prompt": "ما الاختيار الذي يحقق طلب ثلاثة أكواب في الحوار؟",
+        "options": [
+          "مجموعة من اثنين وكوب منفرد",
+          "ثلاث مجموعات من اثنين",
+          "مجموعتان من اثنين"
+        ],
+        "correctIndex": 0,
+        "explanation": "المجموعة تحتوي كوبين؛ إضافة كوب تجعل العدد ثلاثة."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-q3",
+        "prompt": "كم ثمن الأكواب الثلاثة المتفق عليها دون أي إضافات؟",
+        "options": [
+          "ثمانية يورو",
+          "اثنا عشر يورو وخمسون سنتاً",
+          "أربعة يورو وخمسون سنتاً"
+        ],
+        "correctIndex": 1,
+        "explanation": "أكدت الموظفة الإجمالي 12.50 للمجموعة والكوب المنفرد."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-q4",
+        "prompt": "ماذا تعني allemaal even groot؟",
+        "options": [
+          "كلها بألوان مختلفة",
+          "كلها أغلى من السابق",
+          "كلها بالحجم نفسه"
+        ],
+        "correctIndex": 2,
+        "explanation": "even groot تصف المساواة في الحجم، لا اللون أو السعر."
+      }
+    ]
+  },
+  {
+    "slug": "a2-confirming-a-shop-alternative",
+    "moduleId": "a2-shopping-choices",
+    "level": "A2",
+    "number": "20",
+    "title": "أكد البديل مع المتجر",
+    "dutchTitle": "Een alternatief met de winkel afspreken",
+    "description": "أستجيب لنقص الكمية وأختار بديلاً ثم أتحقق من العدد والسعر والاستلام.",
+    "durationMinutes": 12,
+    "context": "طلبت نور وعاءين أزرقين من متجر خيالي بسعر ستة يورو للوعاء. يتصل الموظف لأن المتاح أزرق واحد فقط، ويعرض بديلاً أبيض بالسعر نفسه.",
+    "goal": "أستجيب لنقص الكمية وأختار بديلاً ثم أتحقق من العدد والسعر والاستلام.",
+    "grammar": {
+      "title": "تحديد التفضيل بدلاً من افتراضه",
+      "explanation": "نستخدم liever ... dan لذكر بديل مفضل: liever één blauwe en één witte kom dan twee witte kommen. نميز op voorraad عن klaarliggen: وجود السلعة في المخزون لا يثبت تجهيز الطلب. نطلب التأكيد ثم نعيد التفاصيل.",
+      "example": "Ik neem liever één blauwe en één witte kom dan twee witte kommen.",
+      "translation": "أفضل أخذ وعاء أزرق ووعاء أبيض على أخذ وعاءين أبيضين."
+    },
+    "phrases": [
+      {
+        "id": "a2-confirming-a-shop-alternative-01",
+        "dutch": "U hebt twee blauwe kommen besteld, maar we hebben nog maar één blauwe kom.",
+        "arabic": "طلبتم وعاءين أزرقين، لكن لم يبق لدينا إلا وعاء أزرق واحد.",
+        "tip": "nog maar één يحدد أن الكمية أقل من الطلب."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-02",
+        "dutch": "Heeft u ook witte kommen op voorraad?",
+        "arabic": "هل لديكم أيضاً أوعية بيضاء في المخزون؟",
+        "tip": "نسأل عن بديل محدد قبل قبوله."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-03",
+        "dutch": "Ja, die kosten ook zes euro per stuk.",
+        "arabic": "نعم، سعرها أيضاً ستة يورو للقطعة.",
+        "tip": "die تعود على الجمع witte kommen."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-04",
+        "dutch": "Ik neem liever één blauwe en één witte kom dan twee witte kommen.",
+        "arabic": "أفضل أخذ وعاء أزرق ووعاء أبيض على أخذ وعاءين أبيضين.",
+        "tip": "التفضيل يتعلق بتوزيع اللونين مع بقاء العدد اثنين."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-05",
+        "dutch": "Goed, ik pas uw bestelling aan. Dat is twaalf euro in totaal.",
+        "arabic": "حسناً، سأعدل طلبكم. الإجمالي اثنا عشر يورو.",
+        "tip": "aanpassen فعل منفصل: ik pas ... aan."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-06",
+        "dutch": "Liggen beide kommen al klaar?",
+        "arabic": "هل جُهز الوعاءان بالفعل للاستلام؟",
+        "tip": "السؤال عن التجهيز، وليس مجرد وجود مخزون."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-07",
+        "dutch": "Ja, u kunt ze vandaag voor zes uur bij de servicebalie ophalen.",
+        "arabic": "نعم، يمكنكم استلامهما اليوم قبل السادسة من مكتب خدمة الزبائن.",
+        "tip": "ophalen يعني الاستلام من المكان، وليس التوصيل للمنزل."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-08",
+        "dutch": "Dank u. Dus één blauwe en één witte kom voor twaalf euro, vandaag voor zes uur ophalen.",
+        "arabic": "شكراً لكم. إذن وعاء أزرق ووعاء أبيض باثني عشر يورو، والاستلام اليوم قبل السادسة.",
+        "tip": "نعيد الألوان والعدد والإجمالي وخطوة الاستلام."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-confirming-a-shop-alternative-01"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-shop-alternative-02"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-confirming-a-shop-alternative-03"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-shop-alternative-04"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-confirming-a-shop-alternative-05"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-shop-alternative-06"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-confirming-a-shop-alternative-07"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-shop-alternative-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-confirming-a-shop-alternative-q1",
+        "prompt": "ما الفرق بين الطلب الأصلي والمخزون الأزرق؟",
+        "options": [
+          "طلبت اثنين والمتاح واحد",
+          "طلبت واحداً والمتاح اثنان",
+          "طلبت اثنين والمتاح ثلاثة"
+        ],
+        "correctIndex": 0,
+        "explanation": "twee besteld مقابل nog maar één يوضح النقص."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-q2",
+        "prompt": "ما التوزيع الذي اختارته نور؟",
+        "options": [
+          "وعاءان أبيضان",
+          "وعاء أزرق ووعاء أبيض",
+          "وعاءان أزرقان"
+        ],
+        "correctIndex": 1,
+        "explanation": "liever يحدد تفضيل وعاء من كل لون."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-q3",
+        "prompt": "أي جملة تتحقق من جاهزية الطلب فعلاً؟",
+        "options": [
+          "Welke kleur vindt u mooi?",
+          "Hoeveel kost een kom?",
+          "Liggen beide kommen al klaar?"
+        ],
+        "correctIndex": 2,
+        "explanation": "klaarliggen يسأل عن تجهيز الأوعية للاستلام."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-q4",
+        "prompt": "ما الإجراء المتفق عليه بعد تأكيد الموظف؟",
+        "options": [
+          "استلام وعاءين بإجمالي 12 يورو اليوم قبل السادسة",
+          "انتظار توصيل ثلاثة أوعية غداً",
+          "استلام وعاءين بستة يورو إجمالاً"
+        ],
+        "correctIndex": 0,
+        "explanation": "السعر لكل قطعة 6؛ الإجمالي 12، والاستلام اليوم قبل السادسة."
+      }
+    ]
   }
 ]
