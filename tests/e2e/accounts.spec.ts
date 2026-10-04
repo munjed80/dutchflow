@@ -163,7 +163,7 @@ test("A1 and A2 guest completion import together and remain separate in account 
   expect(response.status()).toBe(200);
   await page.goto("/progress?level=A2");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "2");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "4");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "12");
   await page.goto("/progress");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "1");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "53");

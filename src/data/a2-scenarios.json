@@ -126,5 +126,264 @@
         "هل سألت نور سؤال متابعة عن الماضي؟"
       ]
     }
+  },
+  {
+    "slug": "a2-arranging-the-next-task",
+    "unitId": "a2-work-coordination",
+    "title": "نتفق على المهمة المتبقية",
+    "dutchTitle": "De volgende taak afspreken",
+    "role": "أنت أمير. فحصت ست طلبيات وحزمت أربعاً. لم تحزم اثنتين لأن الصناديق نفدت. تستطيع إنهاء الباقي قبل 14:00، ولا تستطيع قبل 13:00.",
+    "partner": "زميلتك لينا",
+    "mission": "أبلغ عن العمل المنجز وسبب التأخير، واقترح مهلة ممكنة ثم صحح مكان التسليم عندما توضحه لينا.",
+    "sourceLessons": [
+      "a2-reporting-task-progress",
+      "a2-explaining-a-delay",
+      "a2-clarifying-instructions",
+      "a2-confirming-a-handover"
+    ],
+    "turns": [
+      {
+        "id": "a2-work-turn-1",
+        "goal": "ميّز ما فحصته عمّا حزمته.",
+        "prompt": "Hoe ver ben je met de bestellingen?",
+        "translation": "إلى أين وصلت في تجهيز الطلبيات؟",
+        "choices": [
+          {
+            "text": "Ik heb zes bestellingen gecontroleerd en vier ingepakt.",
+            "translation": "فحصت ست طلبيات وحزمت أربعاً.",
+            "feedback": "حددّت مرحلتي العمل والعددين الصحيحين."
+          },
+          {
+            "text": "Ik heb alle zes bestellingen ingepakt.",
+            "translation": "حزمت الطلبيات الست كلها.",
+            "feedback": "لم تحزم إلا أربعاً حسب بطاقة دورك."
+          },
+          {
+            "text": "Ik controleer morgen de adressen.",
+            "translation": "سأراجع العناوين غداً.",
+            "feedback": "هذا لا يجيب عن التقدم الحالي."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Waarom zijn de andere twee nog niet klaar?",
+        "responseTranslation": "لماذا ليست الطلبيتان الأخريان جاهزتين بعد؟"
+      },
+      {
+        "id": "a2-work-turn-2",
+        "goal": "اشرح سبب التأخير الحقيقي.",
+        "prompt": "Waarom zijn de andere twee nog niet klaar?",
+        "translation": "لماذا ليست الطلبيتان الأخريان جاهزتين بعد؟",
+        "choices": [
+          {
+            "text": "Ik ben morgen vrij.",
+            "translation": "أنا في إجازة غداً.",
+            "feedback": "هذا ليس سبب التأخير المذكور."
+          },
+          {
+            "text": "Ze zijn nog niet klaar, want de dozen zijn op.",
+            "translation": "ليستا جاهزتين بعد لأن الصناديق نفدت.",
+            "feedback": "ربطت المشكلة بسببها باستخدام want."
+          },
+          {
+            "text": "Ze zijn allebei al klaar.",
+            "translation": "كلتاهما جاهزة بالفعل.",
+            "feedback": "هذا يناقض المعلومات السابقة."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ik haal nieuwe dozen. Kun je alles voor één uur afmaken?",
+        "responseTranslation": "سأجلب صناديق جديدة. هل يمكنك إكمال كل شيء قبل الواحدة؟"
+      },
+      {
+        "id": "a2-work-turn-3",
+        "goal": "اقترح المهلة التي تستطيع الالتزام بها.",
+        "prompt": "Kun je alles voor één uur afmaken?",
+        "translation": "هل يمكنك إكمال كل شيء قبل الواحدة؟",
+        "choices": [
+          {
+            "text": "Ja, voor één uur is goed.",
+            "translation": "نعم، قبل الواحدة مناسب.",
+            "feedback": "بطاقة دورك تقول إن هذا الموعد غير ممكن."
+          },
+          {
+            "text": "Ik heb vier bestellingen ingepakt.",
+            "translation": "حزمت أربع طلبيات.",
+            "feedback": "هذا تحديث قديم؛ السؤال الآن عن المهلة."
+          },
+          {
+            "text": "Voor één uur lukt niet. Kan het voor twee uur?",
+            "translation": "لا يمكن قبل الواحدة. هل يمكن قبل الثانية؟",
+            "feedback": "صرحت بالتعذر واقترحت وقتاً ممكناً دون افتراض الموافقة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Ja, voor twee uur is goed. Zet alles bij de achterdeur, niet bij de receptie.",
+        "responseTranslation": "نعم، قبل الثانية مناسب. ضع كل شيء بجانب الباب الخلفي، وليس عند الاستقبال."
+      },
+      {
+        "id": "a2-work-turn-4",
+        "goal": "أكد المهلة والمكان بعد التوضيح.",
+        "prompt": "Waar zet je de bestellingen en wanneer zijn ze klaar?",
+        "translation": "أين ستضع الطلبيات ومتى تصبح جاهزة؟",
+        "choices": [
+          {
+            "text": "Bij de receptie, voor één uur.",
+            "translation": "عند الاستقبال قبل الواحدة.",
+            "feedback": "المكان والمهلة يخالفان الاتفاق."
+          },
+          {
+            "text": "Bij de achterdeur. Ze zijn voor twee uur klaar.",
+            "translation": "بجانب الباب الخلفي. ستكون جاهزة قبل الثانية.",
+            "feedback": "أعدت المكان والمهلة المتفق عليهما."
+          },
+          {
+            "text": "Bij de achterdeur, morgen.",
+            "translation": "بجانب الباب الخلفي غداً.",
+            "feedback": "المكان صحيح لكن اليوم غير متفق عليه."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Precies, dank je. Stuur mij een bericht als alles klaar is.",
+        "responseTranslation": "بالضبط، شكراً. أرسل لي رسالة عندما يصبح كل شيء جاهزاً."
+      }
+    ],
+    "transfer": {
+      "prompt": "في موقف جديد فحصت خمس طلبيات وحزمت ثلاثاً. لم تحزم اثنتين لأن الصناديق نفدت. اقترح إنهاء الباقي قبل الثالثة واسأل إن كان ذلك مناسباً.",
+      "model": "Ik heb vijf bestellingen gecontroleerd en drie ingepakt. De andere twee zijn nog niet klaar, want de dozen zijn op. Kan ik ze voor drie uur afmaken?",
+      "translation": "فحصت خمس طلبيات وحزمت ثلاثاً. الطلبيتان الأخريان ليستا جاهزتين لأن الصناديق نفدت. هل يمكنني إكمالهما قبل الثالثة؟",
+      "checklist": [
+        "هل استعملت الأعداد الجديدة وذكرت السبب؟",
+        "هل اقترحت مهلة جديدة وطلبت الموافقة؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-calling-about-a-repair",
+    "unitId": "a2-housing-services",
+    "title": "اتصال لمتابعة مشكلة في المنزل",
+    "dutchTitle": "Bellen over een reparatie",
+    "role": "أنت نور. صنبور المطبخ يسرّب مجدداً منذ السبت رغم إصلاحه الخميس. تعملين الثلاثاء صباحاً، وتستطيعين البقاء في المنزل الجمعة من الواحدة إلى الثالثة.",
+    "partner": "موظف الصيانة",
+    "mission": "اشرح عودة التسرب وبدايته، وارفض الوقت غير المناسب واقترح الجمعة، ثم أكد فترة الزيارة بعد موافقة الموظف.",
+    "sourceLessons": [
+      "a2-reporting-a-recurring-problem",
+      "a2-arranging-a-repair-visit",
+      "a2-following-up-on-a-repair"
+    ],
+    "turns": [
+      {
+        "id": "a2-housing-turn-1",
+        "goal": "اذكر المشكلة ومكانها دون الادعاء أنها انتهت.",
+        "prompt": "Waarvoor belt u?",
+        "translation": "بشأن ماذا تتصلون؟",
+        "choices": [
+          {
+            "text": "De kraan in de keuken lekt niet meer.",
+            "translation": "لم يعد صنبور المطبخ يسرّب.",
+            "feedback": "هذا عكس بطاقة دورك؛ التسرب عاد."
+          },
+          {
+            "text": "De kraan in de keuken lekt weer.",
+            "translation": "صنبور المطبخ يسرّب مجدداً.",
+            "feedback": "ذكرت المكان وعودة المشكلة."
+          },
+          {
+            "text": "Ik heb morgen een taalles.",
+            "translation": "لدي درس لغة غداً.",
+            "feedback": "هذه المعلومة لا تصف المشكلة."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Sinds wanneer lekt de kraan weer?",
+        "responseTranslation": "منذ متى عاد الصنبور إلى التسرب؟"
+      },
+      {
+        "id": "a2-housing-turn-2",
+        "goal": "ميز بداية التسرب الحالي عن يوم الإصلاح.",
+        "prompt": "Sinds wanneer lekt de kraan weer?",
+        "translation": "منذ متى عاد الصنبور إلى التسرب؟",
+        "choices": [
+          {
+            "text": "Sinds zaterdag. Donderdag heeft een monteur de kraan gerepareerd.",
+            "translation": "منذ السبت. أصلح فني الصنبور الخميس.",
+            "feedback": "ذكرت البداية الحالية والإصلاح الذي سبقها."
+          },
+          {
+            "text": "Sinds donderdag. Zaterdag is de kraan gerepareerd.",
+            "translation": "منذ الخميس. أُصلح الصنبور السبت.",
+            "feedback": "عكست يومي الإصلاح وعودة التسرب."
+          },
+          {
+            "text": "De kraan staat in de keuken.",
+            "translation": "الصنبور في المطبخ.",
+            "feedback": "المكان معروف؛ السؤال عن البداية."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "De monteur kan dinsdag tussen negen en elf uur komen. Past dat?",
+        "responseTranslation": "يمكن للفني الحضور الثلاثاء بين التاسعة والحادية عشرة. هل هذا مناسب؟"
+      },
+      {
+        "id": "a2-housing-turn-3",
+        "goal": "ارفض الفترة غير الممكنة واطلب بديلاً.",
+        "prompt": "Past dinsdag tussen negen en elf uur?",
+        "translation": "هل يناسبكم الثلاثاء بين التاسعة والحادية عشرة؟",
+        "choices": [
+          {
+            "text": "Ja, dinsdagochtend ben ik thuis.",
+            "translation": "نعم، سأكون في المنزل صباح الثلاثاء.",
+            "feedback": "تعملين في هذه الفترة حسب بطاقة دورك."
+          },
+          {
+            "text": "Ik ben alleen om één uur thuis.",
+            "translation": "سأكون في المنزل عند الواحدة فقط.",
+            "feedback": "هذا لا يطلب الفترة المتاحة كاملة ولا يحدد الجمعة."
+          },
+          {
+            "text": "Dinsdagochtend werk ik. Kan hij vrijdag tussen één en drie uur komen?",
+            "translation": "أعمل صباح الثلاثاء. هل يمكنه الحضور الجمعة بين الواحدة والثالثة؟",
+            "feedback": "رفضت العرض واقترحت فترة ممكنة بصيغة سؤال."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Ja, vrijdag tussen één en drie uur kan. Wilt u de afspraak herhalen?",
+        "responseTranslation": "نعم، الجمعة بين الواحدة والثالثة ممكن. هل تعيدون الموعد؟"
+      },
+      {
+        "id": "a2-housing-turn-4",
+        "goal": "أكد الفترة كاملة بعد موافقة الموظف.",
+        "prompt": "Wilt u de afspraak herhalen?",
+        "translation": "هل تعيدون الموعد؟",
+        "choices": [
+          {
+            "text": "Vrijdag precies om één uur.",
+            "translation": "الجمعة عند الواحدة بالضبط.",
+            "feedback": "الفترة ليست وعداً بالوصول عند الواحدة بالضبط."
+          },
+          {
+            "text": "Vrijdag tussen één en drie uur. Ik ben de hele tijd thuis.",
+            "translation": "الجمعة بين الواحدة والثالثة. سأكون في المنزل طوال الفترة.",
+            "feedback": "أكدت اليوم والفترة وتوفرك طوالها."
+          },
+          {
+            "text": "Dinsdag tussen negen en elf uur.",
+            "translation": "الثلاثاء بين التاسعة والحادية عشرة.",
+            "feedback": "هذا الموعد الذي رفضته وليس الاتفاق الجديد."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Dat klopt. U krijgt een bevestiging per e-mail.",
+        "responseTranslation": "صحيح. ستصلكم رسالة تأكيد بالبريد الإلكتروني."
+      }
+    ],
+    "transfer": {
+      "prompt": "غيّر التفاصيل: نافذة غرفة النوم لا تُغلق منذ الاثنين. لا تستطيع الأربعاء صباحاً لأنك تعمل، فاطلب الخميس بين الثانية والرابعة.",
+      "model": "Het raam in de slaapkamer gaat sinds maandag niet dicht. Woensdagochtend werk ik. Kan de monteur donderdag tussen twee en vier uur komen?",
+      "translation": "نافذة غرفة النوم لا تُغلق منذ الاثنين. أعمل صباح الأربعاء. هل يمكن للفني الحضور الخميس بين الثانية والرابعة؟",
+      "checklist": [
+        "هل غيرت المشكلة والمكان وبدايتها؟",
+        "هل طلبت اليوم والفترة الجديدين دون تأكيد لم تحصل عليه؟"
+      ]
+    }
   }
 ]

@@ -98,5 +98,208 @@
         "explanation": "Vandaag تميز الروتين الحالي عن رحلة السبت."
       }
     ]
+  },
+  {
+    "slug": "a2-a-shift-handover",
+    "title": "رسالة لتسليم الوردية",
+    "dutchTitle": "Een bericht voor de volgende dienst",
+    "topic": "عمل منجز ومهلة جديدة",
+    "sourceLessons": [
+      "a2-reporting-task-progress",
+      "a2-explaining-a-delay",
+      "a2-confirming-a-handover"
+    ],
+    "text": "Hoi Lina, ik heb vanochtend acht bestellingen gecontroleerd. Zes bestellingen zijn ingepakt. De andere twee zijn nog niet klaar, want de grote dozen zijn op. Amir haalt om één uur nieuwe dozen uit het magazijn. Kun jij daarna de laatste twee bestellingen inpakken? Zet alleen de bestellingen voor Utrecht bij de achterdeur. De chauffeur komt om drie uur. Alles moet voor half drie klaar zijn. Stuur mij uiterlijk om half drie een bericht. De adressen staan op de lijst in de groene map. Groet, Eva.",
+    "translation": "مرحباً لينا، راجعت هذا الصباح ثماني طلبيات. حُزمت ست طلبيات. الطلبيتان الأخريان ليستا جاهزتين بعد لأن الصناديق الكبيرة نفدت. سيجلب أمير الساعة الواحدة صناديق جديدة من المستودع. هل يمكنك بعد ذلك حزم الطلبيتين الأخيرتين؟ ضعي طلبيات أوترخت فقط بجانب الباب الخلفي. سيأتي السائق الساعة الثالثة. يجب أن يصبح كل شيء جاهزاً قبل الثانية والنصف. أرسلي لي رسالة في موعد أقصاه الثانية والنصف. العناوين موجودة في القائمة داخل الملف الأخضر. تحياتي، إيفا.",
+    "vocabulary": [
+      {
+        "term": "de bestelling",
+        "excerpt": "bestellingen",
+        "meaning": "الطلبية؛ الجمع de bestellingen. هنا ثماني طلبيات وليست ثمانية صناديق بالضرورة."
+      },
+      {
+        "term": "op zijn",
+        "excerpt": "de grote dozen zijn op",
+        "meaning": "نفد المخزون؛ op هنا لا تعني فوق."
+      },
+      {
+        "term": "halen",
+        "excerpt": "haalt",
+        "meaning": "يجلب من مكان؛ أمير يجلب الصناديق من المستودع."
+      },
+      {
+        "term": "het magazijn",
+        "excerpt": "magazijn",
+        "meaning": "المستودع؛ جمعه de magazijnen."
+      },
+      {
+        "term": "de achterdeur",
+        "excerpt": "achterdeur",
+        "meaning": "الباب الخلفي؛ جمعه de achterdeuren."
+      },
+      {
+        "term": "uiterlijk",
+        "excerpt": "uiterlijk om half drie",
+        "meaning": "في موعد أقصاه 14:30، وليس 15:00."
+      }
+    ],
+    "grammar": {
+      "title": "سبب وموعدان مختلفان",
+      "example": "De andere twee zijn nog niet klaar, want de grote dozen zijn op.",
+      "translation": "الطلبيتان الأخريان ليستا جاهزتين بعد لأن الصناديق الكبيرة نفدت.",
+      "explanation": "بعد want يرد السبب بترتيب الجملة الرئيسية: de grote dozen zijn op. لا تخلط وقت جاهزية الطلبيات مع وصول السائق."
+    },
+    "questions": [
+      {
+        "id": "a2-handover-read-1",
+        "prompt": "لماذا لم تجهز الطلبيتان الأخيرتان؟",
+        "options": [
+          "العناوين غير موجودة",
+          "الصناديق الكبيرة نفدت",
+          "السائق غادر"
+        ],
+        "correctIndex": 1,
+        "evidence": "De andere twee zijn nog niet klaar, want de grote dozen zijn op.",
+        "explanation": "سبب التأخير نقص الصناديق، وليس العناوين."
+      },
+      {
+        "id": "a2-handover-read-2",
+        "prompt": "ما المطلوب من لينا بعد جلب الصناديق؟",
+        "options": [
+          "مراجعة ثماني طلبيات من البداية",
+          "الاتصال بالسائق لإلغاء الرحلة",
+          "حزم الطلبيتين الأخيرتين"
+        ],
+        "correctIndex": 2,
+        "evidence": "Amir haalt om één uur nieuwe dozen uit het magazijn. Kun jij daarna de laatste twee bestellingen inpakken?",
+        "explanation": "بعد وصول الصناديق تحزم لينا الطلبيتين المتبقيتين."
+      },
+      {
+        "id": "a2-handover-read-3",
+        "prompt": "أي طلبيات توضع بجانب الباب الخلفي؟",
+        "options": [
+          "طلبيات أوترخت فقط",
+          "الطلبيات الثماني كلها",
+          "الطلبيات الفارغة فقط"
+        ],
+        "correctIndex": 0,
+        "evidence": "Zet alleen de bestellingen voor Utrecht bij de achterdeur.",
+        "explanation": "alleen تقيد المهمة بطلبيات أوترخت."
+      },
+      {
+        "id": "a2-handover-read-4",
+        "prompt": "أي ترتيب يوافق مهل الرسالة؟",
+        "options": [
+          "الجاهزية قبل 15:00 والرسالة 16:00",
+          "الجاهزية قبل 14:30 والرسالة بحد أقصى 14:30 والسائق 15:00",
+          "السائق 14:30 والجاهزية بعده"
+        ],
+        "correctIndex": 1,
+        "evidence": "De chauffeur komt om drie uur. Alles moet voor half drie klaar zijn. Stuur mij uiterlijk om half drie een bericht.",
+        "explanation": "half drie هي 14:30 في سياق العمل بعد الظهر، وتسبق وصول السائق."
+      }
+    ]
+  },
+  {
+    "slug": "a2-a-repair-confirmation",
+    "title": "تأكيد زيارة لمشكلة لم تُحل",
+    "dutchTitle": "Een bevestiging voor een vervolgbezoek",
+    "topic": "نتيجة إصلاح وتغيير فترة الزيارة",
+    "sourceLessons": [
+      "a2-reporting-a-recurring-problem",
+      "a2-comparing-conditions-at-home",
+      "a2-arranging-a-repair-visit",
+      "a2-following-up-on-a-repair"
+    ],
+    "text": "Beste Sara, dinsdag heeft onze monteur de kraan in uw keuken gerepareerd. U hebt daarna gemeld dat het raam in de slaapkamer nog steeds niet goed sluit. De slaapkamer is kouder dan de woonkamer. We komen daarom nog een keer kijken. De afspraak van donderdag tussen negen en elf uur vervalt. U werkt dan. We hebben nu vrijdag tussen één en drie uur afgesproken. De monteur komt voor het raam, niet voor de kraan. Wilt u voor woensdag vier uur per e-mail bevestigen dat u vrijdag thuis bent? Met vriendelijke groet, Team Onderhoud.",
+    "translation": "السيدة سارة، أصلح فنينا الثلاثاء صنبور مطبخك. أبلغتِ بعد ذلك أن نافذة غرفة النوم ما زالت لا تُغلق جيداً. غرفة النوم أبرد من غرفة المعيشة. لذلك سنأتي لفحصها مرة أخرى. أُلغي موعد الخميس بين التاسعة والحادية عشرة؛ فأنت تعملين حينها. اتفقنا الآن على الجمعة بين الواحدة والثالثة. سيأتي الفني من أجل النافذة، وليس الصنبور. هل يمكنك التأكيد بالبريد الإلكتروني قبل الأربعاء الساعة الرابعة أنك ستكونين في المنزل الجمعة؟ مع التحية، فريق الصيانة.",
+    "vocabulary": [
+      {
+        "term": "daarna",
+        "excerpt": "daarna",
+        "meaning": "بعد ذلك؛ الإبلاغ جاء بعد إصلاح الصنبور."
+      },
+      {
+        "term": "nog steeds",
+        "excerpt": "nog steeds",
+        "meaning": "ما زالت؛ المشكلة لم تتوقف."
+      },
+      {
+        "term": "kouder dan",
+        "excerpt": "kouder dan",
+        "meaning": "أبرد من؛ قارن اتجاه الوصف بين الغرفتين."
+      },
+      {
+        "term": "vervallen",
+        "excerpt": "vervalt",
+        "meaning": "يُلغى أو لا يعود سارياً؛ هنا الموعد السابق."
+      },
+      {
+        "term": "bevestigen",
+        "excerpt": "bevestigen",
+        "meaning": "يؤكد؛ المطلوب رد بالبريد الإلكتروني."
+      },
+      {
+        "term": "onderhoud",
+        "excerpt": "Onderhoud",
+        "meaning": "الصيانة؛ اسم فريق العمل هنا."
+      }
+    ],
+    "grammar": {
+      "title": "مقارنة تشرح الملاحظة",
+      "example": "De slaapkamer is kouder dan de woonkamer.",
+      "translation": "غرفة النوم أبرد من غرفة المعيشة.",
+      "explanation": "kouder dan تقارن غرفة النوم بغرفة المعيشة. هذا وصف للحالة التي أبلغت عنها الساكنة، وليس تشخيصاً لسببها."
+    },
+    "questions": [
+      {
+        "id": "a2-housing-read-1",
+        "prompt": "لماذا سيأتي الفني مرة أخرى؟",
+        "options": [
+          "لإصلاح الصنبور الذي لم يُصلح",
+          "لفحص نافذة ما زالت لا تُغلق جيداً",
+          "لتغيير عنوان الساكنة"
+        ],
+        "correctIndex": 1,
+        "evidence": "U hebt daarna gemeld dat het raam in de slaapkamer nog steeds niet goed sluit. De slaapkamer is kouder dan de woonkamer. We komen daarom nog een keer kijken.",
+        "explanation": "الزيارة الأولى أصلحت الصنبور؛ المشكلة الباقية في النافذة."
+      },
+      {
+        "id": "a2-housing-read-2",
+        "prompt": "كيف تصف الرسالة الغرفتين؟",
+        "options": [
+          "غرفة المعيشة أبرد",
+          "حرارتهما متساوية",
+          "غرفة النوم أبرد"
+        ],
+        "correctIndex": 2,
+        "evidence": "De slaapkamer is kouder dan de woonkamer.",
+        "explanation": "ترتيب المقارنة يجعل غرفة النوم هي الأبرد."
+      },
+      {
+        "id": "a2-housing-read-3",
+        "prompt": "ما الموعد الساري الآن؟",
+        "options": [
+          "الجمعة بين 13:00 و15:00",
+          "الخميس بين 09:00 و11:00",
+          "الجمعة عند 13:00 بالضبط"
+        ],
+        "correctIndex": 0,
+        "evidence": "De afspraak van donderdag tussen negen en elf uur vervalt. U werkt dan. We hebben nu vrijdag tussen één en drie uur afgesproken.",
+        "explanation": "الخميس أُلغي؛ الجمعة فترة وليست ساعة وصول دقيقة."
+      },
+      {
+        "id": "a2-housing-read-4",
+        "prompt": "ما الرد المطلوب، وما مهلته؟",
+        "options": [
+          "اتصال يوم الجمعة",
+          "بريد إلكتروني قبل الأربعاء 16:00 لتأكيد الوجود الجمعة",
+          "زيارة المكتب الخميس 11:00"
+        ],
+        "correctIndex": 1,
+        "evidence": "Wilt u voor woensdag vier uur per e-mail bevestigen dat u vrijdag thuis bent?",
+        "explanation": "مهلة الرد الأربعاء؛ موعد الزيارة الجمعة."
+      }
+    ]
   }
 ]
