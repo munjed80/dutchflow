@@ -1,5 +1,7 @@
 # A2 unit 6: school and local messages
 
+Historical unit 6 snapshot. Current delivery: `A2_TRAVEL_PLANS.md`.
+
 Updated 2026-10-05. The owner requested continuation in PR #25. The preceding shopping head `0bb9459` passed full GitHub CI. This is a follow-up on the same branch; previous delivery documents retain their historical totals.
 
 ## Inventory

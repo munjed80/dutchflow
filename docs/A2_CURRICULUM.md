@@ -1,6 +1,6 @@
 # A2 preparation and first delivery slice
 
-Updated 2026-10-05. The first six authored units and level-aware infrastructure are now implemented; see `A2_SCHOOL_LOCAL_MESSAGES.md` for the current delivery. The earlier unit documents retain their historical snapshots. The remaining sequence is planning only. No proficiency score or certificate is introduced; paid exams remain deferred.
+Updated 2026-10-05. The first seven authored units and level-aware infrastructure are now implemented; see `A2_TRAVEL_PLANS.md` for the current delivery. The earlier unit documents retain their historical snapshots. The remaining sequence is planning only. No proficiency score or certificate is introduced; paid exams remain deferred.
 
 ## Starting point and boundaries
 
@@ -16,7 +16,7 @@ The Council of Europe's [global scale](https://www.coe.int/en/web/common-europea
 | Comprehension and production | Evidence-backed questions and original-response tasks exist | Observe learners on unfamiliar details and adjust scaffolding / educator |
 | Real audio | Repository manifest has zero approved variants | Owner generates, listens and approves; `audio:check -- --require-complete --level=A1` must pass for A1 recorded release |
 | Independent language review | No external sign-off recorded | Dutch/Arabic educator reviews wording, task load and descriptor mapping |
-| A2 preview | Six units / twenty-four lessons with supporting resources implemented | Educator review and learner observation remain outstanding; next planned unit is travel/plans |
+| A2 preview | Seven units / twenty-eight lessons with supporting resources implemented | Educator review and learner observation remain outstanding; next planned unit is social experiences/invitations |
 | Public launch | Account infrastructure/privacy readiness separate | Follow `ACCOUNTS.md`; do not equate course counts with launch readiness |
 
 A2 design and an isolated draft can proceed alongside owner-managed recording work. Publishing A2 requires its own reviewed material and playback checks; it must not imply that A1's remaining release gates have passed. The learner's A1 lesson-completion total is self-reported, not a gate, placement result or credential.

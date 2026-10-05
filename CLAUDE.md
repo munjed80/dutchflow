@@ -222,7 +222,7 @@ All A1 files and all A2 units 1–4 records remain unchanged. Progress is A1 53 
 
 Unit 5 validation: all 64 native tests and all 140 Chromium end-to-end tests passed, plus content/audio checks, A2 dry-run planning, TypeScript and production build. Mobile partner practice and desktop reading were visually inspected without horizontal overflow. Full GitHub CI runs separately on the new PR. Independent educator review and learner observation remain open. A2 is still an authored preview; paid exams stay deferred. Next planned unit is school/local messages with required versus optional actions, deadlines and short relevant replies.
 
-### A2 unit 6 handoff (2026-10-05, current)
+### A2 unit 6 handoff (2026-10-05, historical)
 
 The owner requested continuing in PR #25. Its shopping head `0bb9459` passed full CI; this is a follow-up on the same branch. `docs/A2_SCHOOL_LOCAL_MESSAGES.md` is the current inventory and internal editorial ledger. Earlier totals above are historical snapshots.
 
@@ -231,3 +231,13 @@ A2 now has six units / 24 lessons / 192 phrases / 96 lesson questions, 144 lexic
 All A1 files and all preceding A2 records remain unchanged. Progress is A1 53 / A2 24; navigation connects the new resources and stops at their endpoints. Account/storage/placement contracts are unchanged. Audio inventory is 565 sources / 2,260 variants (A1 1,468; A2 792). The new fingerprint protects all 660 previous A2 requests. No synthesis or approval was performed; the owner handles recordings.
 
 Content/audio checks, A2 dry-run planning, all 65 native tests, all 143 Chromium end-to-end tests, TypeScript and production build passed locally. Mobile writing practice (390px) and desktop reading were visually inspected without horizontal overflow. The diff check passed. Full GitHub CI runs separately on the updated PR. Independent educator review and learner observation remain outstanding. A2 is still an authored preview; paid exams stay deferred. Next planned unit: travel and plans with `gaan`, routes, delays and alternatives.
+
+### A2 unit 7 handoff (2026-10-05, current)
+
+PR #25 is merged at `854589f`. This delivery starts a new branch from merged main. `docs/A2_TRAVEL_PLANS.md` is the current inventory and internal editorial ledger; earlier totals above are historical snapshots.
+
+A2 now has seven units / 28 lessons / 224 phrases / 112 lesson questions, 168 lexical notes / 56 lesson tasks, seven readings / 42 notes / 28 questions, seven four-turn scenarios with transfers and seven integrated packs (42 comprehension questions / seven writing / seven partner tasks). Unit `a2-travel-plans` contains lessons 25–28: day-trip planning, route comparison, delay reporting and agreed alternatives. Teach action plans with `gaan`, present tense for schedules, meeting/departure/arrival, total duration including waiting, direct versus fastest, cancellation versus delay, estimated arrival versus certainty, and proposal versus acceptance. Scenario includes final walking time; listening changes transport/meeting and removes the old time buffer. All schedules are fictional.
+
+All A1 files and preceding A2 records remain unchanged. Progress is A1 53 / A2 28; account/storage/placement contracts are unchanged. Audio inventory is 598 sources / 2,392 variants (A1 1,468; A2 924). New fingerprint protects the preceding 792 A2 requests. No synthesis or listening approval took place; owner handles recordings.
+
+Validation is being rerun on the reconstructed working tree. Final local test and visual results will be recorded before handoff. Independent educator review and learner observation remain outstanding; A2 stays an authored preview and paid exams remain deferred. Next planned unit: social experiences/invitations, followed by a whole-sequence coverage audit before claiming complete A2.

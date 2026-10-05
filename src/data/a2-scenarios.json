@@ -775,5 +775,135 @@
         "هل وضعت heb في نهاية السبب وأضفت تحية وتوقيعاً؟"
       ]
     }
+  },
+  {
+    "slug": "a2-choosing-a-route-after-cancellation",
+    "unitId": "a2-travel-plans",
+    "title": "اختر بديلاً بعد إلغاء القطار",
+    "dutchTitle": "Een alternatief na een uitgevallen trein",
+    "role": "أنت سامي. ألغي قطارك الذي كان سيغادر 18:00. تريد الوصول إلى مركز مجتمعي قبل 19:00. يبعد المركز خمس دقائق مشياً عن محطة الوصول. الأوقات والمسارات خيالية.",
+    "partner": "موظفة معلومات المحطة",
+    "mission": "قارن الوصولين مع وقت المشي واختر البديل المناسب، ثم استوضح الرصيف وأعد التفاصيل.",
+    "sourceLessons": [
+      "a2-planning-a-day-trip",
+      "a2-comparing-travel-routes",
+      "a2-reporting-a-travel-delay",
+      "a2-agreeing-on-another-route"
+    ],
+    "turns": [
+      {
+        "id": "a2-travel-turn-1",
+        "goal": "اشرح الإلغاء والموعد المطلوب مع وقت المشي.",
+        "prompt": "Uw trein van zes uur rijdt niet. Waar moet u naartoe?",
+        "translation": "قطاركم الذي يغادر السادسة لن يسير. إلى أين تحتاجون الذهاب؟",
+        "choices": [
+          {
+            "text": "Ik moet voor zeven uur bij het buurthuis zijn. Vanaf het station is het vijf minuten lopen.",
+            "translation": "يجب أن أكون في المركز قبل السابعة. يبعد خمس دقائق مشياً عن المحطة.",
+            "feedback": "حددت الوصول إلى الوجهة النهائية، لا المحطة فقط."
+          },
+          {
+            "text": "Ik wacht op de trein van zes uur. Die rijdt gewoon.",
+            "translation": "سأنتظر قطار السادسة. إنه يسير كالمعتاد.",
+            "feedback": "هذا يناقض إلغاء القطار."
+          },
+          {
+            "text": "Ik hoef pas na zeven uur op het station te zijn.",
+            "translation": "لا أحتاج إلى الوصول للمحطة إلا بعد السابعة.",
+            "feedback": "غيرت الموعد المطلوب والمكان."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "De bus vertrekt om tien over zes en komt om vijf voor zeven aan. De volgende trein vertrekt om vijf voor half zeven en komt om tien voor zeven aan.",
+        "responseTranslation": "تغادر الحافلة السادسة وعشر دقائق وتصل السابعة إلا خمس دقائق. القطار التالي يغادر السادسة وخمساً وعشرين دقيقة ويصل السابعة إلا عشر دقائق."
+      },
+      {
+        "id": "a2-travel-turn-2",
+        "goal": "قارن الوصول إلى المركز بعد إضافة خمس دقائق مشياً.",
+        "prompt": "Welke verbinding past bij uw afspraak?",
+        "translation": "أي وسيلة تناسب موعدكم؟",
+        "choices": [
+          {
+            "text": "De bus, want die vertrekt eerder. Dan ben ik zeker voor zeven uur bij het buurthuis.",
+            "translation": "الحافلة، لأنها تغادر أبكر. عندها سأكون بالتأكيد في المركز قبل السابعة.",
+            "feedback": "18:55 مع خمس دقائق مشياً تعني 19:00، لا قبلها. المغادرة المبكرة لا تكفي."
+          },
+          {
+            "text": "De trein. Die komt om tien voor zeven aan. Met vijf minuten lopen ben ik om vijf voor zeven bij het buurthuis.",
+            "translation": "القطار. يصل السابعة إلا عشر دقائق. مع خمس دقائق مشياً أكون في المركز السابعة إلا خمس دقائق.",
+            "feedback": "الخطة تصل إلى الوجهة النهائية 18:55."
+          },
+          {
+            "text": "Ze komen allebei om dezelfde tijd aan.",
+            "translation": "كلاهما يصل في الوقت نفسه.",
+            "feedback": "القطار يصل 18:50 والحافلة 18:55."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Dat klopt volgens de planning. De trein vertrekt later, maar komt eerder aan.",
+        "responseTranslation": "صحيح وفق الجدول. يغادر القطار لاحقاً لكنه يصل أبكر."
+      },
+      {
+        "id": "a2-travel-turn-3",
+        "goal": "استوضح الرصيف دون افتراض أنه رصيف الرحلة الملغاة.",
+        "prompt": "Wilt u die trein nemen?",
+        "translation": "هل تريدون أخذ ذلك القطار؟",
+        "choices": [
+          {
+            "text": "Ja, ik ga naar de bushalte.",
+            "translation": "نعم، سأتوجه إلى موقف الحافلة.",
+            "feedback": "اخترت القطار؛ تحتاج إلى معرفة رصيفه."
+          },
+          {
+            "text": "Nee, de trein komt pas na zeven uur aan.",
+            "translation": "لا، لن يصل القطار قبل السابعة.",
+            "feedback": "وصول القطار المذكور 18:50، لا بعد السابعة."
+          },
+          {
+            "text": "Ja. Van welk spoor vertrekt die trein?",
+            "translation": "نعم. من أي رصيف يغادر ذلك القطار؟",
+            "feedback": "طلبت المعلومة الناقصة قبل التوجه للرصيف."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Van spoor vier. Controleer voor vertrek nog even het scherm.",
+        "responseTranslation": "من الرصيف الرابع. تحققوا من الشاشة مرة أخرى قبل المغادرة."
+      },
+      {
+        "id": "a2-travel-turn-4",
+        "goal": "أكد المغادرة والوصول والرصيف والتحقق من التحديثات.",
+        "prompt": "Kunt u uw nieuwe reisplan kort herhalen?",
+        "translation": "هل يمكنكم إعادة خطة السفر الجديدة باختصار؟",
+        "choices": [
+          {
+            "text": "Ik neem de trein van vijf voor half zeven van spoor vier. Die komt om tien voor zeven aan. Daarna loop ik vijf minuten. Ik controleer het scherm nog even.",
+            "translation": "سآخذ قطار السادسة وخمس وعشرين دقيقة من الرصيف الرابع. يصل السابعة إلا عشر دقائق. ثم أمشي خمس دقائق. سأتحقق من الشاشة مرة أخرى.",
+            "feedback": "أعدت الخطة مع المشي ومتابعة التحديثات."
+          },
+          {
+            "text": "Ik neem de bus om vijf voor zeven van spoor vier.",
+            "translation": "سآخذ الحافلة السابعة إلا خمس دقائق من الرصيف الرابع.",
+            "feedback": "خلطت الوسيلة ووقت الوصول برصيف القطار."
+          },
+          {
+            "text": "Ik vertrek om tien voor zeven en kom om vijf voor half zeven aan.",
+            "translation": "أغادر السابعة إلا عشر دقائق وأصل السادسة وخمساً وعشرين دقيقة.",
+            "feedback": "عكست المغادرة والوصول."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Precies. Dat is de huidige planning. Goede reis!",
+        "responseTranslation": "بالضبط. هذه الخطة الحالية. رحلة موفقة!"
+      }
+    ],
+    "transfer": {
+      "prompt": "حافلتك متأخرة والوصول المتوقع إلى المحطة 20:10 بدلاً من 19:50. المكتبة تبعد خمس دقائق مشياً. أرسل لصديق ينتظرك عند مدخل المكتبة وقت الوصول المتوقع إليها، واسأله إن كان يستطيع الانتظار هناك. استخدم اسماً خيالياً.",
+      "model": "Hoi Noor, mijn bus heeft twintig minuten vertraging. Ik kom naar verwachting om tien over acht op het station aan. Daarna loop ik vijf minuten naar de bibliotheek. Ik ben dus naar verwachting om kwart over acht bij de ingang. Kun je daar wachten?",
+      "translation": "مرحباً نور، حافلتي متأخرة عشرين دقيقة. من المتوقع أن أصل المحطة الثامنة وعشر دقائق. ثم أمشي خمس دقائق إلى المكتبة. إذن من المتوقع أن أكون عند المدخل الثامنة والربع. هل تستطيعين الانتظار هناك؟",
+      "checklist": [
+        "هل حسبت الوصول إلى المكتبة 20:15 وأبقيته توقعاً؟",
+        "هل طلبت الانتظار دون افتراض الموافقة؟"
+      ]
+    }
   }
 ]

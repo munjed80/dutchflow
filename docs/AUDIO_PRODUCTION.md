@@ -2,7 +2,7 @@
 
 ## Current status
 
-The repository manifest contains no approved recordings. Playback falls back to a Dutch device voice. The shared inventory has 565 sources / 2,260 variants: A1 has 343 lesson phrases + 11 connected passages + 13 drills (1,468 variants); A2 adds 192 lesson phrases + six connected passages (792 variants). No synthesis was performed in this implementation.
+The repository manifest contains no approved recordings. Playback falls back to a Dutch device voice. The shared inventory has 598 sources / 2,392 variants: A1 has 343 lesson phrases + 11 connected passages + 13 drills (1,468 variants); A2 adds 224 lesson phrases + seven connected passages (924 variants). No synthesis was performed in this implementation.
 
 `loadAudioInventory` is the common source for generation, approval and integrity checks. All A1 jobs remain unchanged and first. Library readings, writing models and text scenarios are not silently added to audio. Paid exams remain deferred.
 
@@ -22,7 +22,7 @@ The first batch has four clips. Listen before generating the remaining bank:
 node --env-file=.env scripts/generate-audio.mjs --level=A1
 ```
 
-Azure receives only authored Dutch teaching phrases, not learner answers. Synthesis is a paid external operation according to the resource plan; the dry run prints job counts, cache hits and an approximate storage budget. At 48 kbit/s and an assumed five seconds per clip the combined bank is about 65 MiB; real lengths vary. Review actual size before committing binaries. The existing deployment serves `/audio/` from `public/audio`; object storage/CDN migration remains future work.
+Azure receives only authored Dutch teaching phrases, not learner answers. Synthesis is a paid external operation according to the resource plan; the dry run prints job counts, cache hits and an approximate storage budget. At 48 kbit/s and an assumed five seconds per clip the combined bank is about 68 MiB; real lengths vary. Review actual size before committing binaries. The existing deployment serves `/audio/` from `public/audio`; object storage/CDN migration remains future work.
 
 ## Integrity and resumability
 
@@ -79,7 +79,7 @@ No real credentials, synthesis, audio decoding or listening approval was availab
 
 ## Choosing a level
 
-Use `--level=A1` to continue the existing recording project or `--level=A2` for all currently authored A2 audio (198 sources / 792 variants). The level flag does not select only the latest unit. Existing hash-verified clips are reused. Without a level flag, generation and completeness cover both levels. `--limit` applies after level selection. No credentials are needed for a dry run.
+Use `--level=A1` to continue the existing recording project or `--level=A2` for all currently authored A2 audio (231 sources / 924 variants). The level flag does not select only the latest unit. Existing hash-verified clips are reused. Without a level flag, generation and completeness cover both levels. `--limit` applies after level selection. No credentials are needed for a dry run.
 
 ```bash
 npm run audio:generate -- --dry-run --level=A2

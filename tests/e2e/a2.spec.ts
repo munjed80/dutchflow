@@ -384,13 +384,13 @@ test("school lessons follow shopping and distinguish optional help from a requir
   await page.goto(`/learn/${lessons[19].slug}`);
   await page.locator('a[rel="next"]').click();
   await expect(page).toHaveURL(`/learn/${lessons[20].slug}`);
-  await expect(page.locator(".lesson-page-heading")).toContainText("21 من 24");
+  await expect(page.locator(".lesson-page-heading")).toContainText(`21 من ${lessons.length}`);
   for (const [i, q] of lessons[20].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
   await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
   await expect(page.locator(".success-message")).toBeVisible();
   await page.goto("/progress?level=A2");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "1");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "24");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", String(lessons.length));
   await page.goto(`/reading/${readings[5].slug}`);
   // Optional help does not cancel the requested reply; supplied books do not imply a ban.
   for (const [i, q] of readings[5].questions.entries()) await page.locator(`#${q.id}-${i === 0 || i === 3 ? 0 : q.correctIndex}`).check();
@@ -399,7 +399,7 @@ test("school lessons follow shopping and distinguish optional help from a requir
   await expect(page.locator(".practice-review a")).toHaveCount(2);
   await expect(page.locator('.practice-review a[href="/learn/a2-finding-a-reply-deadline"]')).toBeVisible();
   await expect(page.locator('.practice-review a[href="/learn/a2-understanding-school-instructions"]')).toBeVisible();
-  await expect(page.locator(".next-lesson")).toHaveAttribute("href", "/reading?level=A2");
+  await expect(page.locator(".next-lesson")).toHaveAttribute("href", `/reading/${readings[6].slug}`);
 });
 
 test("local-message listening changes event details and requires a new reply only for a changed count", async ({ page }) => {
@@ -424,7 +424,7 @@ test("local-message listening changes event details and requires a new reply onl
   await expect(page.locator("#write .production-model")).toHaveText(pack.writing[0].model);
   await page.locator("#speak summary").click();
   await expect(page.locator("#speak details p[lang=nl]")).toHaveText(pack.speaking[0].model);
-  await expect(page.getByRole("navigation", { name: "التنقل بين مراجعات A2" }).locator(".next-lesson")).toHaveCount(0);
+  await expect(page.getByRole("navigation", { name: "التنقل بين مراجعات A2" }).locator(".next-lesson")).toHaveAttribute("href", `/a2-practice/${packs[6].slug}`);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   expect(await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"))).toBeNull();
   await page.reload();
@@ -447,6 +447,88 @@ test("invitation dialogue counts the applicant and retains the registration cond
     await page.getByRole("button", { name: i === 3 ? "راجع الحوار وطبّق بنفسك" : "تابع الحوار", exact: true }).click();
   }
   await page.locator(".production-task textarea").fill("Ik kan maandag niet komen omdat ik les heb.");
+  await page.locator(".production-task summary").click();
+  await expect(page.locator(".production-model")).toHaveText(scenario.transfer.model);
+  await expect(page.locator(".next-lesson")).toHaveAttribute("href", `/scenarios/${scenarios[6].slug}`);
+  await page.reload();
+  await expect(page.locator(".scenario-top")).toContainText("الجولة 1 من 4");
+  await expect(page.locator(".production-task textarea")).toHaveCount(0);
+});
+
+test("travel follows school, preserves progress and reviews arrival rather than departure", async ({ page }) => {
+  await page.goto(`/learn/${lessons[23].slug}`);
+  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), [a1[0].slug, ...lessons.slice(0, 24).map((lesson) => lesson.slug)]);
+  await page.reload();
+  await page.locator('a[rel="next"]').click();
+  await expect(page).toHaveURL("/learn/a2-planning-a-day-trip");
+  await expect(page.locator(".lesson-page-heading")).toContainText("25 من 28");
+  for (const [i, q] of lessons[24].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
+  await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
+  await expect(page.locator(".success-message")).toBeVisible();
+  await page.goto("/progress?level=A2");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "25");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "28");
+  await page.goto("/progress");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "1");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "53");
+  await page.goto(`/reading/${readings[6].slug}`);
+  // Confuse return arrival with departure, while retaining the other correct answers.
+  for (const [i, q] of readings[6].questions.entries()) await page.locator(`#${q.id}-${i === 2 ? 1 : q.correctIndex}`).check();
+  await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(page.locator(".reading-result h3")).toContainText("3 من 4");
+  await expect(page.locator(".practice-review a")).toHaveAttribute("href", "/learn/a2-comparing-travel-routes");
+  await expect(page.locator(".next-lesson")).toHaveAttribute("href", "/reading?level=A2");
+});
+
+test("travel update replaces transport and meeting details and removes the old time buffer", async ({ page }) => {
+  const pack = packs[6];
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(`/a2-practice/${packs[5].slug}`);
+  await page.locator("#write textarea").fill("Een oud antwoord over school.");
+  await page.getByRole("navigation", { name: "التنقل بين مراجعات A2" }).locator(".next-lesson").click();
+  await expect(page.locator("#write textarea")).toHaveValue("");
+  const read = page.locator("#read"), listen = page.locator("#listen");
+  await expect(read.getByRole("table")).toBeVisible();
+  for (const q of pack.reading.questions) await read.locator(`#${q.id}-${q.correctIndex}`).check();
+  await read.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(read.locator(".reading-result h3")).toContainText("3 من 3");
+  await expect(listen.getByRole("radio")).toHaveCount(0);
+  await listen.getByRole("button", { name: "اعرض نص المقطع للمساعدة" }).click();
+  // Old meeting and old quarter-hour buffer must produce separate remediation links.
+  for (const [i, q] of pack.listening.questions.entries()) await listen.locator(`#${q.id}-${i === 1 ? 0 : i === 2 ? 1 : q.correctIndex}`).check();
+  await listen.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(listen.locator(".reading-result h3")).toContainText("1 من 3");
+  await expect(listen.locator(".practice-review a")).toHaveCount(2);
+  await expect(listen.locator('a[href="/learn/a2-agreeing-on-another-route"]')).toBeVisible();
+  await expect(listen.locator('a[href="/learn/a2-comparing-travel-routes"]')).toBeVisible();
+  await page.locator("#write textarea").fill("Zullen we bij de bushalte afspreken?");
+  await page.locator("#write summary").click();
+  await expect(page.locator("#write .production-model")).toHaveText(pack.writing[0].model);
+  await page.locator("#speak summary").click();
+  await expect(page.locator("#speak details p[lang=nl]")).toHaveText(pack.speaking[0].model);
+  await expect(page.getByRole("navigation", { name: "التنقل بين مراجعات A2" }).locator(".next-lesson")).toHaveCount(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"))).toBeNull();
+  await page.reload();
+  await expect(page.locator("#write textarea")).toHaveValue("");
+  await expect(listen.getByRole("radio")).toHaveCount(0);
+});
+
+test("travel dialogue rejects earlier departure as sufficient and includes the final walk", async ({ page }) => {
+  const scenario = scenarios[6];
+  await page.goto(`/scenarios/${scenario.slug}`);
+  for (const [i, turn] of scenario.turns.entries()) {
+    await expect(page.locator(".scenario-prompt .scenario-dutch")).toHaveText(turn.prompt);
+    if (i === 1 || i === 3) {
+      await page.locator(".scenario-choices").getByRole("radio").nth(i === 1 ? 0 : 2).check();
+      await page.getByRole("button", { name: "تحقّق من الرد", exact: true }).click();
+      await expect(page.getByRole("button", { name: i === 3 ? "راجع الحوار وطبّق بنفسك" : "تابع الحوار", exact: true })).toBeDisabled();
+    }
+    await page.locator(".scenario-choices").getByRole("radio").nth(turn.correctIndex).check();
+    await page.getByRole("button", { name: "تحقّق من الرد", exact: true }).click();
+    await page.getByRole("button", { name: i === 3 ? "راجع الحوار وطبّق بنفسك" : "تابع الحوار", exact: true }).click();
+  }
+  await page.locator(".production-task textarea").fill("Ik kom naar verwachting om kwart over acht bij de bibliotheek aan.");
   await page.locator(".production-task summary").click();
   await expect(page.locator(".production-model")).toHaveText(scenario.transfer.model);
   await expect(page.locator(".next-lesson")).toHaveAttribute("href", "/scenarios?level=A2");
