@@ -1,6 +1,6 @@
 # A2 unit 4: appointments and follow-up
 
-Updated 2026-10-04. The owner explicitly requested this next unit. PR #24 remains open; the preceding housing head `c880dce` passed its full GitHub CI run before this follow-up. This document is the current delivery snapshot; older unit documents retain their historical inventories.
+Historical unit 4 snapshot, 2026-10-04. PR #24 was open during this delivery; it has since merged, with successful full CI on head `285ffed`. The current inventory is in `A2_SHOPPING_CHOICES.md`. The unit-specific editorial decisions below remain relevant.
 
 ## Inventory
 

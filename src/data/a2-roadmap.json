@@ -86,5 +86,49 @@
       "بقية وحدات A2 ما زالت قيد الإعداد.",
       "التسجيلات والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
     ]
+  },
+  {
+    "id": "a2-shopping-choices",
+    "title": "من مشكلة الشراء إلى بديل مناسب",
+    "outcomes": [
+      "أشرح مشكلة في مشتريات وأطلب تجربة بديل بأدب.",
+      "أقارن السعر والوزن وأميز سعر القطعة من المجموعة والإجمالي.",
+      "أختار بديلاً متاحاً وأعيد تفاصيل الطلب والاستلام بعد التأكيد."
+    ],
+    "lessonSlugs": [
+      "a2-explaining-a-purchase-problem",
+      "a2-comparing-products",
+      "a2-checking-quantities-and-prices",
+      "a2-confirming-a-shop-alternative"
+    ],
+    "readingSlugs": [
+      "a2-an-offer-for-matching-cups"
+    ],
+    "remaining": [
+      "بقية وحدات A2 ما زالت قيد الإعداد.",
+      "التسجيلات والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
+    ]
+  },
+  {
+    "id": "a2-school-local-messages",
+    "title": "من قراءة الرسالة إلى رد مناسب",
+    "outcomes": [
+      "أميز الإلزام من عدم الحاجة وأفهم شرط المشاركة.",
+      "أحدد مهلة الرد ووسيلته وأستوضح الحقول المطلوبة.",
+      "أكتب رداً يجيب عن الأسئلة ويشرح التغيير ويطلب التأكيد عند الحاجة."
+    ],
+    "lessonSlugs": [
+      "a2-understanding-school-instructions",
+      "a2-finding-a-reply-deadline",
+      "a2-clarifying-a-local-form",
+      "a2-writing-a-relevant-reply"
+    ],
+    "readingSlugs": [
+      "a2-a-school-reading-afternoon"
+    ],
+    "remaining": [
+      "بقية وحدات A2 ما زالت قيد الإعداد.",
+      "التسجيلات والمراجعة المستقلة وتجربة المتعلمين لم تكتمل بعد."
+    ]
   }
 ]

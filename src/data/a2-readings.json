@@ -403,5 +403,209 @@
         "explanation": "الاثنين مهلة للرد؛ إرسال الاختيار لا يساوي الحصول على التأكيد."
       }
     ]
+  },
+  {
+    "slug": "a2-an-offer-for-matching-cups",
+    "title": "عرض لأكواب باللون نفسه",
+    "dutchTitle": "Een aanbod voor vier dezelfde bekers",
+    "topic": "السعة والعدد واللون والسعر",
+    "sourceLessons": [
+      "a2-explaining-a-purchase-problem",
+      "a2-comparing-products",
+      "a2-checking-quantities-and-prices",
+      "a2-confirming-a-shop-alternative"
+    ],
+    "text": "Beste Amir, u zoekt vier grote bekers in dezelfde kleur. Onze kleine bekers hebben een inhoud van tweehonderd milliliter en kosten drie euro per stuk. De grote bekers hebben een inhoud van driehonderd milliliter en kosten vier euro per stuk. Van de grote blauwe bekers hebben we nog maar twee stuks. We hebben wel vier grote groene bekers op voorraad. Die kosten samen zestien euro. U kunt deze groene bekers vandaag in de winkel bekijken. We hebben nog niets voor u gereserveerd. Wilt u ze laten reserveren? Antwoord dan op deze e-mail en vermeld de kleur en het aantal. Met vriendelijke groet, Winkel De Kast.",
+    "translation": "السيد أمير، تبحث عن أربعة أكواب كبيرة باللون نفسه. سعة أكوابنا الصغيرة مئتا مليلتر وسعرها ثلاثة يورو للقطعة. سعة الأكواب الكبيرة ثلاثمئة مليلتر وسعرها أربعة يورو للقطعة. لم يبق لدينا من الأكواب الزرقاء الكبيرة إلا قطعتان. لكن لدينا أربعة أكواب خضراء كبيرة في المخزون. سعرها معاً ستة عشر يورو. يمكنك معاينة هذه الأكواب الخضراء اليوم في المتجر. لم نحجز لك شيئاً بعد. هل تريد حجزها؟ أجب إذن عن هذا البريد الإلكتروني واذكر اللون والعدد. مع التحية، متجر دي كاست.",
+    "vocabulary": [
+      {
+        "term": "dezelfde",
+        "excerpt": "dezelfde kleur",
+        "meaning": "اللون نفسه لجميع الأكواب المطلوبة."
+      },
+      {
+        "term": "de inhoud",
+        "excerpt": "een inhoud van driehonderd milliliter",
+        "meaning": "السعة؛ ثلاثمئة مليلتر لكل كوب كبير."
+      },
+      {
+        "term": "nog maar",
+        "excerpt": "nog maar twee stuks",
+        "meaning": "لم يبق إلا قطعتان؛ أقل من العدد المطلوب."
+      },
+      {
+        "term": "wel",
+        "excerpt": "We hebben wel vier grote groene bekers",
+        "meaning": "تؤكد توفر البديل الأخضر مقابل نقص الأزرق."
+      },
+      {
+        "term": "reserveren",
+        "excerpt": "gereserveerd",
+        "meaning": "يحجز؛ وجود القطع بالمخزون لا يعني حجزها للعميل."
+      },
+      {
+        "term": "vermelden",
+        "excerpt": "vermeld de kleur en het aantal",
+        "meaning": "يذكر أو يدوّن اللون والعدد في الرد."
+      }
+    ],
+    "grammar": {
+      "title": "هذه مع الجمع",
+      "example": "U kunt deze groene bekers vandaag in de winkel bekijken.",
+      "translation": "يمكنك معاينة هذه الأكواب الخضراء اليوم في المتجر.",
+      "explanation": "نستخدم deze قبل bekers لأنها جمع. ومع جمع أسماء het نستخدم deze أيضاً، مثل deze glazen. أما المفرد فهو dit glas. هنا تشير الجملة إلى الأكواب الخضراء المذكورة في العرض."
+    },
+    "questions": [
+      {
+        "id": "a2-cups-read-1",
+        "prompt": "أي وصف يخص الكوب الكبير؟",
+        "options": [
+          "200 مليلتر بثلاثة يورو",
+          "300 مليلتر بأربعة يورو",
+          "300 مليلتر بستة عشر يورو للقطعة"
+        ],
+        "correctIndex": 1,
+        "explanation": "الجملة تذكر سعة القطعة الكبيرة وسعرها، لا سعر الأربع معاً.",
+        "evidence": "De grote bekers hebben een inhoud van driehonderd milliliter en kosten vier euro per stuk."
+      },
+      {
+        "id": "a2-cups-read-2",
+        "prompt": "أي لون يتوفر منه العدد المطلوب كاملاً من الأكواب الكبيرة؟",
+        "options": [
+          "الأزرق فقط",
+          "الأزرق والأخضر",
+          "الأخضر فقط"
+        ],
+        "correctIndex": 2,
+        "explanation": "المطلوب أربعة؛ الأزرق اثنان فقط، والأخضر أربعة.",
+        "evidence": "u zoekt vier grote bekers in dezelfde kleur. Onze kleine bekers hebben een inhoud van tweehonderd milliliter en kosten drie euro per stuk. De grote bekers hebben een inhoud van driehonderd milliliter en kosten vier euro per stuk. Van de grote blauwe bekers hebben we nog maar twee stuks. We hebben wel vier grote groene bekers op voorraad."
+      },
+      {
+        "id": "a2-cups-read-3",
+        "prompt": "على ماذا ينطبق مبلغ ستة عشر يورو؟",
+        "options": [
+          "الأكواب الخضراء الكبيرة الأربعة معاً",
+          "كل كوب أخضر كبير",
+          "الكوبان الأزرقان فقط"
+        ],
+        "correctIndex": 0,
+        "explanation": "samen تحدد أن السعر إجمالي للأربعة، وليس سعر القطعة.",
+        "evidence": "We hebben wel vier grote groene bekers op voorraad. Die kosten samen zestien euro."
+      },
+      {
+        "id": "a2-cups-read-4",
+        "prompt": "ماذا يفعل أمير إذا أراد حجز الأكواب الخضراء؟",
+        "options": [
+          "يفترض أنها محجوزة بسبب توفرها",
+          "يرد على البريد ويذكر اللون والعدد",
+          "ينتظر توصيلها دون رد"
+        ],
+        "correctIndex": 1,
+        "explanation": "المتجر لم يحجز شيئاً بعد؛ الرسالة تطلب رداً بمواصفات الطلب.",
+        "evidence": "We hebben nog niets voor u gereserveerd. Wilt u ze laten reserveren? Antwoord dan op deze e-mail en vermeld de kleur en het aantal."
+      }
+    ]
+  },
+  {
+    "slug": "a2-a-school-reading-afternoon",
+    "title": "رسالة عن نشاط القراءة المدرسي",
+    "dutchTitle": "Helpen bij de leesmiddag",
+    "topic": "المشاركة والرد والاستعداد",
+    "sourceLessons": [
+      "a2-understanding-school-instructions",
+      "a2-finding-a-reply-deadline",
+      "a2-clarifying-a-local-form",
+      "a2-writing-a-relevant-reply"
+    ],
+    "text": "Beste ouders, volgende week vrijdag organiseren we een leesmiddag op school. De kinderen lezen van half twee tot half drie samen met hun leerkracht. Ouders mogen helpen, maar dat is niet verplicht. Wilt u voor dinsdag vier uur per e-mail laten weten of u kunt helpen? Reageer ook als u niet kunt komen. Als u helpt, vermeld dan de naam van uw kind en de groep. U hoeft geen boek mee te nemen, want de school zorgt voor alle boeken. De helpers worden om kwart over één in de bibliotheek verwacht. Dat is een kwartier voor het begin. Met vriendelijke groet, Team De Brug.",
+    "translation": "الأهالي الأعزاء، ننظم يوم الجمعة من الأسبوع القادم نشاط قراءة في المدرسة. يقرأ الأطفال مع معلمهم من الواحدة والنصف إلى الثانية والنصف. يمكن للأهالي المساعدة، لكنها ليست إلزامية. هل يمكنكم إبلاغنا بالبريد الإلكتروني قبل الثلاثاء الساعة الرابعة إذا كنتم تستطيعون المساعدة؟ ردوا أيضاً إذا كنتم لا تستطيعون الحضور. إذا كنتم ستساعدون، فاذكروا اسم طفلكم وصفه. لا يلزمكم إحضار كتاب، فالمدرسة توفر جميع الكتب. يُنتظر حضور المساعدين الساعة الواحدة والربع في المكتبة، أي قبل بداية النشاط بربع ساعة. مع التحية، فريق مدرسة دي بروخ.",
+    "vocabulary": [
+      {
+        "term": "de leesmiddag",
+        "excerpt": "een leesmiddag",
+        "meaning": "نشاط قراءة يُقام بعد الظهر."
+      },
+      {
+        "term": "de leerkracht",
+        "excerpt": "hun leerkracht",
+        "meaning": "معلمهم أو معلمتهم؛ الكلمة تستخدم لكليهما."
+      },
+      {
+        "term": "vermelden",
+        "excerpt": "vermeld dan de naam",
+        "meaning": "يذكر المعلومة المطلوبة في الرد."
+      },
+      {
+        "term": "de groep",
+        "excerpt": "de groep",
+        "meaning": "الصف أو المجموعة الدراسية في هذا السياق."
+      },
+      {
+        "term": "zorgen voor",
+        "excerpt": "zorgt voor alle boeken",
+        "meaning": "يوفر أو يتكفل بالكتب هنا."
+      },
+      {
+        "term": "verwachten",
+        "excerpt": "worden om kwart over één in de bibliotheek verwacht",
+        "meaning": "ينتظر حضورهم؛ العبارة تحدد وقت حضور المساعدين ومكانه."
+      }
+    ],
+    "grammar": {
+      "title": "عدم الحاجة إلى إحضار شيء",
+      "example": "U hoeft geen boek mee te nemen, want de school zorgt voor alle boeken.",
+      "translation": "لا يلزمكم إحضار كتاب، فالمدرسة توفر جميع الكتب.",
+      "explanation": "hoeft geen ... mee te nemen تنفي الحاجة إلى إحضار كتاب. لا تقول الجملة إن الكتب الشخصية ممنوعة. want يقدم السبب في جملة بترتيب عادي: de school zorgt."
+    },
+    "questions": [
+      {
+        "id": "a2-school-read-1",
+        "prompt": "إذا لم يستطع أحد الوالدين المساعدة، فما المطلوب؟",
+        "options": [
+          "لا يرد لأن المساعدة اختيارية",
+          "يرد قبل الثلاثاء 16:00 بالبريد الإلكتروني بأنه لا يستطيع",
+          "يحضر الثلاثاء عند الرابعة"
+        ],
+        "correctIndex": 1,
+        "explanation": "عدم إلزام المساعدة لا يلغي طلب الرد الواضح.",
+        "evidence": "Ouders mogen helpen, maar dat is niet verplicht. Wilt u voor dinsdag vier uur per e-mail laten weten of u kunt helpen? Reageer ook als u niet kunt komen."
+      },
+      {
+        "id": "a2-school-read-2",
+        "prompt": "ما وقت حضور المساعدين مقارنة ببداية القراءة؟",
+        "options": [
+          "الحضور 13:30 والبداية 14:30",
+          "الحضور 14:15 والبداية 14:30",
+          "الحضور 13:15 والبداية 13:30"
+        ],
+        "correctIndex": 2,
+        "explanation": "الواحدة والربع هي 13:15، وhalf twee بالهولندية تعني الواحدة والنصف، أي 13:30.",
+        "evidence": "De helpers worden om kwart over één in de bibliotheek verwacht. Dat is een kwartier voor het begin."
+      },
+      {
+        "id": "a2-school-read-3",
+        "prompt": "ما المعلومات المطلوبة ممن سيأتي للمساعدة؟",
+        "options": [
+          "اسم الطفل وصفه",
+          "رقم الحساب البنكي",
+          "عنوان العمل ورقم الهاتف"
+        ],
+        "correctIndex": 0,
+        "explanation": "الرسالة تحدد اسم الطفل ومجموعته؛ لا تطلب معلومات أخرى.",
+        "evidence": "Als u helpt, vermeld dan de naam van uw kind en de groep."
+      },
+      {
+        "id": "a2-school-read-4",
+        "prompt": "ما معنى التعليمات الخاصة بالكتب؟",
+        "options": [
+          "يحظر إحضار أي كتاب شخصي",
+          "لا يلزم إحضار كتاب لأن المدرسة توفرها",
+          "على كل مساعد شراء كتاب"
+        ],
+        "correctIndex": 1,
+        "explanation": "عدم الحاجة مختلف عن المنع أو إلزام الشراء.",
+        "evidence": "U hoeft geen boek mee te nemen, want de school zorgt voor alle boeken."
+      }
+    ]
   }
 ]

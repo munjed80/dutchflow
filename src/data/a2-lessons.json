@@ -2366,5 +2366,1189 @@
         "explanation": "غياب الرد لا يثبت رفض الطلب ولا قبوله."
       }
     ]
+  },
+  {
+    "slug": "a2-explaining-a-purchase-problem",
+    "moduleId": "a2-shopping-choices",
+    "level": "A2",
+    "number": "17",
+    "title": "اشرح مشكلة في مشترياتك",
+    "dutchTitle": "Een probleem met een aankoop uitleggen",
+    "description": "أذكر ما اشتريته والمشكلة وأطلب بديلاً مناسباً بأدب.",
+    "durationMinutes": 12,
+    "context": "اشتريت قميصاً أمس من متجر خيالي. جربته في المنزل فوجدته ضيقاً. تسأل الموظفة عن مقاس أكبر ولا تفترض قبول الاستبدال.",
+    "goal": "أذكر ما اشتريته والمشكلة وأطلب بديلاً مناسباً بأدب.",
+    "grammar": {
+      "title": "الإشارة إلى اسم مفرد مع het",
+      "explanation": "نقول het overhemd، ولذلك نستخدم dit overhemd للقميص الذي نشير إليه هنا، وdat overhemd لآخر هناك عند المقارنة المكانية. مع de نستخدم deze أو die، ومع الجمع أيضاً deze أو die. هذا تدريب على الإشارة إلى أشياء محددة؛ القرب والبعد لا يفسران كل استعمال في النصوص.",
+      "example": "Dit overhemd is te klein.",
+      "translation": "هذا القميص أصغر من المقاس المناسب."
+    },
+    "phrases": [
+      {
+        "id": "a2-explaining-a-purchase-problem-01",
+        "dutch": "Goedemiddag, ik heb dit overhemd gisteren gekocht.",
+        "arabic": "مساء الخير، اشتريت هذا القميص أمس.",
+        "tip": "heb gekocht يربط الشراء بوقت سابق."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-02",
+        "dutch": "Wat is het probleem met het overhemd?",
+        "arabic": "ما المشكلة في القميص؟",
+        "tip": "نذكر الشيء أولاً قبل شرح المشكلة."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-03",
+        "dutch": "Het is te klein. Heeft u een grotere maat?",
+        "arabic": "إنه صغير أكثر من اللازم. هل لديكم مقاس أكبر؟",
+        "tip": "te klein تعني أن الصغر مشكلة، لا مجرد مقارنة."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-04",
+        "dutch": "Welke maat heeft u nu?",
+        "arabic": "ما المقاس الموجود لديكم الآن؟",
+        "tip": "السؤال عن المقاس الحالي، لا المقاس المطلوب."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-05",
+        "dutch": "Ik heb maat M. Ik wil graag maat L proberen.",
+        "arabic": "لدي المقاس M. أود تجربة المقاس L.",
+        "tip": "نطلب التجربة دون افتراض ملاءمة البديل."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-06",
+        "dutch": "Dat overhemd daar is maat L. Wilt u het passen?",
+        "arabic": "ذلك القميص هناك بالمقاس L. هل تودون تجربته؟",
+        "tip": "dat مع het overhemd؛ passen تعني تجربة الملابس."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-07",
+        "dutch": "Ja, graag. Mag ik dit overhemd omruilen als maat L goed past?",
+        "arabic": "نعم، من فضلك. هل يمكنني استبدال هذا القميص إذا ناسبني المقاس L؟",
+        "tip": "Mag ik ...? طلب إذن؛ als هنا شرط."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-08",
+        "dutch": "Ik controleer eerst uw bon. Daarna bespreken we de mogelijkheden.",
+        "arabic": "سأتحقق أولاً من إيصالكم. ثم نناقش الخيارات.",
+        "tip": "هذا رد خاص بالموقف الخيالي، وليس قاعدة عامة للاستبدال."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الزبون",
+        "phraseId": "a2-explaining-a-purchase-problem-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-a-purchase-problem-02"
+      },
+      {
+        "speaker": "الزبون",
+        "phraseId": "a2-explaining-a-purchase-problem-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-a-purchase-problem-04"
+      },
+      {
+        "speaker": "الزبون",
+        "phraseId": "a2-explaining-a-purchase-problem-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-a-purchase-problem-06"
+      },
+      {
+        "speaker": "الزبون",
+        "phraseId": "a2-explaining-a-purchase-problem-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-explaining-a-purchase-problem-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-explaining-a-purchase-problem-q1",
+        "prompt": "ما المشكلة التي ذكرها الزبون؟",
+        "options": [
+          "القميص ضيق عليه",
+          "المقاس L كبير بعد تجربته",
+          "الإيصال لم يصل"
+        ],
+        "correctIndex": 0,
+        "explanation": "te klein يصف مشكلة القميص الحالي، ولم يُجرب L بعد."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-q2",
+        "prompt": "اختر الإشارة الصحيحة إلى het overhemd الموجود هنا.",
+        "options": [
+          "Deze overhemd is te klein.",
+          "Dit overhemd is te klein.",
+          "Die overhemd is te klein."
+        ],
+        "correctIndex": 1,
+        "explanation": "overhemd اسم مفرد مع het؛ نستخدم dit هنا."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-q3",
+        "prompt": "ما المقاس الحالي والمطلوب تجربته؟",
+        "options": [
+          "الحالي L والمطلوب M",
+          "الحالي M والمطلوب M",
+          "الحالي M والمطلوب L"
+        ],
+        "correctIndex": 2,
+        "explanation": "يقول الزبون Ik heb maat M ثم يطلب تجربة L."
+      },
+      {
+        "id": "a2-explaining-a-purchase-problem-q4",
+        "prompt": "ما الذي وافقت الموظفة على فعله أولاً؟",
+        "options": [
+          "فحص الإيصال قبل مناقشة الخيارات",
+          "إرجاع المال فوراً",
+          "تأكيد الاستبدال دون فحص"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ik controleer eerst uw bon لا يؤكد قبول الاستبدال بعد."
+      }
+    ]
+  },
+  {
+    "slug": "a2-comparing-products",
+    "moduleId": "a2-shopping-choices",
+    "level": "A2",
+    "number": "18",
+    "title": "قارن بين منتجين",
+    "dutchTitle": "Twee producten vergelijken",
+    "description": "أقارن السعر والوزن وأختار منتجاً يناسب حاجتي وميزانيتي.",
+    "durationMinutes": 12,
+    "context": "تبحث لينا عن حقيبة خفيفة بحد أقصى ثلاثين يورو. تحمل حقيبة زرقاء وتشير إلى حقيبة سوداء على الرف.",
+    "goal": "أقارن السعر والوزن وأختار منتجاً يناسب حاجتي وميزانيتي.",
+    "grammar": {
+      "title": "المقارنة والإشارة مع de",
+      "explanation": "نستخدم deze tas وdie tas لأن tas اسم مع de. للمقارنة نتدرب على goedkoper dan وlichter dan. groter تعني أكبر، أما te groot فتعني أكبر من الملائم. لا تكفي صفة واحدة للاختيار؛ نربط المقارنة بحاجة المشتري.",
+      "example": "Deze tas is goedkoper dan die tas.",
+      "translation": "هذه الحقيبة أرخص من تلك الحقيبة."
+    },
+    "phrases": [
+      {
+        "id": "a2-comparing-products-01",
+        "dutch": "Ik zoek een lichte tas. Ik wil maximaal dertig euro uitgeven.",
+        "arabic": "أبحث عن حقيبة خفيفة. أريد إنفاق ثلاثين يورو كحد أقصى.",
+        "tip": "maximaal يحدد سقف الميزانية."
+      },
+      {
+        "id": "a2-comparing-products-02",
+        "dutch": "Deze blauwe tas kost achtentwintig euro. Die zwarte tas kost vijfendertig euro.",
+        "arabic": "هذه الحقيبة الزرقاء بثمانية وعشرين يورو. تلك الحقيبة السوداء بخمسة وثلاثين يورو.",
+        "tip": "هذه المقارنة بين حقيبتين محددتين."
+      },
+      {
+        "id": "a2-comparing-products-03",
+        "dutch": "Is de blauwe tas lichter dan de zwarte tas?",
+        "arabic": "هل الحقيبة الزرقاء أخف من السوداء؟",
+        "tip": "lichter صيغة المقارنة من licht."
+      },
+      {
+        "id": "a2-comparing-products-04",
+        "dutch": "Ja. De zwarte tas is groter, maar ook zwaarder.",
+        "arabic": "نعم. الحقيبة السوداء أكبر، لكنها أثقل أيضاً.",
+        "tip": "نربط ميزة الحجم بفرق الوزن باستخدام maar."
+      },
+      {
+        "id": "a2-comparing-products-05",
+        "dutch": "Deze tas is dus goedkoper en lichter dan die tas.",
+        "arabic": "إذن هذه الحقيبة أرخص وأخف من تلك.",
+        "tip": "تشير لينا إلى الزرقاء التي تحملها ثم السوداء على الرف."
+      },
+      {
+        "id": "a2-comparing-products-06",
+        "dutch": "Dat klopt. Welke tas kiest u?",
+        "arabic": "هذا صحيح. أي حقيبة تختارون؟",
+        "tip": "Welke تسأل عن الاختيار من البدائل."
+      },
+      {
+        "id": "a2-comparing-products-07",
+        "dutch": "Ik neem de blauwe tas omdat ik een lichte tas nodig heb.",
+        "arabic": "سآخذ الحقيبة الزرقاء لأنني أحتاج إلى حقيبة خفيفة.",
+        "tip": "نعيد ترتيب السبب: omdat ik ... nodig heb."
+      },
+      {
+        "id": "a2-comparing-products-08",
+        "dutch": "Prima, u kunt bij de kassa betalen.",
+        "arabic": "حسناً، يمكنكم الدفع عند الصندوق.",
+        "tip": "الاختيار تم، والدفع خطوة لاحقة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-comparing-products-01"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-products-02"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-comparing-products-03"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-products-04"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-comparing-products-05"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-products-06"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-comparing-products-07"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-products-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-comparing-products-q1",
+        "prompt": "أي حقيبة تقع ضمن ميزانية لينا؟",
+        "options": [
+          "السوداء فقط",
+          "الزرقاء فقط",
+          "كلاهما"
+        ],
+        "correctIndex": 1,
+        "explanation": "الزرقاء 28 ضمن سقف 30؛ السوداء 35 تتجاوزه."
+      },
+      {
+        "id": "a2-comparing-products-q2",
+        "prompt": "ما وصف السوداء مقارنة بالزرقاء؟",
+        "options": [
+          "أصغر وأخف",
+          "أرخص وأخف",
+          "أكبر وأثقل"
+        ],
+        "correctIndex": 2,
+        "explanation": "De zwarte tas is groter, maar ook zwaarder."
+      },
+      {
+        "id": "a2-comparing-products-q3",
+        "prompt": "أكمل المقارنة المعيارية: Deze tas is goedkoper ... die tas.",
+        "options": [
+          "dan",
+          "omdat",
+          "maar"
+        ],
+        "correctIndex": 0,
+        "explanation": "نتدرب على صفة المقارنة متبوعة بـ dan."
+      },
+      {
+        "id": "a2-comparing-products-q4",
+        "prompt": "لماذا اختارت لينا الزرقاء؟",
+        "options": [
+          "لأنها تريد أكبر حقيبة مهما كان السعر",
+          "لأنها تحتاج حقيبة خفيفة",
+          "لأن الزرقاء بخمسة وثلاثين يورو"
+        ],
+        "correctIndex": 1,
+        "explanation": "السبب الذي صرحت به هو حاجتها إلى حقيبة خفيفة."
+      }
+    ]
+  },
+  {
+    "slug": "a2-checking-quantities-and-prices",
+    "moduleId": "a2-shopping-choices",
+    "level": "A2",
+    "number": "19",
+    "title": "تحقق من الكمية والسعر",
+    "dutchTitle": "Aantal en prijs controleren",
+    "description": "أميز سعر القطعة من سعر المجموعة وأعيد عدد القطع والمبلغ الإجمالي.",
+    "durationMinutes": 12,
+    "context": "يريد سام ثلاثة أكواب فقط. يعرض المتجر الخيالي القطعة منفردة أو مجموعة من قطعتين. الأسعار تخص هذا المثال وحده.",
+    "goal": "أميز سعر القطعة من سعر المجموعة وأعيد عدد القطع والمبلغ الإجمالي.",
+    "grammar": {
+      "title": "المفرد والجمع وسعر القطعة",
+      "explanation": "نقول deze beker للمفرد مع de، وdeze bekers للجمع. per stuk تعني لكل قطعة؛ een set van twee تعني مجموعة من قطعتين. in totaal يوضح الإجمالي. عدد المجموعات لا يساوي عدد القطع.",
+      "example": "Deze bekers kosten vier euro vijftig per stuk.",
+      "translation": "سعر هذه الأكواب أربعة يورو وخمسون سنتاً للقطعة."
+    },
+    "phrases": [
+      {
+        "id": "a2-checking-quantities-and-prices-01",
+        "dutch": "Ik heb drie bekers nodig. Wat kosten deze bekers per stuk?",
+        "arabic": "أحتاج إلى ثلاثة أكواب. كم سعر هذه الأكواب للقطعة؟",
+        "tip": "نحدد العدد المطلوب قبل مقارنة طريقة البيع."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-02",
+        "dutch": "Ze kosten vier euro vijftig per stuk, of acht euro voor een set van twee.",
+        "arabic": "سعرها أربعة يورو وخمسون سنتاً للقطعة، أو ثمانية يورو لمجموعة من قطعتين.",
+        "tip": "سعر المجموعة يخص كوبين لا ثلاثة."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-03",
+        "dutch": "Kan ik één set en één losse beker kopen?",
+        "arabic": "هل يمكنني شراء مجموعة واحدة وكوب منفرد؟",
+        "tip": "één set plus één beker يحقق العدد المطلوب: ثلاثة."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-04",
+        "dutch": "Ja, dat zijn drie bekers voor twaalf euro vijftig in totaal.",
+        "arabic": "نعم، هذه ثلاثة أكواب بمبلغ إجمالي اثني عشر يورو وخمسين سنتاً.",
+        "tip": "8 + 4.50 = 12.50؛ نفصل السعر عن عدد القطع."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-05",
+        "dutch": "Zijn deze bekers allemaal even groot?",
+        "arabic": "هل هذه الأكواب كلها بالحجم نفسه؟",
+        "tip": "even groot تسأل عن تساوي الحجم."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-06",
+        "dutch": "Ja, elke beker heeft een inhoud van driehonderd milliliter.",
+        "arabic": "نعم، سعة كل كوب ثلاثمئة مليلتر.",
+        "tip": "elke مع اسم مفرد؛ السعة لكل كوب."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-07",
+        "dutch": "Dan neem ik één set en één losse beker, alstublieft.",
+        "arabic": "إذن سآخذ مجموعة واحدة وكوباً منفرداً، من فضلك.",
+        "tip": "نعيد الاختيار بدقة لتجنب شراء عدد زائد."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-08",
+        "dutch": "Goed, drie bekers voor twaalf euro vijftig. Wilt u een tas?",
+        "arabic": "حسناً، ثلاثة أكواب باثني عشر يورو وخمسين سنتاً. هل تريدون كيساً؟",
+        "tip": "تؤكد الموظفة عدد الأكواب وثمنها؛ الكيس سؤال إضافي."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "سام",
+        "phraseId": "a2-checking-quantities-and-prices-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-checking-quantities-and-prices-02"
+      },
+      {
+        "speaker": "سام",
+        "phraseId": "a2-checking-quantities-and-prices-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-checking-quantities-and-prices-04"
+      },
+      {
+        "speaker": "سام",
+        "phraseId": "a2-checking-quantities-and-prices-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-checking-quantities-and-prices-06"
+      },
+      {
+        "speaker": "سام",
+        "phraseId": "a2-checking-quantities-and-prices-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-checking-quantities-and-prices-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-checking-quantities-and-prices-q1",
+        "prompt": "على ماذا ينطبق سعر ثمانية يورو؟",
+        "options": [
+          "ثلاثة أكواب",
+          "كل كوب منفرد",
+          "مجموعة من كوبين"
+        ],
+        "correctIndex": 2,
+        "explanation": "voor een set van twee يحدد المجموعة والعدد."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-q2",
+        "prompt": "ما الاختيار الذي يحقق طلب ثلاثة أكواب في الحوار؟",
+        "options": [
+          "مجموعة من اثنين وكوب منفرد",
+          "ثلاث مجموعات من اثنين",
+          "مجموعتان من اثنين"
+        ],
+        "correctIndex": 0,
+        "explanation": "المجموعة تحتوي كوبين؛ إضافة كوب تجعل العدد ثلاثة."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-q3",
+        "prompt": "كم ثمن الأكواب الثلاثة المتفق عليها دون أي إضافات؟",
+        "options": [
+          "ثمانية يورو",
+          "اثنا عشر يورو وخمسون سنتاً",
+          "أربعة يورو وخمسون سنتاً"
+        ],
+        "correctIndex": 1,
+        "explanation": "أكدت الموظفة الإجمالي 12.50 للمجموعة والكوب المنفرد."
+      },
+      {
+        "id": "a2-checking-quantities-and-prices-q4",
+        "prompt": "ماذا تعني allemaal even groot؟",
+        "options": [
+          "كلها بألوان مختلفة",
+          "كلها أغلى من السابق",
+          "كلها بالحجم نفسه"
+        ],
+        "correctIndex": 2,
+        "explanation": "even groot تصف المساواة في الحجم، لا اللون أو السعر."
+      }
+    ]
+  },
+  {
+    "slug": "a2-confirming-a-shop-alternative",
+    "moduleId": "a2-shopping-choices",
+    "level": "A2",
+    "number": "20",
+    "title": "أكد البديل مع المتجر",
+    "dutchTitle": "Een alternatief met de winkel afspreken",
+    "description": "أستجيب لنقص الكمية وأختار بديلاً ثم أتحقق من العدد والسعر والاستلام.",
+    "durationMinutes": 12,
+    "context": "طلبت نور وعاءين أزرقين من متجر خيالي بسعر ستة يورو للوعاء. يتصل الموظف لأن المتاح أزرق واحد فقط، ويعرض بديلاً أبيض بالسعر نفسه.",
+    "goal": "أستجيب لنقص الكمية وأختار بديلاً ثم أتحقق من العدد والسعر والاستلام.",
+    "grammar": {
+      "title": "تحديد التفضيل بدلاً من افتراضه",
+      "explanation": "نستخدم liever ... dan لذكر بديل مفضل: liever één blauwe en één witte kom dan twee witte kommen. نميز op voorraad عن klaarliggen: وجود السلعة في المخزون لا يثبت تجهيز الطلب. نطلب التأكيد ثم نعيد التفاصيل.",
+      "example": "Ik neem liever één blauwe en één witte kom dan twee witte kommen.",
+      "translation": "أفضل أخذ وعاء أزرق ووعاء أبيض على أخذ وعاءين أبيضين."
+    },
+    "phrases": [
+      {
+        "id": "a2-confirming-a-shop-alternative-01",
+        "dutch": "U hebt twee blauwe kommen besteld, maar we hebben nog maar één blauwe kom.",
+        "arabic": "طلبتم وعاءين أزرقين، لكن لم يبق لدينا إلا وعاء أزرق واحد.",
+        "tip": "nog maar één يحدد أن الكمية أقل من الطلب."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-02",
+        "dutch": "Heeft u ook witte kommen op voorraad?",
+        "arabic": "هل لديكم أيضاً أوعية بيضاء في المخزون؟",
+        "tip": "نسأل عن بديل محدد قبل قبوله."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-03",
+        "dutch": "Ja, die kosten ook zes euro per stuk.",
+        "arabic": "نعم، سعرها أيضاً ستة يورو للقطعة.",
+        "tip": "die تعود على الجمع witte kommen."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-04",
+        "dutch": "Ik neem liever één blauwe en één witte kom dan twee witte kommen.",
+        "arabic": "أفضل أخذ وعاء أزرق ووعاء أبيض على أخذ وعاءين أبيضين.",
+        "tip": "التفضيل يتعلق بتوزيع اللونين مع بقاء العدد اثنين."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-05",
+        "dutch": "Goed, ik pas uw bestelling aan. Dat is twaalf euro in totaal.",
+        "arabic": "حسناً، سأعدل طلبكم. الإجمالي اثنا عشر يورو.",
+        "tip": "aanpassen فعل منفصل: ik pas ... aan."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-06",
+        "dutch": "Liggen beide kommen al klaar?",
+        "arabic": "هل جُهز الوعاءان بالفعل للاستلام؟",
+        "tip": "السؤال عن التجهيز، وليس مجرد وجود مخزون."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-07",
+        "dutch": "Ja, u kunt ze vandaag voor zes uur bij de servicebalie ophalen.",
+        "arabic": "نعم، يمكنكم استلامهما اليوم قبل السادسة من مكتب خدمة الزبائن.",
+        "tip": "ophalen يعني الاستلام من المكان، وليس التوصيل للمنزل."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-08",
+        "dutch": "Dank u. Dus één blauwe en één witte kom voor twaalf euro, vandaag voor zes uur ophalen.",
+        "arabic": "شكراً لكم. إذن وعاء أزرق ووعاء أبيض باثني عشر يورو، والاستلام اليوم قبل السادسة.",
+        "tip": "نعيد الألوان والعدد والإجمالي وخطوة الاستلام."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-confirming-a-shop-alternative-01"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-shop-alternative-02"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-confirming-a-shop-alternative-03"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-shop-alternative-04"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-confirming-a-shop-alternative-05"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-shop-alternative-06"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-confirming-a-shop-alternative-07"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-confirming-a-shop-alternative-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-confirming-a-shop-alternative-q1",
+        "prompt": "ما الفرق بين الطلب الأصلي والمخزون الأزرق؟",
+        "options": [
+          "طلبت اثنين والمتاح واحد",
+          "طلبت واحداً والمتاح اثنان",
+          "طلبت اثنين والمتاح ثلاثة"
+        ],
+        "correctIndex": 0,
+        "explanation": "twee besteld مقابل nog maar één يوضح النقص."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-q2",
+        "prompt": "ما التوزيع الذي اختارته نور؟",
+        "options": [
+          "وعاءان أبيضان",
+          "وعاء أزرق ووعاء أبيض",
+          "وعاءان أزرقان"
+        ],
+        "correctIndex": 1,
+        "explanation": "liever يحدد تفضيل وعاء من كل لون."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-q3",
+        "prompt": "أي جملة تتحقق من جاهزية الطلب فعلاً؟",
+        "options": [
+          "Welke kleur vindt u mooi?",
+          "Hoeveel kost een kom?",
+          "Liggen beide kommen al klaar?"
+        ],
+        "correctIndex": 2,
+        "explanation": "klaarliggen يسأل عن تجهيز الأوعية للاستلام."
+      },
+      {
+        "id": "a2-confirming-a-shop-alternative-q4",
+        "prompt": "ما الإجراء المتفق عليه بعد تأكيد الموظف؟",
+        "options": [
+          "استلام وعاءين بإجمالي 12 يورو اليوم قبل السادسة",
+          "انتظار توصيل ثلاثة أوعية غداً",
+          "استلام وعاءين بستة يورو إجمالاً"
+        ],
+        "correctIndex": 0,
+        "explanation": "السعر لكل قطعة 6؛ الإجمالي 12، والاستلام اليوم قبل السادسة."
+      }
+    ]
+  },
+  {
+    "slug": "a2-understanding-school-instructions",
+    "moduleId": "a2-school-local-messages",
+    "level": "A2",
+    "number": "21",
+    "title": "افهم تعليمات المدرسة",
+    "dutchTitle": "Begrijpen wat nodig is",
+    "description": "أميز المشاركة الاختيارية من الإجراء المطلوب إذا قررت الحضور.",
+    "durationMinutes": 12,
+    "context": "تسأل أميرة موظف مدرسة خيالية عن أمسية للأهالي. التعليمات تخص هذه الأمسية وحدها وليست قواعد عامة للمدارس.",
+    "goal": "أميز المشاركة الاختيارية من الإجراء المطلوب إذا قررت الحضور.",
+    "grammar": {
+      "title": "الإلزام وعدم الحاجة",
+      "explanation": "moeten مع المصدر يدل هنا على المطلوب: U moet zich aanmelden. أما U hoeft niet te komen فتعني أن الحضور غير مطلوب، لا أنه ممنوع. نتدرب على hoeven ... niet te مع فعل واحد في المصدر؛ لا نعمم هذه الصيغة على كل مجموعات الأفعال.",
+      "example": "U hoeft geen schrift mee te nemen.",
+      "translation": "لا يلزمكم إحضار دفتر."
+    },
+    "phrases": [
+      {
+        "id": "a2-understanding-school-instructions-01",
+        "dutch": "Ik heb de uitnodiging voor de ouderavond gelezen.",
+        "arabic": "قرأت الدعوة إلى أمسية الأهالي.",
+        "tip": "نراجع الماضي المركب: heb gelezen."
+      },
+      {
+        "id": "a2-understanding-school-instructions-02",
+        "dutch": "Heeft u een vraag over de bijeenkomst?",
+        "arabic": "هل لديكم سؤال عن اللقاء؟",
+        "tip": "bijeenkomst كلمة عامة للقاء منظم."
+      },
+      {
+        "id": "a2-understanding-school-instructions-03",
+        "dutch": "Moet ik donderdagavond naar school komen?",
+        "arabic": "هل يجب علي الحضور إلى المدرسة مساء الخميس؟",
+        "tip": "Moet ik ...? تسأل عن الإلزام."
+      },
+      {
+        "id": "a2-understanding-school-instructions-04",
+        "dutch": "Nee, de ouderavond is vrijwillig. U hoeft niet te komen.",
+        "arabic": "لا، المشاركة في أمسية الأهالي اختيارية. لا يلزمكم الحضور.",
+        "tip": "عدم الحاجة إلى الحضور لا يعني منعه."
+      },
+      {
+        "id": "a2-understanding-school-instructions-05",
+        "dutch": "Ik wil wel komen. Moet ik me aanmelden?",
+        "arabic": "أرغب في الحضور. هل يجب أن أسجل؟",
+        "tip": "wel يوضح الرغبة في الحضور رغم كونه اختيارياً."
+      },
+      {
+        "id": "a2-understanding-school-instructions-06",
+        "dutch": "Ja, als u komt, moet u zich vooraf aanmelden.",
+        "arabic": "نعم، إذا كنتم ستحضرون، يجب أن تسجلوا مسبقاً.",
+        "tip": "الإجراء مطلوب ممن يقرر الحضور، لا من كل الأهالي."
+      },
+      {
+        "id": "a2-understanding-school-instructions-07",
+        "dutch": "Moet ik een schrift meenemen?",
+        "arabic": "هل يجب أن أحضر دفتراً؟",
+        "tip": "meenemen فعل منفصل نستخدم مصدره بعد moet."
+      },
+      {
+        "id": "a2-understanding-school-instructions-08",
+        "dutch": "Nee, u hoeft geen schrift mee te nemen. Wij geven u papier en een pen.",
+        "arabic": "لا، لا يلزمكم إحضار دفتر. سنعطيكم ورقاً وقلماً.",
+        "tip": "مع te يصبح المصدر المنفصل mee te nemen."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "أميرة",
+        "phraseId": "a2-understanding-school-instructions-01"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-understanding-school-instructions-02"
+      },
+      {
+        "speaker": "أميرة",
+        "phraseId": "a2-understanding-school-instructions-03"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-understanding-school-instructions-04"
+      },
+      {
+        "speaker": "أميرة",
+        "phraseId": "a2-understanding-school-instructions-05"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-understanding-school-instructions-06"
+      },
+      {
+        "speaker": "أميرة",
+        "phraseId": "a2-understanding-school-instructions-07"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-understanding-school-instructions-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-understanding-school-instructions-q1",
+        "prompt": "هل يجب على أميرة حضور الأمسية؟",
+        "options": [
+          "نعم، على الجميع الحضور",
+          "لا، المشاركة اختيارية",
+          "لا، الحضور ممنوع"
+        ],
+        "correctIndex": 1,
+        "explanation": "vrijwillig وhoeft niet تعنيان عدم الإلزام، لا المنع."
+      },
+      {
+        "id": "a2-understanding-school-instructions-q2",
+        "prompt": "ما المطلوب إذا قررت الحضور؟",
+        "options": [
+          "إحضار دفتر حتماً",
+          "الانتظار دون تسجيل",
+          "التسجيل مسبقاً"
+        ],
+        "correctIndex": 2,
+        "explanation": "als u komt يحدد الشرط الذي يصبح معه التسجيل مطلوباً."
+      },
+      {
+        "id": "a2-understanding-school-instructions-q3",
+        "prompt": "أي جملة تعني أن إحضار الدفتر غير لازم؟",
+        "options": [
+          "U hoeft geen schrift mee te nemen.",
+          "U mag geen schrift meenemen.",
+          "U moet een schrift meenemen."
+        ],
+        "correctIndex": 0,
+        "explanation": "hoeft geen ... mee te nemen تنفي الحاجة؛ mag geen تفيد المنع وmoet تفيد الإلزام هنا."
+      },
+      {
+        "id": "a2-understanding-school-instructions-q4",
+        "prompt": "لماذا لا تحتاج أميرة إلى دفتر؟",
+        "options": [
+          "لأنها لن تحضر",
+          "لأن المدرسة توفر ورقاً وقلماً",
+          "لأن كل الكتابة ممنوعة"
+        ],
+        "correctIndex": 1,
+        "explanation": "Wij geven u papier en een pen يشرح البديل المتاح."
+      }
+    ]
+  },
+  {
+    "slug": "a2-finding-a-reply-deadline",
+    "moduleId": "a2-school-local-messages",
+    "level": "A2",
+    "number": "22",
+    "title": "حدد مهلة الرد",
+    "dutchTitle": "De reactietermijn vinden",
+    "description": "أحدد مهلة الرد وطريقته وأفصلها عن يوم اللقاء ووقت بدايته.",
+    "durationMinutes": 12,
+    "context": "اليوم الاثنين. يتصل سام بمدرسة خيالية ليسأل عن أمسية الخميس 19:00. المدرسة تطلب رد جميع المدعوين، حتى من لا يستطيع الحضور.",
+    "goal": "أحدد مهلة الرد وطريقته وأفصلها عن يوم اللقاء ووقت بدايته.",
+    "grammar": {
+      "title": "متى نرد ومتى نحضر؟",
+      "explanation": "voor dinsdag twaalf uur تعني قبل الثلاثاء الثانية عشرة؛ om zeven uur وقت بدء اللقاء. Wanneer يسأل عن الوقت، وHoe عن طريقة الرد. وحتى عدم الحضور لا يلغي طلب الرد إذا نصت الرسالة على ذلك.",
+      "example": "Wilt u voor dinsdag twaalf uur per e-mail reageren?",
+      "translation": "هل يمكنكم الرد بالبريد الإلكتروني قبل الثلاثاء الثانية عشرة؟"
+    },
+    "phrases": [
+      {
+        "id": "a2-finding-a-reply-deadline-01",
+        "dutch": "In de brief staat dat de ouderavond donderdag om zeven uur begint.",
+        "arabic": "تذكر الرسالة أن أمسية الأهالي تبدأ الخميس الساعة السابعة.",
+        "tip": "dat هنا تقدم مضمون الرسالة؛ لا تعني اسم إشارة."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-02",
+        "dutch": "Ja, dat klopt. Wilt u voor dinsdag twaalf uur per e-mail reageren?",
+        "arabic": "نعم، هذا صحيح. هل يمكنكم الرد بالبريد الإلكتروني قبل الثلاثاء الثانية عشرة؟",
+        "tip": "مهلة الرد تسبق يوم اللقاء."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-03",
+        "dutch": "Moet ik ook reageren als ik niet kan komen?",
+        "arabic": "هل يجب أن أرد أيضاً إذا لم أستطع الحضور؟",
+        "tip": "ook تربط الرد بحالة عدم الحضور أيضاً."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-04",
+        "dutch": "Ja, laat ons ook weten als u niet komt.",
+        "arabic": "نعم، أخبرونا أيضاً إذا كنتم لن تحضروا.",
+        "tip": "الرسالة تطلب جواباً من الحاضرين وغير الحاضرين."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-05",
+        "dutch": "Ik kan donderdag niet komen omdat ik werk.",
+        "arabic": "لا أستطيع الحضور الخميس لأنني أعمل.",
+        "tip": "نراجع السبب مع omdat وفعل واحد في آخره."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-06",
+        "dutch": "Dat kunt u in uw antwoord schrijven.",
+        "arabic": "يمكنكم كتابة ذلك في ردكم.",
+        "tip": "التعليمات هنا تطلب الرد بالبريد الإلكتروني."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-07",
+        "dutch": "Dus ik stuur vandaag een e-mail. De bijeenkomst is niet op dinsdag.",
+        "arabic": "إذن سأرسل بريداً اليوم. اللقاء ليس الثلاثاء.",
+        "tip": "اليوم الاثنين؛ الثلاثاء مهلة رد لا يوم اللقاء."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-08",
+        "dutch": "Precies. De bijeenkomst is donderdag; dinsdag is de deadline voor uw antwoord.",
+        "arabic": "بالضبط. اللقاء الخميس؛ الثلاثاء هو الموعد النهائي لردكم.",
+        "tip": "ننسب كل يوم إلى الإجراء الصحيح."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "سام",
+        "phraseId": "a2-finding-a-reply-deadline-01"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-finding-a-reply-deadline-02"
+      },
+      {
+        "speaker": "سام",
+        "phraseId": "a2-finding-a-reply-deadline-03"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-finding-a-reply-deadline-04"
+      },
+      {
+        "speaker": "سام",
+        "phraseId": "a2-finding-a-reply-deadline-05"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-finding-a-reply-deadline-06"
+      },
+      {
+        "speaker": "سام",
+        "phraseId": "a2-finding-a-reply-deadline-07"
+      },
+      {
+        "speaker": "الموظفة",
+        "phraseId": "a2-finding-a-reply-deadline-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-finding-a-reply-deadline-q1",
+        "prompt": "متى تبدأ الأمسية ومتى يجب أن يصل الرد؟",
+        "options": [
+          "الثلاثاء 12:00؛ والرد الخميس",
+          "الخميس 12:00؛ والرد عند السابعة",
+          "الخميس 19:00؛ والرد قبل الثلاثاء 12:00"
+        ],
+        "correctIndex": 2,
+        "explanation": "om zeven uur لبداية الخميس، وvoor dinsdag twaalf uur لمهلة الرد."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-q2",
+        "prompt": "سام يعمل الخميس. ما الإجراء الموافق للتعليمات؟",
+        "options": [
+          "يرسل بريداً يوضح عدم الحضور قبل المهلة",
+          "لا يرد لأن المشاركة اختيارية",
+          "يحضر الثلاثاء ظهراً"
+        ],
+        "correctIndex": 0,
+        "explanation": "تطلب المدرسة الرد أيضاً من غير القادرين على الحضور."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-q3",
+        "prompt": "ما طريقة الرد المطلوبة في هذا المثال؟",
+        "options": [
+          "رسالة ورقية يوم الخميس",
+          "البريد الإلكتروني",
+          "الحضور الشخصي فقط"
+        ],
+        "correctIndex": 1,
+        "explanation": "per e-mail تحدد وسيلة الرد."
+      },
+      {
+        "id": "a2-finding-a-reply-deadline-q4",
+        "prompt": "أي سؤال يسأل عن مهلة إرسال الرد؟",
+        "options": [
+          "Waar is de school?",
+          "Wie komt donderdag?",
+          "Wanneer moet ik reageren?"
+        ],
+        "correctIndex": 2,
+        "explanation": "Wanneer يسأل عن الزمن؛ reageren يحدد أن السؤال عن الرد."
+      }
+    ]
+  },
+  {
+    "slug": "a2-clarifying-a-local-form",
+    "moduleId": "a2-school-local-messages",
+    "level": "A2",
+    "number": "23",
+    "title": "استوضح حقول الاستمارة",
+    "dutchTitle": "Een formulier van het buurthuis begrijpen",
+    "description": "أطلب توضيح حقل غير واضح وأميز المعلومات المطلوبة من الاختيارية.",
+    "durationMinutes": 12,
+    "context": "تملأ لينا استمارة خيالية للمشاركة في ورشة بالمركز المجتمعي مع أختها. تستخدم بيانات خيالية فقط.",
+    "goal": "أطلب توضيح حقل غير واضح وأميز المعلومات المطلوبة من الاختيارية.",
+    "grammar": {
+      "title": "سؤال مباشر وسؤال غير مباشر",
+      "explanation": "نسأل مباشرة: Is een telefoonnummer verplicht? وبأدب داخل سؤال: Kunt u zeggen of een telefoonnummer verplicht is? تأتي is في نهاية هذا السؤال بعد of. نتدرب على هذا المثال، ولا نعمم الترتيب على مجموعات متعددة الأفعال.",
+      "example": "Kunt u zeggen of een telefoonnummer verplicht is?",
+      "translation": "هل يمكنكم إخباري ما إذا كان رقم الهاتف مطلوباً؟"
+    },
+    "phrases": [
+      {
+        "id": "a2-clarifying-a-local-form-01",
+        "dutch": "Ik vul het formulier voor de workshop in, maar ik begrijp één vraag niet.",
+        "arabic": "أملأ استمارة الورشة، لكنني لا أفهم سؤالاً واحداً.",
+        "tip": "invullen ينفصل: ik vul ... in."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-02",
+        "dutch": "Welke vraag bedoelt u?",
+        "arabic": "أي سؤال تقصدون؟",
+        "tip": "نحدد موضع الغموض بدلاً من إعادة الاستمارة كلها."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-03",
+        "dutch": "Wat bedoelt u met het aantal deelnemers?",
+        "arabic": "ماذا تقصدون بعدد المشاركين؟",
+        "tip": "met تقدم العبارة التي تحتاج إلى شرح."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-04",
+        "dutch": "Dat is het totale aantal deelnemers, inclusief uzelf.",
+        "arabic": "هذا هو العدد الإجمالي للمشاركين، بما فيهم أنتم.",
+        "tip": "inclusief uzelf تمنع نسيان مقدم الاستمارة في العدد."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-05",
+        "dutch": "Mijn zus en ik komen samen. Dan vul ik twee in.",
+        "arabic": "سأحضر أنا وأختي معاً. إذن أكتب اثنين.",
+        "tip": "العدد يشمل المتحدثة وأختها."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-06",
+        "dutch": "Juist. Uw naam en het aantal deelnemers zijn verplicht.",
+        "arabic": "صحيح. اسمكم وعدد المشاركين مطلوبان.",
+        "tip": "verplicht يحدد الحقول المطلوبة في هذه الاستمارة."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-07",
+        "dutch": "Kunt u zeggen of een telefoonnummer verplicht is?",
+        "arabic": "هل يمكنكم إخباري ما إذا كان رقم الهاتف مطلوباً؟",
+        "tip": "of هنا تعني ما إذا، وليست أو بين بديلين."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-08",
+        "dutch": "Nee, dat veld is optioneel. U hoeft uw telefoonnummer niet in te vullen.",
+        "arabic": "لا، ذلك الحقل اختياري. لا يلزمكم إدخال رقم هاتفكم.",
+        "tip": "in te vullen مصدر منفصل بعد hoeven مع te."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-clarifying-a-local-form-01"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-clarifying-a-local-form-02"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-clarifying-a-local-form-03"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-clarifying-a-local-form-04"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-clarifying-a-local-form-05"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-clarifying-a-local-form-06"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-clarifying-a-local-form-07"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-clarifying-a-local-form-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-clarifying-a-local-form-q1",
+        "prompt": "كم تكتب لينا في خانة عدد المشاركين؟",
+        "options": [
+          "اثنين: هي وأختها",
+          "واحداً: أختها فقط",
+          "ثلاثة: مع الموظف"
+        ],
+        "correctIndex": 0,
+        "explanation": "inclusief uzelf تعني احتساب صاحبة الاستمارة أيضاً."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-q2",
+        "prompt": "أي معلومات يطلبها النموذج إلزامياً؟",
+        "options": [
+          "الهاتف فقط",
+          "الاسم وعدد المشاركين",
+          "عنوان المنزل ورقم الهاتف"
+        ],
+        "correctIndex": 1,
+        "explanation": "الموظف حدد naam وaantal deelnemers فقط كمطلوبين."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-q3",
+        "prompt": "ماذا يعني أن حقل الهاتف optioneel؟",
+        "options": [
+          "ممنوع إدخال الهاتف",
+          "ضروري لقبول كل استمارة",
+          "يمكن تركه دون تعبئة"
+        ],
+        "correctIndex": 2,
+        "explanation": "الاختياري ليس مطلوباً؛ لا يعني أن تعبئته ممنوعة."
+      },
+      {
+        "id": "a2-clarifying-a-local-form-q4",
+        "prompt": "أي صياغة سليمة تسأل عن إلزام الهاتف؟",
+        "options": [
+          "Kunt u zeggen of een telefoonnummer verplicht is?",
+          "Kunt u zeggen of is een telefoonnummer verplicht?",
+          "Kunt u zeggen of een telefoonnummer is verplicht?"
+        ],
+        "correctIndex": 0,
+        "explanation": "في السؤال غير المباشر البسيط يأتي الفعل is في النهاية."
+      }
+    ]
+  },
+  {
+    "slug": "a2-writing-a-relevant-reply",
+    "moduleId": "a2-school-local-messages",
+    "level": "A2",
+    "number": "24",
+    "title": "اكتب رداً يجيب عن الرسالة",
+    "dutchTitle": "Gericht op een bericht reageren",
+    "description": "أجيب عن الأسئلة المطلوبة وأبلغ عن تغيير واضح دون اختراع تفاصيل.",
+    "durationMinutes": 12,
+    "context": "نور سجلت لشخصين في ورشة خيالية بالمركز المجتمعي يوم السبت 14:00. تلقت رسالة تسأل هل ما زالا سيحضران وهل ستحضر حاسوباً. أختها لن تستطيع الحضور، والورشة توفر أجهزة.",
+    "goal": "أجيب عن الأسئلة المطلوبة وأبلغ عن تغيير واضح دون اختراع تفاصيل.",
+    "grammar": {
+      "title": "السبب والنتيجة في الرد",
+      "explanation": "نربط السبب بـ omdat، ونراجع النتيجة باستخدام daarom في أول الجملة: Mijn zus werkt, daarom kom ik alleen. بعد daarom يأتي الفعل kom ثم الفاعل ik. الرد المفيد يوضح ما تغير ويجيب عن الأسئلة المطلوبة.",
+      "example": "Mijn zus werkt, daarom kom ik alleen.",
+      "translation": "أختي تعمل، لذلك سأحضر وحدي."
+    },
+    "phrases": [
+      {
+        "id": "a2-writing-a-relevant-reply-01",
+        "dutch": "Ik reageer op uw bericht over de workshop van zaterdag.",
+        "arabic": "أرد على رسالتكم بشأن ورشة السبت.",
+        "tip": "نحدد الرسالة المقصودة أولاً."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-02",
+        "dutch": "U hebt twee personen aangemeld. Komt u nog steeds samen?",
+        "arabic": "سجلتم شخصين. هل ما زلتم ستحضرون معاً؟",
+        "tip": "nog steeds يسأل هل المعلومات السابقة ما زالت صحيحة."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-03",
+        "dutch": "Mijn zus kan niet komen omdat ze werkt. Daarom kom ik alleen.",
+        "arabic": "أختي لا تستطيع الحضور لأنها تعمل. لذلك سأحضر وحدي.",
+        "tip": "نميز السبب من النتيجة مع ترتيب الفعل بعد daarom."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-04",
+        "dutch": "Dank u. Neemt u een eigen laptop mee?",
+        "arabic": "شكراً لكم. هل ستحضرون حاسوباً محمولاً خاصاً بكم؟",
+        "tip": "نجيب عن سؤال المعدات بصورة مستقلة عن عدد الحاضرين."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-05",
+        "dutch": "Nee, ik wil graag een laptop van het buurthuis gebruiken.",
+        "arabic": "لا، أود استخدام حاسوب محمول من المركز المجتمعي.",
+        "tip": "طلب جهاز من المركز لا يعني امتلاك المتحدثة لجهاز."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-06",
+        "dutch": "Dat kan. U hoeft geen eigen laptop mee te nemen.",
+        "arabic": "هذا ممكن. لا يلزمكم إحضار حاسوب خاص.",
+        "tip": "الموظف وافق على توفير الجهاز في هذا المثال."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-07",
+        "dutch": "Dus ik kom zaterdag om twee uur alleen en gebruik een laptop van het buurthuis.",
+        "arabic": "إذن سأحضر السبت الثانية وحدي وأستخدم حاسوباً من المركز المجتمعي.",
+        "tip": "الملخص يضم الموعد والعدد والحاجة العملية."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-08",
+        "dutch": "Dat klopt. Ik heb het aantal aangepast naar één deelnemer.",
+        "arabic": "صحيح. عدلت العدد إلى مشارك واحد.",
+        "tip": "تأكيد التعديل يأتي بعد إبلاغ نور، لا بمجرد طلبه."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-writing-a-relevant-reply-01"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-writing-a-relevant-reply-02"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-writing-a-relevant-reply-03"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-writing-a-relevant-reply-04"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-writing-a-relevant-reply-05"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-writing-a-relevant-reply-06"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-writing-a-relevant-reply-07"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-writing-a-relevant-reply-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-writing-a-relevant-reply-q1",
+        "prompt": "ما المعلومة التي تغيرت عن التسجيل السابق؟",
+        "options": [
+          "لن يحضر أحد",
+          "ستحضر نور وحدها بدلاً من شخصين",
+          "سيحضر ثلاثة أشخاص"
+        ],
+        "correctIndex": 1,
+        "explanation": "الأخت تعمل؛ نور أكدت حضورها وحدها."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-q2",
+        "prompt": "أي رد يجيب عن العدد والحاسوب معاً؟",
+        "options": [
+          "Bedankt voor uw bericht.",
+          "Ik vind de workshop leuk.",
+          "Ik kom alleen en gebruik graag een laptop van het buurthuis."
+        ],
+        "correctIndex": 2,
+        "explanation": "الشكر وحده أو إبداء الإعجاب لا يجيب عن السؤالين المطلوبين."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-q3",
+        "prompt": "أي جملة تعبر عن النتيجة بترتيب سليم؟",
+        "options": [
+          "Daarom kom ik alleen.",
+          "Daarom ik kom alleen.",
+          "Daarom alleen ik kom."
+        ],
+        "correctIndex": 0,
+        "explanation": "عند بدء الجملة بـ daarom يأتي الفعل المصرف ثم الفاعل."
+      },
+      {
+        "id": "a2-writing-a-relevant-reply-q4",
+        "prompt": "هل تحتاج نور إلى حاسوبها الخاص وفق رد الموظف؟",
+        "options": [
+          "نعم، وإلا لن تدخل",
+          "لا، يمكنها استخدام جهاز المركز",
+          "لا، لأن استعمال الحاسوب ممنوع"
+        ],
+        "correctIndex": 1,
+        "explanation": "الموظف قال Dat kan ثم نفى ضرورة إحضار جهاز خاص."
+      }
+    ]
   }
 ]
