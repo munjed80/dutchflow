@@ -44,6 +44,6 @@ All ten comprehension IDs have scoped remediation. Route/duration mistakes point
 
 All A1 data and preceding A2 records remain unchanged. Navigation connects the seventh resources and stops at their endpoints. Progress remains A1 53, A2 now 28. Account schema, import/storage keys and A1 placement are unchanged. A captured fingerprint protects all 792 previous A2 synthesis requests/SSML/filenames; previous fingerprints remain.
 
-Validation is being rerun on the reconstructed working tree. Final local test and visual results will be recorded before handoff. Real audio quality, independent Dutch/Arabic review and learner observation remain unverified. Paid exams stay deferred.
+Content/audio checks, A2 dry-run planning, all 66 native tests, all 146 Chromium end-to-end tests, TypeScript, production build and diff checks passed locally. Mobile partner practice (390px) and desktop reading were visually inspected without horizontal overflow. Full GitHub CI runs separately on the new PR. Real audio quality, independent Dutch/Arabic review and learner observation remain unverified. Paid exams stay deferred.
 
 Next: social experiences/invitations, recycling past/present contrast, plans, reasons and follow-up questions. Completing the eight proposed units alone does not establish full A2 proficiency coverage; audit the whole sequence before calling it complete.
