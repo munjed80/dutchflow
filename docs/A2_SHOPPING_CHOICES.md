@@ -1,6 +1,6 @@
 # A2 unit 5: shopping and choices
 
-Updated 2026-10-04. PR #24 is merged at `e30b755`; its final head `285ffed` passed full GitHub CI. This delivery starts a new branch from that merge. This is the current A2 inventory and internal editorial ledger; earlier unit documents retain their historical snapshots.
+Historical unit 5 snapshot, 2026-10-04. This delivery opened PR #25 from merged PR #24. Head `0bb9459` passed full GitHub CI before the owner requested the next unit in the same PR. Current totals are in `A2_SCHOOL_LOCAL_MESSAGES.md`; the unit-specific editorial decisions below remain relevant.
 
 ## Inventory
 

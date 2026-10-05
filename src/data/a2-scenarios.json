@@ -645,5 +645,135 @@
         "هل سألت عن الموافقة وعن الفرق بدلاً من السعر الكامل؟"
       ]
     }
+  },
+  {
+    "slug": "a2-replying-to-a-neighbourhood-invitation",
+    "unitId": "a2-school-local-messages",
+    "title": "استوضح الدعوة وردّ بالمعلومات المطلوبة",
+    "dutchTitle": "Reageren op een uitnodiging van het buurthuis",
+    "role": "أنت لينا. الدعوة لورشة رسم السبت 14:00 في القاعة الثالثة. ترغب في الحضور مع أختك. لا تعرف إن كانت المشاركة إلزامية أو متى ترسل الرد. استخدم هذه البيانات الخيالية.",
+    "partner": "موظف المركز المجتمعي",
+    "mission": "استوضح المشاركة والمهلة، واحسب نفسك ضمن الحاضرين، ثم أكد المعلومات المطلوبة دون اختراع إلزام للمواد أو الهاتف.",
+    "sourceLessons": [
+      "a2-understanding-school-instructions",
+      "a2-finding-a-reply-deadline",
+      "a2-clarifying-a-local-form",
+      "a2-writing-a-relevant-reply"
+    ],
+    "turns": [
+      {
+        "id": "a2-school-turn-1",
+        "goal": "اسأل عن الإلزام قبل أن تفترض معنى الدعوة.",
+        "prompt": "U hebt een uitnodiging voor de tekenworkshop gekregen. Wat wilt u weten?",
+        "translation": "تلقيتم دعوة لورشة الرسم. ماذا تريدون أن تعرفوا؟",
+        "choices": [
+          {
+            "text": "Is deelname verplicht, of mag ik zelf kiezen?",
+            "translation": "هل المشاركة إلزامية أم يمكنني الاختيار بنفسي؟",
+            "feedback": "سألت عما تريد معرفته دون افتراض أن الدعوة أمر."
+          },
+          {
+            "text": "Ik moet komen, want iedereen heeft een uitnodiging.",
+            "translation": "يجب أن أحضر لأن الجميع تلقى دعوة.",
+            "feedback": "الدعوة وحدها لا تثبت الإلزام."
+          },
+          {
+            "text": "Ik mag niet komen.",
+            "translation": "لا يسمح لي بالحضور.",
+            "feedback": "ليس في دورك ما يدل على منعك."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "U mag zelf kiezen. Als u komt, moet u zich vooraf aanmelden.",
+        "responseTranslation": "يمكنكم الاختيار. إذا كنتم ستحضرون، يجب أن تسجلوا مسبقاً."
+      },
+      {
+        "id": "a2-school-turn-2",
+        "goal": "اطلب مهلة الرد ووسيلته، لا موعد الورشة المعروف.",
+        "prompt": "Wilt u zich aanmelden?",
+        "translation": "هل تريدون التسجيل؟",
+        "choices": [
+          {
+            "text": "Ja, ik kom vrijdag om vijf uur naar de workshop.",
+            "translation": "نعم، سأحضر الورشة الجمعة الخامسة.",
+            "feedback": "موعد الورشة السبت الثانية؛ لم تُذكر مهلة الرد بعد."
+          },
+          {
+            "text": "Ja. Voor wanneer moet ik reageren en hoe kan dat?",
+            "translation": "نعم. قبل متى يجب أن أرد وكيف أفعل ذلك؟",
+            "feedback": "طلبت المهلة والوسيلة دون خلطهما بوقت النشاط."
+          },
+          {
+            "text": "Nee, ik heb mijn aanmelding al verstuurd.",
+            "translation": "لا، لقد أرسلت تسجيلي بالفعل.",
+            "feedback": "أنت ما زلت تستوضح كيفية التسجيل؛ لم ترسله في هذا الموقف."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Stuur ons voor donderdag vijf uur een e-mail met uw naam en het aantal personen, inclusief uzelf. Uw telefoonnummer is optioneel.",
+        "responseTranslation": "أرسلوا لنا بريداً قبل الخميس الخامسة يتضمن اسمكم وعدد الأشخاص، بمن فيهم أنتم. رقم الهاتف اختياري."
+      },
+      {
+        "id": "a2-school-turn-3",
+        "goal": "أعد عدد الحاضرين الصحيح واسأل عن مواد الرسم.",
+        "prompt": "Met hoeveel personen komt u?",
+        "translation": "كم شخصاً سيحضر معكم؟",
+        "choices": [
+          {
+            "text": "Met één persoon: alleen mijn zus.",
+            "translation": "شخص واحد: أختي فقط.",
+            "feedback": "يجب احتسابك مع أختك؛ ستأتيان معاً."
+          },
+          {
+            "text": "Met drie personen. Ik moet ook mijn telefoonnummer geven.",
+            "translation": "ثلاثة أشخاص. ويجب أن أعطي رقم هاتفي أيضاً.",
+            "feedback": "العدد غير صحيح والهاتف اختياري."
+          },
+          {
+            "text": "Mijn zus en ik komen samen, dus twee personen. Moeten we tekenmateriaal meenemen?",
+            "translation": "سأحضر أنا وأختي معاً، أي شخصان. هل يجب أن نحضر أدوات رسم؟",
+            "feedback": "حسبت نفسك وطلبت توضيح الاستعداد بدلاً من افتراضه."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Nee, u hoeft geen tekenmateriaal mee te nemen. Wij zorgen daarvoor.",
+        "responseTranslation": "لا، لا يلزمكم إحضار أدوات رسم. نحن نوفرها."
+      },
+      {
+        "id": "a2-school-turn-4",
+        "goal": "لخص الرد المطلوب وموعد النشاط دون افتراض أن الاتصال سجلّك بالفعل.",
+        "prompt": "Wat gaat u nu doen?",
+        "translation": "ماذا ستفعلون الآن؟",
+        "choices": [
+          {
+            "text": "Ik mail voor donderdag vijf uur mijn naam en meld twee personen aan voor zaterdag om twee uur in zaal drie.",
+            "translation": "سأرسل اسمي بالبريد قبل الخميس الخامسة وأسجل شخصين ليوم السبت الثانية في القاعة الثالثة.",
+            "feedback": "ميزت مهلة الرد من وقت الورشة وأبقيت الاسم والعدد."
+          },
+          {
+            "text": "Ik kom donderdag om vijf uur in zaal drie.",
+            "translation": "سأحضر الخميس الخامسة في القاعة الثالثة.",
+            "feedback": "هذا موعد مهلة الرد، وليس وقت الورشة."
+          },
+          {
+            "text": "Ik hoef niets te sturen, want deelname is vrijwillig.",
+            "translation": "لا يلزمني إرسال شيء لأن المشاركة اختيارية.",
+            "feedback": "إذا اخترت الحضور فعليك التسجيل مسبقاً وفق التعليمات."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Goed. Na uw e-mail bevestigen we uw aanmelding.",
+        "responseTranslation": "حسناً. بعد بريدكم سنؤكد التسجيل."
+      }
+    ],
+    "transfer": {
+      "prompt": "دعوة جديدة للقاء قراءة الاثنين 19:00. الرد قبل الجمعة 12:00 بالبريد، حتى لمن لا يستطيع الحضور. لا تستطيع لأن لديك درساً. اكتب رداً قصيراً يوضح ذلك مع تحية وتوقيع خيالي.",
+      "model": "Beste team,\nIk kan maandag om zeven uur niet komen omdat ik les heb. Bedankt voor de uitnodiging.\nMet vriendelijke groet,\nLina",
+      "translation": "الفريق المحترم،\nلا أستطيع الحضور الاثنين الساعة السابعة لأن لدي درساً. شكراً على الدعوة.\nمع التحية،\nلينا",
+      "checklist": [
+        "هل أجبت رغم عدم الحضور واستخدمت وقت اللقاء الصحيح؟",
+        "هل وضعت heb في نهاية السبب وأضفت تحية وتوقيعاً؟"
+      ]
+    }
   }
 ]

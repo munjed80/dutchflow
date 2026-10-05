@@ -1338,5 +1338,273 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "a2-understanding-school-instructions",
+    "vocabulary": [
+      {
+        "term": "de uitnodiging",
+        "kind": "noun",
+        "forms": "de uitnodigingen",
+        "meaning": "الدعوة؛ لا تكفي الكلمة وحدها لإثبات الإلزام.",
+        "phraseId": "a2-understanding-school-instructions-01"
+      },
+      {
+        "term": "lezen",
+        "kind": "verb",
+        "forms": "ik lees · ik heb gelezen",
+        "meaning": "يقرأ؛ gelezen صيغة الماضي المركب.",
+        "phraseId": "a2-understanding-school-instructions-01"
+      },
+      {
+        "term": "de ouderavond",
+        "kind": "noun",
+        "forms": "de ouderavonden",
+        "meaning": "أمسية لأهالي الطلاب.",
+        "phraseId": "a2-understanding-school-instructions-01"
+      },
+      {
+        "term": "vrijwillig",
+        "kind": "expression",
+        "forms": "de ouderavond is vrijwillig",
+        "meaning": "اختياري أو طوعي في هذا السياق.",
+        "phraseId": "a2-understanding-school-instructions-04"
+      },
+      {
+        "term": "zich aanmelden",
+        "kind": "verb",
+        "forms": "ik meld me aan · u meldt zich aan",
+        "meaning": "يسجل للمشاركة؛ الضمير يتغير مع الفاعل.",
+        "phraseId": "a2-understanding-school-instructions-06"
+      },
+      {
+        "term": "meenemen",
+        "kind": "verb",
+        "forms": "ik neem mee · mee te nemen",
+        "meaning": "يحضر معه؛ تأتي te بين جزأي المصدر المنفصل.",
+        "phraseId": "a2-understanding-school-instructions-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "دعوة خيالية تقول إن لقاء الجمعة اختياري، لكن الراغبين في الحضور يسجلون مسبقاً. أخبر صديقك بذلك في جملتين باستخدام je.",
+        "model": "Je hoeft vrijdag niet te komen. Als je komt, moet je je vooraf aanmelden.",
+        "translation": "لا يلزمك الحضور الجمعة. إذا كنت ستحضر، يجب أن تسجل مسبقاً.",
+        "checklist": [
+          "هل أوضحت عدم إلزام الحضور دون وصفه بالممنوع؟",
+          "هل ربطت التسجيل بقرار الحضور؟"
+        ]
+      },
+      {
+        "prompt": "قيل لك إن المدرسة توفر أقلاماً، لكن عليك إحضار استمارتك. أعد التعليمات بصيغة ik.",
+        "model": "Ik hoef geen pen mee te nemen. Ik moet mijn formulier meenemen.",
+        "translation": "لا يلزمني إحضار قلم. يجب أن أحضر استمارتي.",
+        "checklist": [
+          "هل ميزت الشيء الاختياري من المطلوب؟",
+          "هل استخدمت mee te nemen بعد hoef وmeenemen بعد moet؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-finding-a-reply-deadline",
+    "vocabulary": [
+      {
+        "term": "de brief",
+        "kind": "noun",
+        "forms": "de brieven",
+        "meaning": "الرسالة؛ هنا الدعوة المكتوبة.",
+        "phraseId": "a2-finding-a-reply-deadline-01"
+      },
+      {
+        "term": "beginnen",
+        "kind": "verb",
+        "forms": "het begint · het is begonnen",
+        "meaning": "يبدأ؛ هنا موعد بدء اللقاء.",
+        "phraseId": "a2-finding-a-reply-deadline-01"
+      },
+      {
+        "term": "reageren",
+        "kind": "verb",
+        "forms": "ik reageer · ik heb gereageerd",
+        "meaning": "يرد أو يستجيب.",
+        "phraseId": "a2-finding-a-reply-deadline-02"
+      },
+      {
+        "term": "per e-mail",
+        "kind": "expression",
+        "forms": "per e-mail reageren",
+        "meaning": "الرد بواسطة البريد الإلكتروني.",
+        "phraseId": "a2-finding-a-reply-deadline-02"
+      },
+      {
+        "term": "laten weten",
+        "kind": "expression",
+        "forms": "laat ons weten",
+        "meaning": "يبلغ أو يخبر؛ صيغة طلب جاهزة.",
+        "phraseId": "a2-finding-a-reply-deadline-04"
+      },
+      {
+        "term": "de deadline",
+        "kind": "noun",
+        "forms": "de deadlines",
+        "meaning": "المهلة النهائية؛ يجب ربطها بالفعل المقصود.",
+        "phraseId": "a2-finding-a-reply-deadline-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اليوم الثلاثاء. اللقاء المدرسي الجمعة 18:00، والرد مطلوب قبل الأربعاء 10:00. لن تحضر لأنك تعمل. اكتب رداً قصيراً الآن مع تحية وتوقيع باسم خيالي.",
+        "model": "Beste team,\nIk kan vrijdag om zes uur niet komen omdat ik werk. Bedankt voor de uitnodiging.\nMet vriendelijke groet,\nSami",
+        "translation": "الفريق المحترم،\nلا أستطيع الحضور الجمعة الساعة السادسة لأنني أعمل. شكراً على الدعوة.\nمع التحية،\nسامي",
+        "checklist": [
+          "هل رددت عن لقاء الجمعة لا عن مهلة الأربعاء؟",
+          "هل أوضحت عدم الحضور والسبب وأضفت تحية وتوقيعاً خيالياً؟"
+        ]
+      },
+      {
+        "prompt": "لديك رسالة عن لقاء الاثنين، لكنها لم تذكر مهلة الرد ولا وسيلته. اسأل سؤالين لتعرف متى ترد وهل يمكنك الرد بالبريد الإلكتروني.",
+        "model": "Wanneer moet ik reageren? Kan ik per e-mail antwoorden?",
+        "translation": "متى يجب أن أرد؟ هل يمكنني الرد بالبريد الإلكتروني؟",
+        "checklist": [
+          "هل سألت عن مهلة الرد دون اختراع تاريخ؟",
+          "هل سألت عن وسيلة الرد أيضاً؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-clarifying-a-local-form",
+    "vocabulary": [
+      {
+        "term": "invullen",
+        "kind": "verb",
+        "forms": "ik vul in · ik heb ingevuld",
+        "meaning": "يملأ خانة أو استمارة؛ in te vullen مع te.",
+        "phraseId": "a2-clarifying-a-local-form-01"
+      },
+      {
+        "term": "het aantal",
+        "kind": "noun",
+        "forms": "de aantallen",
+        "meaning": "العدد، لا أسماء المشاركين.",
+        "phraseId": "a2-clarifying-a-local-form-03"
+      },
+      {
+        "term": "de deelnemer",
+        "kind": "noun",
+        "forms": "de deelnemers",
+        "meaning": "المشارك أو المشاركة في النشاط.",
+        "phraseId": "a2-clarifying-a-local-form-03"
+      },
+      {
+        "term": "inclusief uzelf",
+        "kind": "expression",
+        "forms": "inclusief uzelf",
+        "meaning": "بما فيكم أنتم؛ الشخص الذي يقدم الطلب محسوب.",
+        "phraseId": "a2-clarifying-a-local-form-04"
+      },
+      {
+        "term": "verplicht",
+        "kind": "expression",
+        "forms": "naam en aantal zijn verplicht",
+        "meaning": "مطلوب أو إلزامي في النموذج المحدد.",
+        "phraseId": "a2-clarifying-a-local-form-06"
+      },
+      {
+        "term": "optioneel",
+        "kind": "expression",
+        "forms": "dit veld is optioneel",
+        "meaning": "اختياري؛ ليس ضرورياً لإتمام هذا النموذج.",
+        "phraseId": "a2-clarifying-a-local-form-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "أنت كريم وتحضر ورشة مع صديقين، والاستمارة تحسب مقدمها ضمن المشاركين. اذكر العدد واسأل إن كان إدخال البريد الإلكتروني مطلوباً. استخدم سؤالاً غير مباشر يبدأ Kunt u zeggen of.",
+        "model": "Ik kom met twee vrienden. We zijn met drie personen. Kunt u zeggen of een e-mailadres verplicht is?",
+        "translation": "سأحضر مع صديقين. نحن ثلاثة أشخاص. هل يمكنكم إخباري ما إذا كان عنوان البريد الإلكتروني مطلوباً؟",
+        "checklist": [
+          "هل حسبت نفسك مع الصديقين؟",
+          "هل وضعت is في نهاية السؤال بعد of؟"
+        ]
+      },
+      {
+        "prompt": "قيل لك إن الاسم مطلوب وإن حقل العنوان اختياري في استمارة تدريبية. أعد التعليمات مستخدماً ik وhoeven مع te.",
+        "model": "Ik moet mijn naam invullen. Ik hoef mijn adres niet in te vullen.",
+        "translation": "يجب أن أدخل اسمي. لا يلزمني إدخال عنواني.",
+        "checklist": [
+          "هل حافظت على الفرق بين المطلوب والاختياري؟",
+          "هل كتبت in te vullen في الجملة الثانية؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-writing-a-relevant-reply",
+    "vocabulary": [
+      {
+        "term": "reageren op",
+        "kind": "expression",
+        "forms": "ik reageer op uw bericht",
+        "meaning": "يرد على رسالة محددة.",
+        "phraseId": "a2-writing-a-relevant-reply-01"
+      },
+      {
+        "term": "nog steeds",
+        "kind": "expression",
+        "forms": "nog steeds samen komen",
+        "meaning": "ما زال؛ للاستفسار عن استمرار الخطة.",
+        "phraseId": "a2-writing-a-relevant-reply-02"
+      },
+      {
+        "term": "daarom",
+        "kind": "expression",
+        "forms": "daarom kom ik alleen",
+        "meaning": "لذلك؛ الفعل kom يسبق ik عند البدء بها.",
+        "phraseId": "a2-writing-a-relevant-reply-03"
+      },
+      {
+        "term": "alleen",
+        "kind": "expression",
+        "forms": "ik kom alleen",
+        "meaning": "وحدي؛ هنا مشارك واحد بدلاً من اثنين.",
+        "phraseId": "a2-writing-a-relevant-reply-03"
+      },
+      {
+        "term": "eigen",
+        "kind": "expression",
+        "forms": "een eigen laptop",
+        "meaning": "خاص بالشخص، لا جهاز مستعار من المركز.",
+        "phraseId": "a2-writing-a-relevant-reply-04"
+      },
+      {
+        "term": "gebruiken",
+        "kind": "verb",
+        "forms": "ik gebruik · ik heb gebruikt",
+        "meaning": "يستخدم؛ لا نضيف ge أخرى إلى gebruikt.",
+        "phraseId": "a2-writing-a-relevant-reply-05"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب رداً كاملاً باسم خيالي: سجلت لشخصين في ورشة الأحد 11:00، لكن صديقك يعمل وستحضر وحدك. ستستخدم جهاز المركز. أجب عن العدد والجهاز مع تحية وتوقيع.",
+        "model": "Beste team,\nMijn vriend werkt, daarom kom ik zondag om elf uur alleen. Ik gebruik graag een laptop van het buurthuis.\nMet vriendelijke groet,\nAmir",
+        "translation": "الفريق المحترم،\nصديقي يعمل، لذلك سأحضر الأحد الحادية عشرة وحدي. أود استخدام حاسوب من المركز المجتمعي.\nمع التحية،\nأمير",
+        "checklist": [
+          "هل أوضحت التغيير إلى شخص واحد وذكرت الوقت الصحيح؟",
+          "هل أجبت عن الجهاز وأضفت تحية وتوقيعاً؟"
+        ]
+      },
+      {
+        "prompt": "موقف جديد: ستأتي إلى ورشة مع أختك كما اتفقتما سابقاً، وستحضر حاسوبك الخاص. أجب عن السؤالين: Komt u nog steeds met twee personen? Neemt u een eigen laptop mee?",
+        "model": "Ja, mijn zus en ik komen nog steeds samen. We zijn met twee personen. Ik neem mijn eigen laptop mee.",
+        "translation": "نعم، ما زالت خطتنا أن نحضر معاً أنا وأختي. نحن شخصان. سأحضر حاسوبي الخاص.",
+        "checklist": [
+          "هل أكدت بقاء العدد اثنين بدلاً من نسخ تغيير نور؟",
+          "هل أجبت عن إحضار جهازك الخاص؟"
+        ]
+      }
+    ]
   }
 ]

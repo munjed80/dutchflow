@@ -593,5 +593,124 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "a2-school-local-messages",
+    "title": "مراجعة: اقرأ المطلوب وأرسل رداً مناسباً",
+    "unitIds": [
+      "a2-school-local-messages"
+    ],
+    "reading": {
+      "text": "Beste Noor, u hebt twee personen aangemeld voor de computerworkshop op zaterdag. De workshop begint om tien uur in zaal één van het buurthuis. Wilt u voor donderdag zes uur per e-mail bevestigen of u nog steeds met twee personen komt? Laat ook weten of u een laptop van het buurthuis wilt gebruiken. U mag uw eigen laptop meenemen, maar dat hoeft niet. We hebben laptops te leen. In uw antwoord hebben we uw naam, het aantal personen en uw keuze voor een laptop nodig. Een telefoonnummer is optioneel. Met vriendelijke groet, Team Het Plein.",
+      "translation": "السيدة نور، سجلت شخصين لورشة الحاسوب يوم السبت. تبدأ الورشة الساعة العاشرة في القاعة الأولى من المركز المجتمعي. هل يمكنك التأكيد بالبريد الإلكتروني قبل الخميس الساعة السادسة إذا كنتما ما زلتما ستحضران معاً؟ أخبرينا أيضاً إذا كنت تريدين استخدام حاسوب من المركز. يمكنك إحضار حاسوبك الخاص، لكن ذلك غير لازم. لدينا أجهزة للإعارة. نحتاج في ردك إلى اسمك وعدد الأشخاص واختيارك بخصوص الحاسوب. رقم الهاتف اختياري. مع التحية، فريق هت بلاين.",
+      "questions": [
+        {
+          "id": "a2-school-practice-read-1",
+          "prompt": "متى وكيف ترسل نور التأكيد المطلوب؟",
+          "options": [
+            "السبت عند العاشرة بالحضور الشخصي",
+            "قبل الخميس 18:00 بالبريد الإلكتروني",
+            "قبل الجمعة 12:00 بالهاتف"
+          ],
+          "correctIndex": 1,
+          "explanation": "هذه مهلة الرد المكتوب، وليست بداية ورشة السبت.",
+          "evidence": "Wilt u voor donderdag zes uur per e-mail bevestigen of u nog steeds met twee personen komt?"
+        },
+        {
+          "id": "a2-school-practice-read-2",
+          "prompt": "أي رد يضم كل المعلومات المطلوبة فقط؟",
+          "options": [
+            "الاسم ورقم الهاتف فقط",
+            "شكر دون ذكر المشاركين أو الجهاز",
+            "الاسم وعدد الأشخاص واختيار الحاسوب"
+          ],
+          "correctIndex": 2,
+          "explanation": "الهاتف اختياري، لكن العدد واختيار الحاسوب مطلوبان.",
+          "evidence": "In uw antwoord hebben we uw naam, het aantal personen en uw keuze voor een laptop nodig. Een telefoonnummer is optioneel."
+        },
+        {
+          "id": "a2-school-practice-read-3",
+          "prompt": "هل يلزمها إحضار حاسوبها الخاص؟",
+          "options": [
+            "لا، يمكنها طلب استخدام جهاز المركز",
+            "نعم، لا توجد أجهزة متاحة",
+            "لا، استعمال الأجهزة الشخصية ممنوع"
+          ],
+          "correctIndex": 0,
+          "explanation": "الرسالة تسمح بالجهاز الخاص وتوفر بديلاً؛ ليست أمراً ولا منعاً.",
+          "evidence": "U mag uw eigen laptop meenemen, maar dat hoeft niet. We hebben laptops te leen."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-school-local-messages",
+      "text": "Hallo Noor, de workshop begint zaterdag om elf uur in zaal twee, niet om tien uur in zaal één. Uw aanmelding voor twee personen blijft geldig. Er staan laptops klaar. U hoeft niet opnieuw te reageren als het aantal personen gelijk blijft. Verandert het aantal? Mail ons dan voor vrijdag twaalf uur.",
+      "translation": "مرحباً نور، تبدأ الورشة السبت الساعة الحادية عشرة في القاعة الثانية، وليس العاشرة في القاعة الأولى. يبقى تسجيلك لشخصين صالحاً. توجد أجهزة حاسوب جاهزة. لا يلزمك الرد من جديد إذا بقي عدد الأشخاص نفسه. هل تغير العدد؟ أرسلي لنا إذن بريداً قبل الجمعة الساعة الثانية عشرة.",
+      "questions": [
+        {
+          "id": "a2-school-practice-listen-1",
+          "prompt": "ما الموعد والمكان بعد التحديث؟",
+          "options": [
+            "السبت 10:00 في القاعة الأولى",
+            "السبت 11:00 في القاعة الثانية",
+            "الجمعة 12:00 في القاعة الثانية"
+          ],
+          "correctIndex": 1,
+          "explanation": "المكالمة تغير الساعة والقاعة دون تغيير السبت.",
+          "evidence": "de workshop begint zaterdag om elf uur in zaal twee, niet om tien uur in zaal één."
+        },
+        {
+          "id": "a2-school-practice-listen-2",
+          "prompt": "إذا بقي عدد المشاركين اثنين، فماذا تفعل نور بشأن الرد؟",
+          "options": [
+            "تعيد التسجيل حتماً",
+            "تلغي التسجيل لأن الوقت تغير",
+            "لا تحتاج إلى رد جديد ويظل التسجيل صالحاً"
+          ],
+          "correctIndex": 2,
+          "explanation": "المكالمة تنفي لزوم الرد الجديد عندما لا يتغير العدد.",
+          "evidence": "Uw aanmelding voor twee personen blijft geldig. Er staan laptops klaar. U hoeft niet opnieuw te reageren als het aantal personen gelijk blijft."
+        },
+        {
+          "id": "a2-school-practice-listen-3",
+          "prompt": "إذا تغير العدد، فما الإجراء الجديد المطلوب؟",
+          "options": [
+            "إرسال بريد قبل الجمعة 12:00",
+            "الحضور الخميس 18:00",
+            "الاتصال بعد بداية الورشة"
+          ],
+          "correctIndex": 0,
+          "explanation": "الشرط تغير العدد؛ المهلة الجديدة تخص إبلاغ هذا التغيير.",
+          "evidence": "Verandert het aantal? Mail ons dan voor vrijdag twaalf uur."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اليوم الاثنين. رد على مدرسة خيالية قبل الثلاثاء 15:00 عن لقاء الأربعاء 18:00. تقول الرسالة: رد حتى لو لن تحضر، وإذا حضرت فاذكر عدد الأشخاص. لا تستطيع الحضور لأنك تعمل. اكتب بريداً قصيراً باسم خيالي مع تحية وخاتمة، ولا تذكر عدداً لحاضرين غير موجودين.",
+        "model": "Beste team,\nBedankt voor de uitnodiging. Ik kan woensdag om zes uur niet komen omdat ik werk.\nMet vriendelijke groet,\nSami",
+        "translation": "الفريق المحترم،\nشكراً على الدعوة. لا أستطيع الحضور الأربعاء الساعة السادسة لأنني أعمل.\nمع التحية،\nسامي",
+        "checklist": [
+          "هل أجبت عن الحضور رغم عدم قدرتك على المشاركة؟",
+          "هل حافظت على يوم اللقاء ووقته وذكرت السبب والتحية والتوقيع؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أنت مشارك وشريكك موظف المركز. تريد الحضور مع صديق إلى ورشة الأحد. اسأل عن مهلة التسجيل. يجيب الشريك: قبل الجمعة 16:00 مع الاسم وعدد الأشخاص، والهاتف اختياري. أعد المهلة والعدد وقل إنك ستترك الهاتف فارغاً. ثم يوضح أن الورشة الأحد 10:30؛ أعد وقت النشاط دون خلطه بمهلة الجمعة.",
+        "model": "Wanneer moet ik me aanmelden?\nPartner: Voor vrijdag vier uur, met uw naam en het aantal personen. Uw telefoonnummer is optioneel.\nIk meld twee personen aan voor vrijdag vier uur. Ik vul mijn telefoonnummer niet in.\nPartner: De workshop is zondag om half elf.\nDus zondag om half elf. Ik kom met een vriend.",
+        "translation": "متى يجب أن أسجل؟\nالشريك: قبل الجمعة الرابعة، مع الاسم وعدد الأشخاص. الهاتف اختياري.\nسأسجل شخصين قبل الجمعة الرابعة. لن أدخل رقم هاتفي.\nالشريك: الورشة الأحد العاشرة والنصف.\nإذن الأحد العاشرة والنصف. سأحضر مع صديق.",
+        "checklist": [
+          "هل حسبت نفسك مع الصديق وأعدت مهلة التسجيل؟",
+          "هل ميزت وقت الورشة من مهلة الرد ولم تعتبر الهاتف إلزامياً؟"
+        ],
+        "partnerPrompts": [
+          "Voor vrijdag vier uur, met uw naam en het aantal personen. Uw telefoonnummer is optioneel.",
+          "Met hoeveel personen komt u?",
+          "De workshop is zondag om half elf. Wanneer komt u?"
+        ]
+      }
+    ]
   }
 ]

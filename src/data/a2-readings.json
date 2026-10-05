@@ -505,5 +505,107 @@
         "evidence": "We hebben nog niets voor u gereserveerd. Wilt u ze laten reserveren? Antwoord dan op deze e-mail en vermeld de kleur en het aantal."
       }
     ]
+  },
+  {
+    "slug": "a2-a-school-reading-afternoon",
+    "title": "رسالة عن نشاط القراءة المدرسي",
+    "dutchTitle": "Helpen bij de leesmiddag",
+    "topic": "المشاركة والرد والاستعداد",
+    "sourceLessons": [
+      "a2-understanding-school-instructions",
+      "a2-finding-a-reply-deadline",
+      "a2-clarifying-a-local-form",
+      "a2-writing-a-relevant-reply"
+    ],
+    "text": "Beste ouders, volgende week vrijdag organiseren we een leesmiddag op school. De kinderen lezen van half twee tot half drie samen met hun leerkracht. Ouders mogen helpen, maar dat is niet verplicht. Wilt u voor dinsdag vier uur per e-mail laten weten of u kunt helpen? Reageer ook als u niet kunt komen. Als u helpt, vermeld dan de naam van uw kind en de groep. U hoeft geen boek mee te nemen, want de school zorgt voor alle boeken. De helpers worden om kwart over één in de bibliotheek verwacht. Dat is een kwartier voor het begin. Met vriendelijke groet, Team De Brug.",
+    "translation": "الأهالي الأعزاء، ننظم يوم الجمعة من الأسبوع القادم نشاط قراءة في المدرسة. يقرأ الأطفال مع معلمهم من الواحدة والنصف إلى الثانية والنصف. يمكن للأهالي المساعدة، لكنها ليست إلزامية. هل يمكنكم إبلاغنا بالبريد الإلكتروني قبل الثلاثاء الساعة الرابعة إذا كنتم تستطيعون المساعدة؟ ردوا أيضاً إذا كنتم لا تستطيعون الحضور. إذا كنتم ستساعدون، فاذكروا اسم طفلكم وصفه. لا يلزمكم إحضار كتاب، فالمدرسة توفر جميع الكتب. يُنتظر حضور المساعدين الساعة الواحدة والربع في المكتبة، أي قبل بداية النشاط بربع ساعة. مع التحية، فريق مدرسة دي بروخ.",
+    "vocabulary": [
+      {
+        "term": "de leesmiddag",
+        "excerpt": "een leesmiddag",
+        "meaning": "نشاط قراءة يُقام بعد الظهر."
+      },
+      {
+        "term": "de leerkracht",
+        "excerpt": "hun leerkracht",
+        "meaning": "معلمهم أو معلمتهم؛ الكلمة تستخدم لكليهما."
+      },
+      {
+        "term": "vermelden",
+        "excerpt": "vermeld dan de naam",
+        "meaning": "يذكر المعلومة المطلوبة في الرد."
+      },
+      {
+        "term": "de groep",
+        "excerpt": "de groep",
+        "meaning": "الصف أو المجموعة الدراسية في هذا السياق."
+      },
+      {
+        "term": "zorgen voor",
+        "excerpt": "zorgt voor alle boeken",
+        "meaning": "يوفر أو يتكفل بالكتب هنا."
+      },
+      {
+        "term": "verwachten",
+        "excerpt": "worden om kwart over één in de bibliotheek verwacht",
+        "meaning": "ينتظر حضورهم؛ العبارة تحدد وقت حضور المساعدين ومكانه."
+      }
+    ],
+    "grammar": {
+      "title": "عدم الحاجة إلى إحضار شيء",
+      "example": "U hoeft geen boek mee te nemen, want de school zorgt voor alle boeken.",
+      "translation": "لا يلزمكم إحضار كتاب، فالمدرسة توفر جميع الكتب.",
+      "explanation": "hoeft geen ... mee te nemen تنفي الحاجة إلى إحضار كتاب. لا تقول الجملة إن الكتب الشخصية ممنوعة. want يقدم السبب في جملة بترتيب عادي: de school zorgt."
+    },
+    "questions": [
+      {
+        "id": "a2-school-read-1",
+        "prompt": "إذا لم يستطع أحد الوالدين المساعدة، فما المطلوب؟",
+        "options": [
+          "لا يرد لأن المساعدة اختيارية",
+          "يرد قبل الثلاثاء 16:00 بالبريد الإلكتروني بأنه لا يستطيع",
+          "يحضر الثلاثاء عند الرابعة"
+        ],
+        "correctIndex": 1,
+        "explanation": "عدم إلزام المساعدة لا يلغي طلب الرد الواضح.",
+        "evidence": "Ouders mogen helpen, maar dat is niet verplicht. Wilt u voor dinsdag vier uur per e-mail laten weten of u kunt helpen? Reageer ook als u niet kunt komen."
+      },
+      {
+        "id": "a2-school-read-2",
+        "prompt": "ما وقت حضور المساعدين مقارنة ببداية القراءة؟",
+        "options": [
+          "الحضور 13:30 والبداية 14:30",
+          "الحضور 14:15 والبداية 14:30",
+          "الحضور 13:15 والبداية 13:30"
+        ],
+        "correctIndex": 2,
+        "explanation": "الواحدة والربع هي 13:15، وhalf twee بالهولندية تعني الواحدة والنصف، أي 13:30.",
+        "evidence": "De helpers worden om kwart over één in de bibliotheek verwacht. Dat is een kwartier voor het begin."
+      },
+      {
+        "id": "a2-school-read-3",
+        "prompt": "ما المعلومات المطلوبة ممن سيأتي للمساعدة؟",
+        "options": [
+          "اسم الطفل وصفه",
+          "رقم الحساب البنكي",
+          "عنوان العمل ورقم الهاتف"
+        ],
+        "correctIndex": 0,
+        "explanation": "الرسالة تحدد اسم الطفل ومجموعته؛ لا تطلب معلومات أخرى.",
+        "evidence": "Als u helpt, vermeld dan de naam van uw kind en de groep."
+      },
+      {
+        "id": "a2-school-read-4",
+        "prompt": "ما معنى التعليمات الخاصة بالكتب؟",
+        "options": [
+          "يحظر إحضار أي كتاب شخصي",
+          "لا يلزم إحضار كتاب لأن المدرسة توفرها",
+          "على كل مساعد شراء كتاب"
+        ],
+        "correctIndex": 1,
+        "explanation": "عدم الحاجة مختلف عن المنع أو إلزام الشراء.",
+        "evidence": "U hoeft geen boek mee te nemen, want de school zorgt voor alle boeken."
+      }
+    ]
   }
 ]
