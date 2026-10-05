@@ -212,7 +212,7 @@ No recording generation or approval was performed. Independent language review a
 
 Unit 4 validation: 63 native tests and 47 focused Chromium tests passed; content/audio checks, A2 dry-run planning, TypeScript and production build passed. Mobile partner practice and desktop reading visually inspected with no overflow. Full CI runs separately on the updated PR.
 
-### A2 unit 5 handoff (2026-10-04, current)
+### A2 unit 5 handoff (2026-10-04, historical)
 
 PR #24 is merged at `e30b755`; its final head `285ffed` passed full GitHub CI. This delivery starts a new branch from main. `docs/A2_SHOPPING_CHOICES.md` is the current inventory and internal editorial ledger; earlier counts above are historical snapshots.
 
@@ -230,4 +230,4 @@ A2 now has six units / 24 lessons / 192 phrases / 96 lesson questions, 144 lexic
 
 All A1 files and all preceding A2 records remain unchanged. Progress is A1 53 / A2 24; navigation connects the new resources and stops at their endpoints. Account/storage/placement contracts are unchanged. Audio inventory is 565 sources / 2,260 variants (A1 1,468; A2 792). The new fingerprint protects all 660 previous A2 requests. No synthesis or approval was performed; the owner handles recordings.
 
-Content/audio checks, A2 dry-run planning, 65 native tests, TypeScript and production build passed locally. The full Chromium suite is running; results will be recorded here. Independent educator review and learner observation remain outstanding. A2 is still an authored preview; paid exams stay deferred. Next planned unit: travel and plans with `gaan`, routes, delays and alternatives.
+Content/audio checks, A2 dry-run planning, all 65 native tests, all 143 Chromium end-to-end tests, TypeScript and production build passed locally. Mobile writing practice (390px) and desktop reading were visually inspected without horizontal overflow. The diff check passed. Full GitHub CI runs separately on the updated PR. Independent educator review and learner observation remain outstanding. A2 is still an authored preview; paid exams stay deferred. Next planned unit: travel and plans with `gaan`, routes, delays and alternatives.
