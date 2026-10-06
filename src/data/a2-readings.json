@@ -709,5 +709,107 @@
         "id": "a2-travel-read-4"
       }
     ]
+  },
+  {
+    "slug": "a2-an-invitation-to-a-neighbourhood-evening",
+    "title": "دعوة إلى أمسية في الحي",
+    "dutchTitle": "Een uitnodiging voor een buurtavond",
+    "topic": "فهم الدعوة والرد والتفاصيل النهائية",
+    "sourceLessons": [
+      "a2-sharing-a-social-experience",
+      "a2-asking-follow-up-questions",
+      "a2-responding-to-an-invitation",
+      "a2-confirming-a-social-plan"
+    ],
+    "text": "Beste buren, volgende zaterdag organiseren we een buurtavond in het wijkcentrum. De deur gaat om half zeven open en we beginnen om zeven uur met een korte quiz. Daarna eten we samen. U hoeft geen eten mee te nemen, maar neem alstublieft wel uw eigen beker mee. Wilt u komen? Stuur dan uiterlijk woensdagavond een bericht met het aantal personen. Kunt u zaterdag niet, maar wilt u een volgende activiteit helpen organiseren? Zet dat dan ook in uw bericht. Vrijdag sturen we aan de deelnemers nog een korte bevestiging met de definitieve zaal. Dit is een fictieve uitnodiging voor deze oefening.",
+    "translation": "أيها الجيران الأعزاء، ننظم السبت القادم أمسية للحي في مركز الحي. تفتح الأبواب السادسة والنصف ونبدأ السابعة بمسابقة قصيرة. بعد ذلك نأكل معاً. لا تحتاجون إلى إحضار طعام، لكن يرجى إحضار كوبكم الخاص. هل تريدون الحضور؟ أرسلوا إذاً رسالة في موعد أقصاه مساء الأربعاء مع عدد الأشخاص. إذا لم تستطيعوا الحضور السبت لكنكم تريدون المساعدة في تنظيم فعالية لاحقة، فاكتبوا ذلك أيضاً في رسالتكم. يوم الجمعة سنرسل للمشاركين تأكيداً قصيراً يتضمن القاعة النهائية. هذه دعوة خيالية لهذا التمرين.",
+    "vocabulary": [
+      {
+        "term": "de buurtavond",
+        "excerpt": "een buurtavond",
+        "meaning": "أمسية اجتماعية لسكان الحي."
+      },
+      {
+        "term": "het wijkcentrum",
+        "excerpt": "het wijkcentrum",
+        "meaning": "مركز الحي."
+      },
+      {
+        "term": "uiterlijk",
+        "excerpt": "uiterlijk woensdagavond",
+        "meaning": "في موعد أقصاه."
+      },
+      {
+        "term": "het aantal personen",
+        "excerpt": "het aantal personen",
+        "meaning": "عدد الأشخاص الذين سيحضرون."
+      },
+      {
+        "term": "definitief",
+        "excerpt": "de definitieve zaal",
+        "meaning": "نهائي؛ هنا القاعة التي سيؤكدها المنظمون لاحقاً."
+      },
+      {
+        "term": "deelnemers",
+        "excerpt": "aan de deelnemers",
+        "meaning": "المشاركون الذين سيحضرون."
+      }
+    ],
+    "grammar": {
+      "title": "شرط بسيط مع als وطلب منفصل",
+      "explanation": "في Kunt u zaterdag niet, maar wilt u ...? يعرض النص حالة بديلة. وفي Stuur dan ... يظهر ما يجب فعله عند الرغبة بالحضور. لا نفترض أن مكان القاعة النهائي معروف قبل رسالة الجمعة.",
+      "example": "Wilt u komen? Stuur dan uiterlijk woensdagavond een bericht.",
+      "translation": "هل تريد الحضور؟ أرسل إذاً رسالة في موعد أقصاه مساء الأربعاء."
+    },
+    "questions": [
+      {
+        "id": "a2-social-read-1",
+        "prompt": "متى تفتح الأبواب ومتى تبدأ المسابقة؟",
+        "options": [
+          "18:30 و19:00",
+          "19:00 و19:30",
+          "18:00 و18:30"
+        ],
+        "correctIndex": 0,
+        "explanation": "half zeven = 18:30، ثم تبدأ المسابقة 19:00.",
+        "evidence": "De deur gaat om half zeven open en we beginnen om zeven uur met een korte quiz."
+      },
+      {
+        "id": "a2-social-read-2",
+        "prompt": "ماذا يجب على من سيحضر أن يرسل قبل نهاية الأربعاء؟",
+        "options": [
+          "اختيار الطعام فقط",
+          "عدد الأشخاص في رسالة",
+          "اسم القاعة النهائية"
+        ],
+        "correctIndex": 1,
+        "explanation": "الرسالة يجب أن تتضمن عدد الأشخاص.",
+        "evidence": "Stuur dan uiterlijk woensdagavond een bericht met het aantal personen."
+      },
+      {
+        "id": "a2-social-read-3",
+        "prompt": "ماذا يجب أن يحضر المشارك معه؟",
+        "options": [
+          "طعاماً كاملاً",
+          "كوبه الخاص",
+          "طاولة قابلة للطي"
+        ],
+        "correctIndex": 1,
+        "explanation": "الطعام غير مطلوب، لكن الكوب مطلوب.",
+        "evidence": "U hoeft geen eten mee te nemen, maar neem alstublieft wel uw eigen beker mee."
+      },
+      {
+        "id": "a2-social-read-4",
+        "prompt": "هل القاعة النهائية معروفة بالفعل في الدعوة؟",
+        "options": [
+          "نعم، القاعة 2",
+          "نعم، القاعة الرئيسية",
+          "لا؛ سيصل تأكيد بالقاعة يوم الجمعة"
+        ],
+        "correctIndex": 2,
+        "explanation": "النص يقول إن التأكيد النهائي للقاعة سيصل لاحقاً.",
+        "evidence": "Vrijdag sturen we aan de deelnemers nog een korte bevestiging met de definitieve zaal."
+      }
+    ]
   }
 ]
