@@ -1028,8 +1028,8 @@
     ],
     "transfer": {
       "prompt": "دعيت إلى زيارة يوم السبت 16:00، لكنك لا تستطيع قبل 17:30. اقترح 17:45 عند مدخل المقهى نفسه. بعد قبول صديقك، أكد الوقت والمكان وقل إنك ستحضر الحلوى. استخدم اسماً خيالياً.",
-      "model": "Hoi Sam, bedankt voor de uitnodiging. Om vier uur kan ik helaas niet. Kan het om kwart voor zes? Bij de ingang van hetzelfde café is goed. Afgesproken: zaterdag om kwart voor zes bij de ingang. Ik neem iets zoets mee.",
-      "translation": "مرحباً سام، شكراً على الدعوة. للأسف لا أستطيع الساعة الرابعة. هل يمكن السادسة إلا ربعاً؟ عند مدخل المقهى نفسه مناسب. اتفقنا: السبت السادسة إلا ربعاً عند المدخل. سأحضر شيئاً حلواً.",
+      "model": "Hoi Sam, bedankt voor de uitnodiging. Om vier uur kan ik helaas niet. Kan het om kwart voor zes? Bij de ingang van hetzelfde café is prima. Afgesproken: zaterdag om kwart voor zes bij de ingang. Ik neem iets zoets mee.",
+      "translation": "مرحباً سام، شكراً على الدعوة. للأسف لا أستطيع الساعة الرابعة. هل يمكن السادسة إلا ربعاً؟ عند مدخل المقهى نفسه مناسب جداً. اتفقنا: السبت السادسة إلا ربعاً عند المدخل. سأحضر شيئاً حلواً.",
       "checklist": [
         "هل غيرت الوقت دون تغيير النشاط أو المكان بلا سبب؟",
         "هل أكدت فقط التفاصيل النهائية بعد القبول؟"
