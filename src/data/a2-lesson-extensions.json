@@ -1887,7 +1887,7 @@
       },
       {
         "term": "samen",
-        "kind": "adverb",
+        "kind": "expression",
         "forms": "samen eten · samen luisteren",
         "meaning": "معاً.",
         "phraseId": "a2-sharing-a-social-experience-03"
@@ -1908,7 +1908,7 @@
       },
       {
         "term": "gezellig",
-        "kind": "adjective",
+        "kind": "expression",
         "forms": "een gezellige avond · het was gezellig",
         "meaning": "لطيف أو اجتماعي ومريح بحسب السياق.",
         "phraseId": "a2-sharing-a-social-experience-06"
@@ -1954,35 +1954,35 @@
       },
       {
         "term": "waar",
-        "kind": "question_word",
+        "kind": "expression",
         "forms": "Waar was het? · Waar ben je geweest?",
         "meaning": "أين؛ للسؤال عن المكان.",
         "phraseId": "a2-asking-follow-up-questions-02"
       },
       {
         "term": "met wie",
-        "kind": "question_word",
+        "kind": "expression",
         "forms": "Met wie ben je gegaan?",
         "meaning": "مع من.",
         "phraseId": "a2-asking-follow-up-questions-04"
       },
       {
         "term": "hoe lang",
-        "kind": "question_word",
+        "kind": "expression",
         "forms": "Hoe lang ben je gebleven?",
         "meaning": "كم من الوقت؛ للسؤال عن المدة.",
         "phraseId": "a2-asking-follow-up-questions-06"
       },
       {
         "term": "ongeveer",
-        "kind": "adverb",
+        "kind": "expression",
         "forms": "ongeveer twee uur",
         "meaning": "حوالي أو تقريباً.",
         "phraseId": "a2-asking-follow-up-questions-07"
       },
       {
         "term": "het interessantst",
-        "kind": "adjective",
+        "kind": "expression",
         "forms": "interessant · interessanter · het interessantst",
         "meaning": "الأكثر إثارة للاهتمام.",
         "phraseId": "a2-asking-follow-up-questions-08"
@@ -2021,7 +2021,7 @@
       },
       {
         "term": "graag",
-        "kind": "adverb",
+        "kind": "expression",
         "forms": "Ja, graag. · Ik kom graag.",
         "meaning": "بكل سرور؛ لقبول الدعوة أو التعبير عن الرغبة.",
         "phraseId": "a2-responding-to-an-invitation-02"
@@ -2042,7 +2042,7 @@
       },
       {
         "term": "helaas",
-        "kind": "adverb",
+        "kind": "expression",
         "forms": "helaas niet kunnen",
         "meaning": "للأسف؛ لتلطيف الاعتذار.",
         "phraseId": "a2-responding-to-an-invitation-05"
@@ -2102,7 +2102,7 @@
       },
       {
         "term": "dus",
-        "kind": "conjunction",
+        "kind": "expression",
         "forms": "Dus zaterdag om drie uur.",
         "meaning": "إذن؛ لإعادة الخلاصة أو النتيجة.",
         "phraseId": "a2-confirming-a-social-plan-07"
