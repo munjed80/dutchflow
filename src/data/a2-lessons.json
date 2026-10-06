@@ -3550,5 +3550,597 @@
         "explanation": "الموظف قال Dat kan ثم نفى ضرورة إحضار جهاز خاص."
       }
     ]
+  },
+  {
+    "slug": "a2-planning-a-day-trip",
+    "moduleId": "a2-travel-plans",
+    "level": "A2",
+    "number": "25",
+    "title": "خطط لرحلة يوم واحد",
+    "dutchTitle": "Een dagje uit plannen",
+    "description": "أصف خطة قادمة وأميز وقت اللقاء من وقت مغادرة القطار.",
+    "durationMinutes": 12,
+    "context": "لينا وسامي يخططان لزيارة متحف يوم السبت. الأوقات خيالية؛ اللقاء في صالة المحطة قبل مغادرة القطار.",
+    "goal": "أصف خطة قادمة وأميز وقت اللقاء من وقت مغادرة القطار.",
+    "grammar": {
+      "title": "خطة باستخدام gaan والمصدر",
+      "explanation": "للتعبير عن نية القيام بنشاط نستخدم هنا gaan مصرفاً ثم المصدر: We gaan een museum bezoeken. بعد ظرف مثل Zaterdag يأتي gaan ثم الفاعل we. ويمكن للمضارع مع وقت محدد وصف موعد قادم: De trein vertrekt om negen uur twintig. لا نضيف gaan إلى كل جملة مستقبلية.",
+      "example": "Zaterdag gaan we een museum bezoeken.",
+      "translation": "سنزور متحفاً يوم السبت."
+    },
+    "phrases": [
+      {
+        "id": "a2-planning-a-day-trip-01",
+        "dutch": "Wat gaan we zaterdag doen?",
+        "arabic": "ماذا سنفعل يوم السبت؟",
+        "tip": "gaan مع المصدر doen للسؤال عن الخطة."
+      },
+      {
+        "id": "a2-planning-a-day-trip-02",
+        "dutch": "We gaan een museum bezoeken.",
+        "arabic": "سنزور متحفاً.",
+        "tip": "bezoeken مصدر يصف النشاط المخطط له."
+      },
+      {
+        "id": "a2-planning-a-day-trip-03",
+        "dutch": "Gaan we met de trein of met de bus?",
+        "arabic": "هل سنذهب بالقطار أم بالحافلة؟",
+        "tip": "نسأل عن وسيلة المواصلات قبل الاتفاق."
+      },
+      {
+        "id": "a2-planning-a-day-trip-04",
+        "dutch": "Met de trein. Die vertrekt om negen uur twintig.",
+        "arabic": "بالقطار. يغادر الساعة التاسعة وعشرين دقيقة.",
+        "tip": "vertrekt وقت المغادرة، لا اللقاء."
+      },
+      {
+        "id": "a2-planning-a-day-trip-05",
+        "dutch": "Waar en hoe laat spreken we af?",
+        "arabic": "أين وفي أي ساعة نلتقي؟",
+        "tip": "سؤال عن المكان والوقت معاً."
+      },
+      {
+        "id": "a2-planning-a-day-trip-06",
+        "dutch": "Om vijf over negen in de stationshal. Dan hebben we een kwartier.",
+        "arabic": "التاسعة وخمس دقائق في صالة المحطة. عندها يكون لدينا ربع ساعة.",
+        "tip": "09:05 تسبق 09:20 بربع ساعة."
+      },
+      {
+        "id": "a2-planning-a-day-trip-07",
+        "dutch": "Goed, ik ga vanavond mijn tas inpakken.",
+        "arabic": "حسناً، سأجهز حقيبتي هذا المساء.",
+        "tip": "inpakken يبقى كلمة واحدة بعد ga هنا."
+      },
+      {
+        "id": "a2-planning-a-day-trip-08",
+        "dutch": "Prima, tot zaterdag om vijf over negen in de hal!",
+        "arabic": "ممتاز، إلى اللقاء السبت التاسعة وخمس دقائق في الصالة!",
+        "tip": "نعيد وقت اللقاء ومكانه."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "سامي",
+        "phraseId": "a2-planning-a-day-trip-01"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-planning-a-day-trip-02"
+      },
+      {
+        "speaker": "سامي",
+        "phraseId": "a2-planning-a-day-trip-03"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-planning-a-day-trip-04"
+      },
+      {
+        "speaker": "سامي",
+        "phraseId": "a2-planning-a-day-trip-05"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-planning-a-day-trip-06"
+      },
+      {
+        "speaker": "سامي",
+        "phraseId": "a2-planning-a-day-trip-07"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-planning-a-day-trip-08"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "ما النشاط المخطط له يوم السبت؟",
+        "options": [
+          "زيارة متحف",
+          "العمل في متجر",
+          "إلغاء رحلة"
+        ],
+        "correctIndex": 0,
+        "explanation": "We gaan een museum bezoeken تعبر عن الزيارة المخطط لها.",
+        "id": "a2-planning-a-day-trip-q1"
+      },
+      {
+        "prompt": "متى يلتقي الصديقان مقارنة بمغادرة القطار؟",
+        "options": [
+          "يلتقيان 09:20 ويغادران 09:05",
+          "يلتقيان 09:05 ويغادران 09:20",
+          "يلتقيان 09:15 ويغادران 09:20"
+        ],
+        "correctIndex": 1,
+        "explanation": "vijf over negen هي 09:05؛ الفارق ربع ساعة.",
+        "id": "a2-planning-a-day-trip-q2"
+      },
+      {
+        "prompt": "أي جملة تصف خطة للغد؟",
+        "options": [
+          "Gisteren heb ik mijn tas ingepakt.",
+          "Ik pak elke week mijn tas in.",
+          "Morgen ga ik mijn tas inpakken."
+        ],
+        "correctIndex": 2,
+        "explanation": "Morgen ga ik يحدد خطة للغد؛ الجملتان الأخريان عن الماضي والعادة.",
+        "id": "a2-planning-a-day-trip-q3"
+      },
+      {
+        "prompt": "أين اتفقا على اللقاء؟",
+        "options": [
+          "داخل صالة المحطة",
+          "عند مدخل المتحف",
+          "في الحافلة"
+        ],
+        "correctIndex": 0,
+        "explanation": "المكان هو de stationshal، وليس وجهة الرحلة.",
+        "id": "a2-planning-a-day-trip-q4"
+      }
+    ]
+  },
+  {
+    "slug": "a2-comparing-travel-routes",
+    "moduleId": "a2-travel-plans",
+    "level": "A2",
+    "number": "26",
+    "title": "قارن مسارين للرحلة",
+    "dutchTitle": "Twee routes vergelijken",
+    "description": "أقارن مدة الرحلة وعدد مرات التبديل وأختار حسب حاجتي.",
+    "durationMinutes": 12,
+    "context": "تسأل نور موظفاً عن الوصول من محطة خيالية إلى متحف. القطار يحتاج إلى تبديل والحافلة مباشرة. جميع المدد للرحلة كاملة حتى المتحف؛ ليست جداول فعلية.",
+    "goal": "أقارن مدة الرحلة وعدد مرات التبديل وأختار حسب حاجتي.",
+    "grammar": {
+      "title": "المقارنة وسبب الاختيار",
+      "explanation": "نقارن باستخدام dan: De trein is sneller dan de bus. وبعد omdat يأتي الفعل في آخر جملة السبب: Ik neem de bus omdat ik niet wil overstappen. نتدرب على wil overstappen كتركيب موجه؛ الأسرع ليس دائماً الأنسب.",
+      "example": "De trein is sneller dan de bus.",
+      "translation": "القطار أسرع من الحافلة."
+    },
+    "phrases": [
+      {
+        "id": "a2-comparing-travel-routes-01",
+        "dutch": "Hoe kom ik vanaf dit station bij het museum?",
+        "arabic": "كيف أصل من هذه المحطة إلى المتحف؟",
+        "tip": "vanaf يحدد نقطة البداية."
+      },
+      {
+        "id": "a2-comparing-travel-routes-02",
+        "dutch": "Met de trein duurt de hele reis dertig minuten, met één overstap.",
+        "arabic": "بالقطار تستغرق الرحلة كاملة ثلاثين دقيقة مع تبديل واحد.",
+        "tip": "de hele reis تشمل الرحلة كاملة."
+      },
+      {
+        "id": "a2-comparing-travel-routes-03",
+        "dutch": "Zit de wachttijd bij de overstap in die dertig minuten?",
+        "arabic": "هل وقت الانتظار عند التبديل محسوب ضمن تلك الثلاثين دقيقة؟",
+        "tip": "لا نضيف الانتظار إلى الإجمالي مرتين."
+      },
+      {
+        "id": "a2-comparing-travel-routes-04",
+        "dutch": "Ja, inclusief vijf minuten wachten. De rechtstreekse bus doet er veertig minuten over.",
+        "arabic": "نعم، بما في ذلك خمس دقائق انتظار. الحافلة المباشرة تستغرق أربعين دقيقة.",
+        "tip": "مباشرة تعني دون تبديل هنا، لا الأسرع."
+      },
+      {
+        "id": "a2-comparing-travel-routes-05",
+        "dutch": "Ik neem liever de bus omdat ik niet wil overstappen.",
+        "arabic": "أفضل أخذ الحافلة لأنني لا أريد التبديل.",
+        "tip": "liever تعبر عن التفضيل."
+      },
+      {
+        "id": "a2-comparing-travel-routes-06",
+        "dutch": "Die vertrekt om tien uur en komt om tien uur veertig bij het museum aan.",
+        "arabic": "تغادر العاشرة وتصل إلى المتحف العاشرة وأربعين دقيقة.",
+        "tip": "komt ... aan يحدد الوصول."
+      },
+      {
+        "id": "a2-comparing-travel-routes-07",
+        "dutch": "Dus de bus is langzamer, maar ik hoef niet over te stappen.",
+        "arabic": "إذن الحافلة أبطأ، لكن لا يلزمني التبديل.",
+        "tip": "over te stappen: يأتي te بين جزأي الفعل."
+      },
+      {
+        "id": "a2-comparing-travel-routes-08",
+        "dutch": "Dat klopt. U blijft in dezelfde bus tot het museum.",
+        "arabic": "صحيح. تبقون في الحافلة نفسها حتى المتحف.",
+        "tip": "لا يوجد تبديل حتى الوجهة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-comparing-travel-routes-01"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-travel-routes-02"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-comparing-travel-routes-03"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-travel-routes-04"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-comparing-travel-routes-05"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-travel-routes-06"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-comparing-travel-routes-07"
+      },
+      {
+        "speaker": "الموظف",
+        "phraseId": "a2-comparing-travel-routes-08"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "كم تستغرق رحلة القطار مع الانتظار؟",
+        "options": [
+          "25 دقيقة",
+          "35 دقيقة",
+          "30 دقيقة"
+        ],
+        "correctIndex": 2,
+        "explanation": "الثلاثون تشمل خمس دقائق الانتظار.",
+        "id": "a2-comparing-travel-routes-q1"
+      },
+      {
+        "prompt": "لماذا تختار نور الحافلة رغم أنها أبطأ؟",
+        "options": [
+          "لأنها لا تريد التبديل",
+          "لأنها تصل قبل القطار",
+          "لأن القطار ألغي"
+        ],
+        "correctIndex": 0,
+        "explanation": "الاختيار مبني على تجنب التبديل.",
+        "id": "a2-comparing-travel-routes-q2"
+      },
+      {
+        "prompt": "ما معنى rechtstreekse bus هنا؟",
+        "options": [
+          "حافلة مجانية",
+          "حافلة لا تحتاج معها إلى تبديل",
+          "حافلة بلا أي توقف"
+        ],
+        "correctIndex": 1,
+        "explanation": "تبقى في الحافلة نفسها؛ النص لا ينفي التوقف في الطريق.",
+        "id": "a2-comparing-travel-routes-q3"
+      },
+      {
+        "prompt": "ما وقت وصول الحافلة إلى المتحف؟",
+        "options": [
+          "10:00",
+          "10:30",
+          "10:40"
+        ],
+        "correctIndex": 2,
+        "explanation": "10:00 للمغادرة، أما الوصول فـ10:40.",
+        "id": "a2-comparing-travel-routes-q4"
+      }
+    ]
+  },
+  {
+    "slug": "a2-reporting-a-travel-delay",
+    "moduleId": "a2-travel-plans",
+    "level": "A2",
+    "number": "27",
+    "title": "أبلغ عن تأخير في الطريق",
+    "dutchTitle": "Een vertraging doorgeven",
+    "description": "أشرح التأخير وأنقل وقت وصول متوقعاً وأتفق على مكان الانتظار.",
+    "durationMinutes": 12,
+    "context": "كان سامي سيلتقي لينا 10:30. قطاره متأخر عشرين دقيقة، وتعرض الشاشة وصولاً متوقعاً عند 10:50. يراسلها قبل وصوله في رحلة خيالية.",
+    "goal": "أشرح التأخير وأنقل وقت وصول متوقعاً وأتفق على مكان الانتظار.",
+    "grammar": {
+      "title": "السبب والنتيجة والتوقع",
+      "explanation": "نراجع omdat مع الفعل في نهاية السبب: Ik kom later omdat mijn trein vertraging heeft. بعد daarom يأتي الفعل قبل الفاعل: Daarom kom ik later. Naar verwachting تعني وفق التوقع الحالي، لا وصولاً مضموناً.",
+      "example": "Ik kom later omdat mijn trein vertraging heeft.",
+      "translation": "سأتأخر لأن قطاري متأخر."
+    },
+    "phrases": [
+      {
+        "id": "a2-reporting-a-travel-delay-01",
+        "dutch": "Mijn trein heeft twintig minuten vertraging.",
+        "arabic": "قطاري متأخر عشرين دقيقة.",
+        "tip": "التأخير ليس مدة الرحلة كلها."
+      },
+      {
+        "id": "a2-reporting-a-travel-delay-02",
+        "dutch": "Hoe laat kom je nu aan? We hadden half elf afgesproken.",
+        "arabic": "في أي ساعة تصل الآن؟ كنا قد اتفقنا على العاشرة والنصف.",
+        "tip": "half elf هي 10:30، الموعد الأصلي."
+      },
+      {
+        "id": "a2-reporting-a-travel-delay-03",
+        "dutch": "Volgens het scherm kom ik naar verwachting om tien voor elf aan.",
+        "arabic": "بحسب الشاشة، من المتوقع أن أصل الحادية عشرة إلا عشر دقائق.",
+        "tip": "naar verwachting يترك مجالاً لتغير الوقت."
+      },
+      {
+        "id": "a2-reporting-a-travel-delay-04",
+        "dutch": "Dan wacht ik in het café in de stationshal, niet bij de ingang.",
+        "arabic": "إذن سأنتظر في المقهى داخل صالة المحطة، وليس عند المدخل.",
+        "tip": "يتغير مكان الانتظار بوضوح."
+      },
+      {
+        "id": "a2-reporting-a-travel-delay-05",
+        "dutch": "Dank je. Ik stuur je een bericht als de aankomsttijd verandert.",
+        "arabic": "شكراً لك. سأرسل لك رسالة إذا تغير وقت الوصول.",
+        "tip": "als يربط الرسالة الجديدة بتغير الوقت."
+      },
+      {
+        "id": "a2-reporting-a-travel-delay-06",
+        "dutch": "Goed. Moet ik alvast koffie bestellen?",
+        "arabic": "حسناً. هل أطلب القهوة مسبقاً؟",
+        "tip": "alvast: من الآن قبل وصول الآخر."
+      },
+      {
+        "id": "a2-reporting-a-travel-delay-07",
+        "dutch": "Nee, dat hoeft niet. Ik kom naar het café zodra ik op het station ben.",
+        "arabic": "لا، لا داعي لذلك. سآتي إلى المقهى حالما أصل إلى المحطة.",
+        "tip": "zodra تعني حالما؛ ben في آخر جملتها."
+      },
+      {
+        "id": "a2-reporting-a-travel-delay-08",
+        "dutch": "Prima, tot straks. Laat het weten als er iets verandert.",
+        "arabic": "حسناً، إلى اللقاء بعد قليل. أخبرني إذا تغير شيء.",
+        "tip": "الانتظار متفق عليه، والوصول ما زال توقعاً."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "سامي",
+        "phraseId": "a2-reporting-a-travel-delay-01"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-reporting-a-travel-delay-02"
+      },
+      {
+        "speaker": "سامي",
+        "phraseId": "a2-reporting-a-travel-delay-03"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-reporting-a-travel-delay-04"
+      },
+      {
+        "speaker": "سامي",
+        "phraseId": "a2-reporting-a-travel-delay-05"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-reporting-a-travel-delay-06"
+      },
+      {
+        "speaker": "سامي",
+        "phraseId": "a2-reporting-a-travel-delay-07"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-reporting-a-travel-delay-08"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "ما وقت الوصول المتوقع بعد التأخير؟",
+        "options": [
+          "10:30",
+          "10:50",
+          "11:10"
+        ],
+        "correctIndex": 1,
+        "explanation": "tien voor elf هي 10:50، بعد الموعد بعشرين دقيقة.",
+        "id": "a2-reporting-a-travel-delay-q1"
+      },
+      {
+        "prompt": "هل الوصول المذكور مضمون؟",
+        "options": [
+          "نعم، لا يمكن أن يتغير",
+          "القطار ألغي حتماً",
+          "لا، هو توقع بحسب الشاشة"
+        ],
+        "correctIndex": 2,
+        "explanation": "naar verwachting لا تعني تأكيداً مطلقاً ولا إلغاء الرحلة.",
+        "id": "a2-reporting-a-travel-delay-q2"
+      },
+      {
+        "prompt": "أين ستنتظر لينا؟",
+        "options": [
+          "في المقهى داخل صالة المحطة",
+          "عند مدخل المحطة",
+          "على رصيف القطار"
+        ],
+        "correctIndex": 0,
+        "explanation": "الرد يذكر المقهى وينفي الانتظار عند المدخل.",
+        "id": "a2-reporting-a-travel-delay-q3"
+      },
+      {
+        "prompt": "متى سيرسل سامي رسالة جديدة؟",
+        "options": [
+          "كل دقيقة مهما حدث",
+          "إذا تغير وقت الوصول",
+          "بعد طلب القهوة فقط"
+        ],
+        "correctIndex": 1,
+        "explanation": "الشرط هو تغير aankomsttijd.",
+        "id": "a2-reporting-a-travel-delay-q4"
+      }
+    ]
+  },
+  {
+    "slug": "a2-agreeing-on-another-route",
+    "moduleId": "a2-travel-plans",
+    "level": "A2",
+    "number": "28",
+    "title": "اتفق على مسار بديل",
+    "dutchTitle": "Een andere route afspreken",
+    "description": "أختار بديلاً يناسب الوقت وأؤكد الاتفاق مع الطرف الآخر.",
+    "durationMinutes": 12,
+    "context": "لينا تريد الوصول إلى محطة صديقها قبل الظهر. ألغي قطارها. يقارنان حافلة 11:10 تصل 11:50 وقطاراً 11:30 يصل 12:00. جميع الخيارات خيالية.",
+    "goal": "أختار بديلاً يناسب الوقت وأؤكد الاتفاق مع الطرف الآخر.",
+    "grammar": {
+      "title": "اقتراح ثم قبول وتأكيد",
+      "explanation": "Zullen we ...? اقتراح مشترك، وليس دليلاً على موافقة الآخر. نستخدم in plaats van للبديل: Ik neem de bus in plaats van de trein. نعيد الوقت والمكان وننتظر قبول الشريك.",
+      "example": "Ik neem de bus in plaats van de trein.",
+      "translation": "سآخذ الحافلة بدلاً من القطار."
+    },
+    "phrases": [
+      {
+        "id": "a2-agreeing-on-another-route-01",
+        "dutch": "Mijn trein rijdt niet. Ik wil voor twaalf uur bij jouw station zijn.",
+        "arabic": "قطاري لن يسير. أريد أن أكون عند محطتك قبل الثانية عشرة.",
+        "tip": "rijdt niet: الرحلة لا تسير، وليست متأخرة فقط."
+      },
+      {
+        "id": "a2-agreeing-on-another-route-02",
+        "dutch": "Je kunt de bus van tien over elf nemen. Die komt om tien voor twaalf aan.",
+        "arabic": "يمكنك أخذ حافلة الحادية عشرة وعشر دقائق. تصل الثانية عشرة إلا عشر دقائق.",
+        "tip": "المغادرة 11:10 والوصول 11:50."
+      },
+      {
+        "id": "a2-agreeing-on-another-route-03",
+        "dutch": "En hoe laat komt de volgende trein aan?",
+        "arabic": "وفي أي ساعة يصل القطار التالي؟",
+        "tip": "نسأل عن الوصول لا المغادرة فقط."
+      },
+      {
+        "id": "a2-agreeing-on-another-route-04",
+        "dutch": "Die vertrekt om half twaalf en komt om twaalf uur aan.",
+        "arabic": "يغادر الحادية عشرة والنصف ويصل الثانية عشرة.",
+        "tip": "عند 12:00 لا تعني قبلها."
+      },
+      {
+        "id": "a2-agreeing-on-another-route-05",
+        "dutch": "Dan neem ik de bus in plaats van de trein.",
+        "arabic": "إذن سآخذ الحافلة بدلاً من القطار.",
+        "tip": "يحقق البديل شرط الوصول قبل الظهر."
+      },
+      {
+        "id": "a2-agreeing-on-another-route-06",
+        "dutch": "Zullen we om tien voor twaalf bij de ingang van het station afspreken?",
+        "arabic": "هل نلتقي الثانية عشرة إلا عشر دقائق عند مدخل المحطة؟",
+        "tip": "اقتراح ينتظر قبول الطرف الآخر."
+      },
+      {
+        "id": "a2-agreeing-on-another-route-07",
+        "dutch": "Ja, dat is goed. Dus om tien voor twaalf bij de ingang.",
+        "arabic": "نعم، هذا مناسب. إذن الثانية عشرة إلا عشر دقائق عند المدخل.",
+        "tip": "قبول صريح للاقتراح."
+      },
+      {
+        "id": "a2-agreeing-on-another-route-08",
+        "dutch": "Afgesproken. Stuur je een bericht als de bus vertraging heeft?",
+        "arabic": "اتفقنا. هل ترسلين رسالة إذا تأخرت الحافلة؟",
+        "tip": "الاتفاق لا يضمن سير الحافلة في موعدها."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-agreeing-on-another-route-01"
+      },
+      {
+        "speaker": "أمير",
+        "phraseId": "a2-agreeing-on-another-route-02"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-agreeing-on-another-route-03"
+      },
+      {
+        "speaker": "أمير",
+        "phraseId": "a2-agreeing-on-another-route-04"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-agreeing-on-another-route-05"
+      },
+      {
+        "speaker": "أمير",
+        "phraseId": "a2-agreeing-on-another-route-06"
+      },
+      {
+        "speaker": "لينا",
+        "phraseId": "a2-agreeing-on-another-route-07"
+      },
+      {
+        "speaker": "أمير",
+        "phraseId": "a2-agreeing-on-another-route-08"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "ما الذي حدث للقطار الأصلي؟",
+        "options": [
+          "تأخر عشر دقائق فقط",
+          "وصل مبكراً",
+          "لن يسير"
+        ],
+        "correctIndex": 2,
+        "explanation": "rijdt niet لا يحدد مدة تأخير، بل عدم سير الرحلة.",
+        "id": "a2-agreeing-on-another-route-q1"
+      },
+      {
+        "prompt": "أي خيار يحقق الوصول قبل 12:00؟",
+        "options": [
+          "حافلة تصل 11:50",
+          "قطار يصل 12:00",
+          "كلاهما يصل قبل 12:00"
+        ],
+        "correctIndex": 0,
+        "explanation": "قبل الثانية عشرة يختلف عن عندها.",
+        "id": "a2-agreeing-on-another-route-q2"
+      },
+      {
+        "prompt": "ما وظيفة Zullen we ... afspreken? هنا؟",
+        "options": [
+          "إخبار عن رحلة انتهت",
+          "اقتراح لقاء يحتاج إلى قبول",
+          "إلغاء اللقاء دون سؤال"
+        ],
+        "correctIndex": 1,
+        "explanation": "السؤال يقدم اقتراحاً للشريك.",
+        "id": "a2-agreeing-on-another-route-q3"
+      },
+      {
+        "prompt": "ما الاتفاق النهائي؟",
+        "options": [
+          "11:30 على رصيف القطار",
+          "12:00 في المقهى",
+          "11:50 عند مدخل المحطة"
+        ],
+        "correctIndex": 2,
+        "explanation": "أعاد الطرفان الوقت والمكان ثم أكدا الاتفاق.",
+        "id": "a2-agreeing-on-another-route-q4"
+      }
+    ]
   }
 ]

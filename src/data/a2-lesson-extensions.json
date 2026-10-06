@@ -1606,5 +1606,273 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "a2-planning-a-day-trip",
+    "vocabulary": [
+      {
+        "term": "bezoeken",
+        "kind": "verb",
+        "forms": "ik bezoek · ik heb bezocht",
+        "meaning": "يزور؛ المصدر bezoeken بعد gaan.",
+        "phraseId": "a2-planning-a-day-trip-02"
+      },
+      {
+        "term": "vertrekken",
+        "kind": "verb",
+        "forms": "ik vertrek · ik ben vertrokken",
+        "meaning": "يغادر؛ وقت مغادرة وسيلة النقل.",
+        "phraseId": "a2-planning-a-day-trip-04"
+      },
+      {
+        "term": "afspreken",
+        "kind": "verb",
+        "forms": "ik spreek af · ik heb afgesproken",
+        "meaning": "يتفق على لقاء؛ فعل قابل للانفصال.",
+        "phraseId": "a2-planning-a-day-trip-05"
+      },
+      {
+        "term": "de stationshal",
+        "kind": "noun",
+        "forms": "de stationshallen",
+        "meaning": "الصالة داخل المحطة، لا رصيف القطار.",
+        "phraseId": "a2-planning-a-day-trip-06"
+      },
+      {
+        "term": "een kwartier",
+        "kind": "expression",
+        "forms": "vijftien minuten",
+        "meaning": "ربع ساعة؛ خمس عشرة دقيقة.",
+        "phraseId": "a2-planning-a-day-trip-06"
+      },
+      {
+        "term": "inpakken",
+        "kind": "verb",
+        "forms": "ik pak in · ik heb ingepakt",
+        "meaning": "يحزم الحقيبة؛ المصدر كلمة واحدة.",
+        "phraseId": "a2-planning-a-day-trip-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "خطط لزيارة حديقة يوم الأحد بالدراجة مع صديق. اذكر تجهيز حقيبتك مساء السبت. استخدم gaan مع مصدر لنشاط واحد على الأقل.",
+        "model": "Zondag gaan we een park bezoeken. We gaan met de fiets. Zaterdagavond ga ik mijn tas inpakken.",
+        "translation": "سنزور حديقة الأحد. سنذهب بالدراجة. مساء السبت سأجهز حقيبتي.",
+        "checklist": [
+          "هل ذكرت اليوم والمكان ووسيلة التنقل؟",
+          "هل صرفت gaan وأبقيت المصدر؟"
+        ]
+      },
+      {
+        "prompt": "قطار خيالي يغادر الأحد 10:40. اقترح اللقاء في صالة المحطة 10:25، ووضح فرق ربع الساعة.",
+        "model": "Spreken we zondag om vijf voor half elf af in de stationshal? De trein vertrekt om tien uur veertig. Dan hebben we een kwartier.",
+        "translation": "هل نلتقي الأحد العاشرة وخمساً وعشرين دقيقة في صالة المحطة؟ يغادر القطار العاشرة وأربعين دقيقة. عندها يكون لدينا ربع ساعة.",
+        "checklist": [
+          "هل أبقيت اللقاء 10:25 والمغادرة 10:40؟",
+          "هل حددت المكان وطلبت الاتفاق؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-comparing-travel-routes",
+    "vocabulary": [
+      {
+        "term": "vanaf",
+        "kind": "expression",
+        "forms": "vanaf dit station",
+        "meaning": "ابتداء من؛ نقطة الانطلاق.",
+        "phraseId": "a2-comparing-travel-routes-01"
+      },
+      {
+        "term": "de overstap",
+        "kind": "noun",
+        "forms": "de overstappen",
+        "meaning": "التبديل إلى وسيلة أو رحلة أخرى.",
+        "phraseId": "a2-comparing-travel-routes-02"
+      },
+      {
+        "term": "de wachttijd",
+        "kind": "noun",
+        "forms": "de wachttijden",
+        "meaning": "مدة الانتظار، وهي داخلة في الإجمالي هنا.",
+        "phraseId": "a2-comparing-travel-routes-03"
+      },
+      {
+        "term": "rechtstreeks",
+        "kind": "expression",
+        "forms": "de rechtstreekse bus",
+        "meaning": "مباشر دون تبديل؛ قد تتوقف الحافلة في الطريق.",
+        "phraseId": "a2-comparing-travel-routes-04"
+      },
+      {
+        "term": "aankomen",
+        "kind": "verb",
+        "forms": "ik kom aan · ik ben aangekomen",
+        "meaning": "يصل؛ فعل قابل للانفصال.",
+        "phraseId": "a2-comparing-travel-routes-06"
+      },
+      {
+        "term": "overstappen",
+        "kind": "verb",
+        "forms": "ik stap over · ik ben overgestapt",
+        "meaning": "يبدل وسيلة النقل؛ بعد hoeven نقول over te stappen.",
+        "phraseId": "a2-comparing-travel-routes-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "قطار مباشر يستغرق 45 دقيقة وحافلة مع تبديل تستغرق 35 دقيقة إجمالاً. تريد الوصول بأسرع وقت. اختر واذكر مقارنة وسبباً.",
+        "model": "Ik neem de bus. Die is sneller dan de trein. Ik kies de bus omdat ik snel wil aankomen.",
+        "translation": "سآخذ الحافلة. هي أسرع من القطار. أختارها لأنني أريد الوصول بسرعة.",
+        "checklist": [
+          "هل اخترت وفق الأوقات الجديدة؟",
+          "هل قارنت باستخدام dan وذكرت السبب؟"
+        ]
+      },
+      {
+        "prompt": "معلومات رحلة خيالية: 50 دقيقة مع تبديل واحد. اسأل إن كانت مدة الانتظار داخلة في الإجمالي وعن بديل دون تبديل. لا تفترض إجابة الموظف.",
+        "model": "Zit de wachttijd in die vijftig minuten? Is er ook een rechtstreekse verbinding?",
+        "translation": "هل وقت الانتظار محسوب ضمن تلك الخمسين دقيقة؟ هل يوجد أيضاً اتصال مباشر؟",
+        "checklist": [
+          "هل سألت عن شمول الانتظار؟",
+          "هل طلبت بديلاً دون اختراع توفره؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-reporting-a-travel-delay",
+    "vocabulary": [
+      {
+        "term": "de vertraging",
+        "kind": "noun",
+        "forms": "de vertragingen",
+        "meaning": "التأخير عن الموعد المخطط.",
+        "phraseId": "a2-reporting-a-travel-delay-01"
+      },
+      {
+        "term": "naar verwachting",
+        "kind": "expression",
+        "forms": "naar verwachting aankomen",
+        "meaning": "من المتوقع؛ تقدير قابل للتغير.",
+        "phraseId": "a2-reporting-a-travel-delay-03"
+      },
+      {
+        "term": "volgens",
+        "kind": "expression",
+        "forms": "volgens het scherm",
+        "meaning": "بحسب؛ يحدد مصدر المعلومة.",
+        "phraseId": "a2-reporting-a-travel-delay-03"
+      },
+      {
+        "term": "de ingang",
+        "kind": "noun",
+        "forms": "de ingangen",
+        "meaning": "المدخل، لا المقهى داخل الصالة.",
+        "phraseId": "a2-reporting-a-travel-delay-04"
+      },
+      {
+        "term": "de aankomsttijd",
+        "kind": "noun",
+        "forms": "de aankomsttijden",
+        "meaning": "وقت الوصول، لا المغادرة.",
+        "phraseId": "a2-reporting-a-travel-delay-05"
+      },
+      {
+        "term": "zodra",
+        "kind": "expression",
+        "forms": "zodra ik op het station ben",
+        "meaning": "حالما؛ يأتي ben في آخر هذه الجملة التابعة.",
+        "phraseId": "a2-reporting-a-travel-delay-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "أرسل لصديق رسالة: حافلتك متأخرة 15 دقيقة، والوصول المتوقع 14:45 بدلاً من 14:30. ستخبره إذا تغير الوقت. استخدم اسماً خيالياً.",
+        "model": "Hoi Amir, mijn bus heeft een kwartier vertraging. Ik kom naar verwachting om kwart voor drie aan, niet om half drie. Ik stuur je een bericht als de tijd verandert.",
+        "translation": "مرحباً أمير، حافلتي متأخرة ربع ساعة. من المتوقع أن أصل الثالثة إلا ربعاً، وليس الثانية والنصف. سأرسل رسالة إذا تغير الوقت.",
+        "checklist": [
+          "هل ذكرت السبب والوقت الجديد؟",
+          "هل أبقيت الوصول توقعاً وربطت التحديث بالتغير؟"
+        ]
+      },
+      {
+        "prompt": "يقول صديقك: Ik wacht binnen bij de informatiebalie, niet buiten. أكد المكان وقل إنك ستتوجه إليه حال وصولك.",
+        "model": "Dank je. Ik kom naar de informatiebalie zodra ik op het station ben. Je hoeft niet buiten te wachten.",
+        "translation": "شكراً لك. سآتي إلى مكتب المعلومات حالما أصل إلى المحطة. لا يلزمك الانتظار في الخارج.",
+        "checklist": [
+          "هل أجبت عن المكان المذكور؟",
+          "هل استخدمت zodra مع ben في نهاية جملتها؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-agreeing-on-another-route",
+    "vocabulary": [
+      {
+        "term": "rijden",
+        "kind": "verb",
+        "forms": "de trein rijdt · de trein heeft gereden",
+        "meaning": "يسير؛ هنا rijdt niet لإلغاء الرحلة المحددة.",
+        "phraseId": "a2-agreeing-on-another-route-01"
+      },
+      {
+        "term": "voor twaalf uur",
+        "kind": "expression",
+        "forms": "voor twaalf uur · om twaalf uur",
+        "meaning": "قبل الثانية عشرة مقابل عند الثانية عشرة.",
+        "phraseId": "a2-agreeing-on-another-route-01"
+      },
+      {
+        "term": "de volgende trein",
+        "kind": "expression",
+        "forms": "de volgende trein nemen",
+        "meaning": "القطار التالي، وقد لا يكون أسرع من البديل.",
+        "phraseId": "a2-agreeing-on-another-route-03"
+      },
+      {
+        "term": "in plaats van",
+        "kind": "expression",
+        "forms": "de bus in plaats van de trein",
+        "meaning": "بدلاً من؛ يحدد البديل.",
+        "phraseId": "a2-agreeing-on-another-route-05"
+      },
+      {
+        "term": "zullen we",
+        "kind": "expression",
+        "forms": "zullen we afspreken?",
+        "meaning": "هل نتفق على لقاء؟ اقتراح مشترك.",
+        "phraseId": "a2-agreeing-on-another-route-06"
+      },
+      {
+        "term": "afgesproken",
+        "kind": "expression",
+        "forms": "Afgesproken.",
+        "meaning": "اتفقنا؛ تأكيد بعد قبول الاقتراح.",
+        "phraseId": "a2-agreeing-on-another-route-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "رحلتك ملغاة. تريد الوصول قبل 15:00. الحافلة تصل 15:10 والقطار البديل 14:50. اختر واذكر السبب، واقترح لقاء صديق 14:50 في صالة المحطة.",
+        "model": "Ik neem de trein omdat ik voor drie uur wil aankomen. De trein komt om tien voor drie aan. Zullen we dan in de stationshal afspreken?",
+        "translation": "سآخذ القطار لأنني أريد الوصول قبل الثالثة. يصل القطار الثالثة إلا عشر دقائق. هل نلتقي عندها في صالة المحطة؟",
+        "checklist": [
+          "هل اخترت وفق الأوقات الجديدة؟",
+          "هل قدمت اللقاء كاقتراح يحتاج إلى رد؟"
+        ]
+      },
+      {
+        "prompt": "يقترح صديق اللقاء 16:00 عند المدخل، لكن حافلتك تصل 16:15. اشرح التعارض واقترح 16:20 عند المدخل نفسه واطلب رأيه.",
+        "model": "Mijn bus komt pas om kwart over vier aan. Zullen we om tien voor half vijf bij de ingang afspreken? Past dat voor jou?",
+        "translation": "لن تصل حافلتي قبل الرابعة والربع. هل نلتقي الرابعة وعشرين دقيقة عند المدخل؟ هل يناسبك ذلك؟",
+        "checklist": [
+          "هل فرقت بين الوصول 16:15 واللقاء 16:20؟",
+          "هل طلبت الموافقة على البديل؟"
+        ]
+      }
+    ]
   }
 ]

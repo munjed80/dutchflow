@@ -607,5 +607,107 @@
         "evidence": "U hoeft geen boek mee te nemen, want de school zorgt voor alle boeken."
       }
     ]
+  },
+  {
+    "slug": "a2-a-museum-trip-plan",
+    "title": "خطة رحلة إلى المتحف",
+    "dutchTitle": "Een zondag naar het museum",
+    "topic": "المغادرة والوصول وخطة العودة",
+    "sourceLessons": [
+      "a2-planning-a-day-trip",
+      "a2-comparing-travel-routes",
+      "a2-reporting-a-travel-delay",
+      "a2-agreeing-on-another-route"
+    ],
+    "text": "Zondag gaan Lina en Sam een museum bezoeken. Ze spreken om tien over negen af in de stationshal. Hun trein vertrekt om vijf voor half tien en komt om vijf over tien aan. Vanaf het station lopen ze tien minuten naar het museum. Ze zijn dus volgens hun plan om kwart over tien bij de ingang. De rondleiding begint om half elf. Sam wil voor vijf uur terug zijn op het station waar hun reis begon. Voor de terugreis kunnen ze kiezen: de trein van kwart voor vier komt daar om vijf voor half vijf aan. De trein van half vijf komt er pas om tien over vijf aan. Ze kiezen de eerste trein. Dit is een fictief reisplan; alle tijden zijn bedacht voor deze oefening.",
+    "translation": "سيزور لينا وسام متحفاً الأحد. يلتقيان التاسعة وعشر دقائق في صالة المحطة. يغادر قطارهما التاسعة وخمساً وعشرين دقيقة ويصل العاشرة وخمس دقائق. يمشيان من المحطة إلى المتحف عشر دقائق. لذلك سيكونان، وفق خطتهما، عند المدخل العاشرة والربع. تبدأ الجولة العاشرة والنصف. يريد سام العودة قبل الخامسة إلى المحطة التي بدأت منها الرحلة. أمامهما خياران للعودة: قطار الرابعة إلا ربعاً يصل إلى هناك الرابعة وخمساً وعشرين دقيقة. أما قطار الرابعة والنصف فلا يصل إلا الخامسة وعشر دقائق. يختاران القطار الأول. هذه خطة سفر خيالية؛ جميع الأوقات موضوعة لهذا التمرين.",
+    "vocabulary": [
+      {
+        "term": "een museum bezoeken",
+        "excerpt": "een museum bezoeken",
+        "meaning": "زيارة متحف؛ نشاط مخطط له."
+      },
+      {
+        "term": "de rondleiding",
+        "excerpt": "De rondleiding",
+        "meaning": "جولة برفقة مرشد."
+      },
+      {
+        "term": "de terugreis",
+        "excerpt": "de terugreis",
+        "meaning": "رحلة العودة إلى نقطة البداية."
+      },
+      {
+        "term": "volgens hun plan",
+        "excerpt": "volgens hun plan",
+        "meaning": "وفق الخطة؛ ليست ضماناً لعدم التأخير."
+      },
+      {
+        "term": "pas",
+        "excerpt": "pas om tien over vijf",
+        "meaning": "ليس قبل الخامسة وعشر دقائق؛ متأخر عن حاجة سام."
+      },
+      {
+        "term": "kiezen",
+        "excerpt": "Ze kiezen de eerste trein.",
+        "meaning": "يختارون الخيار المناسب لوقت العودة."
+      }
+    ],
+    "grammar": {
+      "title": "gaan مع نشاط مخطط له",
+      "explanation": "Zondag يحدد زمن الخطة، وgaan يتبعه المصدر bezoeken. أما vertrekt وkomt فمضارع مع أوقات محددة لرحلة قادمة. لا يلزم إضافة gaan إلى كل وقت في الجدول.",
+      "example": "Zondag gaan Lina en Sam een museum bezoeken.",
+      "translation": "سيزور لينا وسام متحفاً يوم الأحد."
+    },
+    "questions": [
+      {
+        "prompt": "ما وقت اللقاء ومغادرة القطار؟",
+        "options": [
+          "اللقاء 09:25 والمغادرة 09:10",
+          "اللقاء 09:10 والمغادرة 09:25",
+          "اللقاء 09:10 والمغادرة 09:30"
+        ],
+        "correctIndex": 1,
+        "explanation": "tien over negen هي 09:10، وvijf voor half tien هي 09:25.",
+        "evidence": "Ze spreken om tien over negen af in de stationshal. Hun trein vertrekt om vijf voor half tien en komt om vijf over tien aan.",
+        "id": "a2-travel-read-1"
+      },
+      {
+        "prompt": "متى يصلان إلى مدخل المتحف وفق الخطة؟",
+        "options": [
+          "10:05",
+          "10:30",
+          "10:15"
+        ],
+        "correctIndex": 2,
+        "explanation": "الوصول للمتحف 10:15 بعد المشي؛ 10:30 بداية الجولة.",
+        "evidence": "Vanaf het station lopen ze tien minuten naar het museum. Ze zijn dus volgens hun plan om kwart over tien bij de ingang.",
+        "id": "a2-travel-read-2"
+      },
+      {
+        "prompt": "لماذا يختاران قطار العودة الذي يغادر 15:45؟",
+        "options": [
+          "لأنه يصل إلى محطة البداية 16:25، قبل الخامسة",
+          "لأنه يغادر محطة البداية 16:25",
+          "لأن القطار الآخر يصل قبل الخامسة أيضاً"
+        ],
+        "correctIndex": 0,
+        "explanation": "15:45 للمغادرة و16:25 للوصول؛ الخيار الآخر يصل 17:10.",
+        "evidence": "Sam wil voor vijf uur terug zijn op het station waar hun reis begon. Voor de terugreis kunnen ze kiezen: de trein van kwart voor vier komt daar om vijf voor half vijf aan. De trein van half vijf komt er pas om tien over vijf aan.",
+        "id": "a2-travel-read-3"
+      },
+      {
+        "prompt": "كم دقيقة بين الوصول المخطط للمدخل وبداية الجولة؟",
+        "options": [
+          "خمس دقائق",
+          "خمس عشرة دقيقة",
+          "ثلاثون دقيقة"
+        ],
+        "correctIndex": 1,
+        "explanation": "10:15 تسبق 10:30 بربع ساعة.",
+        "evidence": "Ze zijn dus volgens hun plan om kwart over tien bij de ingang. De rondleiding begint om half elf.",
+        "id": "a2-travel-read-4"
+      }
+    ]
   }
 ]

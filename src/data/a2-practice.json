@@ -712,5 +712,153 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "a2-travel-plans",
+    "title": "مراجعة: عدّل خطة الرحلة بعد تحديث",
+    "unitIds": [
+      "a2-travel-plans"
+    ],
+    "reading": {
+      "text": "Hoi Noor, woensdag gaan we een workshop bezoeken in Stad-West. We spreken om tien over twaalf af bij de ingang van ons station. De trein vertrekt om twintig over twaalf van spoor drie en komt om tien voor één aan in Stad-West. Vanaf dat station is het tien minuten lopen naar het buurthuis. We zijn daar dus om één uur, een kwartier voor de workshop begint. Je hoeft geen laptop mee te nemen; het buurthuis heeft er één voor elke deelnemer. Tot woensdag! Groetjes, Amir. Alle plaatsen en reistijden in dit bericht zijn fictief.",
+      "translation": "مرحباً نور، سنحضر الأربعاء ورشة في ستاد فيست. نلتقي الثانية عشرة وعشر دقائق عند مدخل محطتنا. يغادر القطار الثانية عشرة وعشرين دقيقة من الرصيف الثالث ويصل ستاد فيست الواحدة إلا عشر دقائق. يبعد المركز المجتمعي عشر دقائق مشياً عن تلك المحطة. إذن نصل إليه الواحدة، قبل بداية الورشة بربع ساعة. لا يلزمك إحضار حاسوب محمول؛ لدى المركز جهاز لكل مشارك. إلى الأربعاء! تحياتي، أمير. جميع الأماكن وأوقات السفر في الرسالة خيالية.",
+      "questions": [
+        {
+          "prompt": "أين ومتى اللقاء وفق الرسالة الأصلية؟",
+          "options": [
+            "12:20 عند موقف الحافلة",
+            "12:10 عند مدخل المحطة",
+            "12:50 في المركز المجتمعي"
+          ],
+          "correctIndex": 1,
+          "explanation": "اللقاء عند المدخل قبل مغادرة القطار بعشر دقائق.",
+          "evidence": "We spreken om tien over twaalf af bij de ingang van ons station.",
+          "id": "a2-travel-practice-read-1"
+        },
+        {
+          "prompt": "ما الوصول المخطط إلى المركز وما بداية الورشة؟",
+          "options": [
+            "الوصول 12:50 والبداية 13:00",
+            "الوصول 13:15 والبداية 13:30",
+            "الوصول 13:00 والبداية 13:15"
+          ],
+          "correctIndex": 2,
+          "explanation": "الوصول الواحدة، والبداية بعده بربع ساعة.",
+          "evidence": "We zijn daar dus om één uur, een kwartier voor de workshop begint.",
+          "id": "a2-travel-practice-read-2"
+        },
+        {
+          "prompt": "هل تحتاج نور إلى إحضار حاسوب؟",
+          "options": [
+            "لا، المركز يوفر جهازاً لكل مشارك",
+            "نعم، وإلا لن تشارك",
+            "لا، الأجهزة الشخصية ممنوعة"
+          ],
+          "correctIndex": 0,
+          "explanation": "عدم الحاجة ليس منعاً؛ المركز يوفر الأجهزة.",
+          "evidence": "Je hoeft geen laptop mee te nemen; het buurthuis heeft er één voor elke deelnemer.",
+          "id": "a2-travel-practice-read-3"
+        }
+      ],
+      "table": {
+        "caption": "الخطة الأصلية الخيالية — قبل التحديث الصوتي",
+        "headers": [
+          "الخطوة",
+          "الوقت أو المكان"
+        ],
+        "rows": [
+          [
+            "اللقاء",
+            "12:10 — مدخل المحطة"
+          ],
+          [
+            "مغادرة القطار",
+            "12:20 — الرصيف 3"
+          ],
+          [
+            "الوصول إلى ستاد فيست",
+            "12:50"
+          ],
+          [
+            "الوصول إلى المركز بعد المشي",
+            "13:00"
+          ],
+          [
+            "بداية الورشة",
+            "13:15"
+          ]
+        ]
+      }
+    },
+    "listening": {
+      "id": "a2-passage-travel-plans",
+      "text": "Hoi Noor, onze trein rijdt niet. We nemen de vervangende bus van half één voor het station. Laten we om twintig over twaalf bij de bushalte afspreken. Volgens de nieuwe planning komen we om vijf over één in Stad-West aan. Daarna lopen we tien minuten. De workshop begint nog steeds om kwart over één. We hebben dus geen extra tijd.",
+      "translation": "مرحباً نور، قطارنا لن يسير. سنأخذ الحافلة البديلة التي تغادر الثانية عشرة والنصف من أمام المحطة. لنتقابل الثانية عشرة وعشرين دقيقة عند موقف الحافلة. وفق الخطة الجديدة نصل ستاد فيست الواحدة وخمس دقائق. ثم نمشي عشر دقائق. ما زالت الورشة تبدأ الواحدة والربع. لذلك ليست لدينا مهلة إضافية.",
+      "questions": [
+        {
+          "prompt": "ما وسيلة الرحلة الجديدة ومتى تنطلق؟",
+          "options": [
+            "القطار 12:20 من الرصيف الثالث",
+            "الحافلة البديلة 12:30 من أمام المحطة",
+            "الحافلة البديلة 13:05 من ستاد فيست"
+          ],
+          "correctIndex": 1,
+          "explanation": "half één هي 12:30؛ القطار الأصلي لا يسير.",
+          "evidence": "onze trein rijdt niet. We nemen de vervangende bus van half één voor het station.",
+          "id": "a2-travel-practice-listen-1"
+        },
+        {
+          "prompt": "ما وقت اللقاء ومكانه بعد التحديث؟",
+          "options": [
+            "12:10 عند مدخل المحطة",
+            "12:30 عند مدخل المركز",
+            "12:20 عند موقف الحافلة"
+          ],
+          "correctIndex": 2,
+          "explanation": "التحديث يغير وقت اللقاء ومكانه أيضاً.",
+          "evidence": "Laten we om twintig over twaalf bij de bushalte afspreken.",
+          "id": "a2-travel-practice-listen-2"
+        },
+        {
+          "prompt": "وفق الخطة الجديدة، هل تبقى مهلة قبل الورشة بعد المشي؟",
+          "options": [
+            "لا؛ الوصول 13:15 يوافق البداية دون مهلة إضافية",
+            "نعم؛ بقيت مهلة ربع ساعة كما في الرسالة",
+            "نعم؛ تبدأ الورشة الآن 13:30"
+          ],
+          "correctIndex": 0,
+          "explanation": "13:05 ثم عشر دقائق مشياً تعني 13:15. هذا حساب للخطة وليس ضماناً للوصول.",
+          "evidence": "Volgens de nieuwe planning komen we om vijf over één in Stad-West aan. Daarna lopen we tien minuten. De workshop begint nog steeds om kwart over één. We hebben dus geen extra tijd.",
+          "id": "a2-travel-practice-listen-3"
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب لصديق: ألغي قطاركما. الحافلة البديلة تغادر 09:40 وتصل 10:20. اقترح اللقاء 09:30 عند موقفها أمام المحطة بدلاً من اللقاء السابق 09:15 في الصالة، واسأل إن كان البديل يناسبه. استخدم اسماً خيالياً.",
+        "model": "Hoi Lina, onze trein rijdt niet. We kunnen de bus van twintig voor tien nemen. Die komt om twintig over tien aan. Zullen we om half tien bij de bushalte voor het station afspreken, in plaats van om kwart over negen in de hal? Past dat voor jou?",
+        "translation": "مرحباً لينا، قطارنا لن يسير. يمكننا أخذ حافلة العاشرة إلا عشرين دقيقة. تصل العاشرة وعشرين دقيقة. هل نلتقي التاسعة والنصف عند موقف الحافلة أمام المحطة بدلاً من التاسعة والربع في الصالة؟ هل يناسبك ذلك؟",
+        "checklist": [
+          "هل ذكرت سبب التغيير والمغادرة والوصول؟",
+          "هل غيرت وقت اللقاء ومكانه وطلبت الموافقة؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "تريد الوصول إلى محطة الوصول قبل 18:00 وشريكك موظف. اسأل عن بديل لقطار ملغى. يعرض حافلة مباشرة تصل 17:50 وقطاراً يصل 18:10. اختر مع السبب واسأل عن موقف الحافلة. يجيب: الموقف الرابع والمغادرة 17:15. أعد التفاصيل بعد سماعها.",
+        "model": "Mijn trein rijdt niet. Hoe kan ik voor zes uur aankomen?\nPartner: De rechtstreekse bus komt om tien voor zes aan. De trein komt om tien over zes aan.\nIk neem de bus omdat ik voor zes uur wil aankomen. Waar vertrekt die?\nPartner: Bij halte vier, om kwart over vijf.\nDus halte vier: vertrek om kwart over vijf, aankomst om tien voor zes.",
+        "translation": "قطاري لن يسير. كيف أصل قبل السادسة؟\nالشريك: الحافلة المباشرة تصل السادسة إلا عشر دقائق. القطار يصل السادسة وعشر دقائق.\nسآخذ الحافلة لأنني أريد الوصول قبل السادسة. من أين تنطلق؟\nالشريك: من الموقف الرابع، الخامسة والربع.\nإذن الموقف الرابع: المغادرة الخامسة والربع والوصول السادسة إلا عشر دقائق.",
+        "checklist": [
+          "هل اخترت الوصول الذي يحقق شرطك؟",
+          "هل سألت عن الموقف ثم أعدت الموقف والمغادرة والوصول؟"
+        ],
+        "partnerPrompts": [
+          "De rechtstreekse bus komt om tien voor zes aan. De trein komt om tien over zes aan.",
+          "Welke verbinding kiest u, en waarom?",
+          "De bus vertrekt bij halte vier, om kwart over vijf."
+        ]
+      }
+    ]
   }
 ]
