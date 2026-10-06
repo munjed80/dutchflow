@@ -578,7 +578,8 @@ test("social listening replaces the original start, guest list and glass request
   for (const [i, q] of pack.listening.questions.entries()) await listen.locator(`#${q.id}-${i === 0 ? 0 : i === 2 ? 0 : q.correctIndex}`).check();
   await listen.getByRole("button", { name: "تحقّق من فهمك" }).click();
   await expect(listen.locator(".reading-result h3")).toContainText("1 من 3");
-  await expect(listen.locator(".practice-review a")).toHaveCount(2);
+  // Both missed update details intentionally deduplicate to the same targeted review lesson.
+  await expect(listen.locator(".practice-review a")).toHaveCount(1);
   await expect(listen.locator('a[href="/learn/a2-confirming-a-social-plan"]')).toBeVisible();
   await page.locator("#write textarea").fill("Kan het om kwart over zeven?");
   await page.locator("#write summary").click();
