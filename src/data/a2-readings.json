@@ -758,8 +758,8 @@
     "grammar": {
       "title": "شرط بسيط مع als وطلب منفصل",
       "explanation": "في Kunt u zaterdag niet, maar wilt u ...? يعرض النص حالة بديلة. وفي Stuur dan ... يظهر ما يجب فعله عند الرغبة بالحضور. لا نفترض أن مكان القاعة النهائي معروف قبل رسالة الجمعة.",
-      "example": "Wilt u komen? Stuur dan uiterlijk woensdagavond een bericht.",
-      "translation": "هل تريد الحضور؟ أرسل إذاً رسالة في موعد أقصاه مساء الأربعاء."
+      "example": "Stuur dan uiterlijk woensdagavond een bericht met het aantal personen.",
+      "translation": "أرسل إذاً رسالة في موعد أقصاه مساء الأربعاء مع عدد الأشخاص."
     },
     "questions": [
       {
