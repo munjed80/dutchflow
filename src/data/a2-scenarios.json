@@ -905,5 +905,135 @@
         "هل طلبت الانتظار دون افتراض الموافقة؟"
       ]
     }
+  },
+  {
+    "slug": "a2-changing-a-social-invitation",
+    "unitId": "a2-social-experiences",
+    "title": "عدّل دعوة اجتماعية بعد تغيير الوقت",
+    "dutchTitle": "Een uitnodiging aanpassen",
+    "role": "أنت ريم. دعتك صديقتك إلى نزهة الأحد الساعة 14:00 في الحديقة. لا تستطيع قبل 15:00 بسبب زيارة عائلية. تريد أن تبقى الدعوة نفسها مع وقت جديد.",
+    "partner": "صديقتك نور",
+    "mission": "اعتذر عن الوقت فقط، اذكر السبب باختصار، اقترح بديلاً ثم أكد الخطة النهائية بعد قبولها.",
+    "sourceLessons": [
+      "a2-sharing-a-social-experience",
+      "a2-asking-follow-up-questions",
+      "a2-responding-to-an-invitation",
+      "a2-confirming-a-social-plan"
+    ],
+    "turns": [
+      {
+        "id": "a2-social-turn-1",
+        "goal": "اشكر على الدعوة واشرح أن الوقت لا يناسبك.",
+        "prompt": "Hoi Reem, zullen we zondag om twee uur in het park afspreken?",
+        "translation": "مرحباً ريم، هل نلتقي الأحد الساعة الثانية في الحديقة؟",
+        "choices": [
+          {
+            "text": "Leuk idee, maar om twee uur kan ik helaas niet.",
+            "translation": "فكرة جميلة، لكن للأسف لا أستطيع الساعة الثانية.",
+            "feedback": "قبلت فكرة اللقاء ورفضت الوقت فقط بوضوح."
+          },
+          {
+            "text": "Nee, ik ga nooit naar het park.",
+            "translation": "لا، أنا لا أذهب إلى الحديقة أبداً.",
+            "feedback": "هذا يرفض النشاط كله ويضيف معلومة غير موجودة."
+          },
+          {
+            "text": "Ja, afgesproken om twee uur.",
+            "translation": "نعم، اتفقنا الساعة الثانية.",
+            "feedback": "هذا يقبل وقتاً قلت إنك لا تستطيعينه."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Jammer. Hoe komt dat?",
+        "responseTranslation": "مؤسف. ما السبب؟"
+      },
+      {
+        "id": "a2-social-turn-2",
+        "goal": "اذكر السبب واقترح وقتاً بديلاً.",
+        "prompt": "Waarom lukt twee uur niet?",
+        "translation": "لماذا لا تناسبك الساعة الثانية؟",
+        "choices": [
+          {
+            "text": "Omdat ik dan familie bezoek. Kan het om drie uur?",
+            "translation": "لأنني سأزور العائلة حينها. هل يمكن الساعة الثالثة؟",
+            "feedback": "قدمت سبباً ووقتاً بديلاً واضحاً."
+          },
+          {
+            "text": "Omdat het park om drie uur open is.",
+            "translation": "لأن الحديقة تفتح الساعة الثالثة.",
+            "feedback": "هذه معلومة غير موجودة ولا تشرح زيارتك العائلية."
+          },
+          {
+            "text": "Ik kom misschien om twee uur of om vier uur.",
+            "translation": "ربما آتي الثانية أو الرابعة.",
+            "feedback": "الرد غير حاسم ولا يقدم البديل المطلوب."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Drie uur is goed. Zullen we bij de hoofdingang afspreken?",
+        "responseTranslation": "الثالثة مناسبة. هل نلتقي عند المدخل الرئيسي؟"
+      },
+      {
+        "id": "a2-social-turn-3",
+        "goal": "اقبل المكان واسأل عن تفصيل عملي جديد.",
+        "prompt": "Past de hoofdingang voor jou?",
+        "translation": "هل يناسبك المدخل الرئيسي؟",
+        "choices": [
+          {
+            "text": "Ja. Zal ik iets te drinken meenemen?",
+            "translation": "نعم. هل أحضر شيئاً للشرب؟",
+            "feedback": "أكدت المكان وسألت عن تحضير عملي."
+          },
+          {
+            "text": "Nee, laten we toch om twee uur afspreken.",
+            "translation": "لا، لنعد إلى الساعة الثانية.",
+            "feedback": "هذا يعيد وقتاً لا تستطيعينه."
+          },
+          {
+            "text": "Waar is het station?",
+            "translation": "أين المحطة؟",
+            "feedback": "المحطة ليست جزءاً من الخطة الحالية."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Neem maar water mee. Ik neem iets te eten mee.",
+        "responseTranslation": "أحضري ماء. سأحضر أنا شيئاً للأكل."
+      },
+      {
+        "id": "a2-social-turn-4",
+        "goal": "أعد اليوم والوقت والمكان وما سيحضره كل طرف.",
+        "prompt": "Kun je onze afspraak nog één keer herhalen?",
+        "translation": "هل يمكنك إعادة اتفاقنا مرة أخيرة؟",
+        "choices": [
+          {
+            "text": "Zondag om drie uur bij de hoofdingang van het park. Ik neem water mee en jij neemt iets te eten mee.",
+            "translation": "الأحد الساعة الثالثة عند المدخل الرئيسي للحديقة. سأحضر الماء وأنت ستحضرين شيئاً للأكل.",
+            "feedback": "أعدت النسخة النهائية كاملة."
+          },
+          {
+            "text": "Zondag om twee uur bij het station. Ik neem eten mee.",
+            "translation": "الأحد الساعة الثانية عند المحطة. سأحضر الطعام.",
+            "feedback": "خلطت الاقتراح القديم بالمكان والتحضير."
+          },
+          {
+            "text": "We zien elkaar zondag ergens in het park.",
+            "translation": "سنرى بعضنا الأحد في مكان ما في الحديقة.",
+            "feedback": "فقدت الوقت والمكان المحدد وما يجب إحضاره."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Precies. Afgesproken!",
+        "responseTranslation": "بالضبط. اتفقنا!"
+      }
+    ],
+    "transfer": {
+      "prompt": "دعيت إلى زيارة يوم السبت 16:00، لكنك لا تستطيع قبل 17:30. اقترح 17:45 عند مدخل المقهى نفسه. بعد قبول صديقك، أكد الوقت والمكان وقل إنك ستحضر الحلوى. استخدم اسماً خيالياً.",
+      "model": "Hoi Sam, bedankt voor de uitnodiging. Om vier uur kan ik helaas niet. Kan het om kwart voor zes? Bij de ingang van hetzelfde café is goed. Afgesproken: zaterdag om kwart voor zes bij de ingang. Ik neem iets zoets mee.",
+      "translation": "مرحباً سام، شكراً على الدعوة. للأسف لا أستطيع الساعة الرابعة. هل يمكن السادسة إلا ربعاً؟ عند مدخل المقهى نفسه مناسب. اتفقنا: السبت السادسة إلا ربعاً عند المدخل. سأحضر شيئاً حلواً.",
+      "checklist": [
+        "هل غيرت الوقت دون تغيير النشاط أو المكان بلا سبب؟",
+        "هل أكدت فقط التفاصيل النهائية بعد القبول؟"
+      ]
+    }
   }
 ]
