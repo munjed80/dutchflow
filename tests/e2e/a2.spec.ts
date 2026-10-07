@@ -640,7 +640,7 @@ test("A2 final review integrates superseded information, relay writing and partn
   await expect(listen.locator('a[href="/learn/a2-reporting-a-travel-delay"]')).toBeVisible();
   await expect(listen.locator('a[href="/learn/a2-writing-a-relevant-reply"]')).toBeVisible();
 
-  await page.locator("#write textarea").first().fill("De workshop is nu in school De Horizon, lokaal vijf.");
+  await page.locator("#write textarea").first().fill("De workshop is nu op school De Horizon, in lokaal vijf.");
   await page.locator("#write summary").first().click();
   await expect(page.locator("#write .production-model").first()).toHaveText(pack.writing[0].model);
   await page.locator("#write details").nth(1).locator("summary").click();
