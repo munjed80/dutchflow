@@ -1,6 +1,6 @@
 # A2 preparation and first delivery slice
 
-Updated 2026-10-06. All eight proposed authored units and the level-aware infrastructure are now implemented; see `A2_SOCIAL_EXPERIENCES.md` for the current delivery. Earlier unit documents retain historical snapshots. The next step is a whole-sequence coverage audit before any claim that A2 is complete. No proficiency score or certificate is introduced; paid exams remain deferred.
+Updated 2026-10-07. All eight proposed authored units and the level-aware infrastructure are implemented. The whole-sequence audit is recorded in `A2_FULL_COVERAGE_AUDIT.md`. Its decision is **do not add unit 9**: build one cumulative A2 final integrated review, reinforce relay/mediation and public-announcement listening, then perform the final editorial pass. No proficiency score or certificate is introduced; paid exams remain deferred.
 
 ## Starting point and boundaries
 
@@ -16,7 +16,7 @@ The Council of Europe's [global scale](https://www.coe.int/en/web/common-europea
 | Comprehension and production | Evidence-backed questions and original-response tasks exist | Observe learners on unfamiliar details and adjust scaffolding / educator |
 | Real audio | Repository manifest has zero approved variants | Owner generates, listens and approves; `audio:check -- --require-complete --level=A1` must pass for A1 recorded release |
 | Independent language review | No external sign-off recorded | Dutch/Arabic educator reviews wording, task load and descriptor mapping |
-| A2 preview | Eight units / thirty-two lessons with supporting resources implemented | Run a whole-sequence coverage audit; educator review and learner observation remain outstanding |
+| A2 preview | Eight units / thirty-two lessons with supporting resources implemented; whole-sequence audit complete | Build cumulative A2 final review + targeted relay/listening reinforcement; educator review and learner observation remain outstanding |
 | Public launch | Account infrastructure/privacy readiness separate | Follow `ACCOUNTS.md`; do not equate course counts with launch readiness |
 
 A2 design and an isolated draft can proceed alongside owner-managed recording work. Publishing A2 requires its own reviewed material and playback checks; it must not imply that A1's remaining release gates have passed. The learner's A1 lesson-completion total is self-reported, not a gate, placement result or credential.
