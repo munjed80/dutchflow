@@ -979,5 +979,169 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "final-review",
+    "title": "المراجعة الختامية المتكاملة لـ A2",
+    "unitIds": [
+      "a2-recent-activities",
+      "a2-work-coordination",
+      "a2-housing-services",
+      "a2-appointments-followup",
+      "a2-shopping-choices",
+      "a2-school-local-messages",
+      "a2-travel-plans",
+      "a2-social-experiences"
+    ],
+    "reading": {
+      "text": "Beste deelnemers, zaterdag is er een praktische workshop in wijkcentrum De Brug. Meld u uiterlijk woensdagavond aan per e-mail. De workshop begint om elf uur in zaal twee. De deur gaat om half elf open. Neem een pen en uw eigen lunch mee; koffie en thee zijn gratis. Bus 4 stopt om tien over tien bij het plein. Vanaf de halte is het ongeveer tien minuten lopen. Na de workshop kunt u om half twee meedoen aan een korte rondleiding door de buurt. Die rondleiding is vrijwillig. In de e-mail hoeft u alleen uw naam en het aantal deelnemers te schrijven. Dit is een fictieve mededeling voor deze oefening.",
+      "translation": "أيها المشاركون الأعزاء، تقام يوم السبت ورشة عملية في مركز الحي «دي بروخ». سجلوا في موعد أقصاه مساء الأربعاء عبر البريد الإلكتروني. تبدأ الورشة الساعة الحادية عشرة في القاعة الثانية. تفتح الأبواب العاشرة والنصف. أحضروا قلمًا وغداءكم الخاص؛ القهوة والشاي مجانيان. تتوقف الحافلة 4 الساعة العاشرة وعشر دقائق عند الساحة. ومن الموقف يستغرق المشي نحو عشر دقائق. بعد الورشة يمكنكم المشاركة الساعة الواحدة والنصف في جولة قصيرة في الحي. الجولة اختيارية. في البريد الإلكتروني يكفي كتابة الاسم وعدد المشاركين. هذه رسالة خيالية لهذا التمرين.",
+      "questions": [
+        {
+          "id": "a2-final-review-read-1",
+          "prompt": "ما آخر موعد للتسجيل، وما وسيلة الرد المطلوبة؟",
+          "options": [
+            "مساء الأربعاء عبر البريد الإلكتروني",
+            "السبت 10:30 عبر الهاتف",
+            "الجمعة ظهرًا عند الباب"
+          ],
+          "correctIndex": 0,
+          "explanation": "التسجيل يجب أن يصل uiterlijk woensdagavond per e-mail.",
+          "evidence": "Meld u uiterlijk woensdagavond aan per e-mail."
+        },
+        {
+          "id": "a2-final-review-read-2",
+          "prompt": "ما الفرق بين فتح الباب وبدء الورشة؟",
+          "options": [
+            "يفتح الباب 10:30 وتبدأ الورشة 11:00",
+            "يفتح الباب 11:00 وتبدأ 10:30",
+            "كلاهما 11:00"
+          ],
+          "correctIndex": 0,
+          "explanation": "half elf = 10:30، بينما تبدأ الورشة om elf uur.",
+          "evidence": "De workshop begint om elf uur in zaal twee. De deur gaat om half elf open."
+        },
+        {
+          "id": "a2-final-review-read-3",
+          "prompt": "ماذا يجب على المشارك أن يحضر؟",
+          "options": [
+            "قلمًا وغداءه الخاص",
+            "قهوة وشايًا",
+            "حاسوبًا محمولًا ودفترًا"
+          ],
+          "correctIndex": 0,
+          "explanation": "القهوة والشاي مجانيان، لكن القلم والغداء مطلوبان من المشارك.",
+          "evidence": "Neem een pen en uw eigen lunch mee; koffie en thee zijn gratis."
+        },
+        {
+          "id": "a2-final-review-read-4",
+          "prompt": "هل الجولة بعد الورشة إلزامية؟",
+          "options": [
+            "نعم، وهي جزء من التسجيل",
+            "لا، المشاركة فيها اختيارية",
+            "نعم، لكن فقط لمن يصل بالحافلة"
+          ],
+          "correctIndex": 1,
+          "explanation": "النص يقول صراحة إن الجولة vrijwillig.",
+          "evidence": "Die rondleiding is vrijwillig."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-final-review",
+      "text": "Let op, deelnemers aan de workshop van zaterdag. De locatie is veranderd. De workshop is niet in wijkcentrum De Brug, maar in school De Horizon, lokaal vijf. We beginnen om half twaalf. Bus 4 rijdt zaterdag niet. Neem bus 7; die komt om tien voor elf bij de school aan. U hoeft geen lunch mee te nemen, want die wordt verzorgd. Neem wel een pen mee.",
+      "translation": "انتباه، المشاركون في ورشة السبت. تم تغيير المكان. الورشة ليست في مركز الحي «دي بروخ»، بل في مدرسة «دي هورايزن»، القاعة الخامسة. سنبدأ الساعة الحادية عشرة والنصف. الحافلة 4 لا تعمل يوم السبت. خذوا الحافلة 7؛ تصل إلى المدرسة الساعة الحادية عشرة إلا عشر دقائق. لا تحتاجون إلى إحضار الغداء لأنه سيتم توفيره. لكن أحضروا قلمًا.",
+      "questions": [
+        {
+          "id": "a2-final-review-listen-1",
+          "prompt": "ما المكان والقاعة بعد التحديث؟",
+          "options": [
+            "مركز De Brug، القاعة 2",
+            "مدرسة De Horizon، القاعة 5",
+            "مدرسة De Horizon، القاعة 2"
+          ],
+          "correctIndex": 1,
+          "explanation": "الإعلان يستبدل مركز الحي بالمدرسة ويحدد lokaal vijf.",
+          "evidence": "De workshop is niet in wijkcentrum De Brug, maar in school De Horizon, lokaal vijf."
+        },
+        {
+          "id": "a2-final-review-listen-2",
+          "prompt": "ما وقت البداية الجديد؟",
+          "options": [
+            "10:30",
+            "11:00",
+            "11:30"
+          ],
+          "correctIndex": 2,
+          "explanation": "half twaalf تعني 11:30.",
+          "evidence": "We beginnen om half twaalf."
+        },
+        {
+          "id": "a2-final-review-listen-3",
+          "prompt": "ما خطة المواصلات الحالية؟",
+          "options": [
+            "الحافلة 4 تصل 10:10 إلى الساحة",
+            "الحافلة 7 تصل 10:50 إلى المدرسة",
+            "الحافلة 7 تصل 11:30 إلى مركز الحي"
+          ],
+          "correctIndex": 1,
+          "explanation": "الحافلة 4 لا تعمل؛ البديل هو bus 7 ووصولها 10:50 عند المدرسة.",
+          "evidence": "Bus 4 rijdt zaterdag niet. Neem bus 7; die komt om tien voor elf bij de school aan."
+        },
+        {
+          "id": "a2-final-review-listen-4",
+          "prompt": "أي معلومة من النص الأصلي ما زالت صحيحة بعد الإعلان؟",
+          "options": [
+            "يجب إحضار الغداء",
+            "يجب إحضار قلم",
+            "المكان ما زال مركز De Brug"
+          ],
+          "correctIndex": 1,
+          "explanation": "الغداء أصبح موفراً والمكان تغير، لكن طلب القلم بقي كما هو.",
+          "evidence": "U hoeft geen lunch mee te nemen, want die wordt verzorgd. Neem wel een pen mee."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "صديقك سام لم يرَ الإعلان الجديد. اكتب له رسالة من 4–6 جمل تنقل المعلومات الحالية فقط: المكان والقاعة، وقت البداية، الحافلة الصحيحة ووقت وصولها، وما الذي يجب أو لا يجب إحضاره. لا تكرر الخطة القديمة.",
+        "model": "Hoi Sam, er is een nieuwe update voor zaterdag. De workshop is nu in school De Horizon, lokaal vijf, en begint om half twaalf. Neem bus 7; die komt om tien voor elf bij de school aan. Je hoeft geen lunch mee te nemen, want die wordt verzorgd. Neem wel een pen mee.",
+        "translation": "مرحبًا سام، هناك تحديث جديد ليوم السبت. الورشة الآن في مدرسة دي هورايزن، القاعة الخامسة، وتبدأ الساعة الحادية عشرة والنصف. خذ الحافلة 7؛ تصل إلى المدرسة الساعة الحادية عشرة إلا عشر دقائق. لا تحتاج إلى إحضار الغداء لأنه سيتم توفيره. لكن أحضر قلمًا.",
+        "checklist": [
+          "هل نقلت المعلومات الحالية فقط دون خلطها بالخطة الأصلية؟",
+          "هل ذكرت المكان والقاعة والوقت ووسيلة النقل الحالية؟",
+          "هل أوضحت أن الغداء لم يعد مطلوبًا وأن القلم ما زال مطلوبًا؟"
+        ]
+      },
+      {
+        "prompt": "اكتب ردًا قصيرًا للمنظم: يمكنك الحضور، لكن تريد أن تعرف إن كانت الجولة بعد الورشة ما زالت موجودة بعد تغيير المكان. استخدم سؤالًا مهذبًا وغير مباشر.",
+        "model": "Beste organisatie, ik kan zaterdag komen. Bedankt voor de update. Kunt u zeggen of de rondleiding na de workshop nog doorgaat? Met vriendelijke groet, Amir.",
+        "translation": "الجهة المنظمة المحترمة، أستطيع الحضور يوم السبت. شكرًا على التحديث. هل يمكنكم إخباري إن كانت الجولة بعد الورشة ما تزال قائمة؟ مع أطيب التحيات، أمير.",
+        "checklist": [
+          "هل أكدت قدرتك على الحضور؟",
+          "هل سألت فقط عن المعلومة التي لم يؤكدها الإعلان الجديد؟",
+          "هل استخدمت صيغة مهذبة مثل Kunt u zeggen of ...?"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "مع شريك: أنت رأيت الإعلان الجديد، وشريكك يعرف الرسالة القديمة فقط. أخبره أن المكان والوقت تغيرا. الشريك يسأل عن وسيلة الوصول وما يجب إحضاره. ثم قل إنك تفضل الوصول قبل البداية بوقت كافٍ لأنك لا تريد التأخر، واقترح أن تلتقيا 11:00 عند مدخل المدرسة. على الشريك أن يسأل هل 11:10 مناسب بدلاً من ذلك. اسأل سؤال توضيح واحداً ثم اتفقا على الوقت النهائي وأعيداه.",
+        "model": "De workshop is nu in school De Horizon, lokaal vijf, en begint om half twaalf.\nPartner: Hoe kunnen we daar komen?\nBus 7 komt om tien voor elf bij de school aan.\nPartner: Wat moeten we meenemen?\nAlleen een pen. De lunch wordt verzorgd. Ik kom liever wat eerder, omdat ik niet te laat wil zijn. Zullen we om elf uur bij de ingang afspreken?\nPartner: Kan het om tien over elf?\nBedoel je tien over elf bij de hoofdingang?\nPartner: Ja.\nDat is goed. Afgesproken: om tien over elf bij de hoofdingang.",
+        "translation": "الورشة الآن في مدرسة دي هورايزن، القاعة الخامسة، وتبدأ الحادية عشرة والنصف.\nالشريك: كيف يمكننا الوصول؟\nالحافلة 7 تصل الحادية عشرة إلا عشر دقائق عند المدرسة.\nالشريك: ماذا يجب أن نحضر؟\nفقط قلمًا. الغداء سيتم توفيره. أفضل الوصول أبكر قليلًا لأنني لا أريد التأخر. هل نلتقي الساعة الحادية عشرة عند المدخل؟\nالشريك: هل يمكن الحادية عشرة وعشر دقائق؟\nهل تقصد الحادية عشرة وعشر دقائق عند المدخل الرئيسي؟\nالشريك: نعم.\nمناسب. اتفقنا: الحادية عشرة وعشر دقائق عند المدخل الرئيسي.",
+        "checklist": [
+          "هل نقلت التحديث بدل تكرار المعلومات القديمة؟",
+          "هل أجبت عن النقل وما يجب إحضاره؟",
+          "هل أعطيت تفضيلًا مع سبب وطرحت اقتراحًا؟",
+          "هل طلبت توضيحًا ثم أكدت الوقت والمكان النهائيين؟"
+        ],
+        "partnerPrompts": [
+          "Hoe kunnen we daar komen?",
+          "Wat moeten we meenemen?",
+          "Kan het om tien over elf?",
+          "Ja, bij de hoofdingang."
+        ]
+      }
+    ]
   }
 ]
