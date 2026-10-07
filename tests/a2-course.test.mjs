@@ -23,6 +23,13 @@ test("the published A2 units have connected reception, production, interaction a
   assert.ok(final);
   assert.equal(final.unitIds.length, a2.units.length);
   assert.deepEqual(new Set(final.unitIds), new Set(a2.units.map((unit) => unit.id)));
+  const taskByLesson = new Map(a2.extensions.map((item) => [item.lessonSlug, item.tasks]));
+  assert.match(taskByLesson.get("a2-clarifying-instructions")[1].prompt, /زميلك لم يسمع التعليمات/);
+  assert.match(taskByLesson.get("a2-clarifying-instructions")[1].model, /Eerst controleer je de adressen/);
+  assert.match(taskByLesson.get("a2-writing-a-relevant-reply")[1].prompt, /أختك لم تقرأ رسالة المنظم/);
+  assert.match(taskByLesson.get("a2-writing-a-relevant-reply")[1].model, /Wat heb jij liever\?/);
+  assert.match(taskByLesson.get("a2-reporting-a-travel-delay")[1].prompt, /أخبر شخصاً ثالثاً بالخطة الحالية/);
+  assert.match(taskByLesson.get("a2-reporting-a-travel-delay")[1].model, /naar verwachting om twintig over vier/);
   for (const lesson of a2.lessons) {
     for (const round of buildListeningRounds(lesson.phrases)) {
       assert.equal(new Set(round.choices.map((choice) => choice.text)).size, 3);

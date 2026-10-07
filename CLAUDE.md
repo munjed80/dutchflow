@@ -278,3 +278,16 @@ A2 remains eight units / 32 lessons / 256 lesson phrases / 128 lesson questions,
 The final review adds one connected listening source, so audio planning is A2 265 sources / 1,060 variants and combined A1+A2 632 sources / 2,528 variants. No synthesis or listening approval is performed in this delivery.
 
 Do **not** add unit 9. After this PR passes full CI, proceed with targeted relay/listening reinforcement in 2–3 existing tasks, then run the complete Dutch/Arabic editorial consistency pass across all 32 lessons and nine A2 practice packs. Real audio, independent educator review and learner observation remain separate gates.
+
+
+### A2 targeted mediation reinforcement handoff (2026-10-07, current)
+
+After the cumulative final review, three existing lesson production tasks were revised to add spaced relay/mediation without changing lesson counts or the audio bank. See `docs/A2_TARGETED_REINFORCEMENT.md`.
+
+- `a2-clarifying-instructions`: relay ordered work instructions to a colleague who missed them and request confirmation of understanding.
+- `a2-writing-a-relevant-reply`: explain an organiser's current registration/laptop options to a sister who has not read the message, preserving allowed/available/required distinctions.
+- `a2-reporting-a-travel-delay`: relay an expected arrival time and current meeting point to a third person without turning the estimate into a confirmed time.
+
+The cumulative `final-review` already provides the missing public-announcement listening format, so earlier listening/audio sources remain unchanged. Counts remain A2 8 units / 32 lessons / 64 lesson production tasks / 9 practice packs and 265 spoken sources / 1,060 variants.
+
+Next work: run the complete Dutch/Arabic editorial consistency pass across all 32 lessons and nine A2 practice packs. Do not add unit 9.
