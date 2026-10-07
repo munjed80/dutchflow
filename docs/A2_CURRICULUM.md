@@ -1,6 +1,6 @@
 # A2 preparation and first delivery slice
 
-Updated 2026-10-07. All eight proposed authored units and the level-aware infrastructure are implemented. The whole-sequence audit is recorded in `A2_FULL_COVERAGE_AUDIT.md`. Its decision is **do not add unit 9**. The cumulative A2 final integrated review is now implemented in `A2_FINAL_REVIEW.md`; the next work is targeted relay/listening reinforcement followed by the final editorial pass. No proficiency score or certificate is introduced; paid exams remain deferred.
+Updated 2026-10-07. All eight proposed authored units and the level-aware infrastructure are implemented. The whole-sequence audit is recorded in `A2_FULL_COVERAGE_AUDIT.md`. Its decision is **do not add unit 9**. The cumulative A2 final integrated review is now implemented in `A2_FINAL_REVIEW.md`; the targeted relay/mediation reinforcement is now implemented in `A2_TARGETED_REINFORCEMENT.md`; the next work is the full Dutch/Arabic editorial consistency pass. No proficiency score or certificate is introduced; paid exams remain deferred.
 
 ## Starting point and boundaries
 
@@ -16,7 +16,7 @@ The Council of Europe's [global scale](https://www.coe.int/en/web/common-europea
 | Comprehension and production | Evidence-backed questions and original-response tasks exist | Observe learners on unfamiliar details and adjust scaffolding / educator |
 | Real audio | Repository manifest has zero approved variants | Owner generates, listens and approves; `audio:check -- --require-complete --level=A1` must pass for A1 recorded release |
 | Independent language review | No external sign-off recorded | Dutch/Arabic educator reviews wording, task load and descriptor mapping |
-| A2 preview | Eight units / thirty-two lessons + cumulative final integrated review implemented; whole-sequence audit complete | Targeted relay/listening reinforcement + final editorial pass; educator review and learner observation remain outstanding |
+| A2 preview | Eight units / thirty-two lessons + cumulative final review + targeted mediation reinforcement implemented | Run the full Dutch/Arabic editorial consistency pass; educator review and learner observation remain outstanding |
 | Public launch | Account infrastructure/privacy readiness separate | Follow `ACCOUNTS.md`; do not equate course counts with launch readiness |
 
 A2 design and an isolated draft can proceed alongside owner-managed recording work. Publishing A2 requires its own reviewed material and playback checks; it must not imply that A1's remaining release gates have passed. The learner's A1 lesson-completion total is self-reported, not a gate, placement result or credential.
