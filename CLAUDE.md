@@ -265,3 +265,16 @@ Decision: **do not add unit 9**. Domain coverage is already broad across persona
 Next implementation should be one cumulative `a2-final-review` covering all eight unit IDs. It should combine a written source, a later spoken update that supersedes multiple details, evidence-backed comprehension, a short relay message to a third person, and a partner interaction requiring clarification, a reason/preference, a proposal and final confirmation. Include at least one public-announcement style listening source. Do not create a proficiency score/certificate.
 
 After that pack, make only targeted reinforcement edits (2–3 relay tasks, listening variety, word-order/address consistency), then perform the full Dutch/Arabic editorial pass. Independent educator review, learner observation and real recorded audio remain separate release gates.
+
+
+### A2 final integrated review handoff (2026-10-07, current)
+
+The main structural action from `docs/A2_FULL_COVERAGE_AUDIT.md` is implemented on `feat/a2-final-integrated-review`. Read `docs/A2_FINAL_REVIEW.md` before changing A2 practice sequencing.
+
+A2 remains eight units / 32 lessons / 256 lesson phrases / 128 lesson questions, 192 lexical notes / 64 lesson production tasks, eight readings and eight guided scenarios. Practice now has **nine packs**: eight unit packs plus cumulative `final-review`. The final pack covers all eight unit IDs and combines a practical written notice with a later public-announcement update, eight evidenced comprehension questions, two writing tasks (including explicit relay/mediation to a third person), and one partner task requiring clarification, reason/preference, proposal and final confirmation.
+
+`validateCourse` now requires a cumulative `final-review` for every published level. For A2 the final pack is terminal navigation and must not write lesson-completion state or claim proficiency. The level page links to it explicitly and labels it as training rather than an exam/certificate.
+
+The final review adds one connected listening source, so audio planning is A2 265 sources / 1,060 variants and combined A1+A2 632 sources / 2,528 variants. No synthesis or listening approval is performed in this delivery.
+
+Do **not** add unit 9. After this PR passes full CI, proceed with targeted relay/listening reinforcement in 2–3 existing tasks, then run the complete Dutch/Arabic editorial consistency pass across all 32 lessons and nine A2 practice packs. Real audio, independent educator review and learner observation remain separate gates.
