@@ -10,7 +10,7 @@ export function validateCourse(course, level) {
     ...lessons.filter((lesson) => lesson.level !== level).map(() => "Course: unexpected lesson level"),
     ...validateCurriculum(lessons, modules), ...validateLearningMap(units, extensions, lessons, readings),
     ...validateReadings(readings, lessons), ...validateScenarios(scenarios, lessons, units),
-    ...validatePractice(practice, units, { requireCumulative: level === "A1" }),
+    ...validatePractice(practice, units, { requireCumulative: true }),
     ...validateReviewLinks(reviewLinks, readings, practice, lessons),
   ];
 }

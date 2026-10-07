@@ -2,7 +2,7 @@
 
 ## Current status
 
-The repository manifest contains no approved recordings. Playback falls back to a Dutch device voice. The shared inventory has 631 sources / 2,524 variants: A1 has 343 lesson phrases + 11 connected passages + 13 drills (1,468 variants); A2 adds 256 lesson phrases + eight connected passages (1,056 variants). No synthesis was performed in this implementation.
+The repository manifest contains no approved recordings. Playback falls back to a Dutch device voice. The shared inventory has 632 sources / 2,528 variants: A1 has 343 lesson phrases + 11 connected passages + 13 drills (1,468 variants); A2 adds 256 lesson phrases + nine connected passages (1,060 variants). No synthesis was performed in this implementation.
 
 `loadAudioInventory` is the common source for generation, approval and integrity checks. All A1 jobs remain unchanged and first. Library readings, writing models and text scenarios are not silently added to audio. Paid exams remain deferred.
 
@@ -79,7 +79,7 @@ No real credentials, synthesis, audio decoding or listening approval was availab
 
 ## Choosing a level
 
-Use `--level=A1` to continue the existing recording project or `--level=A2` for all currently authored A2 audio (264 sources / 1,056 variants). The level flag does not select only the latest unit. Existing hash-verified clips are reused. Without a level flag, generation and completeness cover both levels. `--limit` applies after level selection. No credentials are needed for a dry run.
+Use `--level=A1` to continue the existing recording project or `--level=A2` for all currently authored A2 audio (265 sources / 1,060 variants). The level flag does not select only the latest unit. Existing hash-verified clips are reused. Without a level flag, generation and completeness cover both levels. `--limit` applies after level selection. No credentials are needed for a dry run.
 
 ```bash
 npm run audio:generate -- --dry-run --level=A2
