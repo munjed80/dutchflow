@@ -254,3 +254,14 @@ The reception tasks distinguish event facts from opinions, known details from us
 All A1 authored files and A2 units 1–7 remain stable. Progress is A1 53 / A2 32. Account/storage/placement contracts are unchanged. Audio planning becomes 631 sources / 2,524 variants (A1 1,468; A2 1,056). No synthesis or approval is performed here.
 
 **Next work is not unit 9.** Run a whole-sequence A2 coverage audit first: descriptor/task coverage, progression, grammar recycling, repeated objectives, reading/listening difficulty, interaction breadth, writing demands and remediation. Decide from evidence whether A2 needs targeted additions before calling the authored level complete. Independent educator review, learner observation and real recorded audio remain open; paid exams stay deferred.
+
+
+### A2 full coverage audit handoff (2026-10-07, current)
+
+Merged PR #27 completed the proposed eight-unit / 32-lesson A2 authored sequence. The whole-sequence audit is now recorded in `docs/A2_FULL_COVERAGE_AUDIT.md`.
+
+Decision: **do not add unit 9**. Domain coverage is already broad across personal, public, educational and professional use. Interaction, transactional reading/writing, reasons, comparisons, clarification and plan negotiation are well represented. The main gaps are cross-unit transfer, explicit relay/mediation to a third person, public-announcement listening variety, and a cumulative end-of-level task.
+
+Next implementation should be one cumulative `a2-final-review` covering all eight unit IDs. It should combine a written source, a later spoken update that supersedes multiple details, evidence-backed comprehension, a short relay message to a third person, and a partner interaction requiring clarification, a reason/preference, a proposal and final confirmation. Include at least one public-announcement style listening source. Do not create a proficiency score/certificate.
+
+After that pack, make only targeted reinforcement edits (2–3 relay tasks, listening variety, word-order/address consistency), then perform the full Dutch/Arabic editorial pass. Independent educator review, learner observation and real recorded audio remain separate release gates.
