@@ -586,7 +586,7 @@ test("social listening replaces the original start, guest list and glass request
   await expect(page.locator("#write .production-model")).toHaveText(pack.writing[0].model);
   await page.locator("#speak summary").click();
   await expect(page.locator("#speak details p[lang=nl]")).toHaveText(pack.speaking[0].model);
-  await expect(page.getByRole("navigation", { name: "التنقل بين مراجعات A2" }).locator(".next-lesson")).toHaveCount(0);
+  await expect(page.getByRole("navigation", { name: "التنقل بين مراجعات A2" }).locator(".next-lesson")).toHaveAttribute("href", `/a2-practice/${packs[8].slug}`);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.reload();
   await expect(page.locator("#write textarea")).toHaveValue("");
@@ -613,4 +613,46 @@ test("social invitation scenario changes only the unavailable time and confirms 
   await expect(page.locator(".next-lesson")).toHaveAttribute("href", "/scenarios?level=A2");
   await page.reload();
   await expect(page.locator(".scenario-top")).toContainText("الجولة 1 من 4");
+});
+
+
+test("A2 final review integrates superseded information, relay writing and partner negotiation", async ({ page }) => {
+  const pack = packs[8];
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(`/a2-practice/${pack.slug}`);
+  const read = page.locator("#read");
+  const listen = page.locator("#listen");
+
+  await expect(page.getByRole("heading", { name: pack.title })).toBeVisible();
+  for (const q of pack.reading.questions) await read.locator(`#${q.id}-${q.correctIndex}`).check();
+  await read.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(read.locator(".reading-result h3")).toContainText("4 من 4");
+
+  await expect(listen.getByRole("radio")).toHaveCount(0);
+  await listen.getByRole("button", { name: "اعرض نص المقطع للمساعدة" }).click();
+  for (const [i, q] of pack.listening.questions.entries()) {
+    const chosen = i === 0 ? 0 : q.correctIndex;
+    await listen.locator(`#${q.id}-${chosen}`).check();
+  }
+  await listen.getByRole("button", { name: "تحقّق من فهمك" }).click();
+  await expect(listen.locator(".reading-result h3")).toContainText("3 من 4");
+  await expect(listen.locator(".practice-review a")).toHaveCount(2);
+  await expect(listen.locator('a[href="/learn/a2-reporting-a-travel-delay"]')).toBeVisible();
+  await expect(listen.locator('a[href="/learn/a2-writing-a-relevant-reply"]')).toBeVisible();
+
+  await page.locator("#write textarea").first().fill("De workshop is nu in school De Horizon, lokaal vijf.");
+  await page.locator("#write summary").first().click();
+  await expect(page.locator("#write .production-model").first()).toHaveText(pack.writing[0].model);
+  await page.locator("#write details").nth(1).locator("summary").click();
+  await expect(page.locator("#write .production-model").nth(1)).toHaveText(pack.writing[1].model);
+
+  await page.locator("#speak summary").click();
+  await expect(page.locator("#speak details p[lang=nl]")).toHaveText(pack.speaking[0].model);
+  await expect(page.getByRole("navigation", { name: "التنقل بين مراجعات A2" }).locator(".next-lesson")).toHaveCount(0);
+
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"))).toBeNull();
+  await page.reload();
+  await expect(page.locator("#write textarea").first()).toHaveValue("");
+  await expect(listen.getByRole("radio")).toHaveCount(0);
 });
