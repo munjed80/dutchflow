@@ -238,5 +238,36 @@
   ],
   "a2-social-practice-listen-3": [
     "a2-confirming-a-social-plan"
+  ],
+  "a2-final-review-read-1": [
+    "a2-finding-a-reply-deadline",
+    "a2-writing-a-relevant-reply"
+  ],
+  "a2-final-review-read-2": [
+    "a2-confirming-a-replacement-appointment",
+    "a2-planning-a-day-trip"
+  ],
+  "a2-final-review-read-3": [
+    "a2-understanding-school-instructions",
+    "a2-confirming-a-social-plan"
+  ],
+  "a2-final-review-read-4": [
+    "a2-understanding-school-instructions"
+  ],
+  "a2-final-review-listen-1": [
+    "a2-reporting-a-travel-delay",
+    "a2-writing-a-relevant-reply"
+  ],
+  "a2-final-review-listen-2": [
+    "a2-confirming-a-replacement-appointment",
+    "a2-planning-a-day-trip"
+  ],
+  "a2-final-review-listen-3": [
+    "a2-agreeing-on-another-route",
+    "a2-reporting-a-travel-delay"
+  ],
+  "a2-final-review-listen-4": [
+    "a2-understanding-school-instructions",
+    "a2-writing-a-relevant-reply"
   ]
 }
