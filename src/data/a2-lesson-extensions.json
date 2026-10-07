@@ -458,12 +458,13 @@
         ]
       },
       {
-        "prompt": "أكد التعليمات: تراجع العناوين أولاً ثم تضع استمارات اليوم في الملف الأخضر، واختم بطلب التأكيد.",
-        "model": "Dus eerst de adressen controleren en daarna de formulieren van vandaag in de groene map leggen? Klopt dat?",
-        "translation": "إذن أراجع العناوين أولاً ثم أضع استمارات اليوم في الملف الأخضر؟ هل هذا صحيح؟",
+        "prompt": "زميلك لم يسمع التعليمات. انقل له الخطوتين بالترتيب: راجع العناوين أولاً ثم ضع استمارات اليوم في الملف الأخضر، وبعدها اطلب منه أن يؤكد أنه فهم الخطة.",
+        "model": "Eerst controleer je de adressen. Daarna leg je de formulieren van vandaag in de groene map. Klopt het zo?",
+        "translation": "أولاً تراجع العناوين. بعد ذلك تضع استمارات اليوم في الملف الأخضر. هل فهمت الخطة هكذا؟",
         "checklist": [
-          "هل حافظت على ترتيب الخطوتين؟",
-          "هل ذكرت اليوم واللون وسألت عن التأكيد؟"
+          "هل نقلت التعليمات بالترتيب الصحيح إلى شخص آخر؟",
+          "هل ذكرت استمارات اليوم والملف الأخضر؟",
+          "هل طلبت تأكيد الفهم بدلاً من افتراضه؟"
         ]
       }
     ]
@@ -1597,12 +1598,13 @@
         ]
       },
       {
-        "prompt": "موقف جديد: ستأتي إلى ورشة مع أختك كما اتفقتما سابقاً، وستحضر حاسوبك الخاص. أجب عن السؤالين: Komt u nog steeds met twee personen? Neemt u een eigen laptop mee?",
-        "model": "Ja, mijn zus en ik komen nog steeds samen. We zijn met twee personen. Ik neem mijn eigen laptop mee.",
-        "translation": "نعم، ما زالت خطتنا أن نحضر معاً أنا وأختي. نحن شخصان. سأحضر حاسوبي الخاص.",
+        "prompt": "أختك لم تقرأ رسالة المنظم. أخبرها أنكما ما زلتما مسجلين كشخصين، وأنه يمكنكما استخدام جهاز من المركز أو إحضار حاسوبكما الخاص. اختم بسؤالها أي خيار تفضّل.",
+        "model": "We staan nog steeds met twee personen ingeschreven. We kunnen een laptop van het buurthuis gebruiken, maar we mogen ook onze eigen laptop meenemen. Wat heb jij liever?",
+        "translation": "ما زلنا مسجلين كشخصين. يمكننا استخدام حاسوب من المركز، لكن يمكننا أيضاً إحضار حاسوبنا الخاص. أي خيار تفضلين؟",
         "checklist": [
-          "هل أكدت بقاء العدد اثنين بدلاً من نسخ تغيير نور؟",
-          "هل أجبت عن إحضار جهازك الخاص؟"
+          "هل نقلت حالة التسجيل الحالية إلى شخص لم يقرأ الرسالة؟",
+          "هل شرحت الخيارين دون تحويل المسموح إلى إلزام؟",
+          "هل سألت عن تفضيل أختك بدل اتخاذ القرار عنها؟"
         ]
       }
     ]
@@ -1798,12 +1800,13 @@
         ]
       },
       {
-        "prompt": "يقول صديقك: Ik wacht binnen bij de informatiebalie, niet buiten. أكد المكان وقل إنك ستتوجه إليه حال وصولك.",
-        "model": "Dank je. Ik kom naar de informatiebalie zodra ik op het station ben. Je hoeft niet buiten te wachten.",
-        "translation": "شكراً لك. سآتي إلى مكتب المعلومات حالما أصل إلى المحطة. لا يلزمك الانتظار في الخارج.",
+        "prompt": "شاهدت على الشاشة أن وصولك المتوقع 16:20 وأن صديقك ينتظر داخل المحطة عند مكتب المعلومات. أخبر شخصاً ثالثاً بالخطة الحالية في جملتين: وقت الوصول المتوقع ومكان اللقاء.",
+        "model": "Ik kom naar verwachting om twintig over vier aan. Amir wacht binnen bij de informatiebalie, dus daar spreken we af.",
+        "translation": "من المتوقع أن أصل الساعة الرابعة وعشرين دقيقة. أمير ينتظر داخل المحطة عند مكتب المعلومات، لذلك سنلتقي هناك.",
         "checklist": [
-          "هل أجبت عن المكان المذكور؟",
-          "هل استخدمت zodra مع ben في نهاية جملتها؟"
+          "هل نقلت وقت الوصول على أنه توقع لا موعد مؤكد؟",
+          "هل ذكرت أن اللقاء عند مكتب المعلومات داخل المحطة؟",
+          "هل نقلت المعلومات الحالية فقط دون إضافة تفاصيل غير موجودة؟"
         ]
       }
     ]
