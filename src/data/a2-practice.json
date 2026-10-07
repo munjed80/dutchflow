@@ -244,8 +244,8 @@
       "a2-housing-services"
     ],
     "reading": {
-      "text": "Beste Omar, we hebben uw melding ontvangen. De deur van de slaapkamer klemt sinds zaterdag. Het raam is vorige week gerepareerd en sluit nu goed. Onze monteur komt vrijdag tussen tien en twaalf uur voor de deur. U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon. Wilt u voor donderdag vier uur per e-mail bevestigen dat u thuis bent? Het bezoek is op uw eigen adres. Met vriendelijke groet, Team Onderhoud.",
-      "translation": "السيد عمر، استلمنا بلاغك. باب غرفة النوم يعلق منذ السبت. أُصلحت النافذة الأسبوع الماضي وأصبحت تُغلق جيداً الآن. سيأتي فنينا الجمعة بين العاشرة والثانية عشرة من أجل الباب. أبلغتَ أن جرس الباب لا يعمل؛ لذلك سيتصل الفني بهاتفك عند الوصول. هل يمكنك التأكيد بالبريد الإلكتروني قبل الخميس الساعة الرابعة أنك ستكون في المنزل؟ الزيارة في عنوانك أنت. مع التحية، فريق الصيانة.",
+      "text": "Beste Omar, we hebben uw melding ontvangen. De deur van de slaapkamer klemt sinds zaterdag. Het raam is vorige week gerepareerd en sluit nu goed. Onze monteur komt vrijdag tussen tien en twaalf uur om naar de deur van de slaapkamer te kijken. U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon. Wilt u voor donderdag vier uur per e-mail bevestigen dat u thuis bent? De monteur komt naar uw eigen adres. Met vriendelijke groet, Team Onderhoud.",
+      "translation": "السيد عمر، استلمنا بلاغك. باب غرفة النوم يعلق منذ السبت. أُصلحت النافذة الأسبوع الماضي وأصبحت تُغلق جيداً الآن. سيأتي الفني الجمعة بين العاشرة والثانية عشرة لفحص باب غرفة النوم. أبلغتَ أن جرس الباب لا يعمل؛ لذلك سيتصل الفني بهاتفك عند الوصول. هل يمكنك التأكيد بالبريد الإلكتروني قبل الخميس الساعة الرابعة أنك ستكون في المنزل؟ سيأتي الفني إلى عنوانك أنت. مع التحية، فريق الصيانة.",
       "questions": [
         {
           "id": "a2-housing-practice-read-1",
@@ -256,7 +256,7 @@
             "باب غرفة النوم منذ السبت"
           ],
           "correctIndex": 2,
-          "evidence": "De deur van de slaapkamer klemt sinds zaterdag. Het raam is vorige week gerepareerd en sluit nu goed. Onze monteur komt vrijdag tussen tien en twaalf uur voor de deur.",
+          "evidence": "De deur van de slaapkamer klemt sinds zaterdag. Het raam is vorige week gerepareerd en sluit nu goed. Onze monteur komt vrijdag tussen tien en twaalf uur om naar de deur van de slaapkamer te kijken.",
           "explanation": "النافذة أُصلحت؛ الزيارة المقررة من أجل باب غرفة النوم."
         },
         {
@@ -699,8 +699,8 @@
     "speaking": [
       {
         "prompt": "أنت مشارك وشريكك موظف المركز. تريد الحضور مع صديق إلى ورشة الأحد. اسأل عن مهلة التسجيل. يجيب الشريك: قبل الجمعة 16:00 مع الاسم وعدد الأشخاص، والهاتف اختياري. أعد المهلة والعدد وقل إنك ستترك الهاتف فارغاً. ثم يوضح أن الورشة الأحد 10:30؛ أعد وقت النشاط دون خلطه بمهلة الجمعة.",
-        "model": "Wanneer moet ik me aanmelden?\nPartner: Voor vrijdag vier uur, met uw naam en het aantal personen. Uw telefoonnummer is optioneel.\nIk meld twee personen aan voor vrijdag vier uur. Ik vul mijn telefoonnummer niet in.\nPartner: De workshop is zondag om half elf.\nDus zondag om half elf. Ik kom met een vriend.",
-        "translation": "متى يجب أن أسجل؟\nالشريك: قبل الجمعة الرابعة، مع الاسم وعدد الأشخاص. الهاتف اختياري.\nسأسجل شخصين قبل الجمعة الرابعة. لن أدخل رقم هاتفي.\nالشريك: الورشة الأحد العاشرة والنصف.\nإذن الأحد العاشرة والنصف. سأحضر مع صديق.",
+        "model": "Wanneer moet ik me aanmelden?\nPartner: Voor vrijdag vier uur, met uw naam en het aantal personen. Uw telefoonnummer is optioneel.\nIk meld twee personen aan. Ik doe dat voor vrijdag vier uur. Mijn telefoonnummer laat ik leeg.\nPartner: De workshop is zondag om half elf.\nDus zondag om half elf. Ik kom met een vriend.",
+        "translation": "متى يجب أن أسجل؟\nالشريك: قبل الجمعة الرابعة، مع الاسم وعدد الأشخاص. الهاتف اختياري.\nسأسجل شخصين. سأفعل ذلك قبل الجمعة الساعة الرابعة. سأترك خانة رقم الهاتف فارغة.\nالشريك: الورشة الأحد العاشرة والنصف.\nإذن الأحد العاشرة والنصف. سأحضر مع صديق.",
         "checklist": [
           "هل حسبت نفسك مع الصديق وأعدت مهلة التسجيل؟",
           "هل ميزت وقت الورشة من مهلة الرد ولم تعتبر الهاتف إلزامياً؟"
@@ -1049,7 +1049,7 @@
     },
     "listening": {
       "id": "a2-passage-final-review",
-      "text": "Let op, deelnemers aan de workshop van zaterdag. De locatie is veranderd. De workshop is niet in wijkcentrum De Brug, maar in school De Horizon, lokaal vijf. We beginnen om half twaalf. Bus 4 rijdt zaterdag niet. Neem bus 7; die komt om tien voor elf bij de school aan. U hoeft geen lunch mee te nemen, want die wordt verzorgd. Neem een pen mee.",
+      "text": "Let op, deelnemers aan de workshop van zaterdag. De locatie is veranderd. De workshop is niet in wijkcentrum De Brug, maar op school De Horizon, in lokaal vijf. We beginnen om half twaalf. Bus 4 rijdt zaterdag niet. Neem bus 7; die komt om tien voor elf bij de school aan. U hoeft geen lunch mee te nemen, want die wordt verzorgd. Neem een pen mee.",
       "translation": "انتباه، المشاركون في ورشة السبت. تم تغيير المكان. الورشة ليست في مركز الحي «دي بروخ»، بل في مدرسة «دي هورايزن»، القاعة الخامسة. سنبدأ الساعة الحادية عشرة والنصف. الحافلة 4 لا تعمل يوم السبت. خذوا الحافلة 7؛ تصل إلى المدرسة الساعة الحادية عشرة إلا عشر دقائق. لا تحتاجون إلى إحضار الغداء لأنه سيتم توفيره. لكن أحضروا قلمًا.",
       "questions": [
         {
@@ -1062,7 +1062,7 @@
           ],
           "correctIndex": 1,
           "explanation": "الإعلان يستبدل مركز الحي بالمدرسة ويحدد lokaal vijf.",
-          "evidence": "De workshop is niet in wijkcentrum De Brug, maar in school De Horizon, lokaal vijf."
+          "evidence": "De workshop is niet in wijkcentrum De Brug, maar op school De Horizon, in lokaal vijf."
         },
         {
           "id": "a2-final-review-listen-2",
@@ -1105,7 +1105,7 @@
     "writing": [
       {
         "prompt": "صديقك سام لم يرَ الإعلان الجديد. اكتب له رسالة من 4–6 جمل تنقل المعلومات الحالية فقط: المكان والقاعة، وقت البداية، الحافلة الصحيحة ووقت وصولها، وما الذي يجب أو لا يجب إحضاره. لا تكرر الخطة القديمة.",
-        "model": "Hoi Sam, er is een nieuwe update voor zaterdag. De workshop is nu in school De Horizon, lokaal vijf, en begint om half twaalf. Neem bus 7; die komt om tien voor elf bij de school aan. Je hoeft geen lunch mee te nemen, want die wordt verzorgd. Neem wel een pen mee.",
+        "model": "Hoi Sam, er is een nieuwe update voor zaterdag. De workshop is nu op school De Horizon, in lokaal vijf, en begint om half twaalf. Neem bus 7; die komt om tien voor elf bij de school aan. Je hoeft geen lunch mee te nemen, want die wordt verzorgd. Neem wel een pen mee.",
         "translation": "مرحبًا سام، هناك تحديث جديد ليوم السبت. الورشة الآن في مدرسة دي هورايزن، القاعة الخامسة، وتبدأ الساعة الحادية عشرة والنصف. خذ الحافلة 7؛ تصل إلى المدرسة الساعة الحادية عشرة إلا عشر دقائق. لا تحتاج إلى إحضار الغداء لأنه سيتم توفيره. لكن أحضر قلمًا.",
         "checklist": [
           "هل نقلت المعلومات الحالية فقط دون خلطها بالخطة الأصلية؟",
@@ -1115,8 +1115,8 @@
       },
       {
         "prompt": "اكتب ردًا قصيرًا للمنظم: يمكنك الحضور، لكن تريد أن تعرف إن كانت الجولة بعد الورشة ما زالت موجودة بعد تغيير المكان. استخدم سؤالًا مهذبًا وغير مباشر.",
-        "model": "Beste organisatie, ik kan zaterdag komen. Bedankt voor de update. Kunt u zeggen of de rondleiding na de workshop nog doorgaat? Met vriendelijke groet, Amir.",
-        "translation": "الجهة المنظمة المحترمة، أستطيع الحضور يوم السبت. شكرًا على التحديث. هل يمكنكم إخباري إن كانت الجولة بعد الورشة ما تزال قائمة؟ مع أطيب التحيات، أمير.",
+        "model": "Beste medewerker, ik kan zaterdag komen. Bedankt voor de update. Kunt u zeggen of de rondleiding na de workshop nog doorgaat? Met vriendelijke groet, Amir.",
+        "translation": "الموظف المحترم، أستطيع الحضور يوم السبت. شكرًا على التحديث. هل يمكنكم إخباري إن كانت الجولة بعد الورشة ما تزال قائمة؟ مع أطيب التحيات، أمير.",
         "checklist": [
           "هل أكدت قدرتك على الحضور؟",
           "هل سألت فقط عن المعلومة التي لم يؤكدها الإعلان الجديد؟",
@@ -1127,7 +1127,7 @@
     "speaking": [
       {
         "prompt": "مع شريك: أنت رأيت الإعلان الجديد، وشريكك يعرف الرسالة القديمة فقط. أخبره أن المكان والوقت تغيرا. الشريك يسأل عن وسيلة الوصول وما يجب إحضاره. ثم قل إنك تفضل الوصول قبل البداية بوقت كافٍ لأنك لا تريد التأخر، واقترح أن تلتقيا 11:00 عند مدخل المدرسة. على الشريك أن يسأل هل 11:10 مناسب بدلاً من ذلك. اسأل سؤال توضيح واحداً ثم اتفقا على الوقت النهائي وأعيداه.",
-        "model": "De workshop is nu in school De Horizon, lokaal vijf, en begint om half twaalf.\nPartner: Hoe kunnen we daar komen?\nBus 7 komt om tien voor elf bij de school aan.\nPartner: Wat moeten we meenemen?\nAlleen een pen. De lunch wordt verzorgd. Ik kom liever wat eerder, omdat ik niet te laat wil zijn. Zullen we om elf uur bij de ingang afspreken?\nPartner: Kan het om tien over elf?\nBedoel je tien over elf bij de hoofdingang?\nPartner: Ja.\nDat is goed. Afgesproken: om tien over elf bij de hoofdingang.",
+        "model": "De workshop is nu op school De Horizon, in lokaal vijf, en begint om half twaalf.\nPartner: Hoe kunnen we daar komen?\nBus 7 komt om tien voor elf bij de school aan.\nPartner: Wat moeten we meenemen?\nAlleen een pen. De lunch wordt verzorgd. Ik kom liever wat eerder, omdat ik niet te laat wil zijn. Zullen we om elf uur bij de ingang afspreken?\nPartner: Kan het om tien over elf?\nBedoel je tien over elf bij de hoofdingang?\nPartner: Ja.\nDat is goed. Afgesproken: om tien over elf bij de hoofdingang.",
         "translation": "الورشة الآن في مدرسة دي هورايزن، القاعة الخامسة، وتبدأ الحادية عشرة والنصف.\nالشريك: كيف يمكننا الوصول؟\nالحافلة 7 تصل الحادية عشرة إلا عشر دقائق عند المدرسة.\nالشريك: ماذا يجب أن نحضر؟\nفقط قلمًا. الغداء سيتم توفيره. أفضل الوصول أبكر قليلًا لأنني لا أريد التأخر. هل نلتقي الساعة الحادية عشرة عند المدخل؟\nالشريك: هل يمكن الحادية عشرة وعشر دقائق؟\nهل تقصد الحادية عشرة وعشر دقائق عند المدخل الرئيسي؟\nالشريك: نعم.\nمناسب. اتفقنا: الحادية عشرة وعشر دقائق عند المدخل الرئيسي.",
         "checklist": [
           "هل نقلت التحديث بدل تكرار المعلومات القديمة؟",
