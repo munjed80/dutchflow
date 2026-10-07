@@ -84,7 +84,7 @@ The main structural gap identified by the coverage audit is closed after this pa
 
 Next:
 
-1. targeted reinforcement: revise/add 2–3 existing production tasks for explicit relay/mediation and check later listening variety;
+1. targeted reinforcement: **complete** — three existing production tasks now add explicit relay/mediation; public-announcement listening is covered by the final review;
 2. full Dutch/Arabic editorial consistency pass across all 32 lessons and 9 practice packs;
 3. real audio pilot and owner listening approval;
 4. independent educator review;
