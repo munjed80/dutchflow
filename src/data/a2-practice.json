@@ -860,5 +860,124 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "a2-social-experiences",
+    "title": "مراجعة: من الدعوة إلى الاتفاق النهائي",
+    "unitIds": [
+      "a2-social-experiences"
+    ],
+    "reading": {
+      "text": "Hoi Karim, zaterdag organiseren we een kleine spelletjesavond bij mij thuis. We beginnen om half acht. Noor en Fatima komen ook. Ik zorg voor thee en iets te eten. Wil jij twee glazen meenemen? Laat me uiterlijk donderdag weten of je kunt komen. Als half acht niet lukt, kunnen we misschien om acht uur beginnen. Groetjes, Samir.",
+      "translation": "مرحباً كريم، ننظم السبت أمسية ألعاب صغيرة في منزلي. نبدأ السابعة والنصف. نور وفاطمة ستأتيان أيضاً. سأوفر الشاي وشيئاً للأكل. هل تحضر كأسين؟ أخبرني في موعد أقصاه الخميس إن كنت تستطيع الحضور. إذا لم تناسبك السابعة والنصف، يمكننا ربما أن نبدأ الثامنة. تحياتي، سمير.",
+      "questions": [
+        {
+          "id": "a2-social-practice-read-1",
+          "prompt": "ما الخطة الأصلية لبدء الأمسية؟",
+          "options": [
+            "السبت 19:30",
+            "الخميس 20:00",
+            "السبت 18:30"
+          ],
+          "correctIndex": 0,
+          "explanation": "half acht هي 19:30.",
+          "evidence": "We beginnen om half acht."
+        },
+        {
+          "id": "a2-social-practice-read-2",
+          "prompt": "ماذا يطلب سمير من كريم أن يحضر؟",
+          "options": [
+            "الشاي",
+            "كأسين",
+            "الطعام كله"
+          ],
+          "correctIndex": 1,
+          "explanation": "سمير يوفر الشاي والطعام ويطلب كأسين.",
+          "evidence": "Ik zorg voor thee en iets te eten. Wil jij twee glazen meenemen?"
+        },
+        {
+          "id": "a2-social-practice-read-3",
+          "prompt": "ماذا يعني اقتراح الساعة 20:00؟",
+          "options": [
+            "إنها الخطة النهائية المؤكدة",
+            "إنها بديل محتمل إذا لم تناسب 19:30",
+            "إن الأمسية ألغيت"
+          ],
+          "correctIndex": 1,
+          "explanation": "kunnen we misschien يدل على بديل محتمل، لا اتفاق نهائي.",
+          "evidence": "Als half acht niet lukt, kunnen we misschien om acht uur beginnen."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-passage-social-experiences",
+      "text": "Hoi Karim, even een update over zaterdag. Noor kan pas later komen, dus we beginnen nu om acht uur. Fatima komt niet, maar Lina komt wel. Je hoeft geen glazen mee te nemen; ik heb er genoeg. Kun je om tien voor acht bij de voordeur zijn? Stuur me even een bericht als dat lukt.",
+      "translation": "مرحباً كريم، تحديث سريع بخصوص السبت. نور لا تستطيع المجيء إلا متأخرة، لذلك سنبدأ الآن الساعة الثامنة. فاطمة لن تأتي، لكن لينا ستأتي. لا تحتاج إلى إحضار كؤوس؛ لدي ما يكفي. هل تستطيع أن تكون عند الباب الأمامي الثامنة إلا عشر دقائق؟ أرسل لي رسالة قصيرة إذا كان ذلك مناسباً.",
+      "questions": [
+        {
+          "id": "a2-social-practice-listen-1",
+          "prompt": "ما وقت البداية بعد التحديث؟",
+          "options": [
+            "19:30",
+            "19:50",
+            "20:00"
+          ],
+          "correctIndex": 2,
+          "explanation": "التحديث يثبت البداية الجديدة عند 20:00.",
+          "evidence": "dus we beginnen nu om acht uur."
+        },
+        {
+          "id": "a2-social-practice-listen-2",
+          "prompt": "من سيأتي وفق التحديث؟",
+          "options": [
+            "نور وفاطمة فقط",
+            "نور ولينا، وفاطمة لن تأتي",
+            "فاطمة ولينا فقط"
+          ],
+          "correctIndex": 1,
+          "explanation": "نور ستأتي لاحقاً، لينا تأتي، وفاطمة لا تأتي.",
+          "evidence": "Noor kan pas later komen, dus we beginnen nu om acht uur. Fatima komt niet, maar Lina komt wel."
+        },
+        {
+          "id": "a2-social-practice-listen-3",
+          "prompt": "ماذا تغيّر بشأن الكؤوس واللقاء؟",
+          "options": [
+            "ما زال عليه إحضار كأسين واللقاء 19:30",
+            "لا يحتاج كؤوساً ويُطلب منه الوصول 19:50 إلى الباب الأمامي",
+            "يجب أن يحضر أربعة كؤوس 20:10"
+          ],
+          "correctIndex": 1,
+          "explanation": "التحديث يلغي طلب الكؤوس ويضيف وقت وصول 19:50.",
+          "evidence": "Je hoeft geen glazen mee te nemen; ik heb er genoeg. Kun je om tien voor acht bij de voordeur zijn?"
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "تلقيت دعوة إلى عشاء الأحد 18:00، لكنك لا تستطيع قبل 19:00. اكتب رداً: اشكر، اشرح أنك لا تستطيع 18:00 بسبب العمل، اقترح 19:15، واسأل إن كان الوقت الجديد يناسب. استخدم اسماً خيالياً.",
+        "model": "Hoi Noor, bedankt voor de uitnodiging. Om zes uur kan ik helaas niet, omdat ik tot zeven uur moet werken. Kan ik om kwart over zeven komen? Past dat voor jou?",
+        "translation": "مرحباً نور، شكراً على الدعوة. للأسف لا أستطيع الساعة السادسة لأنني يجب أن أعمل حتى السابعة. هل يمكنني المجيء السابعة والربع؟ هل يناسبك؟",
+        "checklist": [
+          "هل قبلت فكرة اللقاء ولم ترفضها بالكامل؟",
+          "هل شرحت التعارض واقترحت وقتاً محدداً وطلبت الموافقة؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أخبر شريكك عن فعالية حضرتها السبت: ذهبت مع جار، بقيتما ساعتين وكانت ممتعة لكنها مزدحمة. على الشريك أن يسألك أين كانت، ما الذي أعجبك أكثر، وهل تريد الذهاب مجدداً. أجب ثم اقترح أن تذهبا معاً الأحد القادم الساعة 15:00.",
+        "model": "Zaterdag ben ik met mijn buurman naar een buurtfeest geweest. We zijn ongeveer twee uur gebleven. Ik vond het leuk, maar het was druk.\nPartner: Waar was het feest?\nIn het wijkcentrum.\nPartner: Wat vond je het leukst?\nDe muziek vond ik het leukst.\nPartner: Wil je nog een keer gaan?\nJa. Zullen we volgende zondag om drie uur samen gaan?",
+        "translation": "ذهبت السبت مع جاري إلى حفلة في الحي. بقينا حوالي ساعتين. وجدتها ممتعة لكنها كانت مزدحمة.\nالشريك: أين كانت الحفلة؟\nفي مركز الحي.\nالشريك: ما الذي أعجبك أكثر؟\nأعجبتني الموسيقى أكثر.\nالشريك: هل تريد الذهاب مرة أخرى؟\nنعم. هل نذهب معاً الأحد القادم الساعة الثالثة؟",
+        "checklist": [
+          "هل رويت تجربة قصيرة ثم أجبت عن أسئلة متابعة؟",
+          "هل انتقلت من الماضي إلى اقتراح خطة جديدة بوضوح؟"
+        ],
+        "partnerPrompts": [
+          "Waar was het feest?",
+          "Wat vond je het leukst?",
+          "Wil je nog een keer gaan?"
+        ]
+      }
+    ]
   }
 ]

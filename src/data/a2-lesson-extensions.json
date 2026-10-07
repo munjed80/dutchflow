@@ -1874,5 +1874,273 @@
         ]
       }
     ]
+  },
+  {
+    "lessonSlug": "a2-sharing-a-social-experience",
+    "vocabulary": [
+      {
+        "term": "het buurtfeest",
+        "kind": "noun",
+        "forms": "de buurtfeesten",
+        "meaning": "حفلة أو فعالية في الحي.",
+        "phraseId": "a2-sharing-a-social-experience-02"
+      },
+      {
+        "term": "samen",
+        "kind": "expression",
+        "forms": "samen eten · samen luisteren",
+        "meaning": "معاً.",
+        "phraseId": "a2-sharing-a-social-experience-03"
+      },
+      {
+        "term": "luisteren naar",
+        "kind": "verb",
+        "forms": "luisteren naar muziek · heeft geluisterd",
+        "meaning": "يستمع إلى.",
+        "phraseId": "a2-sharing-a-social-experience-04"
+      },
+      {
+        "term": "vinden",
+        "kind": "verb",
+        "forms": "ik vond · ik heb gevonden",
+        "meaning": "يجد؛ في Hoe vond je ...? بمعنى كيف كان رأيك؟",
+        "phraseId": "a2-sharing-a-social-experience-05"
+      },
+      {
+        "term": "gezellig",
+        "kind": "expression",
+        "forms": "een gezellige avond · het was gezellig",
+        "meaning": "لطيف أو اجتماعي ومريح بحسب السياق.",
+        "phraseId": "a2-sharing-a-social-experience-06"
+      },
+      {
+        "term": "volgende keer",
+        "kind": "expression",
+        "forms": "de volgende keer · volgende keer weer",
+        "meaning": "في المرة القادمة.",
+        "phraseId": "a2-sharing-a-social-experience-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "احكِ عن فعالية خيالية حضرتها الأحد: ذهبت مع أخيك، أكلتما شيئاً، تحدثتما مع جيران، وغادرتما 21:30. أضف رأيك.",
+        "model": "Zondag ben ik met mijn broer naar een buurtactiviteit gegaan. We hebben daar iets gegeten en met buren gepraat. Om half tien zijn we naar huis gegaan. Ik vond het gezellig.",
+        "translation": "ذهبت الأحد مع أخي إلى فعالية في الحي. أكلنا هناك شيئاً وتحدثنا مع الجيران. في التاسعة والنصف ذهبنا إلى المنزل. وجدتها لطيفة.",
+        "checklist": [
+          "هل ذكرت مع من ذهبت وماذا فعلت؟",
+          "هل أضفت وقتاً ورأياً دون خلطهما؟"
+        ]
+      },
+      {
+        "prompt": "غيّر التفاصيل: زرت معرضاً السبت مع صديق، بقيتما ساعتين، وكانت التجربة ممتعة لكنها مزدحمة. اكتب 3–4 جمل.",
+        "model": "Zaterdag ben ik met een vriend naar een tentoonstelling geweest. We zijn ongeveer twee uur gebleven. Ik vond het interessant, maar het was druk.",
+        "translation": "ذهبت السبت مع صديق إلى معرض. بقينا حوالي ساعتين. وجدته ممتعاً، لكنه كان مزدحماً.",
+        "checklist": [
+          "هل استخدمت حدثاً ماضياً ومدة تقريبية؟",
+          "هل فصلت التقييم عن المعلومات الواقعية؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-asking-follow-up-questions",
+    "vocabulary": [
+      {
+        "term": "de open dag",
+        "kind": "noun",
+        "forms": "de open dag · de open dagen",
+        "meaning": "يوم مفتوح للتعريف بمكان أو مؤسسة.",
+        "phraseId": "a2-asking-follow-up-questions-01"
+      },
+      {
+        "term": "waar",
+        "kind": "expression",
+        "forms": "Waar was het? · Waar ben je geweest?",
+        "meaning": "أين؛ للسؤال عن المكان.",
+        "phraseId": "a2-asking-follow-up-questions-02"
+      },
+      {
+        "term": "met wie",
+        "kind": "expression",
+        "forms": "Met wie ben je gegaan?",
+        "meaning": "مع من.",
+        "phraseId": "a2-asking-follow-up-questions-04"
+      },
+      {
+        "term": "hoe lang",
+        "kind": "expression",
+        "forms": "Hoe lang ben je gebleven?",
+        "meaning": "كم من الوقت؛ للسؤال عن المدة.",
+        "phraseId": "a2-asking-follow-up-questions-06"
+      },
+      {
+        "term": "ongeveer",
+        "kind": "expression",
+        "forms": "ongeveer twee uur",
+        "meaning": "حوالي أو تقريباً.",
+        "phraseId": "a2-asking-follow-up-questions-07"
+      },
+      {
+        "term": "het interessantst",
+        "kind": "expression",
+        "forms": "interessant · interessanter · het interessantst",
+        "meaning": "الأكثر إثارة للاهتمام.",
+        "phraseId": "a2-asking-follow-up-questions-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صديق يقول: Ik ben zondag naar een markt geweest. اكتب أربعة أسئلة متابعة مختلفة عن المكان، الشخص المرافق، المدة وما أعجبه أكثر.",
+        "model": "Waar was de markt? Met wie ben je gegaan? Hoe lang ben je gebleven? Wat vond je het leukst?",
+        "translation": "أين كان السوق؟ مع من ذهبت؟ كم بقيت؟ ما الذي أعجبك أكثر؟",
+        "checklist": [
+          "هل كل سؤال يطلب معلومة مختلفة؟",
+          "هل وضعت الفعل المصرف في مكانه الصحيح في السؤال؟"
+        ]
+      },
+      {
+        "prompt": "تعلم أن زميلتك حضرت حفلاً. أنت تعرف المكان مسبقاً. اسأل فقط عن الوقت، من كان معها، وكيف وجدت الحفل.",
+        "model": "Wanneer was het feest? Met wie ben je gegaan? Hoe vond je het feest?",
+        "translation": "متى كانت الحفلة؟ مع من ذهبت؟ كيف وجدت الحفلة؟",
+        "checklist": [
+          "هل تجنبت سؤالاً تعرف جوابه مسبقاً؟",
+          "هل انتقلت من الوقائع إلى الرأي؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-responding-to-an-invitation",
+    "vocabulary": [
+      {
+        "term": "zin hebben om",
+        "kind": "expression",
+        "forms": "zin hebben om koffie te drinken",
+        "meaning": "يرغب في القيام بنشاط.",
+        "phraseId": "a2-responding-to-an-invitation-01"
+      },
+      {
+        "term": "graag",
+        "kind": "expression",
+        "forms": "Ja, graag. · Ik kom graag.",
+        "meaning": "بكل سرور؛ لقبول الدعوة أو التعبير عن الرغبة.",
+        "phraseId": "a2-responding-to-an-invitation-02"
+      },
+      {
+        "term": "afspreken",
+        "kind": "verb",
+        "forms": "we spreken af · afgesproken",
+        "meaning": "يتفق على موعد أو لقاء.",
+        "phraseId": "a2-responding-to-an-invitation-03"
+      },
+      {
+        "term": "goed uitkomen",
+        "kind": "expression",
+        "forms": "Dat komt goed uit.",
+        "meaning": "يناسب الوقت أو الظرف.",
+        "phraseId": "a2-responding-to-an-invitation-04"
+      },
+      {
+        "term": "helaas",
+        "kind": "expression",
+        "forms": "helaas niet kunnen",
+        "meaning": "للأسف؛ لتلطيف الاعتذار.",
+        "phraseId": "a2-responding-to-an-invitation-05"
+      },
+      {
+        "term": "passen",
+        "kind": "verb",
+        "forms": "Zaterdag past. · Past dat voor jou?",
+        "meaning": "يناسب؛ للوقت أو الخطة.",
+        "phraseId": "a2-responding-to-an-invitation-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "دعيت إلى عشاء الجمعة 18:30 لكنك تعمل حتى 19:00. اعتذر مع السبب واقترح السبت 18:00 واسأل إن كان يناسب.",
+        "model": "Bedankt voor de uitnodiging. Vrijdag om half zeven kan ik helaas niet, omdat ik tot zeven uur moet werken. Kan het zaterdag om zes uur? Past dat voor jou?",
+        "translation": "شكراً على الدعوة. للأسف لا أستطيع الجمعة السادسة والنصف لأنني يجب أن أعمل حتى السابعة. هل يمكن السبت السادسة؟ هل يناسبك؟",
+        "checklist": [
+          "هل كان الاعتذار واضحاً وله سبب؟",
+          "هل اقترحت بديلاً وطلبت رأي الطرف الآخر؟"
+        ]
+      },
+      {
+        "prompt": "اقبل دعوة إلى القهوة الأحد بعد الظهر، لكن الساعة غير محددة. اقبل واسأل عن الوقت والمكان.",
+        "model": "Ja, graag! Zondagmiddag komt goed uit. Hoe laat zullen we afspreken en waar?",
+        "translation": "نعم، بكل سرور! بعد ظهر الأحد يناسبني. في أي ساعة وأين نلتقي؟",
+        "checklist": [
+          "هل قبلت الدعوة صراحة؟",
+          "هل سألت عن التفاصيل الناقصة فقط؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-confirming-a-social-plan",
+    "vocabulary": [
+      {
+        "term": "lukken",
+        "kind": "verb",
+        "forms": "Twee uur lukt niet. · Dat lukt wel.",
+        "meaning": "ينجح أو يناسب عملياً.",
+        "phraseId": "a2-confirming-a-social-plan-02"
+      },
+      {
+        "term": "de ingang",
+        "kind": "noun",
+        "forms": "de ingang · bij de ingang",
+        "meaning": "المدخل.",
+        "phraseId": "a2-confirming-a-social-plan-04"
+      },
+      {
+        "term": "meenemen",
+        "kind": "verb",
+        "forms": "ik neem mee · ik heb meegenomen",
+        "meaning": "يُحضر معه.",
+        "phraseId": "a2-confirming-a-social-plan-05"
+      },
+      {
+        "term": "dus",
+        "kind": "expression",
+        "forms": "Dus zaterdag om drie uur.",
+        "meaning": "إذن؛ لإعادة الخلاصة أو النتيجة.",
+        "phraseId": "a2-confirming-a-social-plan-07"
+      },
+      {
+        "term": "afgesproken",
+        "kind": "expression",
+        "forms": "Afgesproken.",
+        "meaning": "اتفقنا؛ تأكيد نهائي بعد الموافقة.",
+        "phraseId": "a2-confirming-a-social-plan-08"
+      },
+      {
+        "term": "iets verandert",
+        "kind": "expression",
+        "forms": "als er iets verandert",
+        "meaning": "إذا تغير شيء.",
+        "phraseId": "a2-confirming-a-social-plan-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "الخطة الأولى: الأحد 13:00 عند المكتبة. صديقك لا يستطيع قبل 14:00، فتتفقان على 14:15 عند المدخل. أنت ستحضر القهوة. اكتب التأكيد النهائي فقط.",
+        "model": "Afgesproken: zondag om kwart over twee bij de ingang van de bibliotheek. Ik neem koffie mee. Laat het weten als er iets verandert.",
+        "translation": "اتفقنا: الأحد الثانية والربع عند مدخل المكتبة. سأحضر القهوة. أخبرني إذا تغير شيء.",
+        "checklist": [
+          "هل استخدمت الوقت النهائي لا الوقت القديم؟",
+          "هل أكدت المكان وما ستحضره؟"
+        ]
+      },
+      {
+        "prompt": "اقترحت 17:00 في الحديقة، لكن اتفقتما في النهاية على 17:30 عند المقهى قرب الحديقة. صديقك سيحضر الماء. أعد الخطة النهائية بجملة أو جملتين.",
+        "model": "Dus om half zes bij het café naast het park. Jij neemt water mee. Afgesproken!",
+        "translation": "إذن الخامسة والنصف عند المقهى بجانب الحديقة. أنت ستحضر الماء. اتفقنا!",
+        "checklist": [
+          "هل حذفت الاقتراح القديم من التأكيد؟",
+          "هل أعدت الوقت والمكان الحاليين؟"
+        ]
+      }
+    ]
   }
 ]

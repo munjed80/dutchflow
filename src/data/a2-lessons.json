@@ -4142,5 +4142,597 @@
         "id": "a2-agreeing-on-another-route-q4"
       }
     ]
+  },
+  {
+    "slug": "a2-sharing-a-social-experience",
+    "moduleId": "a2-social-experiences",
+    "level": "A2",
+    "number": "29",
+    "title": "احكِ عن تجربة اجتماعية",
+    "dutchTitle": "Vertellen over een sociale ervaring",
+    "description": "احكِ باختصار أين ذهبت، مع من، وماذا فعلت وكيف كانت التجربة.",
+    "durationMinutes": 12,
+    "context": "تتحدث مع زميل عن أمسية خيالية حضرتها في الحي.",
+    "goal": "أصف تجربة اجتماعية قصيرة في الماضي وأضيف رأياً بسيطاً عنها.",
+    "grammar": {
+      "title": "الحدث الماضي مع رأي في الحاضر",
+      "explanation": "نستخدم الماضي المركب للأحداث المنتهية: ik ben gegaan, we hebben gegeten. ويمكن أن نضيف رأياً بجملة مستقلة مثل Het was gezellig أو Ik vond het leuk. لا تجعل الرأي حدثاً زمنياً جديداً.",
+      "example": "We hebben samen gegeten. Het was gezellig.",
+      "translation": "أكلنا معاً. كانت الأجواء لطيفة."
+    },
+    "phrases": [
+      {
+        "id": "a2-sharing-a-social-experience-01",
+        "dutch": "Wat heb je zaterdag gedaan?",
+        "arabic": "ماذا فعلت يوم السبت؟",
+        "tip": "السؤال يطلب تجربة ماضية محددة."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-02",
+        "dutch": "Ik ben met twee vrienden naar een buurtfeest gegaan.",
+        "arabic": "ذهبت مع صديقين إلى حفلة في الحي.",
+        "tip": "met يحدد مع من؛ naar يحدد الوجهة."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-03",
+        "dutch": "We hebben daar samen gegeten.",
+        "arabic": "أكلنا هناك معاً.",
+        "tip": "hebben gegeten لحدث انتهى."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-04",
+        "dutch": "Daarna hebben we naar muziek geluisterd.",
+        "arabic": "بعد ذلك استمعنا إلى الموسيقى.",
+        "tip": "luisteren naar + شيء."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-05",
+        "dutch": "Hoe vond je het feest?",
+        "arabic": "كيف وجدت الحفلة؟",
+        "tip": "Hoe vond je ...? يطلب رأياً عن تجربة ماضية."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-06",
+        "dutch": "Ik vond het gezellig, maar het was wel druk.",
+        "arabic": "وجدتها لطيفة، لكنها كانت مزدحمة فعلاً.",
+        "tip": "maar يربط رأيين مختلفين."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-07",
+        "dutch": "Om elf uur ben ik naar huis gegaan.",
+        "arabic": "ذهبت إلى المنزل في الحادية عشرة.",
+        "tip": "om elf uur يحدد وقت المغادرة."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-08",
+        "dutch": "Ik wil volgende keer weer gaan.",
+        "arabic": "أريد أن أذهب مرة أخرى في المرة القادمة.",
+        "tip": "volgende keer ينقل الحديث من التجربة إلى نية مستقبلية."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "ياسر",
+        "phraseId": "a2-sharing-a-social-experience-01"
+      },
+      {
+        "speaker": "مريم",
+        "phraseId": "a2-sharing-a-social-experience-02"
+      },
+      {
+        "speaker": "مريم",
+        "phraseId": "a2-sharing-a-social-experience-03"
+      },
+      {
+        "speaker": "مريم",
+        "phraseId": "a2-sharing-a-social-experience-04"
+      },
+      {
+        "speaker": "ياسر",
+        "phraseId": "a2-sharing-a-social-experience-05"
+      },
+      {
+        "speaker": "مريم",
+        "phraseId": "a2-sharing-a-social-experience-06"
+      },
+      {
+        "speaker": "مريم",
+        "phraseId": "a2-sharing-a-social-experience-07"
+      },
+      {
+        "speaker": "مريم",
+        "phraseId": "a2-sharing-a-social-experience-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-sharing-a-social-experience-q1",
+        "prompt": "مع من ذهبت مريم إلى الحفلة؟",
+        "options": [
+          "وحدها",
+          "مع صديقين",
+          "مع زملاء العمل كلهم"
+        ],
+        "correctIndex": 1,
+        "explanation": "قالت: met twee vrienden."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-q2",
+        "prompt": "أي جملة تعبّر عن الرأي لا عن نشاط؟",
+        "options": [
+          "We hebben gegeten.",
+          "Ik vond het gezellig.",
+          "Ik ben naar huis gegaan."
+        ],
+        "correctIndex": 1,
+        "explanation": "Ik vond het gezellig تقييم للتجربة."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-q3",
+        "prompt": "ماذا حدث بعد الأكل؟",
+        "options": [
+          "ذهبت إلى المنزل فوراً",
+          "استمعت المجموعة إلى الموسيقى",
+          "بدأ العمل"
+        ],
+        "correctIndex": 1,
+        "explanation": "Daarna hebben we naar muziek geluisterd."
+      },
+      {
+        "id": "a2-sharing-a-social-experience-q4",
+        "prompt": "ما نيتها للمرة القادمة؟",
+        "options": [
+          "ألا تذهب مجدداً",
+          "أن تذهب مرة أخرى",
+          "أن تغادر قبل الحفلة"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ik wil volgende keer weer gaan."
+      }
+    ]
+  },
+  {
+    "slug": "a2-asking-follow-up-questions",
+    "moduleId": "a2-social-experiences",
+    "level": "A2",
+    "number": "30",
+    "title": "اسأل أسئلة متابعة",
+    "dutchTitle": "Vervolgvragen stellen",
+    "description": "اسأل عن تفاصيل تجربة بدلاً من الاكتفاء بسؤال واحد عام.",
+    "durationMinutes": 12,
+    "context": "صديقك يذكر أنه زار فعالية، وأنت تريد فهم التجربة أكثر.",
+    "goal": "أطرح أسئلة متابعة عن الوقت والمكان والأشخاص والمدة والرأي.",
+    "grammar": {
+      "title": "أسئلة المتابعة بكلمات السؤال",
+      "explanation": "نستخدم waar وwanneer وmet wie وhoe lang وhoe om تفاصيل مختلفة. في السؤال الرئيسي يأتي الفعل المصرف مباشرة بعد كلمة السؤال: Waar was het? Met wie ben je gegaan? لا تكرر نفس المعلومة بصياغات مختلفة.",
+      "example": "Met wie ben je gegaan? Hoe lang ben je gebleven?",
+      "translation": "مع من ذهبت؟ كم بقيت؟"
+    },
+    "phrases": [
+      {
+        "id": "a2-asking-follow-up-questions-01",
+        "dutch": "Ik ben gisteren naar een open dag geweest.",
+        "arabic": "ذهبت أمس إلى يوم مفتوح.",
+        "tip": "هذا خبر قصير يمكن متابعته بأسئلة."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-02",
+        "dutch": "Waar was de open dag?",
+        "arabic": "أين كان اليوم المفتوح؟",
+        "tip": "waar يسأل عن المكان."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-03",
+        "dutch": "In het cultuurcentrum bij het station.",
+        "arabic": "في المركز الثقافي قرب المحطة.",
+        "tip": "الجواب يحدد المكان فقط."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-04",
+        "dutch": "Met wie ben je gegaan?",
+        "arabic": "مع من ذهبت؟",
+        "tip": "met wie يسأل عن الشخص المرافق."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-05",
+        "dutch": "Met mijn buurvrouw.",
+        "arabic": "مع جارتي.",
+        "tip": "جواب مختصر كافٍ عندما تكون المعلومة واضحة."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-06",
+        "dutch": "Hoe lang ben je gebleven?",
+        "arabic": "كم بقيت هناك؟",
+        "tip": "hoe lang يسأل عن المدة."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-07",
+        "dutch": "Ongeveer twee uur.",
+        "arabic": "حوالي ساعتين.",
+        "tip": "ongeveer تعني تقريباً."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-08",
+        "dutch": "Wat vond je het interessantst?",
+        "arabic": "ما الذي وجدته الأكثر إثارة للاهتمام؟",
+        "tip": "السؤال يطلب تقييماً جديداً، لا تكرار المكان أو المدة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "سارة",
+        "phraseId": "a2-asking-follow-up-questions-01"
+      },
+      {
+        "speaker": "علي",
+        "phraseId": "a2-asking-follow-up-questions-02"
+      },
+      {
+        "speaker": "سارة",
+        "phraseId": "a2-asking-follow-up-questions-03"
+      },
+      {
+        "speaker": "علي",
+        "phraseId": "a2-asking-follow-up-questions-04"
+      },
+      {
+        "speaker": "سارة",
+        "phraseId": "a2-asking-follow-up-questions-05"
+      },
+      {
+        "speaker": "علي",
+        "phraseId": "a2-asking-follow-up-questions-06"
+      },
+      {
+        "speaker": "سارة",
+        "phraseId": "a2-asking-follow-up-questions-07"
+      },
+      {
+        "speaker": "علي",
+        "phraseId": "a2-asking-follow-up-questions-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-asking-follow-up-questions-q1",
+        "prompt": "أي سؤال يطلب معرفة الشخص المرافق؟",
+        "options": [
+          "Waar was het?",
+          "Met wie ben je gegaan?",
+          "Hoe lang bleef je?"
+        ],
+        "correctIndex": 1,
+        "explanation": "met wie يطلب معرفة الشخص."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-q2",
+        "prompt": "ماذا تعني ongeveer twee uur؟",
+        "options": [
+          "بالضبط ساعتين",
+          "حوالي ساعتين",
+          "بعد ساعتين"
+        ],
+        "correctIndex": 1,
+        "explanation": "ongeveer يدل على التقريب."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-q3",
+        "prompt": "أي سؤال يضيف موضوعاً جديداً بعد المكان والشخص والمدة؟",
+        "options": [
+          "Waar was het?",
+          "Wat vond je het interessantst?",
+          "Met wie was je?"
+        ],
+        "correctIndex": 1,
+        "explanation": "السؤال الأخير ينتقل إلى الرأي."
+      },
+      {
+        "id": "a2-asking-follow-up-questions-q4",
+        "prompt": "أين كان اليوم المفتوح؟",
+        "options": [
+          "في مدرسة بعيدة",
+          "في المركز الثقافي قرب المحطة",
+          "في بيت الجارة"
+        ],
+        "correctIndex": 1,
+        "explanation": "In het cultuurcentrum bij het station."
+      }
+    ]
+  },
+  {
+    "slug": "a2-responding-to-an-invitation",
+    "moduleId": "a2-social-experiences",
+    "level": "A2",
+    "number": "31",
+    "title": "ردّ على دعوة",
+    "dutchTitle": "Reageren op een uitnodiging",
+    "description": "اقبل أو اعتذر بوضوح، وأعط سبباً واقترح بديلاً عند الحاجة.",
+    "durationMinutes": 12,
+    "context": "تتلقى دعوة خيالية لتناول القهوة مساء الجمعة.",
+    "goal": "أقبل دعوة أو أعتذر عنها مع سبب واضح، وأقترح وقتاً بديلاً إذا لزم.",
+    "grammar": {
+      "title": "القبول والاعتذار مع سبب",
+      "explanation": "Ik kom graag يعبّر عن قبول. Ik kan helaas niet يعتذر بوضوح. مع want يبقى ترتيب الجملة الرئيسية عادياً: ik kan niet, want ik werk. مع omdat ينتقل الفعل المصرف إلى نهاية الجملة التابعة: omdat ik moet werken. في هذا الدرس يكفي استخدام أحد النمطين بثبات.",
+      "example": "Ik kan vrijdag helaas niet, omdat ik moet werken.",
+      "translation": "للأسف لا أستطيع يوم الجمعة لأنني يجب أن أعمل."
+    },
+    "phrases": [
+      {
+        "id": "a2-responding-to-an-invitation-01",
+        "dutch": "Heb je vrijdagavond zin om koffie te komen drinken?",
+        "arabic": "هل ترغب في المجيء لشرب القهوة مساء الجمعة؟",
+        "tip": "zin hebben om ... te يستخدم للدعوة أو الرغبة في نشاط."
+      },
+      {
+        "id": "a2-responding-to-an-invitation-02",
+        "dutch": "Ja, graag. Hoe laat zullen we afspreken?",
+        "arabic": "نعم، بكل سرور. في أي ساعة نلتقي؟",
+        "tip": "قبول واضح يتبعه سؤال عن تفصيل ناقص."
+      },
+      {
+        "id": "a2-responding-to-an-invitation-03",
+        "dutch": "Zullen we om half acht afspreken?",
+        "arabic": "هل نلتقي السابعة والنصف؟",
+        "tip": "اقتراح يحتاج إلى قبول."
+      },
+      {
+        "id": "a2-responding-to-an-invitation-04",
+        "dutch": "Dat komt goed uit.",
+        "arabic": "هذا الوقت يناسبني.",
+        "tip": "قبول للاقتراح."
+      },
+      {
+        "id": "a2-responding-to-an-invitation-05",
+        "dutch": "Volgende week kan ik vrijdag helaas niet.",
+        "arabic": "الأسبوع القادم للأسف لا أستطيع يوم الجمعة.",
+        "tip": "للرفض المهذب اذكر عدم الإمكان بوضوح."
+      },
+      {
+        "id": "a2-responding-to-an-invitation-06",
+        "dutch": "Ik moet dan werken.",
+        "arabic": "يجب أن أعمل حينها.",
+        "tip": "سبب بسيط مستقل."
+      },
+      {
+        "id": "a2-responding-to-an-invitation-07",
+        "dutch": "Kan het ook op zaterdagmiddag?",
+        "arabic": "هل يمكن أيضاً بعد ظهر السبت؟",
+        "tip": "اقتراح بديل بدل إنهاء الحوار بالرفض."
+      },
+      {
+        "id": "a2-responding-to-an-invitation-08",
+        "dutch": "Zaterdagmiddag past voor mij ook.",
+        "arabic": "بعد ظهر السبت يناسبني أيضاً.",
+        "tip": "قبول البديل لا يحدد الساعة بعد."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "نور",
+        "phraseId": "a2-responding-to-an-invitation-01"
+      },
+      {
+        "speaker": "رامي",
+        "phraseId": "a2-responding-to-an-invitation-02"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-responding-to-an-invitation-03"
+      },
+      {
+        "speaker": "رامي",
+        "phraseId": "a2-responding-to-an-invitation-04"
+      },
+      {
+        "speaker": "رامي",
+        "phraseId": "a2-responding-to-an-invitation-05"
+      },
+      {
+        "speaker": "رامي",
+        "phraseId": "a2-responding-to-an-invitation-06"
+      },
+      {
+        "speaker": "رامي",
+        "phraseId": "a2-responding-to-an-invitation-07"
+      },
+      {
+        "speaker": "نور",
+        "phraseId": "a2-responding-to-an-invitation-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-responding-to-an-invitation-q1",
+        "prompt": "أي رد هو قبول واضح للدعوة؟",
+        "options": [
+          "Ja, graag.",
+          "Misschien ooit.",
+          "Ik weet het niet."
+        ],
+        "correctIndex": 0,
+        "explanation": "Ja, graag قبول مباشر."
+      },
+      {
+        "id": "a2-responding-to-an-invitation-q2",
+        "prompt": "لماذا لا يستطيع رامي الجمعة التالية؟",
+        "options": [
+          "لأنه يعمل",
+          "لأنه لا يحب القهوة",
+          "لأن المكان مغلق"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ik moet dan werken."
+      },
+      {
+        "id": "a2-responding-to-an-invitation-q3",
+        "prompt": "ماذا اقترح رامي بدلاً من الجمعة؟",
+        "options": [
+          "صباح الأحد",
+          "بعد ظهر السبت",
+          "مساء الخميس"
+        ],
+        "correctIndex": 1,
+        "explanation": "Kan het ook op zaterdagmiddag?"
+      },
+      {
+        "id": "a2-responding-to-an-invitation-q4",
+        "prompt": "هل حُددت ساعة السبت بالفعل؟",
+        "options": [
+          "نعم، 19:30",
+          "نعم، 14:00",
+          "لا، تم قبول بعد الظهر فقط"
+        ],
+        "correctIndex": 2,
+        "explanation": "القبول شمل السبت بعد الظهر دون ساعة محددة."
+      }
+    ]
+  },
+  {
+    "slug": "a2-confirming-a-social-plan",
+    "moduleId": "a2-social-experiences",
+    "level": "A2",
+    "number": "32",
+    "title": "أكد الخطة الاجتماعية",
+    "dutchTitle": "Een sociale afspraak bevestigen",
+    "description": "اجمع اليوم والوقت والمكان وما يجب إحضاره بعد أن يتفق الطرفان.",
+    "durationMinutes": 12,
+    "context": "بعد عدة رسائل تريد أنت وصديقك إنهاء التفاصيل دون خلط الاقتراحات القديمة بالخطة النهائية.",
+    "goal": "أميز الاقتراح من الاتفاق، ثم أعيد اليوم والوقت والمكان والتعليمات النهائية.",
+    "grammar": {
+      "title": "من الاقتراح إلى التأكيد",
+      "explanation": "Zullen we ...? وKunnen we ...? اقتراحان. بعد الموافقة نستخدم Dus ... أو Afgesproken لتأكيد النسخة النهائية. إذا تغيرت معلومة، كرر التفاصيل الحالية فقط ولا تخلطها مع الاقتراح السابق.",
+      "example": "Afgesproken: zaterdag om drie uur bij het park.",
+      "translation": "اتفقنا: السبت الساعة الثالثة عند الحديقة."
+    },
+    "phrases": [
+      {
+        "id": "a2-confirming-a-social-plan-01",
+        "dutch": "Zullen we zaterdag om twee uur bij het park afspreken?",
+        "arabic": "هل نلتقي السبت الساعة الثانية عند الحديقة؟",
+        "tip": "هذا اقتراح أولي."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-02",
+        "dutch": "Twee uur lukt niet. Kan drie uur ook?",
+        "arabic": "الساعة الثانية لا تناسبني. هل تصلح الثالثة؟",
+        "tip": "رفض تفصيل مع بديل، لا رفض اللقاء كله."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-03",
+        "dutch": "Ja, drie uur is goed.",
+        "arabic": "نعم، الثالثة مناسبة.",
+        "tip": "قبول الوقت البديل."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-04",
+        "dutch": "We spreken bij de ingang van het park af.",
+        "arabic": "سنلتقي عند مدخل الحديقة.",
+        "tip": "المكان الحالي واضح."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-05",
+        "dutch": "Neem je iets te drinken mee?",
+        "arabic": "هل ستحضر شيئاً للشرب؟",
+        "tip": "سؤال عن التحضير، لا عن مكان اللقاء."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-06",
+        "dutch": "Ja, ik neem water mee.",
+        "arabic": "نعم، سأحضر ماء.",
+        "tip": "meenemen فعل منفصل؛ في المصدر يبقى كلمة واحدة."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-07",
+        "dutch": "Dus zaterdag om drie uur bij de ingang van het park.",
+        "arabic": "إذن السبت الساعة الثالثة عند مدخل الحديقة.",
+        "tip": "إعادة الخطة النهائية بعد التغيير."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-08",
+        "dutch": "Afgesproken. Laat het weten als er iets verandert.",
+        "arabic": "اتفقنا. أخبرني إذا تغير شيء.",
+        "tip": "التأكيد النهائي مع طلب تحديث عند التغيير."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "ليلى",
+        "phraseId": "a2-confirming-a-social-plan-01"
+      },
+      {
+        "speaker": "سامر",
+        "phraseId": "a2-confirming-a-social-plan-02"
+      },
+      {
+        "speaker": "ليلى",
+        "phraseId": "a2-confirming-a-social-plan-03"
+      },
+      {
+        "speaker": "ليلى",
+        "phraseId": "a2-confirming-a-social-plan-04"
+      },
+      {
+        "speaker": "ليلى",
+        "phraseId": "a2-confirming-a-social-plan-05"
+      },
+      {
+        "speaker": "سامر",
+        "phraseId": "a2-confirming-a-social-plan-06"
+      },
+      {
+        "speaker": "سامر",
+        "phraseId": "a2-confirming-a-social-plan-07"
+      },
+      {
+        "speaker": "ليلى",
+        "phraseId": "a2-confirming-a-social-plan-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-confirming-a-social-plan-q1",
+        "prompt": "ما الوقت المقترح أولاً؟",
+        "options": [
+          "14:00",
+          "15:00",
+          "16:00"
+        ],
+        "correctIndex": 0,
+        "explanation": "الاقتراح الأول كان om twee uur."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-q2",
+        "prompt": "ما الوقت المتفق عليه في النهاية؟",
+        "options": [
+          "14:00",
+          "15:00",
+          "لم يتفقا"
+        ],
+        "correctIndex": 1,
+        "explanation": "تم قبول drie uur ثم أعيد في التأكيد."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-q3",
+        "prompt": "أين سيكون اللقاء؟",
+        "options": [
+          "داخل مقهى",
+          "عند مدخل الحديقة",
+          "عند محطة القطار"
+        ],
+        "correctIndex": 1,
+        "explanation": "bij de ingang van het park."
+      },
+      {
+        "id": "a2-confirming-a-social-plan-q4",
+        "prompt": "ماذا سيحضر سامر؟",
+        "options": [
+          "ماء",
+          "طعاماً للجميع",
+          "لا شيء"
+        ],
+        "correctIndex": 0,
+        "explanation": "ik neem water mee."
+      }
+    ]
   }
 ]

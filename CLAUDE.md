@@ -241,3 +241,16 @@ A2 now has seven units / 28 lessons / 224 phrases / 112 lesson questions, 168 le
 All A1 files and preceding A2 records remain unchanged. Progress is A1 53 / A2 28; account/storage/placement contracts are unchanged. Audio inventory is 598 sources / 2,392 variants (A1 1,468; A2 924). New fingerprint protects the preceding 792 A2 requests. No synthesis or listening approval took place; owner handles recordings.
 
 Content/audio checks, A2 dry-run planning, all 66 native tests, all 146 Chromium end-to-end tests, TypeScript, production build and diff checks passed locally. Mobile partner practice (390px) and desktop reading were visually inspected without horizontal overflow. Full GitHub CI runs separately on the new PR. Independent educator review and learner observation remain outstanding; A2 stays an authored preview and paid exams remain deferred. Next planned unit: social experiences/invitations, followed by a whole-sequence coverage audit before claiming complete A2.
+
+
+### A2 unit 8 handoff (2026-10-06, current)
+
+Unit 8 is authored on `feat/a2-social-invitations` from merged main after PR #26. Read `docs/A2_SOCIAL_EXPERIENCES.md` for the current inventory and editorial scope. The eight-unit sequence proposed in `docs/A2_CURRICULUM.md` is now authored, but this is **not** a claim of complete A2 proficiency coverage.
+
+A2 now has eight units / 32 lessons / 256 phrases / 128 lesson questions, 192 lexical notes / 64 lesson tasks, eight readings / 48 notes / 32 questions, eight four-turn scenarios with transfers, and eight integrated packs (48 comprehension questions / eight writing / eight partner tasks). Unit `a2-social-experiences` contains lessons 29–32: share a short social experience, ask distinct follow-up questions, respond to an invitation with a reason/alternative, and confirm the accepted plan after changes.
+
+The reception tasks distinguish event facts from opinions, known details from useful follow-up questions, an invitation from an accepted time, and initial proposals from final confirmation. The integrated listening update changes the start time, attendees, requested item and meeting detail from the written source; learners must use the newest information rather than preserve the original plan.
+
+All A1 authored files and A2 units 1–7 remain stable. Progress is A1 53 / A2 32. Account/storage/placement contracts are unchanged. Audio planning becomes 631 sources / 2,524 variants (A1 1,468; A2 1,056). No synthesis or approval is performed here.
+
+**Next work is not unit 9.** Run a whole-sequence A2 coverage audit first: descriptor/task coverage, progression, grammar recycling, repeated objectives, reading/listening difficulty, interaction breadth, writing demands and remediation. Decide from evidence whether A2 needs targeted additions before calling the authored level complete. Independent educator review, learner observation and real recorded audio remain open; paid exams stay deferred.
