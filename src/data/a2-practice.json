@@ -280,7 +280,7 @@
             "الرد الخميس 12:00 والزيارة الجمعة 16:00"
           ],
           "correctIndex": 1,
-          "evidence": "Onze monteur komt vrijdag tussen tien en twaalf uur voor de deur. U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon. Wilt u voor donderdag vier uur per e-mail bevestigen dat u thuis bent?",
+          "evidence": "Onze monteur komt vrijdag tussen tien en twaalf uur om naar de deur van de slaapkamer te kijken. U hebt gemeld dat de deurbel niet werkt. Daarom belt de monteur u bij aankomst op uw telefoon. Wilt u voor donderdag vier uur per e-mail bevestigen dat u thuis bent?",
           "explanation": "مهلة الرد تسبق يوم الزيارة ولا تعطي ساعة الوصول."
         }
       ]
@@ -1049,7 +1049,7 @@
     },
     "listening": {
       "id": "a2-passage-final-review",
-      "text": "Let op, deelnemers aan de workshop van zaterdag. De locatie is veranderd. De workshop is niet in wijkcentrum De Brug, maar op school De Horizon, in lokaal vijf. We beginnen om half twaalf. Bus 4 rijdt zaterdag niet. Neem bus 7; die komt om tien voor elf bij de school aan. U hoeft geen lunch mee te nemen, want die wordt verzorgd. Neem een pen mee.",
+      "text": "Let op, deelnemers aan de workshop. De locatie is veranderd. De workshop is niet in wijkcentrum De Brug, maar op school De Horizon, in lokaal vijf. We beginnen om half twaalf. Bus 4 rijdt zaterdag niet. Neem bus 7; die komt om tien voor elf bij de school aan. U hoeft geen lunch mee te nemen, want die wordt verzorgd. Neem een pen mee.",
       "translation": "انتباه، المشاركون في ورشة السبت. تم تغيير المكان. الورشة ليست في مركز الحي «دي بروخ»، بل في مدرسة «دي هورايزن»، القاعة الخامسة. سنبدأ الساعة الحادية عشرة والنصف. الحافلة 4 لا تعمل يوم السبت. خذوا الحافلة 7؛ تصل إلى المدرسة الساعة الحادية عشرة إلا عشر دقائق. لا تحتاجون إلى إحضار الغداء لأنه سيتم توفيره. لكن أحضروا قلمًا.",
       "questions": [
         {
