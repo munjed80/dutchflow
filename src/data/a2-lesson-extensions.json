@@ -268,6 +268,73 @@
     ]
   },
   {
+    "lessonSlug": "a2-describing-a-changing-routine",
+    "vocabulary": [
+      {
+        "term": "vroeger",
+        "kind": "expression",
+        "forms": "vroeger ging ik ...",
+        "meaning": "سابقاً؛ لوصف عادة في الماضي.",
+        "phraseId": "a2-describing-a-changing-routine-01"
+      },
+      {
+        "term": "tegenwoordig",
+        "kind": "expression",
+        "forms": "tegenwoordig ga ik ...",
+        "meaning": "هذه الأيام أو حالياً.",
+        "phraseId": "a2-describing-a-changing-routine-03"
+      },
+      {
+        "term": "meestal",
+        "kind": "expression",
+        "forms": "ik ga meestal ...",
+        "meaning": "غالباً؛ في معظم المرات.",
+        "phraseId": "a2-describing-a-changing-routine-02"
+      },
+      {
+        "term": "hoe vaak",
+        "kind": "expression",
+        "forms": "Hoe vaak ga je ...?",
+        "meaning": "كم مرة؛ سؤال عن التكرار.",
+        "phraseId": "a2-describing-a-changing-routine-03"
+      },
+      {
+        "term": "nog steeds",
+        "kind": "expression",
+        "forms": "ik werk nog steeds thuis",
+        "meaning": "ما زال؛ عادة أو وضع مستمر.",
+        "phraseId": "a2-describing-a-changing-routine-05"
+      },
+      {
+        "term": "veranderen",
+        "kind": "verb",
+        "forms": "ik verander · het is veranderd",
+        "meaning": "يتغير أو يغيّر حسب السياق.",
+        "phraseId": "a2-describing-a-changing-routine-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "قارن روتيناً خيالياً: كنت تذهب إلى العمل بالحافلة، والآن تذهب غالباً بالدراجة ثلاث مرات في الأسبوع. أضف سبباً باستخدام omdat.",
+        "model": "Vroeger ging ik met de bus naar mijn werk. Nu ga ik meestal met de fiets, drie keer per week, omdat mijn werk dichter bij huis is.",
+        "translation": "كنت أذهب سابقاً إلى العمل بالحافلة. الآن أذهب غالباً بالدراجة ثلاث مرات في الأسبوع لأن عملي أقرب إلى المنزل.",
+        "checklist": [
+          "هل قارنت vroeger مع nu بوضوح؟",
+          "هل ذكرت التكرار ووضعت الفعل في نهاية جملة omdat؟"
+        ]
+      },
+      {
+        "prompt": "اسأل صديقاً عن شيء تغيّر في روتينه وكم مرة يفعله الآن، ثم اذكر أن عادة واحدة لديك ما زالت كما هي.",
+        "model": "Wat is er in jouw routine veranderd? Hoe vaak fiets je tegenwoordig? Op vrijdag werk ik nog steeds thuis.",
+        "translation": "ما الذي تغيّر في روتينك؟ كم مرة تركب الدراجة هذه الأيام؟ ما زلت أعمل من المنزل يوم الجمعة.",
+        "checklist": [
+          "هل سألت عن التغيير والتكرار بسؤالين مختلفين؟",
+          "هل استخدمت nog steeds لشيء لم يتغير؟"
+        ]
+      }
+    ]
+  },
+  {
     "lessonSlug": "a2-reporting-task-progress",
     "vocabulary": [
       {
@@ -532,6 +599,73 @@
         "checklist": [
           "هل ذكرت أقصى موعد باستخدام uiterlijk؟",
           "هل طلبت التأكيد بدلاً من افتراض الموافقة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-setting-work-priorities",
+    "vocabulary": [
+      {
+        "term": "de prioriteit",
+        "kind": "noun",
+        "forms": "de prioriteiten",
+        "meaning": "الأولوية؛ المهمة التي تُقدَّم على غيرها.",
+        "phraseId": "a2-setting-work-priorities-01"
+      },
+      {
+        "term": "afmaken",
+        "kind": "verb",
+        "forms": "ik maak af · ik heb afgemaakt",
+        "meaning": "يُنهي مهمة؛ فعل منفصل.",
+        "phraseId": "a2-setting-work-priorities-05"
+      },
+      {
+        "term": "ondertussen",
+        "kind": "expression",
+        "forms": "ondertussen print ik ...",
+        "meaning": "في هذه الأثناء؛ بالتوازي مع مهمة أخرى.",
+        "phraseId": "a2-setting-work-priorities-06"
+      },
+      {
+        "term": "daarna",
+        "kind": "expression",
+        "forms": "daarna controleer ik ...",
+        "meaning": "بعد ذلك؛ لترتيب الخطوة التالية.",
+        "phraseId": "a2-setting-work-priorities-07"
+      },
+      {
+        "term": "zodra",
+        "kind": "expression",
+        "forms": "zodra alles klaar is",
+        "meaning": "حالما؛ يربط الفعل بلحظة اكتمال شيء.",
+        "phraseId": "a2-setting-work-priorities-08"
+      },
+      {
+        "term": "klaar",
+        "kind": "expression",
+        "forms": "de bestelling is klaar",
+        "meaning": "جاهز أو مكتمل في هذا السياق.",
+        "phraseId": "a2-setting-work-priorities-02"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "لديك طلبية يجب أن تنتهي قبل 15:00 لأن السائق يصل 15:00. قل إنها الأولوية، واطلب من زميلك أن يطبع الملصقات في الوقت نفسه.",
+        "model": "De bestelling heeft vandaag prioriteit, omdat de chauffeur om drie uur komt. Ik maak de bestelling eerst af. Kun jij ondertussen de labels printen?",
+        "translation": "للطلبية الأولوية اليوم لأن السائق سيأتي الساعة الثالثة. سأنهي الطلبية أولاً. هل يمكنك طباعة الملصقات في هذه الأثناء؟",
+        "checklist": [
+          "هل شرحت سبب الأولوية بوضوح؟",
+          "هل وزعت المهمة الموازية باستخدام ondertussen؟"
+        ]
+      },
+      {
+        "prompt": "قل لزميلك: بعد طباعة الملصقات راجع العناوين، وأرسل لك رسالة حالما يصبح كل شيء جاهزاً.",
+        "model": "Controleer daarna de adressen. Stuur me een bericht zodra alles klaar is.",
+        "translation": "راجع العناوين بعد ذلك. أرسل لي رسالة حالما يصبح كل شيء جاهزاً.",
+        "checklist": [
+          "هل استخدمت daarna للخطوة التالية؟",
+          "هل ربطت الرسالة باكتمال العمل باستخدام zodra؟"
         ]
       }
     ]
@@ -805,6 +939,73 @@
     ]
   },
   {
+    "lessonSlug": "a2-preparing-for-a-repair-visit",
+    "vocabulary": [
+      {
+        "term": "de monteur",
+        "kind": "noun",
+        "forms": "de monteurs",
+        "meaning": "الفني أو عامل الصيانة.",
+        "phraseId": "a2-preparing-for-a-repair-visit-01"
+      },
+      {
+        "term": "vanaf",
+        "kind": "expression",
+        "forms": "vanaf tien uur",
+        "meaning": "ابتداءً من وقت محدد.",
+        "phraseId": "a2-preparing-for-a-repair-visit-02"
+      },
+      {
+        "term": "aanbellen",
+        "kind": "verb",
+        "forms": "ik bel aan · ik heb aangebeld",
+        "meaning": "يرن جرس الباب؛ فعل منفصل.",
+        "phraseId": "a2-preparing-for-a-repair-visit-04"
+      },
+      {
+        "term": "opendoen",
+        "kind": "verb",
+        "forms": "ik doe open · ik heb opengedaan",
+        "meaning": "يفتح الباب؛ فعل منفصل.",
+        "phraseId": "a2-preparing-for-a-repair-visit-06"
+      },
+      {
+        "term": "de sleutel",
+        "kind": "noun",
+        "forms": "de sleutels",
+        "meaning": "المفتاح.",
+        "phraseId": "a2-preparing-for-a-repair-visit-07"
+      },
+      {
+        "term": "noteren",
+        "kind": "verb",
+        "forms": "ik noteer · ik heb genoteerd",
+        "meaning": "يدوّن معلومة.",
+        "phraseId": "a2-preparing-for-a-repair-visit-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "زيارة صيانة بين 13:00 و15:00، لكنك ستكون في المنزل ابتداءً من 14:00 فقط. اطلب حضور الفني بعد الثانية.",
+        "model": "De monteur komt tussen één en drie uur, maar ik ben pas vanaf twee uur thuis. Kan hij na twee uur komen?",
+        "translation": "سيأتي الفني بين الواحدة والثالثة، لكنني لن أكون في المنزل قبل الثانية. هل يمكنه الحضور بعد الثانية؟",
+        "checklist": [
+          "هل ميزت فترة الزيارة من وقت وجودك في المنزل؟",
+          "هل طلبت التعديل دون افتراض الموافقة؟"
+        ]
+      },
+      {
+        "prompt": "أعط تعليمات: الجرس يعمل، وإذا لم تفتح الباب فاتصلوا بك. لا حاجة لترك المفتاح عند الجيران.",
+        "model": "De deurbel werkt. Als ik niet opendoe, kunt u mij bellen. U hoeft de sleutel niet bij de buren af te geven.",
+        "translation": "جرس الباب يعمل. إذا لم أفتح الباب يمكنكم الاتصال بي. لا يلزمكم ترك المفتاح عند الجيران.",
+        "checklist": [
+          "هل استخدمت als بشرط واضح؟",
+          "هل استخدمت hoeft ... niet te لشيء غير مطلوب؟"
+        ]
+      }
+    ]
+  },
+  {
     "lessonSlug": "a2-explaining-an-appointment-conflict",
     "vocabulary": [
       {
@@ -1073,6 +1274,73 @@
     ]
   },
   {
+    "lessonSlug": "a2-finding-an-earlier-appointment",
+    "vocabulary": [
+      {
+        "term": "eerder",
+        "kind": "expression",
+        "forms": "een eerdere afspraak · eerder komen",
+        "meaning": "أبكر؛ في وقت سابق.",
+        "phraseId": "a2-finding-an-earlier-appointment-01"
+      },
+      {
+        "term": "de plek",
+        "kind": "noun",
+        "forms": "de plekken",
+        "meaning": "مكان شاغر أو فتحة في الجدول هنا.",
+        "phraseId": "a2-finding-an-earlier-appointment-02"
+      },
+      {
+        "term": "vrijkomen",
+        "kind": "verb",
+        "forms": "er komt een plek vrij · er is een plek vrijgekomen",
+        "meaning": "يصبح شاغراً أو متاحاً.",
+        "phraseId": "a2-finding-an-earlier-appointment-01"
+      },
+      {
+        "term": "huidig",
+        "kind": "expression",
+        "forms": "mijn huidige afspraak",
+        "meaning": "حالي؛ الموجود الآن.",
+        "phraseId": "a2-finding-an-earlier-appointment-03"
+      },
+      {
+        "term": "verplaatsen",
+        "kind": "verb",
+        "forms": "ik verplaats · ik heb verplaatst",
+        "meaning": "ينقل الموعد إلى وقت آخر.",
+        "phraseId": "a2-finding-an-earlier-appointment-04"
+      },
+      {
+        "term": "de bevestiging",
+        "kind": "noun",
+        "forms": "de bevestigingen",
+        "meaning": "التأكيد الرسمي للموعد.",
+        "phraseId": "a2-finding-an-earlier-appointment-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "موعدك الحالي الخميس 11:00. اسأل إن أصبح هناك موعد أبكر يوم الثلاثاء، ولا تقل إن التغيير تم بالفعل.",
+        "model": "Mijn huidige afspraak is donderdag om elf uur. Is er misschien dinsdag een eerdere plek vrijgekomen?",
+        "translation": "موعدي الحالي الخميس الساعة الحادية عشرة. هل أصبح هناك موعد شاغر أبكر يوم الثلاثاء ربما؟",
+        "checklist": [
+          "هل ذكرت الموعد الحالي؟",
+          "هل سألت عن البديل كاحتمال لا كموعد مؤكد؟"
+        ]
+      },
+      {
+        "prompt": "يعرض الموظف الثلاثاء 14:30. اقبل إذا بقي متاحاً واطلب تأكيداً بالبريد الإلكتروني.",
+        "model": "Ja graag, als dinsdag om half drie nog beschikbaar is. Krijg ik daarvan een bevestiging per e-mail?",
+        "translation": "نعم من فضلكم، إذا كان الثلاثاء الثانية والنصف ما يزال متاحاً. هل سأحصل على تأكيد بذلك عبر البريد الإلكتروني؟",
+        "checklist": [
+          "هل جعلت القبول مشروطاً ببقاء الموعد متاحاً؟",
+          "هل طلبت تأكيداً منفصلاً؟"
+        ]
+      }
+    ]
+  },
+  {
     "lessonSlug": "a2-explaining-a-purchase-problem",
     "vocabulary": [
       {
@@ -1336,6 +1604,73 @@
         "checklist": [
           "هل ذكرت العدد واللون والسعر الإجمالي؟",
           "هل ذكرت موعد الاستلام وسألت عن المكان غير المؤكد؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-asking-about-a-return",
+    "vocabulary": [
+      {
+        "term": "terugbrengen",
+        "kind": "verb",
+        "forms": "ik breng terug · ik heb teruggebracht",
+        "meaning": "يعيد منتجاً إلى المتجر.",
+        "phraseId": "a2-asking-about-a-return-01"
+      },
+      {
+        "term": "de bon",
+        "kind": "noun",
+        "forms": "de bonnen",
+        "meaning": "إيصال الشراء.",
+        "phraseId": "a2-asking-about-a-return-02"
+      },
+      {
+        "term": "ruilen",
+        "kind": "verb",
+        "forms": "ik ruil · ik heb geruild",
+        "meaning": "يستبدل منتجاً بآخر.",
+        "phraseId": "a2-asking-about-a-return-04"
+      },
+      {
+        "term": "geld terug",
+        "kind": "expression",
+        "forms": "ik wil mijn geld terug",
+        "meaning": "استرداد المبلغ المدفوع.",
+        "phraseId": "a2-asking-about-a-return-04"
+      },
+      {
+        "term": "als het kan",
+        "kind": "expression",
+        "forms": "als het kan, wil ik ...",
+        "meaning": "إذا كان ذلك ممكناً؛ صيغة طلب غير افتراضية.",
+        "phraseId": "a2-asking-about-a-return-05"
+      },
+      {
+        "term": "invullen",
+        "kind": "verb",
+        "forms": "ik vul in · ik heb ingevuld",
+        "meaning": "يملأ نموذجاً أو خانة.",
+        "phraseId": "a2-asking-about-a-return-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "في متجر خيالي تريد إرجاع سترة ومعك الإيصال. قل إنك تفضل استرداد المبلغ إذا كان ذلك ممكناً.",
+        "model": "Ik wil deze jas graag terugbrengen. Hier is de bon. Als het kan, wil ik graag mijn geld terug.",
+        "translation": "أود إرجاع هذه السترة. هذا هو الإيصال. إذا كان ذلك ممكناً، أود استرداد المبلغ.",
+        "checklist": [
+          "هل ذكرت المنتج والإيصال؟",
+          "هل طلبت الاسترداد بصيغة لا تفترض أنه حق متاح دائماً؟"
+        ]
+      },
+      {
+        "prompt": "الموظف يقول إن الاستبدال ممكن في هذا المتجر. اسأل إن كنت تحتاج إلى تعبئة شيء قبل الاستبدال.",
+        "model": "Kan ik de jas dan ruilen? Moet ik nog iets invullen?",
+        "translation": "هل يمكنني إذن استبدال السترة؟ هل يجب أن أملأ شيئاً آخر؟",
+        "checklist": [
+          "هل فرقت بين ruilen وgeld terug؟",
+          "هل سألت عن الخطوة الإدارية بدلاً من افتراضها؟"
         ]
       }
     ]
@@ -1610,6 +1945,73 @@
     ]
   },
   {
+    "lessonSlug": "a2-relaying-a-schedule-change",
+    "vocabulary": [
+      {
+        "term": "later",
+        "kind": "expression",
+        "forms": "een halfuur later",
+        "meaning": "لاحقاً أو متأخراً عن الوقت السابق.",
+        "phraseId": "a2-relaying-a-schedule-change-01"
+      },
+      {
+        "term": "hetzelfde",
+        "kind": "expression",
+        "forms": "dezelfde zaal · hetzelfde tijdstip",
+        "meaning": "نفس الشيء؛ هنا للتحقق مما بقي ثابتاً.",
+        "phraseId": "a2-relaying-a-schedule-change-03"
+      },
+      {
+        "term": "opnieuw",
+        "kind": "expression",
+        "forms": "opnieuw aanmelden",
+        "meaning": "مرة أخرى.",
+        "phraseId": "a2-relaying-a-schedule-change-05"
+      },
+      {
+        "term": "geldig",
+        "kind": "expression",
+        "forms": "de aanmelding blijft geldig",
+        "meaning": "صالح وما زال معمولاً به.",
+        "phraseId": "a2-relaying-a-schedule-change-06"
+      },
+      {
+        "term": "doorsturen",
+        "kind": "verb",
+        "forms": "ik stuur door · ik heb doorgestuurd",
+        "meaning": "يمرر رسالة أو معلومة إلى شخص آخر.",
+        "phraseId": "a2-relaying-a-schedule-change-07"
+      },
+      {
+        "term": "het tijdstip",
+        "kind": "noun",
+        "forms": "de tijdstippen",
+        "meaning": "الوقت المحدد لحدث.",
+        "phraseId": "a2-relaying-a-schedule-change-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "أخبر شريكك: النشاط لم يعد 18:00 بل 18:30، لكن القاعة بقيت الثانية والتسجيل ما زال صالحاً.",
+        "model": "De activiteit begint niet om zes uur, maar om half zeven. We zitten nog steeds in zaal twee en onze aanmelding blijft geldig.",
+        "translation": "لن يبدأ النشاط الساعة السادسة، بل السادسة والنصف. ما زلنا في القاعة الثانية وتسجيلنا ما زال صالحاً.",
+        "checklist": [
+          "هل صححت الوقت باستخدام niet ... maar؟",
+          "هل نقلت ما لم يتغير أيضاً؟"
+        ]
+      },
+      {
+        "prompt": "تلقيت تحديثاً من المدرسة. قل إنك سترسل الوقت الجديد إلى شريكك واسأل إن كان يجب التسجيل من جديد.",
+        "model": "Ik stuur het nieuwe tijdstip door naar mijn partner. Moet ik me opnieuw aanmelden?",
+        "translation": "سأرسل الوقت الجديد إلى شريكي. هل يجب أن أسجل من جديد؟",
+        "checklist": [
+          "هل نقلت التحديث إلى شخص ثالث؟",
+          "هل سألت عن إعادة التسجيل دون افتراض الإجابة؟"
+        ]
+      }
+    ]
+  },
+  {
     "lessonSlug": "a2-planning-a-day-trip",
     "vocabulary": [
       {
@@ -1879,6 +2281,73 @@
     ]
   },
   {
+    "lessonSlug": "a2-handling-a-missed-connection",
+    "vocabulary": [
+      {
+        "term": "de aansluiting",
+        "kind": "noun",
+        "forms": "de aansluitingen",
+        "meaning": "وسيلة الربط التالية في الرحلة.",
+        "phraseId": "a2-handling-a-missed-connection-02"
+      },
+      {
+        "term": "missen",
+        "kind": "verb",
+        "forms": "ik mis · ik heb gemist",
+        "meaning": "يفوّت شيئاً أو لا يلحق به.",
+        "phraseId": "a2-handling-a-missed-connection-02"
+      },
+      {
+        "term": "daardoor",
+        "kind": "expression",
+        "forms": "daardoor heb ik ...",
+        "meaning": "نتيجةً لذلك؛ تربط السبب بالنتيجة.",
+        "phraseId": "a2-handling-a-missed-connection-02"
+      },
+      {
+        "term": "het spoor",
+        "kind": "noun",
+        "forms": "de sporen",
+        "meaning": "رقم مسار القطار في المحطة.",
+        "phraseId": "a2-handling-a-missed-connection-04"
+      },
+      {
+        "term": "verder reizen",
+        "kind": "expression",
+        "forms": "u kunt verder reizen",
+        "meaning": "يتابع الرحلة بعد التوقف.",
+        "phraseId": "a2-handling-a-missed-connection-05"
+      },
+      {
+        "term": "ongeveer",
+        "kind": "expression",
+        "forms": "ongeveer om vijf uur",
+        "meaning": "تقريباً؛ يخفف دقة الوقت.",
+        "phraseId": "a2-handling-a-missed-connection-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "حافلتك تأخرت وفاتك القطار. اشرح السبب والنتيجة باستخدام daardoor، ثم اسأل متى يغادر القطار التالي.",
+        "model": "Mijn bus kwam te laat. Daardoor heb ik de trein gemist. Wanneer vertrekt de volgende trein?",
+        "translation": "وصلت حافلتي متأخرة. لذلك فاتني القطار. متى يغادر القطار التالي؟",
+        "checklist": [
+          "هل ربطت السبب بالنتيجة باستخدام daardoor؟",
+          "هل سألت عن الرحلة التالية لا القديمة؟"
+        ]
+      },
+      {
+        "prompt": "قيل لك إن القطار التالي يغادر بعد 15 دقيقة من الرصيف 4. أعد المعلومة واسأل عن وقت الوصول التقريبي.",
+        "model": "Dus over vijftien minuten van spoor vier. Hoe laat kom ik dan ongeveer aan?",
+        "translation": "إذن بعد خمس عشرة دقيقة من الرصيف الرابع. في أي ساعة أصل تقريباً عندها؟",
+        "checklist": [
+          "هل أعدت الوقت والرصيف؟",
+          "هل استخدمت ongeveer لأن وقت الوصول تقديري؟"
+        ]
+      }
+    ]
+  },
+  {
     "lessonSlug": "a2-sharing-a-social-experience",
     "vocabulary": [
       {
@@ -2142,6 +2611,73 @@
         "checklist": [
           "هل حذفت الاقتراح القديم من التأكيد؟",
           "هل أعدت الوقت والمكان الحاليين؟"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonSlug": "a2-following-up-after-a-social-event",
+    "vocabulary": [
+      {
+        "term": "bedankt voor",
+        "kind": "expression",
+        "forms": "bedankt voor gisteren",
+        "meaning": "شكراً على شيء أو مناسبة.",
+        "phraseId": "a2-following-up-after-a-social-event-01"
+      },
+      {
+        "term": "thuiskomen",
+        "kind": "verb",
+        "forms": "ik kom thuis · ik ben thuisgekomen",
+        "meaning": "يصل إلى المنزل.",
+        "phraseId": "a2-following-up-after-a-social-event-02"
+      },
+      {
+        "term": "erbij zijn",
+        "kind": "expression",
+        "forms": "leuk dat je erbij was",
+        "meaning": "يكون حاضراً أو مشاركاً.",
+        "phraseId": "a2-following-up-after-a-social-event-04"
+      },
+      {
+        "term": "volgende maand",
+        "kind": "expression",
+        "forms": "volgende maand organiseren we ...",
+        "meaning": "الشهر القادم.",
+        "phraseId": "a2-following-up-after-a-social-event-05"
+      },
+      {
+        "term": "bekend",
+        "kind": "expression",
+        "forms": "de datum is bekend",
+        "meaning": "معروف أو محدد.",
+        "phraseId": "a2-following-up-after-a-social-event-06"
+      },
+      {
+        "term": "met z'n drieën",
+        "kind": "expression",
+        "forms": "we gaan met z'n drieën",
+        "meaning": "نحن الثلاثة معاً.",
+        "phraseId": "a2-following-up-after-a-social-event-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب لصديق بعد لقاء: اشكره على الأمس، قل إنك استمتعت، واسأله هل وصل إلى المنزل بخير.",
+        "model": "Bedankt voor gisteren. Ik vond het erg gezellig. Ben je goed thuisgekomen?",
+        "translation": "شكراً على أمس. استمتعت كثيراً. هل وصلت إلى المنزل بخير؟",
+        "checklist": [
+          "هل شكرت على اللقاء السابق؟",
+          "هل أضفت رأياً وسؤال متابعة مختلفاً؟"
+        ]
+      },
+      {
+        "prompt": "يوجد نشاط جديد الشهر القادم لكن التاريخ غير معروف. اطلب من صديقك أن يخبرك عندما يُعرف التاريخ واقترح دعوة سارا.",
+        "model": "Volgende maand is er weer een activiteit. Laat maar weten wanneer de datum bekend is. Zal ik Sara ook uitnodigen?",
+        "translation": "هناك نشاط آخر الشهر القادم. أخبرني عندما يصبح التاريخ معروفاً. هل أدعو سارا أيضاً؟",
+        "checklist": [
+          "هل تجنبت اختراع تاريخ غير معروف؟",
+          "هل قدمت دعوة سارا كاقتراح يحتاج رداً؟"
         ]
       }
     ]
