@@ -16,7 +16,7 @@ The Council of Europe's [global scale](https://www.coe.int/en/web/common-europea
 | Comprehension and production | Evidence-backed questions and original-response tasks exist | Observe learners on unfamiliar details and adjust scaffolding / educator |
 | Real audio | Repository manifest has zero approved variants | Owner generates, listens and approves; `audio:check -- --require-complete --level=A1` must pass for A1 recorded release |
 | Independent language review | No external sign-off recorded | Dutch/Arabic educator reviews wording, task load and descriptor mapping |
-| A2 authored course | Eight units / thirty-two lessons + cumulative final review + targeted mediation reinforcement + full editorial consistency pass implemented | Internal content complete after CI; real audio, educator review and learner observation remain outstanding |
+| A2 expanded course | Eight units / forty lessons + cumulative final review + targeted mediation reinforcement | Run CI and review the eight new lessons; real audio, educator review and learner observation remain outstanding |
 | Public launch | Account infrastructure/privacy readiness separate | Follow `ACCOUNTS.md`; do not equate course counts with launch readiness |
 
 A2 design and an isolated draft can proceed alongside owner-managed recording work. Publishing A2 requires its own reviewed material and playback checks; it must not imply that A1's remaining release gates have passed. The learner's A1 lesson-completion total is self-reported, not a gate, placement result or credential.
