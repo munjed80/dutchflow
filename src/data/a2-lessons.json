@@ -704,7 +704,7 @@
     "durationMinutes": 12,
     "dialogue": [
       {
-        "speaker": "نور",
+        "speaker": "آدم",
         "phraseId": "a2-describing-a-changing-routine-01"
       },
       {
@@ -720,7 +720,7 @@
         "phraseId": "a2-describing-a-changing-routine-04"
       },
       {
-        "speaker": "نور",
+        "speaker": "آدم",
         "phraseId": "a2-describing-a-changing-routine-05"
       },
       {
@@ -1464,15 +1464,15 @@
         "phraseId": "a2-setting-work-priorities-05"
       },
       {
-        "speaker": "آدم",
+        "speaker": "نور",
         "phraseId": "a2-setting-work-priorities-06"
       },
       {
-        "speaker": "نور",
+        "speaker": "آدم",
         "phraseId": "a2-setting-work-priorities-07"
       },
       {
-        "speaker": "آدم",
+        "speaker": "نور",
         "phraseId": "a2-setting-work-priorities-08"
       }
     ],
@@ -2184,35 +2184,35 @@
     "durationMinutes": 12,
     "dialogue": [
       {
-        "speaker": "نور",
+        "speaker": "موظف الصيانة",
         "phraseId": "a2-preparing-for-a-repair-visit-01"
       },
       {
-        "speaker": "آدم",
+        "speaker": "عمر",
         "phraseId": "a2-preparing-for-a-repair-visit-02"
       },
       {
-        "speaker": "نور",
+        "speaker": "عمر",
         "phraseId": "a2-preparing-for-a-repair-visit-03"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظف الصيانة",
         "phraseId": "a2-preparing-for-a-repair-visit-04"
       },
       {
-        "speaker": "نور",
+        "speaker": "عمر",
         "phraseId": "a2-preparing-for-a-repair-visit-05"
       },
       {
-        "speaker": "آدم",
+        "speaker": "عمر",
         "phraseId": "a2-preparing-for-a-repair-visit-06"
       },
       {
-        "speaker": "نور",
+        "speaker": "موظف الصيانة",
         "phraseId": "a2-preparing-for-a-repair-visit-07"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظف الصيانة",
         "phraseId": "a2-preparing-for-a-repair-visit-08"
       }
     ],
@@ -2924,35 +2924,35 @@
     "durationMinutes": 12,
     "dialogue": [
       {
-        "speaker": "نور",
+        "speaker": "سام",
         "phraseId": "a2-finding-an-earlier-appointment-01"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظفة المركز",
         "phraseId": "a2-finding-an-earlier-appointment-02"
       },
       {
-        "speaker": "نور",
+        "speaker": "سام",
         "phraseId": "a2-finding-an-earlier-appointment-03"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظفة المركز",
         "phraseId": "a2-finding-an-earlier-appointment-04"
       },
       {
-        "speaker": "نور",
+        "speaker": "سام",
         "phraseId": "a2-finding-an-earlier-appointment-05"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظفة المركز",
         "phraseId": "a2-finding-an-earlier-appointment-06"
       },
       {
-        "speaker": "نور",
+        "speaker": "سام",
         "phraseId": "a2-finding-an-earlier-appointment-07"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظفة المركز",
         "phraseId": "a2-finding-an-earlier-appointment-08"
       }
     ],
@@ -3664,35 +3664,35 @@
     "durationMinutes": 12,
     "dialogue": [
       {
-        "speaker": "نور",
+        "speaker": "الزبون",
         "phraseId": "a2-asking-about-a-return-01"
       },
       {
-        "speaker": "آدم",
+        "speaker": "الموظف",
         "phraseId": "a2-asking-about-a-return-02"
       },
       {
-        "speaker": "نور",
+        "speaker": "الزبون",
         "phraseId": "a2-asking-about-a-return-03"
       },
       {
-        "speaker": "آدم",
+        "speaker": "الموظف",
         "phraseId": "a2-asking-about-a-return-04"
       },
       {
-        "speaker": "نور",
+        "speaker": "الزبون",
         "phraseId": "a2-asking-about-a-return-05"
       },
       {
-        "speaker": "آدم",
+        "speaker": "الموظف",
         "phraseId": "a2-asking-about-a-return-06"
       },
       {
-        "speaker": "نور",
+        "speaker": "الزبون",
         "phraseId": "a2-asking-about-a-return-07"
       },
       {
-        "speaker": "آدم",
+        "speaker": "الموظف",
         "phraseId": "a2-asking-about-a-return-08"
       }
     ],
@@ -4404,11 +4404,11 @@
     "durationMinutes": 12,
     "dialogue": [
       {
-        "speaker": "نور",
+        "speaker": "موظفة المدرسة",
         "phraseId": "a2-relaying-a-schedule-change-01"
       },
       {
-        "speaker": "آدم",
+        "speaker": "نور",
         "phraseId": "a2-relaying-a-schedule-change-02"
       },
       {
@@ -4416,7 +4416,7 @@
         "phraseId": "a2-relaying-a-schedule-change-03"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظفة المدرسة",
         "phraseId": "a2-relaying-a-schedule-change-04"
       },
       {
@@ -4424,7 +4424,7 @@
         "phraseId": "a2-relaying-a-schedule-change-05"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظفة المدرسة",
         "phraseId": "a2-relaying-a-schedule-change-06"
       },
       {
@@ -4432,7 +4432,7 @@
         "phraseId": "a2-relaying-a-schedule-change-07"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظفة المدرسة",
         "phraseId": "a2-relaying-a-schedule-change-08"
       }
     ],
@@ -5144,35 +5144,35 @@
     "durationMinutes": 12,
     "dialogue": [
       {
-        "speaker": "نور",
+        "speaker": "المسافر",
         "phraseId": "a2-handling-a-missed-connection-01"
       },
       {
-        "speaker": "آدم",
+        "speaker": "المسافر",
         "phraseId": "a2-handling-a-missed-connection-02"
       },
       {
-        "speaker": "نور",
+        "speaker": "المسافر",
         "phraseId": "a2-handling-a-missed-connection-03"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظف المحطة",
         "phraseId": "a2-handling-a-missed-connection-04"
       },
       {
-        "speaker": "نور",
+        "speaker": "المسافر",
         "phraseId": "a2-handling-a-missed-connection-05"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظف المحطة",
         "phraseId": "a2-handling-a-missed-connection-06"
       },
       {
-        "speaker": "نور",
+        "speaker": "المسافر",
         "phraseId": "a2-handling-a-missed-connection-07"
       },
       {
-        "speaker": "آدم",
+        "speaker": "موظف المحطة",
         "phraseId": "a2-handling-a-missed-connection-08"
       }
     ],
@@ -5884,19 +5884,19 @@
     "durationMinutes": 12,
     "dialogue": [
       {
-        "speaker": "نور",
+        "speaker": "آدم",
         "phraseId": "a2-following-up-after-a-social-event-01"
       },
       {
-        "speaker": "آدم",
+        "speaker": "نور",
         "phraseId": "a2-following-up-after-a-social-event-02"
       },
       {
-        "speaker": "نور",
+        "speaker": "آدم",
         "phraseId": "a2-following-up-after-a-social-event-03"
       },
       {
-        "speaker": "آدم",
+        "speaker": "نور",
         "phraseId": "a2-following-up-after-a-social-event-04"
       },
       {
@@ -5908,11 +5908,11 @@
         "phraseId": "a2-following-up-after-a-social-event-06"
       },
       {
-        "speaker": "نور",
+        "speaker": "آدم",
         "phraseId": "a2-following-up-after-a-social-event-07"
       },
       {
-        "speaker": "آدم",
+        "speaker": "نور",
         "phraseId": "a2-following-up-after-a-social-event-08"
       }
     ],
