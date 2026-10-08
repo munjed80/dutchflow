@@ -1,9 +1,36 @@
 import { expect, test } from "@playwright/test";
 import a1 from "../../src/data/lessons.json";
 import lessons from "../../src/data/a2-lessons.json";
+import extensions from "../../src/data/a2-lesson-extensions.json";
 import readings from "../../src/data/a2-readings.json";
 import packs from "../../src/data/a2-practice.json";
 import scenarios from "../../src/data/a2-scenarios.json";
+
+const expandedLessonSlugs = [
+  "a2-describing-a-changing-routine",
+  "a2-setting-work-priorities",
+  "a2-preparing-for-a-repair-visit",
+  "a2-finding-an-earlier-appointment",
+  "a2-asking-about-a-return",
+  "a2-relaying-a-schedule-change",
+  "a2-handling-a-missed-connection",
+  "a2-following-up-after-a-social-event",
+];
+
+test("all eight fifth A2 lessons render full phrase, quiz and production depth", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  for (const slug of expandedLessonSlugs) {
+    const lesson = lessons.find((item) => item.slug === slug)!;
+    const extension = extensions.find((item) => item.lessonSlug === slug)!;
+    await page.goto(`/learn/${slug}`);
+    await expect(page.locator(".phrase-card")).toHaveCount(8);
+    await expect(page.locator(".quiz-question")).toHaveCount(4);
+    await expect(page.locator(".lesson-enrichment dt")).toHaveCount(extension.vocabulary.length);
+    await expect(page.locator(".production-task")).toHaveCount(extension.tasks.length);
+    await expect(page.locator(".lesson-page-heading")).toContainText(`${lesson.number} من ${lessons.length}`);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+});
 
 test("levels isolate catalogue filters, recommendations, progress and navigation without promoting A1 finishers", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
