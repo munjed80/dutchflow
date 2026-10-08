@@ -291,3 +291,16 @@ After the cumulative final review, three existing lesson production tasks were r
 The cumulative `final-review` already provides the missing public-announcement listening format, so earlier listening/audio sources remain unchanged. Counts remain A2 8 units / 32 lessons / 64 lesson production tasks / 9 practice packs and 265 spoken sources / 1,060 variants.
 
 Next work: run the complete Dutch/Arabic editorial consistency pass across all 32 lessons and nine A2 practice packs. Do not add unit 9.
+
+
+### A2 full editorial consistency handoff (2026-10-08, current)
+
+The complete authored A2 sequence has now received the Dutch/Arabic editorial consistency pass described in `docs/A2_EDITORIAL_REVIEW.md`.
+
+Confirmed corrections were intentionally narrow: separate a registration deadline from the activity time, use a natural request model for a borrowed laptop, normalize `op school De Horizon, in lokaal vijf`, use `Beste medewerker` instead of `Beste organisatie`, and remove the written housing ambiguity caused by `voor de deur` when the intended meaning was the bedroom door as a repair target.
+
+The review also checked `u/je`, `want/omdat/daarom` word order, `moeten/hoeven/mogen`, time/deadline distinctions, superseded information, optional/required information, answer evidence, role continuity and model/checklist alignment. Mixed register across separate tasks is retained where roles intentionally differ.
+
+No unit 9, lesson-count change or broad stylistic rewrite was introduced. Earlier unit listening sources remain unchanged; the final-review source wording is corrected before owner recording. Counts stay 8 units / 32 lessons / 9 practice packs and A2 265 audio sources / 1,060 variants.
+
+After this PR passes full CI, A2 may be called **internally content-complete** for DutchFlow. Real audio approval, independent educator review and learner observation remain external release gates. Do not describe this as official CEFR validation or certification.

@@ -30,7 +30,7 @@ The written source announces a fictional Saturday workshop at wijkcentrum De Bru
 
 The later spoken announcement deliberately supersedes multiple facts:
 
-- venue becomes school De Horizon, room 5;
+- venue becomes school De Horizon, room 5 (Dutch source: `op school De Horizon, in lokaal vijf`);
 - start becomes 11:30;
 - bus 4 does not run; bus 7 arrives 10:50 at the school;
 - lunch is now provided;

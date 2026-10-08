@@ -30,6 +30,14 @@ test("the published A2 units have connected reception, production, interaction a
   assert.match(taskByLesson.get("a2-writing-a-relevant-reply")[1].model, /Wat heb jij liever\?/);
   assert.match(taskByLesson.get("a2-reporting-a-travel-delay")[1].prompt, /أخبر شخصاً ثالثاً بالخطة الحالية/);
   assert.match(taskByLesson.get("a2-reporting-a-travel-delay")[1].model, /naar verwachting om twintig over vier/);
+  assert.match(taskByLesson.get("a2-writing-a-relevant-reply")[0].model, /Ik wil graag een laptop van het buurthuis gebruiken/);
+  const schoolPack = a2.practice.find((pack) => pack.slug === "a2-school-local-messages");
+  assert.match(schoolPack.speaking[0].model, /Ik meld twee personen aan\. Ik doe dat voor vrijdag vier uur\./);
+  const housingPack = a2.practice.find((pack) => pack.slug === "a2-housing-services");
+  assert.match(housingPack.reading.text, /om naar de deur van de slaapkamer te kijken/);
+  const finalReview = a2.practice.find((pack) => pack.slug === "final-review");
+  assert.match(finalReview.listening.text, /op school De Horizon, in lokaal vijf/);
+  assert.match(finalReview.writing[1].model, /^Beste medewerker,/);
   for (const lesson of a2.lessons) {
     for (const round of buildListeningRounds(lesson.phrases)) {
       assert.equal(new Set(round.choices.map((choice) => choice.text)).size, 3);

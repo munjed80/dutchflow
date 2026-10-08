@@ -1590,8 +1590,8 @@
     "tasks": [
       {
         "prompt": "اكتب رداً كاملاً باسم خيالي: سجلت لشخصين في ورشة الأحد 11:00، لكن صديقك يعمل وستحضر وحدك. ستستخدم جهاز المركز. أجب عن العدد والجهاز مع تحية وتوقيع.",
-        "model": "Beste team,\nMijn vriend werkt, daarom kom ik zondag om elf uur alleen. Ik gebruik graag een laptop van het buurthuis.\nMet vriendelijke groet,\nAmir",
-        "translation": "الفريق المحترم،\nصديقي يعمل، لذلك سأحضر الأحد الحادية عشرة وحدي. أود استخدام حاسوب من المركز المجتمعي.\nمع التحية،\nأمير",
+        "model": "Beste team,\nMijn vriend werkt, daarom kom ik zondag om elf uur alleen. Ik wil graag een laptop van het buurthuis gebruiken.\nMet vriendelijke groet,\nAmir",
+        "translation": "الفريق المحترم،\nصديقي يعمل، لذلك سأحضر الأحد الحادية عشرة وحدي. أود استخدام حاسوب محمول من المركز المجتمعي.\nمع التحية،\nأمير",
         "checklist": [
           "هل أوضحت التغيير إلى شخص واحد وذكرت الوقت الصحيح؟",
           "هل أجبت عن الجهاز وأضفت تحية وتوقيعاً؟"
