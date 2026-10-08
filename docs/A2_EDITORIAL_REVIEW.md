@@ -124,3 +124,8 @@ Remaining release gates are external to authorship:
 4. fixes based on evidence from those reviews.
 
 Internal content-complete does not mean official CEFR validation or certification.
+
+
+## Superseded current-state note
+
+The 32-lesson inventory above records the state at the time of the editorial pass. The later user-requested expansion in `A2_EXPANSION_40_LESSONS.md` adds one fifth lesson to each existing unit, bringing A2 to 40 lessons / 320 lesson phrases / 160 lesson questions / 240 lexical notes / 80 lesson production tasks. The earlier editorial findings remain historical evidence; the eight new lessons require their own CI/editorial check.
