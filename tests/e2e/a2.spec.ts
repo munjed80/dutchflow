@@ -300,13 +300,13 @@ test("appointment negotiation rejects a premature booking claim before confirmat
 });
 
 test("shopping follows appointments, keeps A1 progress, and distinguishes stock from a reservation", async ({ page }) => {
-  await page.goto(`/learn/${lessons[24].slug}`);
+  await page.goto(`/learn/${lessons[19].slug}`);
   await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), [a1[0].slug, ...lessons.slice(0, 20).map((lesson) => lesson.slug)]);
   await page.reload();
   await page.locator('a[rel="next"]').click();
-  await expect(page).toHaveURL(`/learn/${lessons[25].slug}`);
+  await expect(page).toHaveURL(`/learn/${lessons[20].slug}`);
   await expect(page.locator(".lesson-page-heading")).toContainText(`26 من ${lessons.length}`);
-  for (const [i, q] of lessons[25].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
+  for (const [i, q] of lessons[20].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
   await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
   await expect(page.locator(".success-message")).toBeVisible();
   await page.goto("/progress?level=A2");
