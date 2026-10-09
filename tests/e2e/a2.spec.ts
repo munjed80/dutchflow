@@ -23,7 +23,7 @@ test("all eight fifth A2 lessons render full phrase, quiz and production depth",
     const lesson = lessons.find((item) => item.slug === slug)!;
     const extension = extensions.find((item) => item.lessonSlug === slug)!;
     await page.goto(`/learn/${slug}`);
-    await expect(page.locator(".phrase-card")).toHaveCount(8);
+    await expect(page.locator(".lesson-section").filter({ has: page.locator("#phrases-heading") }).locator(".phrase-card")).toHaveCount(8);
     await expect(page.locator(".quiz-question")).toHaveCount(4);
     await expect(page.locator(".lesson-enrichment dt")).toHaveCount(extension.vocabulary.length + extension.languageDepth!.collocations.length);
     await expect(page.locator(".language-depth-example")).toHaveCount(4);
@@ -335,7 +335,7 @@ test("shopping follows appointments, keeps A1 progress, and distinguishes stock 
   await page.reload();
   await page.locator('a[rel="next"]').click();
   await expect(page).toHaveURL(`/learn/${lessons[20].slug}`);
-  await expect(page.locator(".lesson-page-heading")).toContainText(`26 من ${lessons.length}`);
+  await expect(page.locator(".lesson-page-heading")).toContainText(`21 من ${lessons.length}`);
   for (const [i, q] of lessons[20].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
   await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
   await expect(page.locator(".success-message")).toBeVisible();
