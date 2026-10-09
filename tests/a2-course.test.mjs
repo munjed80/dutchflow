@@ -26,6 +26,14 @@ test("the published A2 units have connected reception, production, interaction a
   assert.equal(a2.extensions.flatMap((item) => item.vocabulary).length, 240);
   assert.equal(a2.extensions.flatMap((item) => item.tasks).length, 80);
   assert.ok(a2.units.every((unit) => unit.lessonSlugs.length === 5));
+  const richLessons = a2.extensions.filter((item) => item.languageDepth);
+  assert.equal(richLessons.length, 8);
+  for (const item of richLessons) {
+    assert.equal(item.languageDepth.examples.length, 4);
+    assert.equal(item.languageDepth.collocations.length, 3);
+    assert.equal(item.languageDepth.alternatives.length, 2);
+    assert.equal(item.languageDepth.commonMistakes.length, 2);
+  }
   const final = a2.practice.find((pack) => pack.slug === "final-review");
   assert.ok(final);
   assert.equal(final.unitIds.length, a2.units.length);
