@@ -45,6 +45,19 @@ Each new lesson adds:
 - at least 6 lexical/form notes;
 - 2 open production tasks with model, translation and self-review checklist.
 
+## Language-rich benchmark
+
+The eight new lessons also establish the first `languageDepth` benchmark defined in `LANGUAGE_RICHNESS_STRATEGY.md`.
+
+Each new lesson additionally contains:
+
+- 4 contextual example sentences (32 across the eight lessons);
+- 3 collocations (24);
+- 2 natural alternative phrasings (16 pairs);
+- 2 common learner mistakes with corrected forms (16 contrasts).
+
+These are rendered as a separate depth section and are not silently added to the controlled audio bank.
+
 ## Ordering and compatibility
 
 The fifth lesson is inserted at the end of its own unit, so A2 lesson numbering is now 01–40 in pedagogical order. Existing lesson and phrase IDs remain unchanged.
