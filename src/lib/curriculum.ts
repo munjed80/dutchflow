@@ -6,10 +6,17 @@ import extensionData from "@/data/lesson-extensions.json";
 
 export type CurriculumUnit = { id: string; title: string; outcomes: string[]; lessonSlugs: string[]; readingSlugs: string[]; remaining: string[] };
 export type ProductionTask = { prompt: string; cue?: string; model: string; translation: string; checklist: string[] };
+export type LessonLanguageDepth = {
+  examples: { dutch: string; arabic: string; note: string }[];
+  collocations: { dutch: string; arabic: string }[];
+  alternatives: { dutch: string; alternative: string; note: string }[];
+  commonMistakes: { wrong: string; correct: string; explanation: string }[];
+};
 export type LessonExtension = {
   lessonSlug: string;
   vocabulary: { term: string; kind: string; forms: string; meaning: string; phraseId: string }[];
   tasks: ProductionTask[];
+  languageDepth?: LessonLanguageDepth;
 };
 export const curriculum: CurriculumUnit[] = roadmapData;
 export const lessonExtensions: LessonExtension[] = [...extensionData, ...a2Extensions];
