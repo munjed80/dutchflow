@@ -325,3 +325,14 @@ New fifth lessons:
 Existing IDs are unchanged. Lesson display numbers are renumbered 01–40. Legacy audio fingerprints must select historical lessons by identity rather than positional slices. Audio planning becomes A2 **329 sources / 1,316 variants** and combined A1+A2 **696 sources / 2,784 variants**. No MP3 generation or approval is performed here.
 
 Run full content/audio/native/type/build/E2E CI before merge. After merge, perform a focused editorial/learner-flow pass on the eight new lessons before considering further A2 quantity increases.
+
+
+## Language-rich course direction (2026-10-09, current)
+
+The owner explicitly wants DutchFlow to become a **linguistically rich learning site**, not merely a site with many lessons. Read `docs/LANGUAGE_RICHNESS_STRATEGY.md` before expanding lesson content.
+
+New lesson depth should favour contextual examples, collocations, natural alternative phrasings, plausible common learner errors, open production and later recycling. Avoid inflating counts with rare synonyms or decontextualized word lists.
+
+PR #32 establishes the first structured `languageDepth` benchmark on its eight new fifth A2 lessons: each has 4 extra examples, 3 collocations, 2 alternatives and 2 common-mistake contrasts in addition to 8 core phrases, vocabulary/form notes, quiz and production. The block is optional while rollout is incomplete, and `validateLearningMap` validates any block that is present.
+
+After PR #32, roll this depth structure through the preceding 32 A2 lessons in unit-sized PRs, then build a cross-unit lexical/recycling matrix. Do not equate richer content or higher counts with validated CEFR proficiency.
