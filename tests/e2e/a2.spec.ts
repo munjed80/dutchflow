@@ -25,7 +25,10 @@ test("all eight fifth A2 lessons render full phrase, quiz and production depth",
     await page.goto(`/learn/${slug}`);
     await expect(page.locator(".phrase-card")).toHaveCount(8);
     await expect(page.locator(".quiz-question")).toHaveCount(4);
-    await expect(page.locator(".lesson-enrichment dt")).toHaveCount(extension.vocabulary.length);
+    await expect(page.locator(".lesson-enrichment dt")).toHaveCount(extension.vocabulary.length + extension.languageDepth!.collocations.length);
+    await expect(page.locator(".language-depth-example")).toHaveCount(4);
+    await expect(page.locator(".language-alternative")).toHaveCount(2);
+    await expect(page.locator(".language-mistake")).toHaveCount(2);
     await expect(page.locator(".production-task")).toHaveCount(extension.tasks.length);
     await expect(page.locator(".lesson-page-heading")).toContainText(`${lesson.number} من ${lessons.length}`);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
