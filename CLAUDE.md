@@ -347,3 +347,14 @@ This pass adds `languageDepth` to the four historical Unit 1 lessons; the fifth 
 Current A2 language-depth coverage is **12/40 lessons**: all five Unit 1 lessons plus the fifth lesson in each of Units 2–8. Core phrase/audio IDs are unchanged; extra depth examples are not automatically added to the controlled audio bank.
 
 Native and browser tests explicitly require Unit 1 to remain 5/5 language-rich. Next rollout target is Unit 2 (`a2-work-coordination`) across its four older lessons, then continue unit by unit.
+
+
+### A2 Unit 2 language-depth handoff (2026-10-11, current)
+
+The same PR now also completes Unit 2 (`a2-work-coordination`) at 5/5 structured `languageDepth`. Read `docs/A2_UNIT2_LANGUAGE_DEPTH.md`.
+
+The four historical Unit 2 lessons now add workplace-focused examples, collocations, natural alternatives and common-mistake contrasts around progress reporting, delays, clarification, handover and responsibility. The fifth priorities lesson was already enriched in PR #32.
+
+Current A2 structured depth coverage is **16/40 lessons**: Units 1 and 2 are complete, and the fifth lesson of Units 3–8 remains enriched.
+
+No core phrase/audio IDs changed. Tests now require both Units 1 and 2 to remain 5/5 language-rich and mobile-safe. Continue on this same PR with Unit 3 (`a2-housing-services`) if the user asks to keep working in the same PR.
