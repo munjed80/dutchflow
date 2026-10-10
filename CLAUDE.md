@@ -358,3 +358,14 @@ The four historical Unit 2 lessons now add workplace-focused examples, collocati
 Current A2 structured depth coverage is **16/40 lessons**: Units 1 and 2 are complete, and the fifth lesson of Units 3–8 remains enriched.
 
 No core phrase/audio IDs changed. Tests now require both Units 1 and 2 to remain 5/5 language-rich and mobile-safe. Continue on this same PR with Unit 3 (`a2-housing-services`) if the user asks to keep working in the same PR.
+
+
+### A2 Unit 3 language-depth handoff (2026-10-11, current)
+
+This same PR now also completes Unit 3 (`a2-housing-services`) at 5/5 structured `languageDepth`. Read `docs/A2_UNIT3_LANGUAGE_DEPTH.md`.
+
+The four historical Unit 3 lessons now add housing/service-focused examples, collocations, alternatives and common mistakes around recurring problems, comparisons, repair scheduling and post-repair follow-up. The fifth preparation lesson was already enriched in PR #32.
+
+Current structured A2 depth coverage is **20/40 lessons**. Units 1–3 are complete; Units 4–8 retain their fifth enriched lesson.
+
+No core phrase/audio IDs changed. Native and browser tests require Units 1–3 to remain fully enriched and mobile-safe.
