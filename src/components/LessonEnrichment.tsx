@@ -17,6 +17,45 @@ export function LessonEnrichment({ lesson, extension }: { lesson: Lesson; extens
       })}</dl>
       <Link className="text-link" href="/vocabulary">استكشف مفردات الدروس الأخرى ←</Link>
     </section>
+    {extension.languageDepth && <section className="lesson-language-depth" aria-labelledby="language-depth-heading">
+      <div className="section-heading compact-heading">
+        <div><span className="eyebrow">عمّق لغتك</span><h2 id="language-depth-heading">استخدم الفكرة بأكثر من طريقة</h2></div>
+      </div>
+      <div className="panel">
+        <h3>أمثلة إضافية في سياقات قريبة</h3>
+        <div className="phrase-list">
+          {extension.languageDepth.examples.map((example) => <article className="phrase-card language-depth-example" key={example.dutch}>
+            <div className="phrase-content">
+              <h3 lang="nl" dir="ltr">{example.dutch}</h3>
+              <p>{example.arabic}</p>
+              <small>{example.note}</small>
+            </div>
+          </article>)}
+        </div>
+      </div>
+      <div className="panel">
+        <h3>تراكيب شائعة</h3>
+        <dl>{extension.languageDepth.collocations.map((item) => <div key={item.dutch}>
+          <dt lang="nl" dir="ltr">{item.dutch}</dt><dd>{item.arabic}</dd>
+        </div>)}</dl>
+      </div>
+      <div className="panel">
+        <h3>قلها بطريقة أخرى</h3>
+        {extension.languageDepth.alternatives.map((item) => <div className="language-alternative" key={item.dutch}>
+          <p lang="nl" dir="ltr"><strong>{item.dutch}</strong></p>
+          <p lang="nl" dir="ltr">→ {item.alternative}</p>
+          <p className="quiet">{item.note}</p>
+        </div>)}
+      </div>
+      <div className="panel">
+        <h3>أخطاء شائعة يجب تجنبها</h3>
+        {extension.languageDepth.commonMistakes.map((item) => <div className="language-mistake" key={item.wrong}>
+          <p lang="nl" dir="ltr">✗ {item.wrong}</p>
+          <p lang="nl" dir="ltr">✓ {item.correct}</p>
+          <p className="quiet">{item.explanation}</p>
+        </div>)}
+      </div>
+    </section>}
     <ProductionPractice key={lesson.slug} tasks={extension.tasks} />
   </div>;
 }

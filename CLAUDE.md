@@ -304,3 +304,35 @@ The review also checked `u/je`, `want/omdat/daarom` word order, `moeten/hoeven/m
 No unit 9, lesson-count change or broad stylistic rewrite was introduced. Earlier unit listening sources remain unchanged; the final-review source wording is corrected before owner recording. Counts stay 8 units / 32 lessons / 9 practice packs and A2 265 audio sources / 1,060 variants.
 
 After this PR passes full CI, A2 may be called **internally content-complete** for DutchFlow. Real audio approval, independent educator review and learner observation remain external release gates. Do not describe this as official CEFR validation or certification.
+
+
+### A2 forty-lesson expansion handoff (2026-10-09, current)
+
+The owner explicitly requested more A2 lessons, exercises and sentences after the 32-lesson editorial completion. The current branch expands **the same eight units** to five lessons each; do not create unit 9. Read `docs/A2_EXPANSION_40_LESSONS.md`.
+
+Current authored totals on this branch: **40 lessons / 320 lesson phrases / 160 lesson questions / 240 lexical notes / 80 lesson production tasks**, with the existing eight readings, eight scenarios and nine practice packs unchanged.
+
+New fifth lessons:
+- recent activities: `a2-describing-a-changing-routine`
+- work: `a2-setting-work-priorities`
+- housing: `a2-preparing-for-a-repair-visit`
+- appointments: `a2-finding-an-earlier-appointment`
+- shopping: `a2-asking-about-a-return`
+- school/local: `a2-relaying-a-schedule-change`
+- travel: `a2-handling-a-missed-connection`
+- social: `a2-following-up-after-a-social-event`
+
+Existing IDs are unchanged. Lesson display numbers are renumbered 01–40. Legacy audio fingerprints must select historical lessons by identity rather than positional slices. Audio planning becomes A2 **329 sources / 1,316 variants** and combined A1+A2 **696 sources / 2,784 variants**. No MP3 generation or approval is performed here.
+
+Run full content/audio/native/type/build/E2E CI before merge. After merge, perform a focused editorial/learner-flow pass on the eight new lessons before considering further A2 quantity increases.
+
+
+## Language-rich course direction (2026-10-09, current)
+
+The owner explicitly wants DutchFlow to become a **linguistically rich learning site**, not merely a site with many lessons. Read `docs/LANGUAGE_RICHNESS_STRATEGY.md` before expanding lesson content.
+
+New lesson depth should favour contextual examples, collocations, natural alternative phrasings, plausible common learner errors, open production and later recycling. Avoid inflating counts with rare synonyms or decontextualized word lists.
+
+PR #32 establishes the first structured `languageDepth` benchmark on its eight new fifth A2 lessons: each has 4 extra examples, 3 collocations, 2 alternatives and 2 common-mistake contrasts in addition to 8 core phrases, vocabulary/form notes, quiz and production. The block is optional while rollout is incomplete, and `validateLearningMap` validates any block that is present.
+
+After PR #32, roll this depth structure through the preceding 32 A2 lessons in unit-sized PRs, then build a cross-unit lexical/recycling matrix. Do not equate richer content or higher counts with validated CEFR proficiency.

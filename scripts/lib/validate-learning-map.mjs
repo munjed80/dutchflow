@@ -44,6 +44,20 @@ export function validateLearningMap(units, extensions, lessons, readings) {
       if (word.kind === "noun" && (!/^(de|het) \S/u.test(word.term) || (!/^de \S/u.test(word.forms) && word.forms !== "geen meervoud in deze betekenis"))) errors.push("Enrichment: noun requires article and plural");
       if (!phrases.has(word.phraseId)) errors.push("Enrichment: example must reference this lesson");
     }
+    if (extension.languageDepth !== undefined) {
+      const depth = extension.languageDepth;
+      if (!record(depth)) errors.push("Enrichment: invalid language depth");
+      else {
+        if (!list(depth.examples, record, 4)) errors.push("Enrichment: language depth needs four examples");
+        else for (const item of depth.examples) if (!text(item.dutch) || !arabic(item.arabic) || !arabic(item.note)) errors.push("Enrichment: invalid language-depth example");
+        if (!list(depth.collocations, record, 3)) errors.push("Enrichment: language depth needs three collocations");
+        else for (const item of depth.collocations) if (!text(item.dutch) || !arabic(item.arabic)) errors.push("Enrichment: invalid collocation");
+        if (!list(depth.alternatives, record, 2)) errors.push("Enrichment: language depth needs two alternatives");
+        else for (const item of depth.alternatives) if (!text(item.dutch) || !text(item.alternative) || !arabic(item.note)) errors.push("Enrichment: invalid alternative");
+        if (!list(depth.commonMistakes, record, 2)) errors.push("Enrichment: language depth needs two common mistakes");
+        else for (const item of depth.commonMistakes) if (!text(item.wrong) || !text(item.correct) || !arabic(item.explanation)) errors.push("Enrichment: invalid common mistake");
+      }
+    }
     if (!list(extension.tasks, record, 2)) errors.push("Enrichment: at least two production tasks required");
     else for (const task of extension.tasks) {
       if (task.cue !== undefined && !text(task.cue)) errors.push("Enrichment: invalid production cue");
