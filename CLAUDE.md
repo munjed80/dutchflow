@@ -369,3 +369,14 @@ The four historical Unit 3 lessons now add housing/service-focused examples, col
 Current structured A2 depth coverage is **20/40 lessons**. Units 1–3 are complete; Units 4–8 retain their fifth enriched lesson.
 
 No core phrase/audio IDs changed. Native and browser tests require Units 1–3 to remain fully enriched and mobile-safe.
+
+
+### A2 Unit 4 language-depth handoff (2026-10-11, current)
+
+This same PR now also completes Unit 4 (`a2-appointments-followup`) at 5/5 structured `languageDepth`.
+
+The four historical Unit 4 lessons now add appointment-focused examples, collocations, alternatives and common mistakes around schedule conflicts, comparing options, confirming replacement appointments and following up on pending requests. The fifth earlier-slot lesson was already enriched in PR #32.
+
+Current structured A2 depth coverage is **24/40 lessons**. Units 1–4 are complete; Units 5–8 retain their fifth enriched lesson.
+
+No core phrase/audio IDs changed. Native and browser tests require Units 1–4 to remain fully enriched and mobile-safe.
