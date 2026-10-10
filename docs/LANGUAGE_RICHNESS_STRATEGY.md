@@ -95,3 +95,12 @@ Raw counts remain useful inventory metrics, but quality decisions should be base
 - learner error patterns;
 - educator review;
 - observed learner transfer.
+
+
+## Unit 1 rollout status
+
+A2 Unit 1 is now the first fully language-rich unit. All five lessons carry the structured depth layer. This moves the rollout from a benchmark on the eight fifth lessons to a complete unit model.
+
+Current coverage: **12 of 40 A2 lessons** with structured `languageDepth`.
+
+Continue unit by unit rather than applying a mass mechanical rewrite. Each unit pass should preserve naturalness, communicative purpose and deliberate recycling.

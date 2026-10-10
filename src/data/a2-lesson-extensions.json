@@ -64,7 +64,69 @@
           "هل أنهيت بسؤال عن الماضي؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Gisteren heb ik boodschappen gedaan.",
+          "arabic": "قمت بالتسوّق أمس.",
+          "note": "boodschappen doen تعبير ثابت وشائع للحياة اليومية."
+        },
+        {
+          "dutch": "Vanmorgen heb ik mijn e-mail gecontroleerd.",
+          "arabic": "راجعت بريدي الإلكتروني هذا الصباح.",
+          "note": "vanmorgen مع الماضي المركب مناسب لنشاط انتهى في جزء سابق من اليوم."
+        },
+        {
+          "dutch": "Vandaag werk ik thuis, maar gisteren was ik op kantoor.",
+          "arabic": "اليوم أعمل من المنزل، لكنني كنت أمس في المكتب.",
+          "note": "قارن الحاضر بالماضي دون الحاجة إلى تكرار dezelfde werkwoordsvorm."
+        },
+        {
+          "dutch": "Na het eten heb ik nog een halfuur Nederlands geoefend.",
+          "arabic": "بعد الطعام تدربت على الهولندية نصف ساعة إضافية.",
+          "note": "nog een halfuur تعني مدة إضافية."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "boodschappen doen",
+          "arabic": "يقوم بالتسوّق"
+        },
+        {
+          "dutch": "thuis werken",
+          "arabic": "يعمل من المنزل"
+        },
+        {
+          "dutch": "Nederlands oefenen",
+          "arabic": "يتدرّب على الهولندية"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wat heb je gisteren gedaan?",
+          "alternative": "Wat heb je gisteren allemaal gedaan?",
+          "note": "allemaal تجعل السؤال أوسع عندما تتوقع أكثر من نشاط."
+        },
+        {
+          "dutch": "Vandaag werk ik thuis.",
+          "alternative": "Ik werk vandaag vanuit huis.",
+          "note": "vanuit huis بديل طبيعي، وthuis أبسط للمتعلمين."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik heb gisteren naar huis gegaan.",
+          "correct": "Ik ben gisteren naar huis gegaan.",
+          "explanation": "gaan في هذا السياق يأتي مع zijn: ben gegaan."
+        },
+        {
+          "wrong": "Gisteren ik heb gewerkt.",
+          "correct": "Gisteren heb ik gewerkt.",
+          "explanation": "عندما تبدأ الجملة بـ gisteren يأتي الفعل المصرف قبل الفاعل."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-a-day-at-work",
@@ -131,7 +193,69 @@
           "هل سألت باستخدام Heb je ...؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik heb eerst de voorraad geteld en daarna de lijst bijgewerkt.",
+          "arabic": "عددت المخزون أولاً ثم حدّثت القائمة.",
+          "note": "eerst ... daarna يساعدان على ترتيب مهمتين مكتملتين."
+        },
+        {
+          "dutch": "De laatste doos heb ik nog niet gecontroleerd.",
+          "arabic": "لم أراجع الصندوق الأخير بعد.",
+          "note": "nog niet يترك المهمة مفتوحة وليست مرفوضة."
+        },
+        {
+          "dutch": "Ik heb een collega om hulp gevraagd.",
+          "arabic": "طلبت المساعدة من زميل.",
+          "note": "iemand om hulp vragen تركيب ثابت."
+        },
+        {
+          "dutch": "Aan het einde van de dag hebben we alles opgeruimd.",
+          "arabic": "في نهاية اليوم رتبنا كل شيء.",
+          "note": "aan het einde van de dag تعبير زمني عملي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "de voorraad tellen",
+          "arabic": "يعدّ المخزون"
+        },
+        {
+          "dutch": "een lijst controleren",
+          "arabic": "يراجع قائمة"
+        },
+        {
+          "dutch": "iemand om hulp vragen",
+          "arabic": "يطلب المساعدة من شخص"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik heb de tafel nog niet opgeruimd.",
+          "alternative": "De tafel moet ik nog opruimen.",
+          "note": "البديل يركز على أن المهمة ما زالت متبقية."
+        },
+        {
+          "dutch": "Wat heeft Eva gedaan?",
+          "alternative": "Wat heeft Eva daarna gedaan?",
+          "note": "daarna تربط السؤال بالتسلسل السابق."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik heb de tafel ge-opruimd.",
+          "correct": "Ik heb de tafel opgeruimd.",
+          "explanation": "في opruimen تدخل ge بين الجزأين: op-ge-ruimd."
+        },
+        {
+          "wrong": "Eva heb de lijst gelezen.",
+          "correct": "Eva heeft de lijst gelezen.",
+          "explanation": "مع Eva نستخدم heeft، لا heb."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-a-weekend-visit",
@@ -198,7 +322,69 @@
           "هل طرحت سؤال متابعة مناسباً؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Zaterdag ben ik bij vrienden in Haarlem geweest.",
+          "arabic": "كنت يوم السبت عند أصدقاء في هارلم.",
+          "note": "bij vrienden zijn يركز على الزيارة لا على الحركة."
+        },
+        {
+          "dutch": "We hebben samen geluncht en daarna een wandeling gemaakt.",
+          "arabic": "تناولنا الغداء معاً ثم قمنا بنزهة.",
+          "note": "een wandeling maken بديل شائع لـ wandelen."
+        },
+        {
+          "dutch": "Ik ben met de bus heen gegaan en met de trein teruggekomen.",
+          "arabic": "ذهبت بالحافلة وعدت بالقطار.",
+          "note": "heen gaan وterugkomen مفيدان لوصف الذهاب والعودة."
+        },
+        {
+          "dutch": "Rond half acht ben ik weer thuisgekomen.",
+          "arabic": "عدت إلى المنزل حوالي السابعة والنصف.",
+          "note": "weer thuisgekomen تعني عاد إلى المنزل."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "bij iemand op bezoek gaan",
+          "arabic": "يذهب لزيارة شخص"
+        },
+        {
+          "dutch": "samen iets drinken",
+          "arabic": "يشرب شيئاً مع شخص"
+        },
+        {
+          "dutch": "weer thuiskomen",
+          "arabic": "يعود إلى المنزل"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Waar ben je zaterdag geweest?",
+          "alternative": "Wat heb je zaterdag gedaan?",
+          "note": "الأول يسأل عن المكان، والثاني عن النشاط بشكل أوسع."
+        },
+        {
+          "dutch": "We hebben in het park gewandeld.",
+          "alternative": "We hebben een wandeling in het park gemaakt.",
+          "note": "الصيغتان طبيعيتان؛ الثانية تستخدم الاسم wandeling."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "We zijn thee gedronken.",
+          "correct": "We hebben thee gedronken.",
+          "explanation": "drinken يأتي هنا مع hebben."
+        },
+        {
+          "wrong": "Ik ben met mijn zoon naar mijn zus geweest gegaan.",
+          "correct": "Ik ben met mijn zoon naar mijn zus gegaan.",
+          "explanation": "لا نجمع geweest وgegaan بهذه الطريقة؛ اختر الفعل المناسب للمعنى."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-telling-a-short-story",
@@ -265,7 +451,69 @@
           "هل ذكرت الرسالة بصيغة heb gestuurd؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Eerst miste ik de bus. Daarna heb ik mijn docent gebeld.",
+          "arabic": "فاتتني الحافلة أولاً. بعد ذلك اتصلت بمدرّسي.",
+          "note": "يمكن خلط simple past محدود مع perfect في الاستعمال الطبيعي، لكن الدرس يركز على تسلسل واضح لا على زمن واحد فقط."
+        },
+        {
+          "dutch": "Vervolgens ben ik naar het station gelopen.",
+          "arabic": "بعد ذلك مشيت إلى المحطة.",
+          "note": "vervolgens بديل لـ daarna في السرد."
+        },
+        {
+          "dutch": "Uiteindelijk kwam ik twintig minuten te laat aan.",
+          "arabic": "في النهاية وصلت متأخراً عشرين دقيقة.",
+          "note": "uiteindelijk بديل طبيعي لـ ten slotte عند نتيجة القصة."
+        },
+        {
+          "dutch": "Dus eerst heb je gewacht en daarna ben je gaan lopen?",
+          "arabic": "إذن انتظرت أولاً ثم بدأت تمشي؟",
+          "note": "إعادة الصياغة كسؤال تساعد على التحقق من تسلسل الأحداث."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "op de bus wachten",
+          "arabic": "ينتظر الحافلة"
+        },
+        {
+          "dutch": "een bericht sturen",
+          "arabic": "يرسل رسالة"
+        },
+        {
+          "dutch": "te laat aankomen",
+          "arabic": "يصل متأخراً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ten slotte ben ik naar school gelopen.",
+          "alternative": "Uiteindelijk ben ik naar school gelopen.",
+          "note": "uiteindelijk يبرز النتيجة النهائية أكثر."
+        },
+        {
+          "dutch": "Wat is er gisteren gebeurd?",
+          "alternative": "Wat gebeurde er gisteren?",
+          "note": "كلاهما صحيح؛ الثانية تستخدم الماضي البسيط وتظهر كثيراً في السرد."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Daarna ik heb een bericht gestuurd.",
+          "correct": "Daarna heb ik een bericht gestuurd.",
+          "explanation": "بعد Daarna في بداية الجملة يحدث inversion: الفعل قبل الفاعل."
+        },
+        {
+          "wrong": "Ik heb op de bus gewacht voor twintig minuten.",
+          "correct": "Ik heb twintig minuten op de bus gewacht.",
+          "explanation": "مدة الزمن تأتي طبيعيًا دون voor في هذا النوع من الجمل."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-describing-a-changing-routine",

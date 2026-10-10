@@ -17,6 +17,20 @@ const expandedLessonSlugs = [
   "a2-following-up-after-a-social-event",
 ];
 
+test("A2 unit one is fully language-rich across all five lessons", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  for (const lesson of lessons.slice(0, 5)) {
+    const extension = extensions.find((item) => item.lessonSlug === lesson.slug)!;
+    expect(extension.languageDepth).toBeTruthy();
+    await page.goto(`/learn/${lesson.slug}`);
+    await expect(page.locator(".language-depth-example")).toHaveCount(4);
+    await expect(page.locator(".language-alternative")).toHaveCount(2);
+    await expect(page.locator(".language-mistake")).toHaveCount(2);
+    await expect(page.getByRole("heading", { name: "تراكيب شائعة" })).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+});
+
 test("all eight fifth A2 lessons render full phrase, quiz and production depth", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   for (const slug of expandedLessonSlugs) {

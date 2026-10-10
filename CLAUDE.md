@@ -336,3 +336,14 @@ New lesson depth should favour contextual examples, collocations, natural altern
 PR #32 establishes the first structured `languageDepth` benchmark on its eight new fifth A2 lessons: each has 4 extra examples, 3 collocations, 2 alternatives and 2 common-mistake contrasts in addition to 8 core phrases, vocabulary/form notes, quiz and production. The block is optional while rollout is incomplete, and `validateLearningMap` validates any block that is present.
 
 After PR #32, roll this depth structure through the preceding 32 A2 lessons in unit-sized PRs, then build a cross-unit lexical/recycling matrix. Do not equate richer content or higher counts with validated CEFR proficiency.
+
+
+### A2 Unit 1 language-depth handoff (2026-10-10, current)
+
+A2 Unit 1 (`a2-recent-activities`) is now the first unit where all five lessons satisfy the structured language-rich benchmark. Read `docs/A2_UNIT1_LANGUAGE_DEPTH.md`.
+
+This pass adds `languageDepth` to the four historical Unit 1 lessons; the fifth lesson already had it from PR #32. Each of the five lessons now has 4 extra contextual examples, 3 collocations, 2 natural alternatives and 2 common-mistake contrasts.
+
+Current A2 language-depth coverage is **12/40 lessons**: all five Unit 1 lessons plus the fifth lesson in each of Units 2–8. Core phrase/audio IDs are unchanged; extra depth examples are not automatically added to the controlled audio bank.
+
+Native and browser tests explicitly require Unit 1 to remain 5/5 language-rich. Next rollout target is Unit 2 (`a2-work-coordination`) across its four older lessons, then continue unit by unit.
