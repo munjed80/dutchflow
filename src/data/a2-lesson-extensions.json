@@ -709,7 +709,69 @@
           "هل طلبت المهمة وحددت مكان الصناديق؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "We zijn bijna klaar met de bestelling.",
+          "arabic": "نحن على وشك الانتهاء من الطلبية.",
+          "note": "bijna klaar met شائع جداً عند تحديث التقدم."
+        },
+        {
+          "dutch": "Vier dozen zijn al ingepakt; twee moeten nog.",
+          "arabic": "تم حزم أربعة صناديق بالفعل؛ بقي اثنان.",
+          "note": "moeten nog يمكن أن يحذف الفعل عندما يكون واضحاً من السياق."
+        },
+        {
+          "dutch": "De adressen heb ik al gecontroleerd.",
+          "arabic": "لقد راجعت العناوين بالفعل.",
+          "note": "تقديم المفعول يركز على المهمة المنجزة ويؤدي إلى inversion."
+        },
+        {
+          "dutch": "Wat staat er nog op de lijst?",
+          "arabic": "ما الذي ما زال موجوداً على قائمة المهام؟",
+          "note": "op de lijst staan تركيب عملي للسؤال عن المتبقي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "bijna klaar zijn met",
+          "arabic": "يكون على وشك الانتهاء من"
+        },
+        {
+          "dutch": "een taak afronden",
+          "arabic": "يُنهي مهمة"
+        },
+        {
+          "dutch": "op de lijst staan",
+          "arabic": "يكون مدرجاً في القائمة"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wat moet er nog gebeuren?",
+          "alternative": "Wat moet er nog worden gedaan?",
+          "note": "الثانية أكثر رسمية وبصيغة المبني للمجهول."
+        },
+        {
+          "dutch": "Ik heb er vier ingepakt.",
+          "alternative": "Vier daarvan heb ik al ingepakt.",
+          "note": "daarvan يوضح المرجع أكثر عندما تكون الأعداد مهمة."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik heb vier van hun ingepakt.",
+          "correct": "Ik heb er vier ingepakt.",
+          "explanation": "عند الإشارة إلى عدد من أشياء مذكورة سابقاً نستخدم er."
+        },
+        {
+          "wrong": "De andere twee is nog niet klaar.",
+          "correct": "De andere twee zijn nog niet klaar.",
+          "explanation": "de andere twee جمع، لذلك نستخدم zijn."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-explaining-a-delay",
@@ -776,7 +838,69 @@
           "هل سألت عن الموافقة على الوقت؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Het werk loopt vertraging op door een storing.",
+          "arabic": "يتأخر العمل بسبب عطل.",
+          "note": "vertraging oplopen تركيب شائع لوصف تأخر عملية."
+        },
+        {
+          "dutch": "Ik red elf uur niet, maar half twaalf lukt wel.",
+          "arabic": "لن أستطيع اللحاق بالساعة الحادية عشرة، لكن الحادية عشرة والنصف ممكنة.",
+          "note": "een tijd niet redden تعني عدم القدرة على الالتزام به."
+        },
+        {
+          "dutch": "Ik stuur het document alvast digitaal door.",
+          "arabic": "سأرسل المستند رقمياً مسبقاً.",
+          "note": "alvast يناسب إجراء يمكن إنجازه قبل الحل النهائي."
+        },
+        {
+          "dutch": "Zodra de printer werkt, maak ik de rest af.",
+          "arabic": "حالما تعمل الطابعة، سأنهي الباقي.",
+          "note": "zodra يربط استئناف العمل بتحقق شرط زمني."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "vertraging oplopen",
+          "arabic": "يتعرض لتأخير"
+        },
+        {
+          "dutch": "een tijd niet redden",
+          "arabic": "لا يستطيع الالتزام بوقت"
+        },
+        {
+          "dutch": "iets alvast doorsturen",
+          "arabic": "يرسل شيئاً مسبقاً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik kan niet printen, want de printer werkt niet.",
+          "alternative": "Ik kan niet printen omdat de printer niet werkt.",
+          "note": "المعنى واحد، لكن omdat يرسل الفعل إلى نهاية الجملة التابعة."
+        },
+        {
+          "dutch": "Dat lukt.",
+          "alternative": "Dat moet lukken.",
+          "note": "الثانية أقل يقيناً قليلاً: يفترض أن الأمر ممكن."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Want werkt de printer niet.",
+          "correct": "Want de printer werkt niet.",
+          "explanation": "بعد want يبقى ترتيب الجملة الرئيسية: الفاعل ثم الفعل."
+        },
+        {
+          "wrong": "Ik kom om half elf uur.",
+          "correct": "Ik kom om half elf.",
+          "explanation": "مع half elf لا نضيف uur عادة."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-clarifying-instructions",
@@ -844,7 +968,69 @@
           "هل طلبت تأكيد الفهم بدلاً من افتراضه؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Kunt u aangeven welke formulieren u bedoelt?",
+          "arabic": "هل يمكنكم توضيح أي استمارات تقصدون؟",
+          "note": "aangeven welke... صيغة مهنية مهذبة للتحديد."
+        },
+        {
+          "dutch": "Als ik het goed begrijp, controleer ik eerst de namen.",
+          "arabic": "إذا فهمت بشكل صحيح، أراجع الأسماء أولاً.",
+          "note": "Als ik het goed begrijp تمهيد طبيعي لإعادة الصياغة."
+        },
+        {
+          "dutch": "Bedoelt u de map links van de printer?",
+          "arabic": "هل تقصدون الملف الموجود إلى يسار الطابعة؟",
+          "note": "تحديد المكان يقلل الغموض في التعليمات."
+        },
+        {
+          "dutch": "Dus alleen de formulieren van vandaag, klopt dat?",
+          "arabic": "إذن استمارات اليوم فقط، هل هذا صحيح؟",
+          "note": "klopt dat? وسيلة قصيرة للتحقق."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "instructies uitleggen",
+          "arabic": "يشرح التعليمات"
+        },
+        {
+          "dutch": "iets goed begrijpen",
+          "arabic": "يفهم شيئاً جيداً"
+        },
+        {
+          "dutch": "om verduidelijking vragen",
+          "arabic": "يطلب توضيحاً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Kunt u dat nog een keer uitleggen?",
+          "alternative": "Kunt u dat nogmaals uitleggen?",
+          "note": "nogmaals أكثر رسمية قليلاً من nog een keer."
+        },
+        {
+          "dutch": "Bedoelt u de map naast de computer?",
+          "alternative": "Gaat het om de map naast de computer?",
+          "note": "بديل طبيعي لتحديد المقصود دون تكرار bedoelen."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Kunt u uitleggen dat nog een keer?",
+          "correct": "Kunt u dat nog een keer uitleggen?",
+          "explanation": "الضمير dat يأتي قبل عبارة التكرار، والمصدر uitleggen في النهاية."
+        },
+        {
+          "wrong": "Bedoelt u die map op naast de computer?",
+          "correct": "Bedoelt u die map naast de computer?",
+          "explanation": "نستخدم naast مباشرة للمكان المجاور، دون op."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-confirming-a-handover",
@@ -911,7 +1097,69 @@
           "هل طلبت التأكيد بدلاً من افتراض الموافقة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik neem de levering op me; jij controleert de adressen.",
+          "arabic": "سأتولى التسليم؛ وأنت تراجع العناوين.",
+          "note": "iets op zich nemen يعني تولي مسؤولية."
+        },
+        {
+          "dutch": "De bestelling moet uiterlijk om tien uur gereed zijn.",
+          "arabic": "يجب أن تكون الطلبية جاهزة في موعد أقصاه العاشرة.",
+          "note": "uiterlijk + وقت يحدد الحد النهائي بوضوح."
+        },
+        {
+          "dutch": "Zullen we nog even samenvatten wie wat doet?",
+          "arabic": "هل نلخص سريعاً من يفعل ماذا؟",
+          "note": "wie wat doet مفيد لتأكيد توزيع المسؤوليات."
+        },
+        {
+          "dutch": "Ik laat je weten zodra de dozen klaarstaan.",
+          "arabic": "سأخبرك حالما تصبح الصناديق جاهزة.",
+          "note": "klaarstaan يعني جاهزاً للالتقاط أو النقل."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een taak op zich nemen",
+          "arabic": "يتولى مهمة"
+        },
+        {
+          "dutch": "een overdracht bevestigen",
+          "arabic": "يؤكد عملية تسليم"
+        },
+        {
+          "dutch": "klaarstaan voor vervoer",
+          "arabic": "يكون جاهزاً للنقل"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wie brengt de dozen naar de klant?",
+          "alternative": "Wie neemt de levering naar de klant op zich?",
+          "note": "الثانية أكثر مهنية وأقل شيوعاً في الكلام اليومي."
+        },
+        {
+          "dutch": "Afgesproken.",
+          "alternative": "Dan zijn we het eens.",
+          "note": "كلاهما يؤكد الاتفاق؛ Afgesproken أقصر وأكثر عملية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "De dozen moeten om tien uur klaar zijn voor.",
+          "correct": "De dozen moeten voor tien uur klaar zijn.",
+          "explanation": "voor tien uur تأتي قبل الصفة klaar في هذا التركيب الطبيعي."
+        },
+        {
+          "wrong": "Ik stuur je een bericht uiterlijk kwart voor tien.",
+          "correct": "Ik stuur je uiterlijk om kwart voor tien een bericht.",
+          "explanation": "مع وقت الساعة نستخدم om، وuiterlijk يأتي طبيعياً قبله."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-setting-work-priorities",
