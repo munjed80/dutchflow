@@ -380,3 +380,14 @@ The four historical Unit 4 lessons now add appointment-focused examples, colloca
 Current structured A2 depth coverage is **24/40 lessons**. Units 1–4 are complete; Units 5–8 retain their fifth enriched lesson.
 
 No core phrase/audio IDs changed. Native and browser tests require Units 1–4 to remain fully enriched and mobile-safe.
+
+
+### A2 language-depth completion handoff (2026-10-11, current)
+
+PR #33 now completes structured `languageDepth` across **all 40 A2 lessons**. Read `docs/A2_LANGUAGE_DEPTH_COMPLETE.md`.
+
+A2 now contains 160 additional contextual examples, 120 collocations, 80 natural alternative phrasings and 80 common-mistake contrasts on top of the existing 320 core lesson phrases, 160 lesson questions, 240 vocabulary/form notes and 80 open production tasks.
+
+All eight A2 units are 5/5 language-rich. Native tests enforce 40 enriched lessons and 5/5 coverage for every unit; browser tests cover the enriched lessons on mobile.
+
+Do not immediately add another blanket depth layer. The next professional step is an A2 lexical/recycling audit followed by targeted retrieval/transformation exercises. Language-depth examples remain outside the controlled audio inventory unless deliberately selected later.
