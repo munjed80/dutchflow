@@ -2000,7 +2000,69 @@
           "هل وضعت werk في نهاية السبب؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Die tijd komt mij helaas niet uit.",
+          "arabic": "هذا الوقت لا يناسبني للأسف.",
+          "note": "uitkomen تعبير يومي شائع لملاءمة الموعد."
+        },
+        {
+          "dutch": "Ik heb op dat moment al een andere afspraak.",
+          "arabic": "لدي في ذلك الوقت موعد آخر بالفعل.",
+          "note": "op dat moment يحدد سبب التعارض دون تفاصيل زائدة."
+        },
+        {
+          "dutch": "Zou het eventueel op woensdag kunnen?",
+          "arabic": "هل يمكن أن يكون يوم الأربعاء ربما؟",
+          "note": "zou ... kunnen صيغة ألطف لاقتراح بديل."
+        },
+        {
+          "dutch": "In de ochtend ben ik flexibeler dan in de middag.",
+          "arabic": "أنا أكثر مرونة في الصباح من بعد الظهر.",
+          "note": "flexibeler dan يفيد عند مقارنة فترتين."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een afspraak verzetten",
+          "arabic": "يغيّر موعداً"
+        },
+        {
+          "dutch": "een afspraak komt niet uit",
+          "arabic": "الموعد لا يناسب"
+        },
+        {
+          "dutch": "een alternatief voorstellen",
+          "arabic": "يقترح بديلاً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik kan dan niet komen omdat ik werk.",
+          "alternative": "Die tijd lukt mij niet, omdat ik dan aan het werk ben.",
+          "note": "الثانية أكثر محادثية وتوضح عدم ملاءمة الوقت."
+        },
+        {
+          "dutch": "Kan het gesprek op een andere dag plaatsvinden?",
+          "alternative": "Is een andere dag misschien mogelijk?",
+          "note": "بديل أبسط وأقل رسمية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Omdat ik werk dan.",
+          "correct": "Omdat ik dan werk.",
+          "explanation": "في جملة omdat يأتي الفعل في النهاية، وdan قبل الفعل."
+        },
+        {
+          "wrong": "Die afspraak past mij niet.",
+          "correct": "Die afspraak komt mij niet uit.",
+          "explanation": "bij afspraken نستخدم غالباً uitkomen بدلاً من passen."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-comparing-appointment-options",
@@ -2067,7 +2129,69 @@
           "هل ذكرت الوقت ووضعت werk في نهاية السبب؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Woensdag is voor mij handiger dan donderdag.",
+          "arabic": "الأربعاء أنسب لي من الخميس.",
+          "note": "handiger dan شائع للمقارنة العملية."
+        },
+        {
+          "dutch": "Locatie Centrum is makkelijker bereikbaar met het openbaar vervoer.",
+          "arabic": "موقع سنتروم أسهل وصولاً بالمواصلات العامة.",
+          "note": "makkelijk bereikbaar collocation مهم للمواعيد."
+        },
+        {
+          "dutch": "De tijd is hetzelfde, maar de reistijd is korter.",
+          "arabic": "الوقت نفسه، لكن مدة السفر أقصر.",
+          "note": "reistijd تقارن جانباً آخر غير وقت الموعد."
+        },
+        {
+          "dutch": "Als beide tijden nog vrij zijn, kies ik liever de ochtend.",
+          "arabic": "إذا كان الوقتان ما يزالان متاحين، فأنا أفضل الصباح.",
+          "note": "beide tijden + liever لصياغة اختيار."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "makkelijk bereikbaar zijn",
+          "arabic": "يكون سهل الوصول"
+        },
+        {
+          "dutch": "een voorkeur hebben voor",
+          "arabic": "لديه تفضيل لـ"
+        },
+        {
+          "dutch": "een optie vergelijken",
+          "arabic": "يقارن خياراً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Welke locatie is dichter bij het station?",
+          "alternative": "Welke locatie is het makkelijkst te bereiken vanaf het station?",
+          "note": "الثانية تركز على سهولة الوصول لا المسافة فقط."
+        },
+        {
+          "dutch": "Dan kies ik liever woensdag.",
+          "alternative": "Dan heeft woensdag mijn voorkeur.",
+          "note": "الثانية أكثر رسمية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Centrum is meer dichtbij.",
+          "correct": "Centrum is dichterbij.",
+          "explanation": "dichtbij يأخذ dichterbij، لا meer dichtbij."
+        },
+        {
+          "wrong": "Ik kies liever voor woensdag omdat kom ik met de trein.",
+          "correct": "Ik kies liever voor woensdag omdat ik met de trein kom.",
+          "explanation": "بعد omdat يأتي الفعل المصرف في نهاية الجملة التابعة."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-confirming-a-replacement-appointment",
@@ -2134,7 +2258,69 @@
           "هل حسبت الحضور 13:50 وحددت الاستقبال؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De afspraak van dinsdag is komen te vervallen.",
+          "arabic": "تم إلغاء موعد الثلاثاء.",
+          "note": "komen te vervallen صيغة إدارية شائعة لـ vervallen."
+        },
+        {
+          "dutch": "U wordt tien minuten voor aanvang bij de receptie verwacht.",
+          "arabic": "يُتوقع حضوركم عند الاستقبال قبل البدء بعشر دقائق.",
+          "note": "voor aanvang تعني قبل وقت البدء."
+        },
+        {
+          "dutch": "Kunt u nog bevestigen in welke kamer het gesprek plaatsvindt?",
+          "arabic": "هل يمكنكم أيضاً تأكيد الغرفة التي ستجرى فيها المقابلة؟",
+          "note": "bevestigen in welke... مفيد للتفاصيل النهائية."
+        },
+        {
+          "dutch": "Ik noteer woensdag om tien uur in mijn agenda.",
+          "arabic": "سأدوّن الأربعاء الساعة العاشرة في مفكرتي.",
+          "note": "iets in de agenda noteren collocation عملي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een afspraak bevestigen",
+          "arabic": "يؤكد موعداً"
+        },
+        {
+          "dutch": "een afspraak vervalt",
+          "arabic": "يلغى موعد"
+        },
+        {
+          "dutch": "zich bij de receptie melden",
+          "arabic": "يسجل حضوره عند الاستقبال"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Uw afspraak op dinsdag vervalt.",
+          "alternative": "De afspraak van dinsdag gaat niet meer door.",
+          "note": "الثانية أكثر يومية وأقل إدارية."
+        },
+        {
+          "dutch": "Graag tien minuten eerder.",
+          "alternative": "Wilt u tien minuten van tevoren aanwezig zijn?",
+          "note": "صيغة أوضح وأكثر رسمية لطلب الوصول المبكر."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik ben tien minuten vroeger daar.",
+          "correct": "Ik ben tien minuten eerder daar.",
+          "explanation": "bij afspraken نستخدم eerder للوقت، لا vroeger."
+        },
+        {
+          "wrong": "Meld u op de receptie.",
+          "correct": "Meld u bij de receptie.",
+          "explanation": "في هذا السياق نستخدم bij de receptie."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-asking-for-an-appointment-update",
@@ -2201,7 +2387,69 @@
           "هل طلبت توضيح حالة التأكيد؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik bel even om te vragen hoe het met mijn verzoek staat.",
+          "arabic": "أتصل سريعاً لأسأل عن حالة طلبي.",
+          "note": "hoe het met ... staat صيغة شائعة للمتابعة."
+        },
+        {
+          "dutch": "Mijn verzoek is ontvangen, maar nog niet verwerkt.",
+          "arabic": "تم استلام طلبي لكنه لم يُعالج بعد.",
+          "note": "ontvangen مقابل verwerkt يميز الاستلام من المعالجة."
+        },
+        {
+          "dutch": "Wanneer verwacht u dat ik een definitief antwoord krijg?",
+          "arabic": "متى تتوقعون أن أحصل على جواب نهائي؟",
+          "note": "definitief antwoord يوضح أنك تنتظر قراراً نهائياً."
+        },
+        {
+          "dutch": "Ik wil alleen zeker weten dat mijn aanvraag goed is aangekomen.",
+          "arabic": "أريد فقط التأكد من أن طلبي وصل بشكل صحيح.",
+          "note": "zeker weten صيغة عملية للتأكد."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een verzoek verwerken",
+          "arabic": "يعالج طلباً"
+        },
+        {
+          "dutch": "een bevestiging ontvangen",
+          "arabic": "يتلقى تأكيداً"
+        },
+        {
+          "dutch": "een definitief antwoord krijgen",
+          "arabic": "يحصل على جواب نهائي"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Kunt u controleren of mijn verzoek is ontvangen?",
+          "alternative": "Kunt u nagaan of mijn verzoek goed is aangekomen?",
+          "note": "nagaan أكثر رسمية قليلاً من controleren في سياق المتابعة."
+        },
+        {
+          "dutch": "Wanneer kan ik een reactie verwachten?",
+          "alternative": "Wanneer hoor ik hier waarschijnlijk meer over?",
+          "note": "بديل يومي أقل رسمية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Mijn afspraak is nog niet vastgestaan.",
+          "correct": "Mijn afspraak staat nog niet vast.",
+          "explanation": "vaststaan هنا يستخدم في الحاضر بهذا التركيب."
+        },
+        {
+          "wrong": "Ik heb nog niet reactie ontvangen.",
+          "correct": "Ik heb nog geen reactie ontvangen.",
+          "explanation": "مع الاسم reactie نستخدم nog geen، لا nog niet."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-finding-an-earlier-appointment",
