@@ -1355,7 +1355,69 @@
           "هل أوضحت الاستمرار وطلبت المساعدة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De lekkage is vorige maand ook al gemeld.",
+          "arabic": "تم الإبلاغ عن التسرب أيضاً الشهر الماضي.",
+          "note": "ook al gemeld يوضح أن المشكلة سبق الإبلاغ عنها."
+        },
+        {
+          "dutch": "Sinds dinsdag hoor ik elke nacht hetzelfde geluid.",
+          "arabic": "منذ الثلاثاء أسمع الصوت نفسه كل ليلة.",
+          "note": "sinds + نقطة بداية مع الحاضر عندما تستمر الحالة."
+        },
+        {
+          "dutch": "Het probleem is weer terug.",
+          "arabic": "عادت المشكلة من جديد.",
+          "note": "weer terug صيغة يومية شائعة لعودة المشكلة."
+        },
+        {
+          "dutch": "De verwarming doet het nog steeds niet goed.",
+          "arabic": "التدفئة ما زالت لا تعمل جيداً.",
+          "note": "het doen تعبير شائع لعمل الأجهزة والأنظمة."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een probleem melden",
+          "arabic": "يبلغ عن مشكلة"
+        },
+        {
+          "dutch": "een lekkage hebben",
+          "arabic": "يكون لديه تسرب"
+        },
+        {
+          "dutch": "een probleem komt terug",
+          "arabic": "تعود المشكلة"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "De kraan lekt weer.",
+          "alternative": "De kraan is weer gaan lekken.",
+          "note": "الثانية تبرز أن التسرب بدأ من جديد."
+        },
+        {
+          "dutch": "Wat is er aan de hand?",
+          "alternative": "Wat is precies het probleem?",
+          "note": "الثانية أكثر مباشرة وتحديداً."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Sinds maandag heeft de kraan gelekt.",
+          "correct": "De kraan lekt sinds maandag.",
+          "explanation": "عندما بدأت المشكلة سابقاً وما زالت مستمرة نستخدم هنا الحاضر مع sinds."
+        },
+        {
+          "wrong": "De kraan lekt nog.",
+          "correct": "De kraan lekt nog steeds.",
+          "explanation": "nog steeds أوضح للتأكيد أن المشكلة ما زالت مستمرة حتى الآن."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-comparing-conditions-at-home",
@@ -1422,7 +1484,69 @@
           "هل استخدمت minder للمقارنة الجديدة، لا meer؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De woonkamer voelt warmer aan dan de slaapkamer.",
+          "arabic": "غرفة المعيشة تبدو أدفأ من غرفة النوم.",
+          "note": "aanvoelen مفيد لوصف الإحساس دون تشخيص السبب."
+        },
+        {
+          "dutch": "Bij het raam voel ik meer tocht dan gisteren.",
+          "arabic": "أشعر بتيار هوائي أكبر عند النافذة مقارنة بأمس.",
+          "note": "tocht تعني تيار هواء داخل المنزل."
+        },
+        {
+          "dutch": "De deur sluit beter dan vorige week.",
+          "arabic": "الباب يغلق أفضل من الأسبوع الماضي.",
+          "note": "beter يقارن جودة الإغلاق عبر الزمن."
+        },
+        {
+          "dutch": "In de hoek is het vochtiger dan bij de deur.",
+          "arabic": "في الزاوية الرطوبة أعلى من قرب الباب.",
+          "note": "vochtiger وصف ملاحظة، لا استنتاج سبب."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "tocht voelen",
+          "arabic": "يشعر بتيار هوائي"
+        },
+        {
+          "dutch": "goed sluiten",
+          "arabic": "يغلق جيداً"
+        },
+        {
+          "dutch": "een verschil merken",
+          "arabic": "يلاحظ فرقاً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "De slaapkamer is kouder dan de woonkamer.",
+          "alternative": "In de slaapkamer is het kouder dan in de woonkamer.",
+          "note": "البديل يركز على المكان نفسه لا الغرفة كموضوع."
+        },
+        {
+          "dutch": "Het raam sluit niet goed.",
+          "alternative": "Het raam gaat niet goed dicht.",
+          "note": "صيغة يومية طبيعية لوصف الإغلاق."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "De slaapkamer is meer koud dan de woonkamer.",
+          "correct": "De slaapkamer is kouder dan de woonkamer.",
+          "explanation": "صفة koud تأخذ صيغة المقارنة kouder، لا meer koud."
+        },
+        {
+          "wrong": "De deur sluit beter als het raam.",
+          "correct": "De deur sluit beter dan het raam.",
+          "explanation": "في المقارنة نستخدم dan بعد beter/kouder/groter."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-arranging-a-repair-visit",
@@ -1489,7 +1613,69 @@
           "هل طلبت التأكيد بدلاً من وعد بساعة وصول دقيقة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik ben donderdag de hele middag beschikbaar.",
+          "arabic": "أنا متاح طوال بعد ظهر الخميس.",
+          "note": "beschikbaar zijn شائع عند تنسيق المواعيد."
+        },
+        {
+          "dutch": "Kunt u een tijdvak tussen één en drie uur aanbieden?",
+          "arabic": "هل يمكنكم توفير فترة زمنية بين الواحدة والثالثة؟",
+          "note": "tijdvak كلمة عملية لفترة الزيارة."
+        },
+        {
+          "dutch": "Voor twee uur ben ik niet thuis.",
+          "arabic": "لن أكون في المنزل قبل الثانية.",
+          "note": "صيغة بديلة لـ pas vanaf twee uur."
+        },
+        {
+          "dutch": "Kunt u de afspraak nog per e-mail bevestigen?",
+          "arabic": "هل يمكنكم تأكيد الموعد أيضاً عبر البريد الإلكتروني؟",
+          "note": "nog هنا تعني أيضاً/إضافة أخيرة في الطلب."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een afspraak inplannen",
+          "arabic": "يحدد موعداً في الجدول"
+        },
+        {
+          "dutch": "een tijdvak afspreken",
+          "arabic": "يتفق على فترة زمنية"
+        },
+        {
+          "dutch": "thuis beschikbaar zijn",
+          "arabic": "يكون متاحاً في المنزل"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Dat past.",
+          "alternative": "Dat komt mij goed uit.",
+          "note": "الثانية أكثر طبيعية للتعبير أن الوقت مناسب لك."
+        },
+        {
+          "dutch": "Kan de monteur donderdagmiddag komen?",
+          "alternative": "Is donderdagmiddag nog mogelijk?",
+          "note": "بديل مختصر ومهذب للتحقق من التوفر."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik ben thuis van twee tot.",
+          "correct": "Ik ben van twee tot vier uur thuis.",
+          "explanation": "مع فترة زمنية نذكر طرفي الفترة: van ... tot ...."
+        },
+        {
+          "wrong": "Hij komt tussen twee tot vier uur.",
+          "correct": "Hij komt tussen twee en vier uur.",
+          "explanation": "مع tussen نستخدم en، وليس tot."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-following-up-on-a-repair",
@@ -1556,7 +1742,69 @@
           "هل سألت عن الوقت دون تحويل الاتصال إلى زيارة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Een deel van het probleem is opgelost, maar niet alles.",
+          "arabic": "تم حل جزء من المشكلة، لكن ليس كل شيء.",
+          "note": "صيغة مفيدة للمتابعة بعد إصلاح جزئي."
+        },
+        {
+          "dutch": "De kraan werkt nu goed, maar het raam nog niet.",
+          "arabic": "الصنبور يعمل جيداً الآن، لكن النافذة لا تزال لا.",
+          "note": "حذف الفعل في الجزء الثاني ممكن لأن المعنى واضح."
+        },
+        {
+          "dutch": "Kunt u doorgeven dat het probleem nog bestaat?",
+          "arabic": "هل يمكنكم نقل أن المشكلة ما زالت موجودة؟",
+          "note": "doorgeven شائع عند نقل متابعة إلى موظف آخر."
+        },
+        {
+          "dutch": "Wanneer kan ik een terugkoppeling verwachten?",
+          "arabic": "متى يمكنني توقع رد متابعة؟",
+          "note": "terugkoppeling كلمة مهنية تعني feedback/update."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een probleem oplossen",
+          "arabic": "يحل مشكلة"
+        },
+        {
+          "dutch": "contact opnemen",
+          "arabic": "يتواصل"
+        },
+        {
+          "dutch": "een terugkoppeling krijgen",
+          "arabic": "يحصل على رد متابعة"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Is alles nu opgelost?",
+          "alternative": "Werkt alles nu weer goed?",
+          "note": "الثانية تركز على النتيجة العملية أكثر من مفهوم الحل."
+        },
+        {
+          "dutch": "Ik vraag de monteur om u terug te bellen.",
+          "alternative": "Ik laat de monteur u terugbellen.",
+          "note": "الثانية أكثر مباشرة؛ الأولى تبرز أن الموظف سيطلب ذلك من الفني."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Het raam is nog steeds niet opgelost.",
+          "correct": "Het probleem met het raam is nog steeds niet opgelost.",
+          "explanation": "نحل المشكلة، لا النافذة نفسها؛ لذلك نذكر probleem."
+        },
+        {
+          "wrong": "Hij belt mij morgen terug voor het raam.",
+          "correct": "Hij belt mij morgen terug over het raam.",
+          "explanation": "نستخدم over لبيان موضوع الاتصال."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-preparing-for-a-repair-visit",
