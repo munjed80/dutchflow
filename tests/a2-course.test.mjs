@@ -27,13 +27,16 @@ test("the published A2 units have connected reception, production, interaction a
   assert.equal(a2.extensions.flatMap((item) => item.tasks).length, 80);
   assert.ok(a2.units.every((unit) => unit.lessonSlugs.length === 5));
   const richLessons = a2.extensions.filter((item) => item.languageDepth);
-  assert.equal(richLessons.length, 16);
+  assert.equal(richLessons.length, 20);
   const unitOne = new Set(a2.units[0].lessonSlugs);
   const unitOneDepth = a2.extensions.filter((item) => unitOne.has(item.lessonSlug) && item.languageDepth);
   assert.equal(unitOneDepth.length, 5);
   const unitTwo = new Set(a2.units[1].lessonSlugs);
   const unitTwoDepth = a2.extensions.filter((item) => unitTwo.has(item.lessonSlug) && item.languageDepth);
   assert.equal(unitTwoDepth.length, 5);
+  const unitThree = new Set(a2.units[2].lessonSlugs);
+  const unitThreeDepth = a2.extensions.filter((item) => unitThree.has(item.lessonSlug) && item.languageDepth);
+  assert.equal(unitThreeDepth.length, 5);
   for (const item of richLessons) {
     assert.equal(item.languageDepth.examples.length, 4);
     assert.equal(item.languageDepth.collocations.length, 3);
