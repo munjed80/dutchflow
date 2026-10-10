@@ -101,6 +101,13 @@ Raw counts remain useful inventory metrics, but quality decisions should be base
 
 A2 Unit 1 is now the first fully language-rich unit. All five lessons carry the structured depth layer. This moves the rollout from a benchmark on the eight fifth lessons to a complete unit model.
 
-Current coverage: **24 of 40 A2 lessons** with structured `languageDepth`.
+Current coverage: **40 of 40 A2 lessons** with structured `languageDepth`.
 
 Unit 2 is now also complete at 5/5, extending the benchmark into professional/workplace language. Unit 3 is now also complete at 5/5, extending it into housing and service communication. Unit 4 is now also complete at 5/5, extending it into appointment conflict, comparison, confirmation and follow-up language. Continue unit by unit rather than applying a mass mechanical rewrite. Each unit pass should preserve naturalness, communicative purpose and deliberate recycling.
+
+
+## A2 rollout complete
+
+All 40 A2 lessons now meet the structured language-depth contract. See `A2_LANGUAGE_DEPTH_COMPLETE.md`.
+
+The next phase is **recycling and retrieval quality**, not another mechanical enrichment layer.
