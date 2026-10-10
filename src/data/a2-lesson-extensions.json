@@ -2645,7 +2645,69 @@
           "هل صغت الطلب سؤالاً مشروطاً بملاءمة المقاس؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Deze broek zit te strak bij de taille.",
+          "arabic": "هذا البنطال ضيق جداً عند الخصر.",
+          "note": "zitten + صفة شائع لوصف ملاءمة الملابس."
+        },
+        {
+          "dutch": "Heeft u hetzelfde model een maat groter?",
+          "arabic": "هل لديكم الموديل نفسه بمقاس أكبر؟",
+          "note": "een maat groter تعبير طبيعي عند طلب مقاس أعلى."
+        },
+        {
+          "dutch": "Ik wil hem eerst even passen.",
+          "arabic": "أريد تجربته أولاً بسرعة.",
+          "note": "even يجعل الطلب أخف وأكثر طبيعية."
+        },
+        {
+          "dutch": "Als deze maat goed zit, wil ik graag omruilen.",
+          "arabic": "إذا كان هذا المقاس مناسباً، أود الاستبدال.",
+          "note": "goed zitten تصف ملاءمة الملابس."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een maat groter / kleiner",
+          "arabic": "مقاس أكبر / أصغر"
+        },
+        {
+          "dutch": "goed zitten",
+          "arabic": "يكون مناسباً على الجسم"
+        },
+        {
+          "dutch": "iets passen",
+          "arabic": "يجرّب قطعة ملابس"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Het is te klein.",
+          "alternative": "Deze maat zit te strak.",
+          "note": "الثانية أدق عند الحديث عن الملابس على الجسم."
+        },
+        {
+          "dutch": "Ik wil graag maat L proberen.",
+          "alternative": "Mag ik deze ook in maat L passen?",
+          "note": "بديل طبيعي عندما تطلب نفس القطعة بمقاس آخر."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik wil een groter maat.",
+          "correct": "Ik wil een grotere maat.",
+          "explanation": "maat اسم de، لذلك تأتي الصفة مع -e: grotere."
+        },
+        {
+          "wrong": "Kan ik dit overhemd proberen?",
+          "correct": "Kan ik dit overhemd passen?",
+          "explanation": "للملابس نستخدم passen عادة عند تجربة المقاس."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-comparing-products",
@@ -2712,7 +2774,69 @@
           "هل ربطت الصفتين المختلفتين بـ maar وطلبت السعر؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Deze tas is iets goedkoper, maar die andere is steviger.",
+          "arabic": "هذه الحقيبة أرخص قليلاً، لكن الأخرى أكثر متانة.",
+          "note": "iets + comparative يخفف فرق المقارنة."
+        },
+        {
+          "dutch": "Ik vind de kleinere tas praktischer voor elke dag.",
+          "arabic": "أجد الحقيبة الأصغر أكثر عملية للاستخدام اليومي.",
+          "note": "praktischer voor يربط الصفة بالغرض."
+        },
+        {
+          "dutch": "De zwarte tas is duurder, maar er past meer in.",
+          "arabic": "الحقيبة السوداء أغلى، لكن تتسع لأشياء أكثر.",
+          "note": "er past meer in تعبير طبيعي للسعة."
+        },
+        {
+          "dutch": "Voor mijn budget is de blauwe tas de beste keuze.",
+          "arabic": "بالنسبة لميزانيتي، الحقيبة الزرقاء هي الخيار الأفضل.",
+          "note": "voor mijn budget يربط الاختيار بالحد المالي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "binnen het budget blijven",
+          "arabic": "يبقى ضمن الميزانية"
+        },
+        {
+          "dutch": "een keuze maken",
+          "arabic": "يتخذ خياراً"
+        },
+        {
+          "dutch": "praktisch voor dagelijks gebruik",
+          "arabic": "عملي للاستخدام اليومي"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Welke tas kiest u?",
+          "alternative": "Welke van de twee heeft uw voorkeur?",
+          "note": "الثانية أكثر رسمية وتناسب المقارنة بين خيارين."
+        },
+        {
+          "dutch": "Ik neem de blauwe tas.",
+          "alternative": "Dan ga ik voor de blauwe tas.",
+          "note": "gaan voor تعبير يومي شائع للاختيار."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Deze tas is meer goedkoop.",
+          "correct": "Deze tas is goedkoper.",
+          "explanation": "goedkoop يأخذ صيغة المقارنة goedkoper."
+        },
+        {
+          "wrong": "Deze tas is lichter als die tas.",
+          "correct": "Deze tas is lichter dan die tas.",
+          "explanation": "بعد صيغة المقارنة نستخدم dan."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-checking-quantities-and-prices",
@@ -2779,7 +2903,69 @@
           "هل سألت عن السعر والحجم دون افتراض الإجابة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Wat kost één stuk als ik er drie neem?",
+          "arabic": "كم سعر القطعة الواحدة إذا أخذت ثلاثاً؟",
+          "note": "er drie nemen يستخدم er مع عدد من شيء مذكور."
+        },
+        {
+          "dutch": "Is de prijs per stuk of per verpakking?",
+          "arabic": "هل السعر للقطعة أم للعبوة؟",
+          "note": "per verpakking مفيد عندما يكون العرض لمجموعة."
+        },
+        {
+          "dutch": "Hoeveel stuks zitten er in één set?",
+          "arabic": "كم قطعة توجد في مجموعة واحدة؟",
+          "note": "stuks يستخدم لعد القطع بشكل عملي."
+        },
+        {
+          "dutch": "Dan kom ik in totaal op twaalf euro vijftig.",
+          "arabic": "إذن يصبح الإجمالي اثني عشر يورو وخمسين سنتاً.",
+          "note": "in totaal op ... uitkomen تعبير للحساب النهائي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "per stuk betalen",
+          "arabic": "يدفع للقطعة"
+        },
+        {
+          "dutch": "een set van twee",
+          "arabic": "مجموعة من قطعتين"
+        },
+        {
+          "dutch": "in totaal uitkomen op",
+          "arabic": "يصبح الإجمالي"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wat kosten deze bekers per stuk?",
+          "alternative": "Hoeveel kost één beker?",
+          "note": "الثانية أبسط إذا كان سعر القطعة هو المطلوب فقط."
+        },
+        {
+          "dutch": "Dat zijn drie bekers voor twaalf euro vijftig.",
+          "alternative": "Voor drie bekers betaalt u in totaal twaalf euro vijftig.",
+          "note": "الثانية أوضح في سياق الدفع."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Drie bekers kost twaalf euro.",
+          "correct": "Drie bekers kosten twaalf euro.",
+          "explanation": "Drie bekers جمع، لذلك نستخدم kosten."
+        },
+        {
+          "wrong": "Een set met twee kost acht euro per stuk.",
+          "correct": "Een set van twee kost acht euro.",
+          "explanation": "set van two تصف عدد القطع في المجموعة؛ per stuk سيغير المعنى."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-confirming-a-shop-alternative",
@@ -2846,7 +3032,69 @@
           "هل ذكرت موعد الاستلام وسألت عن المكان غير المؤكد؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De blauwe variant is uitverkocht, maar wit is nog beschikbaar.",
+          "arabic": "النسخة الزرقاء نفدت، لكن البيضاء ما زالت متاحة.",
+          "note": "uitverkocht يصف نفاد المخزون."
+        },
+        {
+          "dutch": "Wilt u het alternatief voor dezelfde prijs?",
+          "arabic": "هل تريدون البديل بالسعر نفسه؟",
+          "note": "voor dezelfde prijs يثبت أن السعر لم يتغير."
+        },
+        {
+          "dutch": "Ik pas de bestelling aan en leg alles voor u klaar.",
+          "arabic": "سأعدّل الطلب وأجهز كل شيء لكم.",
+          "note": "klaarleggen يعني تجهيز شيء للاستلام."
+        },
+        {
+          "dutch": "Kunt u bevestigen dat beide artikelen vandaag klaarliggen?",
+          "arabic": "هل يمكنكم تأكيد أن القطعتين جاهزتان اليوم للاستلام؟",
+          "note": "klaarliggen يختلف عن alleen op voorraad zijn."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "op voorraad zijn",
+          "arabic": "يكون متوفراً في المخزون"
+        },
+        {
+          "dutch": "een bestelling aanpassen",
+          "arabic": "يعدّل طلبية"
+        },
+        {
+          "dutch": "iets klaarleggen",
+          "arabic": "يجهّز شيئاً للاستلام"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik neem liever één blauwe en één witte kom.",
+          "alternative": "Mijn voorkeur is één blauwe en één witte kom.",
+          "note": "الثانية أكثر رسمية قليلاً."
+        },
+        {
+          "dutch": "Liggen beide kommen al klaar?",
+          "alternative": "Zijn beide kommen al klaargelegd?",
+          "note": "البديل يستخدم صيغة المبني للمجهول/النتيجة."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "We hebben nog één blauwe kom in stock.",
+          "correct": "We hebben nog één blauwe kom op voorraad.",
+          "explanation": "التعبير الهولندي الطبيعي هو op voorraad."
+        },
+        {
+          "wrong": "Ik pas aan uw bestelling.",
+          "correct": "Ik pas uw bestelling aan.",
+          "explanation": "aanpassen فعل منفصل: pas ... aan."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-asking-about-a-return",
