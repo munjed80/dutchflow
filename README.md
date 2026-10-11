@@ -43,6 +43,8 @@ The A1 lesson content lives in `src/data/lessons.json`, and ordered modules live
 
 The free `/a2-recycling` library adds eight cross-unit reviews with 16 retrieval/transformation tasks, optional models and source-lesson help. Answers are temporary and ungraded; no completion or proficiency score is awarded.
 
+The `/a2` map groups each unit’s lessons, reading, guided conversation, integrated practice and cross-unit retrieval. A progress-aware suggestion resumes the first unfinished lesson or points to the final review after all 40 lessons. It does not track practice mastery. See [study-path behavior](docs/A2_STUDY_PATH.md).
+
 ## Validation
 
 ```bash
