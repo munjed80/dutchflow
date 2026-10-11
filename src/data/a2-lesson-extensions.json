@@ -3942,7 +3942,7 @@
         {
           "dutch": "Zullen we eerst afspreken waar we elkaar ontmoeten?",
           "arabic": "هل نتفق أولاً أين سنلتقي؟",
-          "note": "elkaar ontmoeten useful for meeting point."
+          "note": "استخدام elkaar ontmoeten مناسب عندما تريد تحديد مكان التقاء شخصين أو أكثر."
         },
         {
           "dutch": "De trein vertrekt om 09.20, dus laten we om 09.05 afspreken.",
@@ -4076,17 +4076,17 @@
         {
           "dutch": "De bus duurt langer, maar rijdt rechtstreeks.",
           "arabic": "الحافلة تستغرق وقتاً أطول لكنها مباشرة.",
-          "note": "rechtstreeks rijden useful route attribute."
+          "note": "عبارة rechtstreeks rijden تصف وسيلة تسير مباشرة من دون تبديل."
         },
         {
           "dutch": "Welke route heeft de minste overstappen?",
           "arabic": "أي مسار فيه أقل عدد من التبديلات؟",
-          "note": "de minste + plural noun."
+          "note": "de minste تأتي مع اسم جمع هنا لتسأل عن أقل عدد من مرات التبديل."
         },
         {
           "dutch": "Voor mij is gemak belangrijker dan tien minuten tijdwinst.",
           "arabic": "بالنسبة لي الراحة أهم من توفير عشر دقائق.",
-          "note": "belangrijker dan supports preference."
+          "note": "belangrijker dan تساعد على توضيح أن الراحة أهم من توفير بضع دقائق."
         }
       ],
       "collocations": [
@@ -4216,7 +4216,7 @@
         {
           "dutch": "Volgens de app blijft spoor vijf hetzelfde.",
           "arabic": "وفق التطبيق يبقى المسار الخامس كما هو.",
-          "note": "volgens + source distinguishes source."
+          "note": "استخدام volgens مع مصدر مثل app أو scherm يوضح من أين جاءت المعلومة."
         }
       ],
       "collocations": [
@@ -4335,7 +4335,7 @@
         {
           "dutch": "Met de bus ben ik net voor twaalf uur op het station.",
           "arabic": "بالحافلة سأكون في المحطة قبل الثانية عشرة بقليل.",
-          "note": "net voor = just before."
+          "note": "net voor تعني قبل الوقت بقليل، وليست قبل مدة طويلة."
         },
         {
           "dutch": "Laten we dezelfde ontmoetingsplek houden.",
@@ -4345,7 +4345,7 @@
         {
           "dutch": "Als de bus ook vertraging heeft, stuur ik meteen een bericht.",
           "arabic": "إذا تأخرت الحافلة أيضاً، سأرسل رسالة فوراً.",
-          "note": "meteen emphasizes immediate update."
+          "note": "meteen تؤكد أن إرسال التحديث يجب أن يحدث فوراً."
         }
       ],
       "collocations": [
@@ -4588,7 +4588,7 @@
         {
           "dutch": "Het was druk, maar de sfeer was heel gezellig.",
           "arabic": "كان المكان مزدحماً، لكن الأجواء كانت لطيفة جداً.",
-          "note": "de sfeer beschrijft atmosphere."
+          "note": "de sfeer تصف الأجواء العامة للمكان أو المناسبة."
         },
         {
           "dutch": "Ik heb nieuwe mensen leren kennen.",
@@ -4598,12 +4598,12 @@
         {
           "dutch": "We bleven langer dan we van plan waren.",
           "arabic": "بقينا أطول مما كنا نخطط.",
-          "note": "langer dan supports recounting."
+          "note": "langer dan مفيدة عند مقارنة مدة البقاء بما كان مخططاً له."
         },
         {
           "dutch": "Volgende keer wil ik wat eerder gaan.",
           "arabic": "في المرة القادمة أريد الذهاب أبكر قليلاً.",
-          "note": "volgende keer useful reflection."
+          "note": "volgende keer تساعد على إضافة تقييم أو نية تخص المرة القادمة."
         }
       ],
       "collocations": [
@@ -4717,22 +4717,22 @@
         {
           "dutch": "Wat vond je er het leukst aan?",
           "arabic": "ما أكثر شيء أعجبك فيه؟",
-          "note": "er ... aan useful for asking aspect."
+          "note": "التركيب er ... aan مفيد للسؤال عن جانب محدد أعجب الشخص في تجربة ما."
         },
         {
           "dutch": "Hoe kende je de mensen daar?",
           "arabic": "كيف كنت تعرف الأشخاص هناك؟",
-          "note": "asks relationship/context."
+          "note": "هذا السؤال يستوضح العلاقة أو السياق الذي عرف منه الشخص الآخرين."
         },
         {
           "dutch": "Ben je lang gebleven?",
           "arabic": "هل بقيت طويلاً؟",
-          "note": "short natural alternative to Hoe lang."
+          "note": "Ben je lang gebleven? بديل قصير وطبيعي لسؤال Hoe lang ben je gebleven?"
         },
         {
           "dutch": "Zou je nog een keer gaan?",
           "arabic": "هل ستذهب مرة أخرى؟",
-          "note": "follow-up about evaluation/future intention."
+          "note": "هذا سؤال متابعة ينتقل من تقييم التجربة إلى نية تكرارها مستقبلاً."
         }
       ],
       "collocations": [
@@ -4846,22 +4846,22 @@
         {
           "dutch": "Leuk idee, daar heb ik wel zin in.",
           "arabic": "فكرة جميلة، لدي رغبة في ذلك.",
-          "note": "zin hebben in common invitation response."
+          "note": "zin hebben in تعبير شائع جداً لإظهار الرغبة في قبول نشاط أو دعوة."
         },
         {
           "dutch": "Vrijdag lukt helaas niet, maar zaterdag ben ik vrij.",
           "arabic": "الجمعة لا تناسبني للأسف، لكن السبت أنا متفرغ.",
-          "note": "lukt niet + alternative."
+          "note": "استخدام lukt niet ثم تقديم بديل يجعل الاعتذار عملياً وواضحاً."
         },
         {
           "dutch": "Zullen we anders zondagmiddag afspreken?",
           "arabic": "هل نتفق بدلاً من ذلك على بعد ظهر الأحد؟",
-          "note": "anders softens alternative proposal."
+          "note": "anders تجعل اقتراح الموعد البديل أخف وأكثر طبيعية في الحوار."
         },
         {
           "dutch": "Laat maar weten welke tijd jou uitkomt.",
           "arabic": "أخبرني أي وقت يناسبك.",
-          "note": "jou uitkomen informal scheduling."
+          "note": "jou uitkomen صيغة غير رسمية للسؤال عن الوقت الذي يناسب الشخص الآخر."
         }
       ],
       "collocations": [
@@ -4975,22 +4975,22 @@
         {
           "dutch": "Dan staat zaterdag om drie uur vast.",
           "arabic": "إذن السبت الساعة الثالثة أصبح مؤكداً.",
-          "note": "vaststaan can mark confirmed plan."
+          "note": "vaststaan يمكن أن يوضح أن الموعد أصبح نهائياً ومؤكداً."
         },
         {
           "dutch": "Zullen we elkaar bij de hoofdingang ontmoeten?",
           "arabic": "هل نلتقي عند المدخل الرئيسي؟",
-          "note": "elkaar ontmoeten alternative to afspreken."
+          "note": "elkaar ontmoeten بديل طبيعي لـ afspreken عندما تريد التأكيد على مكان اللقاء."
         },
         {
           "dutch": "Ik neem drinken mee; neem jij iets te eten mee?",
           "arabic": "سأحضر شراباً؛ هل تحضر أنت شيئاً للأكل؟",
-          "note": "parallel division of items."
+          "note": "الجملة تقسم ما سيحضره كل شخص بشكل متوازٍ وواضح."
         },
         {
           "dutch": "Mocht er iets veranderen, stuur dan even een bericht.",
           "arabic": "إذا طرأ أي تغيير، فأرسل رسالة سريعة.",
-          "note": "mocht ... formal-ish conditional, useful exposure."
+          "note": "mocht ... صيغة شرطية أكثر رسمية قليلاً، ومن المفيد التعرف عليها هنا دون جعلها هدفاً نحوياً أساسياً."
         }
       ],
       "collocations": [
