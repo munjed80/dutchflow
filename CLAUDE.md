@@ -391,3 +391,12 @@ A2 now contains 160 additional contextual examples, 120 collocations, 80 natural
 All eight A2 units are 5/5 language-rich. Native tests enforce 40 enriched lessons and 5/5 coverage for every unit; browser tests cover the enriched lessons on mobile.
 
 Do not immediately add another blanket depth layer. The next professional step is an A2 lexical/recycling audit followed by targeted retrieval/transformation exercises. Language-depth examples remain outside the controlled audio inventory unless deliberately selected later.
+
+
+### A2 cross-unit recycling handoff (2026-10-11, current)
+
+After reviewing merged PRs #31–33, the next delivery adds `/a2-recycling` and eight slug routes: 16 separate retrieval/transformation tasks linked to source lessons across all eight units. Read `docs/A2_RECYCLING.md` for the complete 120-entry collocation inventory, its limits and the eight selected bridges. This is not an exhaustive semantic frequency or mastery audit.
+
+Data lives in `src/data/a2-recycling.json`; anchors must match existing A2 collocation labels and span at least two units per set. `content:check` validates the bank. Reuse `ProductionPractice` once per page, keyed by slug; it has fixed input IDs, temporary state and no grading/completion writes. Help and models start collapsed; users can reveal them freely.
+
+A2 remains 40 lessons / 320 core phrases / 80 lesson production tasks / nine integrated packs. The 16 review tasks are counted separately. A1, core audio and progress contracts are unchanged; recordings remain owner-managed. Next work should use educator/learner feedback to prioritize transfer weaknesses, with audio and launch gates still open. Paid exams stay deferred.
