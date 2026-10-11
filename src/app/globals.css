@@ -389,3 +389,8 @@ em{font-style:normal;color:var(--teal)}
 @media (max-width: 720px) { .practice-review { padding: 1.25rem; } }
 
 .level-navigation a[aria-current="page"]{background:var(--teal);color:#fff;font-weight:700}.level-navigation a{min-height:44px}
+
+/* Optional source help for cross-unit retrieval practice. */
+.recycling-help{padding:20px;margin:24px 0;overflow-wrap:anywhere}
+.recycling-help summary{min-height:44px;cursor:pointer;font-weight:700;line-height:1.8}
+.recycling-help ul{padding-inline-start:22px;line-height:2}

@@ -3,7 +3,8 @@ import sets from "../../src/data/a2-recycling.json";
 
 test("cross-unit retrieval keeps models hidden, resets answers and leaves progress untouched", async ({ page }) => {
   await page.goto("/a2");
-  await page.evaluate(() => localStorage.setItem("dutchflow-progress-v1", JSON.stringify(["introductions"])));
+  await page.evaluate(() => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: ["introductions"] })));
+  await page.reload();
   const before = await page.evaluate(() => localStorage.getItem("dutchflow-progress-v1"));
   await page.getByRole("link", { name: "استرجاع وتطبيق", exact: true }).click();
   await page.getByRole("link", { name: `ابدأ: ${sets[0].title} ←`, exact: true }).click();

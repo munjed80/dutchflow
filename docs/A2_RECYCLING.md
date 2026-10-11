@@ -2,6 +2,8 @@
 
 ## Review of merged PRs #31–33
 
+Baseline: main `3e2a053` after [PR #31](https://github.com/munjed80/dutchflow/pull/31), [PR #32](https://github.com/munjed80/dutchflow/pull/32) and [PR #33](https://github.com/munjed80/dutchflow/pull/33) were merged. Reviewed final heads: `a2301bc`, `467ab0f`, `9ce6f8f`.
+
 - #31 completed the internal Dutch/Arabic consistency pass: registration deadline clarity, natural laptop request, school location, greeting and repair-target wording.
 - #32 expanded the existing eight units from 32 to 40 lessons and introduced structured depth in the eight new lessons.
 - #33 completed depth across all 40 lessons: 160 examples, 120 collocation entries, 80 alternatives and 80 mistake contrasts. Its handoff prioritizes recycling over another blanket enrichment layer.
@@ -89,4 +91,4 @@ Use independent educator review and learner observation to identify which transf
 
 ## Validation
 
-Pending final local validation; results will be recorded before PR handoff.
+Local validation passed: `content:check`, `audio:check`, all 68 native tests, TypeScript, production build and all 159 Chromium end-to-end tests. After the final spacing/help-panel adjustment, the production build and both recycling browser tests passed again. Mobile (390px) and desktop (1280px) screens were visually inspected; no horizontal overflow. GitHub CI runs separately on the PR.

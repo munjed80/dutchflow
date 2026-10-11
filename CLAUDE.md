@@ -400,3 +400,5 @@ After reviewing merged PRs #31–33, the next delivery adds `/a2-recycling` and 
 Data lives in `src/data/a2-recycling.json`; anchors must match existing A2 collocation labels and span at least two units per set. `content:check` validates the bank. Reuse `ProductionPractice` once per page, keyed by slug; it has fixed input IDs, temporary state and no grading/completion writes. Help and models start collapsed; users can reveal them freely.
 
 A2 remains 40 lessons / 320 core phrases / 80 lesson production tasks / nine integrated packs. The 16 review tasks are counted separately. A1, core audio and progress contracts are unchanged; recordings remain owner-managed. Next work should use educator/learner feedback to prioritize transfer weaknesses, with audio and launch gates still open. Paid exams stay deferred.
+
+Validation: content/audio checks, 68 native tests, TypeScript, production build and the full 159-test Chromium suite passed locally. Final layout adjustments additionally passed a fresh build and both recycling browser tests; mobile and desktop were visually reviewed. GitHub CI remains a separate merge gate.
