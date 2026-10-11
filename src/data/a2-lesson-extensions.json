@@ -64,7 +64,69 @@
           "هل أنهيت بسؤال عن الماضي؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Gisteren heb ik boodschappen gedaan.",
+          "arabic": "قمت بالتسوّق أمس.",
+          "note": "boodschappen doen تعبير ثابت وشائع للحياة اليومية."
+        },
+        {
+          "dutch": "Vanmorgen heb ik mijn e-mail gecontroleerd.",
+          "arabic": "راجعت بريدي الإلكتروني هذا الصباح.",
+          "note": "vanmorgen مع الماضي المركب مناسب لنشاط انتهى في جزء سابق من اليوم."
+        },
+        {
+          "dutch": "Vandaag werk ik thuis, maar gisteren was ik op kantoor.",
+          "arabic": "اليوم أعمل من المنزل، لكنني كنت أمس في المكتب.",
+          "note": "قارن الحاضر بالماضي دون الحاجة إلى تكرار dezelfde werkwoordsvorm."
+        },
+        {
+          "dutch": "Na het eten heb ik nog een halfuur Nederlands geoefend.",
+          "arabic": "بعد الطعام تدربت على الهولندية نصف ساعة إضافية.",
+          "note": "nog een halfuur تعني مدة إضافية."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "boodschappen doen",
+          "arabic": "يقوم بالتسوّق"
+        },
+        {
+          "dutch": "thuis werken",
+          "arabic": "يعمل من المنزل"
+        },
+        {
+          "dutch": "Nederlands oefenen",
+          "arabic": "يتدرّب على الهولندية"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wat heb je gisteren gedaan?",
+          "alternative": "Wat heb je gisteren allemaal gedaan?",
+          "note": "allemaal تجعل السؤال أوسع عندما تتوقع أكثر من نشاط."
+        },
+        {
+          "dutch": "Vandaag werk ik thuis.",
+          "alternative": "Ik werk vandaag vanuit huis.",
+          "note": "vanuit huis بديل طبيعي، وthuis أبسط للمتعلمين."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik heb gisteren naar huis gegaan.",
+          "correct": "Ik ben gisteren naar huis gegaan.",
+          "explanation": "gaan في هذا السياق يأتي مع zijn: ben gegaan."
+        },
+        {
+          "wrong": "Gisteren ik heb gewerkt.",
+          "correct": "Gisteren heb ik gewerkt.",
+          "explanation": "عندما تبدأ الجملة بـ gisteren يأتي الفعل المصرف قبل الفاعل."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-a-day-at-work",
@@ -131,7 +193,69 @@
           "هل سألت باستخدام Heb je ...؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik heb eerst de voorraad geteld en daarna de lijst bijgewerkt.",
+          "arabic": "عددت المخزون أولاً ثم حدّثت القائمة.",
+          "note": "eerst ... daarna يساعدان على ترتيب مهمتين مكتملتين."
+        },
+        {
+          "dutch": "De laatste doos heb ik nog niet gecontroleerd.",
+          "arabic": "لم أراجع الصندوق الأخير بعد.",
+          "note": "nog niet يترك المهمة مفتوحة وليست مرفوضة."
+        },
+        {
+          "dutch": "Ik heb een collega om hulp gevraagd.",
+          "arabic": "طلبت المساعدة من زميل.",
+          "note": "iemand om hulp vragen تركيب ثابت."
+        },
+        {
+          "dutch": "Aan het einde van de dag hebben we alles opgeruimd.",
+          "arabic": "في نهاية اليوم رتبنا كل شيء.",
+          "note": "aan het einde van de dag تعبير زمني عملي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "de voorraad tellen",
+          "arabic": "يعدّ المخزون"
+        },
+        {
+          "dutch": "een lijst controleren",
+          "arabic": "يراجع قائمة"
+        },
+        {
+          "dutch": "iemand om hulp vragen",
+          "arabic": "يطلب المساعدة من شخص"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik heb de tafel nog niet opgeruimd.",
+          "alternative": "De tafel moet ik nog opruimen.",
+          "note": "البديل يركز على أن المهمة ما زالت متبقية."
+        },
+        {
+          "dutch": "Wat heeft Eva gedaan?",
+          "alternative": "Wat heeft Eva daarna gedaan?",
+          "note": "daarna تربط السؤال بالتسلسل السابق."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik heb de tafel ge-opruimd.",
+          "correct": "Ik heb de tafel opgeruimd.",
+          "explanation": "في opruimen تدخل ge بين الجزأين: op-ge-ruimd."
+        },
+        {
+          "wrong": "Eva heb de lijst gelezen.",
+          "correct": "Eva heeft de lijst gelezen.",
+          "explanation": "مع Eva نستخدم heeft، لا heb."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-a-weekend-visit",
@@ -198,7 +322,69 @@
           "هل طرحت سؤال متابعة مناسباً؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Zaterdag ben ik bij vrienden in Haarlem geweest.",
+          "arabic": "كنت يوم السبت عند أصدقاء في هارلم.",
+          "note": "bij vrienden zijn يركز على الزيارة لا على الحركة."
+        },
+        {
+          "dutch": "We hebben samen geluncht en daarna een wandeling gemaakt.",
+          "arabic": "تناولنا الغداء معاً ثم قمنا بنزهة.",
+          "note": "een wandeling maken بديل شائع لـ wandelen."
+        },
+        {
+          "dutch": "Ik ben met de bus heen gegaan en met de trein teruggekomen.",
+          "arabic": "ذهبت بالحافلة وعدت بالقطار.",
+          "note": "heen gaan وterugkomen مفيدان لوصف الذهاب والعودة."
+        },
+        {
+          "dutch": "Rond half acht ben ik weer thuisgekomen.",
+          "arabic": "عدت إلى المنزل حوالي السابعة والنصف.",
+          "note": "weer thuisgekomen تعني عاد إلى المنزل."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "bij iemand op bezoek gaan",
+          "arabic": "يذهب لزيارة شخص"
+        },
+        {
+          "dutch": "samen iets drinken",
+          "arabic": "يشرب شيئاً مع شخص"
+        },
+        {
+          "dutch": "weer thuiskomen",
+          "arabic": "يعود إلى المنزل"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Waar ben je zaterdag geweest?",
+          "alternative": "Wat heb je zaterdag gedaan?",
+          "note": "الأول يسأل عن المكان، والثاني عن النشاط بشكل أوسع."
+        },
+        {
+          "dutch": "We hebben in het park gewandeld.",
+          "alternative": "We hebben een wandeling in het park gemaakt.",
+          "note": "الصيغتان طبيعيتان؛ الثانية تستخدم الاسم wandeling."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "We zijn thee gedronken.",
+          "correct": "We hebben thee gedronken.",
+          "explanation": "drinken يأتي هنا مع hebben."
+        },
+        {
+          "wrong": "Ik ben met mijn zoon naar mijn zus geweest gegaan.",
+          "correct": "Ik ben met mijn zoon naar mijn zus gegaan.",
+          "explanation": "لا نجمع geweest وgegaan بهذه الطريقة؛ اختر الفعل المناسب للمعنى."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-telling-a-short-story",
@@ -265,7 +451,69 @@
           "هل ذكرت الرسالة بصيغة heb gestuurd؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Eerst miste ik de bus. Daarna heb ik mijn docent gebeld.",
+          "arabic": "فاتتني الحافلة أولاً. بعد ذلك اتصلت بمدرّسي.",
+          "note": "يمكن خلط simple past محدود مع perfect في الاستعمال الطبيعي، لكن الدرس يركز على تسلسل واضح لا على زمن واحد فقط."
+        },
+        {
+          "dutch": "Vervolgens ben ik naar het station gelopen.",
+          "arabic": "بعد ذلك مشيت إلى المحطة.",
+          "note": "vervolgens بديل لـ daarna في السرد."
+        },
+        {
+          "dutch": "Uiteindelijk kwam ik twintig minuten te laat aan.",
+          "arabic": "في النهاية وصلت متأخراً عشرين دقيقة.",
+          "note": "uiteindelijk بديل طبيعي لـ ten slotte عند نتيجة القصة."
+        },
+        {
+          "dutch": "Dus eerst heb je gewacht en daarna ben je gaan lopen?",
+          "arabic": "إذن انتظرت أولاً ثم بدأت تمشي؟",
+          "note": "إعادة الصياغة كسؤال تساعد على التحقق من تسلسل الأحداث."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "op de bus wachten",
+          "arabic": "ينتظر الحافلة"
+        },
+        {
+          "dutch": "een bericht sturen",
+          "arabic": "يرسل رسالة"
+        },
+        {
+          "dutch": "te laat aankomen",
+          "arabic": "يصل متأخراً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ten slotte ben ik naar school gelopen.",
+          "alternative": "Uiteindelijk ben ik naar school gelopen.",
+          "note": "uiteindelijk يبرز النتيجة النهائية أكثر."
+        },
+        {
+          "dutch": "Wat is er gisteren gebeurd?",
+          "alternative": "Wat gebeurde er gisteren?",
+          "note": "كلاهما صحيح؛ الثانية تستخدم الماضي البسيط وتظهر كثيراً في السرد."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Daarna ik heb een bericht gestuurd.",
+          "correct": "Daarna heb ik een bericht gestuurd.",
+          "explanation": "بعد Daarna في بداية الجملة يحدث inversion: الفعل قبل الفاعل."
+        },
+        {
+          "wrong": "Ik heb op de bus gewacht voor twintig minuten.",
+          "correct": "Ik heb twintig minuten op de bus gewacht.",
+          "explanation": "مدة الزمن تأتي طبيعيًا دون voor في هذا النوع من الجمل."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-describing-a-changing-routine",
@@ -461,7 +709,69 @@
           "هل طلبت المهمة وحددت مكان الصناديق؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "We zijn bijna klaar met de bestelling.",
+          "arabic": "نحن على وشك الانتهاء من الطلبية.",
+          "note": "bijna klaar met شائع جداً عند تحديث التقدم."
+        },
+        {
+          "dutch": "Vier dozen zijn al ingepakt; twee moeten nog.",
+          "arabic": "تم حزم أربعة صناديق بالفعل؛ بقي اثنان.",
+          "note": "moeten nog يمكن أن يحذف الفعل عندما يكون واضحاً من السياق."
+        },
+        {
+          "dutch": "De adressen heb ik al gecontroleerd.",
+          "arabic": "لقد راجعت العناوين بالفعل.",
+          "note": "تقديم المفعول يركز على المهمة المنجزة ويؤدي إلى inversion."
+        },
+        {
+          "dutch": "Wat staat er nog op de lijst?",
+          "arabic": "ما الذي ما زال موجوداً على قائمة المهام؟",
+          "note": "op de lijst staan تركيب عملي للسؤال عن المتبقي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "bijna klaar zijn met",
+          "arabic": "يكون على وشك الانتهاء من"
+        },
+        {
+          "dutch": "een taak afronden",
+          "arabic": "يُنهي مهمة"
+        },
+        {
+          "dutch": "op de lijst staan",
+          "arabic": "يكون مدرجاً في القائمة"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wat moet er nog gebeuren?",
+          "alternative": "Wat moet er nog worden gedaan?",
+          "note": "الثانية أكثر رسمية وبصيغة المبني للمجهول."
+        },
+        {
+          "dutch": "Ik heb er vier ingepakt.",
+          "alternative": "Vier daarvan heb ik al ingepakt.",
+          "note": "daarvan يوضح المرجع أكثر عندما تكون الأعداد مهمة."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik heb vier van hun ingepakt.",
+          "correct": "Ik heb er vier ingepakt.",
+          "explanation": "عند الإشارة إلى عدد من أشياء مذكورة سابقاً نستخدم er."
+        },
+        {
+          "wrong": "De andere twee is nog niet klaar.",
+          "correct": "De andere twee zijn nog niet klaar.",
+          "explanation": "de andere twee جمع، لذلك نستخدم zijn."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-explaining-a-delay",
@@ -528,7 +838,69 @@
           "هل سألت عن الموافقة على الوقت؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Het werk loopt vertraging op door een storing.",
+          "arabic": "يتأخر العمل بسبب عطل.",
+          "note": "vertraging oplopen تركيب شائع لوصف تأخر عملية."
+        },
+        {
+          "dutch": "Ik red elf uur niet, maar half twaalf lukt wel.",
+          "arabic": "لن أستطيع اللحاق بالساعة الحادية عشرة، لكن الحادية عشرة والنصف ممكنة.",
+          "note": "een tijd niet redden تعني عدم القدرة على الالتزام به."
+        },
+        {
+          "dutch": "Ik stuur het document alvast digitaal door.",
+          "arabic": "سأرسل المستند رقمياً مسبقاً.",
+          "note": "alvast يناسب إجراء يمكن إنجازه قبل الحل النهائي."
+        },
+        {
+          "dutch": "Zodra de printer werkt, maak ik de rest af.",
+          "arabic": "حالما تعمل الطابعة، سأنهي الباقي.",
+          "note": "zodra يربط استئناف العمل بتحقق شرط زمني."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "vertraging oplopen",
+          "arabic": "يتعرض لتأخير"
+        },
+        {
+          "dutch": "een tijd niet redden",
+          "arabic": "لا يستطيع الالتزام بوقت"
+        },
+        {
+          "dutch": "iets alvast doorsturen",
+          "arabic": "يرسل شيئاً مسبقاً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik kan niet printen, want de printer werkt niet.",
+          "alternative": "Ik kan niet printen omdat de printer niet werkt.",
+          "note": "المعنى واحد، لكن omdat يرسل الفعل إلى نهاية الجملة التابعة."
+        },
+        {
+          "dutch": "Dat lukt.",
+          "alternative": "Dat moet lukken.",
+          "note": "الثانية أقل يقيناً قليلاً: يفترض أن الأمر ممكن."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Want werkt de printer niet.",
+          "correct": "Want de printer werkt niet.",
+          "explanation": "بعد want يبقى ترتيب الجملة الرئيسية: الفاعل ثم الفعل."
+        },
+        {
+          "wrong": "Ik kom om half elf uur.",
+          "correct": "Ik kom om half elf.",
+          "explanation": "مع half elf لا نضيف uur عادة."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-clarifying-instructions",
@@ -596,7 +968,69 @@
           "هل طلبت تأكيد الفهم بدلاً من افتراضه؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Kunt u aangeven welke formulieren u bedoelt?",
+          "arabic": "هل يمكنكم توضيح أي استمارات تقصدون؟",
+          "note": "aangeven welke... صيغة مهنية مهذبة للتحديد."
+        },
+        {
+          "dutch": "Als ik het goed begrijp, controleer ik eerst de namen.",
+          "arabic": "إذا فهمت بشكل صحيح، أراجع الأسماء أولاً.",
+          "note": "Als ik het goed begrijp تمهيد طبيعي لإعادة الصياغة."
+        },
+        {
+          "dutch": "Bedoelt u de map links van de printer?",
+          "arabic": "هل تقصدون الملف الموجود إلى يسار الطابعة؟",
+          "note": "تحديد المكان يقلل الغموض في التعليمات."
+        },
+        {
+          "dutch": "Dus alleen de formulieren van vandaag, klopt dat?",
+          "arabic": "إذن استمارات اليوم فقط، هل هذا صحيح؟",
+          "note": "klopt dat? وسيلة قصيرة للتحقق."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "instructies uitleggen",
+          "arabic": "يشرح التعليمات"
+        },
+        {
+          "dutch": "iets goed begrijpen",
+          "arabic": "يفهم شيئاً جيداً"
+        },
+        {
+          "dutch": "om verduidelijking vragen",
+          "arabic": "يطلب توضيحاً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Kunt u dat nog een keer uitleggen?",
+          "alternative": "Kunt u dat nogmaals uitleggen?",
+          "note": "nogmaals أكثر رسمية قليلاً من nog een keer."
+        },
+        {
+          "dutch": "Bedoelt u de map naast de computer?",
+          "alternative": "Gaat het om de map naast de computer?",
+          "note": "بديل طبيعي لتحديد المقصود دون تكرار bedoelen."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Kunt u uitleggen dat nog een keer?",
+          "correct": "Kunt u dat nog een keer uitleggen?",
+          "explanation": "الضمير dat يأتي قبل عبارة التكرار، والمصدر uitleggen في النهاية."
+        },
+        {
+          "wrong": "Bedoelt u die map op naast de computer?",
+          "correct": "Bedoelt u die map naast de computer?",
+          "explanation": "نستخدم naast مباشرة للمكان المجاور، دون op."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-confirming-a-handover",
@@ -663,7 +1097,69 @@
           "هل طلبت التأكيد بدلاً من افتراض الموافقة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik neem de levering op me; jij controleert de adressen.",
+          "arabic": "سأتولى التسليم؛ وأنت تراجع العناوين.",
+          "note": "iets op zich nemen يعني تولي مسؤولية."
+        },
+        {
+          "dutch": "De bestelling moet uiterlijk om tien uur gereed zijn.",
+          "arabic": "يجب أن تكون الطلبية جاهزة في موعد أقصاه العاشرة.",
+          "note": "uiterlijk + وقت يحدد الحد النهائي بوضوح."
+        },
+        {
+          "dutch": "Zullen we nog even samenvatten wie wat doet?",
+          "arabic": "هل نلخص سريعاً من يفعل ماذا؟",
+          "note": "wie wat doet مفيد لتأكيد توزيع المسؤوليات."
+        },
+        {
+          "dutch": "Ik laat je weten zodra de dozen klaarstaan.",
+          "arabic": "سأخبرك حالما تصبح الصناديق جاهزة.",
+          "note": "klaarstaan يعني جاهزاً للالتقاط أو النقل."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een taak op zich nemen",
+          "arabic": "يتولى مهمة"
+        },
+        {
+          "dutch": "een overdracht bevestigen",
+          "arabic": "يؤكد عملية تسليم"
+        },
+        {
+          "dutch": "klaarstaan voor vervoer",
+          "arabic": "يكون جاهزاً للنقل"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wie brengt de dozen naar de klant?",
+          "alternative": "Wie neemt de levering naar de klant op zich?",
+          "note": "الثانية أكثر مهنية وأقل شيوعاً في الكلام اليومي."
+        },
+        {
+          "dutch": "Afgesproken.",
+          "alternative": "Dan zijn we het eens.",
+          "note": "كلاهما يؤكد الاتفاق؛ Afgesproken أقصر وأكثر عملية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "De dozen moeten om tien uur klaar zijn voor.",
+          "correct": "De dozen moeten voor tien uur klaar zijn.",
+          "explanation": "voor tien uur تأتي قبل الصفة klaar في هذا التركيب الطبيعي."
+        },
+        {
+          "wrong": "Ik stuur je een bericht uiterlijk kwart voor tien.",
+          "correct": "Ik stuur je uiterlijk om kwart voor tien een bericht.",
+          "explanation": "مع وقت الساعة نستخدم om، وuiterlijk يأتي طبيعياً قبله."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-setting-work-priorities",
@@ -859,7 +1355,69 @@
           "هل أوضحت الاستمرار وطلبت المساعدة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De lekkage is vorige maand ook al gemeld.",
+          "arabic": "تم الإبلاغ عن التسرب أيضاً الشهر الماضي.",
+          "note": "ook al gemeld يوضح أن المشكلة سبق الإبلاغ عنها."
+        },
+        {
+          "dutch": "Sinds dinsdag hoor ik elke nacht hetzelfde geluid.",
+          "arabic": "منذ الثلاثاء أسمع الصوت نفسه كل ليلة.",
+          "note": "sinds + نقطة بداية مع الحاضر عندما تستمر الحالة."
+        },
+        {
+          "dutch": "Het probleem is weer terug.",
+          "arabic": "عادت المشكلة من جديد.",
+          "note": "weer terug صيغة يومية شائعة لعودة المشكلة."
+        },
+        {
+          "dutch": "De verwarming doet het nog steeds niet goed.",
+          "arabic": "التدفئة ما زالت لا تعمل جيداً.",
+          "note": "het doen تعبير شائع لعمل الأجهزة والأنظمة."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een probleem melden",
+          "arabic": "يبلغ عن مشكلة"
+        },
+        {
+          "dutch": "een lekkage hebben",
+          "arabic": "يكون لديه تسرب"
+        },
+        {
+          "dutch": "een probleem komt terug",
+          "arabic": "تعود المشكلة"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "De kraan lekt weer.",
+          "alternative": "De kraan is weer gaan lekken.",
+          "note": "الثانية تبرز أن التسرب بدأ من جديد."
+        },
+        {
+          "dutch": "Wat is er aan de hand?",
+          "alternative": "Wat is precies het probleem?",
+          "note": "الثانية أكثر مباشرة وتحديداً."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Sinds maandag heeft de kraan gelekt.",
+          "correct": "De kraan lekt sinds maandag.",
+          "explanation": "عندما بدأت المشكلة سابقاً وما زالت مستمرة نستخدم هنا الحاضر مع sinds."
+        },
+        {
+          "wrong": "De kraan lekt nog.",
+          "correct": "De kraan lekt nog steeds.",
+          "explanation": "nog steeds أوضح للتأكيد أن المشكلة ما زالت مستمرة حتى الآن."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-comparing-conditions-at-home",
@@ -926,7 +1484,69 @@
           "هل استخدمت minder للمقارنة الجديدة، لا meer؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De woonkamer voelt warmer aan dan de slaapkamer.",
+          "arabic": "غرفة المعيشة تبدو أدفأ من غرفة النوم.",
+          "note": "aanvoelen مفيد لوصف الإحساس دون تشخيص السبب."
+        },
+        {
+          "dutch": "Bij het raam voel ik meer tocht dan gisteren.",
+          "arabic": "أشعر بتيار هوائي أكبر عند النافذة مقارنة بأمس.",
+          "note": "tocht تعني تيار هواء داخل المنزل."
+        },
+        {
+          "dutch": "De deur sluit beter dan vorige week.",
+          "arabic": "الباب يغلق أفضل من الأسبوع الماضي.",
+          "note": "beter يقارن جودة الإغلاق عبر الزمن."
+        },
+        {
+          "dutch": "In de hoek is het vochtiger dan bij de deur.",
+          "arabic": "في الزاوية الرطوبة أعلى من قرب الباب.",
+          "note": "vochtiger وصف ملاحظة، لا استنتاج سبب."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "tocht voelen",
+          "arabic": "يشعر بتيار هوائي"
+        },
+        {
+          "dutch": "goed sluiten",
+          "arabic": "يغلق جيداً"
+        },
+        {
+          "dutch": "een verschil merken",
+          "arabic": "يلاحظ فرقاً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "De slaapkamer is kouder dan de woonkamer.",
+          "alternative": "In de slaapkamer is het kouder dan in de woonkamer.",
+          "note": "البديل يركز على المكان نفسه لا الغرفة كموضوع."
+        },
+        {
+          "dutch": "Het raam sluit niet goed.",
+          "alternative": "Het raam gaat niet goed dicht.",
+          "note": "صيغة يومية طبيعية لوصف الإغلاق."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "De slaapkamer is meer koud dan de woonkamer.",
+          "correct": "De slaapkamer is kouder dan de woonkamer.",
+          "explanation": "صفة koud تأخذ صيغة المقارنة kouder، لا meer koud."
+        },
+        {
+          "wrong": "De deur sluit beter als het raam.",
+          "correct": "De deur sluit beter dan het raam.",
+          "explanation": "في المقارنة نستخدم dan بعد beter/kouder/groter."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-arranging-a-repair-visit",
@@ -993,7 +1613,69 @@
           "هل طلبت التأكيد بدلاً من وعد بساعة وصول دقيقة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik ben donderdag de hele middag beschikbaar.",
+          "arabic": "أنا متاح طوال بعد ظهر الخميس.",
+          "note": "beschikbaar zijn شائع عند تنسيق المواعيد."
+        },
+        {
+          "dutch": "Kunt u een tijdvak tussen één en drie uur aanbieden?",
+          "arabic": "هل يمكنكم توفير فترة زمنية بين الواحدة والثالثة؟",
+          "note": "tijdvak كلمة عملية لفترة الزيارة."
+        },
+        {
+          "dutch": "Voor twee uur ben ik niet thuis.",
+          "arabic": "لن أكون في المنزل قبل الثانية.",
+          "note": "صيغة بديلة لـ pas vanaf twee uur."
+        },
+        {
+          "dutch": "Kunt u de afspraak nog per e-mail bevestigen?",
+          "arabic": "هل يمكنكم تأكيد الموعد أيضاً عبر البريد الإلكتروني؟",
+          "note": "nog هنا تعني أيضاً/إضافة أخيرة في الطلب."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een afspraak inplannen",
+          "arabic": "يحدد موعداً في الجدول"
+        },
+        {
+          "dutch": "een tijdvak afspreken",
+          "arabic": "يتفق على فترة زمنية"
+        },
+        {
+          "dutch": "thuis beschikbaar zijn",
+          "arabic": "يكون متاحاً في المنزل"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Dat past.",
+          "alternative": "Dat komt mij goed uit.",
+          "note": "الثانية أكثر طبيعية للتعبير أن الوقت مناسب لك."
+        },
+        {
+          "dutch": "Kan de monteur donderdagmiddag komen?",
+          "alternative": "Is donderdagmiddag nog mogelijk?",
+          "note": "بديل مختصر ومهذب للتحقق من التوفر."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik ben thuis van twee tot.",
+          "correct": "Ik ben van twee tot vier uur thuis.",
+          "explanation": "مع فترة زمنية نذكر طرفي الفترة: van ... tot ...."
+        },
+        {
+          "wrong": "Hij komt tussen twee tot vier uur.",
+          "correct": "Hij komt tussen twee en vier uur.",
+          "explanation": "مع tussen نستخدم en، وليس tot."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-following-up-on-a-repair",
@@ -1060,7 +1742,69 @@
           "هل سألت عن الوقت دون تحويل الاتصال إلى زيارة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Een deel van het probleem is opgelost, maar niet alles.",
+          "arabic": "تم حل جزء من المشكلة، لكن ليس كل شيء.",
+          "note": "صيغة مفيدة للمتابعة بعد إصلاح جزئي."
+        },
+        {
+          "dutch": "De kraan werkt nu goed, maar het raam nog niet.",
+          "arabic": "الصنبور يعمل جيداً الآن، لكن النافذة لا تزال لا.",
+          "note": "حذف الفعل في الجزء الثاني ممكن لأن المعنى واضح."
+        },
+        {
+          "dutch": "Kunt u doorgeven dat het probleem nog bestaat?",
+          "arabic": "هل يمكنكم نقل أن المشكلة ما زالت موجودة؟",
+          "note": "doorgeven شائع عند نقل متابعة إلى موظف آخر."
+        },
+        {
+          "dutch": "Wanneer kan ik een terugkoppeling verwachten?",
+          "arabic": "متى يمكنني توقع رد متابعة؟",
+          "note": "terugkoppeling كلمة مهنية تعني feedback/update."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een probleem oplossen",
+          "arabic": "يحل مشكلة"
+        },
+        {
+          "dutch": "contact opnemen",
+          "arabic": "يتواصل"
+        },
+        {
+          "dutch": "een terugkoppeling krijgen",
+          "arabic": "يحصل على رد متابعة"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Is alles nu opgelost?",
+          "alternative": "Werkt alles nu weer goed?",
+          "note": "الثانية تركز على النتيجة العملية أكثر من مفهوم الحل."
+        },
+        {
+          "dutch": "Ik vraag de monteur om u terug te bellen.",
+          "alternative": "Ik laat de monteur u terugbellen.",
+          "note": "الثانية أكثر مباشرة؛ الأولى تبرز أن الموظف سيطلب ذلك من الفني."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Het raam is nog steeds niet opgelost.",
+          "correct": "Het probleem met het raam is nog steeds niet opgelost.",
+          "explanation": "نحل المشكلة، لا النافذة نفسها؛ لذلك نذكر probleem."
+        },
+        {
+          "wrong": "Hij belt mij morgen terug voor het raam.",
+          "correct": "Hij belt mij morgen terug over het raam.",
+          "explanation": "نستخدم over لبيان موضوع الاتصال."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-preparing-for-a-repair-visit",
@@ -1256,7 +2000,69 @@
           "هل وضعت werk في نهاية السبب؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Die tijd komt mij helaas niet uit.",
+          "arabic": "هذا الوقت لا يناسبني للأسف.",
+          "note": "uitkomen تعبير يومي شائع لملاءمة الموعد."
+        },
+        {
+          "dutch": "Ik heb op dat moment al een andere afspraak.",
+          "arabic": "لدي في ذلك الوقت موعد آخر بالفعل.",
+          "note": "op dat moment يحدد سبب التعارض دون تفاصيل زائدة."
+        },
+        {
+          "dutch": "Zou het eventueel op woensdag kunnen?",
+          "arabic": "هل يمكن أن يكون يوم الأربعاء ربما؟",
+          "note": "zou ... kunnen صيغة ألطف لاقتراح بديل."
+        },
+        {
+          "dutch": "In de ochtend ben ik flexibeler dan in de middag.",
+          "arabic": "أنا أكثر مرونة في الصباح من بعد الظهر.",
+          "note": "flexibeler dan يفيد عند مقارنة فترتين."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een afspraak verzetten",
+          "arabic": "يغيّر موعداً"
+        },
+        {
+          "dutch": "een afspraak komt niet uit",
+          "arabic": "الموعد لا يناسب"
+        },
+        {
+          "dutch": "een alternatief voorstellen",
+          "arabic": "يقترح بديلاً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik kan dan niet komen omdat ik werk.",
+          "alternative": "Die tijd lukt mij niet, omdat ik dan aan het werk ben.",
+          "note": "الثانية أكثر محادثية وتوضح عدم ملاءمة الوقت."
+        },
+        {
+          "dutch": "Kan het gesprek op een andere dag plaatsvinden?",
+          "alternative": "Is een andere dag misschien mogelijk?",
+          "note": "بديل أبسط وأقل رسمية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Omdat ik werk dan.",
+          "correct": "Omdat ik dan werk.",
+          "explanation": "في جملة omdat يأتي الفعل في النهاية، وdan قبل الفعل."
+        },
+        {
+          "wrong": "Die afspraak past mij niet.",
+          "correct": "Die afspraak komt mij niet uit.",
+          "explanation": "bij afspraken نستخدم غالباً uitkomen بدلاً من passen."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-comparing-appointment-options",
@@ -1323,7 +2129,69 @@
           "هل ذكرت الوقت ووضعت werk في نهاية السبب؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Woensdag is voor mij handiger dan donderdag.",
+          "arabic": "الأربعاء أنسب لي من الخميس.",
+          "note": "handiger dan شائع للمقارنة العملية."
+        },
+        {
+          "dutch": "Locatie Centrum is makkelijker bereikbaar met het openbaar vervoer.",
+          "arabic": "موقع سنتروم أسهل وصولاً بالمواصلات العامة.",
+          "note": "makkelijk bereikbaar collocation مهم للمواعيد."
+        },
+        {
+          "dutch": "De tijd is hetzelfde, maar de reistijd is korter.",
+          "arabic": "الوقت نفسه، لكن مدة السفر أقصر.",
+          "note": "reistijd تقارن جانباً آخر غير وقت الموعد."
+        },
+        {
+          "dutch": "Als beide tijden nog vrij zijn, kies ik liever de ochtend.",
+          "arabic": "إذا كان الوقتان ما يزالان متاحين، فأنا أفضل الصباح.",
+          "note": "beide tijden + liever لصياغة اختيار."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "makkelijk bereikbaar zijn",
+          "arabic": "يكون سهل الوصول"
+        },
+        {
+          "dutch": "een voorkeur hebben voor",
+          "arabic": "لديه تفضيل لـ"
+        },
+        {
+          "dutch": "een optie vergelijken",
+          "arabic": "يقارن خياراً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Welke locatie is dichter bij het station?",
+          "alternative": "Welke locatie is het makkelijkst te bereiken vanaf het station?",
+          "note": "الثانية تركز على سهولة الوصول لا المسافة فقط."
+        },
+        {
+          "dutch": "Dan kies ik liever woensdag.",
+          "alternative": "Dan heeft woensdag mijn voorkeur.",
+          "note": "الثانية أكثر رسمية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Centrum is meer dichtbij.",
+          "correct": "Centrum is dichterbij.",
+          "explanation": "dichtbij يأخذ dichterbij، لا meer dichtbij."
+        },
+        {
+          "wrong": "Ik kies liever voor woensdag omdat kom ik met de trein.",
+          "correct": "Ik kies liever voor woensdag omdat ik met de trein kom.",
+          "explanation": "بعد omdat يأتي الفعل المصرف في نهاية الجملة التابعة."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-confirming-a-replacement-appointment",
@@ -1390,7 +2258,69 @@
           "هل حسبت الحضور 13:50 وحددت الاستقبال؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De afspraak van dinsdag is komen te vervallen.",
+          "arabic": "تم إلغاء موعد الثلاثاء.",
+          "note": "komen te vervallen صيغة إدارية شائعة لـ vervallen."
+        },
+        {
+          "dutch": "U wordt tien minuten voor aanvang bij de receptie verwacht.",
+          "arabic": "يُتوقع حضوركم عند الاستقبال قبل البدء بعشر دقائق.",
+          "note": "voor aanvang تعني قبل وقت البدء."
+        },
+        {
+          "dutch": "Kunt u nog bevestigen in welke kamer het gesprek plaatsvindt?",
+          "arabic": "هل يمكنكم أيضاً تأكيد الغرفة التي ستجرى فيها المقابلة؟",
+          "note": "bevestigen in welke... مفيد للتفاصيل النهائية."
+        },
+        {
+          "dutch": "Ik noteer woensdag om tien uur in mijn agenda.",
+          "arabic": "سأدوّن الأربعاء الساعة العاشرة في مفكرتي.",
+          "note": "iets in de agenda noteren collocation عملي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een afspraak bevestigen",
+          "arabic": "يؤكد موعداً"
+        },
+        {
+          "dutch": "een afspraak vervalt",
+          "arabic": "يلغى موعد"
+        },
+        {
+          "dutch": "zich bij de receptie melden",
+          "arabic": "يسجل حضوره عند الاستقبال"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Uw afspraak op dinsdag vervalt.",
+          "alternative": "De afspraak van dinsdag gaat niet meer door.",
+          "note": "الثانية أكثر يومية وأقل إدارية."
+        },
+        {
+          "dutch": "Graag tien minuten eerder.",
+          "alternative": "Wilt u tien minuten van tevoren aanwezig zijn?",
+          "note": "صيغة أوضح وأكثر رسمية لطلب الوصول المبكر."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik ben tien minuten vroeger daar.",
+          "correct": "Ik ben tien minuten eerder daar.",
+          "explanation": "bij afspraken نستخدم eerder للوقت، لا vroeger."
+        },
+        {
+          "wrong": "Meld u op de receptie.",
+          "correct": "Meld u bij de receptie.",
+          "explanation": "في هذا السياق نستخدم bij de receptie."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-asking-for-an-appointment-update",
@@ -1457,7 +2387,69 @@
           "هل طلبت توضيح حالة التأكيد؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik bel even om te vragen hoe het met mijn verzoek staat.",
+          "arabic": "أتصل سريعاً لأسأل عن حالة طلبي.",
+          "note": "hoe het met ... staat صيغة شائعة للمتابعة."
+        },
+        {
+          "dutch": "Mijn verzoek is ontvangen, maar nog niet verwerkt.",
+          "arabic": "تم استلام طلبي لكنه لم يُعالج بعد.",
+          "note": "ontvangen مقابل verwerkt يميز الاستلام من المعالجة."
+        },
+        {
+          "dutch": "Wanneer verwacht u dat ik een definitief antwoord krijg?",
+          "arabic": "متى تتوقعون أن أحصل على جواب نهائي؟",
+          "note": "definitief antwoord يوضح أنك تنتظر قراراً نهائياً."
+        },
+        {
+          "dutch": "Ik wil alleen zeker weten dat mijn aanvraag goed is aangekomen.",
+          "arabic": "أريد فقط التأكد من أن طلبي وصل بشكل صحيح.",
+          "note": "zeker weten صيغة عملية للتأكد."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een verzoek verwerken",
+          "arabic": "يعالج طلباً"
+        },
+        {
+          "dutch": "een bevestiging ontvangen",
+          "arabic": "يتلقى تأكيداً"
+        },
+        {
+          "dutch": "een definitief antwoord krijgen",
+          "arabic": "يحصل على جواب نهائي"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Kunt u controleren of mijn verzoek is ontvangen?",
+          "alternative": "Kunt u nagaan of mijn verzoek goed is aangekomen?",
+          "note": "nagaan أكثر رسمية قليلاً من controleren في سياق المتابعة."
+        },
+        {
+          "dutch": "Wanneer kan ik een reactie verwachten?",
+          "alternative": "Wanneer hoor ik hier waarschijnlijk meer over?",
+          "note": "بديل يومي أقل رسمية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Mijn afspraak is nog niet vastgestaan.",
+          "correct": "Mijn afspraak staat nog niet vast.",
+          "explanation": "vaststaan هنا يستخدم في الحاضر بهذا التركيب."
+        },
+        {
+          "wrong": "Ik heb nog niet reactie ontvangen.",
+          "correct": "Ik heb nog geen reactie ontvangen.",
+          "explanation": "مع الاسم reactie نستخدم nog geen، لا nog niet."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-finding-an-earlier-appointment",
@@ -1653,7 +2645,69 @@
           "هل صغت الطلب سؤالاً مشروطاً بملاءمة المقاس؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Deze broek zit te strak bij de taille.",
+          "arabic": "هذا البنطال ضيق جداً عند الخصر.",
+          "note": "zitten + صفة شائع لوصف ملاءمة الملابس."
+        },
+        {
+          "dutch": "Heeft u hetzelfde model een maat groter?",
+          "arabic": "هل لديكم الموديل نفسه بمقاس أكبر؟",
+          "note": "een maat groter تعبير طبيعي عند طلب مقاس أعلى."
+        },
+        {
+          "dutch": "Ik wil hem eerst even passen.",
+          "arabic": "أريد تجربته أولاً بسرعة.",
+          "note": "even يجعل الطلب أخف وأكثر طبيعية."
+        },
+        {
+          "dutch": "Als deze maat goed zit, wil ik graag omruilen.",
+          "arabic": "إذا كان هذا المقاس مناسباً، أود الاستبدال.",
+          "note": "goed zitten تصف ملاءمة الملابس."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een maat groter / kleiner",
+          "arabic": "مقاس أكبر / أصغر"
+        },
+        {
+          "dutch": "goed zitten",
+          "arabic": "يكون مناسباً على الجسم"
+        },
+        {
+          "dutch": "iets passen",
+          "arabic": "يجرّب قطعة ملابس"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Het is te klein.",
+          "alternative": "Deze maat zit te strak.",
+          "note": "الثانية أدق عند الحديث عن الملابس على الجسم."
+        },
+        {
+          "dutch": "Ik wil graag maat L proberen.",
+          "alternative": "Mag ik deze ook in maat L passen?",
+          "note": "بديل طبيعي عندما تطلب نفس القطعة بمقاس آخر."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik wil een groter maat.",
+          "correct": "Ik wil een grotere maat.",
+          "explanation": "maat اسم de، لذلك تأتي الصفة مع -e: grotere."
+        },
+        {
+          "wrong": "Kan ik dit overhemd proberen?",
+          "correct": "Kan ik dit overhemd passen?",
+          "explanation": "للملابس نستخدم passen عادة عند تجربة المقاس."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-comparing-products",
@@ -1720,7 +2774,69 @@
           "هل ربطت الصفتين المختلفتين بـ maar وطلبت السعر؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Deze tas is iets goedkoper, maar die andere is steviger.",
+          "arabic": "هذه الحقيبة أرخص قليلاً، لكن الأخرى أكثر متانة.",
+          "note": "iets + comparative يخفف فرق المقارنة."
+        },
+        {
+          "dutch": "Ik vind de kleinere tas praktischer voor elke dag.",
+          "arabic": "أجد الحقيبة الأصغر أكثر عملية للاستخدام اليومي.",
+          "note": "praktischer voor يربط الصفة بالغرض."
+        },
+        {
+          "dutch": "De zwarte tas is duurder, maar er past meer in.",
+          "arabic": "الحقيبة السوداء أغلى، لكن تتسع لأشياء أكثر.",
+          "note": "er past meer in تعبير طبيعي للسعة."
+        },
+        {
+          "dutch": "Voor mijn budget is de blauwe tas de beste keuze.",
+          "arabic": "بالنسبة لميزانيتي، الحقيبة الزرقاء هي الخيار الأفضل.",
+          "note": "voor mijn budget يربط الاختيار بالحد المالي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "binnen het budget blijven",
+          "arabic": "يبقى ضمن الميزانية"
+        },
+        {
+          "dutch": "een keuze maken",
+          "arabic": "يتخذ خياراً"
+        },
+        {
+          "dutch": "praktisch voor dagelijks gebruik",
+          "arabic": "عملي للاستخدام اليومي"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Welke tas kiest u?",
+          "alternative": "Welke van de twee heeft uw voorkeur?",
+          "note": "الثانية أكثر رسمية وتناسب المقارنة بين خيارين."
+        },
+        {
+          "dutch": "Ik neem de blauwe tas.",
+          "alternative": "Dan ga ik voor de blauwe tas.",
+          "note": "gaan voor تعبير يومي شائع للاختيار."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Deze tas is meer goedkoop.",
+          "correct": "Deze tas is goedkoper.",
+          "explanation": "goedkoop يأخذ صيغة المقارنة goedkoper."
+        },
+        {
+          "wrong": "Deze tas is lichter als die tas.",
+          "correct": "Deze tas is lichter dan die tas.",
+          "explanation": "بعد صيغة المقارنة نستخدم dan."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-checking-quantities-and-prices",
@@ -1787,7 +2903,69 @@
           "هل سألت عن السعر والحجم دون افتراض الإجابة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Wat kost één stuk als ik er drie neem?",
+          "arabic": "كم سعر القطعة الواحدة إذا أخذت ثلاثاً؟",
+          "note": "er drie nemen يستخدم er مع عدد من شيء مذكور."
+        },
+        {
+          "dutch": "Is de prijs per stuk of per verpakking?",
+          "arabic": "هل السعر للقطعة أم للعبوة؟",
+          "note": "per verpakking مفيد عندما يكون العرض لمجموعة."
+        },
+        {
+          "dutch": "Hoeveel stuks zitten er in één set?",
+          "arabic": "كم قطعة توجد في مجموعة واحدة؟",
+          "note": "stuks يستخدم لعد القطع بشكل عملي."
+        },
+        {
+          "dutch": "Dan kom ik in totaal op twaalf euro vijftig.",
+          "arabic": "إذن يصبح الإجمالي اثني عشر يورو وخمسين سنتاً.",
+          "note": "in totaal op ... uitkomen تعبير للحساب النهائي."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "per stuk betalen",
+          "arabic": "يدفع للقطعة"
+        },
+        {
+          "dutch": "een set van twee",
+          "arabic": "مجموعة من قطعتين"
+        },
+        {
+          "dutch": "in totaal uitkomen op",
+          "arabic": "يصبح الإجمالي"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wat kosten deze bekers per stuk?",
+          "alternative": "Hoeveel kost één beker?",
+          "note": "الثانية أبسط إذا كان سعر القطعة هو المطلوب فقط."
+        },
+        {
+          "dutch": "Dat zijn drie bekers voor twaalf euro vijftig.",
+          "alternative": "Voor drie bekers betaalt u in totaal twaalf euro vijftig.",
+          "note": "الثانية أوضح في سياق الدفع."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Drie bekers kost twaalf euro.",
+          "correct": "Drie bekers kosten twaalf euro.",
+          "explanation": "Drie bekers جمع، لذلك نستخدم kosten."
+        },
+        {
+          "wrong": "Een set met twee kost acht euro per stuk.",
+          "correct": "Een set van twee kost acht euro.",
+          "explanation": "set van two تصف عدد القطع في المجموعة؛ per stuk سيغير المعنى."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-confirming-a-shop-alternative",
@@ -1854,7 +3032,69 @@
           "هل ذكرت موعد الاستلام وسألت عن المكان غير المؤكد؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De blauwe variant is uitverkocht, maar wit is nog beschikbaar.",
+          "arabic": "النسخة الزرقاء نفدت، لكن البيضاء ما زالت متاحة.",
+          "note": "uitverkocht يصف نفاد المخزون."
+        },
+        {
+          "dutch": "Wilt u het alternatief voor dezelfde prijs?",
+          "arabic": "هل تريدون البديل بالسعر نفسه؟",
+          "note": "voor dezelfde prijs يثبت أن السعر لم يتغير."
+        },
+        {
+          "dutch": "Ik pas de bestelling aan en leg alles voor u klaar.",
+          "arabic": "سأعدّل الطلب وأجهز كل شيء لكم.",
+          "note": "klaarleggen يعني تجهيز شيء للاستلام."
+        },
+        {
+          "dutch": "Kunt u bevestigen dat beide artikelen vandaag klaarliggen?",
+          "arabic": "هل يمكنكم تأكيد أن القطعتين جاهزتان اليوم للاستلام؟",
+          "note": "klaarliggen يختلف عن alleen op voorraad zijn."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "op voorraad zijn",
+          "arabic": "يكون متوفراً في المخزون"
+        },
+        {
+          "dutch": "een bestelling aanpassen",
+          "arabic": "يعدّل طلبية"
+        },
+        {
+          "dutch": "iets klaarleggen",
+          "arabic": "يجهّز شيئاً للاستلام"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik neem liever één blauwe en één witte kom.",
+          "alternative": "Mijn voorkeur is één blauwe en één witte kom.",
+          "note": "الثانية أكثر رسمية قليلاً."
+        },
+        {
+          "dutch": "Liggen beide kommen al klaar?",
+          "alternative": "Zijn beide kommen al klaargelegd?",
+          "note": "البديل يستخدم صيغة المبني للمجهول/النتيجة."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "We hebben nog één blauwe kom in stock.",
+          "correct": "We hebben nog één blauwe kom op voorraad.",
+          "explanation": "التعبير الهولندي الطبيعي هو op voorraad."
+        },
+        {
+          "wrong": "Ik pas aan uw bestelling.",
+          "correct": "Ik pas uw bestelling aan.",
+          "explanation": "aanpassen فعل منفصل: pas ... aan."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-asking-about-a-return",
@@ -2050,7 +3290,69 @@
           "هل استخدمت mee te nemen بعد hoef وmeenemen بعد moet؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De bijeenkomst is niet verplicht, maar aanmelden is wel nodig als u komt.",
+          "arabic": "الاجتماع غير إلزامي، لكن التسجيل مطلوب إذا حضرتم.",
+          "note": "يفصل بين vrijwillig وverplicht binnen een voorwaarde."
+        },
+        {
+          "dutch": "U hoeft niets mee te nemen; alles ligt daar klaar.",
+          "arabic": "لا تحتاجون إلى إحضار شيء؛ كل شيء مجهز هناك.",
+          "note": "hoeven ... niet te لنفي الحاجة."
+        },
+        {
+          "dutch": "Als u deelneemt, krijgt u bij de ingang een naamkaartje.",
+          "arabic": "إذا شاركتم، ستحصلون عند المدخل على بطاقة اسم.",
+          "note": "als يربط الشرط بالإجراء."
+        },
+        {
+          "dutch": "Lees vooral goed wat verplicht en wat optioneel is.",
+          "arabic": "اقرؤوا جيداً خصوصاً ما هو إلزامي وما هو اختياري.",
+          "note": "verplicht tegenover optioneel distinction مهم في الرسائل."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "zich aanmelden voor",
+          "arabic": "يسجل نفسه في"
+        },
+        {
+          "dutch": "deelname is vrijwillig",
+          "arabic": "المشاركة اختيارية"
+        },
+        {
+          "dutch": "iets mee moeten nemen",
+          "arabic": "يجب أن يحضر شيئاً معه"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "U hoeft niet te komen.",
+          "alternative": "Uw aanwezigheid is niet verplicht.",
+          "note": "الثانية أكثر رسمية."
+        },
+        {
+          "dutch": "Moet ik me aanmelden?",
+          "alternative": "Is aanmelden nodig?",
+          "note": "بديل مختصر ومحايد."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "U hoeft niet komen.",
+          "correct": "U hoeft niet te komen.",
+          "explanation": "بعد hoeven يأتي te + infinitief."
+        },
+        {
+          "wrong": "Ik moet mij aanmelden als ik kom vrijwillig.",
+          "correct": "Als ik kom, moet ik mij aanmelden.",
+          "explanation": "ضع الشرط أولاً أو بعد الجملة الرئيسية؛ vrijwillig تصف المشاركة لا التسجيل."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-finding-a-reply-deadline",
@@ -2117,7 +3419,69 @@
           "هل سألت عن وسيلة الرد أيضاً؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Uiterlijk dinsdag om twaalf uur moet uw antwoord binnen zijn.",
+          "arabic": "يجب أن يصل ردكم في موعد أقصاه الثلاثاء الساعة الثانية عشرة.",
+          "note": "binnen zijn يعني أن الرد وصل قبل المهلة."
+        },
+        {
+          "dutch": "De activiteit is donderdag; de reactietermijn loopt eerder af.",
+          "arabic": "النشاط يوم الخميس؛ مهلة الرد تنتهي قبل ذلك.",
+          "note": "aflopen يستخدم للمهل."
+        },
+        {
+          "dutch": "Kunt u vóór de deadline laten weten of u komt?",
+          "arabic": "هل يمكنكم قبل المهلة إبلاغنا إن كنتم ستأتون؟",
+          "note": "laten weten of... صيغة عملية للرد."
+        },
+        {
+          "dutch": "Ik stuur mijn antwoord vandaag nog, dan ben ik op tijd.",
+          "arabic": "سأرسل ردي اليوم نفسه، وبذلك أكون ضمن الوقت.",
+          "note": "op tijd zijn يتعلق بالالتزام بالمهلة."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een deadline halen",
+          "arabic": "يلتزم بالمهلة"
+        },
+        {
+          "dutch": "voor een datum reageren",
+          "arabic": "يرد قبل تاريخ"
+        },
+        {
+          "dutch": "een antwoord is binnen",
+          "arabic": "وصل الرد"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wilt u voor dinsdag twaalf uur reageren?",
+          "alternative": "Wilt u uiterlijk dinsdag om twaalf uur reageren?",
+          "note": "uiterlijk يجعل معنى أقصى موعد أوضح."
+        },
+        {
+          "dutch": "Laat ons ook weten als u niet komt.",
+          "alternative": "Geef het ook door als u verhinderd bent.",
+          "note": "verhinderd أكثر رسمية وتعني غير قادر على الحضور."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "De deadline is op dinsdag om donderdag te komen.",
+          "correct": "De deadline is dinsdag; de bijeenkomst is donderdag.",
+          "explanation": "افصل بين مهلة الرد وموعد الحدث."
+        },
+        {
+          "wrong": "Ik reageer tot dinsdag twaalf uur.",
+          "correct": "Ik reageer voor dinsdag twaalf uur.",
+          "explanation": "في هذا السياق نستخدم voor لتحديد المهلة."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-clarifying-a-local-form",
@@ -2184,7 +3548,69 @@
           "هل كتبت in te vullen في الجملة الثانية؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Welke velden moet ik verplicht invullen?",
+          "arabic": "أي الحقول يجب أن أملأها إلزامياً؟",
+          "note": "velden invullen collocation شائع في الاستمارات."
+        },
+        {
+          "dutch": "Bij aantal deelnemers telt u uzelf ook mee.",
+          "arabic": "في خانة عدد المشاركين، تحسبون أنفسكم أيضاً.",
+          "note": "meetellen يعني يدخل ضمن العدد."
+        },
+        {
+          "dutch": "Het telefoonnummer mag u leeg laten.",
+          "arabic": "يمكنكم ترك رقم الهاتف فارغاً.",
+          "note": "leeg laten بديل طبيعي لـ niet invullen."
+        },
+        {
+          "dutch": "Ik wil zeker weten dat ik het formulier goed invul.",
+          "arabic": "أريد التأكد من أنني أملأ الاستمارة بشكل صحيح.",
+          "note": "zeker weten + bijzin للتحقق."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een veld invullen",
+          "arabic": "يملأ خانة"
+        },
+        {
+          "dutch": "een veld leeg laten",
+          "arabic": "يترك خانة فارغة"
+        },
+        {
+          "dutch": "iemand meetellen",
+          "arabic": "يحسب شخصاً ضمن العدد"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Wat bedoelt u met het aantal deelnemers?",
+          "alternative": "Wat moet ik invullen bij aantal deelnemers?",
+          "note": "الثانية أكثر مباشرة داخل الاستمارة."
+        },
+        {
+          "dutch": "Dat veld is optioneel.",
+          "alternative": "Dat hoeft u niet in te vullen.",
+          "note": "بديل أبسط يشرح النتيجة العملية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik vul twee personen op.",
+          "correct": "Ik vul twee in.",
+          "explanation": "مع خانة رقمية نستخدم invullen أو kort: twee invullen."
+        },
+        {
+          "wrong": "Mijn telefoonnummer is niet verplicht om invullen.",
+          "correct": "Ik hoef mijn telefoonnummer niet in te vullen.",
+          "explanation": "استخدم hoeven ... niet te + infinitief."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-writing-a-relevant-reply",
@@ -2252,7 +3678,69 @@
           "هل سألت عن تفضيل أختك بدل اتخاذ القرار عنها؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Bedankt voor uw bericht. Ik kom zaterdag alleen.",
+          "arabic": "شكراً على رسالتكم. سأحضر السبت وحدي.",
+          "note": "رد قصير يبدأ بتأكيد التغيير المهم."
+        },
+        {
+          "dutch": "Mijn zus kan helaas niet mee, omdat ze moet werken.",
+          "arabic": "للأسف لا تستطيع أختي الحضور معي لأنها يجب أن تعمل.",
+          "note": "mee kunnen يصف الحضور مع شخص."
+        },
+        {
+          "dutch": "Ik maak graag gebruik van een laptop van het buurthuis.",
+          "arabic": "أود الاستفادة من حاسوب محمول من مركز الحي.",
+          "note": "gebruikmaken van أكثر رسمية من gebruiken."
+        },
+        {
+          "dutch": "Kunt u bevestigen dat mijn aanmelding nu voor één persoon staat?",
+          "arabic": "هل يمكنكم تأكيد أن تسجيلي أصبح الآن لشخص واحد؟",
+          "note": "staan op één persoon يصف الحالة الحالية."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "op een bericht reageren",
+          "arabic": "يرد على رسالة"
+        },
+        {
+          "dutch": "een wijziging doorgeven",
+          "arabic": "ينقل تغييراً"
+        },
+        {
+          "dutch": "gebruikmaken van",
+          "arabic": "يستفيد من / يستخدم"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Daarom kom ik alleen.",
+          "alternative": "Dus ik kom alleen.",
+          "note": "dus أكثر مباشرة في الرد القصير."
+        },
+        {
+          "dutch": "Ik wil graag een laptop van het buurthuis gebruiken.",
+          "alternative": "Ik maak graag gebruik van een laptop van het buurthuis.",
+          "note": "الثانية أكثر رسمية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik reageer uw bericht.",
+          "correct": "Ik reageer op uw bericht.",
+          "explanation": "reageren يحتاج op."
+        },
+        {
+          "wrong": "Mijn zus kan niet komen omdat ze werkt moet.",
+          "correct": "Mijn zus kan niet komen omdat ze moet werken.",
+          "explanation": "في مجموعة الأفعال داخل omdat يأتي infinitief في النهاية بعد modal."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-relaying-a-schedule-change",
@@ -2448,7 +3936,69 @@
           "هل حددت المكان وطلبت الاتفاق؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Zullen we eerst afspreken waar we elkaar ontmoeten?",
+          "arabic": "هل نتفق أولاً أين سنلتقي؟",
+          "note": "استخدام elkaar ontmoeten مناسب عندما تريد تحديد مكان التقاء شخصين أو أكثر."
+        },
+        {
+          "dutch": "De trein vertrekt om 09.20, dus laten we om 09.05 afspreken.",
+          "arabic": "القطار يغادر 09:20، لذا لنتفق على 09:05.",
+          "note": "laten we + infinitief اقتراح مباشر."
+        },
+        {
+          "dutch": "Ik kijk vanavond nog even naar de route.",
+          "arabic": "سألقي نظرة مساء اليوم على المسار.",
+          "note": "nog even يجعل الفعل خفيفاً وطبيعياً."
+        },
+        {
+          "dutch": "We hebben dan genoeg tijd om een kaartje te kopen.",
+          "arabic": "سيكون لدينا وقت كافٍ لشراء تذكرة.",
+          "note": "genoeg tijd om ... te تركيب مهم."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een dagje uit",
+          "arabic": "رحلة / نزهة ليوم واحد"
+        },
+        {
+          "dutch": "ergens afspreken",
+          "arabic": "يتفق على اللقاء في مكان"
+        },
+        {
+          "dutch": "genoeg tijd hebben om",
+          "arabic": "لديه وقت كافٍ لـ"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Waar en hoe laat spreken we af?",
+          "alternative": "Waar zullen we elkaar ontmoeten en hoe laat?",
+          "note": "الثانية أكثر صراحة في معنى اللقاء."
+        },
+        {
+          "dutch": "We gaan een museum bezoeken.",
+          "alternative": "We gaan naar een museum.",
+          "note": "الثانية أبسط وأكثر محادثية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "We spreken af om vijf over negen in.",
+          "correct": "We spreken om vijf over negen in de stationshal af.",
+          "explanation": "afspreken فعل منفصل؛ af في النهاية."
+        },
+        {
+          "wrong": "De trein gaat om negen twintig.",
+          "correct": "De trein vertrekt om negen uur twintig.",
+          "explanation": "vertrekken أدق لمغادرة القطار."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-comparing-travel-routes",
@@ -2515,7 +4065,69 @@
           "هل طلبت بديلاً دون اختراع توفره؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De trein is sneller, maar ik moet één keer overstappen.",
+          "arabic": "القطار أسرع، لكن يجب أن أبدل مرة واحدة.",
+          "note": "één keer overstappen يصف عدد التبديلات."
+        },
+        {
+          "dutch": "De bus duurt langer, maar rijdt rechtstreeks.",
+          "arabic": "الحافلة تستغرق وقتاً أطول لكنها مباشرة.",
+          "note": "عبارة rechtstreeks rijden تصف وسيلة تسير مباشرة من دون تبديل."
+        },
+        {
+          "dutch": "Welke route heeft de minste overstappen?",
+          "arabic": "أي مسار فيه أقل عدد من التبديلات؟",
+          "note": "de minste تأتي مع اسم جمع هنا لتسأل عن أقل عدد من مرات التبديل."
+        },
+        {
+          "dutch": "Voor mij is gemak belangrijker dan tien minuten tijdwinst.",
+          "arabic": "بالنسبة لي الراحة أهم من توفير عشر دقائق.",
+          "note": "belangrijker dan تساعد على توضيح أن الراحة أهم من توفير بضع دقائق."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "rechtstreeks reizen",
+          "arabic": "يسافر مباشرة"
+        },
+        {
+          "dutch": "moeten overstappen",
+          "arabic": "يجب أن يبدل وسيلة"
+        },
+        {
+          "dutch": "reistijd besparen",
+          "arabic": "يوفر وقت السفر"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "De bus is langzamer.",
+          "alternative": "Met de bus doe je er langer over.",
+          "note": "doen over طريقة طبيعية للمدة."
+        },
+        {
+          "dutch": "Ik neem liever de bus.",
+          "alternative": "Ik kies voor de bus.",
+          "note": "الثانية قرار مباشر؛ liever يبرز التفضيل."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "De trein duurt dertig minuten lang.",
+          "correct": "De treinreis duurt dertig minuten.",
+          "explanation": "duur duration يتعلق بالرحلة لا القطار نفسه."
+        },
+        {
+          "wrong": "Ik moet overstappen één keer.",
+          "correct": "Ik moet één keer overstappen.",
+          "explanation": "عدد المرات يأتي قبل infinitief."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-reporting-a-travel-delay",
@@ -2583,7 +4195,69 @@
           "هل نقلت المعلومات الحالية فقط دون إضافة تفاصيل غير موجودة؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "De verwachte aankomsttijd is nu 10.50.",
+          "arabic": "وقت الوصول المتوقع الآن 10:50.",
+          "note": "verwachte aankomsttijd شائع في السفر."
+        },
+        {
+          "dutch": "Ik ben waarschijnlijk twintig minuten later dan afgesproken.",
+          "arabic": "من المحتمل أن أتأخر عشرين دقيقة عن الموعد المتفق عليه.",
+          "note": "later dan afgesproken يربط التأخير بالخطة."
+        },
+        {
+          "dutch": "Wacht maar binnen; ik laat het weten als er iets verandert.",
+          "arabic": "انتظر في الداخل؛ سأخبرك إذا تغير شيء.",
+          "note": "laat het weten شائع للتحديثات."
+        },
+        {
+          "dutch": "Volgens de app blijft spoor vijf hetzelfde.",
+          "arabic": "وفق التطبيق يبقى المسار الخامس كما هو.",
+          "note": "استخدام volgens مع مصدر مثل app أو scherm يوضح من أين جاءت المعلومة."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "vertraging hebben",
+          "arabic": "يكون لديه تأخير"
+        },
+        {
+          "dutch": "naar verwachting aankomen",
+          "arabic": "يصل حسب المتوقع"
+        },
+        {
+          "dutch": "iemand op de hoogte houden",
+          "arabic": "يبقي شخصاً على اطلاع"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Mijn trein heeft twintig minuten vertraging.",
+          "alternative": "Mijn trein is twintig minuten vertraagd.",
+          "note": "كلاهما طبيعي؛ الأولى شائعة جداً في الإعلانات."
+        },
+        {
+          "dutch": "Laat het weten als er iets verandert.",
+          "alternative": "Houd me even op de hoogte.",
+          "note": "الثانية أوسع وتعني أبقني مطلعاً."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik kom twintig minuten te laat later.",
+          "correct": "Ik kom twintig minuten later.",
+          "explanation": "لا نجمع te laat وlater بهذه الطريقة."
+        },
+        {
+          "wrong": "Volgens het scherm ik kom om tien voor elf.",
+          "correct": "Volgens het scherm kom ik om tien voor elf.",
+          "explanation": "بعد fronted phrase يحدث inversion."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-agreeing-on-another-route",
@@ -2650,7 +4324,69 @@
           "هل طلبت الموافقة على البديل؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Als de trein uitvalt, neem ik de bus.",
+          "arabic": "إذا أُلغي القطار، سأخذ الحافلة.",
+          "note": "uitvallen شائع لإلغاء خدمة."
+        },
+        {
+          "dutch": "Met de bus ben ik net voor twaalf uur op het station.",
+          "arabic": "بالحافلة سأكون في المحطة قبل الثانية عشرة بقليل.",
+          "note": "net voor تعني قبل الوقت بقليل، وليست قبل مدة طويلة."
+        },
+        {
+          "dutch": "Laten we dezelfde ontmoetingsplek houden.",
+          "arabic": "دعنا نبقي مكان اللقاء نفسه.",
+          "note": "dezelfde ... houden للحفاظ على جزء من الخطة."
+        },
+        {
+          "dutch": "Als de bus ook vertraging heeft, stuur ik meteen een bericht.",
+          "arabic": "إذا تأخرت الحافلة أيضاً، سأرسل رسالة فوراً.",
+          "note": "meteen تؤكد أن إرسال التحديث يجب أن يحدث فوراً."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een route aanpassen",
+          "arabic": "يعدل المسار"
+        },
+        {
+          "dutch": "een alternatief nemen",
+          "arabic": "يأخذ بديلاً"
+        },
+        {
+          "dutch": "een ontmoetingsplek afspreken",
+          "arabic": "يتفق على مكان لقاء"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Dan neem ik de bus in plaats van de trein.",
+          "alternative": "Dan reis ik verder met de bus.",
+          "note": "الثانية تركز على استمرار الرحلة."
+        },
+        {
+          "dutch": "Zullen we bij de ingang afspreken?",
+          "alternative": "Laten we elkaar bij de ingang ontmoeten.",
+          "note": "اقتراح مباشر بصيغة laten we."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Mijn trein rijdt vandaag niet door een annulering.",
+          "correct": "Mijn trein rijdt vandaag niet / is uitgevallen.",
+          "explanation": "في الاستخدام العملي يكفي rides niet أو is uitgevallen."
+        },
+        {
+          "wrong": "We spreken om tien voor twaalf bij de ingang.",
+          "correct": "We spreken om tien voor twaalf bij de ingang af.",
+          "explanation": "afspreken فعل منفصل."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-handling-a-missed-connection",
@@ -2846,7 +4582,69 @@
           "هل فصلت التقييم عن المعلومات الواقعية؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Het was druk, maar de sfeer was heel gezellig.",
+          "arabic": "كان المكان مزدحماً، لكن الأجواء كانت لطيفة جداً.",
+          "note": "de sfeer تصف الأجواء العامة للمكان أو المناسبة."
+        },
+        {
+          "dutch": "Ik heb nieuwe mensen leren kennen.",
+          "arabic": "تعرفت إلى أشخاص جدد.",
+          "note": "mensen leren kennen collocation اجتماعي مهم."
+        },
+        {
+          "dutch": "We bleven langer dan we van plan waren.",
+          "arabic": "بقينا أطول مما كنا نخطط.",
+          "note": "langer dan مفيدة عند مقارنة مدة البقاء بما كان مخططاً له."
+        },
+        {
+          "dutch": "Volgende keer wil ik wat eerder gaan.",
+          "arabic": "في المرة القادمة أريد الذهاب أبكر قليلاً.",
+          "note": "volgende keer تساعد على إضافة تقييم أو نية تخص المرة القادمة."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "mensen leren kennen",
+          "arabic": "يتعرف إلى أشخاص"
+        },
+        {
+          "dutch": "een gezellige sfeer",
+          "arabic": "أجواء لطيفة"
+        },
+        {
+          "dutch": "het naar je zin hebben",
+          "arabic": "يستمتع"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik vond het gezellig.",
+          "alternative": "Ik heb het erg naar mijn zin gehad.",
+          "note": "الثانية أكثر تعبيراً عن الاستمتاع."
+        },
+        {
+          "dutch": "Het was wel druk.",
+          "alternative": "Er waren behoorlijk veel mensen.",
+          "note": "بديل وصفي مباشر."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik heb naar een feest gegaan.",
+          "correct": "Ik ben naar een feest gegaan.",
+          "explanation": "gaan يأتي هنا مع zijn."
+        },
+        {
+          "wrong": "Ik vond het gezellig maar druk was.",
+          "correct": "Ik vond het gezellig, maar het was druk.",
+          "explanation": "بعد maar تبدأ جملة رئيسية كاملة."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-asking-follow-up-questions",
@@ -2913,7 +4711,69 @@
           "هل انتقلت من الوقائع إلى الرأي؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Wat vond je er het leukst aan?",
+          "arabic": "ما أكثر شيء أعجبك فيه؟",
+          "note": "التركيب er ... aan مفيد للسؤال عن جانب محدد أعجب الشخص في تجربة ما."
+        },
+        {
+          "dutch": "Hoe kende je de mensen daar?",
+          "arabic": "كيف كنت تعرف الأشخاص هناك؟",
+          "note": "هذا السؤال يستوضح العلاقة أو السياق الذي عرف منه الشخص الآخرين."
+        },
+        {
+          "dutch": "Ben je lang gebleven?",
+          "arabic": "هل بقيت طويلاً؟",
+          "note": "Ben je lang gebleven? بديل قصير وطبيعي لسؤال Hoe lang ben je gebleven?"
+        },
+        {
+          "dutch": "Zou je nog een keer gaan?",
+          "arabic": "هل ستذهب مرة أخرى؟",
+          "note": "هذا سؤال متابعة ينتقل من تقييم التجربة إلى نية تكرارها مستقبلاً."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een vervolgvraag stellen",
+          "arabic": "يطرح سؤال متابعة"
+        },
+        {
+          "dutch": "ergens geweest zijn",
+          "arabic": "يكون قد زار مكاناً"
+        },
+        {
+          "dutch": "ergens lang blijven",
+          "arabic": "يبقى طويلاً في مكان"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Met wie ben je gegaan?",
+          "alternative": "Wie was er met je mee?",
+          "note": "الثانية محادثية أكثر."
+        },
+        {
+          "dutch": "Wat vond je het interessantst?",
+          "alternative": "Wat sprak je het meest aan?",
+          "note": "spreeekt aan يسأل عما جذبك."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Hoe lang heb je gebleven?",
+          "correct": "Hoe lang ben je gebleven?",
+          "explanation": "blijven يأخذ zijn في الماضي المركب."
+        },
+        {
+          "wrong": "Waar was het open dag?",
+          "correct": "Waar was de open dag?",
+          "explanation": "open dag اسم de."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-responding-to-an-invitation",
@@ -2980,7 +4840,69 @@
           "هل سألت عن التفاصيل الناقصة فقط؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Leuk idee, daar heb ik wel zin in.",
+          "arabic": "فكرة جميلة، لدي رغبة في ذلك.",
+          "note": "zin hebben in تعبير شائع جداً لإظهار الرغبة في قبول نشاط أو دعوة."
+        },
+        {
+          "dutch": "Vrijdag lukt helaas niet, maar zaterdag ben ik vrij.",
+          "arabic": "الجمعة لا تناسبني للأسف، لكن السبت أنا متفرغ.",
+          "note": "استخدام lukt niet ثم تقديم بديل يجعل الاعتذار عملياً وواضحاً."
+        },
+        {
+          "dutch": "Zullen we anders zondagmiddag afspreken?",
+          "arabic": "هل نتفق بدلاً من ذلك على بعد ظهر الأحد؟",
+          "note": "anders تجعل اقتراح الموعد البديل أخف وأكثر طبيعية في الحوار."
+        },
+        {
+          "dutch": "Laat maar weten welke tijd jou uitkomt.",
+          "arabic": "أخبرني أي وقت يناسبك.",
+          "note": "jou uitkomen صيغة غير رسمية للسؤال عن الوقت الذي يناسب الشخص الآخر."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "zin hebben in",
+          "arabic": "يرغب في"
+        },
+        {
+          "dutch": "een uitnodiging aannemen",
+          "arabic": "يقبل دعوة"
+        },
+        {
+          "dutch": "een alternatief voorstellen",
+          "arabic": "يقترح بديلاً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Dat komt goed uit.",
+          "alternative": "Dat past prima voor mij.",
+          "note": "كلاهما طبيعي للمواعيد الاجتماعية."
+        },
+        {
+          "dutch": "Kan het ook op zaterdagmiddag?",
+          "alternative": "Zou zaterdagmiddag ook kunnen?",
+          "note": "الثانية ألطف قليلاً."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik heb zin om koffie.",
+          "correct": "Ik heb zin in koffie / om koffie te drinken.",
+          "explanation": "zin in + noun أو zin om ... te + infinitief."
+        },
+        {
+          "wrong": "Vrijdag past niet voor mij.",
+          "correct": "Vrijdag komt mij niet uit.",
+          "explanation": "uitkomen هو التعبير الطبيعي لمواءمة الموعد."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-confirming-a-social-plan",
@@ -3047,7 +4969,69 @@
           "هل أعدت الوقت والمكان الحاليين؟"
         ]
       }
-    ]
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Dan staat zaterdag om drie uur vast.",
+          "arabic": "إذن السبت الساعة الثالثة أصبح مؤكداً.",
+          "note": "vaststaan يمكن أن يوضح أن الموعد أصبح نهائياً ومؤكداً."
+        },
+        {
+          "dutch": "Zullen we elkaar bij de hoofdingang ontmoeten?",
+          "arabic": "هل نلتقي عند المدخل الرئيسي؟",
+          "note": "elkaar ontmoeten بديل طبيعي لـ afspreken عندما تريد التأكيد على مكان اللقاء."
+        },
+        {
+          "dutch": "Ik neem drinken mee; neem jij iets te eten mee?",
+          "arabic": "سأحضر شراباً؛ هل تحضر أنت شيئاً للأكل؟",
+          "note": "الجملة تقسم ما سيحضره كل شخص بشكل متوازٍ وواضح."
+        },
+        {
+          "dutch": "Mocht er iets veranderen, stuur dan even een bericht.",
+          "arabic": "إذا طرأ أي تغيير، فأرسل رسالة سريعة.",
+          "note": "mocht ... صيغة شرطية أكثر رسمية قليلاً، ومن المفيد التعرف عليها هنا دون جعلها هدفاً نحوياً أساسياً."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een afspraak staat vast",
+          "arabic": "الموعد مؤكد"
+        },
+        {
+          "dutch": "iets meenemen",
+          "arabic": "يحضر شيئاً معه"
+        },
+        {
+          "dutch": "een plan bevestigen",
+          "arabic": "يؤكد خطة"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Afgesproken.",
+          "alternative": "Dan staat het vast.",
+          "note": "الثانية تؤكد أن التفاصيل أصبحت نهائية."
+        },
+        {
+          "dutch": "Laat het weten als er iets verandert.",
+          "alternative": "Stuur even een bericht als er iets wijzigt.",
+          "note": "wijzigen أكثر رسمية من veranderen."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "We spreken bij de ingang om drie uur.",
+          "correct": "We spreken om drie uur bij de ingang af.",
+          "explanation": "afspreken فعل منفصل؛ af في نهاية الجملة."
+        },
+        {
+          "wrong": "Neem je mee iets te drinken?",
+          "correct": "Neem je iets te drinken mee?",
+          "explanation": "المفعول يأتي قبل الجزء المنفصل mee."
+        }
+      ]
+    }
   },
   {
     "lessonSlug": "a2-following-up-after-a-social-event",

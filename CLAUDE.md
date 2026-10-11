@@ -336,3 +336,58 @@ New lesson depth should favour contextual examples, collocations, natural altern
 PR #32 establishes the first structured `languageDepth` benchmark on its eight new fifth A2 lessons: each has 4 extra examples, 3 collocations, 2 alternatives and 2 common-mistake contrasts in addition to 8 core phrases, vocabulary/form notes, quiz and production. The block is optional while rollout is incomplete, and `validateLearningMap` validates any block that is present.
 
 After PR #32, roll this depth structure through the preceding 32 A2 lessons in unit-sized PRs, then build a cross-unit lexical/recycling matrix. Do not equate richer content or higher counts with validated CEFR proficiency.
+
+
+### A2 Unit 1 language-depth handoff (2026-10-10, current)
+
+A2 Unit 1 (`a2-recent-activities`) is now the first unit where all five lessons satisfy the structured language-rich benchmark. Read `docs/A2_UNIT1_LANGUAGE_DEPTH.md`.
+
+This pass adds `languageDepth` to the four historical Unit 1 lessons; the fifth lesson already had it from PR #32. Each of the five lessons now has 4 extra contextual examples, 3 collocations, 2 natural alternatives and 2 common-mistake contrasts.
+
+Current A2 language-depth coverage is **12/40 lessons**: all five Unit 1 lessons plus the fifth lesson in each of Units 2–8. Core phrase/audio IDs are unchanged; extra depth examples are not automatically added to the controlled audio bank.
+
+Native and browser tests explicitly require Unit 1 to remain 5/5 language-rich. Next rollout target is Unit 2 (`a2-work-coordination`) across its four older lessons, then continue unit by unit.
+
+
+### A2 Unit 2 language-depth handoff (2026-10-11, current)
+
+The same PR now also completes Unit 2 (`a2-work-coordination`) at 5/5 structured `languageDepth`. Read `docs/A2_UNIT2_LANGUAGE_DEPTH.md`.
+
+The four historical Unit 2 lessons now add workplace-focused examples, collocations, natural alternatives and common-mistake contrasts around progress reporting, delays, clarification, handover and responsibility. The fifth priorities lesson was already enriched in PR #32.
+
+Current A2 structured depth coverage is **16/40 lessons**: Units 1 and 2 are complete, and the fifth lesson of Units 3–8 remains enriched.
+
+No core phrase/audio IDs changed. Tests now require both Units 1 and 2 to remain 5/5 language-rich and mobile-safe. Continue on this same PR with Unit 3 (`a2-housing-services`) if the user asks to keep working in the same PR.
+
+
+### A2 Unit 3 language-depth handoff (2026-10-11, current)
+
+This same PR now also completes Unit 3 (`a2-housing-services`) at 5/5 structured `languageDepth`. Read `docs/A2_UNIT3_LANGUAGE_DEPTH.md`.
+
+The four historical Unit 3 lessons now add housing/service-focused examples, collocations, alternatives and common mistakes around recurring problems, comparisons, repair scheduling and post-repair follow-up. The fifth preparation lesson was already enriched in PR #32.
+
+Current structured A2 depth coverage is **20/40 lessons**. Units 1–3 are complete; Units 4–8 retain their fifth enriched lesson.
+
+No core phrase/audio IDs changed. Native and browser tests require Units 1–3 to remain fully enriched and mobile-safe.
+
+
+### A2 Unit 4 language-depth handoff (2026-10-11, current)
+
+This same PR now also completes Unit 4 (`a2-appointments-followup`) at 5/5 structured `languageDepth`.
+
+The four historical Unit 4 lessons now add appointment-focused examples, collocations, alternatives and common mistakes around schedule conflicts, comparing options, confirming replacement appointments and following up on pending requests. The fifth earlier-slot lesson was already enriched in PR #32.
+
+Current structured A2 depth coverage is **24/40 lessons**. Units 1–4 are complete; Units 5–8 retain their fifth enriched lesson.
+
+No core phrase/audio IDs changed. Native and browser tests require Units 1–4 to remain fully enriched and mobile-safe.
+
+
+### A2 language-depth completion handoff (2026-10-11, current)
+
+PR #33 now completes structured `languageDepth` across **all 40 A2 lessons**. Read `docs/A2_LANGUAGE_DEPTH_COMPLETE.md`.
+
+A2 now contains 160 additional contextual examples, 120 collocations, 80 natural alternative phrasings and 80 common-mistake contrasts on top of the existing 320 core lesson phrases, 160 lesson questions, 240 vocabulary/form notes and 80 open production tasks.
+
+All eight A2 units are 5/5 language-rich. Native tests enforce 40 enriched lessons and 5/5 coverage for every unit; browser tests cover the enriched lessons on mobile.
+
+Do not immediately add another blanket depth layer. The next professional step is an A2 lexical/recycling audit followed by targeted retrieval/transformation exercises. Language-depth examples remain outside the controlled audio inventory unless deliberately selected later.
