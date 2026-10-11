@@ -2,7 +2,7 @@
 
 An Arabic-first Dutch learning website built with Next.js and TypeScript. The long-term model is free lessons and optional full practice-exam attempts at **€4.95 each**. DutchFlow is independent and does not issue official Dutch-language certificates.
 
-Eight A2 units are now available as an authored preview: thirty-two lessons on recent activities, work coordination, housing/services, appointments/follow-up, shopping/choices, school/local messages, travel/plans, and social experiences/invitations, plus reading, listening, writing and guided interaction. Use the level links on `/learn` or open `/a2`. A1 and A2 progress have separate totals; existing A1 URLs and progress are preserved. See [A2 unit 8 delivery notes](docs/A2_SOCIAL_EXPERIENCES.md). The proposed eight-unit sequence is authored, but a whole-sequence coverage audit, real recorded audio and independent review remain pending.
+Eight A2 units are now available as an authored preview: forty lessons on recent activities, work coordination, housing/services, appointments/follow-up, shopping/choices, school/local messages, travel/plans, and social experiences/invitations, plus reading, listening, writing and guided interaction. Use the level links on `/learn` or open `/a2`. A1 and A2 progress have separate totals; existing A1 URLs and progress are preserved. All 40 lessons include contextual language depth. The internal coverage audit and editorial pass are complete; real recorded audio, independent review and learner observation remain pending. See [cross-unit recycling and the current inventory](docs/A2_RECYCLING.md).
 
 ## Run locally
 
@@ -37,7 +37,11 @@ The A1 lesson content lives in `src/data/lessons.json`, and ordered modules live
 - `/a1-practice` supplies ten unit reviews and a cumulative free review: 11 new reading sources, 11 short connected listening passages, 90 evidenced questions, 22 writing tasks and 22 oral/partner tasks with examples and self-review criteria. These sources are separate from the 27 reading-library texts.
 - `/grammar` collects the 53 lesson grammar notes plus four foundation tables for verbs, questions, noun plurals and pronouns/possession. `/pronunciation` supplies 13 sound/alphabet drills.
 - A fictional travel timetable and accessible route map support practical interpretation. Listening questions unlock only after full playback or explicit text help; retry after seeing evidence is marked assisted. All attempts stay in memory and grant no completion or proficiency score.
-\n- `/a2-practice/final-review` adds a cumulative A2 transfer review across all eight units: a practical written notice, a later public-announcement update, evidence-backed current-vs-superseded comprehension, relay writing to a third person, and partner negotiation. It is free practice, not a CEFR score or certificate.\n- The audio inventory includes the unchanged A1 bank (343 lesson phrases, 11 passages and 13 drills: 1,468 variants) plus 320 A2 lesson phrases and nine passages (1,316 variants): **2,784 variants planned, zero approved MP3s in the repository**. Use `--level=A1` to continue only the existing recordings. Missing Dutch device voices have explicit text-help fallback. See [A1 scope and remaining release gates](docs/A1_COMPLETION.md).
+
+- `/a2-practice/final-review` adds a cumulative A2 transfer review across all eight units: a practical written notice, a later public-announcement update, evidence-backed current-vs-superseded comprehension, relay writing to a third person, and partner negotiation. It is free practice, not a CEFR score or certificate.
+- The audio inventory includes the unchanged A1 bank (343 lesson phrases, 11 passages and 13 drills: 1,468 variants) plus 320 A2 lesson phrases and nine passages (1,316 variants): **2,784 variants planned, zero approved MP3s in the repository**. Use `--level=A1` to continue only the existing recordings. Missing Dutch device voices have explicit text-help fallback. See [A1 scope and remaining release gates](docs/A1_COMPLETION.md).
+
+The free `/a2-recycling` library adds eight cross-unit reviews with 16 retrieval/transformation tasks, optional models and source-lesson help. Answers are temporary and ungraded; no completion or proficiency score is awarded.
 
 ## Validation
 

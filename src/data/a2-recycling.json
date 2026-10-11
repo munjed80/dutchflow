@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "past-and-present",
+    "title": "من التجربة إلى العادة",
+    "goal": "استرجع الماضي، ثم غيّر الزمن عندما تصف عادتك الحالية.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-yesterday-and-today",
+        "chunk": "Nederlands oefenen"
+      },
+      {
+        "lessonSlug": "a2-following-up-after-a-social-event",
+        "chunk": "goed thuiskomen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: اكتب لصديق أنك تدرّبت على الهولندية أمس نصف ساعة، ثم اسأله هل وصل إلى المنزل بخير بعد الحفلة.",
+        "model": "Gisteren heb ik een halfuur Nederlands geoefend. Ben je na het feest goed thuisgekomen?",
+        "translation": "تدرّبت أمس على الهولندية نصف ساعة. هل وصلت إلى المنزل بخير بعد الحفلة؟",
+        "checklist": [
+          "هل استخدمت heb geoefend للنشاط المنتهي؟",
+          "هل سألت عن الوصول بصيغة ben je ... thuisgekomen؟"
+        ]
+      },
+      {
+        "prompt": "تحويل: حوّل الجملتين إلى عادة حالية تبدأ بعبارة «كل يوم»، واحذف إشارة أمس.",
+        "cue": "Gisteren heb ik Nederlands geoefend. Daarna ben ik naar huis gegaan.",
+        "model": "Elke dag oefen ik Nederlands. Daarna ga ik naar huis.",
+        "translation": "أتدرّب على الهولندية كل يوم. وبعد ذلك أذهب إلى المنزل.",
+        "checklist": [
+          "هل استبدلت الماضي بالحاضر في الجملتين؟",
+          "هل جاء الفعل قبل ik بعد Elke dag وDaarna؟"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "delay-and-reason",
+    "title": "السبب والنتيجة عند التأخر",
+    "goal": "انقل لغة التأخر من العمل إلى السفر، وغيّر أداة الربط مع ترتيب الكلمات.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-explaining-a-delay",
+        "chunk": "vertraging oplopen"
+      },
+      {
+        "lessonSlug": "a2-reporting-a-travel-delay",
+        "chunk": "vertraging hebben"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: أبلغ زميلك أن قطارك متأخر ولذلك ستصل متأخرًا عشر دقائق.",
+        "model": "Mijn trein heeft vertraging. Daarom kom ik tien minuten later.",
+        "translation": "قطاري متأخر. لذلك سأصل متأخرًا عشر دقائق.",
+        "checklist": [
+          "هل ذكرت القطار ومدة التأخر؟",
+          "هل وضعت kom قبل ik بعد Daarom؟"
+        ]
+      },
+      {
+        "prompt": "تحويل: ادمج الجملتين في جملة واحدة تبدأ بـ Ik kom واستخدم omdat لتوضيح السبب.",
+        "cue": "Mijn trein heeft vertraging. Ik kom later.",
+        "model": "Ik kom later omdat mijn trein vertraging heeft.",
+        "translation": "سأصل متأخرًا لأن قطاري متأخر.",
+        "checklist": [
+          "هل حافظت على العلاقة بين السبب والنتيجة؟",
+          "هل وضعت heeft في نهاية الجملة التابعة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "clarify-before-confirming",
+    "title": "استوضح قبل التأكيد",
+    "goal": "استخدم طلب التوضيح في العمل وعند تغيير موعد، ثم انقل المعلومة المؤكدة.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-clarifying-instructions",
+        "chunk": "om verduidelijking vragen"
+      },
+      {
+        "lessonSlug": "a2-confirming-a-replacement-appointment",
+        "chunk": "een afspraak bevestigen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: اكتب للموظف بصيغة u أنك لم تفهم الوقت الجديد جيدًا، واطلب منه تكراره. لا تؤكد وقتًا لا تعرفه.",
+        "model": "Ik heb de nieuwe tijd niet goed begrepen. Kunt u die herhalen?",
+        "translation": "لم أفهم الوقت الجديد جيدًا. هل يمكنك تكراره؟",
+        "checklist": [
+          "هل طلبت التوضيح بدل اختراع وقت؟",
+          "هل استخدمت صيغة مخاطبة رسمية متسقة؟"
+        ]
+      },
+      {
+        "prompt": "تحويل: تلقّيت التأكيد التالي. انقل لصديقك بصيغة je وقت الموعد المؤكد وأن الموعد القديم أُلغي.",
+        "cue": "Uw afspraak is nu donderdag om tien uur. De afspraak op dinsdag vervalt.",
+        "model": "Je afspraak is nu donderdag om tien uur. De afspraak op dinsdag vervalt.",
+        "translation": "موعدك الآن يوم الخميس الساعة العاشرة. أُلغي موعد يوم الثلاثاء.",
+        "checklist": [
+          "هل نقلت اليوم والساعة الجديدين؟",
+          "هل غيّرت Uw إلى Je وذكرت إلغاء الموعد القديم؟"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "propose-an-alternative",
+    "title": "اقترح بديلًا مناسبًا",
+    "goal": "أعد استخدام اقتراح البديل في المواعيد والدعوات دون اعتباره اتفاقًا نهائيًا.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-explaining-an-appointment-conflict",
+        "chunk": "een alternatief voorstellen"
+      },
+      {
+        "lessonSlug": "a2-responding-to-an-invitation",
+        "chunk": "een alternatief voorstellen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: صديق يدعوك يوم الجمعة. اعتذر لأنك تعمل، واقترح السبت بسؤال دون تأكيده.",
+        "model": "Vrijdag kan ik niet, want ik werk. Kunnen we zaterdag afspreken?",
+        "translation": "لا أستطيع يوم الجمعة لأنني أعمل. هل يمكن أن نلتقي يوم السبت؟",
+        "checklist": [
+          "هل قدّمت سببًا للاعتذار؟",
+          "هل عرضت السبت كسؤال ولم تفترض موافقة الصديق؟"
+        ]
+      },
+      {
+        "prompt": "تحويل: خاطب موظفًا بصيغة u. حوّل طلبك المباشر إلى سؤال مهذب مع إبقاء يوم الاثنين.",
+        "cue": "Verplaats mijn afspraak naar maandag.",
+        "model": "Kunt u mijn afspraak naar maandag verplaatsen?",
+        "translation": "هل يمكنك نقل موعدي إلى يوم الاثنين؟",
+        "checklist": [
+          "هل استخدمت Kunt u لطلب مهذب؟",
+          "هل بقي verplaatsen في نهاية السؤال واليوم هو الاثنين؟"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "updates-and-certainty",
+    "title": "انقل التحديث بدقّة",
+    "goal": "ميّز بين وقت متوقع وتغيير مؤكد عند نقل الأخبار إلى شخص آخر.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-relaying-a-schedule-change",
+        "chunk": "een wijziging doorgeven"
+      },
+      {
+        "lessonSlug": "a2-reporting-a-travel-delay",
+        "chunk": "naar verwachting aankomen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: أبلغ أختك أن اللقاء أصبح في الثالثة بدل الثانية، وأن المكان بقي نفسه.",
+        "model": "De bijeenkomst begint nu om drie uur, niet om twee uur. De locatie blijft hetzelfde.",
+        "translation": "يبدأ اللقاء الآن الساعة الثالثة، وليس الثانية. المكان بقي نفسه.",
+        "checklist": [
+          "هل أوضحت الوقت الحالي والوقت الملغى؟",
+          "هل حافظت على المكان دون اختراع تغيير؟"
+        ]
+      },
+      {
+        "prompt": "تحويل: حوّل الرسالة إلى خبر عن نور بصيغة الغائب، وانقله إلى عمر مع إبقاء الوصول توقعًا.",
+        "cue": "Noor: Ik kom naar verwachting om zes uur aan. Wacht bij de ingang op mij.",
+        "model": "Omar, Noor komt naar verwachting om zes uur aan. Wacht bij de ingang op haar.",
+        "translation": "عمر، من المتوقع أن تصل نور الساعة السادسة. انتظرها عند المدخل.",
+        "checklist": [
+          "هل غيّرت الفعل إلى komt والضمير إلى haar؟",
+          "هل احتفظت بـ naar verwachting بدل تقديم الوقت كحقيقة مؤكدة؟"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "choice-and-comparison",
+    "title": "قارن ثم عبّر عن تفضيلك",
+    "goal": "اربط المقارنة في الشراء بتفضيل طريق للسفر، وادعم الاختيار بسبب.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-comparing-products",
+        "chunk": "een keuze maken"
+      },
+      {
+        "lessonSlug": "a2-comparing-travel-routes",
+        "chunk": "moeten overstappen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: اختر القطار المباشر بدل الحافلة. قل إنه أغلى لكنك لا تحتاج إلى تبديل وسيلة النقل.",
+        "model": "Ik kies de rechtstreekse trein. Die is duurder, maar ik hoef niet over te stappen.",
+        "translation": "أختار القطار المباشر. إنه أغلى لكنني لا أحتاج إلى تبديل وسيلة النقل.",
+        "checklist": [
+          "هل عبّرت عن اختيار وميزة مقابل الكلفة؟",
+          "هل استخدمت hoef niet ... over te stappen لعدم الحاجة؟"
+        ]
+      },
+      {
+        "prompt": "تحويل: اكتب مقارنة تبدأ بـ Tas B، ثم قل إنك تختارها لأنها أرخص.",
+        "cue": "Tas A kost dertig euro. Tas B kost twintig euro.",
+        "model": "Tas B is goedkoper dan tas A. Ik kies tas B omdat die goedkoper is.",
+        "translation": "الحقيبة B أرخص من الحقيبة A. أختار الحقيبة B لأنها أرخص.",
+        "checklist": [
+          "هل حددت المقارنة الصحيحة باستخدام dan؟",
+          "هل جاء is في نهاية السبب بعد omdat؟"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "request-and-follow-up",
+    "title": "من الطلب إلى المتابعة",
+    "goal": "استخدم التواصل والمتابعة في الإصلاح والتسوق مع إبقاء الطلب مفتوحًا حتى يأتي الرد.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-following-up-on-a-repair",
+        "chunk": "contact opnemen"
+      },
+      {
+        "lessonSlug": "a2-asking-about-a-return",
+        "chunk": "een product terugbrengen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: اكتب رسالة مهذبة للمتجر: اشتريت مصباحًا أمس لكنه لا يعمل. اسأل إن كان بإمكانك إعادته، ولا تفترض موافقة المتجر.",
+        "model": "Ik heb gisteren een lamp gekocht, maar die werkt niet. Kan ik de lamp terugbrengen?",
+        "translation": "اشتريت مصباحًا أمس لكنه لا يعمل. هل يمكنني إعادة المصباح؟",
+        "checklist": [
+          "هل ذكرت وقت الشراء والمشكلة؟",
+          "هل سألت عن الإرجاع دون ادعاء أنه مقبول مسبقًا؟"
+        ]
+      },
+      {
+        "prompt": "تحويل: رسالتك السابقة أدناه بلا جواب. اكتب متابعة مهذبة: لم تتلقَّ جوابًا بعد، وتسأل متى يمكن للموظف الاتصال بك.",
+        "cue": "Ik heb maandag een probleem met mijn raam gemeld.",
+        "model": "Ik heb nog geen antwoord ontvangen. Wanneer kunt u contact met mij opnemen?",
+        "translation": "لم أتلقَّ جوابًا بعد. متى يمكنك الاتصال بي؟",
+        "checklist": [
+          "هل استخدمت nog geen لوصف غياب الجواب حتى الآن؟",
+          "هل سألت عن التواصل بدل الادعاء بأن الإصلاح تم؟"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "instructions-and-deadlines",
+    "title": "التعليمات والمواعيد النهائية",
+    "goal": "انقل تعليمات مرتبة من العمل إلى نشاط محلي مع الحفاظ على الإلزام والاختيار.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-setting-work-priorities",
+        "chunk": "prioriteit hebben"
+      },
+      {
+        "lessonSlug": "a2-finding-a-reply-deadline",
+        "chunk": "voor een datum reageren"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: اكتب لزميل أن فحص القائمة له الأولوية، ثم عليه إرسال رسالة، ويجب أن ينهي الأمرين قبل الساعة الرابعة.",
+        "model": "De controle van de lijst heeft prioriteit. Stuur daarna een bericht. Je moet beide taken voor vier uur afmaken.",
+        "translation": "فحص القائمة له الأولوية. أرسل رسالة بعد ذلك. يجب أن تنهي المهمتين قبل الساعة الرابعة.",
+        "checklist": [
+          "هل رتبت الفحص قبل الرسالة؟",
+          "هل ذكرت الرابعة كموعد نهائي لا كوقت بدء؟"
+        ]
+      },
+      {
+        "prompt": "تحويل: انقل تعليمات الجهة المنظمة إلى صديق بصيغة je. حافظ على الفرق بين المطلوب والمسموح.",
+        "cue": "U moet voor vrijdag reageren. U mag een vriend meenemen.",
+        "model": "Je moet voor vrijdag reageren. Je mag een vriend meenemen.",
+        "translation": "يجب أن ترد قبل يوم الجمعة. يمكنك إحضار صديق.",
+        "checklist": [
+          "هل غيّرت U إلى Je في الجملتين؟",
+          "هل أبقيت الرد إلزاميًا وإحضار صديق اختياريًا؟"
+        ]
+      }
+    ]
+  }
+]

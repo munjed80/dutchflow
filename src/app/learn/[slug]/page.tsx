@@ -6,6 +6,7 @@ import { courseModules, getLesson, lessons, getLevelLessons } from "@/lib/conten
 import { scenarios } from "@/lib/scenarios";
 import { readings } from "@/lib/readings";
 import { getCurriculum, lessonExtensions } from "@/lib/curriculum";
+import { a2Recycling } from "@/lib/a2-recycling";
 import { LessonEnrichment } from "@/components/LessonEnrichment";
 
 export function generateStaticParams() { return lessons.map((lesson) => ({ slug: lesson.slug })); }
@@ -25,6 +26,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
   const nextLesson = levelLessons[index + 1];
   const module = courseModules.find((item) => item.id === lesson.moduleId);
   const unit = curriculum.find((item) => item.lessonSlugs.includes(lesson.slug));
+  const recycling = a2Recycling.filter((set) => set.anchors.some((anchor) => anchor.lessonSlug === lesson.slug));
   const extension = lessonExtensions.find((item) => item.lessonSlug === lesson.slug);
 
   return <div className="shell lesson-page">
@@ -38,6 +40,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
     {unit && <p className="curriculum-entry"><Link className="text-link" href={`${practiceHref(lesson.level)}/${unit.id}`}>طبّق مهارات هذا المحور معاً ←</Link></p>}
     <LessonPlayer key={lesson.slug} lesson={lesson} nextLesson={nextLesson} />
     {extension && <LessonEnrichment lesson={lesson} extension={extension} />}
+    {recycling.length > 0 && <section className="reading-related"><h2>استرجع هذا الدرس في سياق جديد</h2><ul>{recycling.map((set) => <li key={set.slug}><Link href={`/a2-recycling/${set.slug}`}>{set.title} ←</Link></li>)}</ul></section>}
     {scenarios.some((scenario) => scenario.sourceLessons.includes(lesson.slug)) && <section className="scenario-links"><h2>استخدم ما تعلّمته في حوار</h2><ul>{scenarios.filter((scenario) => scenario.sourceLessons.includes(lesson.slug)).map((scenario) => <li key={scenario.slug}><Link href={`/scenarios/${scenario.slug}`}>{scenario.title} ←</Link></li>)}</ul></section>}
     {readings.some((reading) => reading.sourceLessons.includes(lesson.slug)) && <section className="reading-related"><h2>وسّع هذا الدرس بالقراءة</h2><div>{readings.filter((reading) => reading.sourceLessons.includes(lesson.slug)).map((reading) => <Link className="text-link" key={reading.slug} href={`/reading/${reading.slug}`}>{reading.title} ←</Link>)}</div></section>}
   </div>;
