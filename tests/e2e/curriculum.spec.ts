@@ -5,7 +5,8 @@ import extensions from "../../src/data/lesson-extensions.json";
 
 test("the curriculum exposes real resources and distinguishes unfinished goals from learner progress", async ({ page }) => {
   await page.goto("/learn");
-  await page.getByRole("link", { name: "استكشف خريطة A1 وأهداف التعلّم ←" }).click();
+  await page.locator(".learning-resources summary").click();
+  await page.getByRole("navigation", { name: "موارد التعلّم A1" }).getByRole("link", { name: /خريطة A1/ }).click();
   await expect(page).toHaveURL("/curriculum");
   await expect(page.locator(".curriculum-unit")).toHaveCount(10);
   await expect(page.getByRole("progressbar")).toHaveCount(0);

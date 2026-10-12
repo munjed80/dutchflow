@@ -4,7 +4,8 @@ import extensions from "../../src/data/lesson-extensions.json";
 
 test("vocabulary discovery, inflected search and combined filters work with incremental results", async ({ page }) => {
   await page.goto("/learn");
-  await page.getByRole("link", { name: "ابحث في مكتبة المفردات ←" }).click();
+  await page.locator(".learning-resources summary").click();
+  await page.getByRole("navigation", { name: "موارد التعلّم A1" }).getByRole("link", { name: /المفردات/ }).click();
   await expect(page).toHaveURL("/vocabulary");
   const total = extensions.reduce((sum, extension) => sum + extension.vocabulary.length, 0);
   await expect(page.locator(".vocabulary-card")).toHaveCount(Math.min(24, total));

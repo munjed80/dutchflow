@@ -9,7 +9,8 @@ async function finishTurn(page: import("@playwright/test").Page, index: number, 
 
 test("scenarios are discoverable from lessons and curriculum, and unknown routes return 404", async ({ page, request }) => {
   await page.goto("/learn");
-  await page.getByRole("link", { name: "تدرّب على المواقف الحوارية ←" }).click();
+  await page.locator(".learning-resources summary").click();
+  await page.getByRole("navigation", { name: "موارد التعلّم A1" }).getByRole("link", { name: /المواقف الحوارية/ }).click();
   await expect(page).toHaveURL("/scenarios");
   await expect(page.locator(".scenario-tile")).toHaveCount(scenarios.length);
   await page.locator(".scenario-tile").first().getByRole("link", { name: "ابدأ الموقف ←" }).click();

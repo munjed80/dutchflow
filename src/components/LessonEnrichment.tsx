@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { levelHref } from "@/lib/levels";
 import type { Lesson } from "@/lib/content";
 import type { LessonExtension } from "@/lib/curriculum";
 import { ProductionPractice } from "./ProductionPractice";
@@ -6,7 +7,7 @@ import { ProductionPractice } from "./ProductionPractice";
 export function LessonEnrichment({ lesson, extension }: { lesson: Lesson; extension: LessonExtension }) {
   return <div className="lesson-enrichment">
     <section className="reading-vocabulary" aria-labelledby="lesson-vocabulary-heading">
-      <h2 id="lesson-vocabulary-heading">مفردات وصيغ تساعدك على بناء الجملة</h2>
+      <h2 id="lesson-vocabulary-heading" tabIndex={-1}>مفردات وصيغ تساعدك على بناء الجملة</h2>
       <p className="quiet">لاحظ أداة الاسم وجمعه، أو تصريف الفعل، ثم اقرأ مثالاً من الدرس.</p>
       <dl>{extension.vocabulary.map((entry) => {
         const phrase = lesson.phrases.find((item) => item.id === entry.phraseId)!;
@@ -15,11 +16,11 @@ export function LessonEnrichment({ lesson, extension }: { lesson: Lesson; extens
           <dd><p>{entry.meaning}</p><p className="vocabulary-forms" lang="nl" dir="ltr">{entry.forms}</p><p lang="nl" dir="ltr">{phrase.dutch}</p><p className="quiet">{phrase.arabic}</p></dd>
         </div>;
       })}</dl>
-      <Link className="text-link" href="/vocabulary">استكشف مفردات الدروس الأخرى ←</Link>
+      <Link className="text-link" href={levelHref("/vocabulary", lesson.level)}>استكشف مفردات الدروس الأخرى ←</Link>
     </section>
     {extension.languageDepth && <section className="lesson-language-depth" aria-labelledby="language-depth-heading">
       <div className="section-heading compact-heading">
-        <div><span className="eyebrow">عمّق لغتك</span><h2 id="language-depth-heading">استخدم الفكرة بأكثر من طريقة</h2></div>
+        <div><span className="eyebrow">عمّق لغتك</span><h2 id="language-depth-heading" tabIndex={-1}>استخدم الفكرة بأكثر من طريقة</h2></div>
       </div>
       <div className="panel">
         <h3>أمثلة إضافية في سياقات قريبة</h3>
@@ -56,6 +57,6 @@ export function LessonEnrichment({ lesson, extension }: { lesson: Lesson; extens
         </div>)}
       </div>
     </section>}
-    <ProductionPractice key={lesson.slug} tasks={extension.tasks} />
+    <div id="lesson-production" tabIndex={-1}><ProductionPractice key={lesson.slug} tasks={extension.tasks} /></div>
   </div>;
 }

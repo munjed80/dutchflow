@@ -15,7 +15,8 @@ async function speech(page: import("@playwright/test").Page, available = true) {
 
 test("integrated practice is discoverable, every route works, and the grammar/sound references link to real lessons", async ({ page, request }) => {
   await page.goto("/learn");
-  await page.getByRole("link", { name: "طبّق في مراجعات A1 المتكاملة ←" }).click();
+  await page.locator(".learning-resources summary").click();
+  await page.getByRole("navigation", { name: "موارد التعلّم A1" }).getByRole("link", { name: /المراجعات المتكاملة/ }).click();
   await expect(page.locator(".scenario-tile")).toHaveCount(11);
   for (const pack of packs) {
     await page.goto(`/a1-practice/${pack.slug}`);
