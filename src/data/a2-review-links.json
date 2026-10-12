@@ -269,5 +269,103 @@
   "a2-final-review-listen-4": [
     "a2-understanding-school-instructions",
     "a2-writing-a-relevant-reply"
+  ],
+  "a2-a-new-weekly-habit-q1": [
+    "a2-describing-a-changing-routine"
+  ],
+  "a2-a-new-weekly-habit-q2": [
+    "a2-telling-a-short-story"
+  ],
+  "a2-a-new-weekly-habit-q3": [
+    "a2-yesterday-and-today"
+  ],
+  "a2-a-new-weekly-habit-q4": [
+    "a2-describing-a-changing-routine"
+  ],
+  "a2-help-at-a-community-cafe-q1": [
+    "a2-setting-work-priorities"
+  ],
+  "a2-help-at-a-community-cafe-q2": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-help-at-a-community-cafe-q3": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-help-at-a-community-cafe-q4": [
+    "a2-reporting-task-progress"
+  ],
+  "a2-two-rooms-to-compare-q1": [
+    "a2-comparing-conditions-at-home"
+  ],
+  "a2-two-rooms-to-compare-q2": [
+    "a2-comparing-conditions-at-home"
+  ],
+  "a2-two-rooms-to-compare-q3": [
+    "a2-comparing-conditions-at-home"
+  ],
+  "a2-two-rooms-to-compare-q4": [
+    "a2-arranging-a-repair-visit"
+  ],
+  "a2-choosing-a-coaching-appointment-q1": [
+    "a2-comparing-appointment-options"
+  ],
+  "a2-choosing-a-coaching-appointment-q2": [
+    "a2-explaining-an-appointment-conflict"
+  ],
+  "a2-choosing-a-coaching-appointment-q3": [
+    "a2-asking-for-an-appointment-update"
+  ],
+  "a2-choosing-a-coaching-appointment-q4": [
+    "a2-explaining-an-appointment-conflict"
+  ],
+  "a2-a-review-of-two-bags-q1": [
+    "a2-explaining-a-purchase-problem"
+  ],
+  "a2-a-review-of-two-bags-q2": [
+    "a2-comparing-products"
+  ],
+  "a2-a-review-of-two-bags-q3": [
+    "a2-explaining-a-purchase-problem"
+  ],
+  "a2-a-review-of-two-bags-q4": [
+    "a2-checking-quantities-and-prices"
+  ],
+  "a2-questions-about-a-computer-course-q1": [
+    "a2-understanding-school-instructions"
+  ],
+  "a2-questions-about-a-computer-course-q2": [
+    "a2-clarifying-a-local-form"
+  ],
+  "a2-questions-about-a-computer-course-q3": [
+    "a2-finding-a-reply-deadline"
+  ],
+  "a2-questions-about-a-computer-course-q4": [
+    "a2-writing-a-relevant-reply"
+  ],
+  "a2-a-visitor-guide-to-a-park-q1": [
+    "a2-comparing-travel-routes"
+  ],
+  "a2-a-visitor-guide-to-a-park-q2": [
+    "a2-planning-a-day-trip"
+  ],
+  "a2-a-visitor-guide-to-a-park-q3": [
+    "a2-agreeing-on-another-route"
+  ],
+  "a2-a-visitor-guide-to-a-park-q4": [
+    "a2-planning-a-day-trip",
+    "a2-agreeing-on-another-route"
+  ],
+  "a2-a-group-chat-about-dinner-q1": [
+    "a2-confirming-a-social-plan"
+  ],
+  "a2-a-group-chat-about-dinner-q2": [
+    "a2-asking-follow-up-questions"
+  ],
+  "a2-a-group-chat-about-dinner-q3": [
+    "a2-responding-to-an-invitation",
+    "a2-confirming-a-social-plan"
+  ],
+  "a2-a-group-chat-about-dinner-q4": [
+    "a2-confirming-a-social-plan"
   ]
 }

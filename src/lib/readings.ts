@@ -1,3 +1,4 @@
+import type { ProductionTask } from "@/lib/curriculum";
 import a2Data from "@/data/a2-readings.json";
 import readingsData from "@/data/readings.json";
 
@@ -8,6 +9,7 @@ export type Reading = {
   vocabulary: { term: string; excerpt: string; meaning: string }[];
   grammar: { title: string; example: string; translation: string; explanation: string };
   questions: ReadingQuestion[];
+  production?: ProductionTask;
 };
 export const readings: Reading[] = [...readingsData, ...a2Data];
 export function getReading(slug: string) { return readings.find((reading) => reading.slug === slug); }

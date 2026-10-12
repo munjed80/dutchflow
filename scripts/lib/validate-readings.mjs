@@ -2,6 +2,8 @@ export function validateReadings(readings, lessons) {
   if (!Array.isArray(readings) || !readings.length) return ["Readings must be a nonempty array"];
   const errors = [];
   const text = (value) => typeof value === "string" && value.trim().length > 0;
+  const dutch = (value) => text(value) && /[a-z]/iu.test(value);
+  const object = (value) => value !== null && typeof value === "object" && !Array.isArray(value);
   const arabic = (value) => text(value) && /[\u0600-\u06ff]/u.test(value);
   const slugs = new Set(), questionIds = new Set();
   const lessonSlugs = new Set(lessons.map((lesson) => lesson.slug));
@@ -26,6 +28,10 @@ export function validateReadings(readings, lessons) {
         terms.add(term);
         if (!passage.toLowerCase().includes(word.excerpt.toLowerCase())) errors.push(`${prefix}: vocabulary excerpt absent from passage`);
       }
+    }
+    if (reading.production !== undefined) {
+      const task = reading.production;
+      if (!object(task) || !arabic(task.prompt) || !dutch(task.model) || task.model.length > 500 || !arabic(task.translation) || !Array.isArray(task.checklist) || task.checklist.length < 2 || !task.checklist.every(arabic) || (task.cue !== undefined && !dutch(task.cue))) errors.push(`${prefix}: invalid production task`);
     }
     const grammar = reading.grammar;
     if (!grammar || !arabic(grammar.title) || !arabic(grammar.explanation) || !arabic(grammar.translation) || !text(grammar.example) || !passage.includes(grammar.example)) errors.push(`${prefix}: invalid grammar or example absent from passage`);
