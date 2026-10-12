@@ -2,16 +2,18 @@
 
 import { levelHref, type CourseLevel } from "@/lib/levels";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import type { CourseModule, LessonSummary } from "@/lib/content";
-import { useLearningProgress } from "@/lib/use-learning-progress";
+import { useLearning } from "./LearningProvider";
 
 function normalizeSearch(text: string) {
   return text.normalize("NFD").replace(/[\u0300-\u036f\u064b-\u065f\u0670]/g, "").toLowerCase().trim();
 }
 
-export function LessonCatalogue({ lessons, modules, level = "A1" }: { lessons: LessonSummary[]; modules: CourseModule[]; level?: CourseLevel }) {
-  const completedLessons = useLearningProgress();
+export function LessonCatalogue({ lessons, modules, level = "A1", resources }: { lessons: LessonSummary[]; modules: CourseModule[]; level?: CourseLevel; resources?: ReactNode }) {
+  const learning = useLearning();
+  const progressKnown = learning.ready && !learning.loading && !learning.error;
+  const completedLessons = progressKnown ? learning.completedLessons : [];
   const [query, setQuery] = useState("");
   const [selectedModule, setSelectedModule] = useState("all");
   const nextLesson = lessons.find((lesson) => !completedLessons.includes(lesson.slug));
@@ -23,6 +25,10 @@ export function LessonCatalogue({ lessons, modules, level = "A1" }: { lessons: L
 
   return <>
     <div className="continue-banner panel">
+      {learning.loading ? <p role="status">جارٍ تحميل تقدّمك… يمكنك تصفّح الدروس أدناه.</p>
+        : !progressKnown ? <><p role="alert">تعذّر تحميل تقدّمك. يمكنك فتح أي درس أو إعادة المحاولة.</p>
+          <button className="button button-secondary" onClick={() => void learning.refresh()}>أعد تحميل التقدّم</button></>
+        : <>
       <div><span className="eyebrow">{nextLesson ? "الدرس التالي المقترح" : "أكملت الدروس المتاحة"}</span>
         <h2>{nextLesson?.title ?? "وقت المراجعة"}</h2>
         <p>{nextLesson ? "تابع بالترتيب، أو اختر الموقف الذي تحتاجه اليوم." : "يمكنك إعادة أي درس أو مراجعة نتائج تقدمك."}</p>
@@ -30,9 +36,11 @@ export function LessonCatalogue({ lessons, modules, level = "A1" }: { lessons: L
       <Link className="button button-primary" href={nextLesson ? `/learn/${nextLesson.slug}` : levelHref("/progress", level)}>
         {nextLesson ? "تابع هذا الدرس" : "شاهد تقدمك"} <span aria-hidden="true">←</span>
       </Link>
+      </>}
     </div>
 
     {level === "A1" && <p className="placement-invitation">تبدأ للمرة الأولى؟ <Link className="text-link" href="/placement">جرّب اختبار البداية المجاني ←</Link></p>}
+    {resources}
     <div className="catalogue-tools">
       <label className="search-label" htmlFor="lesson-search">ابحث عن درس</label>
       <input id="lesson-search" type="search" className="lesson-search" value={query}
@@ -52,7 +60,7 @@ export function LessonCatalogue({ lessons, modules, level = "A1" }: { lessons: L
       const done = total.filter((lesson) => completedLessons.includes(lesson.slug)).length;
       return <section className="catalogue-module" key={module.id} aria-labelledby={`module-${module.id}`}>
         <div className="module-heading"><div><h2 id={`module-${module.id}`}>{module.title}</h2><p>{module.description}</p></div>
-          <span className="module-count">أكملت {done} من {total.length}</span>
+          <span className="module-count">{progressKnown ? `أكملت ${done} من ${total.length}` : `${total.length} دروس`}</span>
         </div>
         <div className="catalogue-list">{group.map((lesson) => {
           const complete = completedLessons.includes(lesson.slug);

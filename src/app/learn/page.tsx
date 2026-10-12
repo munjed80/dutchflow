@@ -1,5 +1,6 @@
 import { LevelNavigation } from "@/components/LevelNavigation";
 import { parseLevel, levelHref } from "@/lib/levels";
+import { LearningResources } from "@/components/LearningResources";
 import { LessonCatalogue } from "@/components/LessonCatalogue";
 import Link from "next/link";
 import { getLevelModules, getLessonSummaries, getLevelLessons } from "@/lib/content";
@@ -11,17 +12,11 @@ export default async function LearnPage({ searchParams }: { searchParams: Promis
   const courseModules = getLevelModules(level);
   const lessons = getLevelLessons(level);
   return <div className="shell inner-page learning-path-page">
-    {level === "A2" && <p className="reading-note">وحدات A2 المتاحة الآن: {courseModules.length}. بقية المنهج قيد الإعداد، والتسجيلات الثابتة والمراجعة المستقلة لم تكتمل بعد.</p>}
-    <p className="curriculum-entry"><Link className="text-link" href="/pronunciation">الحروف وأصوات الهولندية ←</Link></p>
     <div className="page-heading"><span className="eyebrow">مسار {level} · تعلّم مجاناً</span><h1>الهولندية <em>لحياتك اليومية.</em></h1><p>الدروس المجانية: {lessons.length} · الوحدات العملية: {courseModules.length}. اختر درساً وتدرّب بالوتيرة التي تناسبك.</p></div>
     <LevelNavigation path="/learn" level={level} />
-    <p className="curriculum-entry"><Link className="text-link" href={level === "A1" ? "/curriculum" : "/a2"}>استكشف خريطة {level} وأهداف التعلّم ←</Link></p>
-    <p className="curriculum-entry"><Link className="text-link" href={levelHref("/vocabulary", level)}>ابحث في مكتبة المفردات ←</Link></p>
-    <p className="curriculum-entry"><Link className="text-link" href={levelHref("/scenarios", level)}>تدرّب على المواقف الحوارية ←</Link></p>
-    <p className="curriculum-entry"><Link className="text-link" href={level === "A1" ? "/a1-practice" : "/a2-practice"}>طبّق في مراجعات {level} المتكاملة ←</Link></p>
-    <p className="curriculum-entry"><Link className="text-link" href={levelHref("/grammar", level)}>مرجع القواعد والأمثلة ←</Link></p>
-    <LessonCatalogue key={level} level={level} lessons={getLessonSummaries(level)} modules={courseModules} />
+    <LessonCatalogue key={level} level={level} lessons={getLessonSummaries(level)} modules={courseModules} resources={<LearningResources level={level} />} />
     <div className="continue-banner panel"><div><span className="eyebrow">وسّع لغتك بالقراءة</span><h2>من الجملة إلى النص</h2><p>اقرأ رسائل ومواقف يومية، وتعلّم المفردات والقواعد في سياقها.</p></div><Link className="button button-primary" href={levelHref("/reading", level)}>افتح مكتبة القراءة</Link></div>
+    {level === "A2" && <p className="catalogue-note">يتضمن A2 ثماني وحدات مؤلّفة. التسجيلات الثابتة والمراجعة المستقلة لم تكتمل بعد.</p>}
     <p className="catalogue-note">هذا محتوى ضمن {level}. إكمال هذه الدروس لا يعني إتقان المستوى كاملاً. يُحفظ تقدّم الزائر في المتصفح، وتقدّم المستخدم المسجّل في حسابه عند تفعيل الحسابات.</p>
   </div>;
 }

@@ -402,3 +402,16 @@ Data lives in `src/data/a2-recycling.json`; anchors must match existing A2 collo
 A2 remains 40 lessons / 320 core phrases / 80 lesson production tasks / nine integrated packs. The 16 review tasks are counted separately. A1, core audio and progress contracts are unchanged; recordings remain owner-managed. Next work should use educator/learner feedback to prioritize transfer weaknesses, with audio and launch gates still open. Paid exams stay deferred.
 
 Validation: content/audio checks, 68 native tests, TypeScript, production build and the full 159-test Chromium suite passed locally. Final layout adjustments additionally passed a fresh build and both recycling browser tests; mobile and desktop were visually reviewed. GitHub CI remains a separate merge gate.
+
+
+### A2 study-path handoff (2026-10-11, current)
+
+PR #34 is merged with successful CI. The next delivery closes discovery and end-of-path gaps, documented in `docs/A2_STUDY_PATH.md`. `/a2` groups all existing resources into five stages per unit. `buildStudyPath` derives resource links from the existing roadmap/source anchors and projects only slugs/titles. `A2StudyStatus` receives only unit/lesson summaries and reads the shared LearningProvider. Never import full content banks into this client component.
+
+Recommendations wait for ready, non-loading, error-free progress; failure leaves all static resources accessible and offers retry. The first missing lesson remains the next lesson even for out-of-order completion. After all 40 A2 lessons, the map and A2 progress page link explicitly to the final integrated review. Unit completion refers only to lessons; no practice completion, mastery score, new storage or scheduling is introduced. A1 and all spoken text/IDs remain unchanged.
+
+### Learning UX handoff (2026-10-12)
+
+The current PR also includes the focused UX pass documented in `docs/LEARNING_UX.md`: next-action-first catalogue, native skill-resource disclosure, truthful loading/error/retry states, in-page lesson contents, quiz answered counts and first-unanswered focus, skip-to-content navigation and larger mobile navigation targets. A2 enrichment vocabulary links retain their level. Resource discovery E2E tests now open the disclosure; the new UX suite covers keyboard focus, small screens and progress recovery/isolation.
+
+Keep fragment navigation in-page so temporary answers survive. Do not present unloaded/failed progress as zero completions or a first-lesson recommendation. No content banks, stable IDs, audio inventory, scoring or persistence contracts changed. PR #35 remains the current unmerged delivery at this handoff.

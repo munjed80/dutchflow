@@ -27,6 +27,12 @@ export function ProgressOverview({ lessons, modules, level = "A1" }: { lessons: 
           {nextLesson ? "تابع التعلّم" : "راجع الدروس"} <span aria-hidden="true">←</span>
         </Link>
       </div>
+      {level === "A2" && <section className="panel study-status" aria-labelledby="a2-practice-next">
+        <h2 id="a2-practice-next">أكمل المهارات، وليس الدروس فقط</h2>
+        <p>افتح مسار الوحدة للوصول إلى القراءة والمحادثة والتدريب المتكامل والاسترجاع. إكمال الدروس لا يعني إتقان هذه المهارات أو الحصول على شهادة مستوى.</p>
+        <Link className="text-link" href="/a2">موارد وحدات A2 وخطوتي التالية ←</Link>
+        {learning.ready && !learning.loading && !learning.error && !nextLesson && <p><Link className="button button-primary" href="/a2-practice/final-review">جرّب المراجعة الختامية لـ A2 ←</Link></p>}
+      </section>}
       {modules.map((module) => {
         const group = lessons.filter((lesson) => lesson.moduleId === module.id);
         const completed = group.filter((lesson) => completedLessons.includes(lesson.slug)).length;

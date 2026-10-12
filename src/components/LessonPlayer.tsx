@@ -2,7 +2,7 @@
 
 import { levelHref } from "@/lib/levels";
 import Link from "next/link";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { Lesson } from "@/lib/content";
 import { useLearning } from "./LearningProvider";
 import { AudioButton } from "@/components/AudioButton";
@@ -15,13 +15,16 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
   const completed = learning.completedLessons.includes(lesson.slug);
   const [saveFailed, setSaveFailed] = useState(false);
   const [missingAnswers, setMissingAnswers] = useState(false);
+  const quizRef = useRef<HTMLDivElement>(null);
 
   const correctCount = lesson.questions.filter((q) => answers[q.id] === q.correctIndex).length;
   const passedCurrentAttempt = correctCount === lesson.questions.length;
 
   async function submitQuiz() {
-    if (lesson.questions.some((q) => answers[q.id] === undefined)) {
+    const firstUnanswered = lesson.questions.findIndex((q) => answers[q.id] === undefined);
+    if (firstUnanswered !== -1) {
       setMissingAnswers(true);
+      quizRef.current?.querySelectorAll("fieldset")[firstUnanswered]?.querySelector("input")?.focus();
       return;
     }
     setMissingAnswers(false);
@@ -42,7 +45,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
 
       <section className="lesson-section" aria-labelledby="phrases-heading">
         <div className="section-heading compact-heading">
-          <div><span className="eyebrow">01 / استمع واقرأ</span><h2 id="phrases-heading">جمل ستستخدمها فعلاً</h2></div>
+          <div><span className="eyebrow">01 / استمع واقرأ</span><h2 id="phrases-heading" tabIndex={-1}>جمل ستستخدمها فعلاً</h2></div>
           <span className="section-count">{lesson.phrases.length} جمل</span>
         </div>
         <div className="phrase-list">
@@ -66,7 +69,7 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
       <div className="continue-banner panel"><div><span className="eyebrow">استمع دون قراءة الجملة</span><h2>تدرّب على فهم ما تسمعه</h2><p>اختر معنى كل جملة من هذا الدرس، ثم راجع الإجابة.</p></div><Link className="button button-primary" href={`/learn/${lesson.slug}/listening`}>ابدأ تدريب الاستماع</Link></div>
       <section className="lesson-section" aria-labelledby="dialogue-heading">
         <div className="section-heading compact-heading">
-          <div><span className="eyebrow">02 / في سياقها</span><h2 id="dialogue-heading">محادثة قصيرة</h2></div>
+          <div><span className="eyebrow">02 / في سياقها</span><h2 id="dialogue-heading" tabIndex={-1}>محادثة قصيرة</h2></div>
         </div>
         <div className="dialogue panel">
           {lesson.dialogue.map((turn, index) => {
@@ -87,17 +90,20 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
       <section className="lesson-section" aria-labelledby="quiz-heading">
         <div className="grammar-card panel">
           <span className="eyebrow">03 / قاعدة من الدرس</span>
-          <h2>{lesson.grammar.title}</h2>
+          <h2 id="grammar-heading" tabIndex={-1}>{lesson.grammar.title}</h2>
           <p>{lesson.grammar.explanation}</p>
           <blockquote><p lang="nl" dir="ltr">{lesson.grammar.example}</p><footer>{lesson.grammar.translation}</footer></blockquote>
         </div>
         <div className="section-heading compact-heading">
-          <div><span className="eyebrow">04 / طبّق ما تعلمته</span><h2 id="quiz-heading">اختبار الدرس</h2></div>
+          <div><span className="eyebrow">04 / طبّق ما تعلمته</span><h2 id="quiz-heading" tabIndex={-1}>اختبار الدرس</h2></div>
           <span className="section-count">{lesson.questions.length} أسئلة</span>
         </div>
-        <div className="quiz-list">
+        <p className="quiz-answer-count">أجبت عن {Object.keys(answers).length} من {lesson.questions.length} أسئلة</p>
+        {missingAnswers && <p id="quiz-missing-answers" role="alert">اختر إجابة لكل سؤال أولاً.</p>}
+        <div className="quiz-list" ref={quizRef}>
           {lesson.questions.map((question, questionIndex) => (
-            <fieldset className="quiz-question panel" key={question.id}>
+            <fieldset className="quiz-question panel" key={question.id}
+              aria-describedby={missingAnswers && answers[question.id] === undefined ? "quiz-missing-answers" : undefined}>
               <legend><span className="question-number">{String(questionIndex + 1).padStart(2, "0")}</span> {question.prompt}</legend>
               <div className="option-list">
                 {question.options.map((option, index) => {
@@ -129,7 +135,6 @@ export function LessonPlayer({ lesson, nextLesson }: { lesson: Lesson; nextLesso
         </div>
         <div className="quiz-footer">
           <button type="button" className="button button-primary" onClick={submitQuiz} disabled={learning.saving}>تحقّق من الإجابات <span aria-hidden="true">←</span></button>
-          {missingAnswers && <p role="status">اختر إجابة لكل سؤال أولاً.</p>}
           {checked && <p className={passedCurrentAttempt ? "success-message" : "retry-message"} role="status">
             {passedCurrentAttempt ? "أجبت عن جميع الأسئلة بشكل صحيح. اكتمل الدرس." : `أجبت عن ${correctCount} من ${lesson.questions.length} بشكل صحيح. راجع التوضيحات ثم حاول ثانية.`}
           </p>}

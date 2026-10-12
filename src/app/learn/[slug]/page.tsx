@@ -38,10 +38,23 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
     </nav>
     {unit && <p className="curriculum-entry"><Link className="text-link" href={`${curriculumHref(lesson.level)}#${unit.id}`}>هدفك في خريطة {lesson.level}: {unit.title} ←</Link></p>}
     {unit && <p className="curriculum-entry"><Link className="text-link" href={`${practiceHref(lesson.level)}/${unit.id}`}>طبّق مهارات هذا المحور معاً ←</Link></p>}
+    <nav className="lesson-contents panel" aria-label="أجزاء هذا الدرس" id="lesson-contents" tabIndex={-1}>
+      <strong>في هذا الدرس</strong>
+      <div>
+        <a href="#phrases-heading">الجمل</a>
+        <a href="#dialogue-heading">المحادثة</a>
+        <a href="#grammar-heading">القاعدة</a>
+        <a href="#quiz-heading">اختبار الدرس</a>
+        {extension && <a href="#lesson-vocabulary-heading">المفردات</a>}
+        {extension?.languageDepth && <a href="#language-depth-heading">عمّق لغتك</a>}
+        {extension && <a href="#lesson-production">التطبيق الحر</a>}
+      </div>
+    </nav>
     <LessonPlayer key={lesson.slug} lesson={lesson} nextLesson={nextLesson} />
     {extension && <LessonEnrichment lesson={lesson} extension={extension} />}
     {recycling.length > 0 && <section className="reading-related"><h2>استرجع هذا الدرس في سياق جديد</h2><ul>{recycling.map((set) => <li key={set.slug}><Link href={`/a2-recycling/${set.slug}`}>{set.title} ←</Link></li>)}</ul></section>}
     {scenarios.some((scenario) => scenario.sourceLessons.includes(lesson.slug)) && <section className="scenario-links"><h2>استخدم ما تعلّمته في حوار</h2><ul>{scenarios.filter((scenario) => scenario.sourceLessons.includes(lesson.slug)).map((scenario) => <li key={scenario.slug}><Link href={`/scenarios/${scenario.slug}`}>{scenario.title} ←</Link></li>)}</ul></section>}
     {readings.some((reading) => reading.sourceLessons.includes(lesson.slug)) && <section className="reading-related"><h2>وسّع هذا الدرس بالقراءة</h2><div>{readings.filter((reading) => reading.sourceLessons.includes(lesson.slug)).map((reading) => <Link className="text-link" key={reading.slug} href={`/reading/${reading.slug}`}>{reading.title} ←</Link>)}</div></section>}
+    <a className="text-link lesson-back-to-contents" href="#lesson-contents">↑ العودة إلى أجزاء الدرس</a>
   </div>;
 }
