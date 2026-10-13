@@ -673,7 +673,7 @@ test("social unit follows travel, keeps A1 progress separate and distinguishes c
   await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
   await expect(page.locator(".reading-result h3")).toContainText("3 من 4");
   await expect(page.locator(".practice-review a")).toHaveAttribute("href", "/learn/a2-confirming-a-social-plan");
-  await expect(page.locator(".next-lesson")).toHaveAttribute("href", "/reading?level=A2");
+  await expect(page.locator(".next-lesson")).toHaveAttribute("href", `/reading/${readings[8].slug}`);
 });
 
 test("social listening replaces the original start, guest list and glass request", async ({ page }) => {
