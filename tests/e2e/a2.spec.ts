@@ -724,7 +724,7 @@ test("social invitation scenario changes only the unavailable time and confirms 
   await page.locator(".production-task textarea").fill("Afgesproken: zaterdag om kwart voor zes bij de ingang.");
   await page.locator(".production-task summary").click();
   await expect(page.locator(".production-model")).toHaveText(scenario.transfer.model);
-  await expect(page.locator(".next-lesson")).toHaveAttribute("href", "/scenarios?level=A2");
+  await expect(page.locator(".next-lesson")).toHaveAttribute("href", `/scenarios/${scenarios[8].slug}`);
   await page.reload();
   await expect(page.locator(".scenario-top")).toContainText("الجولة 1 من 4");
 });
