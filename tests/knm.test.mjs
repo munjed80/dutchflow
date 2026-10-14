@@ -31,6 +31,18 @@ test("public projection strips answer keys, explanations and future private meta
   const q = projectKnmQuestion({...all[0],secret:"do-not-publish"});
   assert.equal("correctIndex" in q,false);assert.equal("explanation" in q,false);assert.equal("secret" in q,false);
 });
+test("visual contexts cover every theme, appear in timed forms and preserve a safe public projection", () => {
+  const visual = all.filter((q) => q.visual);
+  assert.equal(visual.length, 8);
+  assert.equal(new Set(visual.map((q) => q.themeId)).size, 8);
+  const forms = Array.from({ length: 4 }, (_, i) => buildKnmExam(all, i)).flat();
+  assert.ok(visual.every((q) => forms.some((item) => item.id === q.id)));
+  const original = visual[0];
+  const publicQuestion = projectKnmQuestion({ ...original, visual: { ...original.visual, correctIndex: 1, description: { ...original.visual.description, secret: "private" } } });
+  assert.deepEqual(publicQuestion.visual, original.visual);
+  const invalid = structuredClone(bank); invalid.questions.find((q) => q.visual).visual.kind = "unknown";
+  assert.match(validateKnm(curriculum, lessons, invalid).join(" "), /invalid visual context/);
+});
 test("grading treats omitted answers as mistakes; only a perfect lesson attempt grants free completion", () => {
   const questions = all.filter((q) => q.lessonSlug === lessons[0].slug), answers = Object.fromEntries(questions.map((q)=>[q.id,q.correctIndex]));
   assert.equal(gradeKnm(questions,answers,lessons[0].slug).completedLesson,lessons[0].slug);

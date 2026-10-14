@@ -4,12 +4,16 @@ import { useEffect, useRef, useState } from "react";
 import { KNM_DRAFT_PREFIX } from "@/lib/knm/storage";
 import type { KnmResult, KnmSelection, KnmSubmission, PublicQuestion } from "@/lib/knm/types";
 import { useKnm } from "./KnmProvider";
+import { KnmScene } from "./KnmScene";
+import knmCurriculum from "@/data/knm/curriculum.json";
 export function KnmQuiz({ selection, questions, revision, minutes = 0, nextLesson }: { selection: KnmSelection; questions: PublicQuestion[]; revision: string; minutes?: number; nextLesson?: string }) {
   const progress = useKnm();
   const [started, setStarted] = useState(false), [answers, setAnswers] = useState<Record<string, number | null>>({}), [index, setIndex] = useState(0), [flags, setFlags] = useState<string[]>([]);
   const [deadline, setDeadline] = useState<number | null>(null), [remaining, setRemaining] = useState(minutes * 60), [result, setResult] = useState<KnmResult | null>(null);
   const [busy, setBusy] = useState(false), [error, setError] = useState(""), [saveFailed, setSaveFailed] = useState(false), [assisted, setAssisted] = useState<string[]>([]), [storageWarning, setStorageWarning] = useState("");
   const resultRef = useRef<HTMLDivElement>(null), questionRef = useRef<HTMLHeadingElement>(null), submitted = useRef<KnmSubmission | null>(null), owner = useRef<string | null>(null), previousOwner = useRef<string | null>(null), lock = useRef(false), draftReady = useRef(false), attemptGeneration = useRef(0);
+  const [feedbackFilter, setFeedbackFilter] = useState("all");
+  const themeName = (id: string) => knmCurriculum.themes.find((theme) => theme.id === id)?.title.ar ?? id;
   const key = `${KNM_DRAFT_PREFIX}${selection.mode}:${selection.key}`;
   const answered = questions.filter((q) => typeof answers[q.id] === "number").length;
   const expired = Boolean(deadline && remaining <= 0);
@@ -64,7 +68,7 @@ export function KnmQuiz({ selection, questions, revision, minutes = 0, nextLesso
     } catch (cause) { setError(cause instanceof Error && cause.message === "revision" ? "تحدّث المحتوى. أعد تحميل الصفحة لبدء محاولة بالنسخة الجديدة." : "تعذّر تصحيح المحاولة. إجاباتك موجودة؛ أعد محاولة التسليم."); }
     finally { lock.current = false; setBusy(false); }
   }
-  function restart() { attemptGeneration.current++; clearDraft(); setStarted(false); setResult(null); setAnswers({}); setIndex(0); setFlags([]); setAssisted([]); setDeadline(null); setSaveFailed(false); setError(""); }
+  function restart() { attemptGeneration.current++; clearDraft(); setStarted(false); setResult(null); setAnswers({}); setIndex(0); setFlags([]); setAssisted([]); setDeadline(null); setSaveFailed(false); setFeedbackFilter("all"); setError(""); }
   const q = questions[index];
   return <section className="knm-quiz panel" aria-label="تدريب KNM">
     {storageWarning && <p role="status" className="knm-notice">{storageWarning}</p>}
@@ -77,10 +81,12 @@ export function KnmQuiz({ selection, questions, revision, minutes = 0, nextLesso
         <p role="status">{busy ? "جارٍ حفظ تقدّم KNM…" : saveFailed ? "لم يُحفظ التقدّم بعد." : "حُفظ تقدّم التدريب ومراجعة الأخطاء."}</p>
         {saveFailed && !progress.ready && <button className="button button-secondary" disabled={busy || progress.loading} onClick={() => void progress.refresh()}>أعد تحميل تقدّم KNM</button>}
         {saveFailed && <button disabled={busy || !progress.ready || progress.loading} className="button button-secondary" onClick={async () => { if (!submitted.current) return; setBusy(true); setSaveFailed(!(await progress.save(submitted.current, result, owner.current))); setBusy(false); }}>أعد محاولة الحفظ</button>}
-        <div className="knm-score-grid">{result.themes.map((t) => <p key={t.id}>المحور {t.id}: {t.correct} / {t.total}</p>)}</div>
-        {result.items.map((item, i) => <details className={`knm-feedback ${item.correct ? "is-correct" : "needs-review"}`} key={item.id} open={!item.correct}>
+        <div className="knm-score-grid">{result.themes.map((t) => <p key={t.id}>{themeName(t.id)}: {t.correct} / {t.total}</p>)}</div>
+        <label className="knm-feedback-filter">عرض التصحيح<select value={feedbackFilter} onChange={(event) => setFeedbackFilter(event.target.value)}><option value="all">جميع الأسئلة ({result.total})</option><option value="mistakes">الأخطاء والمتروك ({result.total - result.correct})</option></select></label>
+        {feedbackFilter === "mistakes" && result.correct === result.total && <p role="status">أجبت عن جميع الأسئلة بشكل صحيح. يمكنك عرض جميع الأسئلة لمراجعة الشرح.</p>}
+        {result.items.map((item, i) => feedbackFilter === "mistakes" && item.correct ? null : <details className={`knm-feedback ${item.correct ? "is-correct" : "needs-review"}`} key={item.id} open={!item.correct}>
           <summary>{i + 1}. {item.correct ? "إجابة صحيحة" : item.chosen === null ? "سؤال متروك" : "يحتاج مراجعة"}</summary>
-          <h3 lang="nl" dir="ltr">{item.prompt.nl}</h3><p>{item.prompt.ar}</p>
+          {item.visual && <KnmScene visual={item.visual} />}<h3 lang="nl" dir="ltr">{item.prompt.nl}</h3><p>{item.prompt.ar}</p>
           <p>إجابتك: <span lang="nl" dir="ltr">{item.chosen === null ? "—" : item.options[item.chosen]}</span></p>
           <p>الإجابة الصحيحة: <strong lang="nl" dir="ltr">{item.options[item.correctIndex]}</strong></p>
           <p lang="nl" dir="ltr">{item.explanation.nl}</p><p>{item.explanation.ar}</p>
@@ -90,11 +96,12 @@ export function KnmQuiz({ selection, questions, revision, minutes = 0, nextLesso
       </div> : <>
         <div className="knm-quiz-bar"><p role="status">السؤال {index + 1} من {questions.length} · أجبت عن {answered}</p>{minutes > 0 && <p aria-label="الوقت المتبقي" className={expired ? "knm-error" : ""}>{Math.floor(remaining / 60)}:{String(remaining % 60).padStart(2, "0")}</p>}</div>
         {expired && <p role="alert">انتهى الوقت. سُلّم محاولتك لعرض التصحيح؛ الأسئلة المتروكة تدخل في المراجعة.</p>}
-        <div className="knm-question"><span className="eyebrow">KNM · المحور {q.themeId}</span><h2 ref={questionRef} tabIndex={-1} lang="nl" dir="ltr">{q.prompt.nl}</h2>
+        <div className="knm-question"><span className="eyebrow">KNM · {themeName(q.themeId)}</span><h2 ref={questionRef} tabIndex={-1} lang="nl" dir="ltr">{q.prompt.nl}</h2>
+          {q.visual && <KnmScene visual={q.visual} />}
           <fieldset disabled={busy || expired}><legend className="sr-only">اختر إجابة للسؤال {index + 1}</legend>
             {q.options.map((option, i) => <label className="knm-option" key={i}><input type="radio" name={q.id} checked={answers[q.id] === i} onChange={() => { setAnswers((old) => ({ ...old, [q.id]: i })); setError(""); }} /><span lang="nl" dir="ltr">{option}</span></label>)}
           </fieldset>
-          {!minutes && <details onToggle={(event) => { if (event.currentTarget.open) setAssisted((old) => [...new Set([...old, q.id])]); }} key={q.id}><summary>اعرض ترجمة السؤال للمساعدة</summary><p>{q.prompt.ar}</p></details>}
+          {!minutes && <details onToggle={(event) => { if (event.currentTarget.open) setAssisted((old) => [...new Set([...old, q.id])]); }} key={q.id}><summary>اعرض ترجمة السؤال للمساعدة</summary><p>{q.prompt.ar}</p>{q.visual && <p>{q.visual.description.ar}</p>}</details>}
           <button className="knm-flag" disabled={busy} aria-pressed={flags.includes(q.id)} onClick={() => setFlags((old) => old.includes(q.id) ? old.filter((id) => id !== q.id) : [...old, q.id])}>{flags.includes(q.id) ? "أزل علامة المراجعة" : "علّم السؤال للعودة إليه"}</button>
         </div>
         <div className="knm-actions"><button className="button button-secondary" disabled={index === 0 || busy} onClick={() => setIndex(index - 1)}>السابق</button><button className="button button-secondary" disabled={index === questions.length - 1 || busy} onClick={() => setIndex(index + 1)}>التالي</button></div>

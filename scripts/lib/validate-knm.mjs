@@ -25,6 +25,7 @@ export function validateKnm(curriculum, lessons, bank) {
     if (prompts.has(q.prompt?.nl)) add(`duplicate prompt ${q.id}`); prompts.add(q.prompt?.nl);
     if (!Array.isArray(q.options) || q.options.length !== 3 || q.options.some((o) => typeof o !== "string" || !o.trim()) || new Set(q.options).size !== 3) add(`invalid options ${q.id}`);
     if (!Number.isInteger(q.correctIndex) || q.correctIndex < 0 || q.correctIndex > 2) add(`invalid answer key ${q.id}`);
+    if (q.visual && (!["document", "calendar", "home", "care", "water", "message", "government", "school"].includes(q.visual.kind) || typeof q.visual.title !== "string" || !q.visual.title.trim() || !Array.isArray(q.visual.lines) || q.visual.lines.length < 1 || q.visual.lines.length > 4 || q.visual.lines.some((line) => typeof line !== "string" || !line.trim()) || !bilingual(q.visual.description))) add(`invalid visual context ${q.id}`);
   }
   for (const objective of curriculum.objectives) {
     if (!themeIds.includes(objective.themeId) || !objective.lessonSlugs?.length || objective.lessonSlugs.some((s) => !lessons.some((l) => l.slug === s && l.objectives.includes(objective.id))) || !bank.questions.some((q) => q.objective === objective.id)) add(`unmapped objective ${objective.id}`);

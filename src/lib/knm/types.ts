@@ -1,6 +1,7 @@
 export type Bilingual = { nl: string; ar: string };
+export type KnmVisual = { kind: "document" | "calendar" | "home" | "care" | "water" | "message" | "government" | "school"; title: string; lines: string[]; description: Bilingual };
 export type KnmLesson = { slug: string; themeId: string; number: number; title: Bilingual; durationMinutes: number; objectives: string[]; points: { objective: string; nl: string; ar: string }[]; vocabulary: Bilingual[]; example: Bilingual; questionIds: string[]; sourceIds: string[] };
-export type KnmQuestion = { id: string; lessonSlug: string; themeId: string; objective: string; prompt: Bilingual; options: string[]; correctIndex: number; explanation: Bilingual };
+export type KnmQuestion = { id: string; lessonSlug: string; themeId: string; objective: string; prompt: Bilingual; options: string[]; correctIndex: number; explanation: Bilingual; visual?: KnmVisual };
 export type PublicQuestion = Omit<KnmQuestion, "correctIndex" | "explanation">;
 export type KnmSelection = { mode: "lesson" | "exam" | "review"; key: string; questionIds?: string[] };
 export type KnmSubmission = KnmSelection & { revision: string; answers: Record<string, number | null> };

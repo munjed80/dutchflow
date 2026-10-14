@@ -110,3 +110,42 @@ test('pending account persistence never announces a successful save before ackno
   try {await expect(page.locator('.knm-result').getByRole('status')).toHaveText('جارٍ حفظ تقدّم KNM…');await expect(page.locator('.knm-result')).not.toContainText('حُفظ تقدّم التدريب');}finally{release();}
   await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');
 });
+
+test('authored visual questions stay accessible on mobile, in timed practice and mistake feedback', async ({ page, request }) => {
+  const visualQuestions = bank.questions.filter((q) => 'visual' in q);
+  for (const q of visualQuestions) {
+    await page.goto(`/knm/lessons/${q.lessonSlug}`);
+    await page.getByRole('button', { name: 'ابدأ تدريب الدرس' }).click();
+    const group = bank.questions.filter((item) => item.lessonSlug === q.lessonSlug);
+    const index = group.findIndex((item) => item.id === q.id);
+    await page.locator('.knm-question-nav button').nth(index).click();
+    await expect(page.getByRole('figure', { name: q.visual!.description.nl })).toBeVisible();
+    await expect(page.locator('.knm-scene')).toContainText(q.visual!.title);
+    for (const width of [320, 390, 1280]) {
+      await page.setViewportSize({ width, height: 844 });
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    }
+    await page.locator('.knm-question details summary').click();
+    await expect(page.locator('.knm-question details')).toContainText(q.visual!.description.ar);
+  }
+  const q = visualQuestions[0];
+  const response = await request.get(`/api/knm/review?ids=${q.id}`);
+  const payload = await response.json();
+  expect(JSON.stringify(payload)).toContain(q.visual!.title);
+  expect(JSON.stringify(payload)).not.toContain('correctIndex');
+  await page.goto(`/knm/lessons/${lessons[0].slug}`);
+  await page.getByRole('button', { name: 'ابدأ تدريب الدرس' }).click();
+  await answer(page, first, true);
+  await page.getByLabel('عرض التصحيح').selectOption('mistakes');
+  await expect(page.locator('.knm-feedback')).toHaveCount(1);
+  await expect(page.locator('.knm-score-grid')).toContainText(curriculum.themes[0].title.ar);
+  await page.getByLabel('عرض التصحيح').selectOption('all');
+  await expect(page.locator('.knm-feedback')).toHaveCount(first.length);
+  await expect(page.locator('.knm-feedback .knm-scene')).toHaveCount(1);
+  await page.goto('/knm/exams/practice-1');
+  await page.getByRole('button', { name: 'ابدأ الامتحان التدريبي' }).click();
+  const visualIndex = buildKnmExam(bank.questions as KnmQuestion[], 0).findIndex((item) => item.visual);
+  await page.locator('.knm-question-nav button').nth(visualIndex).click();
+  await expect(page.locator('.knm-scene')).toBeVisible();
+  await expect(page.locator('.knm-question details')).toHaveCount(0);
+});

@@ -1,5 +1,5 @@
 {
-  "revision": "knm-2026-10-14-v1",
+  "revision": "knm-2026-10-14-v2",
   "questions": [
     {
       "id": "knm-finding-work-1",
@@ -27,18 +27,31 @@
       "themeId": "1",
       "objective": "1.1.2",
       "prompt": {
-        "nl": "Wat staat normaal in een cv?",
-        "ar": "ماذا تتضمن السيرة الذاتية عادة؟"
+        "nl": "Sara stuurt dit document naar een werkgever. Welke informatie hoort in een cv?",
+        "ar": "ترسل سارة هذه الوثيقة إلى صاحب عمل. أي معلومات تنتمي إلى السيرة الذاتية؟"
       },
       "options": [
-        "Alleen de salarisadministratie van het bedrijf",
+        "De loonstroken van alle medewerkers",
         "Opleiding en werkervaring",
-        "Alleen je motivatie voor één baan"
+        "De werktijden van alle medewerkers"
       ],
       "correctIndex": 1,
       "explanation": {
         "nl": "In een cv staan opleiding, werkervaring en vaardigheden. Een werkgever gebruikt dit om te zien of iemand bij het werk past.",
         "ar": "تتضمن السيرة الذاتية الدراسة والخبرة والمهارات. يستخدمها صاحب العمل لتقييم ملاءمة المتقدم."
+      },
+      "visual": {
+        "kind": "document",
+        "title": "Curriculum vitae",
+        "lines": [
+          "Naam: Sara",
+          "Opleiding: mbo administratie",
+          "Werkervaring: receptie, 2022–2025"
+        ],
+        "description": {
+          "nl": "Een cv van Sara met haar opleiding en werkervaring.",
+          "ar": "سيرة ذاتية لسارة تعرض دراستها وخبرتها المهنية."
+        }
       }
     },
     {
@@ -747,18 +760,31 @@
       "themeId": "2",
       "objective": "2.1.3",
       "prompt": {
-        "nl": "Welke gegevens horen meestal bij een afspraak?",
-        "ar": "أي بيانات تتضمنها المواعيد عادة؟"
+        "nl": "Welke gegevens staan op deze afspraakkaart?",
+        "ar": "أي معلومات تظهر على بطاقة الموعد؟"
       },
       "options": [
         "Datum, tijd en plaats",
-        "Alleen de naam van de bezoeker",
-        "Alleen de kosten van de locatie"
+        "Naam, adres en geboortedatum",
+        "Kosten, betaalwijze en rekeningnummer"
       ],
       "correctIndex": 0,
       "explanation": {
         "nl": "Een afspraak bevat doorgaans een datum, tijd en plaats. Bij een online afspraak kan in plaats van een adres een digitale link horen.",
         "ar": "يتضمن الموعد عادة التاريخ والوقت والمكان. وقد يستخدم الموعد الإلكتروني رابطاً بدلاً من عنوان."
+      },
+      "visual": {
+        "kind": "calendar",
+        "title": "Afspraak",
+        "lines": [
+          "Dinsdag 10 november",
+          "10.30 uur",
+          "Balie 2 · gemeentehuis"
+        ],
+        "description": {
+          "nl": "Een afspraakkaart met datum, tijd en plaats.",
+          "ar": "بطاقة موعد تتضمن التاريخ والوقت والمكان."
+        }
       }
     },
     {
@@ -1307,18 +1333,31 @@
       "themeId": "3",
       "objective": "3.1.3",
       "prompt": {
-        "nl": "Waarom is inschrijving als woningzoekende belangrijk?",
-        "ar": "لماذا يهم التسجيل كباحث عن سكن؟"
+        "nl": "Waarom is inschrijving op zo’n woningwebsite vaak belangrijk?",
+        "ar": "لماذا يكون التسجيل في موقع سكن كهذا مهماً غالباً؟"
       },
       "options": [
-        "Omdat inschrijving altijd direct een woning geeft",
-        "Omdat particuliere huur niet bestaat",
-        "Omdat dit vaak nodig is voor sociale huur"
+        "De inschrijving garandeert direct een woning",
+        "Je koopt daarmee de woning",
+        "Dit is vaak nodig om op sociale huurwoningen te reageren"
       ],
       "correctIndex": 2,
       "explanation": {
-        "nl": "Voor sociale huur is vaak inschrijving als woningzoekende nodig. De regels en wachttijd verschillen per regio.",
-        "ar": "غالباً يتطلب السكن الاجتماعي التسجيل كباحث عن سكن. تختلف القواعد والانتظار حسب المنطقة."
+        "nl": "Voor sociale huur is vaak inschrijving als woningzoekende nodig om op woningen te reageren. Inschrijving geeft geen garantie op een woning. De voorwaarden en wachttijd verschillen per regio.",
+        "ar": "غالباً يتطلب التقدم للسكن الاجتماعي التسجيل كباحث عن سكن. لا يضمن التسجيل الحصول على منزل. تختلف الشروط ومدة الانتظار حسب المنطقة."
+      },
+      "visual": {
+        "kind": "home",
+        "title": "Woning zoeken",
+        "lines": [
+          "Sociale huur",
+          "Inschrijving als woningzoekende",
+          "Beschikbare woningen bekijken"
+        ],
+        "description": {
+          "nl": "Een voorbeeld van een zoekpagina voor sociale huur.",
+          "ar": "مثال على صفحة البحث عن سكن اجتماعي."
+        }
       }
     },
     {
@@ -1967,18 +2006,31 @@
       "themeId": "4",
       "objective": "4.1.1",
       "prompt": {
-        "nl": "Met welke klachten kun je ook bij de huisarts terecht?",
-        "ar": "بأي أعراض يمكنك أيضاً مراجعة الطبيب؟"
+        "nl": "Wie is meestal het eerste aanspreekpunt voor deze klachten?",
+        "ar": "من غالباً الجهة الأولى التي تتوجه إليها بشأن هذه الأعراض؟"
       },
       "options": [
-        "Alleen huuraanvragen",
-        "Psychische klachten",
-        "Alleen belastingvragen"
+        "Een chirurg in het ziekenhuis",
+        "De huisarts",
+        "Een tandarts"
       ],
       "correctIndex": 1,
       "explanation": {
         "nl": "Ook bij stress, angst of andere psychische klachten kun je naar de huisarts. De huisarts bekijkt samen met jou welke hulp past.",
         "ar": "يمكن مراجعة طبيب الأسرة أيضاً للتوتر والقلق والأعراض النفسية. يناقش معك نوع المساعدة المناسب."
+      },
+      "visual": {
+        "kind": "care",
+        "title": "Een afspraak maken",
+        "lines": [
+          "Nora slaapt slecht.",
+          "Zij voelt zich vaak angstig.",
+          "Zij zoekt hulp."
+        ],
+        "description": {
+          "nl": "Nora wil hulp zoeken voor slecht slapen en angst.",
+          "ar": "تريد نورا طلب المساعدة بسبب صعوبة النوم والقلق."
+        }
       }
     },
     {
@@ -2627,18 +2679,31 @@
       "themeId": "5",
       "objective": "5.1.1",
       "prompt": {
-        "nl": "Waarvoor dient een dijk?",
-        "ar": "ما وظيفة السد الترابي؟"
+        "nl": "Welke functie heeft de dijk in deze tekening?",
+        "ar": "ما وظيفة السد الترابي في هذا الرسم؟"
       },
       "options": [
-        "Drinkwaterprijzen vaststellen",
+        "De rivier geschikt maken voor drinkwater",
         "Water tegenhouden",
-        "Schepen bij het station parkeren"
+        "De route van de bus bepalen"
       ],
       "correctIndex": 1,
       "explanation": {
         "nl": "Een dijk helpt water tegen te houden. Nederland kent een lange geschiedenis van bescherming tegen overstromingen.",
         "ar": "يساعد السد الترابي في صد الماء. لهولندا تاريخ طويل في الحماية من الفيضانات."
+      },
+      "visual": {
+        "kind": "water",
+        "title": "Water en land",
+        "lines": [
+          "Rivier",
+          "Dijk",
+          "Woongebied"
+        ],
+        "description": {
+          "nl": "Een schematische doorsnede: een rivier naast een dijk en een woongebied.",
+          "ar": "مقطع تخطيطي لنهر بجوار سد ترابي ومنطقة سكنية."
+        }
       }
     },
     {
@@ -3247,18 +3312,31 @@
       "themeId": "6",
       "objective": "6.1.1",
       "prompt": {
-        "nl": "Wat kan een verzoek om je inlogcode via e-mail betekenen?",
-        "ar": "ماذا قد يعني طلب الرمز عبر البريد؟"
+        "nl": "Wat kan dit bericht betekenen?",
+        "ar": "ماذا قد تعني هذه الرسالة؟"
       },
       "options": [
-        "Een normale manier van identificatie zonder risico",
+        "Een veilige manier om je identiteit te bevestigen",
         "Een poging tot phishing",
-        "Een verplichte DigiD-controle via elke afzender"
+        "Een normale controle waarvoor je je code moet delen"
       ],
       "correctIndex": 1,
       "explanation": {
         "nl": "Een bericht dat om je wachtwoord of code vraagt kan phishing zijn. Via een officieel adres kun je zelf controleren wat echt gevraagd wordt.",
         "ar": "قد يكون طلب الرمز أو كلمة السر تصيداً. تحقق بنفسك عبر العنوان الرسمي."
+      },
+      "visual": {
+        "kind": "message",
+        "title": "Nieuw bericht",
+        "lines": [
+          "Uw account wordt geblokkeerd!",
+          "Stuur uw DigiD-code terug.",
+          "Afzender onbekend"
+        ],
+        "description": {
+          "nl": "Een fictief bericht van een onbekende afzender die om een DigiD-code vraagt.",
+          "ar": "رسالة خيالية من مرسل مجهول تطلب رمز DigiD."
+        }
       }
     },
     {
@@ -3907,18 +3985,31 @@
       "themeId": "7",
       "objective": "7.1.1",
       "prompt": {
-        "nl": "Welke taak heeft het parlement naast wetgeving?",
-        "ar": "ما مهمة البرلمان إضافة للتشريع؟"
+        "nl": "Welke taak van het parlement zie je in deze situatie?",
+        "ar": "أي وظيفة للبرلمان تظهر في هذا الموقف؟"
       },
       "options": [
-        "Alle gemeentelijke huizen verhuren",
+        "Rechtspreken in een strafzaak",
         "De regering controleren",
-        "Alle rechtszaken als rechter behandelen"
+        "Het dagelijks bestuur van een gemeente uitvoeren"
       ],
       "correctIndex": 1,
       "explanation": {
         "nl": "Regering en parlement hebben samen een rol bij het maken van wetten. Het parlement controleert ook de regering.",
         "ar": "تشترك الحكومة والبرلمان في التشريع، ويراقب البرلمان الحكومة أيضاً."
+      },
+      "visual": {
+        "kind": "government",
+        "title": "Debat in het parlement",
+        "lines": [
+          "Een minister geeft uitleg.",
+          "Kamerleden stellen vragen.",
+          "Het gaat over een besluit van de regering."
+        ],
+        "description": {
+          "nl": "Een debat waarin Kamerleden een minister vragen stellen over een besluit.",
+          "ar": "نقاش يوجه فيه أعضاء البرلمان أسئلة إلى وزير حول قرار حكومي."
+        }
       }
     },
     {
@@ -4487,18 +4578,31 @@
       "themeId": "8",
       "objective": "8.1.1",
       "prompt": {
-        "nl": "Wat komt meestal na de basisschool?",
-        "ar": "ماذا يأتي عادة بعد الابتدائية؟"
+        "nl": "Naar welk soort onderwijs gaat Yassin meestal na groep 8?",
+        "ar": "إلى أي نوع من التعليم ينتقل ياسين عادة بعد الصف الثامن؟"
       },
       "options": [
-        "Automatisch hbo",
-        "Altijd direct universiteit",
+        "Hoger beroepsonderwijs",
+        "Universitair onderwijs",
         "Voortgezet onderwijs"
       ],
       "correctIndex": 2,
       "explanation": {
         "nl": "Kinderen gaan meestal vanaf vier jaar naar de basisschool. De basisschool heeft acht groepen en wordt gevolgd door voortgezet onderwijs.",
         "ar": "يبدأ الأطفال الابتدائية عادة من سن الرابعة. فيها ثمانية صفوف يتلوها التعليم الثانوي."
+      },
+      "visual": {
+        "kind": "school",
+        "title": "Na groep 8",
+        "lines": [
+          "Yassin zit in groep 8.",
+          "Hij krijgt een schooladvies.",
+          "Hij kiest een volgende school."
+        ],
+        "description": {
+          "nl": "Yassin kiest met een schooladvies een school na groep 8.",
+          "ar": "يختار ياسين مدرسة بعد الصف الثامن بناءً على توصية المدرسة."
+        }
       }
     },
     {

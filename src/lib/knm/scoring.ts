@@ -19,9 +19,9 @@ export function buildKnmExam(questions: KnmQuestion[], form: number): KnmQuestio
     const pool = questions.filter((q) => q.themeId === theme);
     const slugs = [...new Set(pool.map((q) => q.lessonSlug))];
     const groups = slugs.map((slug) => pool.filter((q) => q.lessonSlug === slug));
-    return [...groups.map((group) => group[form * 2]), groups[form % groups.length][form * 2 + 1]];
+    return [...groups.map((group) => group[form * 2]), groups[0][form * 2 + 1]];
   });
 }
 export function projectKnmQuestion(q: KnmQuestion) {
-  return { id: q.id, lessonSlug: q.lessonSlug, themeId: q.themeId, objective: q.objective, prompt: q.prompt, options: q.options };
+  return { id: q.id, lessonSlug: q.lessonSlug, themeId: q.themeId, objective: q.objective, prompt: q.prompt, options: q.options, ...(q.visual ? { visual: { kind: q.visual.kind, title: q.visual.title, lines: q.visual.lines, description: { nl: q.visual.description.nl, ar: q.visual.description.ar } } } : {}) };
 }
