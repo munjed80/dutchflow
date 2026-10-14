@@ -34,7 +34,7 @@ test('guest lesson mistakes persist, review clears only corrected questions and 
   await page.goto(`/knm/lessons/${lessons[0].slug}`);await page.getByRole('button',{name:'ابدأ تدريب الدرس'}).click();await answer(page,first,true);
   await expect(page.locator('.knm-result h2')).toHaveText('نتيجتك: 7 من 8');await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');
   expect((await page.evaluate((k)=>JSON.parse(localStorage.getItem(k)!),key)).wrongQuestionIds).toEqual([first[0].id]);
-  await page.getByRole('link',{name:'راجع الأخطاء',exact:true}).click();await page.getByRole('button',{name:'ابدأ مراجعة الأخطاء'}).click();await page.getByRole('button',{name:'ابدأ تدريب الدرس'}).click();await answer(page,[first[0]]);
+  await page.getByRole('link',{name:'راجع الأخطاء',exact:true}).click();await page.getByRole('button',{name:'ابدأ مراجعة الأخطاء'}).click();await page.getByRole('button',{name:'ابدأ مراجعة الأسئلة'}).click();await answer(page,[first[0]]);
   await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');expect((await page.evaluate((k)=>JSON.parse(localStorage.getItem(k)!),key)).wrongQuestionIds).toEqual([]);
   await page.goto(`/knm/lessons/${lessons[0].slug}`);await page.getByRole('button',{name:'ابدأ تدريب الدرس'}).click();await answer(page,first);await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');
   await page.goto('/knm/progress');await expect(page.getByRole('heading',{name:'أكملت 1 من 32 تدريب درس'})).toBeVisible();
@@ -148,4 +148,61 @@ test('authored visual questions stay accessible on mobile, in timed practice and
   await page.locator('.knm-question-nav button').nth(visualIndex).click();
   await expect(page.locator('.knm-scene')).toBeVisible();
   await expect(page.locator('.knm-question details')).toHaveCount(0);
+});
+
+test('guided review scopes a short session, keeps other mistakes and links theme progress to review', async ({ page }, testInfo) => {
+  const second = bank.questions.filter((q) => q.lessonSlug === 'everyday-contact');
+  const wrongIds = [...first.map((q) => q.id), ...second.map((q) => q.id)];
+  await page.addInitScript(({ key, wrongIds }) => {
+    if (!localStorage.getItem(key)) localStorage.setItem(key, JSON.stringify({ version: 1, completedLessons: [], wrongQuestionIds: wrongIds }));
+  }, { key, wrongIds });
+  await page.goto('/knm');
+  await expect(page.getByRole('link', { name: /جلسة مراجعة قصيرة/ })).toBeVisible();
+  for (const width of [320, 390, 721, 1280]) {
+    await page.setViewportSize({ width, height: 844 });
+    const layout = await page.evaluate(() => ({ width: innerWidth, documentWidth: document.documentElement.scrollWidth, offenders: [...document.querySelectorAll('main *')].filter((item) => { const box = item.getBoundingClientRect(); return box.right > innerWidth + 1 || box.left < -1; }).slice(0, 8).map((item) => ({ tag: item.tagName, className: item.className, text: item.textContent?.slice(0, 100) })) }));
+    if (layout.documentWidth > width) await page.screenshot({ path: testInfo.outputPath('catalogue-overflow.png'), fullPage: true });
+    expect(layout.documentWidth, JSON.stringify(layout)).toBeLessThanOrEqual(width);
+  }
+  await page.goto('/knm/progress');
+  await page.getByRole('link', { name: 'راجع أخطاء هذا المحور (8)' }).nth(1).click();
+  await expect(page).toHaveURL(/review\?theme=2/);
+  await expect(page.getByLabel('محور المراجعة')).toHaveValue('2');
+  await page.getByLabel('حجم جلسة المراجعة').selectOption('5');
+  await expect(page.getByRole('status').filter({ hasText: 'في الاختيار' })).toContainText('8 سؤالاً في الاختيار · 5 في الجلسة التالية');
+  await expect(page.locator('.knm-review-lessons a')).toHaveCount(1);
+  await expect(page.locator('.knm-review-lessons a')).toHaveAttribute('href', '/knm/lessons/everyday-contact');
+  const idsPromise = page.waitForRequest((request) => request.url().includes('/api/knm/review?'));
+  await page.getByRole('button', { name: 'ابدأ مراجعة الأخطاء' }).click();
+  const ids = new URL((await idsPromise).url()).searchParams.get('ids')!.split(',');
+  expect(ids).toEqual(second.slice(0, 5).map((q) => q.id));
+  await page.getByRole('button', { name: 'ابدأ مراجعة الأسئلة' }).click();
+  await answer(page, second.slice(0, 5));
+  await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');
+  expect((await page.evaluate((key) => JSON.parse(localStorage.getItem(key)!), key)).wrongQuestionIds).toEqual([...first.map((q) => q.id), ...second.slice(5).map((q) => q.id)]);
+  await page.getByRole('button', { name: 'اختر مجموعة مراجعة أخرى' }).click();
+  await expect(page.getByRole('status').filter({ hasText: 'في الاختيار' })).toContainText('3 سؤالاً في الاختيار · 3 في الجلسة التالية');
+  await page.getByLabel('محور المراجعة').selectOption('8');
+  await expect(page.getByText('لا توجد أخطاء محفوظة في هذا المحور.', { exact: false })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'ابدأ مراجعة الأخطاء' })).toHaveCount(0);
+  await page.getByRole('button', { name: 'اعرض جميع أخطاء KNM' }).click();
+  await expect(page.locator('.knm-review-lessons a')).toHaveCount(2);
+  for (const width of [320, 390, 1280]) {
+    await page.setViewportSize({ width, height: 844 });
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.screenshot({ path: testInfo.outputPath('guided-review-mobile.png'), fullPage: true });
+  await page.goto('/knm/review?theme=unknown');
+  await expect(page.getByLabel('محور المراجعة')).toHaveValue('all');
+  await expect(page.getByText('رابط المحور غير معروف؛ نعرض جميع المحاور.')).toBeVisible();
+});
+
+test('KNM progress with no saved mistakes offers a lesson or exam rather than an empty review', async ({ page }) => {
+  await page.goto('/knm/progress');
+  await expect(page.getByRole('link', { name: 'تابع الدرس التالي' })).toHaveAttribute('href', `/knm/lessons/${lessons[0].slug}`);
+  await page.evaluate(({ key, slugs }) => localStorage.setItem(key, JSON.stringify({ version: 1, completedLessons: slugs, wrongQuestionIds: [] })), { key, slugs: lessons.map((lesson) => lesson.slug) });
+  await page.reload();
+  await expect(page.getByRole('link', { name: 'افتح الامتحانات' })).toHaveAttribute('href', '/knm/exams');
+  await expect(page.getByRole('link', { name: /راجع أخطاء هذا المحور/ })).toHaveCount(0);
 });

@@ -32,7 +32,7 @@ The internal editorial pass includes Dutch/Arabic meaning, one-best-answer wordi
 
 ## Routes and learner flow
 
-`/knm` is a searchable theme catalogue with the next unfinished lesson when progress is known. `/knm/lessons/[slug]` has fragment navigation, Dutch text with optional Arabic translations, vocabulary, a realistic scenario, quiz and sources. `/knm/exams` exposes the four forms, `/knm/progress` groups completion by theme, and `/knm/review` selects up to 20 saved wrong/unanswered questions. Discoverability is added to the existing learning-resource disclosure and exam page.
+`/knm` is a searchable theme catalogue with the next unfinished lesson when progress is known. `/knm/lessons/[slug]` has fragment navigation, Dutch text with optional Arabic translations, vocabulary, a realistic scenario, quiz and sources. `/knm/exams` exposes the four forms, `/knm/progress` groups completion by theme, and `/knm/review` offers saved wrong/unanswered questions by theme in sessions of up to 5, 10 (default), or 20 items. Progress links to each theme’s saved mistakes; with no pending mistakes it recommends the next unfinished lesson or an exam. The catalogue provides a short-review link whenever known progress contains mistakes. Discoverability is added to the existing learning-resource disclosure and exam page.
 
 A quiz displays one question at a time, an answer count, flags, navigation and keyboard focus. Lesson/review submission requires answers for all selected questions; a timed form permits unanswered questions after explicit confirmation. The timer uses an absolute deadline, locks responses on expiry and allows explicit submission/retry. Results show named themes, a filter for wrong/unanswered questions, Dutch/Arabic evidence and source-lesson links after submission, with no pass/fail cutoff. Arabic help is available only in lesson/review mode and is reported as assistance.
 
@@ -64,3 +64,11 @@ Content/audio checks, 76 native tests, TypeScript and a fresh production build p
 ### Visual/editorial follow-up (revision v2)
 
 Eight question contexts were revised for specific everyday situations, bilingual equivalence and more relevant alternatives: a cv, appointment card, housing search, GP contact, dike diagram, phishing message, parliamentary debate and transition after group 8. IDs and tested knowledge remain stable; the content revision changes so old timed drafts cannot resume against a changed form. The public visual projection explicitly whitelists fields and never embeds answer keys. This is a focused internal editorial pass, not independent review of the entire bank.
+
+## Guided review follow-up
+
+Review selection uses public lesson/question-ID metadata, without client answer-bank imports. Counts and lesson links require known progress. Saved order is preserved, stale/duplicate IDs are excluded, and only the frozen submitted batch updates review state. A valid `?theme=` link preselects the theme; an unknown value falls back to all themes with an explanation. An empty filtered theme offers a return to all mistakes, without implying mastery.
+
+Requests are aborted on account, filter, size changes and unmount; generation/owner/readiness checks prevent a stale response from opening a session. Lesson completion, grading, persistence schema and content revision are unchanged. Review starts with “ابدأ مراجعة الأسئلة” rather than the lesson-training label.
+
+Guided-review validation: content/audio checks, 77 native tests, TypeScript and a fresh production build passed. The initial complete browser run passed 180 of 181 cases and found one header overflow at 721px. After tightening only intermediate-width navigation spacing, a fresh build and all 17 KNM/general-learning-UX browser tests passed, including the corrected 320/390/721/1280 catalogue checks. The 390px guided-review screenshot was visually inspected. The final CI inventory contains 181 cases; the complete local suite was not repeated after this localized CSS fix.

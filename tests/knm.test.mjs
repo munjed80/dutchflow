@@ -61,3 +61,15 @@ test("KNM guest progress rejects corrupt shape, filters stale IDs and updates on
   const next=applyKnmResult({completedLessons:[slugs[1]],wrongQuestionIds:[ids[0],ids[7]]},mixed);
   assert.deepEqual(next.completedLessons,[slugs[1]]);assert.ok(!next.wrongQuestionIds.includes(ids[0]));assert.ok(next.wrongQuestionIds.includes(ids[1]));assert.ok(next.wrongQuestionIds.includes(ids[7]));
 });
+
+test("review sessions scope by theme, preserve saved order and reject stale IDs or invalid sizes", async () => {
+  const { knmReviewIds, knmReviewBatch, knmReviewGroups } = await import("../src/lib/knm/review.ts");
+  const selected = [all[33].id, all[1].id, all[0].id, all[1].id, "stale"];
+  assert.deepEqual(knmReviewIds(lessons, selected), [all[33].id, all[1].id, all[0].id]);
+  assert.deepEqual(knmReviewBatch(lessons, selected, "1", 5), [all[1].id, all[0].id]);
+  assert.deepEqual(knmReviewBatch(lessons, selected, "unknown", 10), []);
+  assert.deepEqual(knmReviewBatch(lessons, selected, "all", 200), []);
+  assert.equal(knmReviewBatch(lessons, all.map((q) => q.id), "all", 10).length, 10);
+  const groups = knmReviewGroups(lessons, selected, "1");
+  assert.equal(groups.length, 1); assert.equal(groups[0].slug, "finding-work"); assert.equal(groups[0].count, 2);
+});

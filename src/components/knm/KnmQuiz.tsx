@@ -72,10 +72,10 @@ export function KnmQuiz({ selection, questions, revision, minutes = 0, nextLesso
   const q = questions[index];
   return <section className="knm-quiz panel" aria-label="تدريب KNM">
     {storageWarning && <p role="status" className="knm-notice">{storageWarning}</p>}
-    {!started ? <><span className="eyebrow">{minutes ? "اختبر معرفتك بالهولندية" : "تحقّق من فهمك"}</span><h2>{minutes ? "قبل أن تبدأ" : "تدريب الدرس"}</h2>
+    {!started ? <><span className="eyebrow">{minutes ? "اختبر معرفتك بالهولندية" : "تحقّق من فهمك"}</span><h2>{minutes ? "قبل أن تبدأ" : selection.mode === "review" ? "تدريب المراجعة" : "تدريب الدرس"}</h2>
       <p>{questions.length} سؤالاً · {minutes ? `${minutes} دقيقة. لن يظهر التصحيح حتى التسليم. الأسئلة المتروكة تُحسب للمراجعة.` : "يمكنك العودة للأسئلة قبل التحقق. شرح عربي اختياري لكل سؤال."}</p>
       {minutes > 0 && <p className="quiet">40 سؤالاً وتوزيعها بالتساوي خيارات تدريبية لـDutchFlow؛ ليست وعداً بعدد أسئلة DUO أو توزيعها. انتهاء الوقت يقفل الإجابات ويتيح تسليم المحاولة.</p>}
-      <button className="button button-primary" onClick={start}>ابدأ {minutes ? "الامتحان التدريبي" : "تدريب الدرس"}</button></>
+      <button className="button button-primary" onClick={start}>ابدأ {minutes ? "الامتحان التدريبي" : selection.mode === "review" ? "مراجعة الأسئلة" : "تدريب الدرس"}</button></>
       : result ? <div ref={resultRef} tabIndex={-1} className="knm-result"><h2>نتيجتك: {result.correct} من {result.total}</h2>
         <p>نتيجة تدريبية وليست نتيجة DUO أو معيار نجاح رسمي. {assisted.length > 0 && `استُخدمت المساعدة العربية في ${assisted.length} أسئلة.`}</p>
         <p role="status">{busy ? "جارٍ حفظ تقدّم KNM…" : saveFailed ? "لم يُحفظ التقدّم بعد." : "حُفظ تقدّم التدريب ومراجعة الأخطاء."}</p>

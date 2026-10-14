@@ -6,7 +6,7 @@ Eight A2 units are now available as an authored preview: forty lessons on recent
 
 ## KNM knowledge pathway
 
-`/knm` adds 32 bilingual lessons, 257 original questions and four timed practice forms with eight original illustrated contexts across the eight official KNM themes, mapped to 78 knowledge objectives in the revision effective 1 July 2025. Progress and mistake review are isolated from A1/A2 and support guests or optional accounts. Run the existing migration command to apply `002_knm_progress.sql`. Read [the KNM source, exam-format and persistence details](docs/KNM.md); these are original training materials, not official DUO questions or results.
+`/knm` adds 32 bilingual lessons, 257 original questions and four timed practice forms with eight original illustrated contexts across the eight official KNM themes, mapped to 78 knowledge objectives in the revision effective 1 July 2025. Progress and mistake review are isolated from A1/A2 and support guests or optional accounts. Review can be scoped by theme in short 5/10/20-question sessions, with linked lesson context and next-step progress actions. Run the existing migration command to apply `002_knm_progress.sql`. Read [the KNM source, exam-format and persistence details](docs/KNM.md); these are original training materials, not official DUO questions or results.
 
 ## Run locally
 
