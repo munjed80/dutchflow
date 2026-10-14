@@ -3,6 +3,7 @@ import { curriculumHref, levelHref, practiceHref, type CourseLevel } from "@/lib
 
 export function LearningResources({ level }: { level: CourseLevel }) {
   const links = [
+    { href: "/knm", title: "KNM · المجتمع الهولندي", description: "منهج مستقل للتحضير لجزء المعرفة" },
     { href: curriculumHref(level), title: `خريطة ${level}`, description: "الوحدات وأهداف التعلّم" },
     { href: levelHref("/reading", level), title: "القراءة", description: "رسائل ونصوص من الحياة اليومية" },
     { href: levelHref("/vocabulary", level), title: "المفردات", description: "ابحث عن كلمة واقرأها في جملة" },

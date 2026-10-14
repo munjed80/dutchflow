@@ -1,0 +1,737 @@
+{
+  "revision": "knm-2026-10-14-v2",
+  "reviewedAt": "2026-10-14",
+  "effectiveFrom": "2025-07-01",
+  "themes": [
+    {
+      "id": "1",
+      "title": {
+        "nl": "Werk en inkomen",
+        "ar": "العمل والدخل"
+      }
+    },
+    {
+      "id": "2",
+      "title": {
+        "nl": "Omgangsvormen, waarden en normen",
+        "ar": "التعامل والقيم والمعايير"
+      }
+    },
+    {
+      "id": "3",
+      "title": {
+        "nl": "Wonen",
+        "ar": "السكن"
+      }
+    },
+    {
+      "id": "4",
+      "title": {
+        "nl": "Gezondheid en gezondheidszorg",
+        "ar": "الصحة والرعاية"
+      }
+    },
+    {
+      "id": "5",
+      "title": {
+        "nl": "Geschiedenis en geografie",
+        "ar": "التاريخ والجغرافيا"
+      }
+    },
+    {
+      "id": "6",
+      "title": {
+        "nl": "Instanties",
+        "ar": "الجهات والمؤسسات"
+      }
+    },
+    {
+      "id": "7",
+      "title": {
+        "nl": "Staatsinrichting en rechtsstaat",
+        "ar": "نظام الحكم ودولة القانون"
+      }
+    },
+    {
+      "id": "8",
+      "title": {
+        "nl": "Onderwijs en opvoeding",
+        "ar": "التعليم والتربية"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "endterms",
+      "title": "KNM eindtermen, geldig vanaf 1 juli 2025",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "duo-format",
+      "title": "DUO: inhoud kennisexamens",
+      "url": "https://www.inburgeren.nl/examen-doen/inhoud-kennisexamens.jsp",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "duo-practice",
+      "title": "DUO: officiële oefenexamens",
+      "url": "https://www.inburgeren.nl/examen-doen/oefenen.jsp",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "cito-update",
+      "title": "Cito: vernieuwde KNM-opzet",
+      "url": "https://cito.nl/actueel/knm-examen-in-een-nieuw-jasje-beter-moderner-relevanter/",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "government",
+      "title": "Rijksoverheid: huidige minister-president",
+      "url": "https://www.rijksoverheid.nl/regering/bewindspersonen/rob-jetten",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "elections",
+      "title": "Rijksoverheid: gemeentelijk kiesrecht",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/verkiezingen/wie-mag-stemmen-bij-de-gemeenteraadsverkiezingen",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "donor",
+      "title": "Donorregister: keuze en geen bezwaar",
+      "url": "https://www.donorregister.nl/uw-keuze-maken",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "school-duty",
+      "title": "Rijksoverheid: leerplicht en kwalificatieplicht",
+      "url": "https://www.rijksoverheid.nl/themas/onderwijs/leerplicht/leerplicht-en-kwalificatieplicht",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "parent-liability",
+      "title": "Rijksoverheid: ouderlijk gezag",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/ouderlijk-gezag/rechten-plichten-ouderlijk-gezag",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "insurance",
+      "title": "Rijksoverheid: verzekering bij woningkoop",
+      "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/huis-kopen/met-welke-kosten-krijg-ik-te-maken-als-ik-een-huis-koop",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "health-package",
+      "title": "Zorginstituut: fysiotherapie en oefentherapie",
+      "url": "https://www.zorginstituutnederland.nl/verzekerde-zorg/f/fysiotherapie-en-oefentherapie-zvw",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "business-benefits",
+      "title": "KVK: ondernemen met WW",
+      "url": "https://ondernemersplein.kvk.nl/eigen-bedrijf-starten-vanuit-de-ww/",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "business-bijstand",
+      "title": "KVK: ondernemen met bijstand",
+      "url": "https://www.kvk.nl/starten/starten-vanuit-bijstand/",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "parent-contribution",
+      "title": "Rijksoverheid: vrijwillige ouderbijdrage",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/financiering-onderwijs/is-de-vrijwillige-ouderbijdrage-op-de-basisschool-en-middelbare-school-verplicht",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "nationality",
+      "title": "Rijksoverheid: dubbele nationaliteit",
+      "url": "https://www.rijksoverheid.nl/themas/migratie-en-reizen/nederlandse-nationaliteit/dubbele-nationaliteit",
+      "checkedAt": "2026-10-14"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "1.1.1",
+      "themeId": "1",
+      "lessonSlugs": [
+        "qualifications-and-income"
+      ]
+    },
+    {
+      "id": "1.1.2",
+      "themeId": "1",
+      "lessonSlugs": [
+        "finding-work"
+      ]
+    },
+    {
+      "id": "1.1.3",
+      "themeId": "1",
+      "lessonSlugs": [
+        "qualifications-and-income"
+      ]
+    },
+    {
+      "id": "1.1.4",
+      "themeId": "1",
+      "lessonSlugs": [
+        "qualifications-and-income"
+      ]
+    },
+    {
+      "id": "1.1.5",
+      "themeId": "1",
+      "lessonSlugs": [
+        "qualifications-and-income"
+      ]
+    },
+    {
+      "id": "1.1.6",
+      "themeId": "1",
+      "lessonSlugs": [
+        "finding-work"
+      ]
+    },
+    {
+      "id": "1.1.7",
+      "themeId": "1",
+      "lessonSlugs": [
+        "qualifications-and-income"
+      ]
+    },
+    {
+      "id": "1.1.8",
+      "themeId": "1",
+      "lessonSlugs": [
+        "qualifications-and-income"
+      ]
+    },
+    {
+      "id": "1.2.1",
+      "themeId": "1",
+      "lessonSlugs": [
+        "employment-rights",
+        "fair-work-and-business"
+      ]
+    },
+    {
+      "id": "1.2.2",
+      "themeId": "1",
+      "lessonSlugs": [
+        "employment-rights"
+      ]
+    },
+    {
+      "id": "1.2.3",
+      "themeId": "1",
+      "lessonSlugs": [
+        "employment-rights"
+      ]
+    },
+    {
+      "id": "1.3.1",
+      "themeId": "1",
+      "lessonSlugs": [
+        "fair-work-and-business"
+      ]
+    },
+    {
+      "id": "1.4.1",
+      "themeId": "1",
+      "lessonSlugs": [
+        "fair-work-and-business"
+      ]
+    },
+    {
+      "id": "2.1.1",
+      "themeId": "2",
+      "lessonSlugs": [
+        "everyday-contact",
+        "social-participation"
+      ]
+    },
+    {
+      "id": "2.1.2",
+      "themeId": "2",
+      "lessonSlugs": [
+        "everyday-contact"
+      ]
+    },
+    {
+      "id": "2.1.3",
+      "themeId": "2",
+      "lessonSlugs": [
+        "everyday-contact",
+        "social-participation"
+      ]
+    },
+    {
+      "id": "2.1.4",
+      "themeId": "2",
+      "lessonSlugs": [
+        "families-and-networks"
+      ]
+    },
+    {
+      "id": "2.1.5",
+      "themeId": "2",
+      "lessonSlugs": [
+        "holidays-and-remembrance"
+      ]
+    },
+    {
+      "id": "2.2.1",
+      "themeId": "2",
+      "lessonSlugs": [
+        "families-and-networks",
+        "social-participation"
+      ]
+    },
+    {
+      "id": "2.2.2",
+      "themeId": "2",
+      "lessonSlugs": [
+        "families-and-networks",
+        "social-participation"
+      ]
+    },
+    {
+      "id": "3.1.1",
+      "themeId": "3",
+      "lessonSlugs": [
+        "finding-a-home",
+        "rent-and-maintenance"
+      ]
+    },
+    {
+      "id": "3.1.2",
+      "themeId": "3",
+      "lessonSlugs": [
+        "rent-and-maintenance"
+      ]
+    },
+    {
+      "id": "3.1.3",
+      "themeId": "3",
+      "lessonSlugs": [
+        "finding-a-home"
+      ]
+    },
+    {
+      "id": "3.2.1",
+      "themeId": "3",
+      "lessonSlugs": [
+        "utilities-and-energy"
+      ]
+    },
+    {
+      "id": "3.2.2",
+      "themeId": "3",
+      "lessonSlugs": [
+        "utilities-and-energy"
+      ]
+    },
+    {
+      "id": "3.3.1",
+      "themeId": "3",
+      "lessonSlugs": [
+        "clean-and-safe-neighbourhood"
+      ]
+    },
+    {
+      "id": "4.1.1",
+      "themeId": "4",
+      "lessonSlugs": [
+        "gp-and-referrals"
+      ]
+    },
+    {
+      "id": "4.1.2",
+      "themeId": "4",
+      "lessonSlugs": [
+        "medicine-and-family-care"
+      ]
+    },
+    {
+      "id": "4.1.3",
+      "themeId": "4",
+      "lessonSlugs": [
+        "medicine-and-family-care"
+      ]
+    },
+    {
+      "id": "4.1.4",
+      "themeId": "4",
+      "lessonSlugs": [
+        "medicine-and-family-care"
+      ]
+    },
+    {
+      "id": "4.2.1",
+      "themeId": "4",
+      "lessonSlugs": [
+        "gp-and-referrals"
+      ]
+    },
+    {
+      "id": "4.3.1",
+      "themeId": "4",
+      "lessonSlugs": [
+        "urgent-care-and-support"
+      ]
+    },
+    {
+      "id": "4.3.2",
+      "themeId": "4",
+      "lessonSlugs": [
+        "urgent-care-and-support"
+      ]
+    },
+    {
+      "id": "4.4.1",
+      "themeId": "4",
+      "lessonSlugs": [
+        "health-insurance"
+      ]
+    },
+    {
+      "id": "4.4.2",
+      "themeId": "4",
+      "lessonSlugs": [
+        "health-insurance"
+      ]
+    },
+    {
+      "id": "4.4.3",
+      "themeId": "4",
+      "lessonSlugs": [
+        "health-insurance"
+      ]
+    },
+    {
+      "id": "4.4.4",
+      "themeId": "4",
+      "lessonSlugs": [
+        "health-insurance"
+      ]
+    },
+    {
+      "id": "4.5.1",
+      "themeId": "4",
+      "lessonSlugs": [
+        "urgent-care-and-support"
+      ]
+    },
+    {
+      "id": "5.1.1",
+      "themeId": "5",
+      "lessonSlugs": [
+        "dutch-history"
+      ]
+    },
+    {
+      "id": "5.1.2",
+      "themeId": "5",
+      "lessonSlugs": [
+        "war-and-freedom"
+      ]
+    },
+    {
+      "id": "5.2.1",
+      "themeId": "5",
+      "lessonSlugs": [
+        "geography-and-regions"
+      ]
+    },
+    {
+      "id": "5.2.2",
+      "themeId": "5",
+      "lessonSlugs": [
+        "public-transport"
+      ]
+    },
+    {
+      "id": "6.1.1",
+      "themeId": "6",
+      "lessonSlugs": [
+        "digital-government"
+      ]
+    },
+    {
+      "id": "6.1.2",
+      "themeId": "6",
+      "lessonSlugs": [
+        "digital-government"
+      ]
+    },
+    {
+      "id": "6.2.1",
+      "themeId": "6",
+      "lessonSlugs": [
+        "municipality-and-documents"
+      ]
+    },
+    {
+      "id": "6.2.2",
+      "themeId": "6",
+      "lessonSlugs": [
+        "municipality-and-documents"
+      ]
+    },
+    {
+      "id": "6.2.3",
+      "themeId": "6",
+      "lessonSlugs": [
+        "municipality-and-documents"
+      ]
+    },
+    {
+      "id": "6.2.4",
+      "themeId": "6",
+      "lessonSlugs": [
+        "municipality-and-documents"
+      ]
+    },
+    {
+      "id": "6.3.1",
+      "themeId": "6",
+      "lessonSlugs": [
+        "taxes-and-benefits"
+      ]
+    },
+    {
+      "id": "6.3.2",
+      "themeId": "6",
+      "lessonSlugs": [
+        "taxes-and-benefits"
+      ]
+    },
+    {
+      "id": "6.3.3",
+      "themeId": "6",
+      "lessonSlugs": [
+        "taxes-and-benefits"
+      ]
+    },
+    {
+      "id": "6.4.1",
+      "themeId": "6",
+      "lessonSlugs": [
+        "police-law-and-insurance"
+      ]
+    },
+    {
+      "id": "6.5.1",
+      "themeId": "6",
+      "lessonSlugs": [
+        "police-law-and-insurance"
+      ]
+    },
+    {
+      "id": "6.5.2",
+      "themeId": "6",
+      "lessonSlugs": [
+        "police-law-and-insurance"
+      ]
+    },
+    {
+      "id": "6.6.1",
+      "themeId": "6",
+      "lessonSlugs": [
+        "police-law-and-insurance"
+      ]
+    },
+    {
+      "id": "7.1.1",
+      "themeId": "7",
+      "lessonSlugs": [
+        "democracy-and-government"
+      ]
+    },
+    {
+      "id": "7.1.2",
+      "themeId": "7",
+      "lessonSlugs": [
+        "democracy-and-government",
+        "law-and-elections"
+      ]
+    },
+    {
+      "id": "7.1.3",
+      "themeId": "7",
+      "lessonSlugs": [
+        "law-and-elections"
+      ]
+    },
+    {
+      "id": "7.1.4",
+      "themeId": "7",
+      "lessonSlugs": [
+        "law-and-elections"
+      ]
+    },
+    {
+      "id": "7.2.1",
+      "themeId": "7",
+      "lessonSlugs": [
+        "equal-rights-and-freedom"
+      ]
+    },
+    {
+      "id": "7.2.2",
+      "themeId": "7",
+      "lessonSlugs": [
+        "equal-rights-and-freedom"
+      ]
+    },
+    {
+      "id": "7.2.3",
+      "themeId": "7",
+      "lessonSlugs": [
+        "equal-rights-and-freedom"
+      ]
+    },
+    {
+      "id": "7.2.4",
+      "themeId": "7",
+      "lessonSlugs": [
+        "equal-rights-and-freedom"
+      ]
+    },
+    {
+      "id": "7.2.5",
+      "themeId": "7",
+      "lessonSlugs": [
+        "privacy-body-and-donation"
+      ]
+    },
+    {
+      "id": "7.2.6",
+      "themeId": "7",
+      "lessonSlugs": [
+        "privacy-body-and-donation"
+      ]
+    },
+    {
+      "id": "7.2.7",
+      "themeId": "7",
+      "lessonSlugs": [
+        "privacy-body-and-donation"
+      ]
+    },
+    {
+      "id": "7.2.8",
+      "themeId": "7",
+      "lessonSlugs": [
+        "equal-rights-and-freedom",
+        "privacy-body-and-donation"
+      ]
+    },
+    {
+      "id": "8.1.1",
+      "themeId": "8",
+      "lessonSlugs": [
+        "education-pathways"
+      ]
+    },
+    {
+      "id": "8.1.2",
+      "themeId": "8",
+      "lessonSlugs": [
+        "education-pathways"
+      ]
+    },
+    {
+      "id": "8.1.3",
+      "themeId": "8",
+      "lessonSlugs": [
+        "school-attendance-and-childcare"
+      ]
+    },
+    {
+      "id": "8.1.4",
+      "themeId": "8",
+      "lessonSlugs": [
+        "school-attendance-and-childcare"
+      ]
+    },
+    {
+      "id": "8.1.5",
+      "themeId": "8",
+      "lessonSlugs": [
+        "school-attendance-and-childcare"
+      ]
+    },
+    {
+      "id": "8.2.1",
+      "themeId": "8",
+      "lessonSlugs": [
+        "parents-and-support"
+      ]
+    },
+    {
+      "id": "8.2.2",
+      "themeId": "8",
+      "lessonSlugs": [
+        "parents-and-support"
+      ]
+    },
+    {
+      "id": "8.2.3",
+      "themeId": "8",
+      "lessonSlugs": [
+        "parents-and-support"
+      ]
+    },
+    {
+      "id": "8.3.1",
+      "themeId": "8",
+      "lessonSlugs": [
+        "education-costs"
+      ]
+    },
+    {
+      "id": "8.3.2",
+      "themeId": "8",
+      "lessonSlugs": [
+        "education-costs"
+      ]
+    },
+    {
+      "id": "8.3.3",
+      "themeId": "8",
+      "lessonSlugs": [
+        "education-costs"
+      ]
+    }
+  ],
+  "exams": [
+    {
+      "slug": "practice-1",
+      "title": "الامتحان التدريبي 1",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-2",
+      "title": "الامتحان التدريبي 2",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-3",
+      "title": "الامتحان التدريبي 3",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-4",
+      "title": "الامتحان التدريبي 4",
+      "minutes": 45,
+      "questionCount": 40
+    }
+  ]
+}

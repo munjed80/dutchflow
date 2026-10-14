@@ -419,3 +419,15 @@ Keep fragment navigation in-page so temporary answers survive. Do not present un
 ### Catalogue/navigation UX refinement (2026-10-14)
 
 The next delivery refines the existing learning UX; see `docs/LEARNING_UX.md`. Mobile catalogue module buttons become a native select, while desktop keeps the buttons. Search/unit/status filters combine and reset together. Completion filtering and level-local counts require known progress. The next lesson displays position/duration. Global learning/progress links preserve A2 from query parameters and resource slugs, with a static header fallback before hydration. Shared account/review pages do not remember a previous level. Course content, audio, completion criteria and persistence contracts are unchanged.
+
+### KNM curriculum handoff (2026-10-14)
+
+The next delivery adds the separate `/knm` learning path; read `docs/KNM.md`. It maps 78 official knowledge objectives from the 1 July 2025 revision to 32 bilingual lessons and 257 original questions. Four text-based 40-question/45-minute forms use a training allocation, not a claimed DUO count/distribution or pass threshold. The public source/coverage page dates the research and distinguishes authored material from official questions and visual practice.
+
+KNM answer-bank imports stay server-only; only projected public question fields go to the quiz. Its dedicated provider, guest storage and migration `002_knm_progress.sql` isolate KNM from A1/A2. Authenticated writes validate origin/session/owner and regrade the submitted answers transactionally. Review stores question IDs, completion stores lesson slugs, and timed drafts are revision/account scoped. No automatic guest-to-account import, new audio IDs, payment entitlements or official qualification claims are introduced. Current names and nuanced insurance/parent-liability/voting/donor rules need continued source review.
+
+### KNM follow-up on PR #38 (14 October 2026)
+
+Revision `knm-2026-10-14-v2` adds eight authored SVG/document contexts across the eight themes, contextual Dutch questions and optional Arabic descriptions. `KnmScene` renders public whitelisted fields, including in result feedback. Results use theme names and an all/mistakes filter. The four forms remain disjoint, 40 questions, five per theme, with all four lessons per theme represented; each form also samples a second item from that theme’s first lesson. This includes all visual items across the forms. Existing IDs/knowledge concepts and KNM/A1/A2 persistence contracts remain stable; the revision invalidates old timed drafts.
+
+Validation: content/audio checks, 76 native tests, typecheck/build, 11 focused KNM browser tests and all 179 permanent browser tests passed. The full run also included one temporary screenshot case (180 total), excluded from the committed inventory. Mobile cv/dike screenshots were inspected; original head GitHub CI was green. Qualified independent content review remains pending.
