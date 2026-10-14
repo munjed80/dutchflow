@@ -1,4 +1,5 @@
-import { levelHref, curriculumHref } from "@/lib/levels";
+import { ProductionPractice } from "@/components/ProductionPractice";
+import { levelHref } from "@/lib/levels";
 import { getQuestionReviewLessons } from "@/lib/practice-review";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -25,6 +26,7 @@ export default async function ReadingDetail({ params }: { params: Promise<{ slug
     <section className="reading-vocabulary" aria-labelledby="vocabulary-title"><h2 id="vocabulary-title">مفردات في سياقها</h2><dl>{reading.vocabulary.map((word) => <div className="panel" key={word.term}><dt lang="nl" dir="ltr">{word.term}</dt><dd>{word.meaning}</dd></div>)}</dl></section>
     <section className="panel reading-grammar" aria-labelledby="grammar-title"><span className="eyebrow">قاعدة من النص</span><h2 id="grammar-title">{reading.grammar.title}</h2><p>{reading.grammar.explanation}</p><blockquote lang="nl" dir="ltr">{reading.grammar.example}</blockquote><p className="quiet">{reading.grammar.translation}</p></section>
     <ReadingQuiz key={reading.slug} questions={reading.questions} reviewLessons={getQuestionReviewLessons(reading.questions)} />
+    {reading.production && <ProductionPractice key={reading.slug} tasks={[reading.production]} />}
     <section className="reading-related"><h2>دروس تساعدك على التوسّع</h2><div>{reading.sourceLessons.map((slug) => { const lesson = getLesson(slug); return lesson ? <Link className="text-link" key={slug} href={`/learn/${slug}`}>{lesson.title} ←</Link> : null; })}</div></section>
     <Link className="next-lesson" href={next ? `/reading/${next.slug}` : levelHref("/reading", level)}>{next ? `النص التالي: ${next.title}` : "عد إلى مكتبة القراءة"} ←</Link>
   </div>;

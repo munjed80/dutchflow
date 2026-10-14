@@ -811,5 +811,895 @@
         "evidence": "Vrijdag sturen we aan de deelnemers nog een korte bevestiging met de definitieve zaal."
       }
     ]
+  },
+  {
+    "slug": "a2-a-new-weekly-habit",
+    "title": "عادة أسبوعية جديدة",
+    "dutchTitle": "Een avond zonder scherm",
+    "topic": "قصة شخصية وتغيّر العادات",
+    "sourceLessons": [
+      "a2-yesterday-and-today",
+      "a2-telling-a-short-story",
+      "a2-describing-a-changing-routine"
+    ],
+    "text": "Vroeger zat ik na het eten vaak met mijn telefoon op de bank. Ik wilde meer bewegen, maar alleen wandelen vond ik saai. Vorige maand heeft mijn buurvrouw me meegenomen naar een wandelgroep. Ik kende niemand, maar ik heb toch met twee mensen gepraat. We liepen niet snel, dus we konden onderweg praten.\nNu wandel ik elke woensdag met de groep. Als het regent, neem ik mijn regenjas mee. Vorige week moest ik werken en kon ik niet mee. Dat vond ik jammer. Ik blijf soms ook graag thuis; niet elke avond hoeft vol te zijn. Volgende keer wil ik zelf iemand aanspreken die voor het eerst komt.",
+    "translation": "كنت في السابق أجلس كثيراً بعد الأكل على الأريكة ممسكاً بهاتفي. كنت أريد أن أتحرك أكثر، لكن المشي وحدي كان مملاً بالنسبة لي. الشهر الماضي أخذتني جارتي إلى مجموعة للمشي. لم أكن أعرف أحداً، لكنني تحدثت رغم ذلك مع شخصين. لم نمشِ بسرعة، ولذلك استطعنا التحدث في الطريق.\nالآن أمشي مع المجموعة كل أربعاء. عندما تمطر آخذ معطفي الواقي من المطر. الأسبوع الماضي اضطررت إلى العمل ولم أستطع المشاركة، وهذا أحزنني. أحياناً أحب أيضاً البقاء في البيت؛ فلا حاجة إلى ملء كل مساء بالأنشطة. في المرة المقبلة أريد أن أبادر بالحديث مع شخص يأتي لأول مرة.",
+    "vocabulary": [
+      {
+        "term": "vroeger",
+        "excerpt": "Vroeger",
+        "meaning": "في السابق؛ تقابلها هنا العادة الحالية مع nu."
+      },
+      {
+        "term": "meenemen",
+        "excerpt": "meegenomen",
+        "meaning": "يصطحب؛ heeft meegenomen تعني اصطحب في الماضي."
+      },
+      {
+        "term": "toch",
+        "excerpt": "toch",
+        "meaning": "رغم ذلك؛ تحدث مع أشخاص رغم أنه لم يكن يعرف أحداً."
+      },
+      {
+        "term": "onderweg",
+        "excerpt": "onderweg",
+        "meaning": "في الطريق أو أثناء السير."
+      },
+      {
+        "term": "jammer vinden",
+        "excerpt": "Dat vond ik jammer",
+        "meaning": "يشعر بالأسف على أمر؛ هنا تفويت المشي."
+      },
+      {
+        "term": "iemand aanspreken",
+        "excerpt": "iemand aanspreken",
+        "meaning": "يبادر بالحديث مع شخص، وليس بالضرورة أن ينادي اسمه."
+      }
+    ],
+    "grammar": {
+      "title": "البدء بظرف الزمن",
+      "example": "Nu wandel ik elke woensdag met de groep.",
+      "translation": "الآن أمشي مع المجموعة كل أربعاء.",
+      "explanation": "بعد Nu يأتي الفعل المصرف wandel ثم الفاعل ik. تقارن الجملة عادة حالية بوصف الماضي مع Vroeger."
+    },
+    "questions": [
+      {
+        "id": "a2-a-new-weekly-habit-q1",
+        "prompt": "لماذا لم يكن الراوي يحب المشي وحده؟",
+        "options": [
+          "Omdat hij wandelen alleen saai vond.",
+          "Omdat hij geen regenjas had.",
+          "Omdat de groep te snel liep."
+        ],
+        "correctIndex": 0,
+        "evidence": "alleen wandelen vond ik saai.",
+        "explanation": "كان المشي وحده مملاً؛ لم يقل إن المعطف أو سرعة المجموعة منعه."
+      },
+      {
+        "id": "a2-a-new-weekly-habit-q2",
+        "prompt": "ماذا فعل رغم أنه لم يكن يعرف أحداً؟",
+        "options": [
+          "Hij ging meteen naar huis.",
+          "Hij praatte met twee mensen.",
+          "Hij bleef de hele tijd stil."
+        ],
+        "correctIndex": 1,
+        "evidence": "Ik kende niemand, maar ik heb toch met twee mensen gepraat.",
+        "explanation": "تربط maar وtoch بين عدم معرفة الناس والمبادرة بالتحدث."
+      },
+      {
+        "id": "a2-a-new-weekly-habit-q3",
+        "prompt": "لماذا لم يشارك الأسبوع الماضي؟",
+        "options": [
+          "Het regende.",
+          "Hij wilde op de bank zitten.",
+          "Hij moest werken."
+        ],
+        "correctIndex": 2,
+        "evidence": "Vorige week moest ik werken en kon ik niet mee.",
+        "explanation": "المطر شرط عام للاستعداد بالمعطف، وليس سبب الغياب المذكور."
+      },
+      {
+        "id": "a2-a-new-weekly-habit-q4",
+        "prompt": "ما خطوته المقصودة في اللقاء المقبل؟",
+        "options": [
+          "Zelf met een nieuwe deelnemer praten.",
+          "Elke avond met de groep wandelen.",
+          "Sneller lopen dan de anderen."
+        ],
+        "correctIndex": 0,
+        "evidence": "Volgende keer wil ik zelf iemand aanspreken die voor het eerst komt.",
+        "explanation": "يريد أن يبدأ الحديث مع مشارك جديد، ولا يغيّر عدد اللقاءات."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب لصديق عن عادة تغيّرت: كنت تشاهد التلفاز مساء الجمعة، وجرّبت الأسبوع الماضي مجموعة طبخ وصنعتم حساءً. الآن تنوي الذهاب كل أسبوعين. ادعُ صديقك للمرة المقبلة.",
+      "model": "Vroeger keek ik op vrijdagavond veel televisie. Vorige week heb ik een kookgroep geprobeerd. We hebben samen soep gemaakt. Nu ga ik om de twee weken. Wil je de volgende keer meegaan?",
+      "translation": "كنت أشاهد التلفاز كثيراً مساء الجمعة. الأسبوع الماضي جرّبت مجموعة طبخ. صنعنا حساءً معاً. الآن أذهب كل أسبوعين. هل تريد أن تأتي معي في المرة المقبلة؟",
+      "checklist": [
+        "هل ميّزت العادة السابقة من التجربة الماضية والعادة الحالية؟",
+        "هل حافظت على معنى كل أسبوعين؟",
+        "هل ختمت بدعوة دون افتراض قبولها؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-help-at-a-community-cafe",
+    "title": "فرصة للمساعدة في مقهى الحي",
+    "dutchTitle": "Help mee in het buurtcafé",
+    "topic": "إعلان تطوع ومتطلبات المشاركة",
+    "sourceLessons": [
+      "a2-reporting-task-progress",
+      "a2-clarifying-instructions",
+      "a2-setting-work-priorities"
+    ],
+    "text": "Ons buurtcafé zoekt een vrijwilliger voor vrijdagochtend, van negen tot twaalf uur. Eerst zet je de kopjes en borden klaar. Daarna begroet je bezoekers en breng je koffie en thee naar de tafels. Je hoeft niet te koken: dat doet een andere vrijwilliger.\nErvaring is niet nodig, maar je moet het leuk vinden om met mensen te praten. De eerste twee ochtenden helpt Fatima je. Begrijp je een opdracht niet? Vraag het dan voordat je begint. Samen werken is belangrijker dan alles meteen weten.\nJe krijgt geen salaris, maar je mag gratis mee lunchen. Je kunt eerst één ochtend proberen. Zo ontdek je of dit werk bij je past. Stuur ons een kort bericht en vertel waarom je graag wilt helpen.",
+    "translation": "يبحث مقهى حيّنا عن متطوع لصباح الجمعة، من التاسعة إلى الثانية عشرة. أولاً تجهّز الفناجين والأطباق، ثم ترحّب بالزوار وتوصل القهوة والشاي إلى الطاولات. لا تحتاج إلى الطبخ؛ إذ يقوم به متطوع آخر.\nلا تلزم خبرة سابقة، لكن يجب أن تستمتع بالتحدث مع الناس. تساعدك فاطمة في أول صباحين. إذا لم تفهم مهمة، فاسأل قبل أن تبدأ. العمل معاً أهم من معرفة كل شيء فوراً.\nلن تحصل على راتب، لكن يمكنك تناول الغداء مجاناً مع الفريق. يمكنك تجربة صباح واحد أولاً لتكتشف إن كان هذا العمل يناسبك. أرسل لنا رسالة قصيرة واشرح لماذا ترغب في المساعدة.",
+    "vocabulary": [
+      {
+        "term": "de vrijwilliger",
+        "excerpt": "een vrijwilliger",
+        "meaning": "المتطوع؛ يساعد هنا دون راتب."
+      },
+      {
+        "term": "klaarzetten",
+        "excerpt": "zet je de kopjes en borden klaar",
+        "meaning": "يجهّز الأشياء للاستخدام؛ فعل قابل للانفصال."
+      },
+      {
+        "term": "begroeten",
+        "excerpt": "begroet",
+        "meaning": "يرحّب بالناس أو يحيّيهم."
+      },
+      {
+        "term": "de ervaring",
+        "excerpt": "Ervaring",
+        "meaning": "الخبرة السابقة؛ ليست مطلوبة في هذا الإعلان."
+      },
+      {
+        "term": "de opdracht",
+        "excerpt": "een opdracht",
+        "meaning": "المهمة أو التعليمات المطلوب تنفيذها."
+      },
+      {
+        "term": "bij iemand passen",
+        "excerpt": "bij je past",
+        "meaning": "يناسب شخصاً؛ هنا نوع العمل الملائم له."
+      }
+    ],
+    "grammar": {
+      "title": "عدم الحاجة مع hoeven",
+      "example": "Je hoeft niet te koken: dat doet een andere vrijwilliger.",
+      "translation": "لا تحتاج إلى الطبخ؛ إذ يقوم به متطوع آخر.",
+      "explanation": "hoeft niet te تعني أن الفعل غير مطلوب، ولا تعني أنه ممنوع. نقول moeten عند الإلزام، وniet mogen عند المنع."
+    },
+    "questions": [
+      {
+        "id": "a2-help-at-a-community-cafe-q1",
+        "prompt": "ماذا يفعل المتطوع بعد تجهيز الفناجين والأطباق؟",
+        "options": [
+          "Hij kookt voor alle bezoekers.",
+          "Hij begroet bezoekers en brengt drankjes.",
+          "Hij schrijft opdrachten voor Fatima."
+        ],
+        "correctIndex": 1,
+        "evidence": "Daarna begroet je bezoekers en breng je koffie en thee naar de tafels.",
+        "explanation": "Daarna تحدد المهمة التالية بعد التجهيز."
+      },
+      {
+        "id": "a2-help-at-a-community-cafe-q2",
+        "prompt": "أي شرط مذكور فعلاً؟",
+        "options": [
+          "Je moet ervaring in een café hebben.",
+          "Je moet zelfstandig kunnen koken.",
+          "Je moet graag met mensen praten."
+        ],
+        "correctIndex": 2,
+        "evidence": "Ervaring is niet nodig, maar je moet het leuk vinden om met mensen te praten.",
+        "explanation": "الخبرة غير مطلوبة، لكن الاستمتاع بالتعامل مع الناس مطلوب."
+      },
+      {
+        "id": "a2-help-at-a-community-cafe-q3",
+        "prompt": "ماذا تفعل إذا لم تفهم المهمة؟",
+        "options": [
+          "Eerst om uitleg vragen.",
+          "Beginnen en pas na afloop vragen.",
+          "Fatima vragen alles alleen te doen."
+        ],
+        "correctIndex": 0,
+        "evidence": "Begrijp je een opdracht niet? Vraag het dan voordat je begint.",
+        "explanation": "السؤال يكون قبل البدء؛ ليس المطلوب التخمين أو ترك المهمة كلها لغيرك."
+      },
+      {
+        "id": "a2-help-at-a-community-cafe-q4",
+        "prompt": "ما الوصف الصحيح للفرصة؟",
+        "options": [
+          "Betaald werk zonder lunch.",
+          "Vrijwilligerswerk dat je eerst kunt proberen.",
+          "Een cursus van twee ochtenden."
+        ],
+        "correctIndex": 1,
+        "evidence": "Je krijgt geen salaris, maar je mag gratis mee lunchen. Je kunt eerst één ochtend proberen.",
+        "explanation": "إنها فرصة تطوع قابلة للتجربة، وليست وظيفة براتب أو دورة محدودة بصباحين."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب باسم أمير إلى مكتبة تبحث عن متطوع صباح الثلاثاء لترتيب الكتب. ليست لديك خبرة، لكنك تحب مساعدة الناس. اطلب تجربة صباح واحد واسأل من سيرشدك في البداية.",
+      "model": "Beste medewerker, ik wil graag op dinsdagochtend helpen met de boeken. Ik heb nog geen ervaring, maar ik help graag mensen. Mag ik eerst één ochtend proberen? Wie helpt mij in het begin? Met vriendelijke groet, Amir",
+      "translation": "السيد الموظف المحترم، أود المساعدة في الكتب صباح الثلاثاء. ليست لدي خبرة بعد، لكنني أحب مساعدة الناس. هل يمكنني تجربة صباح واحد أولاً؟ من سيساعدني في البداية؟ مع التحية، أمير",
+      "checklist": [
+        "هل ذكرت الوقت والمهمة المناسبين للمكتبة؟",
+        "هل أوضحت الدافع دون اختلاق خبرة؟",
+        "هل سألت عن التجربة والإرشاد؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-two-rooms-to-compare",
+    "title": "غرفتان للمقارنة",
+    "dutchTitle": "Welke kamer past bij mij?",
+    "topic": "مقارنة إعلانين للسكن",
+    "sourceLessons": [
+      "a2-comparing-conditions-at-home",
+      "a2-arranging-a-repair-visit",
+      "a2-preparing-for-a-repair-visit"
+    ],
+    "text": "Nour zoekt een kamer en leest twee advertenties. Kamer A kost 620 euro per maand; kamer B kost 650 euro. Water en stroom zijn bij beide prijzen inbegrepen.\nKamer A ligt vlak bij het station. De kamer is klein, maar heeft een eigen wastafel. De keuken en badkamer deel je met drie andere bewoners. In de avond hoor je de treinen.\nKamer B ligt op tien minuten fietsen van het station. Deze kamer is groter en kijkt uit op een rustige tuin. Je deelt de keuken en badkamer met één huisgenoot. Er is geen eigen wastafel.\nNour studeert vaak thuis en vindt rust belangrijk. Daarom wil ze eerst kamer B bekijken. Ze heeft nog niets afgesproken. Ze vraagt de verhuurder of ze zaterdag kan komen.",
+    "translation": "تبحث نور عن غرفة وتقرأ إعلانين. سعر الغرفة A هو 620 يورو شهرياً، وسعر الغرفة B هو 650 يورو. الماء والكهرباء مشمولان في السعرين.\nتقع الغرفة A قرب المحطة جداً. الغرفة صغيرة، لكن لها مغسلة خاصة. تشارك المطبخ والحمام مع ثلاثة سكان آخرين. في المساء تسمع القطارات.\nتقع الغرفة B على بُعد عشر دقائق بالدراجة من المحطة. هذه الغرفة أكبر وتطل على حديقة هادئة. تشارك المطبخ والحمام مع ساكن واحد، ولا توجد مغسلة خاصة في الغرفة.\nتدرس نور كثيراً في المنزل والهدوء مهم لها، ولذلك تريد معاينة الغرفة B أولاً. لم تتفق على شيء بعد، وتسأل المؤجر إن كان يمكنها الحضور السبت.",
+    "vocabulary": [
+      {
+        "term": "de advertentie",
+        "excerpt": "advertenties",
+        "meaning": "الإعلان؛ الجمع advertenties."
+      },
+      {
+        "term": "de wastafel",
+        "excerpt": "wastafel",
+        "meaning": "مغسلة لغسل اليدين والوجه؛ لا تعني حماماً مستقلاً."
+      },
+      {
+        "term": "de huisgenoot",
+        "excerpt": "één huisgenoot",
+        "meaning": "الشخص الذي تسكن معه في المنزل."
+      },
+      {
+        "term": "uitkijken op",
+        "excerpt": "kijkt uit op",
+        "meaning": "يطل على؛ هنا إطلالة الغرفة على الحديقة."
+      },
+      {
+        "term": "inbegrepen",
+        "excerpt": "inbegrepen",
+        "meaning": "مشمول في السعر؛ الماء والكهرباء هنا."
+      },
+      {
+        "term": "bekijken",
+        "excerpt": "bekijken",
+        "meaning": "ينظر أو يعاين؛ هنا زيارة الغرفة لرؤيتها."
+      }
+    ],
+    "grammar": {
+      "title": "النتيجة مع daarom",
+      "example": "Daarom wil ze eerst kamer B bekijken.",
+      "translation": "ولذلك تريد معاينة الغرفة B أولاً.",
+      "explanation": "Daarom تربط الرغبة في المعاينة بسبب سابق هو أهمية الهدوء. يأتي الفعل wil ثم الفاعل ze، ويبقى bekijken في النهاية."
+    },
+    "questions": [
+      {
+        "id": "a2-two-rooms-to-compare-q1",
+        "prompt": "كم تزيد أجرة B الشهرية على A؟",
+        "options": [
+          "20 euro.",
+          "30 euro.",
+          "650 euro."
+        ],
+        "correctIndex": 1,
+        "evidence": "Kamer A kost 620 euro per maand; kamer B kost 650 euro.",
+        "explanation": "نطرح 620 من 650؛ السؤال عن الفرق لا عن الأجرة كاملة."
+      },
+      {
+        "id": "a2-two-rooms-to-compare-q2",
+        "prompt": "ما الذي يخص الغرفة A وحدها بحسب الإعلان؟",
+        "options": [
+          "Een eigen badkamer.",
+          "Een eigen keuken.",
+          "Een eigen wastafel."
+        ],
+        "correctIndex": 2,
+        "evidence": "De kamer is klein, maar heeft een eigen wastafel.",
+        "explanation": "المغسلة خاصة، أما المطبخ والحمام فمشتركان."
+      },
+      {
+        "id": "a2-two-rooms-to-compare-q3",
+        "prompt": "لماذا تريد نور معاينة B أولاً رغم سعرها الأعلى؟",
+        "options": [
+          "Ze vindt rust belangrijk om thuis te studeren.",
+          "Ze wil de treinen vanuit haar kamer horen.",
+          "Ze wil met drie andere bewoners wonen."
+        ],
+        "correctIndex": 0,
+        "evidence": "Nour studeert vaak thuis en vindt rust belangrijk. Daarom wil ze eerst kamer B bekijken.",
+        "explanation": "الأولوية هنا للهدوء أثناء الدراسة، وليست للقرب من القطارات."
+      },
+      {
+        "id": "a2-two-rooms-to-compare-q4",
+        "prompt": "ما وضع زيارة السبت؟",
+        "options": [
+          "De verhuurder heeft zaterdag bevestigd.",
+          "Nour vraagt of zaterdag mogelijk is.",
+          "Nour heeft de kamer al gehuurd."
+        ],
+        "correctIndex": 1,
+        "evidence": "Ze heeft nog niets afgesproken. Ze vraagt de verhuurder of ze zaterdag kan komen.",
+        "explanation": "إنها تستفسر عن الإمكانية؛ لا يوجد تأكيد للزيارة أو اتفاق استئجار."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب رسالتين قصيرتين: لصديق تشرح تفضيل الغرفة D الهادئة بسعر 610 يورو على C قرب شارع مزدحم بسعر 580، لأنك تعمل ليلاً وتنام نهاراً. ثم اسأل المؤجر إن أمكن معاينة D يوم الأحد. لم تحجز زيارة بعد.",
+      "model": "Ik kies liever kamer D. Die kost 610 euro; kamer C kost 580 euro. D is rustiger. Ik werk ’s nachts en slaap overdag.\nBeste verhuurder, kan ik kamer D zondag bekijken? Ik hoor graag of dat mogelijk is.",
+      "translation": "أفضل الغرفة D. سعرها 610 يورو، وسعر C هو 580 يورو. D أكثر هدوءاً. أعمل ليلاً وأنام نهاراً.\nالسيد المؤجر المحترم، هل يمكنني معاينة الغرفة D الأحد؟ أود معرفة إن كان ذلك ممكناً.",
+      "checklist": [
+        "هل بررت تفضيل الغرفة الأغلى؟",
+        "هل فصلت رسالة الصديق عن طلب المعاينة؟",
+        "هل طلبت موعداً دون اعتباره مؤكداً؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-choosing-a-coaching-appointment",
+    "title": "اختيار طريقة اللقاء",
+    "dutchTitle": "Een gesprek met de taalcoach",
+    "topic": "معلومات خدمة وطلب موعد",
+    "sourceLessons": [
+      "a2-explaining-an-appointment-conflict",
+      "a2-comparing-appointment-options",
+      "a2-asking-for-an-appointment-update"
+    ],
+    "text": "Wil je met een taalcoach over je Nederlands praten? In ons taalcentrum kun je kiezen: een gesprek in het gebouw of via videobellen. Beide gesprekken duren twintig minuten en zijn gratis. Voor videobellen heb je een rustige plek, internet en een camera nodig. Je hoeft geen programma te installeren. Je krijgt de link per e-mail. Neem je liever je boeken mee? Kies dan een gesprek in het gebouw.\nSchrijf bij je aanvraag welke vorm je wilt en waarover je wilt praten. Een aanvraag is nog geen afspraak. Wacht op onze bevestiging met de dag en tijd. Heb je na drie werkdagen niets gehoord? Bel dan de balie.\nKun je toch niet komen? Laat het ons weten, zodat iemand anders de plek kan gebruiken.",
+    "translation": "هل تريد التحدث مع مدرب لغة عن هولنديتك؟ في مركزنا يمكنك الاختيار بين لقاء داخل المبنى ولقاء عبر الفيديو. كلاهما مدته عشرون دقيقة ومجاني. تحتاج للفيديو إلى مكان هادئ وإنترنت وكاميرا. لا تحتاج إلى تثبيت برنامج، وستصلك الوصلة بالبريد الإلكتروني. هل تفضل إحضار كتبك؟ اختر عندئذ لقاء داخل المبنى.\nاكتب في طلبك طريقة اللقاء التي تريدها وموضوع الحديث. الطلب ليس موعداً بعد. انتظر تأكيدنا لليوم والساعة. إن لم يصلك رد بعد ثلاثة أيام عمل، فاتصل بالاستقبال.\nإن لم تستطع الحضور في النهاية، فأبلغنا حتى يستطيع شخص آخر الاستفادة من الموعد.",
+    "vocabulary": [
+      {
+        "term": "de aanvraag",
+        "excerpt": "je aanvraag",
+        "meaning": "الطلب المقدّم؛ لا يعني أن الموعد تأكد."
+      },
+      {
+        "term": "videobellen",
+        "excerpt": "via videobellen",
+        "meaning": "إجراء مكالمة بالصوت والصورة."
+      },
+      {
+        "term": "installeren",
+        "excerpt": "installeren",
+        "meaning": "يثبّت برنامجاً على الجهاز."
+      },
+      {
+        "term": "de bevestiging",
+        "excerpt": "onze bevestiging",
+        "meaning": "التأكيد الذي يحدد اليوم والساعة."
+      },
+      {
+        "term": "de werkdag",
+        "excerpt": "drie werkdagen",
+        "meaning": "يوم عمل؛ لا يعني كل يوم تقويمي."
+      },
+      {
+        "term": "toch niet kunnen komen",
+        "excerpt": "Kun je toch niet komen?",
+        "meaning": "عدم التمكن من الحضور بعد أن كان متوقعاً."
+      }
+    ],
+    "grammar": {
+      "title": "توضيح الغاية مع zodat",
+      "example": "Laat het ons weten, zodat iemand anders de plek kan gebruiken.",
+      "translation": "أبلغنا حتى يستطيع شخص آخر الاستفادة من الموعد.",
+      "explanation": "zodat توضح النتيجة المقصودة من الإبلاغ. في الجزء التابع تأتي kan gebruiken بعد الفاعل وبقية المعلومات."
+    },
+    "questions": [
+      {
+        "id": "a2-choosing-a-coaching-appointment-q1",
+        "prompt": "ما الفرق المذكور بين طريقتي اللقاء؟",
+        "options": [
+          "Alleen videobellen kost geld.",
+          "Een gesprek in het gebouw duurt langer.",
+          "Voor videobellen heb je internet en een camera nodig."
+        ],
+        "correctIndex": 2,
+        "evidence": "Beide gesprekken duren twintig minuten en zijn gratis. Voor videobellen heb je een rustige plek, internet en een camera nodig.",
+        "explanation": "المدة والسعر متماثلان؛ الاختلاف هنا في متطلبات الاتصال."
+      },
+      {
+        "id": "a2-choosing-a-coaching-appointment-q2",
+        "prompt": "ما المطلوب ذكره في الطلب؟",
+        "options": [
+          "De vorm van het gesprek en het onderwerp.",
+          "Alleen het nummer van het lokaal.",
+          "De naam van iemand die jouw plek overneemt."
+        ],
+        "correctIndex": 0,
+        "evidence": "Schrijf bij je aanvraag welke vorm je wilt en waarover je wilt praten.",
+        "explanation": "تحدد طريقة اللقاء وموضوعه، ولا تختلق غرفة أو بديلاً."
+      },
+      {
+        "id": "a2-choosing-a-coaching-appointment-q3",
+        "prompt": "متى يطلب النص الاتصال بالاستقبال للمتابعة؟",
+        "options": [
+          "Meteen na het versturen van de aanvraag.",
+          "Na drie werkdagen zonder antwoord.",
+          "Drie minuten voor het gesprek."
+        ],
+        "correctIndex": 1,
+        "evidence": "Heb je na drie werkdagen niets gehoord? Bel dan de balie.",
+        "explanation": "المهلة ثلاثة أيام عمل بلا رد؛ ليست مدة اللقاء أو مهلة إلغائه."
+      },
+      {
+        "id": "a2-choosing-a-coaching-appointment-q4",
+        "prompt": "لماذا ينبغي الإبلاغ عن عدم الحضور؟",
+        "options": [
+          "Zodat het gesprek automatisch langer wordt.",
+          "Zodat je geen programma hoeft te installeren.",
+          "Zodat iemand anders de plek kan gebruiken."
+        ],
+        "correctIndex": 2,
+        "evidence": "Laat het ons weten, zodat iemand anders de plek kan gebruiken.",
+        "explanation": "الغاية إتاحة الموعد لشخص آخر؛ لا يعد النص بموعد بديل تلقائي."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب باسم ليلى طلب لقاء داخل مركز اللغة عصر الخميس لأنك تريد مناقشة كتابك الدراسي. اسأل عن الوقت المتاح واطلب تأكيداً. الخميس مجرد رغبة ولم يُحجز بعد.",
+      "model": "Beste medewerker, ik wil graag donderdagmiddag in het taalcentrum met een taalcoach praten. Ik wil mijn lesboek meenemen en er vragen over stellen. Welke tijd is mogelijk? Kunt u de afspraak bevestigen? Met vriendelijke groet, Leila",
+      "translation": "السيد الموظف المحترم، أود التحدث مع مدرب لغة في المركز عصر الخميس. أريد إحضار كتابي الدراسي وطرح أسئلة عنه. أي وقت متاح؟ هل يمكنكم تأكيد الموعد؟ مع التحية، ليلى",
+      "checklist": [
+        "هل حددت لقاء داخل المبنى وموضوعه؟",
+        "هل طلبت وقتاً متاحاً دون اختلاق ساعة؟",
+        "هل ميّزت طلبك من تأكيد المركز؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-a-review-of-two-bags",
+    "title": "أي حقيبة تناسب الرحلة؟",
+    "dutchTitle": "Twee tassen, twee ervaringen",
+    "topic": "تجربة منتج والتمييز بين الرأي والمعلومة",
+    "sourceLessons": [
+      "a2-explaining-a-purchase-problem",
+      "a2-comparing-products",
+      "a2-checking-quantities-and-prices"
+    ],
+    "text": "Vorige maand kocht ik een blauwe schoudertas voor mijn cursus. Hij kostte 28 euro. Ik vond hem mooi, maar mijn laptop paste er niet in. Met boeken werd de tas zwaar aan één schouder. Nu gebruik ik hem alleen voor korte uitstapjes.\nMijn collega heeft een rugzak. Die is duurder, maar heeft twee brede banden en een apart vak voor een laptop. De schoudertas kostte 28 euro; de rugzak kost 42 euro. Gisteren heb ik de rugzak van mijn collega geprobeerd. Ik vond hem prettiger dragen. Dat is mijn ervaring; misschien vind jij een andere tas fijner.\nDe rits ging moeilijk dicht. Daarom wil ik eerst een ander exemplaar van hetzelfde model bekijken. Ik heb nog niets gekocht. Een tas moet voor mij vooral handig zijn.",
+    "translation": "اشتريت الشهر الماضي حقيبة كتف زرقاء لدورتي. كان سعرها 28 يورو. أعجبني شكلها، لكن حاسوبي المحمول لم يتسع فيها. ومع الكتب أصبحت ثقيلة على كتف واحد، لذلك أستخدمها الآن للنزهات القصيرة فقط.\nلدى زميلي حقيبة ظهر. هي أغلى، لكن لها حزامان عريضان وجيب منفصل لحاسوب محمول. كان سعر حقيبة الكتف 28 يورو، وسعر حقيبة الظهر 42 يورو. جرّبت حقيبة زميلي أمس ووجدتها أريح عند الحمل. هذه تجربتي؛ فقد تفضل أنت حقيبة أخرى.\nكان السحّاب يُغلق بصعوبة، لذلك أريد معاينة قطعة أخرى من الطراز نفسه أولاً. لم أشترِ شيئاً بعد. الأهم عندي أن تكون الحقيبة عملية.",
+    "vocabulary": [
+      {
+        "term": "de schoudertas",
+        "excerpt": "schoudertas",
+        "meaning": "حقيبة تُحمل على الكتف."
+      },
+      {
+        "term": "erin passen",
+        "excerpt": "paste er niet in",
+        "meaning": "يتّسع داخلها؛ الحاسوب لم يتسع داخل الحقيبة."
+      },
+      {
+        "term": "de band",
+        "excerpt": "twee brede banden",
+        "meaning": "الحزام؛ الجمع banden."
+      },
+      {
+        "term": "het vak",
+        "excerpt": "een apart vak",
+        "meaning": "جيب أو قسم منفصل داخل الحقيبة."
+      },
+      {
+        "term": "de rits",
+        "excerpt": "De rits",
+        "meaning": "السحّاب المستخدم لإغلاق الحقيبة."
+      },
+      {
+        "term": "handig",
+        "excerpt": "handig",
+        "meaning": "عملي ومناسب للاستخدام في هذا السياق."
+      }
+    ],
+    "grammar": {
+      "title": "مقارنة مع إضافة ميزة",
+      "example": "Die is duurder, maar heeft twee brede banden en een apart vak voor een laptop.",
+      "translation": "هي أغلى، لكن لها حزامان عريضان وجيب منفصل لحاسوب محمول.",
+      "explanation": "duurder صيغة المقارنة من duur. تربط maar السعر الأعلى بميزة قد تجعل الاختيار مناسباً، ولا تعني أن الأغلى أفضل دائماً."
+    },
+    "questions": [
+      {
+        "id": "a2-a-review-of-two-bags-q1",
+        "prompt": "لماذا لم تناسب حقيبة الكتف الدورة جيداً؟",
+        "options": [
+          "De laptop paste er niet in en de boeken maakten haar zwaar.",
+          "Ze had twee te brede banden.",
+          "Ze kostte meer dan de rugzak."
+        ],
+        "correctIndex": 0,
+        "evidence": "mijn laptop paste er niet in. Met boeken werd de tas zwaar aan één schouder.",
+        "explanation": "المشكلتان تتعلقان بالسعة والراحة، لا بارتفاع السعر مقارنة بحقيبة الظهر."
+      },
+      {
+        "id": "a2-a-review-of-two-bags-q2",
+        "prompt": "أي جملة تعبر عن تقييم شخصي للراحة؟",
+        "options": [
+          "De rugzak kost 42 euro.",
+          "Ik vond hem prettiger dragen.",
+          "De rugzak heeft een apart vak."
+        ],
+        "correctIndex": 1,
+        "evidence": "Ik vond hem prettiger dragen. Dat is mijn ervaring; misschien vind jij een andere tas fijner.",
+        "explanation": "الراوي يصف إحساسه الشخصي ويقر بأن غيره قد يفضل شيئاً آخر."
+      },
+      {
+        "id": "a2-a-review-of-two-bags-q3",
+        "prompt": "ما الخطوة قبل الشراء بسبب السحّاب؟",
+        "options": [
+          "De schoudertas terugbrengen.",
+          "Dezelfde rugzak meteen betalen.",
+          "Een ander exemplaar van hetzelfde model bekijken."
+        ],
+        "correctIndex": 2,
+        "evidence": "De rits ging moeilijk dicht. Daarom wil ik eerst een ander exemplaar van hetzelfde model bekijken.",
+        "explanation": "يريد فحص قطعة أخرى؛ لم يقرر شراء القطعة التي جرّبها."
+      },
+      {
+        "id": "a2-a-review-of-two-bags-q4",
+        "prompt": "ما الفرق بين السعرين المذكورين؟",
+        "options": [
+          "14 euro.",
+          "28 euro.",
+          "42 euro."
+        ],
+        "correctIndex": 0,
+        "evidence": "De schoudertas kostte 28 euro; de rugzak kost 42 euro.",
+        "explanation": "42 ناقص 28 يساوي 14؛ لا نخلط الفرق مع أحد السعرين."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب عن حذاء اشتريته بـ35 يورو: مريح للمشي القصير لكنه ابتل في المطر. جرّبت حذاء آخر بـ50 يورو ولم تشتره. اشرح للبائع ما يهمك واسأله إن كان الحذاء الجديد يقاوم المطر؛ لا تدّعِ أنك اختبرته تحت المطر.",
+      "model": "Mijn schoenen van 35 euro zitten lekker als ik kort wandel, maar ze werden nat in de regen. Ik heb schoenen van 50 euro geprobeerd, maar nog niet gekocht. Droge voeten zijn belangrijk voor mij. Zijn deze schoenen geschikt voor regen?",
+      "translation": "حذائي الذي سعره 35 يورو مريح للمشي القصير، لكنه ابتل في المطر. جرّبت حذاء بسعر 50 يورو ولم أشتره بعد. بقاء قدميّ جافتين مهم لي. هل هذا الحذاء مناسب للمطر؟",
+      "checklist": [
+        "هل فصلت التجربة الفعلية عن السؤال الذي لم تعرف إجابته؟",
+        "هل حافظت على السعرين وحالة عدم الشراء؟",
+        "هل شرحت حاجتك قبل سؤال البائع؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-questions-about-a-computer-course",
+    "title": "أسئلة قبل دورة الحاسوب",
+    "dutchTitle": "Vragen over de computercursus",
+    "topic": "أسئلة شائعة وتعليمات التسجيل",
+    "sourceLessons": [
+      "a2-understanding-school-instructions",
+      "a2-finding-a-reply-deadline",
+      "a2-clarifying-a-local-form",
+      "a2-writing-a-relevant-reply"
+    ],
+    "text": "Voor wie is de cursus?\nDeze cursus is voor beginners. Je hoeft geen ervaring of computer thuis te hebben. We oefenen met de muis, het toetsenbord en het schrijven van e-mails.\nWat moet ik meenemen?\nNeem een schrift en een pen mee. Je mag een laptop van het buurthuis gebruiken. Je eigen laptop meenemen mag ook, maar is niet verplicht.\nHoe meld ik me aan?\nVul het formulier bij de balie in. Je naam en telefoonnummer zijn nodig. Een e-mailadres mag je invullen, maar hoeft niet. Meld je aan vóór maandag; de eerste les is op woensdag.\nWat als ik een les mis?\nBel de balie als je niet kunt komen. Je krijgt dan een oefenblad voor thuis. Er is geen extra les op een andere dag. De volgende week kom je weer bij je eigen groep.",
+    "translation": "لمن هذه الدورة؟\nهذه الدورة للمبتدئين. لا تحتاج إلى خبرة سابقة أو حاسوب في البيت. نتدرب على الفأرة ولوحة المفاتيح وكتابة رسائل البريد الإلكتروني.\nماذا أحضر؟\nأحضر دفتراً وقلماً. يمكنك استخدام حاسوب محمول من مركز الحي، ويمكنك أيضاً إحضار حاسوبك، لكن ذلك غير إلزامي.\nكيف أسجل؟\nاملأ الاستمارة عند الاستقبال. اسمك ورقم هاتفك مطلوبان، أما عنوان البريد الإلكتروني فيمكنك كتابته لكنه غير مطلوب. سجّل قبل الاثنين؛ فالدرس الأول يوم الأربعاء.\nماذا إن فاتني درس؟\nاتصل بالاستقبال إن تعذر حضورك. ستحصل عندئذ على ورقة تمارين للمنزل. لا يوجد درس إضافي في يوم آخر. في الأسبوع التالي تعود إلى مجموعتك نفسها.",
+    "vocabulary": [
+      {
+        "term": "de beginner",
+        "excerpt": "beginners",
+        "meaning": "المبتدئ؛ الجمع beginners."
+      },
+      {
+        "term": "het toetsenbord",
+        "excerpt": "het toetsenbord",
+        "meaning": "لوحة مفاتيح الحاسوب."
+      },
+      {
+        "term": "verplicht",
+        "excerpt": "niet verplicht",
+        "meaning": "إلزامي؛ مع niet يصبح غير إلزامي."
+      },
+      {
+        "term": "zich aanmelden",
+        "excerpt": "meld ik me aan",
+        "meaning": "يسجّل للمشاركة؛ فعل انعكاسي قابل للانفصال."
+      },
+      {
+        "term": "het oefenblad",
+        "excerpt": "een oefenblad",
+        "meaning": "ورقة تمارين للتدرب عليها."
+      },
+      {
+        "term": "missen",
+        "excerpt": "een les mis",
+        "meaning": "يفوته درس أو يغيب عنه؛ لا تعني يشتاق إليه هنا."
+      }
+    ],
+    "grammar": {
+      "title": "شرط بعد الطلب",
+      "example": "Bel de balie als je niet kunt komen.",
+      "translation": "اتصل بالاستقبال إن تعذر حضورك.",
+      "explanation": "يأتي الطلب أولاً، ثم تحدد als الحالة التي ينطبق عليها. في الجزء التابع نقول als je niet kunt komen، وليس als je kunt niet komen."
+    },
+    "questions": [
+      {
+        "id": "a2-questions-about-a-computer-course-q1",
+        "prompt": "ما المطلوب إحضاره؟",
+        "options": [
+          "Een eigen laptop en een muis.",
+          "Een schrift en een pen.",
+          "Een computer en een toetsenbord."
+        ],
+        "correctIndex": 1,
+        "evidence": "Neem een schrift en een pen mee. Je mag een laptop van het buurthuis gebruiken.",
+        "explanation": "الدفتر والقلم مطلوبان؛ الحاسوب متاح من المركز."
+      },
+      {
+        "id": "a2-questions-about-a-computer-course-q2",
+        "prompt": "أي معلومة اختيارية في الاستمارة؟",
+        "options": [
+          "Je naam.",
+          "Je telefoonnummer.",
+          "Je e-mailadres."
+        ],
+        "correctIndex": 2,
+        "evidence": "Je naam en telefoonnummer zijn nodig. Een e-mailadres mag je invullen, maar hoeft niet.",
+        "explanation": "mag مع hoeft niet يوضحان أن البريد الإلكتروني اختياري."
+      },
+      {
+        "id": "a2-questions-about-a-computer-course-q3",
+        "prompt": "ما العلاقة بين الموعدين؟",
+        "options": [
+          "Aanmelden vóór maandag, beginnen op woensdag.",
+          "Aanmelden op woensdag, beginnen op maandag.",
+          "Aanmelden en beginnen allebei op maandag."
+        ],
+        "correctIndex": 0,
+        "evidence": "Meld je aan vóór maandag; de eerste les is op woensdag.",
+        "explanation": "نفصل مهلة التسجيل قبل الاثنين عن يوم بدء الدروس الأربعاء."
+      },
+      {
+        "id": "a2-questions-about-a-computer-course-q4",
+        "prompt": "ماذا يعرض المركز عند تفويت درس؟",
+        "options": [
+          "Een extra les op donderdag.",
+          "Een oefenblad, daarna terug naar de eigen groep.",
+          "Een nieuwe cursus in een andere groep."
+        ],
+        "correctIndex": 1,
+        "evidence": "Je krijgt dan een oefenblad voor thuis. Er is geen extra les op een andere dag. De volgende week kom je weer bij je eigen groep.",
+        "explanation": "هناك ورقة تمارين فقط، لا حصة تعويضية أو تحويل إلى مجموعة أخرى."
+      }
+    ],
+    "production": {
+      "prompt": "انقل المعلومات المهمة إلى أخيك الذي لم يقرأ الإعلان: لا خبرة لديه ولا حاسوب، ويريد معرفة ما يحضره ومتى يسجّل وما الحقول المطلوبة. اكتب رسالة قصيرة دون نسخ الإعلان كله.",
+      "model": "De cursus is voor beginners. Je kunt een laptop van het buurthuis gebruiken. Neem een schrift en een pen mee. Meld je vóór maandag bij de balie aan; de les begint woensdag. Vul je naam en telefoonnummer in. Een e-mailadres is niet verplicht.",
+      "translation": "الدورة للمبتدئين. يمكنك استخدام حاسوب محمول من المركز. أحضر دفتراً وقلماً. سجّل عند الاستقبال قبل الاثنين؛ يبدأ الدرس الأربعاء. اكتب اسمك ورقم هاتفك. البريد الإلكتروني غير إلزامي.",
+      "checklist": [
+        "هل اخترت المعلومات التي يحتاجها أخوك؟",
+        "هل ميّزت المطلوب من الاختياري؟",
+        "هل حافظت على الفرق بين التسجيل وبدء الدرس؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-a-visitor-guide-to-a-park",
+    "title": "دليل زيارة حديقة",
+    "dutchTitle": "Een middag in het Waterpark",
+    "topic": "دليل زائر ومسارات وشروط",
+    "sourceLessons": [
+      "a2-planning-a-day-trip",
+      "a2-comparing-travel-routes",
+      "a2-agreeing-on-another-route"
+    ],
+    "text": "Het Waterpark heeft twee ingangen. Vanaf station Linden loop je in twaalf minuten naar de zuidelijke ingang. Daar kun je ook je fiets neerzetten. Naar de noordelijke ingang rijdt bus 6. Vanaf de halte loop je nog twee minuten. Deze bus rijdt alleen op werkdagen.\nIn het park kun je kiezen tussen twee wandelroutes. De blauwe route is kort en loopt langs het water. De rode route is langer en gaat door het bos. Bij regen kunnen de bospaden modderig worden.\nBij de zuidelijke ingang is een café. Je mag ook zelf eten meenemen en aan de picknicktafels zitten. De speeltuin ligt midden in het park, niet bij een ingang. Spreek vooraf duidelijk af waar je elkaar ontmoet.\nDit park en deze reisinformatie zijn verzonnen voor de oefening.",
+    "translation": "للحديقة مدخلان. من محطة ليندن تمشي اثنتي عشرة دقيقة إلى المدخل الجنوبي، حيث يمكنك أيضاً وضع دراجتك. تصل الحافلة 6 إلى جهة المدخل الشمالي، ومن موقفها تمشي دقيقتين إضافيتين. تعمل هذه الحافلة في أيام العمل فقط.\nفي الحديقة يمكنك الاختيار بين مسارين للمشي. الأزرق قصير ويمر بمحاذاة الماء، والأحمر أطول ويمر عبر الغابة. عند المطر قد تصبح ممرات الغابة موحلة.\nيوجد مقهى عند المدخل الجنوبي. يمكنك أيضاً إحضار طعامك والجلوس إلى طاولات النزهة. تقع ساحة اللعب وسط الحديقة لا عند أحد المدخلين. اتفقوا مسبقاً بوضوح على مكان اللقاء.\nالحديقة ومعلومات التنقل هذه خيالية لأغراض التدريب.",
+    "vocabulary": [
+      {
+        "term": "de ingang",
+        "excerpt": "twee ingangen",
+        "meaning": "المدخل؛ الجمع ingangen."
+      },
+      {
+        "term": "neerzetten",
+        "excerpt": "je fiets neerzetten",
+        "meaning": "يضع أو يركن شيئاً؛ هنا الدراجة."
+      },
+      {
+        "term": "langs",
+        "excerpt": "langs het water",
+        "meaning": "بمحاذاة الماء؛ يختلف عن المرور عبر الغابة."
+      },
+      {
+        "term": "modderig",
+        "excerpt": "modderig",
+        "meaning": "موحل أو مغطّى بالطين."
+      },
+      {
+        "term": "midden in",
+        "excerpt": "midden in het park",
+        "meaning": "في وسط الحديقة، لا على أطرافها."
+      },
+      {
+        "term": "vooraf",
+        "excerpt": "vooraf",
+        "meaning": "مسبقاً أو قبل حدوث الأمر."
+      }
+    ],
+    "grammar": {
+      "title": "احتمال تغيّر الحالة",
+      "example": "Bij regen kunnen de bospaden modderig worden.",
+      "translation": "عند المطر قد تصبح ممرات الغابة موحلة.",
+      "explanation": "kunnen هنا للاحتمال، وworden تعني يصبح. الجملة لا تقول إن كل الممرات موحلة دائماً."
+    },
+    "questions": [
+      {
+        "id": "a2-a-visitor-guide-to-a-park-q1",
+        "prompt": "لماذا لا تعتمد على الحافلة 6 لخطة الأحد؟",
+        "options": [
+          "De bus rijdt alleen op werkdagen.",
+          "De bus rijdt naar de zuidelijke ingang.",
+          "De halte ligt midden in het bos."
+        ],
+        "correctIndex": 0,
+        "evidence": "Deze bus rijdt alleen op werkdagen.",
+        "explanation": "النص يقصر تشغيل الحافلة الخيالية على أيام العمل، فلا نفترض وجودها الأحد."
+      },
+      {
+        "id": "a2-a-visitor-guide-to-a-park-q2",
+        "prompt": "أي مسار تختار لمشي قصير بمحاذاة الماء؟",
+        "options": [
+          "De rode route.",
+          "De blauwe route.",
+          "De route door het bos."
+        ],
+        "correctIndex": 1,
+        "evidence": "De blauwe route is kort en loopt langs het water.",
+        "explanation": "الأزرق يحقق الشرطين: القصر والسير بمحاذاة الماء."
+      },
+      {
+        "id": "a2-a-visitor-guide-to-a-park-q3",
+        "prompt": "أين تقع ساحة اللعب؟",
+        "options": [
+          "Bij de noordelijke ingang.",
+          "Naast het station.",
+          "Midden in het park."
+        ],
+        "correctIndex": 2,
+        "evidence": "De speeltuin ligt midden in het park, niet bij een ingang.",
+        "explanation": "لا نخلط موضع ساحة اللعب بموضع المقهى أو المدخل."
+      },
+      {
+        "id": "a2-a-visitor-guide-to-a-park-q4",
+        "prompt": "أي خطة طعام ولقاء توافق النص؟",
+        "options": [
+          "Lunch meenemen en een duidelijke ontmoetingsplek afspreken.",
+          "Verplicht in het café eten en bij een willekeurige ingang wachten.",
+          "Alleen op de speelplaats eten en zonder afspraak vertrekken."
+        ],
+        "correctIndex": 0,
+        "evidence": "Je mag ook zelf eten meenemen en aan de picknicktafels zitten. De speeltuin ligt midden in het park, niet bij een ingang. Spreek vooraf duidelijk af waar je elkaar ontmoet.",
+        "explanation": "الطعام الشخصي مسموح، والاتفاق الواضح على مكان اللقاء يمنع اللبس بين المدخلين."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب لصديق خطة الأحد باستخدام الدليل: الوصول بالقطار، ثم المشي من المحطة دون الاعتماد على الحافلة 6، واللقاء عند مقهى المدخل الجنوبي. اختر المسار القصير واقترح إحضار الغداء. لا تختلق مواعيد قطارات.",
+      "model": "Laten we zondag met de trein gaan. Vanaf station Linden lopen we twaalf minuten naar de zuidelijke ingang. Bus 6 rijdt zondag niet. We ontmoeten elkaar bij het café. Zullen we de blauwe route nemen en zelf lunch meenemen?",
+      "translation": "لنذهب بالقطار الأحد. من محطة ليندن نمشي اثنتي عشرة دقيقة إلى المدخل الجنوبي. الحافلة 6 لا تعمل الأحد. نلتقي عند المقهى. هل نسلك المسار الأزرق ونحضر غداءنا معنا؟",
+      "checklist": [
+        "هل استبعدت الحافلة لسبب مذكور في الدليل؟",
+        "هل حددت أي مدخل ومكان اللقاء بدقة؟",
+        "هل أبقيت اختيار المسار والغداء اقتراحاً؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-a-group-chat-about-dinner",
+    "title": "نتفق على عشاء مشترك",
+    "dutchTitle": "Samen eten zonder misverstanden",
+    "topic": "دردشة جماعية وتوزيع المسؤوليات",
+    "sourceLessons": [
+      "a2-asking-follow-up-questions",
+      "a2-responding-to-an-invitation",
+      "a2-confirming-a-social-plan",
+      "a2-following-up-after-a-social-event"
+    ],
+    "text": "Lina: Willen jullie zaterdag om zes uur bij mij eten? Ik maak soep. Vorige keer hadden we veel te veel eten, dus niet iedereen hoeft iets mee te nemen.\nAmir: Gezellig! Ik eet geen vlees. Wat voor soep maak je?\nLina: Groentesoep, zonder vlees. Noor neemt brood mee. Kun jij iets te drinken meenemen?\nAmir: Natuurlijk. Liever water of sap?\nLina: Water is prima. Als je wilt helpen met de tafel, kun je om half zes komen.\nNoor: Ik werk tot vijf uur. Half zes lukt me niet, maar om zes uur ben ik er met het brood.\nLina: Dat is goed. Eerder komen is niet nodig. Laat het even weten als je later bent. Dan wachten we met de soep. Ik heb zin om jullie weer te zien!",
+    "translation": "لينا: هل تودون العشاء عندي السبت الساعة السادسة؟ سأعد حساءً. كان لدينا طعام زائد كثيراً في المرة الماضية، لذلك لا يحتاج الجميع إلى إحضار شيء.\nأمير: جميل! أنا لا آكل اللحم. أي حساء ستعدين؟\nلينا: حساء خضار بلا لحم. ستحضر نور الخبز. هل يمكنك إحضار شيء للشرب؟\nأمير: بالطبع. هل تفضلين الماء أم العصير؟\nلينا: الماء مناسب. إن أردت المساعدة في تجهيز الطاولة، يمكنك الحضور الخامسة والنصف.\nنور: أعمل حتى الخامسة. لا أستطيع الوصول الخامسة والنصف، لكنني سأكون هناك السادسة ومعي الخبز.\nلينا: لا بأس. الحضور المبكر ليس مطلوباً. أبلغوني إن تأخرتم، وعندئذ ننتظر قبل تقديم الحساء. أتطلع إلى رؤيتكم مجدداً!",
+    "vocabulary": [
+      {
+        "term": "veel te veel",
+        "excerpt": "veel te veel eten",
+        "meaning": "كمية زائدة جداً من الطعام، لا مجرد كمية كبيرة."
+      },
+      {
+        "term": "niet iedereen",
+        "excerpt": "niet iedereen",
+        "meaning": "ليس الجميع؛ لا تعني لا أحد."
+      },
+      {
+        "term": "zonder",
+        "excerpt": "zonder vlees",
+        "meaning": "بلا أو من دون لحم."
+      },
+      {
+        "term": "iets te drinken",
+        "excerpt": "iets te drinken",
+        "meaning": "شيء للشرب؛ te drinken يصف الغرض."
+      },
+      {
+        "term": "lukken",
+        "excerpt": "Half zes lukt me niet",
+        "meaning": "يتيسر أو ينجح؛ هنا لا أستطيع الوصول في ذلك الوقت."
+      },
+      {
+        "term": "even laten weten",
+        "excerpt": "Laat het even weten",
+        "meaning": "يبلغ شخصاً باختصار؛ even تخفف الطلب ولا تعني لحظة محددة دائماً."
+      }
+    ],
+    "grammar": {
+      "title": "عرض اختياري مع als",
+      "example": "Als je wilt helpen met de tafel, kun je om half zes komen.",
+      "translation": "إن أردت المساعدة في تجهيز الطاولة، يمكنك الحضور الخامسة والنصف.",
+      "explanation": "الشرط wilt helpen يجعل الحضور المبكر مرتبطاً بالرغبة في المساعدة. بعد الجزء الذي يبدأ بـAls يأتي kun ثم je في الجملة الرئيسية."
+    },
+    "questions": [
+      {
+        "id": "a2-a-group-chat-about-dinner-q1",
+        "prompt": "من سيحضر الخبز؟",
+        "options": [
+          "Amir.",
+          "Noor.",
+          "Iedereen."
+        ],
+        "correctIndex": 1,
+        "evidence": "Noor neemt brood mee.",
+        "explanation": "الخبز مسؤولية نور، وأمير اتفق على إحضار الماء."
+      },
+      {
+        "id": "a2-a-group-chat-about-dinner-q2",
+        "prompt": "لماذا سأل أمير عن نوع الحساء؟",
+        "options": [
+          "Hij wil zelf soep koken.",
+          "Hij heeft al brood gekocht.",
+          "Hij eet geen vlees."
+        ],
+        "correctIndex": 2,
+        "evidence": "Ik eet geen vlees. Wat voor soep maak je?",
+        "explanation": "يسأل ليتحقق من مناسبة الطعام له، لا ليتولى الطبخ."
+      },
+      {
+        "id": "a2-a-group-chat-about-dinner-q3",
+        "prompt": "ما معنى رد لينا على نور؟",
+        "options": [
+          "Om zes uur komen is goed; eerder helpen is niet verplicht.",
+          "Noor moet om half zes aanwezig zijn.",
+          "Noor mag niet meer mee-eten."
+        ],
+        "correctIndex": 0,
+        "evidence": "Dat is goed. Eerder komen is niet nodig.",
+        "explanation": "الخامسة والنصف للمساعدة الاختيارية؛ وصول نور السادسة مقبول."
+      },
+      {
+        "id": "a2-a-group-chat-about-dinner-q4",
+        "prompt": "كيف نفهم niet iedereen hoeft iets mee te nemen؟",
+        "options": [
+          "Niemand mag iets meenemen.",
+          "Sommigen kunnen iets meenemen; het hoeft niet voor iedereen.",
+          "Iedereen moet hetzelfde meenemen."
+        ],
+        "correctIndex": 1,
+        "evidence": "niet iedereen hoeft iets mee te nemen.",
+        "explanation": "ليس الجميع لا تساوي لا أحد؛ بالفعل جرى توزيع الخبز والماء على شخصين."
+      }
+    ],
+    "production": {
+      "prompt": "انقل إلى صديق لم يقرأ الدردشة وقت العشاء ومكانه ونوع الحساء ومن سيحضر الخبز والماء. وضّح أن المساعدة الخامسة والنصف اختيارية. لا تفترض أن هذا الصديق وافق على الحضور.",
+      "model": "Zaterdag eten we om zes uur bij Lina. Ze maakt groentesoep zonder vlees. Noor neemt brood mee en Amir brengt water. Wie wil helpen met de tafel, kan om half zes komen. Eerder komen is niet verplicht. Wil jij ook komen?",
+      "translation": "نتعشى السبت السادسة عند لينا. ستعد حساء خضار بلا لحم. تحضر نور الخبز وأمير الماء. من يريد المساعدة في تجهيز الطاولة يمكنه الحضور الخامسة والنصف. الحضور المبكر غير إلزامي. هل تود الحضور أيضاً؟",
+      "checklist": [
+        "هل حافظت على توزيع المسؤوليات؟",
+        "هل ميّزت وقت العشاء من وقت المساعدة الاختيارية؟",
+        "هل سألت عن الحضور دون افتراض الموافقة؟"
+      ]
+    }
   }
 ]
