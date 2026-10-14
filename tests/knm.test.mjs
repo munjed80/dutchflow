@@ -9,7 +9,7 @@ const [curriculum, lessons, bank] = await Promise.all([read("curriculum"), read(
 const all = bank.questions;
 test("KNM covers 78 official knowledge objectives with bilingual authored content and unique questions", () => {
   assert.deepEqual(validateKnm(curriculum, lessons, bank), []);
-  assert.equal(lessons.length, 32); assert.equal(all.length, 257);
+  assert.equal(lessons.length, 40); assert.equal(all.length, 353);
   const bad = structuredClone(bank); bad.questions[0].correctIndex = 9; bad.questions[1].objective = "missing"; bad.questions[2].options[1] = bad.questions[2].options[0];
   assert.match(validateKnm(curriculum, lessons, bad).join(" "), /invalid answer key/);
   assert.match(validateKnm(curriculum, lessons, bad).join(" "), /unknown question reference/);
@@ -21,7 +21,7 @@ test("KNM covers 78 official knowledge objectives with bilingual authored conten
 test("four 40-question forms are disjoint, balanced across eight themes and include all four lessons per theme", () => {
   const used = new Set();
   for (let i=0;i<4;i++) {
-    const form = buildKnmExam(all,i); assert.equal(form.length,40);
+    const form = buildKnmExam(all,i,curriculum.examLessonSlugs); assert.equal(form.length,40);
     for (const q of form) { assert.ok(!used.has(q.id)); used.add(q.id); }
     for (const theme of curriculum.themes) { const group = form.filter((q) => q.themeId === theme.id); assert.equal(group.length,5); assert.equal(new Set(group.map((q) => q.lessonSlug)).size,4); }
   }
@@ -72,4 +72,31 @@ test("review sessions scope by theme, preserve saved order and reject stale IDs 
   assert.equal(knmReviewBatch(lessons, all.map((q) => q.id), "all", 10).length, 10);
   const groups = knmReviewGroups(lessons, selected, "1");
   assert.equal(groups.length, 1); assert.equal(groups[0].slug, "finding-work"); assert.equal(groups[0].count, 2);
+});
+
+test("expanded lessons add depth without changing legacy question IDs or timed form selections", () => {
+  const applications = lessons.filter((lesson) => lesson.kind === "application");
+  assert.equal(applications.length, 8); assert.equal(new Set(applications.map((lesson) => lesson.themeId)).size, 8);
+  for (const lesson of applications) { assert.equal(lesson.points.length, 12); assert.equal(lesson.questionIds.length, 12); assert.equal(lesson.vocabulary.length, 8); assert.equal(lesson.dialogue.length, 4); }
+  for (let form = 0; form < 4; form++) {
+    assert.deepEqual(buildKnmExam(all, form, curriculum.examLessonSlugs).map((q) => q.id), buildKnmExam(all.slice(0, 257), form).map((q) => q.id));
+  }
+  assert.deepEqual(buildKnmExam(all, 0, []), []);
+  const bad = structuredClone(curriculum); bad.examLessonSlugs[0] = "missing";
+  assert.match(validateKnm(bad, lessons, bank).join(" "), /core exam lesson selection/);
+  const invalid = structuredClone(lessons); invalid.find((lesson) => lesson.kind).dialogue[0].ar = "";
+  assert.match(validateKnm(curriculum, invalid, bank).join(" "), /invalid dialogue/);
+});
+
+test("comprehensive forms include all forty lessons while keeping balanced length and grade boundaries", () => {
+  const used = new Set();
+  for (let form = 4; form < 8; form++) {
+    const questions = buildKnmExam(all, form, curriculum.applicationExamLessonSlugs);
+    assert.equal(questions.length, 40); assert.equal(new Set(questions.map((q) => q.lessonSlug)).size, 40);
+    for (const question of questions) { assert.ok(!used.has(question.id)); used.add(question.id); }
+    for (const theme of curriculum.themes) assert.equal(questions.filter((q) => q.themeId === theme.id).length, 5);
+    const answers = Object.fromEntries(questions.map((q) => [q.id, q.correctIndex]));
+    assert.equal(gradeKnm(questions, answers, null).completedLesson, null);
+  }
+  assert.deepEqual(buildKnmExam(all, 8), []);
 });
