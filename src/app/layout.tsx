@@ -1,5 +1,6 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
-import { SiteHeader } from "@/components/SiteHeader";
+import { SiteHeader, SiteHeaderFallback } from "@/components/SiteHeader";
 import { LearningProvider } from "@/components/LearningProvider";
 import { ReviewProvider } from "@/components/ReviewProvider";
 import { lessons } from "@/lib/content";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="ar" dir="rtl"><body>
     <a className="skip-link" href="#main-content">انتقل إلى المحتوى</a>
-    <LearningProvider><ReviewProvider allowedIds={lessons.flatMap((lesson) => lesson.phrases.map((phrase) => phrase.id))}><SiteHeader />
+    <LearningProvider><ReviewProvider allowedIds={lessons.flatMap((lesson) => lesson.phrases.map((phrase) => phrase.id))}><Suspense fallback={<SiteHeaderFallback />}><SiteHeader /></Suspense>
     <main id="main-content" tabIndex={-1}>{children}</main></ReviewProvider></LearningProvider>
     <footer className="site-footer"><div className="shell footer-inner">
       <span dir="ltr">DutchFlow</span><p>هولندية أوضح، خطوة بعد خطوة.</p>
