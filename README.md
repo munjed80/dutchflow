@@ -4,6 +4,10 @@ An Arabic-first Dutch learning website built with Next.js and TypeScript. The lo
 
 Eight A2 units are now available as an authored preview: forty lessons on recent activities, work coordination, housing/services, appointments/follow-up, shopping/choices, school/local messages, travel/plans, and social experiences/invitations, plus reading, listening, writing and guided interaction. Use the level links on `/learn` or open `/a2`. A1 and A2 progress have separate totals; existing A1 URLs and progress are preserved. All 40 lessons include contextual language depth. The internal coverage audit and editorial pass are complete; real recorded audio, independent review and learner observation remain pending. See [cross-unit recycling and the current inventory](docs/A2_RECYCLING.md).
 
+## KNM knowledge pathway
+
+`/knm` adds 32 bilingual lessons, 257 original questions and four timed text-based practice forms across the eight official KNM themes, mapped to 78 knowledge objectives in the revision effective 1 July 2025. Progress and mistake review are isolated from A1/A2 and support guests or optional accounts. Run the existing migration command to apply `002_knm_progress.sql`. Read [the KNM source, exam-format and persistence details](docs/KNM.md); these are original training materials, not official DUO questions or results.
+
 ## Run locally
 
 Requires Node.js 24 (also used in CI).

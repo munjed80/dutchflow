@@ -419,3 +419,9 @@ Keep fragment navigation in-page so temporary answers survive. Do not present un
 ### Catalogue/navigation UX refinement (2026-10-14)
 
 The next delivery refines the existing learning UX; see `docs/LEARNING_UX.md`. Mobile catalogue module buttons become a native select, while desktop keeps the buttons. Search/unit/status filters combine and reset together. Completion filtering and level-local counts require known progress. The next lesson displays position/duration. Global learning/progress links preserve A2 from query parameters and resource slugs, with a static header fallback before hydration. Shared account/review pages do not remember a previous level. Course content, audio, completion criteria and persistence contracts are unchanged.
+
+### KNM curriculum handoff (2026-10-14)
+
+The next delivery adds the separate `/knm` learning path; read `docs/KNM.md`. It maps 78 official knowledge objectives from the 1 July 2025 revision to 32 bilingual lessons and 257 original questions. Four text-based 40-question/45-minute forms use a training allocation, not a claimed DUO count/distribution or pass threshold. The public source/coverage page dates the research and distinguishes authored material from official questions and visual practice.
+
+KNM answer-bank imports stay server-only; only projected public question fields go to the quiz. Its dedicated provider, guest storage and migration `002_knm_progress.sql` isolate KNM from A1/A2. Authenticated writes validate origin/session/owner and regrade the submitted answers transactionally. Review stores question IDs, completion stores lesson slugs, and timed drafts are revision/account scoped. No automatic guest-to-account import, new audio IDs, payment entitlements or official qualification claims are introduced. Current names and nuanced insurance/parent-liability/voting/donor rules need continued source review.

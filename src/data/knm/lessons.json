@@ -1,0 +1,3209 @@
+[
+  {
+    "slug": "finding-work",
+    "themeId": "1",
+    "number": 1,
+    "title": {
+      "nl": "Werk zoeken en solliciteren",
+      "ar": "البحث عن العمل والتقديم"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "1.1.2",
+      "1.1.6"
+    ],
+    "points": [
+      {
+        "objective": "1.1.2",
+        "nl": "Een vacature is een beschikbare baan. Vacatures staan bijvoorbeeld op websites van werkgevers en in online vacaturebanken.",
+        "ar": "الشاغر فرصة عمل متاحة. تُنشر الوظائف مثلاً في مواقع أصحاب العمل ومنصات التوظيف."
+      },
+      {
+        "objective": "1.1.2",
+        "nl": "In een cv staan opleiding, werkervaring en vaardigheden. Een werkgever gebruikt dit om te zien of iemand bij het werk past.",
+        "ar": "تتضمن السيرة الذاتية الدراسة والخبرة والمهارات. يستخدمها صاحب العمل لتقييم ملاءمة المتقدم."
+      },
+      {
+        "objective": "1.1.2",
+        "nl": "Een sollicitatiebrief legt uit waarom iemand een baan wil en wat die persoon kan. Een online formulier kan de brief vervangen.",
+        "ar": "توضح رسالة التقديم سبب الرغبة بالوظيفة والقدرات. وقد يحلّ نموذج إلكتروني محلها."
+      },
+      {
+        "objective": "1.1.2",
+        "nl": "Een uitzendbureau brengt werknemers en werkgevers bij elkaar. Inschrijving is een manier om tijdelijk of ander werk te vinden.",
+        "ar": "تربط وكالة التوظيف العامل بصاحب العمل. والتسجيل لديها طريقة للبحث عن عمل مؤقت أو غيره."
+      },
+      {
+        "objective": "1.1.2",
+        "nl": "Een netwerk bestaat uit mensen die je kent. Via familie, vrienden en oud-collega’s kun je informatie over werk krijgen.",
+        "ar": "شبكة المعارف هي الأشخاص الذين تعرفهم. يمكن للأهل والأصدقاء والزملاء السابقين إخبارك بفرص عمل."
+      },
+      {
+        "objective": "1.1.2",
+        "nl": "Een sollicitatiegesprek vraagt voorbereiding. Je leest over het bedrijf en denkt na over je ervaring en vragen over de baan.",
+        "ar": "تحتاج مقابلة العمل إلى تحضير. تقرأ عن الشركة وتراجع خبرتك وتحضّر أسئلة عن الوظيفة."
+      },
+      {
+        "objective": "1.1.6",
+        "nl": "Werkgevers kunnen eisen stellen aan taal, communicatie en vakkennis. De eisen staan vaak in de vacature.",
+        "ar": "قد يشترط صاحب العمل مهارات لغوية وتواصلية ومهنية. وغالباً تُذكر في الإعلان."
+      },
+      {
+        "objective": "1.1.2",
+        "nl": "Een sollicitant mag tijdens een gesprek vragen naar het werk en de arbeidsvoorwaarden. Bijvoorbeeld naar werktijden of salaris.",
+        "ar": "يمكن للمتقدم السؤال عن العمل وشروطه، مثل ساعات الدوام والراتب."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de vacature",
+        "ar": "الشاغر"
+      },
+      {
+        "nl": "het cv",
+        "ar": "السيرة الذاتية"
+      },
+      {
+        "nl": "de sollicitatie",
+        "ar": "طلب العمل"
+      },
+      {
+        "nl": "het uitzendbureau",
+        "ar": "وكالة العمل"
+      },
+      {
+        "nl": "het netwerk",
+        "ar": "شبكة المعارف"
+      },
+      {
+        "nl": "het gesprek",
+        "ar": "المقابلة"
+      }
+    ],
+    "example": {
+      "nl": "Samira ziet een vacature voor magazijnmedewerker. Zij leest de eisen, past haar cv aan en vraagt tijdens het gesprek naar de werktijden. Een vriend wijst haar ook op een uitzendbureau.",
+      "ar": "ترى سميرة إعلاناً للعمل في مستودع. تقرأ المتطلبات وتعدّل سيرتها الذاتية وتسأل في المقابلة عن ساعات العمل. ويدلّها صديق أيضاً على وكالة توظيف."
+    },
+    "questionIds": [
+      "knm-finding-work-1",
+      "knm-finding-work-2",
+      "knm-finding-work-3",
+      "knm-finding-work-4",
+      "knm-finding-work-5",
+      "knm-finding-work-6",
+      "knm-finding-work-7",
+      "knm-finding-work-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "qualifications-and-income",
+    "themeId": "1",
+    "number": 2,
+    "title": {
+      "nl": "Opleiding, UWV en inkomen",
+      "ar": "المؤهلات وUWV والدخل"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "1.1.1",
+      "1.1.3",
+      "1.1.4",
+      "1.1.5",
+      "1.1.7",
+      "1.1.8"
+    ],
+    "points": [
+      {
+        "objective": "1.1.1",
+        "nl": "De Module Arbeidsmarkt en Participatie, MAP, kan inburgeraars helpen de Nederlandse arbeidsmarkt te leren kennen. Gemeenten organiseren begeleiding binnen de betreffende inburgeringsroute.",
+        "ar": "يمكن لوحدة سوق العمل والمشاركة MAP تعريف الوافد بسوق العمل. تنظّم البلدية الإرشاد ضمن مسار الاندماج المعني."
+      },
+      {
+        "objective": "1.1.3",
+        "nl": "Opleiding, ervaring, beschikbaarheid, motivatie en Nederlands beïnvloeden kansen op werk. Een diploma alleen garandeert geen baan.",
+        "ar": "تؤثر الدراسة والخبرة والتفرغ والدافع واللغة في فرص العمل. الشهادة وحدها لا تضمن وظيفة."
+      },
+      {
+        "objective": "1.1.4",
+        "nl": "Diplomawaardering vergelijkt een buitenlands diploma met het Nederlandse onderwijssysteem. Voor bepaalde beroepen gelden daarnaast eisen voor erkenning.",
+        "ar": "يقارن تقييم الشهادة الأجنبية بمستويات التعليم الهولندي. وقد تتطلب بعض المهن اعترافاً إضافياً."
+      },
+      {
+        "objective": "1.1.5",
+        "nl": "Bijscholing helpt nieuwe kennis en vaardigheden te leren. Daardoor kunnen kansen op werk verbeteren, ook als je al ervaring hebt.",
+        "ar": "يساعد التعليم الإضافي في اكتساب مهارات جديدة وتحسين فرص العمل، حتى مع وجود خبرة."
+      },
+      {
+        "objective": "1.1.7",
+        "nl": "UWV behandelt onder andere WW en regelingen bij arbeidsongeschiktheid. Bij werkloosheid na werk kun je daar informatie over voorwaarden en een aanvraag krijgen.",
+        "ar": "تدير UWV إعانة WW وترتيبات العجز عن العمل وغيرها. يمكن مراجعتها بشأن شروط الإعانة بعد فقدان وظيفة."
+      },
+      {
+        "objective": "1.1.7",
+        "nl": "De gemeente behandelt bijstand voor wie daarvoor aan de voorwaarden voldoet. Bijstand is geen automatisch recht voor iedereen zonder werk.",
+        "ar": "تعالج البلدية المساعدة الاجتماعية لمن يستوفي الشروط. ليست حقاً تلقائياً لكل شخص بلا عمل."
+      },
+      {
+        "objective": "1.1.8",
+        "nl": "Bij een uitkering horen rechten en plichten. Veranderingen in inkomen en werk moeten worden gemeld bij de instantie die de uitkering betaalt.",
+        "ar": "ترتبط الإعانة بحقوق والتزامات. يجب إبلاغ الجهة التي تصرفها بالتغيرات في العمل والدخل."
+      },
+      {
+        "objective": "1.1.8",
+        "nl": "Wie een uitkering ontvangt, heeft vaak een verplichting om werk te zoeken en passend werk te aanvaarden. De precieze plichten staan in de regeling en persoonlijke afspraken.",
+        "ar": "على متلقي الإعانة غالباً البحث عن عمل وقبول العمل المناسب. تحدد القواعد والاتفاقات الشخصية الالتزامات الدقيقة."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "het diploma",
+        "ar": "الشهادة"
+      },
+      {
+        "nl": "de scholing",
+        "ar": "التدريب والتعليم"
+      },
+      {
+        "nl": "het UWV",
+        "ar": "مؤسسة تأمينات العاملين"
+      },
+      {
+        "nl": "de bijstand",
+        "ar": "المساعدة الاجتماعية"
+      },
+      {
+        "nl": "de uitkering",
+        "ar": "الإعانة"
+      },
+      {
+        "nl": "de arbeidsmarkt",
+        "ar": "سوق العمل"
+      }
+    ],
+    "example": {
+      "nl": "Omar heeft een diploma uit het buitenland. Hij zoekt informatie over diplomawaardering en bespreekt een cursus met de gemeente. Na verlies van een baan bekijkt hij bij UWV of hij recht heeft op WW.",
+      "ar": "يحمل عمر شهادة من الخارج. يبحث عن تقييمها ويناقش دورة مع البلدية. وبعد فقدان وظيفة يتحقق لدى UWV من استحقاق إعانة البطالة."
+    },
+    "questionIds": [
+      "knm-qualifications-and-income-1",
+      "knm-qualifications-and-income-2",
+      "knm-qualifications-and-income-3",
+      "knm-qualifications-and-income-4",
+      "knm-qualifications-and-income-5",
+      "knm-qualifications-and-income-6",
+      "knm-qualifications-and-income-7",
+      "knm-qualifications-and-income-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "employment-rights",
+    "themeId": "1",
+    "number": 3,
+    "title": {
+      "nl": "Contract, loon en medezeggenschap",
+      "ar": "عقد العمل والراتب ومشاركة العاملين"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "1.2.1",
+      "1.2.2",
+      "1.2.3"
+    ],
+    "points": [
+      {
+        "objective": "1.2.1",
+        "nl": "Een arbeidsovereenkomst bevat afspraken tussen werkgever en werknemer. Denk aan taken, uren, loon en de duur van het contract.",
+        "ar": "يحتوي عقد العمل على اتفاقات بين العامل وصاحب العمل، مثل المهام والساعات والأجر ومدة العقد."
+      },
+      {
+        "objective": "1.2.1",
+        "nl": "Een tijdelijk contract heeft een afgesproken einddatum. Een vast contract is een contract voor onbepaalde tijd.",
+        "ar": "للعقد المؤقت نهاية محددة. أما العقد الدائم فهو غير محدد المدة."
+      },
+      {
+        "objective": "1.2.1",
+        "nl": "Een cao bevat collectieve afspraken voor een bedrijf of sector. Er kunnen afspraken staan over loon, verlof en werktijden.",
+        "ar": "تتضمن الاتفاقية الجماعية شروطاً للشركة أو القطاع، مثل الأجور والإجازات والدوام."
+      },
+      {
+        "objective": "1.2.1",
+        "nl": "Werken in deeltijd betekent minder uren dan een volledige werkweek. Het aantal afgesproken uren staat in het contract.",
+        "ar": "العمل بدوام جزئي يعني ساعات أقل من الأسبوع الكامل. تُحدد الساعات المتفق عليها في العقد."
+      },
+      {
+        "objective": "1.2.1",
+        "nl": "Een werkgever kan afspraken hebben over ziekmelden, veiligheid en urenregistratie. De werknemer kan die afspraken in het contract of personeelsinformatie lezen.",
+        "ar": "قد توجد قواعد للتبليغ عن المرض والسلامة وتسجيل الساعات. تُقرأ في العقد أو معلومات الموظفين."
+      },
+      {
+        "objective": "1.2.2",
+        "nl": "Een ondernemingsraad vertegenwoordigt werknemers binnen een organisatie. De raad praat mee over bepaalde besluiten van de werkgever.",
+        "ar": "يمثل مجلس العاملين الموظفين داخل المؤسسة، ويشارك في مناقشة بعض قرارات الإدارة."
+      },
+      {
+        "objective": "1.2.2",
+        "nl": "Een vakbond behartigt belangen van werknemers en onderhandelt over cao’s. Een personeelsvereniging heeft vooral sociale activiteiten.",
+        "ar": "تدافع النقابة عن مصالح العمال وتتفاوض بشأن الاتفاقيات الجماعية. أما جمعية الموظفين فتركز على أنشطة اجتماعية."
+      },
+      {
+        "objective": "1.2.3",
+        "nl": "Werkgevers houden belastingen en premies in op loon. Daardoor is nettoloon meestal lager dan brutoloon; de loonstrook laat de inhoudingen zien.",
+        "ar": "يقتطع صاحب العمل ضرائب وأقساطاً من الأجر. لذلك يكون الصافي عادة أقل من الإجمالي ويبيّن الكشف الاقتطاعات."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "het contract",
+        "ar": "العقد"
+      },
+      {
+        "nl": "de cao",
+        "ar": "الاتفاقية الجماعية"
+      },
+      {
+        "nl": "het loon",
+        "ar": "الأجر"
+      },
+      {
+        "nl": "de vakbond",
+        "ar": "النقابة"
+      },
+      {
+        "nl": "de ondernemingsraad",
+        "ar": "مجلس العاملين"
+      },
+      {
+        "nl": "het verlof",
+        "ar": "الإجازة"
+      }
+    ],
+    "example": {
+      "nl": "Fatima krijgt een tijdelijk contract. Zij leest het aantal uren, het loon en de afspraken bij ziekte. Haar loonstrook toont bruto en netto. Bij vragen over de cao vraagt zij hulp aan een vakbond.",
+      "ar": "تتلقى فاطمة عقداً مؤقتاً. تقرأ عدد الساعات والأجر وترتيبات المرض. يبين كشف راتبها الإجمالي والصافي، وتستفسر من النقابة عن الاتفاقية الجماعية."
+    },
+    "questionIds": [
+      "knm-employment-rights-1",
+      "knm-employment-rights-2",
+      "knm-employment-rights-3",
+      "knm-employment-rights-4",
+      "knm-employment-rights-5",
+      "knm-employment-rights-6",
+      "knm-employment-rights-7",
+      "knm-employment-rights-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "fair-work-and-business",
+    "themeId": "1",
+    "number": 4,
+    "title": {
+      "nl": "Gelijke kansen en een eigen bedrijf",
+      "ar": "تكافؤ الفرص وتأسيس عمل"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "1.3.1",
+      "1.4.1",
+      "1.2.1"
+    ],
+    "points": [
+      {
+        "objective": "1.3.1",
+        "nl": "Discriminatie bij sollicitaties en op het werk is verboden. Dit geldt voor gedrag van zowel werkgevers als collega’s.",
+        "ar": "التمييز في التوظيف وبيئة العمل ممنوع، سواء صدر من المدير أو الزملاء."
+      },
+      {
+        "objective": "1.3.1",
+        "nl": "Een vertrouwenspersoon kan helpen bij ongewenst gedrag op het werk. Een vakbond of antidiscriminatievoorziening kan ook informatie en steun geven.",
+        "ar": "يمكن للمستشار الموثوق مساعدة العامل بشأن السلوك غير المرغوب. وقد تقدم النقابة أو جهة مكافحة التمييز دعماً أيضاً."
+      },
+      {
+        "objective": "1.4.1",
+        "nl": "Veel ondernemers moeten hun onderneming inschrijven bij KVK. KVK geeft informatie over inschrijving en de voorwaarden voor ondernemen.",
+        "ar": "يجب على كثير من أصحاب الأعمال تسجيل منشأتهم لدى غرفة التجارة. توفر الغرفة معلومات التسجيل وشروط النشاط."
+      },
+      {
+        "objective": "1.4.1",
+        "nl": "KVK-inschrijving is geen vergunning voor elk beroep of elke activiteit. Soms zijn extra vergunningen, kwalificaties of toestemming nodig.",
+        "ar": "التسجيل في غرفة التجارة ليس ترخيصاً لكل مهنة أو نشاط. قد تحتاج إلى تصاريح أو مؤهلات أو موافقات إضافية."
+      },
+      {
+        "objective": "1.4.1",
+        "nl": "Een bedrijf beginnen kan gevolgen hebben voor een uitkering. Overleg vooraf met UWV of de gemeente; er bestaan regelingen en individuele voorwaarden.",
+        "ar": "قد يؤثر تأسيس العمل في الإعانة. استفسر مسبقاً من UWV أو البلدية، إذ توجد ترتيبات وشروط فردية."
+      },
+      {
+        "objective": "1.4.1",
+        "nl": "Een zelfstandige regelt zelf veel financiële zaken. Bijvoorbeeld administratie, belastingen en voorzieningen voor pensioen of arbeidsongeschiktheid.",
+        "ar": "يتولى المستقل شؤوناً مالية عديدة بنفسه، مثل السجلات والضرائب وترتيبات التقاعد أو العجز."
+      },
+      {
+        "objective": "1.4.1",
+        "nl": "KVK kan starters informatie geven over een ondernemingsplan en de start van een bedrijf. Advies is geen garantie op winst.",
+        "ar": "يمكن لغرفة التجارة إرشاد المبتدئ إلى خطة العمل وبداية النشاط. الإرشاد لا يضمن الربح."
+      },
+      {
+        "objective": "1.2.1",
+        "nl": "Een werknemer kan met een werkgever over arbeidsvoorwaarden praten. Collectieve afspraken en wettelijke regels blijven belangrijk bij onderhandelingen.",
+        "ar": "يستطيع العامل مناقشة شروط العمل مع صاحب العمل. تبقى القواعد القانونية والاتفاقات الجماعية مهمة في التفاوض."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de discriminatie",
+        "ar": "التمييز"
+      },
+      {
+        "nl": "de vertrouwenspersoon",
+        "ar": "المستشار الموثوق"
+      },
+      {
+        "nl": "de ondernemer",
+        "ar": "صاحب العمل الحر"
+      },
+      {
+        "nl": "de KVK",
+        "ar": "غرفة التجارة"
+      },
+      {
+        "nl": "de verzekering",
+        "ar": "التأمين"
+      },
+      {
+        "nl": "het pensioen",
+        "ar": "التقاعد"
+      }
+    ],
+    "example": {
+      "nl": "Rami wil naast zijn uitkering een bedrijf beginnen. Hij bespreekt dit eerst met de uitkeringsinstantie en vraagt KVK om informatie. Op zijn oude werk kon hij een vertrouwenspersoon benaderen bij discriminatie.",
+      "ar": "يريد رامي تأسيس عمل مع حصوله على إعانة. يناقش الأمر أولاً مع الجهة المسؤولة ويستفسر من غرفة التجارة. وفي عمله السابق كان يستطيع اللجوء إلى مستشار موثوق عند التمييز."
+    },
+    "questionIds": [
+      "knm-fair-work-and-business-1",
+      "knm-fair-work-and-business-2",
+      "knm-fair-work-and-business-3",
+      "knm-fair-work-and-business-4",
+      "knm-fair-work-and-business-5",
+      "knm-fair-work-and-business-6",
+      "knm-fair-work-and-business-7",
+      "knm-fair-work-and-business-8"
+    ],
+    "sourceIds": [
+      "endterms",
+      "business-benefits",
+      "business-bijstand"
+    ]
+  },
+  {
+    "slug": "everyday-contact",
+    "themeId": "2",
+    "number": 5,
+    "title": {
+      "nl": "Contact, afspraken en verschillen",
+      "ar": "التواصل والمواعيد والاختلافات"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "2.1.1",
+      "2.1.2",
+      "2.1.3"
+    ],
+    "points": [
+      {
+        "objective": "2.1.1",
+        "nl": "Omgangsvormen verschillen tussen mensen, groepen, regio’s en generaties. Er bestaat niet één gewoonte die alle Nederlanders volgen.",
+        "ar": "تختلف أساليب التعامل بين الأفراد والفئات والمناطق والأجيال. لا توجد عادة واحدة يتبعها كل الهولنديين."
+      },
+      {
+        "objective": "2.1.2",
+        "nl": "Veel mensen uiten een mening direct. Directe communicatie betekent niet automatisch dat iemand boos is; de situatie helpt de betekenis te begrijpen.",
+        "ar": "يعبّر كثيرون عن الرأي مباشرة. لا تعني المباشرة بالضرورة الغضب؛ يساعد السياق في فهم المقصود."
+      },
+      {
+        "objective": "2.1.3",
+        "nl": "Bij instanties en zorgverleners is vaak een afspraak nodig. Je kunt de manier van afspraak maken op hun website of telefonisch vinden.",
+        "ar": "غالباً تحتاج إلى موعد لدى المؤسسات ومقدمي الرعاية. تعرف طريقة الحجز عبر موقعهم أو الهاتف."
+      },
+      {
+        "objective": "2.1.3",
+        "nl": "Veel mensen vinden op tijd komen belangrijk. Op tijd afmelden maakt het mogelijk een afspraak opnieuw te plannen.",
+        "ar": "يهتم كثيرون بالالتزام بالوقت. ويساعد الاعتذار المبكر في إعادة تنظيم الموعد."
+      },
+      {
+        "objective": "2.1.1",
+        "nl": "Bij onzekerheid over een gewoonte kun je informatie vragen aan iemand in die omgeving. Een werkplek kan andere afspraken hebben dan een vriendenkring.",
+        "ar": "يمكن السؤال عن العادة لدى أشخاص من البيئة نفسها. فقد تختلف قواعد العمل عن عادات الأصدقاء."
+      },
+      {
+        "objective": "2.1.3",
+        "nl": "Een afspraak bevat doorgaans een datum, tijd en plaats. Bij een online afspraak kan in plaats van een adres een digitale link horen.",
+        "ar": "يتضمن الموعد عادة التاريخ والوقت والمكان. وقد يستخدم الموعد الإلكتروني رابطاً بدلاً من عنوان."
+      },
+      {
+        "objective": "2.1.2",
+        "nl": "Feedback is een reactie op gedrag of werk. Je kunt om uitleg vragen wanneer een opmerking niet duidelijk is.",
+        "ar": "التغذية الراجعة ملاحظات عن السلوك أو العمل. يمكن طلب توضيح إذا لم تكن الملاحظة مفهومة."
+      },
+      {
+        "objective": "2.1.1",
+        "nl": "Een persoonlijke voorkeur is niet hetzelfde als een wettelijke regel. Kennis van gewoonten helpt in contact, maar verschillen tussen mensen blijven bestaan.",
+        "ar": "التفضيل الشخصي ليس قاعدة قانونية. تفيد معرفة العادات في التواصل مع بقاء الاختلاف بين الناس."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de afspraak",
+        "ar": "الموعد"
+      },
+      {
+        "nl": "op tijd",
+        "ar": "في الموعد"
+      },
+      {
+        "nl": "afmelden",
+        "ar": "الاعتذار عن الحضور"
+      },
+      {
+        "nl": "direct",
+        "ar": "مباشر"
+      },
+      {
+        "nl": "de gewoonte",
+        "ar": "العادة"
+      },
+      {
+        "nl": "de context",
+        "ar": "السياق"
+      }
+    ],
+    "example": {
+      "nl": "Bij de huisarts heeft Lina een afspraak om tien uur. Zij belt als zij niet kan komen. Op het werk vraagt zij wat een collega bedoelt met directe feedback; niet iedereen praat op dezelfde manier.",
+      "ar": "لدى لينا موعد مع الطبيب الساعة العاشرة. تتصل إن لم تستطع الحضور. وتسأل زميلاً في العمل عن معنى ملاحظته المباشرة؛ فالناس لا يتحدثون بالطريقة نفسها."
+    },
+    "questionIds": [
+      "knm-everyday-contact-1",
+      "knm-everyday-contact-2",
+      "knm-everyday-contact-3",
+      "knm-everyday-contact-4",
+      "knm-everyday-contact-5",
+      "knm-everyday-contact-6",
+      "knm-everyday-contact-7",
+      "knm-everyday-contact-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "families-and-networks",
+    "themeId": "2",
+    "number": 6,
+    "title": {
+      "nl": "Samenleven en sociale netwerken",
+      "ar": "أشكال الأسرة وشبكات التواصل"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "2.1.4",
+      "2.2.1",
+      "2.2.2"
+    ],
+    "points": [
+      {
+        "objective": "2.1.4",
+        "nl": "In Nederland bestaan verschillende samenlevingsvormen: alleen wonen, samenwonen, huwelijk en geregistreerd partnerschap. Mensen hebben verschillende keuzes.",
+        "ar": "توجد أشكال مختلفة للحياة: السكن منفرداً أو مع شريك، والزواج والشراكة المسجلة. تختلف الخيارات بين الناس."
+      },
+      {
+        "objective": "2.1.4",
+        "nl": "Huwelijk en geregistreerd partnerschap zijn wettelijk geregeld. Ze zijn niet hetzelfde als alleen samen op één adres wonen.",
+        "ar": "ينظم القانون الزواج والشراكة المسجلة. وهما ليسا مجرد سكن شخصين في عنوان واحد."
+      },
+      {
+        "objective": "2.1.4",
+        "nl": "Ook partners van gelijk geslacht kunnen in Nederland trouwen. Gelijke behandeling geldt ongeacht seksuele gerichtheid.",
+        "ar": "يمكن أيضاً للشريكين من الجنس نفسه الزواج في هولندا. تسري المساواة بغض النظر عن التوجه الجنسي."
+      },
+      {
+        "objective": "2.2.1",
+        "nl": "Een vereniging brengt mensen samen rond bijvoorbeeld sport, cultuur of een hobby. Lidmaatschap kan helpen nieuwe mensen te ontmoeten.",
+        "ar": "تجمع الجمعية الناس حول رياضة أو ثقافة أو هواية. قد تساعد العضوية في التعرف إلى أشخاص جدد."
+      },
+      {
+        "objective": "2.2.1",
+        "nl": "Vrijwilligerswerk is werk dat je vrijwillig voor anderen of een organisatie doet. Het kan sociale contacten en ervaring opleveren.",
+        "ar": "التطوع عمل تختاره لمساعدة الآخرين أو منظمة. قد يمنحك خبرة وعلاقات اجتماعية."
+      },
+      {
+        "objective": "2.2.1",
+        "nl": "Gemeenten en buurthuizen kunnen informatie geven over lokale activiteiten. Het aanbod verschilt per buurt en organisatie.",
+        "ar": "قد توفر البلدية ومراكز الأحياء معلومات عن الأنشطة المحلية. يختلف العرض حسب الحي والمنظمة."
+      },
+      {
+        "objective": "2.2.2",
+        "nl": "Bij een geboorte sturen sommige mensen een kaart of feliciteren zij de ouders. Gebruiken verschillen; een kaart is geen wettelijke verplichting.",
+        "ar": "عند الولادة يرسل بعض الناس بطاقة أو يهنئون الوالدين. تختلف العادات، ولا تفرض القوانين إرسال بطاقة."
+      },
+      {
+        "objective": "2.2.2",
+        "nl": "Bij een overlijden kunnen mensen de familie condoleren. Condoleren betekent medeleven tonen; niet iedereen doet dat op dezelfde manier.",
+        "ar": "قد يقدم الناس التعازي عند الوفاة. التعزية تعبير عن المواساة، وطرقها تختلف."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "het huwelijk",
+        "ar": "الزواج"
+      },
+      {
+        "nl": "het partnerschap",
+        "ar": "الشراكة المسجلة"
+      },
+      {
+        "nl": "samenwonen",
+        "ar": "السكن معاً"
+      },
+      {
+        "nl": "de vereniging",
+        "ar": "الجمعية"
+      },
+      {
+        "nl": "de vrijwilliger",
+        "ar": "المتطوع"
+      },
+      {
+        "nl": "de buurt",
+        "ar": "الحي"
+      }
+    ],
+    "example": {
+      "nl": "In de straat wonen alleenstaanden, gezinnen en partners die niet getrouwd zijn. Nour leert buren kennen bij een sportvereniging. Zij helpt vrijwillig bij een activiteit; niemand hoeft dezelfde leefvorm te kiezen.",
+      "ar": "يسكن في الشارع أفراد وأسر وشركاء غير متزوجين. تتعرف نور إلى الجيران في نادٍ رياضي وتساعد تطوعاً في نشاط. لا يُلزم الناس باختيار شكل واحد للحياة."
+    },
+    "questionIds": [
+      "knm-families-and-networks-1",
+      "knm-families-and-networks-2",
+      "knm-families-and-networks-3",
+      "knm-families-and-networks-4",
+      "knm-families-and-networks-5",
+      "knm-families-and-networks-6",
+      "knm-families-and-networks-7",
+      "knm-families-and-networks-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "holidays-and-remembrance",
+    "themeId": "2",
+    "number": 7,
+    "title": {
+      "nl": "Feestdagen en herdenken",
+      "ar": "الأعياد وأيام الذكرى"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "2.1.5"
+    ],
+    "points": [
+      {
+        "objective": "2.1.5",
+        "nl": "Koningsdag is de viering van de verjaardag van de koning. Er zijn bijvoorbeeld vrijmarkten en activiteiten in het land.",
+        "ar": "يحتفل يوم الملك بعيد ميلاد الملك، وتقام أسواق وأنشطة مختلفة."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Op 4 mei is de Nationale Dodenherdenking. Mensen herdenken oorlogsslachtoffers; op 5 mei staat bevrijding en vrijheid centraal.",
+        "ar": "4 أيار يوم ذكرى ضحايا الحروب. ويركز 5 أيار على التحرير والحرية."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Bevrijdingsdag is op 5 mei. De dag verwijst naar de bevrijding in 1945 en het belang van vrijheid.",
+        "ar": "يوم التحرير في 5 أيار، ويشير إلى تحرير 1945 وأهمية الحرية."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Kerst is op 25 en 26 december. Sommige mensen vieren het religieus, anderen met familie; niet iedereen viert het.",
+        "ar": "عيد الميلاد في 25 و26 كانون الأول. يحتفل البعض دينياً أو عائلياً، والبعض لا يحتفل."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Oud en Nieuw is de overgang van 31 december naar 1 januari. Nieuwjaarsdag is de eerste dag van het nieuwe jaar.",
+        "ar": "رأس السنة انتقال من 31 كانون الأول إلى 1 كانون الثاني. يوم السنة الجديدة أول يوم في العام."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Sinterklaas is een traditie met cadeaus, vooral rond 5 december. Het is niet hetzelfde feest als Kerst.",
+        "ar": "سينتركلاس تقليد للهدايا، خصوصاً حول 5 كانون الأول، وهو مختلف عن عيد الميلاد."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Keti Koti herdenkt de afschaffing van de slavernij in Suriname en het Caribische deel van het Nederlandse koloniale verleden. Het vindt plaats op 1 juli.",
+        "ar": "يحيي كيتي كوتي ذكرى إلغاء العبودية في سورينام والجزء الكاريبي من الماضي الاستعماري الهولندي، في 1 تموز."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Pasen, Carnaval en het Suikerfeest zijn voorbeelden van feesten die mensen kunnen vieren. Sommige data veranderen jaarlijks; gewoonten verschillen.",
+        "ar": "الفصح والكرنفال وعيد الفطر أمثلة لأعياد قد يحتفل بها الناس. تتغير بعض التواريخ سنوياً وتختلف العادات."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de feestdag",
+        "ar": "العيد"
+      },
+      {
+        "nl": "herdenken",
+        "ar": "إحياء الذكرى"
+      },
+      {
+        "nl": "de vrijheid",
+        "ar": "الحرية"
+      },
+      {
+        "nl": "de bevrijding",
+        "ar": "التحرير"
+      },
+      {
+        "nl": "de verjaardag",
+        "ar": "عيد الميلاد"
+      },
+      {
+        "nl": "de traditie",
+        "ar": "التقليد"
+      }
+    ],
+    "example": {
+      "nl": "Op 4 mei ziet Youssef een herdenking. Op 5 mei zijn er activiteiten rond vrijheid. Zijn werkgever legt uit welke dagen volgens de cao vrije dagen zijn; een feestdag betekent niet voor iedereen automatisch vrij.",
+      "ar": "يشاهد يوسف إحياءً للذكرى في 4 أيار، وأنشطة للحرية في 5 أيار. يشرح صاحب عمله أيام الإجازة في الاتفاقية الجماعية؛ فالعيد لا يعني إجازة تلقائية للجميع."
+    },
+    "questionIds": [
+      "knm-holidays-and-remembrance-1",
+      "knm-holidays-and-remembrance-2",
+      "knm-holidays-and-remembrance-3",
+      "knm-holidays-and-remembrance-4",
+      "knm-holidays-and-remembrance-5",
+      "knm-holidays-and-remembrance-6",
+      "knm-holidays-and-remembrance-7",
+      "knm-holidays-and-remembrance-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "social-participation",
+    "themeId": "2",
+    "number": 8,
+    "title": {
+      "nl": "Meedoen met respect voor verschillen",
+      "ar": "المشاركة واحترام الاختلاف"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "2.1.1",
+      "2.1.3",
+      "2.2.1",
+      "2.2.2"
+    ],
+    "points": [
+      {
+        "objective": "2.1.1",
+        "nl": "Een sociale groep kan eigen gewoonten hebben. Vragen naar een gewoonte helpt begrip zonder te denken dat alle mensen hetzelfde zijn.",
+        "ar": "قد تكون لكل فئة عاداتها. يساعد السؤال في الفهم دون افتراض أن الجميع متشابهون."
+      },
+      {
+        "objective": "2.1.3",
+        "nl": "Een uitnodiging kan een antwoord vragen, bijvoorbeeld of je komt. Datum en begintijd helpen een activiteit te plannen.",
+        "ar": "قد تتطلب الدعوة رداً عن الحضور. يساعد التاريخ ووقت البداية في تنظيم النشاط."
+      },
+      {
+        "objective": "2.2.1",
+        "nl": "Een culturele organisatie kan activiteiten rond muziek, kunst of geschiedenis aanbieden. Dat is een manier om aan het maatschappelijk leven deel te nemen.",
+        "ar": "قد تقدم المنظمة الثقافية أنشطة موسيقية أو فنية أو تاريخية، وهي أحد أشكال المشاركة المجتمعية."
+      },
+      {
+        "objective": "2.2.1",
+        "nl": "Een sportvereniging kan trainingen en wedstrijden organiseren. Verenigingen hebben vaak regels en soms contributie voor leden.",
+        "ar": "قد ينظم النادي الرياضي تدريبات ومباريات. غالباً توجد قواعد واشتراك للأعضاء."
+      },
+      {
+        "objective": "2.2.2",
+        "nl": "Bij een verjaardag feliciteren veel mensen de jarige. De manier van vieren verschilt per persoon en gezin.",
+        "ar": "يهنئ كثيرون صاحب عيد الميلاد. تختلف طريقة الاحتفال بين الأفراد والأسر."
+      },
+      {
+        "objective": "2.2.2",
+        "nl": "Slagen voor een examen kan worden gevierd. Een persoonlijke felicitatie is een gebruik en verandert niets aan het officiële diploma.",
+        "ar": "يمكن الاحتفال بالنجاح في الامتحان. التهنئة عادة شخصية لا تغير وضع الشهادة الرسمية."
+      },
+      {
+        "objective": "2.1.1",
+        "nl": "Respectvol contact kan bestaan tussen mensen met verschillende meningen of religies. Een sociaal gebruik verplicht iemand niet dezelfde overtuiging te kiezen.",
+        "ar": "يمكن التواصل باحترام بين مختلفي الرأي والدين. لا تلزم العادات الشخص بتبني قناعة الآخرين."
+      },
+      {
+        "objective": "2.2.1",
+        "nl": "Vrijwillige deelname betekent dat iemand zelf kiest om mee te doen. Voor sommige activiteiten is aanmelden wel nodig om de organisatie te helpen.",
+        "ar": "المشاركة الاختيارية تعني حرية اختيار الحضور. وقد يلزم تسجيل مسبق لمساعدة المنظمين."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de mening",
+        "ar": "الرأي"
+      },
+      {
+        "nl": "de uitnodiging",
+        "ar": "الدعوة"
+      },
+      {
+        "nl": "het lid",
+        "ar": "العضو"
+      },
+      {
+        "nl": "de activiteit",
+        "ar": "النشاط"
+      },
+      {
+        "nl": "de vrijwillige bijdrage",
+        "ar": "المساهمة الاختيارية"
+      },
+      {
+        "nl": "respect",
+        "ar": "الاحترام"
+      }
+    ],
+    "example": {
+      "nl": "Aya krijgt een uitnodiging voor een buurtmaaltijd. Zij vraagt naar het eten en de begintijd. Tijdens het gesprek hebben buren verschillende meningen. Deelname is vrijwillig en niemand hoeft zijn overtuiging te veranderen.",
+      "ar": "تتلقى آية دعوة لطعام في الحي. تسأل عن الطعام والوقت. تختلف آراء الجيران في الحوار. المشاركة اختيارية ولا يطلب من أحد تغيير قناعته."
+    },
+    "questionIds": [
+      "knm-social-participation-1",
+      "knm-social-participation-2",
+      "knm-social-participation-3",
+      "knm-social-participation-4",
+      "knm-social-participation-5",
+      "knm-social-participation-6",
+      "knm-social-participation-7",
+      "knm-social-participation-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "finding-a-home",
+    "themeId": "3",
+    "number": 9,
+    "title": {
+      "nl": "Een woning zoeken",
+      "ar": "البحث عن سكن"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "3.1.3",
+      "3.1.1"
+    ],
+    "points": [
+      {
+        "objective": "3.1.3",
+        "nl": "In Nederland kun je wonen in een sociale huurwoning, een particuliere huurwoning of een koopwoning. Voor iedere vorm gelden voorwaarden en kosten.",
+        "ar": "يمكن السكن بإيجار اجتماعي أو خاص أو تملك منزل. لكل نوع شروط وتكاليف."
+      },
+      {
+        "objective": "3.1.3",
+        "nl": "Voor sociale huur is vaak inschrijving als woningzoekende nodig. De regels en wachttijd verschillen per regio.",
+        "ar": "غالباً يتطلب السكن الاجتماعي التسجيل كباحث عن سكن. تختلف القواعد والانتظار حسب المنطقة."
+      },
+      {
+        "objective": "3.1.1",
+        "nl": "De woningmarkt verschilt tussen gemeenten. In sommige gebieden zijn veel meer woningzoekenden dan beschikbare woningen.",
+        "ar": "يختلف سوق السكن بين البلديات. في بعض المناطق يزيد عدد الباحثين كثيراً على المنازل المتاحة."
+      },
+      {
+        "objective": "3.1.3",
+        "nl": "Een woonwens moet passen bij het inkomen, de huishoudgrootte en de lokale woningmarkt. Ook energie en servicekosten tellen mee in het budget.",
+        "ar": "يجب أن تناسب رغبة السكن الدخل وحجم الأسرة والسوق المحلي. تدخل الطاقة ورسوم الخدمات في الميزانية أيضاً."
+      },
+      {
+        "objective": "3.1.3",
+        "nl": "Een woningcorporatie beheert onder andere sociale huurwoningen. Informatie over aanbieden en reageren staat bij de corporatie of het regionale platform.",
+        "ar": "تدير مؤسسة الإسكان مساكن اجتماعية وغيرها. توجد معلومات العرض والتقديم لدى المؤسسة أو المنصة الإقليمية."
+      },
+      {
+        "objective": "3.1.3",
+        "nl": "Een makelaar kan helpen bij het zoeken, kopen of huren van een woning. Voor aankoop moet je ook informatie over financiering en kosten bekijken.",
+        "ar": "قد يساعد الوسيط العقاري في البحث أو الشراء أو الإيجار. عند الشراء ينبغي دراسة التمويل والتكاليف."
+      },
+      {
+        "objective": "3.1.1",
+        "nl": "De gemeente kan een rol hebben bij eerste huisvesting voor bepaalde nieuwkomers. De route hangt af van de verblijfs- en gezinssituatie.",
+        "ar": "قد تؤدي البلدية دوراً في السكن الأول لبعض الوافدين. يتوقف المسار على وضع الإقامة والأسرة."
+      },
+      {
+        "objective": "3.1.3",
+        "nl": "Reageren op een woning is niet hetzelfde als toewijzing. Het aanbod kan eisen hebben over inkomen, inschrijving en huishoudgrootte.",
+        "ar": "التقديم على منزل لا يعني تخصيصه لك. قد توجد شروط للدخل والتسجيل وحجم الأسرة."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de huur",
+        "ar": "الإيجار"
+      },
+      {
+        "nl": "de koopwoning",
+        "ar": "المنزل المملوك"
+      },
+      {
+        "nl": "de woningcorporatie",
+        "ar": "مؤسسة الإسكان"
+      },
+      {
+        "nl": "de wachtlijst",
+        "ar": "قائمة الانتظار"
+      },
+      {
+        "nl": "de makelaar",
+        "ar": "الوسيط العقاري"
+      },
+      {
+        "nl": "het inkomen",
+        "ar": "الدخل"
+      }
+    ],
+    "example": {
+      "nl": "Adnan zoekt een woning die bij zijn inkomen past. Hij schrijft zich in voor sociale huur en vergelijkt ook andere mogelijkheden. De wachttijd en regels van zijn regio staan op de lokale website.",
+      "ar": "يبحث عدنان عن مسكن يناسب دخله. يسجّل للسكن الاجتماعي ويقارن خيارات أخرى. يجد مدة الانتظار والقواعد في موقع منطقته."
+    },
+    "questionIds": [
+      "knm-finding-a-home-1",
+      "knm-finding-a-home-2",
+      "knm-finding-a-home-3",
+      "knm-finding-a-home-4",
+      "knm-finding-a-home-5",
+      "knm-finding-a-home-6",
+      "knm-finding-a-home-7",
+      "knm-finding-a-home-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "rent-and-maintenance",
+    "themeId": "3",
+    "number": 10,
+    "title": {
+      "nl": "Huurcontract en onderhoud",
+      "ar": "عقد الإيجار والصيانة"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "3.1.1",
+      "3.1.2"
+    ],
+    "points": [
+      {
+        "objective": "3.1.1",
+        "nl": "Een huurcontract beschrijft afspraken tussen huurder en verhuurder. Het bevat bijvoorbeeld huurprijs, woning en afspraken over betaling en gebruik.",
+        "ar": "يصف عقد الإيجار اتفاقات المستأجر والمؤجر، مثل المنزل والأجرة والدفع والاستخدام."
+      },
+      {
+        "objective": "3.1.2",
+        "nl": "Huurders hebben wettelijke rechten. Een verhuurder mag niet zomaar elke eigen regel boven de wet stellen.",
+        "ar": "للمستأجرين حقوق قانونية. لا يستطيع المؤجر اعتبار قواعده الخاصة أعلى من القانون."
+      },
+      {
+        "objective": "3.1.2",
+        "nl": "Een gebrek zoals een lekkage kan onderhoud nodig maken. Je meldt het aan de verhuurder en bewaart informatie over het probleem.",
+        "ar": "قد يتطلب عيب مثل التسرب صيانة. يُبلّغ المؤجر ويُحتفظ بمعلومات المشكلة."
+      },
+      {
+        "objective": "3.1.2",
+        "nl": "Bij een huurgeschil kun je informatie krijgen van bijvoorbeeld het Juridisch Loket, een huurteam of de Huurcommissie. Welke route past hangt af van het geschil.",
+        "ar": "يمكن طلب معلومات نزاع الإيجار من مكتب المساعدة القانونية أو فريق الإيجار أو لجنة الإيجار. يعتمد المسار على نوع النزاع."
+      },
+      {
+        "objective": "3.1.2",
+        "nl": "Een huurverhoging moet aan toepasselijke regels voldoen. Controleer de brief en vraag hulp wanneer je de verhoging niet begrijpt.",
+        "ar": "يجب أن توافق زيادة الإيجار القواعد المعمول بها. راجع الرسالة واطلب توضيحاً عند الحاجة."
+      },
+      {
+        "objective": "3.1.1",
+        "nl": "Een borg is een bedrag dat bij huur als zekerheid kan worden gevraagd. Borg is iets anders dan de maandelijkse huur.",
+        "ar": "التأمين المالي مبلغ ضمان قد يُطلب عند الاستئجار. يختلف عن الإيجار الشهري."
+      },
+      {
+        "objective": "3.1.1",
+        "nl": "Servicekosten zijn kosten voor afgesproken diensten naast de kale huur. Het is belangrijk huur en bijkomende kosten uit elkaar te houden.",
+        "ar": "رسوم الخدمات تكاليف لخدمات متفق عليها إضافة للإيجار الأساسي. ينبغي التمييز بينهما."
+      },
+      {
+        "objective": "3.1.2",
+        "nl": "Een schriftelijke melding en bewaarde berichten kunnen helpen bij een onderhouds- of contractgeschil. Zij laten zien wat is gemeld en wanneer.",
+        "ar": "يساعد الإبلاغ المكتوب والمراسلات المحفوظة في نزاعات الصيانة والعقد، إذ يوضحان ما أُبلغ وتوقيته."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de verhuurder",
+        "ar": "المؤجر"
+      },
+      {
+        "nl": "de huurder",
+        "ar": "المستأجر"
+      },
+      {
+        "nl": "het onderhoud",
+        "ar": "الصيانة"
+      },
+      {
+        "nl": "de borg",
+        "ar": "التأمين المالي"
+      },
+      {
+        "nl": "de huurverhoging",
+        "ar": "زيادة الإيجار"
+      },
+      {
+        "nl": "het gebrek",
+        "ar": "العيب"
+      }
+    ],
+    "example": {
+      "nl": "Mariam leest haar huurcontract voordat zij tekent. Later meldt zij een lekkage schriftelijk aan de verhuurder. Zij bewaart de melding en vraagt hulp als het probleem niet wordt opgelost.",
+      "ar": "تقرأ مريم عقد الإيجار قبل التوقيع. ثم تبلغ المؤجر كتابةً عن تسرب، وتحفظ المراسلة وتطلب مساعدة إن لم يُعالج."
+    },
+    "questionIds": [
+      "knm-rent-and-maintenance-1",
+      "knm-rent-and-maintenance-2",
+      "knm-rent-and-maintenance-3",
+      "knm-rent-and-maintenance-4",
+      "knm-rent-and-maintenance-5",
+      "knm-rent-and-maintenance-6",
+      "knm-rent-and-maintenance-7",
+      "knm-rent-and-maintenance-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "utilities-and-energy",
+    "themeId": "3",
+    "number": 11,
+    "title": {
+      "nl": "Energie, water en internet",
+      "ar": "الطاقة والماء والإنترنت"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "3.2.1",
+      "3.2.2"
+    ],
+    "points": [
+      {
+        "objective": "3.2.1",
+        "nl": "De bewoner moet regelen dat energie, water en internet beschikbaar zijn. Controleer wat al in het huurcontract is inbegrepen en wat je zelf afsluit.",
+        "ar": "يتولى الساكن تنظيم الطاقة والماء والإنترنت. تحقق مما يشمله عقد الإيجار وما يجب التعاقد عليه بنفسك."
+      },
+      {
+        "objective": "3.2.1",
+        "nl": "Meterstanden geven aan hoeveel energie of water is gebruikt. Bij verhuizing helpen begin- en eindstanden een rekening goed te berekenen.",
+        "ar": "تبيّن قراءة العداد الاستهلاك. تساعد القراءات عند الانتقال في حساب الفاتورة بدقة."
+      },
+      {
+        "objective": "3.2.1",
+        "nl": "Een storing meld je bij de betreffende leverancier of beheerder. Het contactpunt hangt af van de voorziening en het probleem.",
+        "ar": "يُبلّغ العطل إلى المورد أو المشغّل المعني. تتحدد الجهة وفق الخدمة والمشكلة."
+      },
+      {
+        "objective": "3.2.2",
+        "nl": "Energie- en waterkosten hangen onder andere af van verbruik en tarieven. Een lager voorschot betekent niet automatisch minder werkelijk verbruik.",
+        "ar": "تعتمد التكاليف على الاستهلاك والتعرفة وغيرها. انخفاض الدفعة المقدمة لا يعني استهلاكاً فعلياً أقل."
+      },
+      {
+        "objective": "3.2.2",
+        "nl": "Bij een vast tarief blijft de afgesproken prijs per eenheid voor de afgesproken periode gelijk. Je totale rekening kan nog veranderen door meer verbruik.",
+        "ar": "في التعرفة الثابتة يبقى السعر المتفق للوحدة ثابتاً للفترة المحددة. قد ترتفع الفاتورة إن زاد الاستهلاك."
+      },
+      {
+        "objective": "3.2.2",
+        "nl": "Een variabel tarief kan tijdens het contract veranderen volgens de voorwaarden. Lees ook de looptijd en voorwaarden voor opzeggen.",
+        "ar": "قد تتغير التعرفة المتغيرة أثناء العقد وفق شروطه. اقرأ أيضاً مدة العقد وقواعد الإلغاء."
+      },
+      {
+        "objective": "3.2.2",
+        "nl": "Energie besparen kan kosten en milieubelasting verminderen. Voorbeelden zijn onnodige verlichting uitzetten en verantwoord verwarmen.",
+        "ar": "قد يقلل توفير الطاقة التكاليف والأثر البيئي، مثل إطفاء الإنارة غير اللازمة والتدفئة باعتدال."
+      },
+      {
+        "objective": "3.2.2",
+        "nl": "Op een jaarrekening staan werkelijk verbruik en betaalde voorschotten. Het verschil kan leiden tot bijbetalen of geld terugkrijgen.",
+        "ar": "يظهر الحساب السنوي الاستهلاك الفعلي والدفعات المقدمة. قد يستلزم الفرق دفع مبلغ أو استرداده."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de meterstand",
+        "ar": "قراءة العداد"
+      },
+      {
+        "nl": "het verbruik",
+        "ar": "الاستهلاك"
+      },
+      {
+        "nl": "de leverancier",
+        "ar": "المورد"
+      },
+      {
+        "nl": "het tarief",
+        "ar": "التعرفة"
+      },
+      {
+        "nl": "de storing",
+        "ar": "العطل"
+      },
+      {
+        "nl": "de jaarrekening",
+        "ar": "الحساب السنوي"
+      }
+    ],
+    "example": {
+      "nl": "Na haar verhuizing noteert Sara de meterstanden. Zij vergelijkt energiecontracten en leest de looptijd. Bij de jaarrekening vergelijkt zij het echte verbruik met de betaalde voorschotten.",
+      "ar": "بعد الانتقال تسجّل سارة قراءة العدادات، وتقارن عقود الطاقة وتقرأ مدتها. وفي الحساب السنوي تقارن الاستهلاك الفعلي بالدفعات المقدمة."
+    },
+    "questionIds": [
+      "knm-utilities-and-energy-1",
+      "knm-utilities-and-energy-2",
+      "knm-utilities-and-energy-3",
+      "knm-utilities-and-energy-4",
+      "knm-utilities-and-energy-5",
+      "knm-utilities-and-energy-6",
+      "knm-utilities-and-energy-7",
+      "knm-utilities-and-energy-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "clean-and-safe-neighbourhood",
+    "themeId": "3",
+    "number": 12,
+    "title": {
+      "nl": "Afval en een leefbare buurt",
+      "ar": "النفايات والحي الملائم للعيش"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "3.3.1"
+    ],
+    "points": [
+      {
+        "objective": "3.3.1",
+        "nl": "Gemeenten hebben lokale regels voor afvalinzameling. Kijk op de gemeentelijke afvalkalender voor dagen, containers en scheiding.",
+        "ar": "للبلديات قواعد محلية لجمع النفايات. راجع الجدول لمعرفة الأيام والحاويات والفرز."
+      },
+      {
+        "objective": "3.3.1",
+        "nl": "Afval scheiden betekent verschillende soorten afval apart verzamelen. Daardoor kunnen materialen vaker opnieuw worden gebruikt.",
+        "ar": "يعني فرز النفايات جمع أنواعها منفصلة، مما يساعد في إعادة استخدام المواد."
+      },
+      {
+        "objective": "3.3.1",
+        "nl": "Oud papier gaat volgens de lokale regels naar papierinzameling. Papier bij voedselresten kan minder geschikt zijn voor recycling.",
+        "ar": "يُجمع الورق القديم وفق القواعد المحلية. وقد تقل صلاحية الورق الملوث بالطعام للتدوير."
+      },
+      {
+        "objective": "3.3.1",
+        "nl": "Glas wordt vaak apart ingezameld. De afvaldienst legt uit welk glas in de glasbak mag en welke andere route nodig is.",
+        "ar": "غالباً يُجمع الزجاج منفصلاً. توضح جهة النفايات الأنواع المقبولة في حاوية الزجاج والبدائل."
+      },
+      {
+        "objective": "3.3.1",
+        "nl": "Grofvuil zijn grote spullen zoals oude meubels. Vaak is een afspraak of bezoek aan de milieustraat nodig.",
+        "ar": "النفايات الكبيرة أشياء مثل الأثاث القديم. غالباً تحتاج إلى موعد جمع أو نقل لمركز التدوير."
+      },
+      {
+        "objective": "3.3.1",
+        "nl": "Een milieustraat is een plaats waar inwoners bepaalde afvalsoorten kunnen brengen. Toegang en kosten verschillen per gemeente.",
+        "ar": "مركز التدوير مكان لإحضار أنواع محددة من النفايات. تختلف شروط الدخول والرسوم حسب البلدية."
+      },
+      {
+        "objective": "3.3.1",
+        "nl": "Batterijen en andere bijzondere afvalsoorten horen niet automatisch in restafval. Er zijn inzamelpunten en regels voor deze materialen.",
+        "ar": "لا تُرمى البطاريات وبعض النفايات الخاصة تلقائياً مع المتبقي. توجد نقاط جمع وقواعد لها."
+      },
+      {
+        "objective": "3.3.1",
+        "nl": "Afvaldagen kunnen veranderen door feestdagen of lokale planning. De actuele afvalkalender helpt te weten wanneer de container buiten mag.",
+        "ar": "قد تتغير أيام الجمع بسبب الأعياد أو التخطيط المحلي. يوضح الجدول المحدث موعد إخراج الحاوية."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "het afval",
+        "ar": "النفايات"
+      },
+      {
+        "nl": "scheiden",
+        "ar": "الفرز"
+      },
+      {
+        "nl": "de container",
+        "ar": "الحاوية"
+      },
+      {
+        "nl": "het grofvuil",
+        "ar": "النفايات الكبيرة"
+      },
+      {
+        "nl": "de milieustraat",
+        "ar": "مركز إعادة التدوير"
+      },
+      {
+        "nl": "de gemeente",
+        "ar": "البلدية"
+      }
+    ],
+    "example": {
+      "nl": "In Bilals gemeente wordt papier apart opgehaald. Voor een oude bank maakt hij een afspraak of gebruikt hij de milieustraat. Hij controleert de afvalkalender omdat regels niet overal hetzelfde zijn.",
+      "ar": "تجمع بلدية بلال الورق منفصلاً. للتخلص من أريكة قديمة يحجز موعداً أو يذهب لمركز التدوير. يراجع جدول النفايات لأن القواعد تختلف بين المناطق."
+    },
+    "questionIds": [
+      "knm-clean-and-safe-neighbourhood-1",
+      "knm-clean-and-safe-neighbourhood-2",
+      "knm-clean-and-safe-neighbourhood-3",
+      "knm-clean-and-safe-neighbourhood-4",
+      "knm-clean-and-safe-neighbourhood-5",
+      "knm-clean-and-safe-neighbourhood-6",
+      "knm-clean-and-safe-neighbourhood-7",
+      "knm-clean-and-safe-neighbourhood-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "gp-and-referrals",
+    "themeId": "4",
+    "number": 13,
+    "title": {
+      "nl": "Huisarts en doorverwijzing",
+      "ar": "طبيب الأسرة والإحالة"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "4.1.1",
+      "4.2.1"
+    ],
+    "points": [
+      {
+        "objective": "4.1.1",
+        "nl": "De huisarts is meestal het eerste aanspreekpunt voor gezondheidsvragen. Je kunt een huisarts in je omgeving zoeken en vragen naar inschrijving.",
+        "ar": "طبيب الأسرة غالباً أول جهة للأسئلة الصحية. يمكنك البحث محلياً والاستفسار عن التسجيل."
+      },
+      {
+        "objective": "4.1.1",
+        "nl": "Een praktijkondersteuner werkt in de huisartsenpraktijk. Deze kan bijvoorbeeld begeleiden bij langdurige aandoeningen of psychische klachten.",
+        "ar": "يعمل مساعد الرعاية في عيادة طبيب الأسرة، وقد يدعم الأمراض المزمنة أو الأعراض النفسية."
+      },
+      {
+        "objective": "4.1.1",
+        "nl": "Ook bij stress, angst of andere psychische klachten kun je naar de huisarts. De huisarts bekijkt samen met jou welke hulp past.",
+        "ar": "يمكن مراجعة طبيب الأسرة أيضاً للتوتر والقلق والأعراض النفسية. يناقش معك نوع المساعدة المناسب."
+      },
+      {
+        "objective": "4.1.1",
+        "nl": "Medisch beroepsgeheim beschermt informatie die je met een zorgverlener bespreekt. Delen van informatie is aan regels gebonden; meestal is toestemming nodig.",
+        "ar": "يحمي السر الطبي المعلومات التي تناقشها مع مقدم الرعاية. مشاركة المعلومات محكومة بقواعد وتتطلب عادة موافقة."
+      },
+      {
+        "objective": "4.1.1",
+        "nl": "Als taal een probleem is, kun je met de praktijk bespreken hoe een tolk wordt geregeld. Vraag ook naar beschikbaarheid en eventuele kosten.",
+        "ar": "إذا أعاقت اللغة التواصل، ناقش مع العيادة ترتيب مترجم، وتحقق من التوفر وأي تكاليف."
+      },
+      {
+        "objective": "4.2.1",
+        "nl": "Voor specialistische zorg is vaak een verwijzing van een arts nodig. De huisarts beoordeelt wanneer verwijzing passend is.",
+        "ar": "غالباً تحتاج الرعاية التخصصية إلى إحالة طبية. يقيّم طبيب الأسرة متى تلائم الإحالة الحالة."
+      },
+      {
+        "objective": "4.2.1",
+        "nl": "Een specialist heeft extra kennis over een bepaald medisch gebied. Een verwijzing is geen verklaring dat iedere behandeling automatisch vergoed wordt.",
+        "ar": "للاختصاصي خبرة إضافية في مجال طبي. الإحالة لا تعني تغطية كل علاج تلقائياً."
+      },
+      {
+        "objective": "4.1.1",
+        "nl": "Een huisartsenpraktijk legt uit hoe je een afspraak maakt. De assistent kan vragen stellen om de juiste afspraak of urgentie te bepalen.",
+        "ar": "توضح العيادة طريقة الحجز. قد يطرح المساعد أسئلة لتحديد الموعد أو درجة الاستعجال."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de huisarts",
+        "ar": "طبيب الأسرة"
+      },
+      {
+        "nl": "de praktijkondersteuner",
+        "ar": "مساعد الرعاية في العيادة"
+      },
+      {
+        "nl": "de verwijzing",
+        "ar": "الإحالة"
+      },
+      {
+        "nl": "de specialist",
+        "ar": "الطبيب الاختصاصي"
+      },
+      {
+        "nl": "de tolk",
+        "ar": "المترجم الشفهي"
+      },
+      {
+        "nl": "het beroepsgeheim",
+        "ar": "السر المهني"
+      }
+    ],
+    "example": {
+      "nl": "Nadia belt de huisarts voor lichamelijke en psychische klachten. Zij vraagt hoe een tolk geregeld kan worden. De huisarts bespreekt of een praktijkondersteuner of specialist kan helpen.",
+      "ar": "تتصل نادية بطبيب الأسرة بشأن أعراض جسدية ونفسية. تسأل عن ترتيب مترجم، ويناقش الطبيب إمكان المساعدة من مساعد الرعاية أو اختصاصي."
+    },
+    "questionIds": [
+      "knm-gp-and-referrals-1",
+      "knm-gp-and-referrals-2",
+      "knm-gp-and-referrals-3",
+      "knm-gp-and-referrals-4",
+      "knm-gp-and-referrals-5",
+      "knm-gp-and-referrals-6",
+      "knm-gp-and-referrals-7",
+      "knm-gp-and-referrals-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "medicine-and-family-care",
+    "themeId": "4",
+    "number": 14,
+    "title": {
+      "nl": "Apotheek, tandarts en geboortezorg",
+      "ar": "الصيدلية والأسنان ورعاية الولادة"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "4.1.2",
+      "4.1.3",
+      "4.1.4"
+    ],
+    "points": [
+      {
+        "objective": "4.1.2",
+        "nl": "Voor receptplichtige medicijnen heb je een recept van een bevoegde zorgverlener nodig. De apotheek geeft informatie over gebruik en veiligheid.",
+        "ar": "تحتاج الأدوية التي تتطلب وصفة إلى وصفة من مقدم رعاية مختص. تعطي الصيدلية معلومات الاستخدام والسلامة."
+      },
+      {
+        "objective": "4.1.2",
+        "nl": "Sommige medicijnen zijn zonder recept bij een drogist verkrijgbaar. Zonder recept betekent niet dat elk middel voor iedereen geschikt is.",
+        "ar": "تتوفر بعض الأدوية بلا وصفة في متجر منتجات الصحة. هذا لا يعني أنها تناسب الجميع."
+      },
+      {
+        "objective": "4.1.2",
+        "nl": "Een apotheker kan vragen over medicijnen beantwoorden. Bij twijfel over combinatie of gebruik vraag je deskundige uitleg.",
+        "ar": "يمكن للصيدلي الإجابة عن أسئلة الأدوية. عند الشك بالتداخل أو الاستخدام تُطلب مشورة مختصة."
+      },
+      {
+        "objective": "4.1.3",
+        "nl": "Je kunt zelf een tandarts zoeken en vragen of de praktijk nieuwe patiënten aanneemt. Controles helpen gebit en mondgezondheid te volgen.",
+        "ar": "يمكن البحث عن طبيب أسنان والاستفسار عن قبول مرضى جدد. تساعد الفحوص في متابعة صحة الفم."
+      },
+      {
+        "objective": "4.1.3",
+        "nl": "Een mondhygiënist helpt onder andere bij het schoonhouden en gezond houden van tanden en tandvlees. Dit is een ander beroep dan de huisarts.",
+        "ar": "يساعد أخصائي نظافة الفم في العناية بالأسنان واللثة. وهي مهنة مختلفة عن طبيب الأسرة."
+      },
+      {
+        "objective": "4.1.4",
+        "nl": "Een verloskundige begeleidt veel zwangerschappen en bevallingen. Bij medische risico’s kan andere of specialistische geboortezorg nodig zijn.",
+        "ar": "ترافق القابلة كثيراً من حالات الحمل والولادة. قد تستلزم المخاطر رعاية أخرى أو تخصصية."
+      },
+      {
+        "objective": "4.1.4",
+        "nl": "Kraamzorg ondersteunt moeder en baby na de geboorte. De organisatie geeft informatie over aanvragen, aanbod en eventuele kosten.",
+        "ar": "تدعم رعاية ما بعد الولادة الأم والطفل. توضّح الجهة طريقة الطلب والخدمات والتكاليف المحتملة."
+      },
+      {
+        "objective": "4.1.4",
+        "nl": "Het consultatiebureau volgt gezondheid en ontwikkeling van jonge kinderen. Ouders krijgen informatie, controles en advies, waaronder over vaccinaties.",
+        "ar": "يتابع مركز الطفل الصحة والنمو، ويقدم الفحوص والإرشاد ومنها معلومات اللقاحات."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "het recept",
+        "ar": "الوصفة"
+      },
+      {
+        "nl": "de apotheek",
+        "ar": "الصيدلية"
+      },
+      {
+        "nl": "de drogist",
+        "ar": "متجر منتجات الصحة"
+      },
+      {
+        "nl": "de tandarts",
+        "ar": "طبيب الأسنان"
+      },
+      {
+        "nl": "de kraamzorg",
+        "ar": "رعاية ما بعد الولادة"
+      },
+      {
+        "nl": "het consultatiebureau",
+        "ar": "مركز متابعة الطفل"
+      }
+    ],
+    "example": {
+      "nl": "Na een bezoek aan de huisarts haalt Hassan een voorgeschreven medicijn bij de apotheek. Zijn partner vraagt informatie over kraamzorg. Voor hun baby plannen zij bezoeken aan het consultatiebureau.",
+      "ar": "بعد زيارة الطبيب يحصل حسن على دواء موصوف من الصيدلية. تسأل شريكته عن رعاية ما بعد الولادة، وينظمان متابعة الطفل في مركز الرعاية."
+    },
+    "questionIds": [
+      "knm-medicine-and-family-care-1",
+      "knm-medicine-and-family-care-2",
+      "knm-medicine-and-family-care-3",
+      "knm-medicine-and-family-care-4",
+      "knm-medicine-and-family-care-5",
+      "knm-medicine-and-family-care-6",
+      "knm-medicine-and-family-care-7",
+      "knm-medicine-and-family-care-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "urgent-care-and-support",
+    "themeId": "4",
+    "number": 15,
+    "title": {
+      "nl": "Spoed en ondersteuning in de wijk",
+      "ar": "الرعاية العاجلة والدعم المحلي"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "4.3.1",
+      "4.3.2",
+      "4.5.1"
+    ],
+    "points": [
+      {
+        "objective": "4.3.1",
+        "nl": "De huisartsenpost is er voor dringende huisartsenzorg buiten gewone openingstijden. Bel meestal eerst; de post beoordeelt welke zorg nodig is.",
+        "ar": "يوفر المركز رعاية عاجلة خارج دوام طبيب الأسرة. اتصل أولاً عادة لتقييم نوع الرعاية اللازمة."
+      },
+      {
+        "objective": "4.3.2",
+        "nl": "Bij een levensbedreigende situatie bel je 112. Dat nummer is bedoeld voor onmiddellijke noodhulp, niet voor gewone afspraken.",
+        "ar": "عند حالة مهددة للحياة يُتصل بـ112. الرقم للطوارئ الفورية وليس للمواعيد المعتادة."
+      },
+      {
+        "objective": "4.3.1",
+        "nl": "De huisartsenpost kan telefonisch adviseren of een afspraak regelen. Je gaat niet automatisch zonder contact naar iedere spoedlocatie.",
+        "ar": "يمكن للمركز تقديم إرشاد هاتفي أو موعد. لا يعني الاستعجال الذهاب تلقائياً لأي مركز دون تواصل."
+      },
+      {
+        "objective": "4.3.1",
+        "nl": "Een gewone vraag die kan wachten, bespreek je in de normale openingstijden met de eigen huisarts. Spoedzorg is voor problemen die niet kunnen wachten.",
+        "ar": "تُناقش الأسئلة القابلة للانتظار في الدوام المعتاد. الرعاية العاجلة للمشكلات التي لا تنتظر."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Een wijkteam of gemeentelijk loket kan informatie geven over ondersteuning thuis. Dit kan relevant zijn bij ouderdom, langdurige ziekte of een beperking.",
+        "ar": "قد يشرح فريق الحي أو البلدية المساعدة المنزلية عند التقدم بالعمر أو المرض المزمن أو الإعاقة."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Gemeenten bieden informatie over welzijn en deelname aan de samenleving. Denk aan hulp bij sociaal isolement of mogelijkheden voor ontmoeting.",
+        "ar": "تقدم البلديات معلومات الرفاه والمشاركة، مثل دعم العزلة الاجتماعية وفرص اللقاء."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Bij geldzorgen kan gemeentelijke schuldhulpverlening ondersteuning bieden. De gemeente legt uit hoe je hulp aanvraagt.",
+        "ar": "قد تساعد خدمة الديون البلدية عند المشكلات المالية. توضح البلدية طريقة الطلب."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Preventie probeert gezondheidsproblemen te voorkomen. Voorlichting en ondersteuning kunnen helpen; het aanbod verschilt per organisatie.",
+        "ar": "تسعى الوقاية لمنع مشكلات الصحة. قد يفيد التثقيف والدعم، وتختلف الخدمات حسب الجهة."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "spoed",
+        "ar": "الاستعجال"
+      },
+      {
+        "nl": "levensbedreigend",
+        "ar": "مهدد للحياة"
+      },
+      {
+        "nl": "de huisartsenpost",
+        "ar": "مركز طبيب الأسرة خارج الدوام"
+      },
+      {
+        "nl": "het wijkteam",
+        "ar": "فريق الحي"
+      },
+      {
+        "nl": "de beperking",
+        "ar": "الإعاقة"
+      },
+      {
+        "nl": "de preventie",
+        "ar": "الوقاية"
+      }
+    ],
+    "example": {
+      "nl": "Op zaterdag heeft Leila een dringend medisch probleem dat niet tot maandag kan wachten. Zij belt de huisartsenpost. Bij levensgevaar is 112 het nummer. Voor langdurige hulp thuis vraagt zij informatie bij de gemeente.",
+      "ar": "تعاني ليلى يوم السبت مشكلة عاجلة لا تنتظر الاثنين فتتصل بمركز الرعاية خارج الدوام. عند خطر على الحياة يُستخدم 112. وللمساعدة المنزلية الطويلة تستفسر من البلدية."
+    },
+    "questionIds": [
+      "knm-urgent-care-and-support-1",
+      "knm-urgent-care-and-support-2",
+      "knm-urgent-care-and-support-3",
+      "knm-urgent-care-and-support-4",
+      "knm-urgent-care-and-support-5",
+      "knm-urgent-care-and-support-6",
+      "knm-urgent-care-and-support-7",
+      "knm-urgent-care-and-support-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "health-insurance",
+    "themeId": "4",
+    "number": 16,
+    "title": {
+      "nl": "Zorgverzekering en digitale zorgzaken",
+      "ar": "التأمين الصحي وإجراءاته الرقمية"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "4.4.1",
+      "4.4.2",
+      "4.4.3",
+      "4.4.4"
+    ],
+    "points": [
+      {
+        "objective": "4.4.1",
+        "nl": "Wie onder de Nederlandse verzekeringsplicht valt, moet een basiszorgverzekering afsluiten. Aanvullende verzekering is vrijwillig; uitzonderingen en persoonlijke situatie vraag je na bij de bevoegde instantie.",
+        "ar": "يجب على الخاضع لواجب التأمين الهولندي التعاقد على التأمين الأساسي. التكميلي اختياري؛ تُراجع الاستثناءات والوضع الشخصي مع الجهة المختصة."
+      },
+      {
+        "objective": "4.4.1",
+        "nl": "Een premie is het bedrag dat je voor de verzekering betaalt. Dit is iets anders dan eigen risico of een eigen bijdrage voor zorg.",
+        "ar": "القسط مبلغ الاشتراك في التأمين. يختلف عن التحمل السنوي والمساهمة الشخصية للرعاية."
+      },
+      {
+        "objective": "4.4.1",
+        "nl": "Het eigen risico is een deel van bepaalde basiszorgkosten dat volwassenen eerst zelf betalen. Een bezoek aan de huisarts valt niet onder het eigen risico; bijvoorbeeld onderzoeken kunnen wel meetellen.",
+        "ar": "التحمل السنوي جزء من تكاليف رعاية أساسية يدفعه البالغ أولاً. زيارة طبيب الأسرة معفاة، لكن بعض الفحوص قد تُحسب."
+      },
+      {
+        "objective": "4.4.1",
+        "nl": "Een eigen bijdrage is een wettelijk bepaalde betaling voor sommige zorg of hulpmiddelen. Dit kan naast het eigen risico bestaan.",
+        "ar": "المساهمة الشخصية دفع قانوني لبعض الرعاية أو الأدوات، وقد يوجد إضافة إلى التحمل السنوي."
+      },
+      {
+        "objective": "4.4.1",
+        "nl": "Volwassenen kunnen aanvullend verzekerd zijn voor bijvoorbeeld tandzorg. Fysiotherapie en tandzorg hebben specifieke vergoedingsvoorwaarden, ook voor kinderen; controleer de polis.",
+        "ar": "قد يغطي التكميلي علاج أسنان البالغين مثلاً. للأسنان والعلاج الطبيعي شروط تغطية محددة، بما فيها الأطفال؛ راجع الوثيقة."
+      },
+      {
+        "objective": "4.4.2",
+        "nl": "Declareren is een rekening bij de verzekeraar indienen voor mogelijke vergoeding. Een ingediende rekening wordt volgens polisvoorwaarden beoordeeld.",
+        "ar": "المطالبة بالتعويض تقديم فاتورة لشركة التأمين. تُقيّم حسب شروط الوثيقة."
+      },
+      {
+        "objective": "4.4.3",
+        "nl": "Veel zorgadministratie gebeurt online, zoals rekeningen bekijken of afspraken beheren. Je kunt hulp vragen als digitale informatie lastig is.",
+        "ar": "تُجرى إجراءات صحية كثيرة إلكترونياً، مثل عرض الفواتير وإدارة المواعيد. يمكن طلب مساعدة رقمية."
+      },
+      {
+        "objective": "4.4.4",
+        "nl": "DigiD wordt gebruikt bij veel publieke zorgregelingen en portalen. Je deelt geen wachtwoord of inlogcode; vraag veilige hulp bij de betreffende organisatie.",
+        "ar": "تُستخدم DigiD في بوابات وترتيبات صحية عامة عديدة. لا تشارك كلمة السر أو الرمز، واطلب مساعدة آمنة."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de basisverzekering",
+        "ar": "التأمين الأساسي"
+      },
+      {
+        "nl": "de premie",
+        "ar": "القسط"
+      },
+      {
+        "nl": "het eigen risico",
+        "ar": "التحمل السنوي"
+      },
+      {
+        "nl": "de eigen bijdrage",
+        "ar": "المساهمة الشخصية"
+      },
+      {
+        "nl": "de declaratie",
+        "ar": "طلب تعويض التكلفة"
+      },
+      {
+        "nl": "de polis",
+        "ar": "وثيقة التأمين"
+      }
+    ],
+    "example": {
+      "nl": "Karim vergelijkt zorgpolissen. Hij weet dat eigen risico en eigen bijdrage niet hetzelfde zijn. Hij controleert de voorwaarden voor fysiotherapie en bewaart een rekening voor een declaratie.",
+      "ar": "يقارن كريم وثائق التأمين. يعرف الفرق بين التحمل السنوي والمساهمة الشخصية، ويراجع شروط العلاج الطبيعي ويحفظ الفاتورة لطلب تعويض."
+    },
+    "questionIds": [
+      "knm-health-insurance-1",
+      "knm-health-insurance-2",
+      "knm-health-insurance-3",
+      "knm-health-insurance-4",
+      "knm-health-insurance-5",
+      "knm-health-insurance-6",
+      "knm-health-insurance-7",
+      "knm-health-insurance-8"
+    ],
+    "sourceIds": [
+      "endterms",
+      "health-package"
+    ]
+  },
+  {
+    "slug": "dutch-history",
+    "themeId": "5",
+    "number": 17,
+    "title": {
+      "nl": "Handel, kolonialisme en water",
+      "ar": "التجارة والاستعمار والماء"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "5.1.1"
+    ],
+    "points": [
+      {
+        "objective": "5.1.1",
+        "nl": "In de zeventiende eeuw groeiden scheepvaart en handel sterk. Kunst en gebouwen uit die tijd zijn nog zichtbaar in Nederland.",
+        "ar": "نمت الملاحة والتجارة في القرن السابع عشر. ما زالت فنون ومبانٍ من تلك المرحلة ظاهرة في هولندا."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Nederland had koloniën. Kolonialisme omvatte overheersing en ongelijke machtsverhoudingen; het verleden is geen verhaal van alleen welvaart.",
+        "ar": "كانت لهولندا مستعمرات. شمل الاستعمار الهيمنة وعدم تكافؤ القوة، وليس تاريخاً للرخاء فقط."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Nederlandse handelaren en koloniale bestuurders waren betrokken bij slavernij. Mensen werden tot slaaf gemaakt, verhandeld en uitgebuit op plantages.",
+        "ar": "شارك تجار وسلطات استعمارية هولندية في العبودية. استُعبد الناس وبيعوا واستُغلوا في المزارع."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Een dijk helpt water tegen te houden. Nederland kent een lange geschiedenis van bescherming tegen overstromingen.",
+        "ar": "يساعد السد الترابي في صد الماء. لهولندا تاريخ طويل في الحماية من الفيضانات."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Een polder is een gebied met geregeld waterpeil dat door dijken wordt beschermd. Waterbeheer is nodig om land bruikbaar te houden.",
+        "ar": "البولدر منطقة تحميها سدود ويُنظم فيها مستوى الماء. يلزم التحكم بالمياه لإبقاء الأرض قابلة للاستخدام."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Molens werden onder andere gebruikt om water te verplaatsen. De Deltawerken zijn grote waterbouwkundige werken voor bescherming tegen hoog water.",
+        "ar": "استُخدمت الطواحين لنقل الماء وغيرها. أعمال الدلتا منشآت كبيرة للحماية من ارتفاع المياه."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "De Nederlandse vlag heeft horizontale banen: rood boven, wit in het midden en blauw onder.",
+        "ar": "يتكون العلم من أشرطة أفقية: أحمر في الأعلى وأبيض وسطاً وأزرق أسفل."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Het Wilhelmus is het Nederlandse volkslied. Een volkslied is een nationaal lied en geen wet of paspoort.",
+        "ar": "فيلهلموس النشيد الوطني الهولندي. النشيد أغنية وطنية وليس قانوناً أو جوازاً."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de handel",
+        "ar": "التجارة"
+      },
+      {
+        "nl": "de kolonie",
+        "ar": "المستعمرة"
+      },
+      {
+        "nl": "de slavernij",
+        "ar": "العبودية"
+      },
+      {
+        "nl": "de dijk",
+        "ar": "السد الترابي"
+      },
+      {
+        "nl": "de polder",
+        "ar": "الأرض المستصلحة"
+      },
+      {
+        "nl": "het volkslied",
+        "ar": "النشيد الوطني"
+      }
+    ],
+    "example": {
+      "nl": "Tijdens een museumbezoek ziet Amal schilderijen en verhalen over handel, kolonialisme en slavernij. Buiten ziet zij een dijk en een polder. Zij leert dat economische ontwikkeling ook met uitbuiting verbonden was.",
+      "ar": "ترى أمل في المتحف لوحات وتاريخ التجارة والاستعمار والعبودية. وخارجه ترى سداً وأرضاً مستصلحة. تتعلم أن التطور الاقتصادي ارتبط أيضاً بالاستغلال."
+    },
+    "questionIds": [
+      "knm-dutch-history-1",
+      "knm-dutch-history-2",
+      "knm-dutch-history-3",
+      "knm-dutch-history-4",
+      "knm-dutch-history-5",
+      "knm-dutch-history-6",
+      "knm-dutch-history-7",
+      "knm-dutch-history-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "war-and-freedom",
+    "themeId": "5",
+    "number": 18,
+    "title": {
+      "nl": "Tweede Wereldoorlog en vrijheid",
+      "ar": "الحرب العالمية الثانية والحرية"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "5.1.2"
+    ],
+    "points": [
+      {
+        "objective": "5.1.2",
+        "nl": "Nederland werd tijdens de Tweede Wereldoorlog door nazi-Duitsland bezet. De bezetting begon in 1940.",
+        "ar": "احتلت ألمانيا النازية هولندا أثناء الحرب العالمية الثانية، وبدأ الاحتلال عام 1940."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "De Holocaust was de systematische vervolging en moord op Joden door de nazi’s en hun helpers. Ook veel Nederlandse Joden werden vermoord.",
+        "ar": "الهولوكوست اضطهاد وقتل منهجي لليهود على يد النازيين ومساعديهم. قُتل فيه كثير من اليهود الهولنديين أيضاً."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "Antisemitisme is vijandigheid of discriminatie tegen Joden. Discriminatie en strafbare antisemitische uitingen zijn verboden.",
+        "ar": "معاداة السامية عداء أو تمييز ضد اليهود. يُمنع التمييز والتعبير المعادي للسامية الذي يجرّمه القانون."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "Nederland werd in 1945 bevrijd. Bevrijdingsdag op 5 mei verwijst naar deze bevrijding en naar vrijheid.",
+        "ar": "تحررت هولندا عام 1945. يرتبط يوم التحرير في 5 أيار بهذه المناسبة والحرية."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "De Nationale Dodenherdenking is op 4 mei. Herdenken en bevrijding vieren zijn verschillende activiteiten op opeenvolgende dagen.",
+        "ar": "يوم ذكرى الضحايا في 4 أيار. إحياء الذكرى والاحتفال بالتحرير مناسبتان مختلفتان في يومين متتابعين."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "Na de Tweede Wereldoorlog kwamen mensen uit voormalige koloniën, arbeidsmigranten en vluchtelingen naar Nederland. Migratie heeft verschillende achtergronden.",
+        "ar": "بعد الحرب قدم أشخاص من مستعمرات سابقة وعمال مهاجرون ولاجئون. للهجرة خلفيات متعددة."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "Nederland werkt internationaal samen in onder andere EU, NAVO en VN. Deze organisaties hebben verschillende taken.",
+        "ar": "تتعاون هولندا ضمن الاتحاد الأوروبي والناتو والأمم المتحدة وغيرها. تختلف وظائف هذه المنظمات."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "Sinds de jaren zestig kregen emancipatie en individuele vrijheid veel aandacht. Rechten rond onder andere huwelijk, abortus en euthanasie zijn wettelijk geregeld, met voorwaarden.",
+        "ar": "ازداد الاهتمام بالمساواة والحرية الفردية منذ الستينيات. ينظم القانون الزواج والإجهاض والقتل الرحيم وغيرها بشروط."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de bezetting",
+        "ar": "الاحتلال"
+      },
+      {
+        "nl": "de Holocaust",
+        "ar": "الهولوكوست"
+      },
+      {
+        "nl": "het antisemitisme",
+        "ar": "معاداة السامية"
+      },
+      {
+        "nl": "herdenken",
+        "ar": "إحياء الذكرى"
+      },
+      {
+        "nl": "de bevrijding",
+        "ar": "التحرير"
+      },
+      {
+        "nl": "de vluchteling",
+        "ar": "اللاجئ"
+      }
+    ],
+    "example": {
+      "nl": "Een les in het museum vertelt over de Duitse bezetting en de vervolging van Joden. Veel Nederlandse Joden werden vermoord. De klas bespreekt waarom herdenken, vrijheid en het verbod op discriminatie belangrijk zijn.",
+      "ar": "تشرح زيارة المتحف الاحتلال الألماني واضطهاد اليهود، وقُتل كثير من اليهود الهولنديين. يناقش الصف أهمية الذكرى والحرية ومنع التمييز."
+    },
+    "questionIds": [
+      "knm-war-and-freedom-1",
+      "knm-war-and-freedom-2",
+      "knm-war-and-freedom-3",
+      "knm-war-and-freedom-4",
+      "knm-war-and-freedom-5",
+      "knm-war-and-freedom-6",
+      "knm-war-and-freedom-7",
+      "knm-war-and-freedom-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "geography-and-regions",
+    "themeId": "5",
+    "number": 19,
+    "title": {
+      "nl": "Steden, provincies en regio’s",
+      "ar": "المدن والمقاطعات والمناطق"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "5.2.1"
+    ],
+    "points": [
+      {
+        "objective": "5.2.1",
+        "nl": "Amsterdam is de hoofdstad van Nederland. Den Haag is de plaats waar regering en parlement gevestigd zijn.",
+        "ar": "أمستردام العاصمة، ولاهاي مقر الحكومة والبرلمان."
+      },
+      {
+        "objective": "5.2.1",
+        "nl": "De regering en het parlement werken in Den Haag. De hoofdstad en de regeringszetel zijn dus niet dezelfde stad.",
+        "ar": "تعمل الحكومة والبرلمان في لاهاي، لذلك تختلف العاصمة عن مقر الحكومة."
+      },
+      {
+        "objective": "5.2.1",
+        "nl": "Nederland heeft twaalf provincies. Een provincie is een bestuursgebied tussen het rijk en gemeenten.",
+        "ar": "توجد اثنتا عشرة مقاطعة. المقاطعة مستوى إداري بين الدولة والبلديات."
+      },
+      {
+        "objective": "5.2.1",
+        "nl": "Groningen, Friesland en Drenthe liggen in het noorden. Kennis van ligging helpt kaarten en regionale informatie te begrijpen.",
+        "ar": "تقع خرونينغن وفريزلاند ودرينته في الشمال. تفيد معرفة الموقع في فهم الخرائط والمعلومات المحلية."
+      },
+      {
+        "objective": "5.2.1",
+        "nl": "Overijssel en Gelderland liggen in het oosten. Utrecht en Flevoland liggen meer centraal in Nederland.",
+        "ar": "تقع أوفرايسل وخيلدرلاند شرقاً، وأوترخت وفليفولاند أقرب إلى الوسط."
+      },
+      {
+        "objective": "5.2.1",
+        "nl": "Noord-Holland en Zuid-Holland liggen aan de westkant. Zeeland ligt in het zuidwesten, Noord-Brabant en Limburg in het zuiden.",
+        "ar": "تقع شمال وجنوب هولندا غرباً، وزيلاند جنوب غرب، وشمال برابانت وليمبورخ جنوباً."
+      },
+      {
+        "objective": "5.2.1",
+        "nl": "Nederland grenst aan Duitsland en België en ligt aan de Noordzee. Een grens scheidt landen; een provinciegrens ligt binnen het land.",
+        "ar": "تحد هولندا ألمانيا وبلجيكا وتطل على بحر الشمال. تفصل الحدود دولاً، وحدود المقاطعات داخل الدولة."
+      },
+      {
+        "objective": "5.2.1",
+        "nl": "De eigen regio kan andere kansen voor wonen, werk en opleiding hebben dan een andere regio. Gemeenten en onderwijsinstellingen geven lokale informatie.",
+        "ar": "قد تختلف فرص السكن والعمل والتعليم بين المناطق. توفر البلديات والمؤسسات التعليمية معلومات محلية."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de hoofdstad",
+        "ar": "العاصمة"
+      },
+      {
+        "nl": "de regering",
+        "ar": "الحكومة"
+      },
+      {
+        "nl": "de provincie",
+        "ar": "المقاطعة"
+      },
+      {
+        "nl": "de regio",
+        "ar": "المنطقة"
+      },
+      {
+        "nl": "de Noordzee",
+        "ar": "بحر الشمال"
+      },
+      {
+        "nl": "de grens",
+        "ar": "الحدود"
+      }
+    ],
+    "example": {
+      "nl": "Salim woont in Noord-Holland. Hij onderscheidt Amsterdam, de hoofdstad, van Den Haag, de plaats van regering en parlement. Voor werk en opleiding vergelijkt hij mogelijkheden in zijn eigen regio.",
+      "ar": "يسكن سليم في شمال هولندا. يميز أمستردام العاصمة عن لاهاي مقر الحكومة والبرلمان، ويقارن فرص العمل والدراسة في منطقته."
+    },
+    "questionIds": [
+      "knm-geography-and-regions-1",
+      "knm-geography-and-regions-2",
+      "knm-geography-and-regions-3",
+      "knm-geography-and-regions-4",
+      "knm-geography-and-regions-5",
+      "knm-geography-and-regions-6",
+      "knm-geography-and-regions-7",
+      "knm-geography-and-regions-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "public-transport",
+    "themeId": "5",
+    "number": 20,
+    "title": {
+      "nl": "Reizen met openbaar vervoer",
+      "ar": "التنقل بالمواصلات العامة"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "5.2.2"
+    ],
+    "points": [
+      {
+        "objective": "5.2.2",
+        "nl": "Openbaar vervoer bestaat onder andere uit trein, bus, tram en metro. Niet iedere regio heeft alle vervoersvormen.",
+        "ar": "تشمل المواصلات القطار والباص والترام والمترو. ليست كلها متاحة في كل منطقة."
+      },
+      {
+        "objective": "5.2.2",
+        "nl": "Een reisplanner geeft routes, tijden en overstappen. Een dienstregeling laat geplande vertrektijden zien.",
+        "ar": "يوضح مخطط الرحلة المسارات والأوقات والتبديل. ويعرض جدول الرحلات أوقات المغادرة المخططة."
+      },
+      {
+        "objective": "5.2.2",
+        "nl": "Overstappen betekent tijdens een reis een ander voertuig of een andere lijn nemen. Een reis kan één of meer overstappen hebben.",
+        "ar": "التبديل انتقال إلى مركبة أو خط آخر أثناء الرحلة، وقد يتكرر."
+      },
+      {
+        "objective": "5.2.2",
+        "nl": "Een perron is de plek bij het spoor waar reizigers op de trein wachten en instappen. Controleer het perron op vertrekborden.",
+        "ar": "الرصيف مكان الانتظار والصعود عند السكة. راجع رقمه على شاشة المغادرة."
+      },
+      {
+        "objective": "5.2.2",
+        "nl": "Er zijn verschillende manieren om een geldig vervoerbewijs te hebben, bijvoorbeeld een kaartje of een geschikte betaalkaart. Controleer welke manier de vervoerder accepteert.",
+        "ar": "توجد وسائل مختلفة للتذكرة، مثل تذكرة أو بطاقة دفع مناسبة. تحقق مما تقبله شركة النقل."
+      },
+      {
+        "objective": "5.2.2",
+        "nl": "Bij reizen met een inchecksysteem registreer je het begin en einde van de rit. De regels voor overstappen hangen af van vervoerder en betaalwijze.",
+        "ar": "يسجل نظام الدخول بداية الرحلة ونهايتها. تختلف قواعد التبديل حسب الشركة والدفع."
+      },
+      {
+        "objective": "5.2.2",
+        "nl": "Bij vertraging kan een reisplanner of vertrekbord gewijzigde informatie tonen. Een oude vertrektijd is dan niet altijd meer actueel.",
+        "ar": "تظهر معلومات محدثة في المخطط أو الشاشة عند التأخير. قد يصبح الموعد القديم غير صالح."
+      },
+      {
+        "objective": "5.2.2",
+        "nl": "Een abonnement is geschikt voor bepaalde reizen of perioden. Het is niet automatisch geldig voor iedere vervoerder en ieder tijdstip.",
+        "ar": "يلائم الاشتراك رحلات أو فترات محددة، ولا يغطي تلقائياً كل شركة ووقت."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "het openbaar vervoer",
+        "ar": "المواصلات العامة"
+      },
+      {
+        "nl": "inchecken",
+        "ar": "تسجيل بدء الرحلة"
+      },
+      {
+        "nl": "uitchecken",
+        "ar": "تسجيل انتهاء الرحلة"
+      },
+      {
+        "nl": "overstappen",
+        "ar": "التبديل"
+      },
+      {
+        "nl": "het perron",
+        "ar": "الرصيف"
+      },
+      {
+        "nl": "de dienstregeling",
+        "ar": "جدول الرحلات"
+      }
+    ],
+    "example": {
+      "nl": "Dina plant een reis met bus en trein. Zij bekijkt vertrektijd, perron en overstap. Voor haar betaalwijze controleert zij hoe in- en uitchecken werkt en wat zij bij een andere vervoerder moet doen.",
+      "ar": "تخطط دينا لرحلة بالباص والقطار وتراجع الوقت والرصيف والتبديل. تتحقق من تسجيل البداية والنهاية وطريقة التعامل مع شركة أخرى حسب وسيلة الدفع."
+    },
+    "questionIds": [
+      "knm-public-transport-1",
+      "knm-public-transport-2",
+      "knm-public-transport-3",
+      "knm-public-transport-4",
+      "knm-public-transport-5",
+      "knm-public-transport-6",
+      "knm-public-transport-7",
+      "knm-public-transport-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "digital-government",
+    "themeId": "6",
+    "number": 21,
+    "title": {
+      "nl": "DigiD, BSN en veilige digitale hulp",
+      "ar": "DigiD وBSN والمساعدة الرقمية الآمنة"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "6.1.1",
+      "6.1.2"
+    ],
+    "points": [
+      {
+        "objective": "6.1.1",
+        "nl": "Een BSN is een persoonlijk nummer voor contact met Nederlandse instanties. Het is geen wachtwoord en geen bewijs dat iemand mag inloggen.",
+        "ar": "BSN رقم شخصي للتعامل مع المؤسسات الهولندية. ليس كلمة سر ولا تفويضاً لتسجيل الدخول."
+      },
+      {
+        "objective": "6.1.1",
+        "nl": "DigiD helpt je identiteit te bevestigen bij digitale diensten. Je bewaart wachtwoord en codes geheim.",
+        "ar": "تساعد DigiD في تأكيد الهوية للخدمات الرقمية. تُحفظ كلمة السر والرموز سراً."
+      },
+      {
+        "objective": "6.1.1",
+        "nl": "Een bericht dat om je wachtwoord of code vraagt kan phishing zijn. Via een officieel adres kun je zelf controleren wat echt gevraagd wordt.",
+        "ar": "قد يكون طلب الرمز أو كلمة السر تصيداً. تحقق بنفسك عبر العنوان الرسمي."
+      },
+      {
+        "objective": "6.1.1",
+        "nl": "Een Informatiepunt Digitale Overheid in de bibliotheek kan hulp geven bij digitale overheidsvragen. Hulp is geen reden om geheime codes te delen.",
+        "ar": "قد يساعد مركز المعلومات الحكومية الرقمية في المكتبة. المساعدة ليست سبباً لكشف الرموز السرية."
+      },
+      {
+        "objective": "6.1.1",
+        "nl": "Officiële websites geven informatie over procedures en afspraken. Controleer de organisatie en het webadres voordat je gegevens invult.",
+        "ar": "تشرح المواقع الرسمية الإجراءات والمواعيد. تحقق من الجهة والعنوان قبل إدخال البيانات."
+      },
+      {
+        "objective": "6.1.2",
+        "nl": "Nibud geeft informatie over geld en huishoudbudgetten. Het is niet de instantie die alle uitkeringen toekent.",
+        "ar": "تقدم Nibud معلومات الميزانية والمال. ليست جهة تمنح جميع الإعانات."
+      },
+      {
+        "objective": "6.1.2",
+        "nl": "Een voedselbank kan onder voorwaarden voedselhulp bieden. Aanmelding en beoordeling verschillen per organisatie.",
+        "ar": "قد يقدم بنك الطعام مساعدة غذائية وفق شروط، وتختلف إجراءات التقييم والتسجيل."
+      },
+      {
+        "objective": "6.1.1",
+        "nl": "MijnOverheid is een digitaal portaal voor persoonlijke overheidszaken. Berichten kunnen een termijn bevatten; tijdig lezen blijft belangrijk.",
+        "ar": "بوابة MijnOverheid للشؤون الحكومية الشخصية. قد تتضمن الرسائل مهلة، لذا يهم الاطلاع في الوقت المناسب."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "het BSN",
+        "ar": "رقم المواطن"
+      },
+      {
+        "nl": "de DigiD",
+        "ar": "الهوية الرقمية"
+      },
+      {
+        "nl": "inloggen",
+        "ar": "تسجيل الدخول"
+      },
+      {
+        "nl": "de code",
+        "ar": "الرمز"
+      },
+      {
+        "nl": "de bibliotheek",
+        "ar": "المكتبة"
+      },
+      {
+        "nl": "de overheid",
+        "ar": "الحكومة"
+      }
+    ],
+    "example": {
+      "nl": "Huda krijgt een e-mail die om haar DigiD-code vraagt. Zij deelt de code niet en bezoekt zelf de officiële website. In de bibliotheek vraagt zij hulp bij het vinden van de juiste overheidsinformatie.",
+      "ar": "تتلقى هدى بريداً يطلب رمز DigiD. لا تشاركه وتفتح الموقع الرسمي بنفسها. وتطلب من المكتبة مساعدة في الوصول إلى معلومات الحكومة."
+    },
+    "questionIds": [
+      "knm-digital-government-1",
+      "knm-digital-government-2",
+      "knm-digital-government-3",
+      "knm-digital-government-4",
+      "knm-digital-government-5",
+      "knm-digital-government-6",
+      "knm-digital-government-7",
+      "knm-digital-government-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "municipality-and-documents",
+    "themeId": "6",
+    "number": 22,
+    "title": {
+      "nl": "Gemeente, BRP en documenten",
+      "ar": "البلدية وسجل السكان والوثائق"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "6.2.1",
+      "6.2.2",
+      "6.2.3",
+      "6.2.4"
+    ],
+    "points": [
+      {
+        "objective": "6.2.1",
+        "nl": "De BRP bevat persoonsgegevens zoals adres, geboorte en gezinssituatie. Gemeenten beheren gegevens van inwoners.",
+        "ar": "يتضمن سجل السكان العنوان والولادة والوضع الأسري. تدير البلديات بيانات السكان."
+      },
+      {
+        "objective": "6.2.1",
+        "nl": "Een verhuizing moet bij de gemeente worden gemeld volgens de geldende procedure. Het juiste adres is belangrijk voor contact met instanties.",
+        "ar": "يُبلّغ الانتقال للبلدية وفق الإجراء المعمول به. يهم العنوان الصحيح للتواصل الرسمي."
+      },
+      {
+        "objective": "6.2.1",
+        "nl": "Veranderingen zoals geboorte, huwelijk en scheiding kunnen gevolgen hebben voor registratie en uitkeringen. Controleer welke melding bij welke instantie nodig is.",
+        "ar": "قد تؤثر الولادة والزواج والطلاق في التسجيل والإعانات. تحقق من الجهات التي يجب إبلاغها."
+      },
+      {
+        "objective": "6.2.2",
+        "nl": "De gemeente behandelt Nederlandse paspoorten en identiteitskaarten voor wie daarvoor in aanmerking komt. Nationaliteit en voorwaarden bepalen welke documenten je kunt aanvragen.",
+        "ar": "تعالج البلدية طلبات الجواز والهوية الهولنديين لمن يستوفي الشروط. تحدد الجنسية والشروط الوثائق المتاحة."
+      },
+      {
+        "objective": "6.2.2",
+        "nl": "De gemeente is een contactpunt voor een Nederlands rijbewijs. Voor examens en rijgeschiktheid zijn ook andere organisaties betrokken, zoals CBR.",
+        "ar": "البلدية جهة إصدار رخصة القيادة الهولندية. تشارك جهات أخرى مثل CBR في الامتحان والأهلية."
+      },
+      {
+        "objective": "6.2.3",
+        "nl": "IND geeft informatie over verblijfsvergunningen en de voorwaarden daarvoor. Verschillende verblijfsdoelen kunnen verschillende vergunningen en regels hebben.",
+        "ar": "توفر IND معلومات تصاريح الإقامة وشروطها. تختلف التصاريح وفق غرض الإقامة."
+      },
+      {
+        "objective": "6.2.3",
+        "nl": "Naturalisatie is een procedure om Nederlander te worden. Vaak loopt de aanvraag via de gemeente; IND geeft informatie over voorwaarden en beoordeling.",
+        "ar": "التجنس إجراء لاكتساب الجنسية. غالباً يُقدم الطلب عبر البلدية، وتشرح IND الشروط والتقييم."
+      },
+      {
+        "objective": "6.2.3",
+        "nl": "Bij naturalisatie geldt vaak afstand van de eerdere nationaliteit, maar er zijn uitzonderingen. Controleer de regels voor de persoonlijke situatie bij IND.",
+        "ar": "غالباً يُطلب التخلي عن الجنسية السابقة عند التجنس، لكن توجد استثناءات. تحقق من القواعد الفردية لدى IND."
+      },
+      {
+        "objective": "6.2.4",
+        "nl": "Gemeenten heffen lokale belastingen en heffingen, bijvoorbeeld voor afval, riool en parkeren. Een gemeentelijke aanslag is iets anders dan landelijke inkomstenbelasting.",
+        "ar": "تفرض البلديات ضرائب ورسوم نفايات وصرف ووقوف وغيرها. تختلف الفاتورة البلدية عن ضريبة الدخل الوطنية."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de BRP",
+        "ar": "السجل الأساسي للأشخاص"
+      },
+      {
+        "nl": "de verhuizing",
+        "ar": "الانتقال"
+      },
+      {
+        "nl": "de geboorte",
+        "ar": "الولادة"
+      },
+      {
+        "nl": "het paspoort",
+        "ar": "جواز السفر"
+      },
+      {
+        "nl": "de IND",
+        "ar": "دائرة الهجرة والتجنيس"
+      },
+      {
+        "nl": "de naturalisatie",
+        "ar": "التجنس"
+      }
+    ],
+    "example": {
+      "nl": "Na een verhuizing geeft Khaled zijn adres aan de gemeente door. Voor zijn verblijfsdocument zoekt hij informatie bij IND. Bij naturalisatie vraagt hij na welke regels voor zijn nationaliteit gelden.",
+      "ar": "يبلغ خالد البلدية بعنوانه الجديد. ويستفسر من IND عن وثيقة إقامته. وعند التجنس يتحقق من القواعد التي تخص جنسيته."
+    },
+    "questionIds": [
+      "knm-municipality-and-documents-1",
+      "knm-municipality-and-documents-2",
+      "knm-municipality-and-documents-3",
+      "knm-municipality-and-documents-4",
+      "knm-municipality-and-documents-5",
+      "knm-municipality-and-documents-6",
+      "knm-municipality-and-documents-7",
+      "knm-municipality-and-documents-8",
+      "knm-municipality-local-taxes"
+    ],
+    "sourceIds": [
+      "endterms",
+      "nationality"
+    ]
+  },
+  {
+    "slug": "taxes-and-benefits",
+    "themeId": "6",
+    "number": 23,
+    "title": {
+      "nl": "Belastingen en toeslagen",
+      "ar": "الضرائب والبدلات"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "6.3.1",
+      "6.3.2",
+      "6.3.3"
+    ],
+    "points": [
+      {
+        "objective": "6.3.1",
+        "nl": "Een loonstrook laat salaris en inhoudingen zien. Een jaaropgave geeft een overzicht van loon en ingehouden belasting over een jaar.",
+        "ar": "يبين كشف الراتب الأجر والاقتطاعات. ويُلخص البيان السنوي الدخل والضريبة المقتطعة خلال العام."
+      },
+      {
+        "objective": "6.3.1",
+        "nl": "Bruto is het inkomen vóór inhoudingen. Netto is wat na de inhoudingen overblijft.",
+        "ar": "الإجمالي دخل قبل الاقتطاع، والصافي ما يبقى بعده."
+      },
+      {
+        "objective": "6.3.1",
+        "nl": "Bewaar jaaropgaven en belangrijke financiële documenten zorgvuldig. Voor de KNM-leerstof is bewaren van jaaropgaven ten minste vijf jaar een belangrijk aandachtspunt.",
+        "ar": "احفظ بيانات الدخل والوثائق المالية بعناية. يتضمن منهج KNM أهمية حفظ البيانات السنوية خمس سنوات على الأقل."
+      },
+      {
+        "objective": "6.3.2",
+        "nl": "Een belastingaangifte geeft informatie waarmee de Belastingdienst belasting vaststelt. Soms moet je betalen en soms kun je geld terugkrijgen.",
+        "ar": "يقدم الإقرار معلومات لتحديد الضريبة. قد يلزم الدفع أو يمكن الاسترداد."
+      },
+      {
+        "objective": "6.3.2",
+        "nl": "Belastinggeld betaalt publieke voorzieningen, zoals onderwijs, wegen, politie en rechtspraak. Het is geen persoonlijke spaarpot voor één burger.",
+        "ar": "تمول الضرائب خدمات عامة كالتعليم والطرق والشرطة والقضاء. ليست حساب ادخار خاصاً لفرد."
+      },
+      {
+        "objective": "6.3.3",
+        "nl": "Toeslagen zijn bijdragen voor bepaalde kosten, zoals zorg, huur of kinderopvang. Het recht hangt af van voorwaarden zoals inkomen en persoonlijke situatie.",
+        "ar": "البدلات مساهمات في تكاليف مثل الصحة والسكن والحضانة. يتوقف الاستحقاق على شروط منها الدخل والوضع الشخصي."
+      },
+      {
+        "objective": "6.3.3",
+        "nl": "Een gewijzigd inkomen kan de hoogte van toeslagen veranderen. Tijdig doorgeven kan helpen een te hoog voorschot en terugbetaling te voorkomen.",
+        "ar": "قد يغير الدخل الجديد قيمة البدلات. يساعد الإبلاغ المبكر في تجنب دفعات زائدة واستردادها."
+      },
+      {
+        "objective": "6.3.3",
+        "nl": "Kinderbijslag wordt uitgevoerd door SVB. Kinderopvangtoeslag is een andere regeling met andere voorwaarden.",
+        "ar": "تدير SVB إعانة الطفل. بدل الحضانة نظام مختلف بشروط أخرى."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de loonstrook",
+        "ar": "كشف الراتب"
+      },
+      {
+        "nl": "de jaaropgave",
+        "ar": "بيان الدخل السنوي"
+      },
+      {
+        "nl": "bruto",
+        "ar": "الإجمالي"
+      },
+      {
+        "nl": "netto",
+        "ar": "الصافي"
+      },
+      {
+        "nl": "de toeslag",
+        "ar": "البدل"
+      },
+      {
+        "nl": "de SVB",
+        "ar": "بنك التأمينات الاجتماعية"
+      }
+    ],
+    "example": {
+      "nl": "Salma bewaart haar jaaropgave voor de belastingaangifte. Zij meldt een hoger inkomen voor haar toeslagen. Kinderbijslag is een andere regeling: daarvoor zoekt zij informatie bij SVB.",
+      "ar": "تحفظ سلمى بيان الدخل للإقرار الضريبي، وتبلغ زيادة دخلها لترتيبات البدلات. إعانة الطفل نظام مختلف فتستفسر عنها لدى SVB."
+    },
+    "questionIds": [
+      "knm-taxes-and-benefits-1",
+      "knm-taxes-and-benefits-2",
+      "knm-taxes-and-benefits-3",
+      "knm-taxes-and-benefits-4",
+      "knm-taxes-and-benefits-5",
+      "knm-taxes-and-benefits-6",
+      "knm-taxes-and-benefits-7",
+      "knm-taxes-and-benefits-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "police-law-and-insurance",
+    "themeId": "6",
+    "number": 24,
+    "title": {
+      "nl": "Politie, juridische hulp en verzekeringen",
+      "ar": "الشرطة والمساعدة القانونية والتأمين"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "6.4.1",
+      "6.5.1",
+      "6.5.2",
+      "6.6.1"
+    ],
+    "points": [
+      {
+        "objective": "6.4.1",
+        "nl": "De politie beschermt, houdt toezicht en handhaaft de wet. Je kunt hulp vragen bij onder andere diefstal, geweld, oplichting en discriminatie.",
+        "ar": "تحمي الشرطة وتراقب وتنفذ القانون. يمكن طلبها للسرقة والعنف والاحتيال والتمييز وغيرها."
+      },
+      {
+        "objective": "6.4.1",
+        "nl": "Aangifte doen is officieel melden dat een strafbaar feit is gebeurd. Bij ernstige misdrijven kan een wettelijke aangifteplicht gelden.",
+        "ar": "البلاغ الرسمي إخطار بوقوع جريمة. قد يلزم القانون بالإبلاغ عن الجرائم الجسيمة."
+      },
+      {
+        "objective": "6.4.1",
+        "nl": "Vanaf 14 jaar moet je een identiteitsbewijs kunnen tonen als bevoegd gezag erom vraagt. In het openbaar vervoer geldt die identificatieplicht vanaf 12 jaar.",
+        "ar": "من سن 14 يجب إبراز الهوية إذا طلبتها سلطة مختصة. وفي المواصلات يسري ذلك من سن 12."
+      },
+      {
+        "objective": "6.5.1",
+        "nl": "Tegen een overheidsbesluit kan vaak bezwaar worden gemaakt binnen een termijn. Een klacht over behandeling is iets anders dan bezwaar tegen een besluit.",
+        "ar": "يمكن غالباً الاعتراض على القرار الحكومي ضمن مهلة. الشكوى من التعامل تختلف عن الاعتراض على القرار."
+      },
+      {
+        "objective": "6.5.1",
+        "nl": "Een ombudsman kan klachten over overheidsoptreden onderzoeken volgens de toepasselijke procedure. Corruptie bij overheid en politie is verboden.",
+        "ar": "يمكن لأمين المظالم فحص شكاوى العمل الحكومي وفق الإجراءات. فساد الموظفين والشرطة ممنوع."
+      },
+      {
+        "objective": "6.5.2",
+        "nl": "Het Juridisch Loket en advocaten geven juridische hulp. Voor gesubsidieerde hulp kunnen inkomensvoorwaarden en een eigen bijdrage gelden.",
+        "ar": "يقدم مكتب المساعدة القانونية والمحامون إرشاداً. قد توجد شروط دخل ومساهمة شخصية للمساعدة المدعومة."
+      },
+      {
+        "objective": "6.6.1",
+        "nl": "Voor een motorvoertuig is WA-verzekering verplicht als de wettelijke verzekeringsplicht geldt. Een particuliere aansprakelijkheidsverzekering is meestal vrijwillig.",
+        "ar": "يلزم تأمين مسؤولية للمركبة عند سريان واجب التأمين. تأمين المسؤولية الشخصية عادة اختياري."
+      },
+      {
+        "objective": "6.6.1",
+        "nl": "Een opstalverzekering dekt schade aan de woning zelf. Een hypotheekaanbieder eist deze meestal; dat is iets anders dan een algemene wettelijke plicht voor alle huiseigenaren.",
+        "ar": "يغطي تأمين البناء ضرر المنزل نفسه. يشترطه ممول الرهن عادة، وهذا مختلف عن إلزام قانوني عام لكل مالك."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de aangifte",
+        "ar": "بلاغ رسمي"
+      },
+      {
+        "nl": "het bezwaar",
+        "ar": "الاعتراض"
+      },
+      {
+        "nl": "de ombudsman",
+        "ar": "أمين المظالم"
+      },
+      {
+        "nl": "de rechtsbijstand",
+        "ar": "المساعدة القانونية"
+      },
+      {
+        "nl": "de aansprakelijkheid",
+        "ar": "المسؤولية عن الضرر"
+      },
+      {
+        "nl": "de schade",
+        "ar": "الضرر"
+      }
+    ],
+    "example": {
+      "nl": "Na diefstal vraagt Fadi de politie hoe hij aangifte doet. Bij een geschil met een instantie vraagt hij juridische hulp. Voor zijn auto heeft hij WA-verzekering; een particuliere aansprakelijkheidsverzekering is een andere verzekering.",
+      "ar": "بعد سرقة يسأل فادي الشرطة عن تقديم بلاغ. وعند نزاع مع جهة يطلب مساعدة قانونية. لسيارته تأمين مسؤولية إلزامي، وهو مختلف عن تأمين المسؤولية الشخصية."
+    },
+    "questionIds": [
+      "knm-police-law-and-insurance-1",
+      "knm-police-law-and-insurance-2",
+      "knm-police-law-and-insurance-3",
+      "knm-police-law-and-insurance-4",
+      "knm-police-law-and-insurance-5",
+      "knm-police-law-and-insurance-6",
+      "knm-police-law-and-insurance-7",
+      "knm-police-law-and-insurance-8"
+    ],
+    "sourceIds": [
+      "endterms",
+      "insurance"
+    ]
+  },
+  {
+    "slug": "democracy-and-government",
+    "themeId": "7",
+    "number": 25,
+    "title": {
+      "nl": "Regering, parlement en bestuur",
+      "ar": "الحكومة والبرلمان والإدارة"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "7.1.1",
+      "7.1.2"
+    ],
+    "points": [
+      {
+        "objective": "7.1.1",
+        "nl": "Nederland is een koninkrijk. Koning Willem-Alexander is het staatshoofd; de rol is onder andere representatief en de ministers zijn politiek verantwoordelijk.",
+        "ar": "هولندا مملكة. الملك فيليم ألكسندر رأس الدولة، وله دور تمثيلي وغيره، والوزراء يتحملون المسؤولية السياسية."
+      },
+      {
+        "objective": "7.1.1",
+        "nl": "Het Nederlandse parlement bestaat uit de Tweede Kamer en de Eerste Kamer. Beide hebben een rol bij wetgeving.",
+        "ar": "يتكون البرلمان من مجلس النواب ومجلس الشيوخ، ولهما دور في التشريع."
+      },
+      {
+        "objective": "7.1.1",
+        "nl": "De regering bestaat uit de koning en ministers. Het kabinet bestaat uit ministers en staatssecretarissen.",
+        "ar": "تتكون الحكومة دستورياً من الملك والوزراء، ومجلس الوزراء بالمعنى الأوسع من الوزراء وكتّاب الدولة."
+      },
+      {
+        "objective": "7.1.1",
+        "nl": "Regering en parlement hebben samen een rol bij het maken van wetten. Het parlement controleert ook de regering.",
+        "ar": "تشترك الحكومة والبرلمان في التشريع، ويراقب البرلمان الحكومة أيضاً."
+      },
+      {
+        "objective": "7.1.1",
+        "nl": "De minister-president is voorzitter van de ministerraad. Op 14 oktober 2026 vermeldt Rijksoverheid Rob Jetten als minister-president; controleer de actuele naam voor je examen.",
+        "ar": "يرأس رئيس الوزراء مجلس الوزراء. يذكر الموقع الحكومي روب ييتن رئيساً بتاريخ 14 تشرين الأول 2026؛ تحقق من الاسم قبل الامتحان."
+      },
+      {
+        "objective": "7.1.1",
+        "nl": "Nederland heeft meerdere politieke partijen. Partijen kunnen samenwerken om een kabinet te vormen; er is niet één partij die altijd regeert.",
+        "ar": "توجد أحزاب متعددة وقد تتعاون لتشكيل الحكومة. لا يوجد حزب يحكم دائماً."
+      },
+      {
+        "objective": "7.1.1",
+        "nl": "Rijk, provincies en gemeenten hebben eigen bestuurstaken. Een gemeente behandelt bijvoorbeeld lokale diensten; het rijk landelijke zaken.",
+        "ar": "للدولة والمقاطعات والبلديات وظائفها. تتعامل البلدية مع الخدمات المحلية والدولة مع الشؤون الوطنية."
+      },
+      {
+        "objective": "7.1.2",
+        "nl": "Nederland is lid van de Europese Unie. EU-lidstaten maken gezamenlijke afspraken en moeten toepasselijke Europese regels naleven.",
+        "ar": "هولندا عضو الاتحاد الأوروبي. تتفق الدول على قواعد مشتركة وتلتزم بالقواعد السارية."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de koning",
+        "ar": "الملك"
+      },
+      {
+        "nl": "de minister",
+        "ar": "الوزير"
+      },
+      {
+        "nl": "de minister-president",
+        "ar": "رئيس الوزراء"
+      },
+      {
+        "nl": "het parlement",
+        "ar": "البرلمان"
+      },
+      {
+        "nl": "de Tweede Kamer",
+        "ar": "مجلس النواب"
+      },
+      {
+        "nl": "de Eerste Kamer",
+        "ar": "مجلس الشيوخ"
+      }
+    ],
+    "example": {
+      "nl": "Yara volgt nieuws over een wetsvoorstel. Zij leert dat regering en parlement verschillende rollen hebben. Zij controleert namen van bewindspersonen op Rijksoverheid, omdat die na een kabinetswisseling kunnen veranderen.",
+      "ar": "تتابع يارا أخبار مشروع قانون. تتعلم اختلاف أدوار الحكومة والبرلمان. تتحقق من أسماء المسؤولين في الموقع الحكومي لأنها قد تتغير مع الحكومة."
+    },
+    "questionIds": [
+      "knm-democracy-and-government-1",
+      "knm-democracy-and-government-2",
+      "knm-democracy-and-government-3",
+      "knm-democracy-and-government-4",
+      "knm-democracy-and-government-5",
+      "knm-democracy-and-government-6",
+      "knm-democracy-and-government-7",
+      "knm-democracy-and-government-8"
+    ],
+    "sourceIds": [
+      "endterms",
+      "government"
+    ]
+  },
+  {
+    "slug": "law-and-elections",
+    "themeId": "7",
+    "number": 26,
+    "title": {
+      "nl": "Macht, rechtspraak en verkiezingen",
+      "ar": "السلطات والقضاء والانتخابات"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "7.1.3",
+      "7.1.4",
+      "7.1.2"
+    ],
+    "points": [
+      {
+        "objective": "7.1.3",
+        "nl": "Wetgevende, uitvoerende en rechterlijke macht hebben verschillende taken. Scheiding van machten helpt misbruik van macht te voorkomen.",
+        "ar": "للتشريع والتنفيذ والقضاء مهام مختلفة. يساعد الفصل في الحد من إساءة السلطة."
+      },
+      {
+        "objective": "7.1.3",
+        "nl": "Rechters beoordelen geschillen en strafzaken volgens het recht. Onafhankelijke rechtspraak is een onderdeel van de rechtsstaat.",
+        "ar": "يفصل القضاة في النزاعات والجرائم وفق القانون. القضاء المستقل من أسس دولة القانون."
+      },
+      {
+        "objective": "7.1.3",
+        "nl": "Bij een rechterlijke uitspraak kun je soms in hoger beroep gaan. Daarvoor gelden procedures en termijnen; het is geen toestemming om een uitspraak zomaar te negeren.",
+        "ar": "يمكن أحياناً استئناف الحكم ضمن إجراءات ومهل. لا يعني ذلك تجاهل الحكم كيفما شاء الشخص."
+      },
+      {
+        "objective": "7.1.4",
+        "nl": "Actief kiesrecht betekent zelf stemmen. Passief kiesrecht betekent dat je onder de voorwaarden kandidaat kunt zijn.",
+        "ar": "حق الانتخاب الفاعل هو التصويت، والسلبي هو إمكان الترشح وفق الشروط."
+      },
+      {
+        "objective": "7.1.4",
+        "nl": "Stemrecht hangt af van verkiezing, leeftijd, nationaliteit en soms verblijfsduur. Niet iedereen mag aan iedere verkiezing deelnemen.",
+        "ar": "يعتمد التصويت على نوع الانتخابات والعمر والجنسية وأحياناً مدة الإقامة. ليس متاحاً لكل شخص في كل انتخابات."
+      },
+      {
+        "objective": "7.1.4",
+        "nl": "Voor gemeenteraadsverkiezingen kunnen volwassen EU-burgers onder voorwaarden stemmen. Voor niet-EU-burgers geldt doorgaans onder andere vijf jaar legaal verblijf; controleer de volledige voorwaarden.",
+        "ar": "يمكن للمواطن الأوروبي البالغ التصويت بلدياً بشروط. لغير الأوروبيين تشمل الشروط عادة خمس سنوات إقامة قانونية؛ تحقق من جميع المتطلبات."
+      },
+      {
+        "objective": "7.1.4",
+        "nl": "Er zijn verkiezingen voor onder andere gemeente, provincie, Tweede Kamer, Europees Parlement en waterschap. Waterschappen hebben taken rond waterbeheer.",
+        "ar": "توجد انتخابات بلدية وإقليمية وللنواب والبرلمان الأوروبي وهيئات المياه وغيرها. تهتم هيئات المياه بإدارتها."
+      },
+      {
+        "objective": "7.1.2",
+        "nl": "EU-samenwerking maakt onder voorwaarden vrij verkeer en verblijf binnen lidstaten mogelijk. Dit betekent niet dat voor iedereen alle verblijfsregels vervallen.",
+        "ar": "يتيح التعاون الأوروبي حرية تنقل وإقامة بشروط. لا يعني إلغاء جميع شروط الإقامة عن كل الناس."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de wet",
+        "ar": "القانون"
+      },
+      {
+        "nl": "de rechter",
+        "ar": "القاضي"
+      },
+      {
+        "nl": "het hoger beroep",
+        "ar": "الاستئناف"
+      },
+      {
+        "nl": "het kiesrecht",
+        "ar": "حق الانتخاب"
+      },
+      {
+        "nl": "de stempas",
+        "ar": "بطاقة الاقتراع"
+      },
+      {
+        "nl": "het waterschap",
+        "ar": "هيئة إدارة المياه"
+      }
+    ],
+    "example": {
+      "nl": "Bij gemeenteraadsverkiezingen controleert Adam of hij stemrecht heeft. Hij leert het verschil tussen zelf stemmen en kandidaat zijn. Bij een rechtszaak is de rechter onafhankelijk van de partij waarop iemand stemt.",
+      "ar": "يتحقق آدم من حقه في الانتخابات البلدية. يتعلم الفرق بين التصويت والترشح. وفي القضاء يكون القاضي مستقلاً عن الحزب الذي يختاره الشخص."
+    },
+    "questionIds": [
+      "knm-law-and-elections-1",
+      "knm-law-and-elections-2",
+      "knm-law-and-elections-3",
+      "knm-law-and-elections-4",
+      "knm-law-and-elections-5",
+      "knm-law-and-elections-6",
+      "knm-law-and-elections-7",
+      "knm-law-and-elections-8"
+    ],
+    "sourceIds": [
+      "endterms",
+      "elections"
+    ]
+  },
+  {
+    "slug": "equal-rights-and-freedom",
+    "themeId": "7",
+    "number": 27,
+    "title": {
+      "nl": "Gelijke behandeling en zelfbeschikking",
+      "ar": "المساواة وحرية تقرير المصير"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "7.2.1",
+      "7.2.8",
+      "7.2.2",
+      "7.2.3",
+      "7.2.4"
+    ],
+    "points": [
+      {
+        "objective": "7.2.1",
+        "nl": "Vrouwen en mannen hebben een gelijkwaardige positie voor de wet. Zij hebben dezelfde mogelijkheden om zich via onderwijs en werk te ontwikkelen.",
+        "ar": "للنساء والرجال مكانة متساوية أمام القانون وفرص التطور بالتعليم والعمل."
+      },
+      {
+        "objective": "7.2.8",
+        "nl": "Vrouwen hebben zelfbeschikkingsrecht. Zij maken zelf keuzes over bijvoorbeeld studie, werk en hun eigen leven; dwang is niet toegestaan.",
+        "ar": "للنساء حق تقرير المصير واختيار الدراسة والعمل والحياة الشخصية. الإكراه غير مسموح."
+      },
+      {
+        "objective": "7.2.2",
+        "nl": "Vrijheid van meningsuiting beschermt het uiten van opvattingen. Er zijn wettelijke grenzen, bijvoorbeeld bij bedreiging of strafbare discriminatie.",
+        "ar": "تحمي حرية التعبير عرض الآراء، مع حدود قانونية مثل التهديد والتمييز المجرّم."
+      },
+      {
+        "objective": "7.2.3",
+        "nl": "Godsdienstvrijheid betekent dat mensen zelf een religie of overtuiging mogen kiezen, ook om geen religie te hebben.",
+        "ar": "تعني حرية الدين اختيار الدين أو القناعة، بما في ذلك عدم اتباع دين."
+      },
+      {
+        "objective": "7.2.3",
+        "nl": "De wetten van de staat gelden ook wanneer religie of traditie iets anders voorschrijft. Religieuze vrijheid geeft geen vrijstelling van de wet.",
+        "ar": "يسري قانون الدولة حتى إذا أمر الدين أو التقليد بشيء مختلف. حرية الدين لا تعفي من القانون."
+      },
+      {
+        "objective": "7.2.4",
+        "nl": "Artikel 1 van de Grondwet beschermt gelijke behandeling in gelijke gevallen en verbiedt discriminatie. Dat geldt onder andere voor religie, geslacht, beperking en seksuele gerichtheid.",
+        "ar": "يحمي الدستور في المادة الأولى المساواة في الحالات المتساوية ويمنع التمييز، ومنها الدين والجنس والإعاقة والتوجه الجنسي."
+      },
+      {
+        "objective": "7.2.4",
+        "nl": "Discriminatie kan worden gemeld bij een antidiscriminatievoorziening. Bij strafbare feiten kan ook de politie worden benaderd.",
+        "ar": "يمكن الإبلاغ عن التمييز لجهة مكافحته، وللشرطة في الوقائع الجنائية."
+      },
+      {
+        "objective": "7.2.2",
+        "nl": "Iemand kan een mening kwetsend vinden zonder dat elke kwetsende uiting automatisch strafbaar is. De wet bepaalt de juridische grenzen.",
+        "ar": "قد يكون الرأي مؤذياً دون أن يكون كل تعبير مؤذٍ جريمة تلقائياً. يحدد القانون الحدود القانونية."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de Grondwet",
+        "ar": "الدستور"
+      },
+      {
+        "nl": "de gelijkheid",
+        "ar": "المساواة"
+      },
+      {
+        "nl": "de vrijheid",
+        "ar": "الحرية"
+      },
+      {
+        "nl": "de godsdienst",
+        "ar": "الدين"
+      },
+      {
+        "nl": "de zelfbeschikking",
+        "ar": "تقرير المصير"
+      },
+      {
+        "nl": "de discriminatie",
+        "ar": "التمييز"
+      }
+    ],
+    "example": {
+      "nl": "Maha kiest zelf een opleiding en wil werken. Niemand mag haar deze keuzes ontzeggen omdat zij vrouw is. Haar buur heeft een andere religie; beiden moeten zich aan dezelfde wetten houden.",
+      "ar": "تختار مها دراسة وتريد العمل. لا يجوز منعها بسبب كونها امرأة. يتبع جارها ديناً مختلفاً، وعليهما الالتزام بالقوانين نفسها."
+    },
+    "questionIds": [
+      "knm-equal-rights-and-freedom-1",
+      "knm-equal-rights-and-freedom-2",
+      "knm-equal-rights-and-freedom-3",
+      "knm-equal-rights-and-freedom-4",
+      "knm-equal-rights-and-freedom-5",
+      "knm-equal-rights-and-freedom-6",
+      "knm-equal-rights-and-freedom-7",
+      "knm-equal-rights-and-freedom-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "privacy-body-and-donation",
+    "themeId": "7",
+    "number": 28,
+    "title": {
+      "nl": "Privacy, lichaam en donorregistratie",
+      "ar": "الخصوصية والجسد وسجل التبرع"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "7.2.5",
+      "7.2.6",
+      "7.2.7",
+      "7.2.8"
+    ],
+    "points": [
+      {
+        "objective": "7.2.5",
+        "nl": "Privacy beschermt persoonlijke informatie. Instanties mogen niet zomaar alle gegevens verzamelen zonder passend doel en grondslag.",
+        "ar": "تحمي الخصوصية المعلومات الشخصية. لا تجمع المؤسسات كل البيانات دون غرض وأساس مناسبين."
+      },
+      {
+        "objective": "7.2.5",
+        "nl": "Je kunt bij een organisatie vragen welke persoonsgegevens zij over je heeft en om correctie van onjuiste gegevens vragen. Daarvoor gelden wettelijke procedures.",
+        "ar": "يمكن طلب الاطلاع على البيانات لدى المنظمة وتصحيح غير الصحيح وفق الإجراءات القانونية."
+      },
+      {
+        "objective": "7.2.6",
+        "nl": "De wet beschermt lichamelijke integriteit. Ongewenste seksuele handelingen en geweld zijn niet toegestaan.",
+        "ar": "يحمي القانون سلامة الجسد. الأفعال الجنسية غير المرغوبة والعنف غير مسموحين."
+      },
+      {
+        "objective": "7.2.6",
+        "nl": "Huiselijk geweld is geweld in de privésfeer. Ook thuis geldt de wet; geweld is niet toegestaan omdat het binnen een gezin gebeurt.",
+        "ar": "العنف الأسري عنف ضمن الحياة الخاصة. يسري القانون في المنزل أيضاً، ولا تُباح الأفعال لأنها داخل الأسرة."
+      },
+      {
+        "objective": "7.2.6",
+        "nl": "Slaan van kinderen, eergerelateerd geweld en vrouwelijke genitale verminking zijn niet toegestaan. Een beroep op traditie maakt geweld niet rechtmatig.",
+        "ar": "لا يُسمح بضرب الأطفال أو العنف المرتبط بالشرف أو تشويه أعضاء الإناث. لا يبرر التقليد العنف قانونياً."
+      },
+      {
+        "objective": "7.2.7",
+        "nl": "In het Donorregister leg je een keuze over orgaan- en weefseldonatie vast. Je kunt onder andere ja, nee of een beslisser kiezen.",
+        "ar": "تسجل في سجل التبرع خيار الأعضاء والأنسجة، ومنها نعم أو لا أو اختيار من يقرر."
+      },
+      {
+        "objective": "7.2.7",
+        "nl": "Volwassen inwoners die na de brieven geen keuze invullen, kunnen met 'geen bezwaar' geregistreerd worden. Dit is niet hetzelfde als zelf 'ja' invullen; je kunt je keuze veranderen.",
+        "ar": "قد يُسجل السكان البالغون الذين لا يختارون بعد الرسائل بلا اعتراض. يختلف ذلك عن اختيار نعم بنفسك، ويمكن تغييره."
+      },
+      {
+        "objective": "7.2.8",
+        "nl": "Zelfbeschikking betekent zeggenschap over je eigen leven en lichaam. Een volwassen vrouw mag haar eigen keuzes maken binnen de wet.",
+        "ar": "تقرير المصير سلطة الفرد على حياته وجسده. تتخذ المرأة البالغة خياراتها ضمن القانون."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de privacy",
+        "ar": "الخصوصية"
+      },
+      {
+        "nl": "de toestemming",
+        "ar": "الموافقة"
+      },
+      {
+        "nl": "het geweld",
+        "ar": "العنف"
+      },
+      {
+        "nl": "de donor",
+        "ar": "المتبرع"
+      },
+      {
+        "nl": "het register",
+        "ar": "السجل"
+      },
+      {
+        "nl": "geen bezwaar",
+        "ar": "لا اعتراض"
+      }
+    ],
+    "example": {
+      "nl": "Sahar bekijkt welke persoonsgegevens een organisatie heeft. Zij bespreekt haar keuze voor orgaandonatie met haar familie en registreert die zelf. Haar lichaam en persoonlijke keuzes worden door de wet beschermd.",
+      "ar": "تراجع سحر بياناتها لدى منظمة، وتناقش خيار التبرع بالأعضاء مع أسرتها وتسجله بنفسها. يحمي القانون جسدها وخياراتها الشخصية."
+    },
+    "questionIds": [
+      "knm-privacy-body-and-donation-1",
+      "knm-privacy-body-and-donation-2",
+      "knm-privacy-body-and-donation-3",
+      "knm-privacy-body-and-donation-4",
+      "knm-privacy-body-and-donation-5",
+      "knm-privacy-body-and-donation-6",
+      "knm-privacy-body-and-donation-7",
+      "knm-privacy-body-and-donation-8"
+    ],
+    "sourceIds": [
+      "endterms",
+      "donor"
+    ]
+  },
+  {
+    "slug": "education-pathways",
+    "themeId": "8",
+    "number": 29,
+    "title": {
+      "nl": "Het Nederlandse onderwijs",
+      "ar": "نظام التعليم الهولندي"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "8.1.1",
+      "8.1.2"
+    ],
+    "points": [
+      {
+        "objective": "8.1.1",
+        "nl": "Kinderen gaan meestal vanaf vier jaar naar de basisschool. De basisschool heeft acht groepen en wordt gevolgd door voortgezet onderwijs.",
+        "ar": "يبدأ الأطفال الابتدائية عادة من سن الرابعة. فيها ثمانية صفوف يتلوها التعليم الثانوي."
+      },
+      {
+        "objective": "8.1.1",
+        "nl": "Vmbo, havo en vwo zijn vormen van voortgezet onderwijs. Ze bereiden voor op verschillende vervolgopleidingen.",
+        "ar": "vmbo وhavo وvwo مسارات ثانوية تُهيئ لطرق دراسية مختلفة."
+      },
+      {
+        "objective": "8.1.1",
+        "nl": "Mbo is beroepsonderwijs op verschillende niveaus. Het combineert leren voor een beroep met praktijk, volgens de gekozen opleiding.",
+        "ar": "mbo تعليم مهني بمستويات مختلفة، يجمع تعلم المهنة والتطبيق حسب البرنامج."
+      },
+      {
+        "objective": "8.1.1",
+        "nl": "Hbo is hoger beroepsonderwijs aan een hogeschool. Een universiteit biedt wetenschappelijk onderwijs.",
+        "ar": "hbo تعليم عالٍ مهني في كلية متخصصة، والجامعة تقدم تعليماً أكاديمياً علمياً."
+      },
+      {
+        "objective": "8.1.1",
+        "nl": "Voor vervolgonderwijs gelden toelatingseisen. Een diploma geeft niet automatisch toegang tot elke opleiding.",
+        "ar": "توجد شروط قبول للدراسة اللاحقة. لا تمنح أي شهادة دخول كل البرامج تلقائياً."
+      },
+      {
+        "objective": "8.1.1",
+        "nl": "Er is ondersteuning en onderwijs voor leerlingen met extra zorgbehoeften. School en samenwerkingsverband geven informatie over passend onderwijs.",
+        "ar": "يتوفر دعم وتعليم لذوي الاحتياجات الإضافية. تشرح المدرسة وشبكة التعاون التعليم المناسب."
+      },
+      {
+        "objective": "8.1.2",
+        "nl": "Openbare scholen zijn niet gebaseerd op één godsdienst. Bijzondere scholen kunnen een levensbeschouwelijke of onderwijsvisie hebben.",
+        "ar": "المدارس العامة لا تقوم على دين واحد، والمدارس الخاصة بالنظام قد تتبع رؤية دينية أو تربوية."
+      },
+      {
+        "objective": "8.1.2",
+        "nl": "Vrijheid van onderwijs laat verschillende schoolrichtingen toe. Scholen moeten wel voldoen aan wettelijke onderwijsregels.",
+        "ar": "تتيح حرية التعليم اتجاهات مدرسية مختلفة، مع الالتزام بالقواعد القانونية."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de basisschool",
+        "ar": "المدرسة الابتدائية"
+      },
+      {
+        "nl": "het voortgezet onderwijs",
+        "ar": "التعليم الثانوي"
+      },
+      {
+        "nl": "het mbo",
+        "ar": "التعليم المهني المتوسط"
+      },
+      {
+        "nl": "het hbo",
+        "ar": "التعليم العالي المهني"
+      },
+      {
+        "nl": "de universiteit",
+        "ar": "الجامعة"
+      },
+      {
+        "nl": "de toelating",
+        "ar": "القبول"
+      }
+    ],
+    "example": {
+      "nl": "Aan het einde van de basisschool bespreekt het gezin van Yasmin het schooladvies. Zij bekijken verschillen tussen vmbo, havo en vwo. Voor later vervolgonderwijs controleren zij de toelatingseisen.",
+      "ar": "تراجع أسرة ياسمين التوجيه الدراسي في نهاية الابتدائية، وتقارن مسارات vmbo وhavo وvwo. وتتحقق من شروط القبول للدراسة اللاحقة."
+    },
+    "questionIds": [
+      "knm-education-pathways-1",
+      "knm-education-pathways-2",
+      "knm-education-pathways-3",
+      "knm-education-pathways-4",
+      "knm-education-pathways-5",
+      "knm-education-pathways-6",
+      "knm-education-pathways-7",
+      "knm-education-pathways-8"
+    ],
+    "sourceIds": [
+      "endterms"
+    ]
+  },
+  {
+    "slug": "school-attendance-and-childcare",
+    "themeId": "8",
+    "number": 30,
+    "title": {
+      "nl": "Leerplicht en kinderopvang",
+      "ar": "إلزام التعليم ورعاية الأطفال"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "8.1.3",
+      "8.1.4",
+      "8.1.5"
+    ],
+    "points": [
+      {
+        "objective": "8.1.3",
+        "nl": "Kinderen van vijf tot zestien jaar zijn leerplichtig. Zij moeten onderwijs volgen, tenzij een wettelijke uitzondering geldt.",
+        "ar": "يلزم التعليم من الخامسة إلى السادسة عشرة، ما لم يوجد استثناء قانوني."
+      },
+      {
+        "objective": "8.1.3",
+        "nl": "Jongeren van zestien tot achttien jaar zonder startkwalificatie zijn in het algemeen kwalificatieplichtig. Voor bepaalde onderwijsroutes bestaan uitzonderingen.",
+        "ar": "تسري عادة على سن 16 إلى 18 دون المؤهل الأساسي مسؤولية تحصيله، مع استثناءات لمسارات معينة."
+      },
+      {
+        "objective": "8.1.3",
+        "nl": "Een startkwalificatie is minimaal havo, vwo of mbo niveau 2. Het is niet hetzelfde als ieder willekeurig cursusbewijs.",
+        "ar": "المؤهل الأساسي havo أو vwo أو mbo مستوى 2 على الأقل، وليس أي شهادة دورة."
+      },
+      {
+        "objective": "8.1.3",
+        "nl": "Schoolvakanties en verlofregels zijn bindend. Buiten de vakantie wegblijven vraagt een geldige reden en de toepasselijke toestemming.",
+        "ar": "مواعيد العطلات وقواعد الإذن ملزمة. الغياب خارجها يتطلب سبباً صحيحاً والموافقة اللازمة."
+      },
+      {
+        "objective": "8.1.4",
+        "nl": "Voorschoolse educatie ondersteunt jonge kinderen vóór de basisschool. Gemeente en opvangorganisatie geven informatie over het lokale aanbod.",
+        "ar": "يدعم التعليم قبل المدرسي الأطفال الصغار. توفر البلدية ومنظمة الرعاية معلومات الخدمات."
+      },
+      {
+        "objective": "8.1.4",
+        "nl": "BSO is buitenschoolse opvang voor kinderen die al naar school gaan. Opvanguren en kosten hangen af van contract en organisatie.",
+        "ar": "BSO رعاية خارج وقت المدرسة للأطفال الملتحقين بها. تعتمد الساعات والرسوم على العقد والجهة."
+      },
+      {
+        "objective": "8.1.4",
+        "nl": "Kinderopvangtoeslag kan een deel van opvangkosten vergoeden als je aan de voorwaarden voldoet. Opvang wordt niet voor iedereen automatisch volledig betaald.",
+        "ar": "قد يعوض بدل الحضانة جزءاً من التكاليف عند استيفاء الشروط. لا تُدفع كاملة تلقائياً للجميع."
+      },
+      {
+        "objective": "8.1.5",
+        "nl": "Basis- en middelbare scholen geven onderwijs over seksualiteit en seksuele diversiteit. Dit hoort bij de wettelijke onderwijsopdracht.",
+        "ar": "تدرّس المدارس الابتدائية والثانوية الجنس والتنوع الجنسي ضمن مهمتها القانونية."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de leerplicht",
+        "ar": "إلزام التعليم"
+      },
+      {
+        "nl": "de kwalificatieplicht",
+        "ar": "إلزام المؤهل الأساسي"
+      },
+      {
+        "nl": "de startkwalificatie",
+        "ar": "المؤهل الأساسي"
+      },
+      {
+        "nl": "de opvang",
+        "ar": "رعاية الطفل"
+      },
+      {
+        "nl": "de schoolvakantie",
+        "ar": "العطلة المدرسية"
+      },
+      {
+        "nl": "de BSO",
+        "ar": "الرعاية خارج الدوام المدرسي"
+      }
+    ],
+    "example": {
+      "nl": "Het kind van Hamza is vijf jaar en gaat naar school. Voor opvang na school vraagt het gezin informatie over BSO. Zij plannen reizen rond schoolvakanties en vragen school naar verlofregels.",
+      "ar": "ابن حمزة في الخامسة ويلتحق بالمدرسة. تستفسر الأسرة عن رعاية ما بعد الدوام، وتنظم السفر ضمن العطلات وتراجع شروط الإذن المدرسي."
+    },
+    "questionIds": [
+      "knm-school-attendance-and-childcare-1",
+      "knm-school-attendance-and-childcare-2",
+      "knm-school-attendance-and-childcare-3",
+      "knm-school-attendance-and-childcare-4",
+      "knm-school-attendance-and-childcare-5",
+      "knm-school-attendance-and-childcare-6",
+      "knm-school-attendance-and-childcare-7",
+      "knm-school-attendance-and-childcare-8"
+    ],
+    "sourceIds": [
+      "endterms",
+      "school-duty"
+    ]
+  },
+  {
+    "slug": "parents-and-support",
+    "themeId": "8",
+    "number": 31,
+    "title": {
+      "nl": "Ouders, school en opvoedingshulp",
+      "ar": "الأهل والمدرسة ودعم التربية"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "8.2.2",
+      "8.2.1",
+      "8.2.3"
+    ],
+    "points": [
+      {
+        "objective": "8.2.2",
+        "nl": "Een oudergesprek bespreekt ontwikkeling, leren en welzijn van een kind. School verwacht betrokkenheid van ouders.",
+        "ar": "يتناول لقاء الأهل النمو والتعلم والرفاه. تتوقع المدرسة مشاركة الوالدين."
+      },
+      {
+        "objective": "8.2.2",
+        "nl": "Ouders kunnen vrijwillig helpen bij schoolactiviteiten. Vrijwillige inzet is niet hetzelfde als een wettelijke verplichting voor ieder evenement.",
+        "ar": "يمكن للأهل المساعدة تطوعاً بالأنشطة. يختلف التطوع عن إلزام قانوني لكل مناسبة."
+      },
+      {
+        "objective": "8.2.1",
+        "nl": "Ouders met gezag moeten hun minderjarige kind verzorgen en opvoeden. Zij hebben verantwoordelijkheden voor welzijn en veiligheid.",
+        "ar": "على الأهل ذوي الولاية رعاية الطفل القاصر وتربيته، ولهم مسؤوليات تجاه رفاهه وسلامته."
+      },
+      {
+        "objective": "8.2.1",
+        "nl": "Bij schade door een kind onder veertien jaar zijn ouders met gezag of voogden in beginsel aansprakelijk. Voor veertien- en vijftienjarigen gelden andere voorwaarden.",
+        "ar": "يتحمل ذوو الولاية أو الأوصياء عادة مسؤولية ضرر طفل دون 14. تختلف الشروط لسن 14 و15."
+      },
+      {
+        "objective": "8.2.3",
+        "nl": "Bij vragen over opvoeding kun je hulp vragen bij gemeente, huisarts of school. Hulp vragen betekent niet automatisch dat een kind uit huis wordt geplaatst.",
+        "ar": "يمكن طلب دعم التربية من البلدية والطبيب والمدرسة. طلب المساعدة لا يعني تلقائياً إخراج الطفل من المنزل."
+      },
+      {
+        "objective": "8.2.3",
+        "nl": "Jeugdhulp kan kinderen en ouders ondersteunen bij ontwikkeling en problemen thuis. De gemeente legt uit hoe toegang is geregeld.",
+        "ar": "قد تدعم مساعدة الشباب الطفل والأهل في النمو والمشكلات المنزلية. توضح البلدية طريقة الوصول."
+      },
+      {
+        "objective": "8.2.3",
+        "nl": "Bij ernstige zorgen over de veiligheid kan kinderbescherming betrokken worden. Zware maatregelen hebben wettelijke procedures en rechterlijke waarborgen.",
+        "ar": "قد تتدخل حماية الطفل عند مخاوف خطيرة للسلامة. للإجراءات الكبرى مسارات وضمانات قضائية."
+      },
+      {
+        "objective": "8.2.2",
+        "nl": "Contact tussen ouders en school helpt problemen tijdig bespreken. Ouders kunnen ook vragen stellen als een brief of advies niet duidelijk is.",
+        "ar": "يفيد التواصل مع المدرسة في بحث المشكلات مبكراً. يمكن السؤال عن الرسائل أو التوجيه غير الواضح."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "het oudergesprek",
+        "ar": "لقاء الأهل والمعلم"
+      },
+      {
+        "nl": "de ontwikkeling",
+        "ar": "النمو والتطور"
+      },
+      {
+        "nl": "de opvoeding",
+        "ar": "التربية"
+      },
+      {
+        "nl": "de jeugdhulp",
+        "ar": "مساعدة الشباب"
+      },
+      {
+        "nl": "het gezag",
+        "ar": "الولاية القانونية"
+      },
+      {
+        "nl": "de veiligheid",
+        "ar": "السلامة"
+      }
+    ],
+    "example": {
+      "nl": "De leerkracht nodigt de ouders van Rayan uit voor een gesprek. Zij bespreken ontwikkeling en extra hulp. Bij zorgen thuis kan het gezin vragen stellen aan school, huisarts of het gemeentelijke jeugdteam.",
+      "ar": "يدعو المعلم والدي ريان لمناقشة النمو والدعم. عند مشكلات منزلية يمكن مراجعة المدرسة أو الطبيب أو فريق الشباب البلدي."
+    },
+    "questionIds": [
+      "knm-parents-and-support-1",
+      "knm-parents-and-support-2",
+      "knm-parents-and-support-3",
+      "knm-parents-and-support-4",
+      "knm-parents-and-support-5",
+      "knm-parents-and-support-6",
+      "knm-parents-and-support-7",
+      "knm-parents-and-support-8"
+    ],
+    "sourceIds": [
+      "endterms",
+      "parent-liability"
+    ]
+  },
+  {
+    "slug": "education-costs",
+    "themeId": "8",
+    "number": 32,
+    "title": {
+      "nl": "Schoolkosten en studiefinanciering",
+      "ar": "تكاليف التعليم وتمويل الدراسة"
+    },
+    "durationMinutes": 15,
+    "objectives": [
+      "8.3.1",
+      "8.3.2",
+      "8.3.3"
+    ],
+    "points": [
+      {
+        "objective": "8.3.1",
+        "nl": "Onderwijs kan kosten hebben, zoals leermiddelen, reizen, opvang of lesgeld bij bepaalde opleidingen. Kosten verschillen per leeftijd en opleiding.",
+        "ar": "قد توجد تكاليف مواد وتنقل ورعاية ورسوم برامج معينة. تختلف حسب العمر والدراسة."
+      },
+      {
+        "objective": "8.3.1",
+        "nl": "De vrijwillige ouderbijdrage is vrijwillig. Bij basisschool en voortgezet onderwijs mag een kind niet van extra activiteiten worden uitgesloten omdat ouders deze bijdrage niet betalen.",
+        "ar": "المساهمة الوالدية اختيارية. لا يُستبعد الطفل من أنشطة المدرسة الإضافية بسبب عدم دفعها في الابتدائية والثانوية."
+      },
+      {
+        "objective": "8.3.2",
+        "nl": "Bij financiële problemen kun je school vragen naar beschikbare hulp of regelingen. Ook gemeente of lokale fondsen kunnen informatie geven.",
+        "ar": "يمكن سؤال المدرسة عن الدعم عند ضيق المال. وقد توفر البلدية أو صناديق محلية معلومات."
+      },
+      {
+        "objective": "8.3.2",
+        "nl": "Een vergoeding heeft voorwaarden en vraagt soms een aanvraag. Informatie over inkomen, kosten en deadlines helpt de juiste regeling te vinden.",
+        "ar": "للتعويض شروط وقد يتطلب طلباً. تفيد معلومات الدخل والتكاليف والمهل في اختيار البرنامج."
+      },
+      {
+        "objective": "8.3.3",
+        "nl": "DUO geeft informatie over studiefinanciering en tegemoetkomingen. Recht op geld hangt af van voorwaarden zoals opleiding en persoonlijke situatie.",
+        "ar": "تقدم DUO معلومات التمويل والمساهمات الدراسية. يتوقف الحق على البرنامج والوضع الشخصي وغيرها."
+      },
+      {
+        "objective": "8.3.3",
+        "nl": "Studiefinanciering kan verschillende onderdelen hebben, bijvoorbeeld beurs, lening of reisproduct. Niet elk onderdeel heeft dezelfde terugbetalingsregels.",
+        "ar": "قد يشمل التمويل منحة أو قرضاً أو منتج تنقل. تختلف قواعد السداد بين الأجزاء."
+      },
+      {
+        "objective": "8.3.3",
+        "nl": "Een lening moet volgens de voorwaarden worden terugbetaald. Lees bij DUO welke regeling geldt en wat veranderingen in studie betekenen.",
+        "ar": "يُسدد القرض وفق شروطه. اقرأ قواعد DUO وآثار تغير الدراسة."
+      },
+      {
+        "objective": "8.3.2",
+        "nl": "Een wijziging in opleiding, inkomen of opvang kan een vergoeding beïnvloeden. Geef relevante wijzigingen door aan de verantwoordelijke instantie.",
+        "ar": "قد يؤثر تغير الدراسة أو الدخل أو الرعاية في التعويض. تُبلّغ الجهة المسؤولة بالتغييرات ذات الصلة."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de ouderbijdrage",
+        "ar": "المساهمة الوالدية"
+      },
+      {
+        "nl": "de leermiddelen",
+        "ar": "وسائل التعلم"
+      },
+      {
+        "nl": "de studiefinanciering",
+        "ar": "تمويل الدراسة"
+      },
+      {
+        "nl": "de DUO",
+        "ar": "خدمة تنفيذ التعليم"
+      },
+      {
+        "nl": "de aanvraag",
+        "ar": "الطلب"
+      },
+      {
+        "nl": "de vergoeding",
+        "ar": "التعويض"
+      }
+    ],
+    "example": {
+      "nl": "Het gezin van Lina ontvangt een verzoek om vrijwillige ouderbijdrage. Zij vragen wat er gebeurt als zij niet kunnen betalen. Haar oudere broer bekijkt bij DUO de voorwaarden voor studiefinanciering en bewaakt de aanvraagtermijn.",
+      "ar": "تتلقى أسرة لينا طلب مساهمة اختيارية وتسأل عما يحدث إن تعذر الدفع. يتحقق أخوها الأكبر لدى DUO من شروط التمويل وموعد الطلب."
+    },
+    "questionIds": [
+      "knm-education-costs-1",
+      "knm-education-costs-2",
+      "knm-education-costs-3",
+      "knm-education-costs-4",
+      "knm-education-costs-5",
+      "knm-education-costs-6",
+      "knm-education-costs-7",
+      "knm-education-costs-8"
+    ],
+    "sourceIds": [
+      "endterms",
+      "parent-contribution"
+    ]
+  }
+]

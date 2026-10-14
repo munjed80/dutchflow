@@ -1,3 +1,4 @@
+import { validateKnm } from "./lib/validate-knm.mjs";
 import { validateRecycling } from "./lib/validate-recycling.mjs";
 import { readFile } from "node:fs/promises";
 import { readCourse } from "./lib/course-inventory.mjs";
@@ -25,5 +26,7 @@ errors.push(...validateRecycling(
 const questionIds = [...readings.flatMap((reading) => reading.questions), ...[...a1.practice, ...a2.practice].flatMap((pack) => [...pack.reading.questions, ...pack.listening.questions])].map((question) => question.id);
 if (new Set(questionIds).size !== questionIds.length) errors.push("Course: duplicate comprehension question ID across levels/banks");
 try { const { sources, overrides } = await loadAudioInventory(); planAudio(sources, overrides); } catch (error) { errors.push(error.message); }
+const knm = await Promise.all(["curriculum", "lessons", "questions"].map(async (name) => JSON.parse(await readFile(new URL(`../src/data/knm/${name}.json`, import.meta.url), "utf8"))));
+errors.push(...validateKnm(...knm));
 if (errors.length) { for (const error of errors) console.error(error); process.exitCode = 1; }
 else for (const [level, course] of [["A1", a1], ["A2", a2]]) console.log(`${level}: ${course.lessons.length} lessons, ${course.readings.length} readings, ${course.scenarios.length} scenarios and ${course.practice.length} integrated packs validated.`);
