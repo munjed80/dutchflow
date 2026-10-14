@@ -16,10 +16,16 @@ export function LessonCatalogue({ lessons, modules, level = "A1", resources }: {
   const completedLessons = progressKnown ? learning.completedLessons : [];
   const [query, setQuery] = useState("");
   const [selectedModule, setSelectedModule] = useState("all");
+  const [status, setStatus] = useState("all");
+  const activeStatus = progressKnown ? status : "all";
+  const completedCount = lessons.filter((lesson) => completedLessons.includes(lesson.slug)).length;
+  const filtersActive = Boolean(query || selectedModule !== "all" || activeStatus !== "all");
+  function resetFilters() { setQuery(""); setSelectedModule("all"); setStatus("all"); }
   const nextLesson = lessons.find((lesson) => !completedLessons.includes(lesson.slug));
   const search = normalizeSearch(query);
   const visibleLessons = lessons.filter((lesson) =>
     (selectedModule === "all" || lesson.moduleId === selectedModule) &&
+    (activeStatus === "all" || completedLessons.includes(lesson.slug) === (activeStatus === "completed")) &&
     normalizeSearch(`${lesson.title} ${lesson.dutchTitle} ${lesson.description}`).includes(search),
   );
 
@@ -31,6 +37,7 @@ export function LessonCatalogue({ lessons, modules, level = "A1", resources }: {
         : <>
       <div><span className="eyebrow">{nextLesson ? "الدرس التالي المقترح" : "أكملت الدروس المتاحة"}</span>
         <h2>{nextLesson?.title ?? "وقت المراجعة"}</h2>
+        {nextLesson && <div className="next-lesson-meta"><span>الدرس {nextLesson.number} من {lessons.length}</span><span>{nextLesson.durationMinutes} دقائق</span></div>}
         <p>{nextLesson ? "تابع بالترتيب، أو اختر الموقف الذي تحتاجه اليوم." : "يمكنك إعادة أي درس أو مراجعة نتائج تقدمك."}</p>
       </div>
       <Link className="button button-primary" href={nextLesson ? `/learn/${nextLesson.slug}` : levelHref("/progress", level)}>
@@ -41,16 +48,37 @@ export function LessonCatalogue({ lessons, modules, level = "A1", resources }: {
 
     {level === "A1" && <p className="placement-invitation">تبدأ للمرة الأولى؟ <Link className="text-link" href="/placement">جرّب اختبار البداية المجاني ←</Link></p>}
     {resources}
-    <div className="catalogue-tools">
+    <div className="catalogue-tools panel">
+      <div className="catalogue-tools-heading"><h2>اختر درساً يناسبك</h2>
+        {progressKnown && <Link href={levelHref("/progress", level)} className="catalogue-progress-link">أكملت {completedCount} من {lessons.length} <span aria-hidden="true">←</span></Link>}
+      </div>
+      <div className="catalogue-search-row"><div>
       <label className="search-label" htmlFor="lesson-search">ابحث عن درس</label>
       <input id="lesson-search" type="search" className="lesson-search" value={query}
         placeholder="مثلاً: المواعيد، school، koffie" onChange={(event) => setQuery(event.target.value)} />
+      </div><div>
+        <label className="search-label" htmlFor="lesson-status">حالة الدرس</label>
+        <select id="lesson-status" className="lesson-status" value={activeStatus} disabled={!progressKnown} aria-describedby={!progressKnown ? "lesson-status-help" : undefined}
+          onChange={(event) => setStatus(event.target.value)}>
+          <option value="all">كل الدروس</option><option value="remaining">الدروس المتبقية</option><option value="completed">الدروس المكتملة</option>
+        </select>
+      </div></div>
+      {!progressKnown && <p id="lesson-status-help" className="quiet">تصفية الدروس حسب حالتها متاحة بعد تحميل تقدّمك.</p>}
+      <div className="catalogue-module-select">
+        <label className="search-label" htmlFor="lesson-module">الوحدة</label>
+        <select id="lesson-module" className="lesson-status" value={selectedModule} onChange={(event) => setSelectedModule(event.target.value)}>
+          <option value="all">كل الوحدات</option>
+          {modules.map((module) => <option key={module.id} value={module.id}>{module.title}</option>)}
+        </select>
+      </div>
       <div className="module-filters" role="group" aria-label="تصفية حسب الوحدة">
         <button type="button" aria-pressed={selectedModule === "all"} onClick={() => setSelectedModule("all")}>كل الوحدات</button>
         {modules.map((module) => <button key={module.id} type="button" aria-pressed={selectedModule === module.id}
           onClick={() => setSelectedModule(module.id)}>{module.title}</button>)}
       </div>
-      <p className="catalogue-results" role="status">عدد الدروس المعروضة: {visibleLessons.length} من {lessons.length}</p>
+      <div className="catalogue-results-row"><p className="catalogue-results" role="status">عدد الدروس المعروضة: {visibleLessons.length} من {lessons.length}</p>
+        {filtersActive && <button type="button" className="catalogue-reset" onClick={resetFilters}>إعادة ضبط الفلاتر</button>}
+      </div>
     </div>
 
     {modules.map((module) => {
@@ -73,8 +101,9 @@ export function LessonCatalogue({ lessons, modules, level = "A1", resources }: {
         })}</div>
       </section>;
     })}
-    {!visibleLessons.length && <div className="search-empty panel"><h2>لا توجد دروس مطابقة</h2><p>جرّب كلمة أخرى أو اعرض جميع الوحدات.</p>
-      <button type="button" className="button button-primary" onClick={() => { setQuery(""); setSelectedModule("all"); }}>اعرض كل الدروس</button>
+    {!visibleLessons.length && <div className="search-empty panel"><h2>{activeStatus === "completed" && !query && selectedModule === "all" ? "لم تُكمل درساً في هذا المستوى بعد" : activeStatus === "remaining" && !query && selectedModule === "all" ? "أكملت كل دروس هذا المستوى" : "لا توجد دروس مطابقة"}</h2>
+      <p>{activeStatus === "completed" ? "اعرض كل الدروس لبدء درس جديد، أو عدّل البحث والوحدة." : activeStatus === "remaining" ? "يمكنك إعادة الدروس المكتملة للمراجعة، أو تعديل الفلاتر." : "جرّب كلمة أخرى أو اعرض جميع الوحدات."}</p>
+      <button type="button" className="button button-primary" onClick={resetFilters}>اعرض كل الدروس</button>
     </div>}
   </>;
 }
