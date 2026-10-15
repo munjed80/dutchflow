@@ -1,3 +1,5 @@
+import { newcomerPath, getNewcomerPreparation } from "@/lib/a2-newcomers";
+import { NewcomerPreparation } from "@/components/NewcomerPreparation";
 import { notFound } from "next/navigation";
 import { IntegratedPractice } from "@/components/IntegratedPractice";
 import { practicePacks } from "@/lib/a2-practice";
@@ -10,5 +12,10 @@ export default async function PracticePage({ params }: { params: Promise<{ slug:
   const { slug } = await params;
   const pack = practicePacks.find((item) => item.slug === slug);
   if (!pack) notFound();
-  return <IntegratedPractice pack={pack} nextPack={practicePacks[practicePacks.indexOf(pack) + 1]} level="A2" />;
+  const preparation = getNewcomerPreparation(slug);
+  const sequence = preparation
+    ? newcomerPath.map((item) => practicePacks.find((candidate) => candidate.slug === item.slug)!)
+    : practicePacks.filter((item) => !getNewcomerPreparation(item.slug));
+  return <IntegratedPractice pack={pack} nextPack={sequence[sequence.indexOf(pack) + 1]} level="A2"
+    preparation={preparation ? <NewcomerPreparation preparation={preparation} /> : undefined} />;
 }

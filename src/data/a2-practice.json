@@ -1143,5 +1143,673 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "a2-newcomer-municipal-letter",
+    "title": "رسالة من البلدية: ما المطلوب مني؟",
+    "unitIds": [
+      "a2-school-local-messages",
+      "a2-appointments-followup"
+    ],
+    "reading": {
+      "text": "Oefenbrief van de fictieve gemeente Rivierenstad. Beste mevrouw Hassan, wij hebben uw aanvraag voor een gesprek over taallessen ontvangen. Uw aanvraag is nog niet compleet: de bijlage met uw beschikbare dagen ontbreekt. Stuur deze bijlage uiterlijk vrijdag 18 september via het antwoordformulier bij deze oefenbrief. U hoeft nu geen afspraak te maken. Na ontvangst van de bijlage sturen wij binnen vijf werkdagen een voorstel voor een gesprek. Kunt u het formulier niet gebruiken? Bel dan het informatiepunt. De medewerker legt uit hoe u de bijlage op een andere manier kunt sturen. Met vriendelijke groet, Team Taal.",
+      "translation": "رسالة تدريبية من بلدية ريفيرنستاد الخيالية. السيدة حسن، استلمنا طلبك لإجراء محادثة حول دروس اللغة. طلبك غير مكتمل بعد: ينقص المرفق الذي يبيّن الأيام التي تتاحين فيها. أرسليه في موعد أقصاه الجمعة 18 سبتمبر عبر نموذج الرد المرفق برسالة التدريب. لا يلزمك حجز موعد الآن. بعد استلام المرفق سنرسل خلال خمسة أيام عمل اقتراحاً لمحادثة. إذا لم تتمكني من استخدام النموذج، فاتصلي بنقطة المعلومات. سيشرح الموظف طريقة أخرى لإرسال المرفق. مع التحية، فريق اللغة.",
+      "questions": [
+        {
+          "id": "a2-newcomer-municipal-letter-read-1",
+          "prompt": "ما حالة الطلب عند كتابة الرسالة؟",
+          "options": [
+            "مستلم لكنه غير مكتمل",
+            "مقبول نهائياً مع موعد محدد",
+            "لم يصل إلى الفريق"
+          ],
+          "correctIndex": 0,
+          "evidence": "wij hebben uw aanvraag voor een gesprek over taallessen ontvangen. Uw aanvraag is nog niet compleet",
+          "explanation": "الاستلام لا يعني اكتمال الطلب أو تحديد موعد."
+        },
+        {
+          "id": "a2-newcomer-municipal-letter-read-2",
+          "prompt": "أي معلومات ينبغي استكمالها؟",
+          "options": [
+            "شهادة إنهاء الدورة",
+            "الأيام التي تتاح فيها صاحبة الطلب",
+            "تفاصيل الحساب البنكي"
+          ],
+          "correctIndex": 1,
+          "evidence": "de bijlage met uw beschikbare dagen ontbreekt.",
+          "explanation": "المفقود هنا مرفق بالأيام المتاحة، ولا تذكر الرسالة وثائق أخرى."
+        },
+        {
+          "id": "a2-newcomer-municipal-letter-read-3",
+          "prompt": "ما آخر موعد لإرسال المرفق في المثال؟",
+          "options": [
+            "بعد مرور خمسة أيام عمل",
+            "يوم المحادثة نفسها",
+            "الجمعة 18 سبتمبر"
+          ],
+          "correctIndex": 2,
+          "evidence": "Stuur deze bijlage uiterlijk vrijdag 18 september",
+          "explanation": "uiterlijk يحدد نهاية مهلة الإرسال، أما خمسة أيام فمدة الرد بعد الاستلام."
+        },
+        {
+          "id": "a2-newcomer-municipal-letter-read-4",
+          "prompt": "ماذا تفعل إذا تعذر استخدام نموذج الرد؟",
+          "options": [
+            "تتصل بنقطة المعلومات لشرح طريقة بديلة",
+            "تحجز فوراً موعداً مؤكداً",
+            "تنتظر دون إبلاغ الفريق"
+          ],
+          "correctIndex": 0,
+          "evidence": "Kunt u het formulier niet gebruiken? Bel dan het informatiepunt. De medewerker legt uit hoe u de bijlage op een andere manier kunt sturen.",
+          "explanation": "البديل في هذه الرسالة هو طلب شرح طريقة إرسال أخرى."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-newcomer-municipal-letter-passage",
+      "text": "Goedemiddag, met Team Taal van onze oefengemeente. Uw bijlage is aangekomen. Uw aanvraag is nu compleet. We stellen dinsdag om tien uur een gesprek voor. Dit is nog geen bevestigde afspraak. Laat voor maandag twaalf uur weten of u kunt komen. Kunt u niet? Noem dan twee andere momenten. U hoeft de bijlage niet opnieuw te sturen.",
+      "translation": "مساء الخير، معكم فريق اللغة في بلديتنا التدريبية. وصل المرفق وأصبح طلبك مكتملاً. نقترح محادثة الثلاثاء الساعة العاشرة. هذا ليس موعداً مؤكداً بعد. أخبرينا قبل الاثنين الثانية عشرة إن كنت تستطيعين الحضور. إن لم تستطيعي، فاذكري وقتين بديلين. لا يلزم إعادة إرسال المرفق.",
+      "questions": [
+        {
+          "id": "a2-newcomer-municipal-letter-listen-1",
+          "prompt": "ما الذي تغيّر مقارنة بالرسالة؟",
+          "options": [
+            "وصل المرفق وأصبح الطلب مكتملاً",
+            "ما زال مرفق الأيام ناقصاً",
+            "تأكد الموعد دون حاجة إلى رد"
+          ],
+          "correctIndex": 0,
+          "evidence": "Uw bijlage is aangekomen. Uw aanvraag is nu compleet.",
+          "explanation": "التحديث يغيّر حالة الطلب من غير مكتمل إلى مكتمل."
+        },
+        {
+          "id": "a2-newcomer-municipal-letter-listen-2",
+          "prompt": "ما وضع الثلاثاء الساعة العاشرة؟",
+          "options": [
+            "موعد مؤكد بالفعل",
+            "اقتراح يحتاج إلى رد",
+            "آخر وقت لإرسال المرفق"
+          ],
+          "correctIndex": 1,
+          "evidence": "We stellen dinsdag om tien uur een gesprek voor. Dit is nog geen bevestigde afspraak.",
+          "explanation": "voorstellen اقتراح، ولا يساوي تأكيد الموعد."
+        },
+        {
+          "id": "a2-newcomer-municipal-letter-listen-3",
+          "prompt": "متى يجب الرد على الاقتراح؟",
+          "options": [
+            "قبل الثلاثاء العاشرة",
+            "الجمعة 18 سبتمبر فقط",
+            "قبل الاثنين الثانية عشرة"
+          ],
+          "correctIndex": 2,
+          "evidence": "Laat voor maandag twaalf uur weten of u kunt komen.",
+          "explanation": "هذه مهلة جديدة للرد على اقتراح المحادثة."
+        },
+        {
+          "id": "a2-newcomer-municipal-letter-listen-4",
+          "prompt": "ماذا يطلب التحديث إذا لم يناسبك الثلاثاء؟",
+          "options": [
+            "ذكر وقتين بديلين",
+            "إعادة إرسال المرفق مرتين",
+            "إلغاء الطلب كله"
+          ],
+          "correctIndex": 0,
+          "evidence": "Kunt u niet? Noem dan twee andere momenten. U hoeft de bijlage niet opnieuw te sturen.",
+          "explanation": "المطلوب بديلان، بينما إعادة إرسال المرفق غير مطلوبة."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب رداً خيالياً إلى فريق اللغة: لا يناسبك الثلاثاء العاشرة لأن لديك درساً. اقترح الأربعاء 14:00 أو الخميس 09:00، واطلب تأكيد الوقت المختار. لا تدّعِ أن البديل تأكد.",
+        "model": "Beste medewerker, bedankt voor uw bericht. Dinsdag om tien uur heb ik les. Ik kan woensdag om twee uur of donderdag om negen uur. Welk moment past? Wilt u de afspraak daarna bevestigen? Met vriendelijke groet, Lina",
+        "translation": "الموظف المحترم، شكراً على رسالتك. لدي درس الثلاثاء العاشرة. أستطيع الأربعاء الثانية أو الخميس التاسعة. أي وقت مناسب؟ هل تؤكد الموعد بعد ذلك؟ مع التحية، لينا.",
+        "checklist": [
+          "هل اعتذرت بسبب محدد وقدمت البديلين؟",
+          "هل طلبت التأكيد دون افتراض قبولهما؟"
+        ]
+      },
+      {
+        "prompt": "انقل إلى صديق لم يسمع التحديث: المرفق وصل، الثلاثاء 10:00 اقتراح فقط، والرد قبل الاثنين 12:00. اطلب منه التحقق من الرسالة بنفسه.",
+        "model": "Je bijlage is aangekomen. Dinsdag om tien uur is een voorstel, geen bevestigde afspraak. Je moet voor maandag twaalf uur reageren. Lees het bericht zelf ook even.",
+        "translation": "وصل مرفقك. الثلاثاء العاشرة اقتراح وليس موعداً مؤكداً. عليك الرد قبل الاثنين الثانية عشرة. اقرأ الرسالة بنفسك أيضاً.",
+        "checklist": [
+          "هل نقلت حالة المرفق والموعد بدقة؟",
+          "هل حافظت على مهلة الرد وطلبت التحقق؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أنت صاحبة الطلب وتتصل للاستفسار عن كلمة bijlage. الموظف يوضح أنها قائمة الأيام المتاحة. أعد ما فهمته واسأل عن طريقة الإرسال في المثال.",
+        "model": "Ik begrijp het woord bijlage niet. Wat bedoelt u?\nMedewerker: De lijst met uw beschikbare dagen.\nDus ik stuur de lijst met mijn dagen. Hoe kan ik die sturen?",
+        "translation": "لا أفهم كلمة مرفق. ماذا تقصد؟\nالموظف: قائمة الأيام المتاحة لك.\nإذن أرسل قائمة أيامي. كيف أرسلها؟",
+        "checklist": [
+          "هل حددت الكلمة غير المفهومة؟",
+          "هل أعدت المطلوب وسألت عن الطريقة؟"
+        ],
+        "partnerPrompts": [
+          "Welk woord begrijpt u niet?",
+          "Het gaat om de lijst met uw beschikbare dagen.",
+          "Wat wilt u nog weten?"
+        ]
+      },
+      {
+        "prompt": "أنت الموظف في التدريب. المتعلم يظن أن الاقتراح موعد مؤكد. وضّح أنه يحتاج إلى رد قبل الاثنين 12:00، ثم اطلب منه تلخيص الخطوة التالية.",
+        "model": "Het gesprek op dinsdag is nog niet bevestigd. Laat voor maandag twaalf uur weten of u kunt. Als u niet kunt, noemt u twee andere momenten. Kunt u vertellen wat u nu gaat doen?",
+        "translation": "محادثة الثلاثاء غير مؤكدة بعد. أخبرنا قبل الاثنين الثانية عشرة إن كنت تستطيع. إن لم تستطع، فاذكر وقتين بديلين. هل تشرح ما ستفعله الآن؟",
+        "checklist": [
+          "هل فرقت الاقتراح عن التأكيد؟",
+          "هل ذكرت المهلة وطلبت إعادة الشرح؟"
+        ],
+        "partnerPrompts": [
+          "Is dinsdag al zeker?",
+          "Wat doe ik als ik niet kan?",
+          "Wanneer moet ik reageren?"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "a2-newcomer-digital-help",
+    "title": "المساعدة الرقمية: اشرح أين توقفت",
+    "unitIds": [
+      "a2-school-local-messages",
+      "a2-shopping-choices"
+    ],
+    "reading": {
+      "text": "Oefenbericht van bibliotheek De Brug. Op woensdag kunt u van twee tot vier uur oefenen met een digitaal formulier. Neem een eigen oefenvraag mee. We gebruiken geen echte aanvragen, maar een formulier met verzonnen gegevens. Een vrijwilliger legt de stappen uit; u bedient zelf het scherm. Aanmelden is voor dit oefenuur niet nodig. Als u op Opslaan klikt, bewaart het oefenprogramma uw tekst. Daarmee is het formulier nog niet verstuurd. Klik pas op Versturen als u alle velden hebt gecontroleerd. Heeft u een foutmelding? Lees die eerst en vraag dan om uitleg. Deel tijdens de oefening geen wachtwoorden of codes.",
+      "translation": "رسالة تدريب من مكتبة دي بروخ. الأربعاء من الثانية إلى الرابعة يمكنكم التمرن على نموذج رقمي. أحضروا سؤالاً تدريبياً من اختياركم. لا نستخدم طلبات حقيقية بل نموذجاً ببيانات مختلقة. يشرح متطوع الخطوات وأنتم تتحكمون بالشاشة. لا يلزم التسجيل لهذا اللقاء التدريبي. عند الضغط على حفظ، يحتفظ برنامج التدريب بالنص، لكن هذا لا يعني إرسال النموذج. اضغطوا إرسال بعد التحقق من جميع الحقول فقط. عند ظهور رسالة خطأ، اقرؤوها أولاً ثم اطلبوا الشرح. لا تشاركوا كلمات المرور أو الرموز أثناء التدريب.",
+      "questions": [
+        {
+          "id": "a2-newcomer-digital-help-read-1",
+          "prompt": "من يتحكم بالشاشة أثناء التدريب؟",
+          "options": [
+            "المتطوع وحده دون شرح",
+            "المتعلم نفسه مع شرح المتطوع",
+            "لا يستخدم أحد الشاشة"
+          ],
+          "correctIndex": 1,
+          "evidence": "Een vrijwilliger legt de stappen uit; u bedient zelf het scherm.",
+          "explanation": "المساعدة هنا شرح، والمتعلم ينفذ بنفسه."
+        },
+        {
+          "id": "a2-newcomer-digital-help-read-2",
+          "prompt": "ما الفرق بين الحفظ والإرسال في البرنامج الخيالي؟",
+          "options": [
+            "الحفظ يرسل الطلب الحقيقي فوراً",
+            "الإرسال يمحو جميع الحقول دائماً",
+            "الحفظ يبقي النص لكنه لا يرسل النموذج"
+          ],
+          "correctIndex": 2,
+          "evidence": "Als u op Opslaan klikt, bewaart het oefenprogramma uw tekst. Daarmee is het formulier nog niet verstuurd.",
+          "explanation": "حالة محفوظ ليست حالة مرسل في هذا المثال."
+        },
+        {
+          "id": "a2-newcomer-digital-help-read-3",
+          "prompt": "متى تضغط إرسال في هذا التدريب؟",
+          "options": [
+            "بعد التحقق من كل الحقول",
+            "قبل قراءة الحقول",
+            "عند ظهور أي رسالة خطأ"
+          ],
+          "correctIndex": 0,
+          "evidence": "Klik pas op Versturen als u alle velden hebt gecontroleerd.",
+          "explanation": "pas ... als تحدد شرطاً يجب تحقيقه أولاً."
+        },
+        {
+          "id": "a2-newcomer-digital-help-read-4",
+          "prompt": "أي بيانات يستخدم اللقاء؟",
+          "options": [
+            "طلباً حقيقياً بكلمة مرور مشتركة",
+            "بيانات مختلقة لنموذج تدريبي",
+            "رموز الدخول الشخصية للمشاركين"
+          ],
+          "correctIndex": 1,
+          "evidence": "We gebruiken geen echte aanvragen, maar een formulier met verzonnen gegevens.",
+          "explanation": "الهدف فهم اللغة والخطوات دون طلبات حقيقية."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-newcomer-digital-help-passage",
+      "text": "Hallo, een bericht over het oefenuur van woensdag. We beginnen deze week pas om drie uur en stoppen om vier uur. Het oefenen is in de kleine zaal, naast de ingang. De grote zaal is bezet. Neem uw oefenvraag op papier mee. Uw eigen laptop is niet nodig: er staan oefencomputers klaar. We gebruiken alleen verzonnen gegevens.",
+      "translation": "مرحباً، رسالة بخصوص تدريب الأربعاء. نبدأ هذا الأسبوع الثالثة فقط وننتهي الرابعة. التدريب في القاعة الصغيرة بجوار المدخل. القاعة الكبيرة مشغولة. أحضروا سؤال التدريب مكتوباً على ورقة. لا حاجة لحاسوبكم المحمول، فحاسوبات التدريب جاهزة. نستخدم بيانات مختلقة فقط.",
+      "questions": [
+        {
+          "id": "a2-newcomer-digital-help-listen-1",
+          "prompt": "ما وقت التدريب هذا الأسبوع؟",
+          "options": [
+            "من الثانية إلى الرابعة",
+            "من الثالثة إلى الرابعة",
+            "من الثالثة إلى الخامسة"
+          ],
+          "correctIndex": 1,
+          "evidence": "We beginnen deze week pas om drie uur en stoppen om vier uur.",
+          "explanation": "تأخر البدء وبقي وقت النهاية نفسه."
+        },
+        {
+          "id": "a2-newcomer-digital-help-listen-2",
+          "prompt": "أين يقام اللقاء بعد التحديث؟",
+          "options": [
+            "القاعة الكبيرة",
+            "خارج المكتبة",
+            "القاعة الصغيرة بجوار المدخل"
+          ],
+          "correctIndex": 2,
+          "evidence": "Het oefenen is in de kleine zaal, naast de ingang. De grote zaal is bezet.",
+          "explanation": "اختيرت القاعة الصغيرة لأن الكبيرة مشغولة."
+        },
+        {
+          "id": "a2-newcomer-digital-help-listen-3",
+          "prompt": "ماذا يجب إحضاره؟",
+          "options": [
+            "سؤال التدريب على ورقة",
+            "حاسوب محمول شخصي بالضرورة",
+            "طلب حقيقي مع رمز دخول"
+          ],
+          "correctIndex": 0,
+          "evidence": "Neem uw oefenvraag op papier mee. Uw eigen laptop is niet nodig",
+          "explanation": "السؤال مطلوب، أما الجهاز الشخصي فليس ضرورياً."
+        },
+        {
+          "id": "a2-newcomer-digital-help-listen-4",
+          "prompt": "هل تحول اللقاء إلى إنجاز طلبات حقيقية؟",
+          "options": [
+            "نعم، يجب إدخال بيانات رسمية",
+            "لا، ما زال يستخدم بيانات مختلقة",
+            "نعم، يلزم مشاركة كلمة المرور"
+          ],
+          "correctIndex": 1,
+          "evidence": "We gebruiken alleen verzonnen gegevens.",
+          "explanation": "التحديث لا يغيّر الطبيعة التدريبية للقاء."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب رسالة لمتطوع: حفظت نموذج التدريب، لكن لم ترسله. تظهر رسالة خطأ عند الحقل الأخير، وتريد شرحها كي تكمل بنفسك. لا تذكر أي بيانات شخصية.",
+        "model": "Beste vrijwilliger, ik heb het oefenformulier opgeslagen, maar nog niet verstuurd. Bij het laatste veld krijg ik een foutmelding. Kunt u die uitleggen? Ik wil het formulier graag zelf afmaken. Groet, Omar",
+        "translation": "المتطوع المحترم، حفظت نموذج التدريب لكن لم أرسله بعد. تظهر رسالة خطأ عند الحقل الأخير. هل تشرحها؟ أود إكمال النموذج بنفسي. تحياتي، عمر.",
+        "checklist": [
+          "هل فرقت الحفظ عن الإرسال وحددت مكان المشكلة؟",
+          "هل طلبت شرحاً دون وضع بيانات حقيقية؟"
+        ]
+      },
+      {
+        "prompt": "أخبر أختك التي تعرف الموعد القديم: البداية الثالثة هذا الأسبوع والنهاية الرابعة، والقاعة صغيرة بجوار المدخل. السؤال على ورقة مطلوب والحاسوب الشخصي غير ضروري.",
+        "model": "Het oefenuur begint deze week om drie uur en duurt tot vier uur. We zitten in de kleine zaal naast de ingang. Neem je oefenvraag op papier mee. Je hoeft geen eigen laptop mee te nemen.",
+        "translation": "يبدأ التدريب هذا الأسبوع الثالثة ويستمر إلى الرابعة. نحن في القاعة الصغيرة بجوار المدخل. أحضري سؤال التدريب على ورقة. لا يلزمك إحضار حاسوب شخصي.",
+        "checklist": [
+          "هل نقلت الوقتين والمكان الجديد؟",
+          "هل ميزت المطلوب عما ليس ضرورياً؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "اطلب من المتطوع أن يشرح رسالة الخطأ ببطء. يقول إن عليك ملء خانة الاسم الخيالي أولاً. أعد الخطوة واسأل ماذا تفعل بعدها.",
+        "model": "Kunt u de foutmelding langzaam uitleggen?\nVrijwilliger: Vul eerst een verzonnen naam in.\nDus eerst vul ik een verzonnen naam in. Wat doe ik daarna?",
+        "translation": "هل تشرح رسالة الخطأ ببطء؟\nالمتطوع: أدخل اسماً مختلقاً أولاً.\nإذن أدخل اسماً مختلقاً أولاً. ماذا أفعل بعد ذلك؟",
+        "checklist": [
+          "هل طلبت شرحاً محدداً؟",
+          "هل أعدت الخطوة قبل طلب الخطوة التالية؟"
+        ],
+        "partnerPrompts": [
+          "Waar ziet u de foutmelding?",
+          "Vul eerst een verzonnen naam in.",
+          "Welke stap wilt u daarna oefenen?"
+        ]
+      },
+      {
+        "prompt": "أنت المتطوع. شريكك يسأل إن كان الحفظ يعني الإرسال. اشرح الفرق في برنامج التدريب واطلب منه التحقق من الحقول قبل الإرسال.",
+        "model": "Nee, met Opslaan bewaar je alleen je tekst. Het formulier is dan nog niet verstuurd. Controleer eerst alle velden. Daarna kun je op Versturen klikken. Kun je het verschil in je eigen woorden uitleggen?",
+        "translation": "لا، مع حفظ تحتفظ بنصك فقط. النموذج لم يُرسل بعد. تحقق أولاً من كل الحقول. بعد ذلك يمكنك الضغط على إرسال. هل تشرح الفرق بكلماتك؟",
+        "checklist": [
+          "هل شرحت الحالتين دون الخلط بينهما؟",
+          "هل طلبت التحقق وإعادة الشرح؟"
+        ],
+        "partnerPrompts": [
+          "Is mijn formulier nu verstuurd?",
+          "Wat moet ik eerst controleren?",
+          "Welke knop gebruik ik daarna?"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "a2-newcomer-language-school",
+    "title": "مدرسة اللغة: حضور ودعم وخطة واضحة",
+    "unitIds": [
+      "a2-school-local-messages",
+      "a2-appointments-followup"
+    ],
+    "reading": {
+      "text": "Oefenmail van taalschool Het Plein. Beste cursist, uw kennismakingsgesprek is maandag om negen uur in lokaal drie. Het gesprek duurt twintig minuten en is nog geen les. Neem deze oefenmail en uw vragen mee. Na het gesprek bespreken we welk lesrooster bij u past. De avondgroep heeft op dinsdag en donderdag les. De ochtendgroep heeft op woensdag en vrijdag les. Beide groepen oefenen twee keer per week. Kunt u niet naar het kennismakingsgesprek komen? Geef dit vooraf door aan het secretariaat. Er is op deze oefenlocatie geen opvang voor kinderen. Heeft u daardoor een probleem? Vraag het secretariaat om samen naar een andere mogelijkheid te kijken.",
+      "translation": "رسالة تدريب من مدرسة اللغة هت بلاين. المتعلم المحترم، لقاؤك التعريفي الاثنين التاسعة في الصف الثالث. يستغرق عشرين دقيقة وهو ليس درساً بعد. أحضر رسالة التدريب وأسئلتك. بعد اللقاء نناقش الجدول المناسب لك. المجموعة المسائية تدرس الثلاثاء والخميس، والصباحية الأربعاء والجمعة. تتدرب المجموعتان مرتين أسبوعياً. إذا لم تستطع حضور اللقاء فأبلغ السكرتارية مسبقاً. لا توجد رعاية للأطفال في موقع التدريب هذا. إذا سبب ذلك مشكلة فاطلب من السكرتارية بحث إمكانية أخرى معك.",
+      "questions": [
+        {
+          "id": "a2-newcomer-language-school-read-1",
+          "prompt": "ما هدف موعد الاثنين؟",
+          "options": [
+            "أول درس للمجموعة المسائية",
+            "حفل انتهاء الدورة",
+            "لقاء تعريفي قبل مناقشة جدول الدروس"
+          ],
+          "correctIndex": 2,
+          "evidence": "uw kennismakingsgesprek is maandag om negen uur in lokaal drie. Het gesprek duurt twintig minuten en is nog geen les.",
+          "explanation": "اللقاء ليس درساً ولا يؤكد اختيار مجموعة."
+        },
+        {
+          "id": "a2-newcomer-language-school-read-2",
+          "prompt": "أي يومين للمجموعة الصباحية؟",
+          "options": [
+            "الأربعاء والجمعة",
+            "الثلاثاء والخميس",
+            "الاثنين والجمعة"
+          ],
+          "correctIndex": 0,
+          "evidence": "De ochtendgroep heeft op woensdag en vrijdag les.",
+          "explanation": "الجدول الصباحي يختلف عن المسائي."
+        },
+        {
+          "id": "a2-newcomer-language-school-read-3",
+          "prompt": "ماذا تفعل إذا تعذر حضور اللقاء؟",
+          "options": [
+            "تختار مجموعة دون إبلاغ",
+            "تبلغ السكرتارية مسبقاً",
+            "تنتظر انتهاء كل الدروس"
+          ],
+          "correctIndex": 1,
+          "evidence": "Kunt u niet naar het kennismakingsgesprek komen? Geef dit vooraf door aan het secretariaat.",
+          "explanation": "vooraf تعني قبل الموعد، لا بعد فواته."
+        },
+        {
+          "id": "a2-newcomer-language-school-read-4",
+          "prompt": "هل تضمن الرسالة حلاً لمشكلة رعاية الأطفال؟",
+          "options": [
+            "نعم، تضمن حضانة مجانية",
+            "نعم، تلغي شرط اللقاء للجميع",
+            "لا، تطلب مناقشة إمكانية أخرى"
+          ],
+          "correctIndex": 2,
+          "evidence": "Er is op deze oefenlocatie geen opvang voor kinderen. Heeft u daardoor een probleem? Vraag het secretariaat om samen naar een andere mogelijkheid te kijken.",
+          "explanation": "طلب التشاور ليس وعداً بخدمة أو حل معين."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-newcomer-language-school-passage",
+      "text": "Hallo, met het secretariaat van onze oefenschool. Uw gesprek blijft maandag om negen uur, maar is nu telefonisch. U hoeft dus niet naar school te komen. Wij bellen u. Zorg dat u uw vragen bij de hand hebt. We bespreken dan ook uw vraag over de opvang. Er is nog geen ander lesrooster afgesproken.",
+      "translation": "مرحباً، معك سكرتارية مدرستنا التدريبية. يبقى اللقاء الاثنين التاسعة لكنه أصبح هاتفياً. لذلك لا يلزم الحضور إلى المدرسة. نحن نتصل بك. اجعل أسئلتك قريبة منك. سنناقش أيضاً سؤالك عن رعاية الأطفال. لم نتفق بعد على جدول دروس آخر.",
+      "questions": [
+        {
+          "id": "a2-newcomer-language-school-listen-1",
+          "prompt": "ماذا تغيّر في اللقاء؟",
+          "options": [
+            "انتقل إلى الثلاثاء مساءً",
+            "ألغي ولم يعد له بديل",
+            "أصبح هاتفياً مع بقاء الوقت"
+          ],
+          "correctIndex": 2,
+          "evidence": "Uw gesprek blijft maandag om negen uur, maar is nu telefonisch.",
+          "explanation": "التغيير في وسيلة اللقاء، لا وقته."
+        },
+        {
+          "id": "a2-newcomer-language-school-listen-2",
+          "prompt": "من يبدأ الاتصال؟",
+          "options": [
+            "المدرسة تتصل بالمتعلم",
+            "المتعلم يتصل بالزملاء",
+            "يجب الحضور شخصياً للاتصال"
+          ],
+          "correctIndex": 0,
+          "evidence": "U hoeft dus niet naar school te komen. Wij bellen u.",
+          "explanation": "لا يلزم الحضور، والجهة المتصلة هي المدرسة في هذا المثال."
+        },
+        {
+          "id": "a2-newcomer-language-school-listen-3",
+          "prompt": "ما الذي ينبغي تجهيزه؟",
+          "options": [
+            "رسالة تثبت تأكيد جدول جديد",
+            "الأسئلة لتكون في متناول اليد",
+            "مفاتيح الصف الثالث"
+          ],
+          "correctIndex": 1,
+          "evidence": "Zorg dat u uw vragen bij de hand hebt.",
+          "explanation": "bij de hand تعني جاهزة وقريبة للاستخدام."
+        },
+        {
+          "id": "a2-newcomer-language-school-listen-4",
+          "prompt": "هل اتُّفق بالفعل على جدول آخر؟",
+          "options": [
+            "نعم، الجمعة مساءً",
+            "نعم، الثلاثاء صباحاً",
+            "لا، لم يُتفق عليه بعد"
+          ],
+          "correctIndex": 2,
+          "evidence": "Er is nog geen ander lesrooster afgesproken.",
+          "explanation": "nog geen يؤكد أن الاتفاق لم يحدث بعد."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب للسكرتارية: تؤكد أنك متاح للاتصال الاثنين 09:00. اشرح أنه لا توجد رعاية لطفلك صباح الأربعاء، واسأل عن إمكان مناقشة المجموعة المسائية. لا تفترض قبول النقل.",
+        "model": "Beste medewerker, maandag om negen uur ben ik bereikbaar. Op woensdagochtend heb ik geen opvang voor mijn kind. Kunnen we bespreken of de avondgroep mogelijk is? Ik heb daar nog een vraag over. Met vriendelijke groet, Sara",
+        "translation": "الموظف المحترم، أكون متاحة الاثنين التاسعة. لا تتوفر لي رعاية لطفلي صباح الأربعاء. هل يمكننا مناقشة إمكانية المجموعة المسائية؟ لدي سؤال آخر عنها. مع التحية، سارة.",
+        "checklist": [
+          "هل أكدت وقت الاتصال وشرحت العائق المحدد؟",
+          "هل سألت عن الإمكانية دون ادعاء تأكيد النقل؟"
+        ]
+      },
+      {
+        "prompt": "اكتب تذكيراً خيالياً لنفسك قبل اللقاء الهاتفي: الوقت والجهة التي تتصل، وسؤالان عن أيام المساء ومواد الدرس.",
+        "model": "Maandag om negen uur belt de school mij. Mijn vragen: op welke dagen heeft de avondgroep les? Welke materialen heb ik voor de les nodig?",
+        "translation": "تتصل بي المدرسة الاثنين التاسعة. أسئلتي: في أي أيام تدرس المجموعة المسائية؟ ما المواد التي أحتاجها للدرس؟",
+        "checklist": [
+          "هل حددت الوقت ومن يتصل؟",
+          "هل كتبت السؤالين بصيغة واضحة؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "أنت المتعلم. اشرح أن صباح الأربعاء لا يناسبك بسبب رعاية طفلك. عندما يقول الموظف إن المساء احتمال يحتاج إلى بحث، اسأل متى سيخبرك بالنتيجة.",
+        "model": "Woensdagochtend past niet, want ik heb geen opvang. Kan ik naar de avondgroep?\nMedewerker: Dat moeten we nog bekijken.\nDat begrijp ik. Wanneer hoor ik of het mogelijk is?",
+        "translation": "لا يناسبني صباح الأربعاء لأنه لا تتوفر رعاية. هل أستطيع الانتقال إلى المسائية؟\nالموظف: علينا بحث ذلك بعد.\nأفهم. متى أعرف إن كان ذلك ممكناً؟",
+        "checklist": [
+          "هل ربطت العائق بطلب محدد؟",
+          "هل طلبت متابعة دون افتراض موافقة؟"
+        ],
+        "partnerPrompts": [
+          "Waarom past woensdag niet?",
+          "We moeten nog bekijken of de avondgroep mogelijk is.",
+          "Wat wilt u weten over onze reactie?"
+        ]
+      },
+      {
+        "prompt": "أنت زميل يشرح التحديث لشريك لم يسمعه. قل إن الوقت بقي واللقاء أصبح هاتفياً والمدرسة ستتصل. عندما يسأل عن جدول جديد، وضح أنه غير متفق عليه.",
+        "model": "Het gesprek is nog steeds maandag om negen uur, maar nu telefonisch. De school belt jou.\nPartner: Heb ik dan al een nieuw rooster?\nNee, er is nog geen ander rooster afgesproken. Dat bespreek je tijdens het gesprek.",
+        "translation": "اللقاء ما زال الاثنين التاسعة لكنه هاتفي الآن. المدرسة تتصل بك.\nالشريك: هل لدي إذن جدول جديد؟\nلا، لم يُتفق على جدول آخر بعد. تناقش ذلك في اللقاء.",
+        "checklist": [
+          "هل حافظت على الوقت وغيّرت الوسيلة فقط؟",
+          "هل فرقت المناقشة عن الاتفاق؟"
+        ],
+        "partnerPrompts": [
+          "Wanneer is het gesprek nu?",
+          "Moet ik zelf bellen?",
+          "Is mijn nieuwe rooster al zeker?"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "a2-newcomer-volunteering",
+    "title": "التطوع: اتفق على دور يناسبك",
+    "unitIds": [
+      "a2-work-coordination",
+      "a2-social-experiences"
+    ],
+    "reading": {
+      "text": "Oefenbericht van buurthuis De Linden. Beste nieuwe vrijwilliger, zaterdag komt u voor het eerst helpen bij de koffieochtend. We verwachten u om half negen. De bezoekers komen om negen uur. Begeleider Eva laat eerst zien waar alles staat. U zet samen de kopjes klaar en wijst bezoekers daarna een vrije tafel. U werkt voorlopig niet met de kassa. Eva doet de betalingen. Heeft u iets niet begrepen? Vraag Eva om het nog een keer voor te doen. Om elf uur bespreken jullie wat goed ging en welke taak u de volgende keer wilt oefenen. U hoeft niet meteen alles zelfstandig te kunnen.",
+      "translation": "رسالة تدريب من مركز الحي دي ليندن. المتطوع الجديد المحترم، تساعد السبت للمرة الأولى في لقاء القهوة الصباحي. نتوقعك الثامنة والنصف. يأتي الزوار التاسعة. تبيّن المشرفة إيفا أولاً مكان الأشياء. تجهزان الأكواب معاً ثم تدل الزوار على طاولة شاغرة. لن تعمل على صندوق الدفع في الوقت الحالي؛ تتولى إيفا المدفوعات. إن لم تفهم شيئاً فاطلب منها أن تبيّنه عملياً مرة أخرى. في الحادية عشرة تناقشان ما سار جيداً والمهمة التي تريد التدرب عليها المرة القادمة. لا يلزم أن تستطيع فعل كل شيء مستقلاً فوراً.",
+      "questions": [
+        {
+          "id": "a2-newcomer-volunteering-read-1",
+          "prompt": "متى يصل المتطوع مقارنة بالزوار؟",
+          "options": [
+            "الثامنة والنصف قبل وصولهم التاسعة",
+            "التاسعة بعد وصولهم الثامنة والنصف",
+            "الحادية عشرة مع جميع الزوار"
+          ],
+          "correctIndex": 0,
+          "evidence": "We verwachten u om half negen. De bezoekers komen om negen uur.",
+          "explanation": "half negen تعني 08:30، والاستعداد يسبق وصول الزوار."
+        },
+        {
+          "id": "a2-newcomer-volunteering-read-2",
+          "prompt": "من يتولى المدفوعات في البداية؟",
+          "options": [
+            "المتطوع الجديد وحده",
+            "إيفا",
+            "كل زائر بدلاً من الموظف"
+          ],
+          "correctIndex": 1,
+          "evidence": "U werkt voorlopig niet met de kassa. Eva doet de betalingen.",
+          "explanation": "حدود المهمة واضحة: المدفوعات لإيفا في الوقت الحالي."
+        },
+        {
+          "id": "a2-newcomer-volunteering-read-3",
+          "prompt": "ما الخطوة المناسبة عند عدم فهم طريقة العمل؟",
+          "options": [
+            "الادعاء بأنه أتقن كل المهام",
+            "تغيير طريقة الدفع دون سؤال",
+            "طلب عرضها عملياً مرة أخرى"
+          ],
+          "correctIndex": 2,
+          "evidence": "Heeft u iets niet begrepen? Vraag Eva om het nog een keer voor te doen.",
+          "explanation": "voordoen هو إظهار الطريقة بالفعل، لا تكرار اسم المهمة فقط."
+        },
+        {
+          "id": "a2-newcomer-volunteering-read-4",
+          "prompt": "ما غرض حديث الحادية عشرة؟",
+          "options": [
+            "مراجعة ما سار جيداً واختيار تدريب لاحق",
+            "بدء استقبال الزوار للمرة الأولى",
+            "تأكيد أنه يجب إتقان كل شيء فوراً"
+          ],
+          "correctIndex": 0,
+          "evidence": "Om elf uur bespreken jullie wat goed ging en welke taak u de volgende keer wilt oefenen. U hoeft niet meteen alles zelfstandig te kunnen.",
+          "explanation": "هذا حديث للتعلم والتغذية الراجعة، وليس شرط إتقان فوري."
+        }
+      ]
+    },
+    "listening": {
+      "id": "a2-newcomer-volunteering-passage",
+      "text": "Hallo, met Eva. Zaterdag help je niet bij de tafels, maar samen met Amir bij de ingang. Je heet bezoekers welkom en wijst waar ze hun jas kunnen ophangen. Amir controleert de aanmeldingen. Je begint nog steeds om half negen. Ik leg de nieuwe taak eerst uit. Onze nabespreking om elf uur blijft staan.",
+      "translation": "مرحباً، معك إيفا. السبت لا تساعد عند الطاولات، بل مع أمير عند المدخل. ترحب بالزوار وتدلهم على مكان تعليق المعاطف. يتحقق أمير من التسجيلات. ما زلت تبدأ الثامنة والنصف. سأشرح المهمة الجديدة أولاً. يبقى حديث المراجعة الساعة الحادية عشرة.",
+      "questions": [
+        {
+          "id": "a2-newcomer-volunteering-listen-1",
+          "prompt": "ما المهمة الحالية للمتطوع؟",
+          "options": [
+            "الترحيب عند المدخل والإرشاد إلى مكان المعاطف",
+            "تحصيل المدفوعات عند الطاولات",
+            "التحقق من التسجيلات وحده"
+          ],
+          "correctIndex": 0,
+          "evidence": "Zaterdag help je niet bij de tafels, maar samen met Amir bij de ingang. Je heet bezoekers welkom en wijst waar ze hun jas kunnen ophangen.",
+          "explanation": "التحديث استبدل المهمة السابقة بدور عند المدخل."
+        },
+        {
+          "id": "a2-newcomer-volunteering-listen-2",
+          "prompt": "من يتحقق من التسجيلات؟",
+          "options": [
+            "المتطوع الجديد وحده",
+            "أمير",
+            "جميع الزوار بالتناوب"
+          ],
+          "correctIndex": 1,
+          "evidence": "Amir controleert de aanmeldingen.",
+          "explanation": "هذا اختصاص أمير ضمن توزيع المهام الحالي."
+        },
+        {
+          "id": "a2-newcomer-volunteering-listen-3",
+          "prompt": "هل تغيّر وقت البدء؟",
+          "options": [
+            "نعم، أصبح التاسعة",
+            "نعم، أصبح الحادية عشرة",
+            "لا، بقي الثامنة والنصف"
+          ],
+          "correctIndex": 2,
+          "evidence": "Je begint nog steeds om half negen.",
+          "explanation": "nog steeds تدل على بقاء المعلومة السابقة."
+        },
+        {
+          "id": "a2-newcomer-volunteering-listen-4",
+          "prompt": "ما الذي سيحدث قبل تنفيذ المهمة الجديدة؟",
+          "options": [
+            "إيفا تشرح المهمة أولاً",
+            "المتطوع يعمل دون شرح",
+            "يلغى حديث المراجعة تلقائياً"
+          ],
+          "correctIndex": 0,
+          "evidence": "Ik leg de nieuwe taak eerst uit. Onze nabespreking om elf uur blijft staan.",
+          "explanation": "التحديث يضيف شرحاً مع الحفاظ على حديث المراجعة."
+        }
+      ]
+    },
+    "writing": [
+      {
+        "prompt": "اكتب لإيفا: تشكرها وتؤكد وصولك السبت 08:30 والعمل مع أمير عند المدخل. تقول إن الترحيب سهل لك لكن تحتاج أن ترى مكان تعليق المعاطف.",
+        "model": "Hoi Eva, bedankt voor je bericht. Zaterdag ben ik er om half negen. Ik help Amir bij de ingang. Bezoekers welkom heten kan ik al. Kun je mij eerst laten zien waar ze hun jas kunnen ophangen? Groet, Sami",
+        "translation": "مرحباً إيفا، شكراً لرسالتك. أحضر السبت الثامنة والنصف. أساعد أمير عند المدخل. أستطيع الترحيب بالزوار بالفعل. هل ترينني أولاً مكان تعليق معاطفهم؟ تحياتي، سامي.",
+        "checklist": [
+          "هل أكدت الوقت والدور الحاليين؟",
+          "هل ميزت قدرة موجودة عن حاجة إلى شرح؟"
+        ]
+      },
+      {
+        "prompt": "بعد يوم تطوعي خيالي، اكتب ملاحظتين: نجح الترحيب، لكن لم تفهم سؤال زائر. اطلب التدرب على أسئلة الزوار في المرة القادمة.",
+        "model": "Het welkom heten ging goed. Ik begreep een vraag van een bezoeker niet. De volgende keer wil ik graag oefenen met vragen van bezoekers. Kunnen we dat samen doen?",
+        "translation": "سار الترحيب جيداً. لم أفهم سؤال أحد الزوار. في المرة القادمة أود التدرّب على أسئلة الزوار. هل نفعل ذلك معاً؟",
+        "checklist": [
+          "هل ذكرت نجاحاً وصعوبة محددين؟",
+          "هل اقترحت تدريباً مرتبطاً بالصعوبة؟"
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "prompt": "تحدث إلى المشرفة: تعرف كيف ترحب بالزوار، لكن تفضل مشاهدة أمير وهو يتحقق من التسجيلات قبل تجربتها لاحقاً. المشرفة توافق على المشاهدة اليوم. أكد حدود دورك.",
+        "model": "Welkom heten kan ik al. De aanmeldingen wil ik eerst bekijken. Kan Amir het voordoen?\nBegeleider: Ja, vandaag kijk je alleen mee.\nPrima. Vandaag heet ik bezoekers welkom en kijk ik hoe Amir de aanmeldingen controleert.",
+        "translation": "أستطيع الترحيب بالفعل. أريد الاطلاع أولاً على التسجيلات. هل يمكن لأمير عرض الطريقة؟\nالمشرفة: نعم، اليوم تشاهد فقط.\nجيد. اليوم أرحب بالزوار وأشاهد كيف يتحقق أمير من التسجيلات.",
+        "checklist": [
+          "هل وضحت ما تستطيع وما تريد تعلمه؟",
+          "هل حافظت على المشاهدة دون ادعاء تولي التسجيلات اليوم؟"
+        ],
+        "partnerPrompts": [
+          "Wat kun je al zelf?",
+          "Vandaag kijk je alleen mee bij de aanmeldingen.",
+          "Wat ga je vandaag dus doen?"
+        ]
+      },
+      {
+        "prompt": "أنت المشرفة في تدريب خيالي. زميلك يقترح نقل حديث المراجعة من 11:00 إلى 11:15. وافق بشرط أن يتولى أمير الترحيب خلال الحديث. الشريك لا يعرف إن كان أمير متاحاً؛ اتفقا على سؤاله أولاً.",
+        "model": "Om kwart over elf kan ook, als Amir het welkom heten overneemt.\nPartner: Ik weet nog niet of hij kan.\nDan vragen we het eerst aan Amir. Pas daarna bevestigen we de nieuwe tijd.",
+        "translation": "يمكن الحادية عشرة والربع أيضاً إذا تولى أمير الترحيب.\nالشريك: لا أعرف بعد إن كان يستطيع.\nإذن نسأل أمير أولاً، وبعد ذلك فقط نؤكد الوقت الجديد.",
+        "checklist": [
+          "هل حافظت على شرط تغطية المهمة؟",
+          "هل أجلت التأكيد إلى ما بعد سؤال أمير؟"
+        ],
+        "partnerPrompts": [
+          "Kan de nabespreking om kwart over elf?",
+          "Ik weet niet of Amir het kan overnemen.",
+          "Is de nieuwe tijd nu al zeker?"
+        ]
+      }
+    ]
   }
 ]

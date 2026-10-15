@@ -25,3 +25,7 @@ Native tests cover eight complete resource groups, answer-free projections, inva
 ## Communication expansion (15 October 2026)
 
 The path now contains 48 lessons, six per unit, plus three linked readings and three guided scenarios per unit and sixteen cross-unit retrieval sets. The progress/resource behavior described above remains unchanged; current totals supersede the earlier forty-lesson snapshot. Existing forty-lesson completion resumes at the first new sixth lesson. See `A2_COMMUNICATION_EXPANSION.md`.
+
+## Newcomer applications (15 October 2026)
+
+The map now links `/a2-newcomers`, a four-application transfer path with optional vocabulary, clarification phrases and lesson preparation. It is independent of the lesson-completion recommendation. The all-completed message derives its count from current unit summaries. See `A2_NEWCOMERS.md` for scope, temporary-state behavior and fictional-service boundaries.

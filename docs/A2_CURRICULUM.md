@@ -69,3 +69,7 @@ The first slice implements the following boundaries. Preserve them when adding f
 - Audio: extend the shared source inventory once, with unique IDs across levels; generation, review and integrity checks must use the same list.
 
 Regression gate: A1 URLs, storage/import, per-level totals, remediation, audio hashes and existing first-attempt/help behavior must remain valid. Add tests for switching levels, fresh state after navigation and preserving existing progress. Run content/audio checks, native tests, typecheck, production build and the relevant browser flows before opening the A2 PR.
+
+### Newcomer applications
+
+Four additional integrated applications extend transfer across municipal letters, digital help, language-school communication and volunteering. See `A2_NEWCOMERS.md` for exact inventory and fictional-service boundaries. Lesson completion still uses the same 48 lessons; these applications are optional, temporary practice.

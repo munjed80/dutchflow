@@ -30,6 +30,7 @@ test("A2 path groups every unit's resources, adapts to stored progress and reach
   await seed(page, lessons.map((lesson) => lesson.slug));
   await expect(status.getByRole("link", { name: /^تابع:/ })).toHaveCount(0);
   await expect(status.getByRole("link", { name: "انتقل إلى المراجعة الختامية ←" })).toHaveAttribute("href", "/a2-practice/final-review");
+  await expect(status).toContainText(`أتممت ${lessons.length} درساً في A2.`);
   await page.goto("/progress?level=A2");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", String(lessons.length));
   await page.getByRole("link", { name: "جرّب المراجعة الختامية لـ A2 ←" }).click();

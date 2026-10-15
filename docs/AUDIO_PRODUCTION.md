@@ -88,3 +88,7 @@ npm run audio:check -- --require-complete --level=A2
 ```
 
 A scoped strict check measures completeness only for that level, but still verifies global manifest consistency and existing catalog-asset integrity. Approval/rejection always rebuilds the full manifest; approving A2 must never remove approved A1 URLs. The new native test compares every legacy request, filename and SSML byte before the appended jobs.
+
+### A2 newcomer application passages (15 October 2026)
+
+Four original connected updates add sixteen planned variants. Current A2 inventory: 384 lesson phrases plus thirteen passages = 397 sources / 1,588 variants. A1 remains 367 sources / 1,468 variants; combined 764 / 3,056. Earlier jobs remain byte-identical. No MP3 generation or listening approval occurred. See `A2_NEWCOMERS.md`.

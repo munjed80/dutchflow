@@ -511,5 +511,101 @@
   ],
   "a2-a-shared-plan-with-a-quiet-option-q6": [
     "a2-disagreeing-politely"
+  ],
+  "a2-newcomer-municipal-letter-read-1": [
+    "a2-asking-for-an-appointment-update"
+  ],
+  "a2-newcomer-municipal-letter-read-2": [
+    "a2-clarifying-a-local-form"
+  ],
+  "a2-newcomer-municipal-letter-read-3": [
+    "a2-finding-a-reply-deadline"
+  ],
+  "a2-newcomer-municipal-letter-read-4": [
+    "a2-clarifying-a-local-form"
+  ],
+  "a2-newcomer-municipal-letter-listen-1": [
+    "a2-asking-for-an-appointment-update"
+  ],
+  "a2-newcomer-municipal-letter-listen-2": [
+    "a2-confirming-a-replacement-appointment"
+  ],
+  "a2-newcomer-municipal-letter-listen-3": [
+    "a2-finding-a-reply-deadline"
+  ],
+  "a2-newcomer-municipal-letter-listen-4": [
+    "a2-comparing-appointment-options"
+  ],
+  "a2-newcomer-digital-help-read-1": [
+    "a2-asking-how-a-product-works"
+  ],
+  "a2-newcomer-digital-help-read-2": [
+    "a2-clarifying-a-local-form"
+  ],
+  "a2-newcomer-digital-help-read-3": [
+    "a2-asking-how-a-product-works"
+  ],
+  "a2-newcomer-digital-help-read-4": [
+    "a2-clarifying-a-local-form"
+  ],
+  "a2-newcomer-digital-help-listen-1": [
+    "a2-relaying-a-schedule-change"
+  ],
+  "a2-newcomer-digital-help-listen-2": [
+    "a2-understanding-school-instructions"
+  ],
+  "a2-newcomer-digital-help-listen-3": [
+    "a2-understanding-school-instructions"
+  ],
+  "a2-newcomer-digital-help-listen-4": [
+    "a2-clarifying-a-local-form"
+  ],
+  "a2-newcomer-language-school-read-1": [
+    "a2-asking-about-a-course"
+  ],
+  "a2-newcomer-language-school-read-2": [
+    "a2-understanding-school-instructions"
+  ],
+  "a2-newcomer-language-school-read-3": [
+    "a2-comparing-appointment-options"
+  ],
+  "a2-newcomer-language-school-read-4": [
+    "a2-asking-about-a-course"
+  ],
+  "a2-newcomer-language-school-listen-1": [
+    "a2-relaying-a-schedule-change"
+  ],
+  "a2-newcomer-language-school-listen-2": [
+    "a2-understanding-school-instructions"
+  ],
+  "a2-newcomer-language-school-listen-3": [
+    "a2-asking-about-a-course"
+  ],
+  "a2-newcomer-language-school-listen-4": [
+    "a2-asking-for-an-appointment-update"
+  ],
+  "a2-newcomer-volunteering-read-1": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-newcomer-volunteering-read-2": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-newcomer-volunteering-read-3": [
+    "a2-clarifying-instructions"
+  ],
+  "a2-newcomer-volunteering-read-4": [
+    "a2-giving-feedback-at-work"
+  ],
+  "a2-newcomer-volunteering-listen-1": [
+    "a2-confirming-a-handover"
+  ],
+  "a2-newcomer-volunteering-listen-2": [
+    "a2-confirming-a-handover"
+  ],
+  "a2-newcomer-volunteering-listen-3": [
+    "a2-relaying-a-schedule-change"
+  ],
+  "a2-newcomer-volunteering-listen-4": [
+    "a2-clarifying-instructions"
   ]
 }
