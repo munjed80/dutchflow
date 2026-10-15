@@ -14,18 +14,19 @@ export function validKnmAnswers(value: unknown, questions: KnmQuestion[]): value
   });
 }
 export function buildKnmExam(questions: KnmQuestion[], form: number, lessonSlugs?: string[]): KnmQuestion[] {
-  if (!Number.isInteger(form) || form < 0 || form > 7) return [];
+  if (!Number.isInteger(form) || form < 0 || form > 11) return [];
   const themes = [...new Set(questions.map((q) => q.themeId))];
   if (themes.length !== 8) return [];
-  // Core forms retain their selection; comprehensive forms add the application lesson per theme.
-  const expanded = form >= 4, cycle = form % 4, required = expanded ? 5 : 4;
+  // Keep the first eight selections stable. The last four rotate one omitted core lesson
+  // so each 40-question form includes both application lessons in every theme.
+  const expanded = form >= 4, extended = form >= 8, cycle = form % 4, required = extended ? 6 : expanded ? 5 : 4;
   const groupsByTheme = themes.map((theme) => {
     const pool = questions.filter((q) => q.themeId === theme && (!lessonSlugs || lessonSlugs.includes(q.lessonSlug)));
     const slugs = [...new Set(pool.map((q) => q.lessonSlug))].slice(0, required);
     return slugs.map((slug) => pool.filter((q) => q.lessonSlug === slug));
   });
   if (groupsByTheme.some((groups) => groups.length !== required || groups.some((group) => group.length < 8))) return [];
-  return groupsByTheme.flatMap((groups) => expanded ? groups.map((group) => group[cycle * 2]) : [...groups.map((group) => group[cycle * 2]), groups[0][cycle * 2 + 1]]);
+  return groupsByTheme.flatMap((groups) => expanded ? groups.filter((_, index) => !extended || index !== cycle).map((group) => group[cycle * 2]) : [...groups.map((group) => group[cycle * 2]), groups[0][cycle * 2 + 1]]);
 }
 export function projectKnmQuestion(q: KnmQuestion) {
   return { id: q.id, lessonSlug: q.lessonSlug, themeId: q.themeId, objective: q.objective, prompt: q.prompt, options: q.options, ...(q.visual ? { visual: { kind: q.visual.kind, title: q.visual.title, lines: q.visual.lines, description: { nl: q.visual.description.nl, ar: q.visual.description.ar } } } : {}) };

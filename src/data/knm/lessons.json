@@ -4482,5 +4482,1278 @@
       "parent-contribution",
       "parent-contribution-exceptions"
     ]
+  },
+  {
+    "slug": "diplomas-and-career-planning",
+    "themeId": "1",
+    "number": 41,
+    "title": {
+      "nl": "Diploma’s en een volgende loopbaanstap",
+      "ar": "الشهادات والتخطيط للخطوة المهنية التالية"
+    },
+    "durationMinutes": 22,
+    "kind": "application",
+    "objectives": [
+      "1.1.4",
+      "1.1.3",
+      "1.1.6",
+      "1.1.5",
+      "1.1.7",
+      "1.1.8",
+      "1.1.2"
+    ],
+    "points": [
+      {
+        "objective": "1.1.4",
+        "nl": "Een diplomawaardering vergelijkt een buitenlands diploma met een Nederlands opleidingsniveau. Zij geeft niet automatisch toegang tot een beschermd beroep.",
+        "ar": "يقارن تقييم الشهادة مؤهلاً أجنبياً بمستوى تعليمي هولندي، ولا يمنح تلقائياً حق ممارسة مهنة محمية قانونياً."
+      },
+      {
+        "objective": "1.1.4",
+        "nl": "Voor werk kunt u informatie over diplomawaardering vinden bij IDW. Controleer welke documenten voor uw aanvraag nodig zijn.",
+        "ar": "يمكنك إيجاد معلومات تقييم الشهادة للعمل لدى IDW. تحقّق من المستندات المطلوبة لطلبك."
+      },
+      {
+        "objective": "1.1.4",
+        "nl": "Een diplomawaardering is iets anders dan beroepserkenning. Voor een beschermd beroep kunnen aparte wettelijke eisen gelden.",
+        "ar": "تقييم الشهادة يختلف عن الاعتراف المهني. قد تنطبق متطلبات قانونية منفصلة على المهنة المحمية."
+      },
+      {
+        "objective": "1.1.4",
+        "nl": "Een werkgever kan om een diplomawaardering vragen. Vraag welke informatie hij nodig heeft voordat u een aanvraag doet.",
+        "ar": "قد يطلب صاحب العمل تقييم الشهادة. اسأله عن المعلومات التي يحتاجها قبل تقديم الطلب."
+      },
+      {
+        "objective": "1.1.3",
+        "nl": "Werkervaring en opleiding zijn verschillende onderdelen van uw profiel. Beschrijf uw taken en vaardigheden met concrete voorbeelden.",
+        "ar": "الخبرة العملية والتعليم جانبان مختلفان من ملفك المهني. صف مهامك ومهاراتك بأمثلة محددة."
+      },
+      {
+        "objective": "1.1.6",
+        "nl": "Een vacature kan eisen stellen aan vakkennis en communicatie. Bekijk beide soorten eisen bij de voorbereiding.",
+        "ar": "يمكن أن تتضمن الوظيفة متطلبات للمعلومات المهنية والتواصل. راجع النوعين عند الاستعداد."
+      },
+      {
+        "objective": "1.1.5",
+        "nl": "Bijscholing helpt om kennis te vernieuwen. Een cursus kan kansen vergroten, maar garandeert geen baan.",
+        "ar": "يساعد التدريب الإضافي على تحديث المعرفة. قد يحسن فرص العمل لكنه لا يضمن وظيفة."
+      },
+      {
+        "objective": "1.1.3",
+        "nl": "Vergelijk uw huidige vaardigheden met de eisen van een gewenste functie. Zo ziet u wat al past en wat u nog moet leren.",
+        "ar": "قارن مهاراتك الحالية بمتطلبات الوظيفة المنشودة لمعرفة ما يناسبها وما تحتاج إلى تعلمه."
+      },
+      {
+        "objective": "1.1.7",
+        "nl": "Wie begeleiding krijgt van de gemeente of UWV kan passende scholing bespreken. Financiering en toestemming hangen van de situatie af.",
+        "ar": "من يتلقى الإرشاد من البلدية أو UWV يمكنه مناقشة تدريب مناسب. يعتمد التمويل والموافقة على الحالة."
+      },
+      {
+        "objective": "1.1.8",
+        "nl": "Veranderingen in werk of inkomen kunnen gevolgen hebben voor een uitkering. Vraag de uitkeringsinstantie wat u moet doorgeven.",
+        "ar": "قد تؤثر تغييرات العمل أو الدخل على الإعانة. اسأل الجهة المانحة عمّا يجب إبلاغها به."
+      },
+      {
+        "objective": "1.1.2",
+        "nl": "Een sollicitatiegesprek is ook een kans om vragen over taken en ontwikkeling te stellen. Bereid gerichte vragen voor.",
+        "ar": "مقابلة العمل فرصة أيضاً للسؤال عن المهام والتطور. حضّر أسئلة محددة."
+      },
+      {
+        "objective": "1.1.4",
+        "nl": "Bewaar diploma’s en bewijs van werkervaring. Vraag bij de aanvraag welke vertalingen of andere bewijsstukken nodig zijn.",
+        "ar": "احتفظ بالشهادات وإثباتات الخبرة. اسأل عند تقديم الطلب عن الترجمات أو الإثباتات المطلوبة."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de diplomawaardering",
+        "ar": "تقييم الشهادة"
+      },
+      {
+        "nl": "het beschermde beroep",
+        "ar": "المهنة المحمية قانونياً"
+      },
+      {
+        "nl": "de werkervaring",
+        "ar": "الخبرة العملية"
+      },
+      {
+        "nl": "de bijscholing",
+        "ar": "التدريب لتحديث المهارات"
+      },
+      {
+        "nl": "het bewijsstuk",
+        "ar": "المستند الإثباتي"
+      },
+      {
+        "nl": "de functie-eis",
+        "ar": "متطلب الوظيفة"
+      },
+      {
+        "nl": "het loopbaangesprek",
+        "ar": "محادثة التخطيط المهني"
+      },
+      {
+        "nl": "de erkenning",
+        "ar": "الاعتراف الرسمي"
+      }
+    ],
+    "example": {
+      "nl": "Rana werkte buiten Nederland als verpleegkundige. Zij zoekt eerst uit welke erkenning voor dit beroep nodig is. Een vergelijking van haar diploma met een Nederlands niveau is niet vanzelf toestemming om als verpleegkundige te werken. Ze bewaart haar diploma, vakkenlijst en werkbewijzen en bespreekt een passende vervolgstap.",
+      "ar": "عملت رنا ممرضة خارج هولندا. تتحقق أولاً من الاعتراف المطلوب لهذه المهنة. مقارنة شهادتها بمستوى هولندي لا تمنحها تلقائياً الإذن بالعمل ممرضة. تحتفظ بشهادتها وكشف المواد وإثباتات الخبرة وتناقش الخطوة المناسبة."
+    },
+    "dialogue": [
+      {
+        "speaker": "Rana",
+        "nl": "Ik heb een buitenlands diploma. Is een waardering genoeg voor ieder beroep?",
+        "ar": "لدي شهادة أجنبية. هل يكفي تقييمها لكل مهنة؟"
+      },
+      {
+        "speaker": "Adviseur",
+        "nl": "Nee. Controleer of uw beroep beschermd is en welke erkenning nodig is.",
+        "ar": "لا. تحققي إن كانت مهنتك محمية قانونياً وما الاعتراف المطلوب."
+      },
+      {
+        "speaker": "Rana",
+        "nl": "Kan ik mijn werkervaring ook laten zien?",
+        "ar": "هل يمكنني أيضاً إبراز خبرتي العملية؟"
+      },
+      {
+        "speaker": "Adviseur",
+        "nl": "Ja. Neem werkbewijzen mee en vergelijk uw vaardigheden met de functie-eisen.",
+        "ar": "نعم. أحضري إثباتات الخبرة وقارني مهاراتك بمتطلبات الوظيفة."
+      }
+    ],
+    "questionIds": [
+      "knm-diplomas-and-career-planning-1",
+      "knm-diplomas-and-career-planning-2",
+      "knm-diplomas-and-career-planning-3",
+      "knm-diplomas-and-career-planning-4",
+      "knm-diplomas-and-career-planning-5",
+      "knm-diplomas-and-career-planning-6",
+      "knm-diplomas-and-career-planning-7",
+      "knm-diplomas-and-career-planning-8",
+      "knm-diplomas-and-career-planning-9",
+      "knm-diplomas-and-career-planning-10",
+      "knm-diplomas-and-career-planning-11",
+      "knm-diplomas-and-career-planning-12"
+    ],
+    "sourceIds": [
+      "endterms",
+      "diploma-work",
+      "diploma-valuation"
+    ]
+  },
+  {
+    "slug": "celebrations-and-remembrance-in-practice",
+    "themeId": "2",
+    "number": 42,
+    "title": {
+      "nl": "Feesten, herdenken en verschillende gewoonten",
+      "ar": "الأعياد والذكرى وتنوع العادات"
+    },
+    "durationMinutes": 22,
+    "kind": "application",
+    "objectives": [
+      "2.1.5",
+      "2.1.1",
+      "2.1.3",
+      "2.2.2"
+    ],
+    "points": [
+      {
+        "objective": "2.1.5",
+        "nl": "Op 4 mei is de Nationale Dodenherdenking. Mensen herdenken slachtoffers van oorlog; dit is geen bevrijdingsfeest.",
+        "ar": "في 4 مايو تُقام الذكرى الوطنية للضحايا. يحيي الناس ذكرى ضحايا الحرب، وليس هذا احتفال التحرير."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Tijdens de Nationale Dodenherdenking zijn er op 4 mei om 20.00 uur twee minuten stilte.",
+        "ar": "خلال الذكرى الوطنية في 4 مايو تُراعى دقيقتا صمت عند الساعة الثامنة مساءً."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Op 5 mei is Bevrijdingsdag. De dag herinnert aan de bevrijding in 1945 en aan de betekenis van vrijheid.",
+        "ar": "في 5 مايو يوم التحرير. يذكّر بالتحرير عام 1945 وبمعنى الحرية."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Een officiële feestdag geeft niet automatisch recht op vrij van werk. De cao of arbeidsovereenkomst kan hierover afspraken bevatten.",
+        "ar": "لا يمنح العيد الرسمي تلقائياً حق الإجازة من العمل. قد تتضمن اتفاقية العمل الجماعية أو العقد ترتيبات بهذا الشأن."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Sinterklaas en Kerst zijn verschillende feesten. Gewoonten rond cadeaus en samen eten verschillen per gezin.",
+        "ar": "سينتركلاس وعيد الميلاد مناسبتان مختلفتان. تختلف عادات الهدايا والطعام المشترك من أسرة لأخرى."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Carnaval wordt vooral in bepaalde regio’s en gemeenschappen gevierd. Niet iedereen in Nederland viert het.",
+        "ar": "يُحتفل بالكرنفال خصوصاً في بعض المناطق والمجموعات. ليس كل سكان هولندا يحتفلون به."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Het Suikerfeest markeert het einde van de ramadan. De datum volgt niet elk jaar dezelfde dag van de gewone kalender.",
+        "ar": "عيد الفطر يختتم رمضان. لا يأتي كل عام في اليوم نفسه من التقويم الميلادي."
+      },
+      {
+        "objective": "2.1.5",
+        "nl": "Bij Keti Koti op 1 juli staan de herdenking van de slavernij en het vieren van de afschaffing centraal.",
+        "ar": "في كيتي كوتي في 1 يوليو تتمحور المناسبة حول ذكرى العبودية والاحتفال بإلغائها."
+      },
+      {
+        "objective": "2.1.1",
+        "nl": "Een uitnodiging zegt niet altijd alles over de gewoonten van de gastheer. U kunt vragen wat het programma is en wat u kunt meenemen.",
+        "ar": "لا توضح الدعوة دائماً كل عادات المضيف. يمكنك السؤال عن البرنامج وما يمكنك إحضاره."
+      },
+      {
+        "objective": "2.1.3",
+        "nl": "Voor een bijeenkomst kan aanmelding nodig zijn. Een uitnodiging geeft vaak plaats, tijd en een datum om te reageren.",
+        "ar": "قد يحتاج اللقاء إلى تسجيل مسبق. تذكر الدعوة غالباً المكان والوقت وموعد الرد."
+      },
+      {
+        "objective": "2.2.2",
+        "nl": "Bij een overlijden kunnen gebruiken verschillen. Een condoleance is een uiting van medeleven met nabestaanden.",
+        "ar": "تختلف العادات عند الوفاة. التعزية تعبير عن المواساة لذوي المتوفى."
+      },
+      {
+        "objective": "2.1.1",
+        "nl": "Niet meevieren zegt op zichzelf niets over iemands respect voor anderen. Mensen maken verschillende persoonlijke en religieuze keuzes.",
+        "ar": "عدم المشاركة في احتفال لا يعني بحد ذاته قلة احترام الآخرين. للناس اختيارات شخصية ودينية متنوعة."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "herdenken",
+        "ar": "يحيي الذكرى"
+      },
+      {
+        "nl": "de bevrijding",
+        "ar": "التحرّر"
+      },
+      {
+        "nl": "de feestdag",
+        "ar": "يوم العيد"
+      },
+      {
+        "nl": "de stilte",
+        "ar": "الصمت"
+      },
+      {
+        "nl": "de uitnodiging",
+        "ar": "الدعوة"
+      },
+      {
+        "nl": "de traditie",
+        "ar": "التقليد"
+      },
+      {
+        "nl": "de afschaffing",
+        "ar": "الإلغاء"
+      },
+      {
+        "nl": "de bijeenkomst",
+        "ar": "اللقاء"
+      }
+    ],
+    "example": {
+      "nl": "De buurt organiseert op 4 mei een herdenking en op 5 mei een feest. Amal leest het programma: op 4 mei om 20.00 uur zijn er twee minuten stilte. Voor het feest vraagt zij of zij iets moet meenemen. Haar collega controleert apart in de cao of 5 mei voor haar een vrije werkdag is.",
+      "ar": "ينظم الحي إحياءً للذكرى في 4 مايو واحتفالاً في 5 مايو. تقرأ أمل البرنامج: في 4 مايو عند الساعة الثامنة مساءً توجد دقيقتا صمت. تسأل إن كان عليها إحضار شيء للاحتفال. وتراجع زميلتها اتفاقية العمل لتعرف إن كان 5 مايو إجازة من عملها."
+    },
+    "dialogue": [
+      {
+        "speaker": "Amal",
+        "nl": "Zijn de bijeenkomsten op 4 en 5 mei hetzelfde?",
+        "ar": "هل لقاءا 4 و5 مايو متشابهان؟"
+      },
+      {
+        "speaker": "Buur",
+        "nl": "Nee. Op 4 mei herdenken we; op 5 mei vieren we de bevrijding.",
+        "ar": "لا. في 4 مايو نحيي الذكرى وفي 5 مايو نحتفل بالتحرير."
+      },
+      {
+        "speaker": "Amal",
+        "nl": "Ben ik op een officiële feestdag altijd vrij van mijn werk?",
+        "ar": "هل أكون دائماً في إجازة من العمل في العيد الرسمي؟"
+      },
+      {
+        "speaker": "Buur",
+        "nl": "Dat volgt niet automatisch uit de feestdag. Kijk in je cao of contract.",
+        "ar": "لا ينتج ذلك تلقائياً عن يوم العيد. راجعي اتفاقية العمل الجماعية أو عقدك."
+      }
+    ],
+    "questionIds": [
+      "knm-celebrations-and-remembrance-in-practice-1",
+      "knm-celebrations-and-remembrance-in-practice-2",
+      "knm-celebrations-and-remembrance-in-practice-3",
+      "knm-celebrations-and-remembrance-in-practice-4",
+      "knm-celebrations-and-remembrance-in-practice-5",
+      "knm-celebrations-and-remembrance-in-practice-6",
+      "knm-celebrations-and-remembrance-in-practice-7",
+      "knm-celebrations-and-remembrance-in-practice-8",
+      "knm-celebrations-and-remembrance-in-practice-9",
+      "knm-celebrations-and-remembrance-in-practice-10",
+      "knm-celebrations-and-remembrance-in-practice-11",
+      "knm-celebrations-and-remembrance-in-practice-12"
+    ],
+    "sourceIds": [
+      "endterms",
+      "public-holidays",
+      "national-remembrance",
+      "remembrance-silence",
+      "slavery-abolition"
+    ]
+  },
+  {
+    "slug": "home-safety-and-maintenance",
+    "themeId": "3",
+    "number": 43,
+    "title": {
+      "nl": "Veilig wonen en onderhoud melden",
+      "ar": "سلامة المنزل والإبلاغ عن الصيانة"
+    },
+    "durationMinutes": 22,
+    "kind": "application",
+    "objectives": [
+      "3.2.1",
+      "3.1.2",
+      "3.2.2"
+    ],
+    "points": [
+      {
+        "objective": "3.2.1",
+        "nl": "In een woning moet op iedere verdieping een rookmelder hangen. Bij een huurwoning is de verhuurder verantwoordelijk voor het plaatsen.",
+        "ar": "يجب وجود كاشف دخان في كل طابق من المنزل. في المنزل المستأجر يكون المؤجّر مسؤولاً عن التركيب."
+      },
+      {
+        "objective": "3.2.1",
+        "nl": "Een rookmelder moet werken om te waarschuwen. Test hem regelmatig volgens de handleiding en meld een defect.",
+        "ar": "يجب أن يعمل كاشف الدخان حتى يحذّر. اختبره دورياً وفق الدليل وأبلغ عن العطل."
+      },
+      {
+        "objective": "3.2.1",
+        "nl": "Een rookmelder waarschuwt voor rook. Hij blust zelf geen brand en vervangt geen vrije vluchtroute.",
+        "ar": "يحذّر كاشف الدخان من الدخان، لكنه لا يطفئ الحريق ولا يغني عن مسار إخلاء خالٍ."
+      },
+      {
+        "objective": "3.2.1",
+        "nl": "Houd de route naar buiten vrij. Dozen en fietsen op een vluchtroute kunnen mensen bij brand hinderen.",
+        "ar": "أبقِ الطريق إلى الخارج خالياً. قد تعيق الصناديق والدراجات في مسار الإخلاء خروج الناس عند الحريق."
+      },
+      {
+        "objective": "3.2.1",
+        "nl": "Maak vooraf duidelijk hoe bewoners de woning kunnen verlaten bij brand. Houd daarbij rekening met mensen die hulp nodig hebben.",
+        "ar": "اتفق مسبقاً على كيفية مغادرة السكان المنزل عند الحريق، مع مراعاة من يحتاج إلى مساعدة."
+      },
+      {
+        "objective": "3.1.2",
+        "nl": "Meld een gebrek aan de verhuurder duidelijk en bewaar uw melding. Datum, plaats en foto’s kunnen helpen om het probleem te beschrijven.",
+        "ar": "أبلغ المؤجّر بوضوح عن الخلل واحتفظ بالبلاغ. يساعد التاريخ والمكان والصور على وصف المشكلة."
+      },
+      {
+        "objective": "3.1.2",
+        "nl": "Niet iedere reparatie is voor dezelfde partij. Controleer onderhoudsafspraken en vraag bij twijfel wie het herstel regelt.",
+        "ar": "ليست كل الإصلاحات مسؤولية الطرف نفسه. راجع ترتيبات الصيانة واسأل عند الشك عمّن ينظم الإصلاح."
+      },
+      {
+        "objective": "3.1.2",
+        "nl": "Als noodzakelijk onderhoud uitblijft, kunt u advies vragen over uw huurdersrechten. Stop niet zonder advies met huur betalen.",
+        "ar": "إذا تأخرت الصيانة الضرورية يمكنك طلب مشورة بشأن حقوق المستأجر. لا تتوقف عن دفع الإيجار دون مشورة."
+      },
+      {
+        "objective": "3.2.1",
+        "nl": "Een reparatieafspraak bevat meestal een tijdvak en contactgegevens. Controleer wie komt en maak zo nodig een nieuwe afspraak.",
+        "ar": "يتضمن موعد الإصلاح عادة فترة زمنية وبيانات اتصال. تحقّق ممّن سيأتي وحدد موعداً جديداً عند الحاجة."
+      },
+      {
+        "objective": "3.2.1",
+        "nl": "Gebruik apparaten volgens de veiligheidsinstructies. Laat een onbekend technisch defect beoordelen door een deskundige.",
+        "ar": "استخدم الأجهزة وفق تعليمات السلامة ودع مختصاً يقيّم العطل التقني الذي لا تعرفه."
+      },
+      {
+        "objective": "3.2.2",
+        "nl": "Energie besparen en veilig wonen horen samen. Blokkeer geen noodzakelijke ventilatie om alleen warmte vast te houden.",
+        "ar": "ترشيد الطاقة وسلامة السكن متلازمان. لا تسد التهوية الضرورية بهدف حبس الحرارة فقط."
+      },
+      {
+        "objective": "3.1.2",
+        "nl": "Bij de oplevering kunt u de staat van de woning vastleggen. Bewaar het verslag en meld verschillen of gebreken tijdig.",
+        "ar": "يمكن توثيق حالة المنزل عند تسلّمه. احتفظ بالمحضر وأبلغ في الوقت المناسب عن الاختلافات أو العيوب."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de rookmelder",
+        "ar": "كاشف الدخان"
+      },
+      {
+        "nl": "de vluchtroute",
+        "ar": "مسار الإخلاء"
+      },
+      {
+        "nl": "de verhuurder",
+        "ar": "المؤجّر"
+      },
+      {
+        "nl": "het gebrek",
+        "ar": "الخلل"
+      },
+      {
+        "nl": "de reparatie",
+        "ar": "الإصلاح"
+      },
+      {
+        "nl": "de onderhoudsmelding",
+        "ar": "بلاغ الصيانة"
+      },
+      {
+        "nl": "de verdieping",
+        "ar": "الطابق"
+      },
+      {
+        "nl": "de handleiding",
+        "ar": "دليل الاستخدام"
+      }
+    ],
+    "example": {
+      "nl": "Bij de woningcontrole ziet Bilal dat op de bovenverdieping een rookmelder ontbreekt. Hij meldt dit aan de verhuurder. Hij leest hoe hij de aanwezige melders moet testen en zet geen dozen in de gemeenschappelijke vluchtroute. Voor een lekkage bewaart hij foto’s en een kopie van zijn onderhoudsmelding.",
+      "ar": "خلال تفقد المنزل يرى بلال أن كاشف الدخان مفقود في الطابق العلوي. يبلغ المؤجّر، ويقرأ طريقة اختبار الكواشف الموجودة ولا يضع صناديق في مسار الإخلاء المشترك. ويحتفظ بصور التسرب ونسخة من بلاغ الصيانة."
+    },
+    "dialogue": [
+      {
+        "speaker": "Bilal",
+        "nl": "Op de bovenverdieping hangt geen rookmelder. Wie plaatst er een?",
+        "ar": "لا يوجد كاشف دخان في الطابق العلوي. من يركّب واحداً؟"
+      },
+      {
+        "speaker": "Verhuurder",
+        "nl": "Als verhuurder moet ik daarvoor zorgen. Ik plan een afspraak.",
+        "ar": "بصفتي المؤجّر عليّ توفيره. سأحدد موعداً."
+      },
+      {
+        "speaker": "Bilal",
+        "nl": "Kan ik de bestaande melders zelf controleren?",
+        "ar": "هل يمكنني فحص الكواشف الموجودة؟"
+      },
+      {
+        "speaker": "Verhuurder",
+        "nl": "Lees de handleiding voor de test en meld een defect.",
+        "ar": "اقرأ تعليمات الاختبار وأبلغ عن أي عطل."
+      }
+    ],
+    "questionIds": [
+      "knm-home-safety-and-maintenance-1",
+      "knm-home-safety-and-maintenance-2",
+      "knm-home-safety-and-maintenance-3",
+      "knm-home-safety-and-maintenance-4",
+      "knm-home-safety-and-maintenance-5",
+      "knm-home-safety-and-maintenance-6",
+      "knm-home-safety-and-maintenance-7",
+      "knm-home-safety-and-maintenance-8",
+      "knm-home-safety-and-maintenance-9",
+      "knm-home-safety-and-maintenance-10",
+      "knm-home-safety-and-maintenance-11",
+      "knm-home-safety-and-maintenance-12"
+    ],
+    "sourceIds": [
+      "endterms",
+      "smoke-alarms",
+      "fire-safe-home"
+    ]
+  },
+  {
+    "slug": "prevention-and-support-at-home",
+    "themeId": "4",
+    "number": 44,
+    "title": {
+      "nl": "Preventie en ondersteuning thuis",
+      "ar": "الوقاية والدعم في المنزل"
+    },
+    "durationMinutes": 22,
+    "kind": "application",
+    "objectives": [
+      "4.5.1",
+      "4.1.1",
+      "4.1.4"
+    ],
+    "points": [
+      {
+        "objective": "4.5.1",
+        "nl": "Een bevolkingsonderzoek zoekt naar bepaalde ziekten voordat er klachten zijn. Een uitnodiging is op zichzelf geen diagnose.",
+        "ar": "يبحث الفحص السكاني عن أمراض معينة قبل ظهور أعراض. الدعوة وحدها ليست تشخيصاً."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Meedoen aan bevolkingsonderzoek is vrijwillig. Lees de informatie over voordelen, nadelen en mogelijke uitslagen.",
+        "ar": "المشاركة في الفحص السكاني اختيارية. اقرأ المعلومات عن الفوائد والسلبيات والنتائج الممكنة."
+      },
+      {
+        "objective": "4.1.1",
+        "nl": "Bij gezondheidsklachten kunt u de huisarts raadplegen. Wacht niet op een volgende screeningsuitnodiging om klachten te bespreken.",
+        "ar": "يمكنك مراجعة طبيب الأسرة عند وجود أعراض صحية. لا تنتظر دعوة الفحص التالية لمناقشة الأعراض."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Een afwijkende screeningsuitslag kan aanleiding zijn voor vervolgonderzoek. Zij betekent niet altijd dat iemand de onderzochte ziekte heeft.",
+        "ar": "قد تستدعي نتيجة فحص غير طبيعية فحوصاً إضافية، ولا تعني دائماً الإصابة بالمرض المستهدف."
+      },
+      {
+        "objective": "4.1.4",
+        "nl": "Het consultatiebureau volgt de groei en ontwikkeling van jonge kinderen. Ouders kunnen er vragen stellen over verzorging en ontwikkeling.",
+        "ar": "يتابع مركز رعاية الطفل نمو الصغار وتطورهم. يمكن للوالدين السؤال عن الرعاية والتطور."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Voor vaccinatie is geïnformeerde toestemming nodig. Wie toestemming geeft, hangt mede af van de leeftijd van het kind.",
+        "ar": "يتطلب التطعيم موافقة مستنيرة. يعتمد تحديد من يعطي الموافقة جزئياً على عمر الطفل."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Vaccinaties in het Rijksvaccinatieprogramma zijn iets anders dan alle mogelijke reisvaccinaties. Controleer bij reizen het advies en eventuele kosten.",
+        "ar": "تطعيمات البرنامج الوطني ليست جميع تطعيمات السفر الممكنة. تحقّق عند السفر من التوصية والتكاليف المحتملة."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Voor ondersteuning om thuis te kunnen blijven wonen kunt u bij de gemeente informeren naar de Wmo. De gemeente onderzoekt uw situatie.",
+        "ar": "للدعم الذي يساعدك على البقاء في المنزل يمكنك سؤال البلدية عن Wmo. تدرس البلدية حالتك."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Bij een Wmo-onderzoek kijkt de gemeente naar de hulpvraag en mogelijke oplossingen. Een aanvraag garandeert niet automatisch de gekozen voorziening.",
+        "ar": "يدرس تقييم Wmo الحاجة للمساعدة والحلول الممكنة. الطلب لا يضمن تلقائياً الحصول على الخدمة المختارة."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Bij een Wmo-aanvraag kunt u gratis onafhankelijke cliëntondersteuning vragen. Die ondersteunt uw voorbereiding en het gesprek.",
+        "ar": "يمكنك عند طلب Wmo الحصول على دعم مستقل مجاني يساعد في التحضير والمحادثة."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Voor sommige Wmo-ondersteuning kan een eigen bijdrage gelden. Vraag welke kosten en voorwaarden in uw situatie gelden.",
+        "ar": "قد تُطلب مساهمة شخصية لبعض خدمات Wmo. اسأل عن التكاليف والشروط التي تنطبق على حالتك."
+      },
+      {
+        "objective": "4.5.1",
+        "nl": "Beschrijf bij een ondersteuningsgesprek wat thuis niet lukt en welke hulp er al is. Concrete voorbeelden helpen de situatie te begrijpen.",
+        "ar": "اشرح في محادثة الدعم ما تعجز عن فعله في المنزل والمساعدة الموجودة بالفعل. تساعد الأمثلة المحددة على فهم الحالة."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "het bevolkingsonderzoek",
+        "ar": "الفحص السكاني الوقائي"
+      },
+      {
+        "nl": "de toestemming",
+        "ar": "الموافقة"
+      },
+      {
+        "nl": "de vaccinatie",
+        "ar": "التطعيم"
+      },
+      {
+        "nl": "de ondersteuning",
+        "ar": "الدعم"
+      },
+      {
+        "nl": "het wijkteam",
+        "ar": "فريق الحي"
+      },
+      {
+        "nl": "de cliëntondersteuner",
+        "ar": "مستشار دعم المستفيد"
+      },
+      {
+        "nl": "de hulpvraag",
+        "ar": "الحاجة إلى المساعدة"
+      },
+      {
+        "nl": "het vervolgonderzoek",
+        "ar": "الفحص المتابع"
+      }
+    ],
+    "example": {
+      "nl": "Huda ontvangt een uitnodiging voor bevolkingsonderzoek. De brief betekent niet dat zij een ziekte heeft. Ze leest over voordelen en nadelen en beslist zelf over deelname. Haar vader heeft thuis ondersteuning nodig. Zij vraagt bij de gemeente hoe een Wmo-onderzoek werkt en of een onafhankelijke cliëntondersteuner kan helpen.",
+      "ar": "تتلقى هدى دعوة لفحص وقائي سكاني. لا تعني الرسالة أنها مصابة بمرض. تقرأ الفوائد والسلبيات وتختار بنفسها المشاركة. يحتاج والدها إلى دعم في المنزل، فتسأل البلدية عن تقييم الدعم ضمن Wmo وعن إمكانية المساعدة من مستشار مستقل."
+    },
+    "dialogue": [
+      {
+        "speaker": "Huda",
+        "nl": "Mijn vader heeft thuis hulp nodig. Krijgt hij automatisch wat wij aanvragen?",
+        "ar": "يحتاج والدي إلى مساعدة في المنزل. هل يحصل تلقائياً على ما نطلبه؟"
+      },
+      {
+        "speaker": "Medewerker",
+        "nl": "Nee. De gemeente onderzoekt zijn situatie en welke ondersteuning passend is.",
+        "ar": "لا. تدرس البلدية حالته وما يناسبه من دعم."
+      },
+      {
+        "speaker": "Huda",
+        "nl": "Kan iemand ons helpen bij dat gesprek?",
+        "ar": "هل يمكن لأحد مساعدتنا في هذه المحادثة؟"
+      },
+      {
+        "speaker": "Medewerker",
+        "nl": "U kunt gratis onafhankelijke cliëntondersteuning vragen.",
+        "ar": "يمكنكم طلب دعم مستقل مجاني للمستفيد."
+      }
+    ],
+    "questionIds": [
+      "knm-prevention-and-support-at-home-1",
+      "knm-prevention-and-support-at-home-2",
+      "knm-prevention-and-support-at-home-3",
+      "knm-prevention-and-support-at-home-4",
+      "knm-prevention-and-support-at-home-5",
+      "knm-prevention-and-support-at-home-6",
+      "knm-prevention-and-support-at-home-7",
+      "knm-prevention-and-support-at-home-8",
+      "knm-prevention-and-support-at-home-9",
+      "knm-prevention-and-support-at-home-10",
+      "knm-prevention-and-support-at-home-11",
+      "knm-prevention-and-support-at-home-12"
+    ],
+    "sourceIds": [
+      "endterms",
+      "vaccination-consent",
+      "screening-choice",
+      "screening-overview",
+      "wmo-application",
+      "wmo-support",
+      "public-vaccination"
+    ]
+  },
+  {
+    "slug": "colonial-history-and-migration",
+    "themeId": "5",
+    "number": 45,
+    "title": {
+      "nl": "Koloniale geschiedenis, vrijheid en migratie",
+      "ar": "التاريخ الاستعماري والحرية والهجرة"
+    },
+    "durationMinutes": 22,
+    "kind": "application",
+    "objectives": [
+      "5.1.1",
+      "5.1.2"
+    ],
+    "points": [
+      {
+        "objective": "5.1.1",
+        "nl": "Nederland had koloniën, onder meer in Indonesië, Suriname en het Caribisch gebied. Deze geschiedenis heeft gevolgen voor de samenleving van nu.",
+        "ar": "كانت لهولندا مستعمرات منها إندونيسيا وسورينام ومناطق في الكاريبي. لهذا التاريخ آثار في المجتمع الحالي."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Slavernij betekende dat mensen als bezit werden behandeld en niet vrij waren. Het is iets anders dan vrijwillig betaald werk.",
+        "ar": "كانت العبودية تعني معاملة البشر كملكية وحرمانهم من الحرية. وهي تختلف عن العمل المدفوع الاختياري."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "In 1863 werd slavernij wettelijk afgeschaft in Suriname en de Nederlandse Caribische koloniën. Dat was niet hetzelfde als onafhankelijkheid.",
+        "ar": "أُلغيت العبودية قانونياً عام 1863 في سورينام والمستعمرات الهولندية الكاريبية. لم يكن ذلك هو الاستقلال."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "In Suriname moesten veel vrijgemaakte mensen na 1863 nog tien jaar onder staatstoezicht werken. Dit systeem eindigde daar in 1873.",
+        "ar": "في سورينام أُجبر كثير من المحرَّرين بعد 1863 على العمل عشر سنوات تحت إشراف الدولة. انتهى هذا النظام هناك عام 1873."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Indonesië riep op 17 augustus 1945 de onafhankelijkheid uit. De soevereiniteitsoverdracht door Nederland volgde in 1949.",
+        "ar": "أعلنت إندونيسيا استقلالها في 17 أغسطس 1945. وتبع ذلك نقل السيادة من هولندا عام 1949."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Op 27 december 1949 vond de soevereiniteitsoverdracht aan Indonesië plaats. Verwar dit niet met de onafhankelijkheidsverklaring van 1945.",
+        "ar": "في 27 ديسمبر 1949 جرى نقل السيادة إلى إندونيسيا. لا تخلط ذلك مع إعلان الاستقلال عام 1945."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Suriname werd in 1975 een onafhankelijke republiek. Dit was ruim na de afschaffing van slavernij in 1863.",
+        "ar": "أصبحت سورينام جمهورية مستقلة عام 1975، بعد إلغاء العبودية عام 1863 بزمن طويل."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "Na de Tweede Wereldoorlog kwamen onder anderen mensen uit voormalige koloniën naar Nederland. Hun geschiedenissen zijn niet allemaal hetzelfde.",
+        "ar": "بعد الحرب العالمية الثانية جاء إلى هولندا، من بين آخرين، أناس من مستعمرات سابقة. ليست قصصهم جميعاً متماثلة."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "Arbeidsmigranten komen voor werk. Vluchtelingen zoeken bescherming; redenen en persoonlijke situaties verschillen.",
+        "ar": "يأتي مهاجرو العمل من أجل العمل، ويطلب اللاجئون الحماية. تختلف الأسباب والظروف الشخصية."
+      },
+      {
+        "objective": "5.1.2",
+        "nl": "Familiehereniging, werk en bescherming zijn verschillende redenen om te migreren. U kunt niet aan een naam zien waarom iemand migreerde.",
+        "ar": "لمّ الشمل والعمل والحماية أسباب مختلفة للهجرة. لا يمكن معرفة سبب هجرة شخص من اسمه."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Bij een historische bron zijn maker, tijd en doel belangrijk. Een persoonlijk verhaal en een overheidsdocument kunnen verschillende kanten laten zien.",
+        "ar": "من المهم معرفة صاحب المصدر التاريخي وزمنه وغرضه. قد تُظهر رواية شخصية ووثيقة حكومية جوانب مختلفة."
+      },
+      {
+        "objective": "5.1.1",
+        "nl": "Een tijdlijn helpt gebeurtenissen op volgorde te zetten. Afschaffing van slavernij en onafhankelijkheid zijn verschillende veranderingen.",
+        "ar": "يساعد الخط الزمني على ترتيب الأحداث. إلغاء العبودية والاستقلال تغيّران مختلفان."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de kolonie",
+        "ar": "المستعمرة"
+      },
+      {
+        "nl": "de slavernij",
+        "ar": "العبودية"
+      },
+      {
+        "nl": "de onafhankelijkheid",
+        "ar": "الاستقلال"
+      },
+      {
+        "nl": "de soevereiniteit",
+        "ar": "السيادة"
+      },
+      {
+        "nl": "de arbeidsmigrant",
+        "ar": "المهاجر للعمل"
+      },
+      {
+        "nl": "de vluchteling",
+        "ar": "اللاجئ"
+      },
+      {
+        "nl": "de historische bron",
+        "ar": "المصدر التاريخي"
+      },
+      {
+        "nl": "de tijdlijn",
+        "ar": "الخط الزمني"
+      }
+    ],
+    "example": {
+      "nl": "In een museum ziet Rami twee jaartallen bij Indonesië: 1945 en 1949. Hij leest welk feit bij welk jaar hoort: in 1945 werd de onafhankelijkheid uitgeroepen; in 1949 droeg Nederland de soevereiniteit over. Bij Suriname leest hij over de afschaffing van slavernij in 1863 en de onafhankelijkheid in 1975. Hij verwart deze gebeurtenissen niet met elkaar.",
+      "ar": "يرى رامي في متحف تاريخَي 1945 و1949 المرتبطين بإندونيسيا. يقرأ الحدث الخاص بكل سنة: أُعلن الاستقلال في 1945 ونقلت هولندا السيادة في 1949. وعند سورينام يقرأ عن إلغاء العبودية عام 1863 والاستقلال عام 1975. لا يخلط بين هذه الأحداث."
+    },
+    "dialogue": [
+      {
+        "speaker": "Rami",
+        "nl": "Waarom staan er twee jaartallen bij Indonesië?",
+        "ar": "لماذا توجد سنتان بجانب إندونيسيا؟"
+      },
+      {
+        "speaker": "Gids",
+        "nl": "In 1945 werd de onafhankelijkheid uitgeroepen; in 1949 volgde de soevereiniteitsoverdracht.",
+        "ar": "أُعلن الاستقلال عام 1945، وتبع ذلك نقل السيادة عام 1949."
+      },
+      {
+        "speaker": "Rami",
+        "nl": "Is de afschaffing van slavernij hetzelfde als onafhankelijkheid?",
+        "ar": "هل إلغاء العبودية هو نفسه الاستقلال؟"
+      },
+      {
+        "speaker": "Gids",
+        "nl": "Nee. Het zijn verschillende gebeurtenissen. Lees bij elk jaartal wat er veranderde.",
+        "ar": "لا. هما حدثان مختلفان. اقرأ ما الذي تغير مع كل تاريخ."
+      }
+    ],
+    "questionIds": [
+      "knm-colonial-history-and-migration-1",
+      "knm-colonial-history-and-migration-2",
+      "knm-colonial-history-and-migration-3",
+      "knm-colonial-history-and-migration-4",
+      "knm-colonial-history-and-migration-5",
+      "knm-colonial-history-and-migration-6",
+      "knm-colonial-history-and-migration-7",
+      "knm-colonial-history-and-migration-8",
+      "knm-colonial-history-and-migration-9",
+      "knm-colonial-history-and-migration-10",
+      "knm-colonial-history-and-migration-11",
+      "knm-colonial-history-and-migration-12"
+    ],
+    "sourceIds": [
+      "endterms",
+      "slavery-abolition",
+      "indonesia-sovereignty",
+      "suriname-independence"
+    ]
+  },
+  {
+    "slug": "income-tax-and-allowance-changes",
+    "themeId": "6",
+    "number": 46,
+    "title": {
+      "nl": "Jaaropgave, aangifte en veranderend inkomen",
+      "ar": "البيان السنوي والإقرار وتغيّر الدخل"
+    },
+    "durationMinutes": 22,
+    "kind": "application",
+    "objectives": [
+      "6.3.1",
+      "6.3.2",
+      "6.3.3",
+      "6.1.1"
+    ],
+    "points": [
+      {
+        "objective": "6.3.1",
+        "nl": "Een jaaropgave bevat gegevens over inkomen en inhoudingen over een heel jaar. Een salarisstrook gaat meestal over één loonperiode.",
+        "ar": "يحتوي بيان الدخل السنوي على بيانات الدخل والاستقطاعات لسنة كاملة. أما قسيمة الراتب فتخص غالباً فترة راتب واحدة."
+      },
+      {
+        "objective": "6.3.1",
+        "nl": "Wie in één jaar verschillende werkgevers had, kan meerdere jaaropgaven krijgen. Verzamel de relevante gegevens voor de aangifte.",
+        "ar": "قد يحصل من عمل لدى أكثر من صاحب عمل في السنة على بيانات سنوية متعددة. اجمع البيانات اللازمة للإقرار."
+      },
+      {
+        "objective": "6.3.2",
+        "nl": "Bij een uitnodiging tot belastingaangifte hoort een uiterste datum. Lees de brief en vraag tijdig hulp als het niet lukt.",
+        "ar": "تتضمن دعوة تقديم الإقرار موعداً نهائياً. اقرأ الرسالة واطلب المساعدة مبكراً إذا تعذر عليك إنجازه."
+      },
+      {
+        "objective": "6.3.2",
+        "nl": "Vooraf ingevulde gegevens kunnen onvolledig of onjuist zijn. Controleer ze met uw eigen documenten voordat u de aangifte verstuurt.",
+        "ar": "قد تكون البيانات المعبأة مسبقاً ناقصة أو خاطئة. قارنها بمستنداتك قبل إرسال الإقرار."
+      },
+      {
+        "objective": "6.3.2",
+        "nl": "Aangifte doen betekent gegevens doorgeven. Een aanslag geeft aan welk bedrag u moet betalen of terugkrijgt.",
+        "ar": "تقديم الإقرار يعني إبلاغ البيانات. ويبيّن التقدير الضريبي المبلغ المطلوب دفعه أو المسترد."
+      },
+      {
+        "objective": "6.3.3",
+        "nl": "Een toeslag kan als voorschot worden betaald op basis van een geschat jaarinkomen. De definitieve berekening kan later anders uitvallen.",
+        "ar": "قد يُدفع البدل كمقدّم اعتماداً على دخل سنوي مقدّر. وقد يختلف الحساب النهائي لاحقاً."
+      },
+      {
+        "objective": "6.3.3",
+        "nl": "Geef bij toeslagen een verandering in het geschatte jaarinkomen tijdig door. Ook inkomsten eerder in het jaar tellen mee voor de schatting.",
+        "ar": "أبلغ في الوقت المناسب عن تغيّر تقدير الدخل السنوي للبدلات. يشمل التقدير أيضاً دخل الشهور السابقة من السنة."
+      },
+      {
+        "objective": "6.3.3",
+        "nl": "In Mijn toeslagen kunt u een toeslag aanvragen, gegevens wijzigen en besluiten bekijken. Log in via de officiële route met uw eigen DigiD.",
+        "ar": "في Mijn toeslagen يمكنك طلب بدل وتعديل البيانات ومراجعة القرارات. ادخل عبر المسار الرسمي باستخدام DigiD الخاص بك."
+      },
+      {
+        "objective": "6.3.2",
+        "nl": "Een voorlopige aanslag inkomstenbelasting is een voorlopige berekening. Bij een gewijzigde situatie kunt u nagaan of aanpassing nodig is.",
+        "ar": "التقدير الأولي لضريبة الدخل حساب مؤقت. عند تغير الظروف يمكنك التحقق من الحاجة لتعديله."
+      },
+      {
+        "objective": "6.3.3",
+        "nl": "Een wijziging in Mijn toeslagen past niet automatisch ook uw voorlopige aanslag inkomstenbelasting aan. Controleer beide als u ze allebei heeft.",
+        "ar": "تعديل البيانات في Mijn toeslagen لا يعدّل تلقائياً أيضاً تقدير ضريبة الدخل الأولي. راجع الاثنين إذا كانا موجودين."
+      },
+      {
+        "objective": "6.3.2",
+        "nl": "Een opgeslagen concept is nog niet altijd een verzonden aangifte. Volg de verzendstappen en bewaar de ontvangstbevestiging.",
+        "ar": "حفظ مسودة الإقرار لا يعني دائماً إرساله. أكمل خطوات الإرسال واحتفظ بتأكيد الاستلام."
+      },
+      {
+        "objective": "6.1.1",
+        "nl": "Wie hulp nodig heeft, kan de officiële hulpkanalen gebruiken. Deel uw DigiD-wachtwoord niet met een helper; vraag naar veilige machtiging.",
+        "ar": "يمكن لمن يحتاج مساعدة استخدام القنوات الرسمية. لا تشارك كلمة مرور DigiD مع المساعد واسأل عن التفويض الآمن."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de jaaropgave",
+        "ar": "بيان الدخل السنوي"
+      },
+      {
+        "nl": "de aangifte",
+        "ar": "الإقرار الضريبي"
+      },
+      {
+        "nl": "de aanslag",
+        "ar": "التقدير الضريبي"
+      },
+      {
+        "nl": "de schatting",
+        "ar": "التقدير التقريبي"
+      },
+      {
+        "nl": "het voorschot",
+        "ar": "الدفعة المقدّمة"
+      },
+      {
+        "nl": "de toeslag",
+        "ar": "البدل الحكومي"
+      },
+      {
+        "nl": "de wijziging",
+        "ar": "التغيير"
+      },
+      {
+        "nl": "de ontvangstbevestiging",
+        "ar": "تأكيد الاستلام"
+      }
+    ],
+    "example": {
+      "nl": "Tariq begint halverwege het jaar meer uren te werken. Hij schat zijn nieuwe jaarinkomen en past dit aan in Mijn toeslagen. Hij heeft ook een voorlopige aanslag inkomstenbelasting en controleert die apart. Voor zijn belastingaangifte bewaart hij de jaaropgaven van beide werkgevers en controleert hij de vooraf ingevulde gegevens.",
+      "ar": "يبدأ طارق العمل ساعات أكثر في منتصف السنة. يقدّر دخله السنوي الجديد ويعدله في Mijn toeslagen. لديه أيضاً تقدير ضريبي أولي فيراجعه بشكل منفصل. يحتفظ ببيانَي الدخل السنوي من صاحبَي العمل ويفحص البيانات المعبأة مسبقاً عند تقديم الإقرار."
+    },
+    "dialogue": [
+      {
+        "speaker": "Tariq",
+        "nl": "Ik verdien nu meer. Past mijn toeslag vanzelf goed aan?",
+        "ar": "أصبح دخلي أكبر. هل يتعدل البدل تلقائياً بشكل صحيح؟"
+      },
+      {
+        "speaker": "Medewerker",
+        "nl": "Niet altijd. Geef uw nieuwe geschatte jaarinkomen door in Mijn toeslagen.",
+        "ar": "ليس دائماً. أبلغ عن تقدير دخلك السنوي الجديد في Mijn toeslagen."
+      },
+      {
+        "speaker": "Tariq",
+        "nl": "En mijn voorlopige aanslag inkomstenbelasting?",
+        "ar": "وماذا عن التقدير الأولي لضريبة الدخل؟"
+      },
+      {
+        "speaker": "Medewerker",
+        "nl": "Controleer die apart en wijzig hem als dat nodig is. Bewaar de bevestigingen.",
+        "ar": "راجعه بشكل منفصل وعدّله إن لزم. واحتفظ بالتأكيدات."
+      }
+    ],
+    "questionIds": [
+      "knm-income-tax-and-allowance-changes-1",
+      "knm-income-tax-and-allowance-changes-2",
+      "knm-income-tax-and-allowance-changes-3",
+      "knm-income-tax-and-allowance-changes-4",
+      "knm-income-tax-and-allowance-changes-5",
+      "knm-income-tax-and-allowance-changes-6",
+      "knm-income-tax-and-allowance-changes-7",
+      "knm-income-tax-and-allowance-changes-8",
+      "knm-income-tax-and-allowance-changes-9",
+      "knm-income-tax-and-allowance-changes-10",
+      "knm-income-tax-and-allowance-changes-11",
+      "knm-income-tax-and-allowance-changes-12"
+    ],
+    "sourceIds": [
+      "endterms",
+      "tax-return",
+      "allowance-login",
+      "income-changes",
+      "advance-tax-change"
+    ]
+  },
+  {
+    "slug": "courts-and-personal-data",
+    "themeId": "7",
+    "number": 47,
+    "title": {
+      "nl": "Rechter, rechtsbescherming en persoonsgegevens",
+      "ar": "القضاء والحماية القانونية والبيانات الشخصية"
+    },
+    "durationMinutes": 22,
+    "kind": "application",
+    "objectives": [
+      "7.1.3",
+      "7.2.5"
+    ],
+    "points": [
+      {
+        "objective": "7.1.3",
+        "nl": "De rechterlijke macht beoordeelt geschillen en strafzaken volgens het recht. Een rechter moet onafhankelijk en onpartijdig zijn.",
+        "ar": "تفصل السلطة القضائية في المنازعات والقضايا الجنائية وفق القانون. يجب أن يكون القاضي مستقلاً ومحايداً."
+      },
+      {
+        "objective": "7.1.3",
+        "nl": "Machtenscheiding helpt voorkomen dat alle macht bij één persoon of organisatie ligt. Rechtspraak moet onafhankelijk kunnen plaatsvinden.",
+        "ar": "يساعد الفصل بين السلطات على منع احتكار شخص أو مؤسسة لكل السلطة. يجب أن يتم القضاء باستقلال."
+      },
+      {
+        "objective": "7.1.3",
+        "nl": "Een minister mag niet voorschrijven hoe een rechter in een individuele zaak moet beslissen. De rechter past het recht toe.",
+        "ar": "لا يحق للوزير أن يملي على القاضي كيفية الحكم في قضية فردية. يطبّق القاضي القانون."
+      },
+      {
+        "objective": "7.1.3",
+        "nl": "In een rechtszaak is informatie over de feiten belangrijk. Bewaar relevante brieven, afspraken en andere bewijsstukken.",
+        "ar": "تُعد المعلومات المتعلقة بالوقائع مهمة في القضية. احتفظ بالرسائل والاتفاقات والإثباتات ذات الصلة."
+      },
+      {
+        "objective": "7.1.3",
+        "nl": "Hoger beroep is een procedure bij een hogere rechter tegen een uitspraak. Mogelijkheden en termijnen hangen af van het soort zaak.",
+        "ar": "الاستئناف إجراء أمام جهة قضائية أعلى للطعن في حكم. تعتمد الإمكانية والمواعيد على نوع القضية."
+      },
+      {
+        "objective": "7.1.3",
+        "nl": "Oneens zijn met een uitspraak maakt die niet vanzelf ongeldig. Vraag juridisch advies over de gevolgen en mogelijke rechtsmiddelen.",
+        "ar": "عدم الموافقة على الحكم لا يبطله تلقائياً. اطلب مشورة قانونية حول آثاره ووسائل الطعن المتاحة."
+      },
+      {
+        "objective": "7.1.3",
+        "nl": "Bezwaar tegen een overheidsbesluit en hoger beroep tegen een rechterlijke uitspraak zijn verschillende procedures. Lees de uitleg bij het besluit of de uitspraak.",
+        "ar": "الاعتراض على قرار إداري واستئناف حكم قضائي إجراءان مختلفان. اقرأ الإرشادات المرفقة بالقرار أو الحكم."
+      },
+      {
+        "objective": "7.2.5",
+        "nl": "Persoonsgegevens zijn gegevens die over een herkenbare persoon gaan, zoals een naam met adres. Organisaties moeten zorgvuldig met deze gegevens omgaan.",
+        "ar": "البيانات الشخصية معلومات تتعلق بشخص يمكن التعرف عليه مثل اسم مقترن بعنوان. على المؤسسات التعامل معها بعناية."
+      },
+      {
+        "objective": "7.2.5",
+        "nl": "U kunt een organisatie vragen welke persoonsgegevens zij van u verwerkt. Dit heet een verzoek om inzage.",
+        "ar": "يمكنك سؤال مؤسسة عن البيانات الشخصية التي تعالجها عنك. يسمى هذا طلب الاطّلاع."
+      },
+      {
+        "objective": "7.2.5",
+        "nl": "Als persoonsgegevens onjuist zijn, kunt u om correctie vragen. Geef duidelijk aan welke gegevens niet kloppen.",
+        "ar": "إذا كانت البيانات الشخصية خاطئة يمكنك طلب تصحيحها. بيّن بوضوح ما الخطأ فيها."
+      },
+      {
+        "objective": "7.2.5",
+        "nl": "Het recht op verwijdering van gegevens kent uitzonderingen. Een wettelijke bewaarplicht kan betekenen dat gegevens nog bewaard moeten blijven.",
+        "ar": "لحق حذف البيانات استثناءات. قد يفرض القانون الاحتفاظ ببيانات مدة معينة."
+      },
+      {
+        "objective": "7.2.5",
+        "nl": "Een organisatie kan uitleggen waarom zij een privacyverzoek niet volledig uitvoert. U kunt om toelichting en informatie over vervolgstappen vragen.",
+        "ar": "يمكن أن تشرح المؤسسة سبب عدم تنفيذ طلب الخصوصية بالكامل. تستطيع طلب توضيح ومعلومات عن الخطوات التالية."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de rechter",
+        "ar": "القاضي"
+      },
+      {
+        "nl": "de uitspraak",
+        "ar": "الحكم القضائي"
+      },
+      {
+        "nl": "het hoger beroep",
+        "ar": "الاستئناف"
+      },
+      {
+        "nl": "de machtenscheiding",
+        "ar": "الفصل بين السلطات"
+      },
+      {
+        "nl": "de persoonsgegevens",
+        "ar": "البيانات الشخصية"
+      },
+      {
+        "nl": "de inzage",
+        "ar": "الاطّلاع"
+      },
+      {
+        "nl": "de correctie",
+        "ar": "التصحيح"
+      },
+      {
+        "nl": "de bewaarplicht",
+        "ar": "واجب الاحتفاظ"
+      }
+    ],
+    "example": {
+      "nl": "Nabil ontvangt een besluit van de gemeente en denkt dat er een fout in staat. Hij leest waar en wanneer hij bezwaar kan maken. Dat is een andere stap dan hoger beroep tegen een rechterlijke uitspraak. Daarnaast vraagt hij een organisatie om een onjuist adres te corrigeren. Hij weet dat wissen niet altijd mogelijk is als een wettelijke bewaarplicht geldt.",
+      "ar": "يتلقى نبيل قراراً من البلدية ويعتقد أن فيه خطأ. يقرأ أين ومتى يقدم اعتراضاً. هذه خطوة مختلفة عن استئناف حكم قضائي. ويطلب كذلك من مؤسسة تصحيح عنوان خاطئ، مع معرفته أن الحذف ليس ممكناً دائماً إذا كان الاحتفاظ مفروضاً قانونياً."
+    },
+    "dialogue": [
+      {
+        "speaker": "Nabil",
+        "nl": "Kan een minister de rechter vertellen wie deze zaak moet winnen?",
+        "ar": "هل يستطيع وزير إملاء الطرف الذي يجب أن يربح القضية على القاضي؟"
+      },
+      {
+        "speaker": "Medewerker",
+        "nl": "Nee. Een rechter beoordeelt een zaak onafhankelijk en onpartijdig.",
+        "ar": "لا. يقيّم القاضي القضية باستقلال وحياد."
+      },
+      {
+        "speaker": "Nabil",
+        "nl": "En als ik het niet eens ben met een uitspraak?",
+        "ar": "وماذا إن لم أوافق على الحكم؟"
+      },
+      {
+        "speaker": "Medewerker",
+        "nl": "Vraag tijdig juridisch advies over de mogelijkheden en termijnen voor beroep.",
+        "ar": "اطلب مشورة قانونية مبكراً حول إمكانيات الطعن ومواعيده."
+      }
+    ],
+    "questionIds": [
+      "knm-courts-and-personal-data-1",
+      "knm-courts-and-personal-data-2",
+      "knm-courts-and-personal-data-3",
+      "knm-courts-and-personal-data-4",
+      "knm-courts-and-personal-data-5",
+      "knm-courts-and-personal-data-6",
+      "knm-courts-and-personal-data-7",
+      "knm-courts-and-personal-data-8",
+      "knm-courts-and-personal-data-9",
+      "knm-courts-and-personal-data-10",
+      "knm-courts-and-personal-data-11",
+      "knm-courts-and-personal-data-12"
+    ],
+    "sourceIds": [
+      "endterms",
+      "judicial-decisions",
+      "judicial-appeal",
+      "privacy-rights",
+      "government-objections"
+    ]
+  },
+  {
+    "slug": "adult-study-and-student-finance",
+    "themeId": "8",
+    "number": 48,
+    "title": {
+      "nl": "Verder leren, mbo-routes en studiefinanciering",
+      "ar": "متابعة التعليم ومسارات mbo والتمويل الدراسي"
+    },
+    "durationMinutes": 22,
+    "kind": "application",
+    "objectives": [
+      "8.1.1",
+      "8.3.3",
+      "8.3.1"
+    ],
+    "points": [
+      {
+        "objective": "8.1.1",
+        "nl": "Ook volwassenen kunnen verder leren. Voor toelating kijkt een opleiding naar de eisen die bij die opleiding horen.",
+        "ar": "يمكن للبالغين أيضاً متابعة التعليم. يعتمد القبول على متطلبات البرنامج المعني."
+      },
+      {
+        "objective": "8.1.1",
+        "nl": "Het mbo kent verschillende niveaus en leerwegen. Het niveau en de toelatingseisen bepalen welke route passend kan zijn.",
+        "ar": "لدى mbo مستويات ومسارات مختلفة. يساعد المستوى وشروط القبول على تحديد المسار المناسب."
+      },
+      {
+        "objective": "8.1.1",
+        "nl": "Bij bol volgt u relatief veel onderwijs op school en doet u praktijkervaring op via stages. De precieze verdeling verschilt per opleiding.",
+        "ar": "في bol يكون التعليم المدرسي أكثر نسبياً وتكتسب خبرة عملية عبر التدريب. يختلف التوزيع الدقيق باختلاف البرنامج."
+      },
+      {
+        "objective": "8.1.1",
+        "nl": "Bij bbl ligt relatief veel nadruk op werken en leren in de praktijk, naast onderwijs. Vraag naar de afspraken over werkplek en begeleiding.",
+        "ar": "في bbl يكون التركيز النسبي أكبر على العمل والتعلم التطبيقي إلى جانب الدراسة. اسأل عن مكان العمل والإشراف."
+      },
+      {
+        "objective": "8.1.1",
+        "nl": "Niet elke mbo-opleiding is in zowel bol als bbl beschikbaar. Controleer het aanbod bij de school.",
+        "ar": "لا يتوفر كل برنامج mbo بمسارَي bol وbbl معاً. تحقّق من العرض لدى المدرسة."
+      },
+      {
+        "objective": "8.3.3",
+        "nl": "Studiefinanciering hangt af van onder meer opleiding, leeftijd en nationaliteit of verblijfsrecht. Controleer uw eigen voorwaarden bij DUO.",
+        "ar": "يعتمد التمويل الدراسي على عوامل منها البرنامج والعمر والجنسية أو حق الإقامة. تحقّق من شروطك الخاصة لدى DUO."
+      },
+      {
+        "objective": "8.3.3",
+        "nl": "Voor mbo-studiefinanciering is de leerweg van belang. Een bbl-opleiding geeft niet hetzelfde recht op studiefinanciering als een bol-opleiding.",
+        "ar": "المسار مهم للتمويل الدراسي في mbo. لا يمنح bbl الحق نفسه في التمويل الدراسي الذي يمنحه bol."
+      },
+      {
+        "objective": "8.3.3",
+        "nl": "Een rentedragende studielening moet u terugbetalen, ook als u een diploma behaalt. Een lening is geen beurs die door een diploma een gift wordt.",
+        "ar": "عليك سداد القرض الدراسي ذي الفائدة حتى إذا حصلت على الشهادة. القرض ليس منحة تتحول إلى هبة بسبب التخرج."
+      },
+      {
+        "objective": "8.3.3",
+        "nl": "Voor mbo niveau 3 en 4, hbo en universiteit kunnen beursdelen een prestatiebeurs zijn. Om die in een gift om te zetten gelden diplomavoorwaarden, waaronder de termijn van tien jaar.",
+        "ar": "في mbo 3 و4 وhbo والجامعة قد تكون أجزاء المنحة مشروطة بالإنجاز. لتحويلها إلى هبة تنطبق شروط للشهادة منها مهلة عشر سنوات."
+      },
+      {
+        "objective": "8.3.3",
+        "nl": "Bij mbo niveau 1 en 2 zijn de beurs en het reisproduct een gift. Een daarnaast afgesloten rentedragende lening moet wel worden terugbetaald.",
+        "ar": "في mbo 1 و2 تكون المنحة ومنتج السفر هبة. أما القرض ذو الفائدة المأخوذ إلى جانبهما فيجب سداده."
+      },
+      {
+        "objective": "8.3.3",
+        "nl": "Levenlanglerenkrediet is onder voorwaarden een lening voor les- of collegegeld. Het is geen automatische gift voor alle studiekosten.",
+        "ar": "تمويل التعلم مدى الحياة قرض مشروط لرسوم التعليم. ليس هبة تلقائية لكل تكاليف الدراسة."
+      },
+      {
+        "objective": "8.3.1",
+        "nl": "Vergelijk vóór inschrijving het rooster, praktijkuren, lesgeld en bijkomende kosten. Vraag de school om uitleg en DUO naar mogelijke financiering.",
+        "ar": "قارن قبل التسجيل الجدول وساعات التطبيق والرسوم والتكاليف الإضافية. اطلب الشرح من المدرسة واستفسر لدى DUO عن التمويل الممكن."
+      }
+    ],
+    "vocabulary": [
+      {
+        "nl": "de beroepsopleiding",
+        "ar": "التعليم المهني"
+      },
+      {
+        "nl": "de leerweg",
+        "ar": "المسار التعليمي"
+      },
+      {
+        "nl": "de stage",
+        "ar": "التدريب العملي"
+      },
+      {
+        "nl": "de toelatingseis",
+        "ar": "شرط القبول"
+      },
+      {
+        "nl": "de studiefinanciering",
+        "ar": "التمويل الدراسي"
+      },
+      {
+        "nl": "de prestatiebeurs",
+        "ar": "المنحة المشروطة بالإنجاز"
+      },
+      {
+        "nl": "de lening",
+        "ar": "القرض"
+      },
+      {
+        "nl": "het lesrooster",
+        "ar": "الجدول الدراسي"
+      }
+    ],
+    "example": {
+      "nl": "Salma wil als volwassene een mbo-opleiding volgen. Ze vraagt welke vooropleiding nodig is en of de opleiding een bol- of bbl-route heeft. Ze vergelijkt school, praktijk, rooster en kosten. Bij DUO controleert ze haar persoonlijke voorwaarden. Ze rekent een lening niet als cadeau: die moet ze ook na het behalen van haar diploma terugbetalen.",
+      "ar": "تريد سلمى دراسة mbo وهي بالغة. تسأل عن المؤهل السابق المطلوب وعن توفر مسار bol أو bbl، وتقارن الدراسة والتطبيق والجدول والتكاليف. تتحقق لدى DUO من شروطها الشخصية، ولا تعتبر القرض هدية: عليها سداده حتى بعد الحصول على الشهادة."
+    },
+    "dialogue": [
+      {
+        "speaker": "Salma",
+        "nl": "Ik wil leren en werken combineren. Is iedere mbo-opleiding hetzelfde?",
+        "ar": "أريد الجمع بين الدراسة والعمل. هل كل برامج mbo متشابهة؟"
+      },
+      {
+        "speaker": "Studieadviseur",
+        "nl": "Nee. Vergelijk bol en bbl en vraag welke routes deze opleiding aanbiedt.",
+        "ar": "لا. قارني بين bol وbbl واسألي عن المسارات المتاحة في هذا البرنامج."
+      },
+      {
+        "speaker": "Salma",
+        "nl": "Krijg ik bij elke route automatisch studiefinanciering?",
+        "ar": "هل أحصل تلقائياً على تمويل دراسي في كل مسار؟"
+      },
+      {
+        "speaker": "Studieadviseur",
+        "nl": "Nee. Controleer bij DUO uw opleiding en persoonlijke voorwaarden. Een lening moet u terugbetalen.",
+        "ar": "لا. تحققي لدى DUO من البرنامج وشروطك الشخصية. وعليك سداد القرض."
+      }
+    ],
+    "questionIds": [
+      "knm-adult-study-and-student-finance-1",
+      "knm-adult-study-and-student-finance-2",
+      "knm-adult-study-and-student-finance-3",
+      "knm-adult-study-and-student-finance-4",
+      "knm-adult-study-and-student-finance-5",
+      "knm-adult-study-and-student-finance-6",
+      "knm-adult-study-and-student-finance-7",
+      "knm-adult-study-and-student-finance-8",
+      "knm-adult-study-and-student-finance-9",
+      "knm-adult-study-and-student-finance-10",
+      "knm-adult-study-and-student-finance-11",
+      "knm-adult-study-and-student-finance-12"
+    ],
+    "sourceIds": [
+      "endterms",
+      "mbo-routes",
+      "student-finance-conditions",
+      "student-finance-repayment",
+      "lifelong-learning-credit"
+    ]
   }
 ]

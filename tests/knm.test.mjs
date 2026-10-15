@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { createHash } from "node:crypto";
 import { validateKnm } from "../scripts/lib/validate-knm.mjs";
 import { buildKnmExam, gradeKnm, projectKnmQuestion, validKnmAnswers } from "../src/lib/knm/scoring.ts";
 import { applyKnmResult, cleanKnmProgress } from "../src/lib/knm/storage.ts";
@@ -9,7 +10,7 @@ const [curriculum, lessons, bank] = await Promise.all([read("curriculum"), read(
 const all = bank.questions;
 test("KNM covers 78 official knowledge objectives with bilingual authored content and unique questions", () => {
   assert.deepEqual(validateKnm(curriculum, lessons, bank), []);
-  assert.equal(lessons.length, 40); assert.equal(all.length, 353);
+  assert.equal(lessons.length, 48); assert.equal(all.length, 449);
   const bad = structuredClone(bank); bad.questions[0].correctIndex = 9; bad.questions[1].objective = "missing"; bad.questions[2].options[1] = bad.questions[2].options[0];
   assert.match(validateKnm(curriculum, lessons, bad).join(" "), /invalid answer key/);
   assert.match(validateKnm(curriculum, lessons, bad).join(" "), /unknown question reference/);
@@ -75,8 +76,11 @@ test("review sessions scope by theme, preserve saved order and reject stale IDs 
 });
 
 test("expanded lessons add depth without changing legacy question IDs or timed form selections", () => {
+  const hash = (value) => createHash("sha256").update(JSON.stringify(value)).digest("hex");
+  assert.equal(hash(lessons.slice(0, 40)), "71090ee3116122311b62632fc49109cf2896357f5ba9c213064e6bfc52aedab7");
+  assert.equal(hash(all.slice(0, 353)), "6bffa92d084ab59feef2f4600703b15acb39822542e18ef4e2c8a54ae8bb75b9");
   const applications = lessons.filter((lesson) => lesson.kind === "application");
-  assert.equal(applications.length, 8); assert.equal(new Set(applications.map((lesson) => lesson.themeId)).size, 8);
+  assert.equal(applications.length, 16); assert.equal(new Set(applications.map((lesson) => lesson.themeId)).size, 8);
   for (const lesson of applications) { assert.equal(lesson.points.length, 12); assert.equal(lesson.questionIds.length, 12); assert.equal(lesson.vocabulary.length, 8); assert.equal(lesson.dialogue.length, 4); }
   for (let form = 0; form < 4; form++) {
     assert.deepEqual(buildKnmExam(all, form, curriculum.examLessonSlugs).map((q) => q.id), buildKnmExam(all.slice(0, 257), form).map((q) => q.id));
@@ -98,5 +102,43 @@ test("comprehensive forms include all forty lessons while keeping balanced lengt
     const answers = Object.fromEntries(questions.map((q) => [q.id, q.correctIndex]));
     assert.equal(gradeKnm(questions, answers, null).completedLesson, null);
   }
-  assert.deepEqual(buildKnmExam(all, 8), []);
+  assert.deepEqual(buildKnmExam(all, 12), []);
+});
+
+test("extended forms rotate core coverage, include both applications, preserve all previous forms and never complete lessons", () => {
+  const used = new Set(), covered = new Set();
+  for (let form = 0; form < 8; form++) {
+    const curated = form < 4 ? curriculum.examLessonSlugs : curriculum.applicationExamLessonSlugs;
+    assert.deepEqual(buildKnmExam(all, form, curated), buildKnmExam(all.slice(0, 353), form, curated));
+  }
+  for (let form = 8; form < 12; form++) {
+    const questions = buildKnmExam(all, form, curriculum.extendedExamLessonSlugs);
+    assert.equal(questions.length, 40);
+    for (const question of questions) { assert.ok(!used.has(question.id)); used.add(question.id); covered.add(question.lessonSlug); }
+    for (const theme of curriculum.themes) {
+      const group = questions.filter((q) => q.themeId === theme.id);
+      assert.equal(group.length, 5); assert.equal(new Set(group.map((q) => q.lessonSlug)).size, 5);
+      const applications = lessons.filter((l) => l.themeId === theme.id && l.kind === "application");
+      assert.ok(applications.every((l) => group.some((q) => q.lessonSlug === l.slug)));
+      const omitted = lessons.filter((l) => l.themeId === theme.id && !l.kind)[form % 4];
+      assert.ok(group.every((q) => q.lessonSlug !== omitted.slug));
+    }
+    assert.equal(gradeKnm(questions, Object.fromEntries(questions.map((q) => [q.id, q.correctIndex])), null).completedLesson, null);
+  }
+  assert.equal(covered.size, 48);
+  for (const invalid of [-1, 1.5, 12, NaN]) assert.deepEqual(buildKnmExam(all, invalid), []);
+  assert.deepEqual(buildKnmExam(all, 8, curriculum.applicationExamLessonSlugs), []);
+  const bad = structuredClone(curriculum); bad.extendedExamLessonSlugs[0] = "unknown";
+  assert.match(validateKnm(bad, lessons, bank).join(" "), /extended exam lesson selection/);
+});
+
+test("source review dates retain older checks and reject future or invalid calendar dates", () => {
+  assert.ok(curriculum.sources.some((s) => s.checkedAt === "2026-10-14"));
+  assert.ok(curriculum.sources.some((s) => s.checkedAt === "2026-10-15"));
+  for (const date of ["2026-10-16", "2026-02-30", "2026-2-1", "not-a-date", null]) {
+    const bad = structuredClone(curriculum); bad.sources[0].checkedAt = date;
+    assert.match(validateKnm(bad, lessons, bank).join(" "), /invalid source review date/);
+  }
+  const bad = structuredClone(curriculum); bad.reviewedAt = "2026-02-30";
+  assert.match(validateKnm(bad, lessons, bank).join(" "), /invalid latest source review date/);
 });
