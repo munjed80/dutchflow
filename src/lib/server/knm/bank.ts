@@ -13,8 +13,8 @@ export function selectKnmQuestions(selection: KnmSelection): KnmQuestion[] | nul
   if (selection.mode === "exam") {
     const index = knmCurriculum.exams.findIndex((e) => e.slug === selection.key);
     if (index < 0) return null;
-    // Four distinct authored forms; equal theme allocation is a practice design, not a DUO blueprint.
-    return buildKnmExam(knmQuestions, index);
+    // Core and comprehensive authored forms; equal theme allocation is a practice design, not a DUO blueprint.
+    return buildKnmExam(knmQuestions, index, index < 4 ? knmCurriculum.examLessonSlugs : index < 8 ? knmCurriculum.applicationExamLessonSlugs : knmCurriculum.extendedExamLessonSlugs);
   }
   if (selection.mode === "review" && selection.key === "mistakes" && Array.isArray(selection.questionIds) && selection.questionIds.length > 0 && selection.questionIds.length <= 20 && new Set(selection.questionIds).size === selection.questionIds.length && selection.questionIds.every((id) => knmQuestionIds.includes(id))) {
     return selection.questionIds.map((id) => knmQuestions.find((q) => q.id === id)!);

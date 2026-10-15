@@ -20,7 +20,7 @@ async function signIn(page: Page,email:string) {
 }
 test('KNM discovery, bilingual content, coverage and all routes work without answer-key projection',async({page,request})=>{
   await page.setViewportSize({width:390,height:844});await page.goto('/learn?level=A2');await page.locator('.learning-resources summary').click();await page.getByRole('navigation',{name:'موارد التعلّم A2'}).getByRole('link',{name:/KNM/}).click();
-  await expect(page.locator('.knm-lesson-card')).toHaveCount(32);await page.getByLabel('المحور',{exact:true}).selectOption('7');await expect(page.locator('.knm-lesson-card')).toHaveCount(4);
+  await expect(page.locator('.knm-lesson-card')).toHaveCount(48);await page.getByLabel('المحور',{exact:true}).selectOption('7');await expect(page.locator('.knm-lesson-card')).toHaveCount(6);
   await page.getByLabel('ابحث في منهج KNM').fill('donor');await expect(page.locator('.knm-lesson-card')).toHaveCount(1);await page.locator('.knm-lesson-card').click();
   await expect(page.locator('.knm-point')).toHaveCount(8);await page.locator('.knm-point details').first().locator('summary').click();await expect(page.locator('.knm-point details').first()).toContainText('الخصوصية');
   for(const width of [320,390,1280]){await page.setViewportSize({width,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
@@ -37,7 +37,7 @@ test('guest lesson mistakes persist, review clears only corrected questions and 
   await page.getByRole('link',{name:'راجع الأخطاء',exact:true}).click();await page.getByRole('button',{name:'ابدأ مراجعة الأخطاء'}).click();await page.getByRole('button',{name:'ابدأ مراجعة الأسئلة'}).click();await answer(page,[first[0]]);
   await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');expect((await page.evaluate((k)=>JSON.parse(localStorage.getItem(k)!),key)).wrongQuestionIds).toEqual([]);
   await page.goto(`/knm/lessons/${lessons[0].slug}`);await page.getByRole('button',{name:'ابدأ تدريب الدرس'}).click();await answer(page,first);await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');
-  await page.goto('/knm/progress');await expect(page.getByRole('heading',{name:'أكملت 1 من 32 تدريب درس'})).toBeVisible();
+  await page.goto('/knm/progress');await expect(page.getByRole('heading',{name:'أكملت 1 من 48 تدريب درس'})).toBeVisible();
   await page.goto('/progress');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');await page.goto('/progress?level=A2');await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
 });
 test('timed exam resumes answers and flags, locks on expiry and retries a failed submission',async({page})=>{
@@ -59,7 +59,7 @@ test('invalid drafts are discarded; storage save failures report the result and 
 });
 test('progress outages leave static content available and never imply zero stored completions',async({page})=>{
   let fail=true;await page.route('**/api/knm/progress',async route=>{if(fail)await route.fulfill({status:503,body:'Unavailable'});else await route.continue();});
-  await page.goto('/knm');await expect(page.locator('.knm-next')).toContainText('تعذّر تحميل');await expect(page.locator('.knm-next')).not.toContainText('أكملت 0');await expect(page.locator('.knm-lesson-card')).toHaveCount(32);fail=false;await page.getByRole('button',{name:'أعد تحميل تقدّم KNM'}).click();await expect(page.locator('.knm-next')).toContainText('أكملت 0 من 32');
+  await page.goto('/knm');await expect(page.locator('.knm-next')).toContainText('تعذّر تحميل');await expect(page.locator('.knm-next')).not.toContainText('أكملت 0');await expect(page.locator('.knm-lesson-card')).toHaveCount(48);fail=false;await page.getByRole('button',{name:'أعد تحميل تقدّم KNM'}).click();await expect(page.locator('.knm-next')).toContainText('أكملت 0 من 48');
 });
 test('server rejects forged, stale, oversized and unknown review submissions',async({request})=>{
   const base={revision:curriculum.revision,mode:'lesson',key:lessons[0].slug,answers:{[first[0].id]:first[0].correctIndex}};
@@ -72,7 +72,7 @@ test('server rejects forged, stale, oversized and unknown review submissions',as
 test('KNM account progress is separately persisted, synchronized, isolated and origin/session guarded',async({page,browser})=>{
   await page.context().setExtraHTTPHeaders({'x-real-ip':'192.0.2.224'});
   await page.addInitScript((k)=>localStorage.setItem(k,JSON.stringify({version:1,completedLessons:['finding-work'],wrongQuestionIds:[]})),key);
-  await signIn(page,'knm-owner@example.test');await page.goto('/knm/progress');await expect(page.getByRole('heading',{name:'أكملت 0 من 32 تدريب درس'})).toBeVisible();
+  await signIn(page,'knm-owner@example.test');await page.goto('/knm/progress');await expect(page.getByRole('heading',{name:'أكملت 0 من 48 تدريب درس'})).toBeVisible();
   const user=(await(await page.request.get('/api/progress')).json()).user.id;
   const submission={revision:curriculum.revision,mode:'lesson',key:lessons[0].slug,answers:Object.fromEntries(first.map(q=>[q.id,q.correctIndex])),expectedUserId:user};
   expect((await page.request.post('/api/knm/progress',{headers:{Origin:'https://untrusted.test'},data:submission})).status()).toBe(403);
@@ -84,9 +84,9 @@ test('KNM account progress is separately persisted, synchronized, isolated and o
   const persisted=await(await page.request.get('/api/knm/progress')).json();expect(persisted.completedLessons).toEqual([lessons[0].slug]);expect(persisted.wrongQuestionIds).toEqual([first[0].id]);
   expect((await page.request.post('/api/knm/progress',{headers:{Origin:origin},data:submission})).status()).toBe(200);
   expect((await(await page.request.get('/api/knm/progress')).json()).wrongQuestionIds).toEqual([]);
-  await page.reload();await expect(page.getByRole('heading',{name:'أكملت 1 من 32 تدريب درس'})).toBeVisible();
-  const second=await browser.newContext({baseURL:origin,extraHTTPHeaders:{'x-real-ip':'192.0.2.225'}});const other=await second.newPage();await signIn(other,'knm-owner@example.test');await other.goto('/knm/progress');await expect(other.getByRole('heading',{name:'أكملت 1 من 32 تدريب درس'})).toBeVisible();expect(await other.evaluate((k)=>localStorage.getItem(k),key)).toBeNull();
-  const third=await browser.newContext({baseURL:origin,extraHTTPHeaders:{'x-real-ip':'192.0.2.226'}});const isolated=await third.newPage();await signIn(isolated,'knm-other@example.test');await isolated.goto('/knm/progress');await expect(isolated.getByRole('heading',{name:'أكملت 0 من 32 تدريب درس'})).toBeVisible();
+  await page.reload();await expect(page.getByRole('heading',{name:'أكملت 1 من 48 تدريب درس'})).toBeVisible();
+  const second=await browser.newContext({baseURL:origin,extraHTTPHeaders:{'x-real-ip':'192.0.2.225'}});const other=await second.newPage();await signIn(other,'knm-owner@example.test');await other.goto('/knm/progress');await expect(other.getByRole('heading',{name:'أكملت 1 من 48 تدريب درس'})).toBeVisible();expect(await other.evaluate((k)=>localStorage.getItem(k),key)).toBeNull();
+  const third=await browser.newContext({baseURL:origin,extraHTTPHeaders:{'x-real-ip':'192.0.2.226'}});const isolated=await third.newPage();await signIn(isolated,'knm-other@example.test');await isolated.goto('/knm/progress');await expect(isolated.getByRole('heading',{name:'أكملت 0 من 48 تدريب درس'})).toBeVisible();
   expect((await(await page.request.get('/api/progress')).json()).completedLessons).toEqual([]);await second.close();await third.close();
 });
 
@@ -105,7 +105,7 @@ test('pending account persistence never announces a successful save before ackno
   let release!:()=>void;const pending=new Promise<void>(resolve=>{release=resolve;});const user={id:'knm-pending-user',name:'Learner',email:'pending@example.test'};
   await page.route('**/api/progress',route=>route.fulfill({json:{enabled:true,user,completedLessons:[]}}));
   await page.route('**/api/knm/progress',async route=>{if(route.request().method()==='POST'){await pending;await route.fulfill({json:{userId:user.id,completedLessons:[lessons[0].slug],wrongQuestionIds:[]}});}else await route.fulfill({json:{userId:user.id,completedLessons:[],wrongQuestionIds:[]}});});
-  await page.goto('/knm');await expect(page.locator('.knm-next')).toContainText('أكملت 0 من 32');await page.getByRole('link',{name:'تابع هذا الدرس'}).click();
+  await page.goto('/knm');await expect(page.locator('.knm-next')).toContainText('أكملت 0 من 48');await page.getByRole('link',{name:'تابع هذا الدرس'}).click();
   await page.getByRole('button',{name:'ابدأ تدريب الدرس'}).click();await answer(page,first);
   try {await expect(page.locator('.knm-result').getByRole('status')).toHaveText('جارٍ حفظ تقدّم KNM…');await expect(page.locator('.knm-result')).not.toContainText('حُفظ تقدّم التدريب');}finally{release();}
   await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');
@@ -205,4 +205,85 @@ test('KNM progress with no saved mistakes offers a lesson or exam rather than an
   await page.reload();
   await expect(page.getByRole('link', { name: 'افتح الامتحانات' })).toHaveAttribute('href', '/knm/exams');
   await expect(page.getByRole('link', { name: /راجع أخطاء هذا المحور/ })).toHaveCount(0);
+});
+
+test('expanded lessons have bilingual dialogues, all routes, twelve-question grading and preserved old completion', async ({ page, request }, testInfo) => {
+  test.setTimeout(60_000);
+  const applications = lessons.filter((lesson) => 'kind' in lesson && lesson.kind === 'application');
+  await page.addInitScript(({ key, slug }) => {
+    if (!localStorage.getItem(key)) localStorage.setItem(key, JSON.stringify({ version: 1, completedLessons: [slug], wrongQuestionIds: [] }));
+  }, { key, slug: lessons[0].slug });
+  await page.goto('/knm');
+  await expect(page.locator('.knm-application-tag')).toHaveCount(16);
+  for (const lesson of applications) {
+    await page.goto(`/knm/lessons/${lesson.slug}`);
+    await expect(page.locator('.knm-point')).toHaveCount(12);
+    await expect(page.locator('.knm-vocabulary dt')).toHaveCount(8);
+    await expect(page.locator('.knm-dialogue li')).toHaveCount(4);
+    await page.locator('.knm-dialogue details').first().locator('summary').click();
+    await expect(page.locator('.knm-dialogue details').first()).toContainText(lesson.dialogue![0].ar);
+    const html = await (await request.get(`/knm/lessons/${lesson.slug}`)).text();
+    expect(html).not.toContain('"correctIndex":'); expect(html).not.toContain('"explanation":');
+    for (const width of [320, 390, 721, 1280]) {
+      await page.setViewportSize({ width, height: 844 });
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    }
+  }
+  const lesson = applications[8], questions = bank.questions.filter((q) => q.lessonSlug === lesson.slug);
+  await page.goto(`/knm/lessons/${lesson.slug}`);
+  await page.getByRole('button', { name: 'ابدأ تدريب الدرس' }).click();
+  await answer(page, questions, true);
+  await expect(page.locator('.knm-result h2')).toHaveText('نتيجتك: 11 من 12');
+  await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');
+  await page.getByRole('button', { name: 'ابدأ محاولة جديدة' }).click();
+  await page.getByRole('button', { name: 'ابدأ تدريب الدرس' }).click(); await answer(page, questions);
+  await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');
+  const saved = await page.evaluate((key) => JSON.parse(localStorage.getItem(key)!), key);
+  expect(saved.completedLessons).toEqual([lessons[0].slug, lesson.slug]); expect(saved.wrongQuestionIds).toEqual([]);
+  await page.goto('/knm/progress'); await expect(page.getByRole('heading', { name: 'أكملت 2 من 48 تدريب درس' })).toBeVisible();
+  await page.goto('/knm/lessons/adult-study-and-student-finance'); await page.setViewportSize({ width: 390, height: 844 });
+  await page.locator('#knm-dialogue').screenshot({ path: testInfo.outputPath('expanded-dialogue-mobile.png') });
+});
+
+test('comprehensive timed forms use application content with private server grading and no lesson award', async ({ page, request }) => {
+  const form = buildKnmExam(bank.questions as KnmQuestion[], 4, curriculum.applicationExamLessonSlugs);
+  const response = await request.post('/api/knm/grade', { data: { revision: curriculum.revision, mode: 'exam', key: 'practice-5', answers: Object.fromEntries(form.map((q) => [q.id, q.correctIndex])) } });
+  expect(response.status()).toBe(200);
+  const result = await response.json(); expect(result.total).toBe(40); expect(result.correct).toBe(40); expect(result.completedLesson).toBeNull();
+  await page.goto('/knm/exams'); await expect(page.locator('.knm-lesson-card')).toHaveCount(12);
+  await page.goto('/knm/exams/practice-5'); await page.getByRole('button', { name: 'ابدأ الامتحان التدريبي' }).click();
+  const index = form.findIndex((q) => q.lessonSlug === 'work-health-and-safety');
+  await page.locator('.knm-question-nav button').nth(index).click();
+  await expect(page.locator('.knm-question h2')).toHaveText(form[index].prompt.nl);
+  await expect(page.locator('.knm-question details')).toHaveCount(0);
+});
+
+test('extended timed practice uses the new lessons, grades privately and leaves completion unchanged', async ({ page, request }) => {
+  test.setTimeout(60_000);
+  // Forty mobile navigation steps exercise grading, not smooth-scroll animation timing.
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  const questions = buildKnmExam(bank.questions as KnmQuestion[], 8, curriculum.extendedExamLessonSlugs);
+  expect(questions).toHaveLength(40);
+  const response = await request.post('/api/knm/grade', { data: { revision: curriculum.revision, mode: 'exam', key: 'practice-9', answers: Object.fromEntries(questions.map((q) => [q.id, q.correctIndex])) } });
+  expect(response.status()).toBe(200);
+  const result = await response.json(); expect(result.correct).toBe(40); expect(result.completedLesson).toBeNull();
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/knm/exams/practice-9'); await page.getByRole('button', { name: 'ابدأ الامتحان التدريبي' }).click();
+  const index = questions.findIndex((q) => q.lessonSlug === 'adult-study-and-student-finance');
+  await page.locator('.knm-question-nav button').nth(index).click();
+  await expect(page.locator('.knm-question h2')).toHaveText(questions[index].prompt.nl);
+  await expect(page.locator('.knm-question details')).toHaveCount(0);
+  await answer(page, questions);
+  await expect(page.locator('.knm-result h2')).toHaveText('نتيجتك: 40 من 40');
+  await expect(page.locator('.knm-result')).toContainText('حُفظ تقدّم التدريب');
+  expect((await page.evaluate((key) => JSON.parse(localStorage.getItem(key)!), key)).completedLessons).toEqual([]);
+});
+
+test('all forty legacy completions survive expansion and lead to lesson forty-one', async ({ page }) => {
+  await page.addInitScript(({ key, slugs }) => localStorage.setItem(key, JSON.stringify({ version: 1, completedLessons: slugs, wrongQuestionIds: [] })), { key, slugs: lessons.slice(0, 40).map((lesson) => lesson.slug) });
+  await page.goto('/knm');
+  await expect(page.locator('.knm-next')).toContainText('أكملت 40 من 48');
+  await expect(page.getByRole('link', { name: 'تابع هذا الدرس' })).toHaveAttribute('href', `/knm/lessons/${lessons[40].slug}`);
+  await page.goto('/knm/progress');
+  await expect(page.getByRole('heading', { name: 'أكملت 40 من 48 تدريب درس' })).toBeVisible();
 });

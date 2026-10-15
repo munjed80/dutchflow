@@ -1,6 +1,6 @@
 {
-  "revision": "knm-2026-10-14-v2",
-  "reviewedAt": "2026-10-14",
+  "revision": "knm-2026-10-15-v4",
+  "reviewedAt": "2026-10-15",
   "effectiveFrom": "2025-07-01",
   "themes": [
     {
@@ -150,6 +150,246 @@
       "title": "Rijksoverheid: dubbele nationaliteit",
       "url": "https://www.rijksoverheid.nl/themas/migratie-en-reizen/nederlandse-nationaliteit/dubbele-nationaliteit",
       "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "work-sickness",
+      "title": "Rijksoverheid: afspraken en re-integratie bij ziekte",
+      "url": "https://www.rijksoverheid.nl/themas/werk/ziekteverzuim-van-het-werk/regels-en-verplichtingen-bij-ziekte",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "work-privacy",
+      "title": "Autoriteit Persoonsgegevens: medische gegevens bij ziekte",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/themas/werk-en-uitkering/zieke-werknemers/regels-voor-werkgevers-bij-zieke-werknemers",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "public-holidays",
+      "title": "Rijksoverheid: feestdag en vrije dag",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/arbeidsovereenkomst-en-cao/officiele-feestdagen",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "moving-address",
+      "title": "Rijksoverheid: verhuizing doorgeven",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/gemeenten/hoe-kan-ik-mijn-verhuizing-doorgeven-aan-de-gemeente",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "gp-costs",
+      "title": "Rijksoverheid: huisarts en aanvullend onderzoek",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/eerstelijnszorg/huisartskosten-op-zorgnota",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "health-excess",
+      "title": "Rijksoverheid: verplicht eigen risico",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/eigen-risico-zorgverzekering",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "digital-authorisation",
+      "title": "DigiD: veilig machtigen",
+      "url": "https://www.digid.nl/aanvragen-en-activeren/machtigen",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "government-objections",
+      "title": "Rijksoverheid: bezwaar tegen een besluit",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/bezwaar-en-beroep/bezwaar-tegen-beslissing-overheid",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "debt-help",
+      "title": "Rijksoverheid: gemeentelijke schuldhulpverlening",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/schuldhulpverlening-aanvragen",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "council-voting",
+      "title": "Kiesraad: gemeentelijk kiesrecht voor niet-Nederlanders",
+      "url": "https://www.kiesraad.nl/verkiezingen/gemeenteraden/stemmen/niet-nederlandse-inwoners",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "school-support",
+      "title": "Rijksoverheid: onderwijs en zorg",
+      "url": "https://www.rijksoverheid.nl/themas/onderwijs/passend-onderwijs/onderwijs-en-zorg",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "school-bullying",
+      "title": "Rijksoverheid: hulp bij pesten op school",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/veilig-leren-en-werken-in-het-onderwijs/pesten-waar-kan-ik-terecht",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "parent-contribution-exceptions",
+      "title": "Inspectie van het Onderwijs: ouderbijdrage en uitzonderingen",
+      "url": "https://www.onderwijsinspectie.nl/onderwerpen/vrijwillige-ouderbijdrage",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "occupational-doctor",
+      "title": "Arboportaal: rol en beroepsgeheim van de bedrijfsarts",
+      "url": "https://www.arboportaal.nl/onderwerpen/ondersteuning-bij-arbowet/bedrijfsarts",
+      "checkedAt": "2026-10-14"
+    },
+    {
+      "id": "diploma-work",
+      "title": "Buitenlands diploma voor werk: waardering en erkenning",
+      "url": "https://www.nederlandwereldwijd.nl/buitenlands-diploma-in-nederland/diplomawaardering-werk",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "diploma-valuation",
+      "title": "IDW: diplomawaardering voor werk",
+      "url": "https://idw.nl/werken/",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "national-remembrance",
+      "title": "Nationale herdenkingen: 4 en 5 mei",
+      "url": "https://www.rijksoverheid.nl/themas/overheid-en-democratie/tweede-wereldoorlog/nationale-herdenkingen",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "remembrance-silence",
+      "title": "Nationaal Comité 4 en 5 mei: veelgestelde vragen",
+      "url": "https://www.4en5mei.nl/faq",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "slavery-abolition",
+      "title": "Nationaal Archief: afschaffing slavernij 1863 en staatstoezicht",
+      "url": "https://www.nationaalarchief.nl/beleven/onderwijs/bronnenbox/afschaffing-slavernij-in-suriname-en-het-caribisch-gebied-1863",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "smoke-alarms",
+      "title": "Rookmelders in de woning",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/gezond-en-veilig-wonen/hoeveel-rookmelders-moet-ik-in-mijn-huis-hebben",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "fire-safe-home",
+      "title": "Brandveiligheid van de woning",
+      "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/bouwregelgeving/hoe-kan-ik-de-brandveiligheid-van-mijn-woning-vergroten",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "vaccination-consent",
+      "title": "Rijksvaccinatieprogramma: geïnformeerde toestemming",
+      "url": "https://rijksvaccinatieprogramma.nl/over-het-programma/jouw-toestemming",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "screening-choice",
+      "title": "RIVM: vrijwillig meedoen aan bevolkingsonderzoek",
+      "url": "https://www.rivm.nl/bevolkingsonderzoeken-en-screeningen/meedoen",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "screening-overview",
+      "title": "RIVM: bevolkingsonderzoeken en screeningen",
+      "url": "https://www.rivm.nl/bevolkingsonderzoeken-en-screeningen",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "wmo-application",
+      "title": "Gemeente: Wmo-ondersteuning aanvragen en cliëntondersteuning",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorg-en-ondersteuning-thuis/ondersteuning-gemeente-wmo-2015-aanvragen",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "wmo-support",
+      "title": "Wmo: soorten ondersteuning en mogelijke eigen bijdrage",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorg-en-ondersteuning-thuis/ondersteuning-gemeente-wmo-2015",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "indonesia-sovereignty",
+      "title": "Nationaal Archief: onafhankelijkheidsverklaring en soevereiniteitsoverdracht Indonesië",
+      "url": "https://www.nationaalarchief.nl/beleven/onderwijs/bronnenbox/soevereiniteitsoverdracht-indonesie-1949",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "suriname-independence",
+      "title": "Nationaal Archief: onafhankelijke Republiek Suriname",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/onafhankelijke-republiek-suriname",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "tax-return",
+      "title": "Belastingdienst: belastingaangifte",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/belastingaangifte",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "allowance-login",
+      "title": "Belastingdienst: Mijn toeslagen",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/inloggen-op-mijn-toeslagen",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "income-changes",
+      "title": "Belastingdienst: inkomensverandering doorgeven",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/werk-en-inkomen/content/mijn-inkomen-verandert-moet-ik-dat-doorgeven",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "advance-tax-change",
+      "title": "Belastingdienst: voorlopige aanslag wijzigen",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/voorlopige-aanslag/content/hoe-kan-ik-mijn-voorlopige-aanslag-wijzigen",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "judicial-decisions",
+      "title": "Rechtspraak: hoe een rechter tot een uitspraak komt",
+      "url": "https://www.rechtspraak.nl/organisatie-en-contact/rechtspraak-in-nederland/rechters/hoe-komt-een-rechter-tot-uitspraak",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "judicial-appeal",
+      "title": "Rechtspraak: hoger beroep",
+      "url": "https://www.rechtspraak.nl/naar-de-rechter/hoger-beroep",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "privacy-rights",
+      "title": "Rijksoverheid: privacyrechten onder de AVG",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/privacy-en-persoonsgegevens/hoe-versterkt-de-algemene-verordening-gegevensbescherming-avg-mijn-privacyrechten",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "mbo-routes",
+      "title": "Rijksoverheid: stage, bol en bbl",
+      "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/middelbaar-beroepsonderwijs/moet-ik-stage-lopen-als-ik-een-mbo-opleiding-volg",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "student-finance-conditions",
+      "title": "DUO: voorwaarden studiefinanciering",
+      "url": "https://duo.nl/particulier/studiefinanciering/voorwaarden.jsp",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "student-finance-repayment",
+      "title": "DUO: gift of terugbetalen",
+      "url": "https://duo.nl/particulier/studiefinanciering/gift-of-terugbetalen.jsp",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "lifelong-learning-credit",
+      "title": "DUO: levenlanglerenkrediet",
+      "url": "https://www.duo.nl/particulier/levenlanglerenkrediet/",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "public-vaccination",
+      "title": "Rijksoverheid: vaccinaties en reisvaccinaties",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/vaccinaties",
+      "checkedAt": "2026-10-15"
     }
   ],
   "objectives": [
@@ -164,49 +404,56 @@
       "id": "1.1.2",
       "themeId": "1",
       "lessonSlugs": [
-        "finding-work"
+        "finding-work",
+        "diplomas-and-career-planning"
       ]
     },
     {
       "id": "1.1.3",
       "themeId": "1",
       "lessonSlugs": [
-        "qualifications-and-income"
+        "qualifications-and-income",
+        "diplomas-and-career-planning"
       ]
     },
     {
       "id": "1.1.4",
       "themeId": "1",
       "lessonSlugs": [
-        "qualifications-and-income"
+        "qualifications-and-income",
+        "diplomas-and-career-planning"
       ]
     },
     {
       "id": "1.1.5",
       "themeId": "1",
       "lessonSlugs": [
-        "qualifications-and-income"
+        "qualifications-and-income",
+        "diplomas-and-career-planning"
       ]
     },
     {
       "id": "1.1.6",
       "themeId": "1",
       "lessonSlugs": [
-        "finding-work"
+        "finding-work",
+        "diplomas-and-career-planning"
       ]
     },
     {
       "id": "1.1.7",
       "themeId": "1",
       "lessonSlugs": [
-        "qualifications-and-income"
+        "qualifications-and-income",
+        "diplomas-and-career-planning"
       ]
     },
     {
       "id": "1.1.8",
       "themeId": "1",
       "lessonSlugs": [
-        "qualifications-and-income"
+        "qualifications-and-income",
+        "diplomas-and-career-planning"
       ]
     },
     {
@@ -214,21 +461,24 @@
       "themeId": "1",
       "lessonSlugs": [
         "employment-rights",
-        "fair-work-and-business"
+        "fair-work-and-business",
+        "work-health-and-safety"
       ]
     },
     {
       "id": "1.2.2",
       "themeId": "1",
       "lessonSlugs": [
-        "employment-rights"
+        "employment-rights",
+        "work-health-and-safety"
       ]
     },
     {
       "id": "1.2.3",
       "themeId": "1",
       "lessonSlugs": [
-        "employment-rights"
+        "employment-rights",
+        "work-health-and-safety"
       ]
     },
     {
@@ -250,14 +500,17 @@
       "themeId": "2",
       "lessonSlugs": [
         "everyday-contact",
-        "social-participation"
+        "social-participation",
+        "neighbours-and-shared-life",
+        "celebrations-and-remembrance-in-practice"
       ]
     },
     {
       "id": "2.1.2",
       "themeId": "2",
       "lessonSlugs": [
-        "everyday-contact"
+        "everyday-contact",
+        "neighbours-and-shared-life"
       ]
     },
     {
@@ -265,7 +518,9 @@
       "themeId": "2",
       "lessonSlugs": [
         "everyday-contact",
-        "social-participation"
+        "social-participation",
+        "neighbours-and-shared-life",
+        "celebrations-and-remembrance-in-practice"
       ]
     },
     {
@@ -279,7 +534,9 @@
       "id": "2.1.5",
       "themeId": "2",
       "lessonSlugs": [
-        "holidays-and-remembrance"
+        "holidays-and-remembrance",
+        "neighbours-and-shared-life",
+        "celebrations-and-remembrance-in-practice"
       ]
     },
     {
@@ -287,7 +544,8 @@
       "themeId": "2",
       "lessonSlugs": [
         "families-and-networks",
-        "social-participation"
+        "social-participation",
+        "neighbours-and-shared-life"
       ]
     },
     {
@@ -295,7 +553,9 @@
       "themeId": "2",
       "lessonSlugs": [
         "families-and-networks",
-        "social-participation"
+        "social-participation",
+        "neighbours-and-shared-life",
+        "celebrations-and-remembrance-in-practice"
       ]
     },
     {
@@ -303,14 +563,17 @@
       "themeId": "3",
       "lessonSlugs": [
         "finding-a-home",
-        "rent-and-maintenance"
+        "rent-and-maintenance",
+        "moving-and-household-administration"
       ]
     },
     {
       "id": "3.1.2",
       "themeId": "3",
       "lessonSlugs": [
-        "rent-and-maintenance"
+        "rent-and-maintenance",
+        "moving-and-household-administration",
+        "home-safety-and-maintenance"
       ]
     },
     {
@@ -324,35 +587,43 @@
       "id": "3.2.1",
       "themeId": "3",
       "lessonSlugs": [
-        "utilities-and-energy"
+        "utilities-and-energy",
+        "moving-and-household-administration",
+        "home-safety-and-maintenance"
       ]
     },
     {
       "id": "3.2.2",
       "themeId": "3",
       "lessonSlugs": [
-        "utilities-and-energy"
+        "utilities-and-energy",
+        "moving-and-household-administration",
+        "home-safety-and-maintenance"
       ]
     },
     {
       "id": "3.3.1",
       "themeId": "3",
       "lessonSlugs": [
-        "clean-and-safe-neighbourhood"
+        "clean-and-safe-neighbourhood",
+        "moving-and-household-administration"
       ]
     },
     {
       "id": "4.1.1",
       "themeId": "4",
       "lessonSlugs": [
-        "gp-and-referrals"
+        "gp-and-referrals",
+        "care-appointments-and-costs",
+        "prevention-and-support-at-home"
       ]
     },
     {
       "id": "4.1.2",
       "themeId": "4",
       "lessonSlugs": [
-        "medicine-and-family-care"
+        "medicine-and-family-care",
+        "care-appointments-and-costs"
       ]
     },
     {
@@ -366,14 +637,16 @@
       "id": "4.1.4",
       "themeId": "4",
       "lessonSlugs": [
-        "medicine-and-family-care"
+        "medicine-and-family-care",
+        "prevention-and-support-at-home"
       ]
     },
     {
       "id": "4.2.1",
       "themeId": "4",
       "lessonSlugs": [
-        "gp-and-referrals"
+        "gp-and-referrals",
+        "care-appointments-and-costs"
       ]
     },
     {
@@ -394,21 +667,24 @@
       "id": "4.4.1",
       "themeId": "4",
       "lessonSlugs": [
-        "health-insurance"
+        "health-insurance",
+        "care-appointments-and-costs"
       ]
     },
     {
       "id": "4.4.2",
       "themeId": "4",
       "lessonSlugs": [
-        "health-insurance"
+        "health-insurance",
+        "care-appointments-and-costs"
       ]
     },
     {
       "id": "4.4.3",
       "themeId": "4",
       "lessonSlugs": [
-        "health-insurance"
+        "health-insurance",
+        "care-appointments-and-costs"
       ]
     },
     {
@@ -422,56 +698,66 @@
       "id": "4.5.1",
       "themeId": "4",
       "lessonSlugs": [
-        "urgent-care-and-support"
+        "urgent-care-and-support",
+        "prevention-and-support-at-home"
       ]
     },
     {
       "id": "5.1.1",
       "themeId": "5",
       "lessonSlugs": [
-        "dutch-history"
+        "dutch-history",
+        "regions-water-and-travel",
+        "colonial-history-and-migration"
       ]
     },
     {
       "id": "5.1.2",
       "themeId": "5",
       "lessonSlugs": [
-        "war-and-freedom"
+        "war-and-freedom",
+        "colonial-history-and-migration"
       ]
     },
     {
       "id": "5.2.1",
       "themeId": "5",
       "lessonSlugs": [
-        "geography-and-regions"
+        "geography-and-regions",
+        "regions-water-and-travel"
       ]
     },
     {
       "id": "5.2.2",
       "themeId": "5",
       "lessonSlugs": [
-        "public-transport"
+        "public-transport",
+        "regions-water-and-travel"
       ]
     },
     {
       "id": "6.1.1",
       "themeId": "6",
       "lessonSlugs": [
-        "digital-government"
+        "digital-government",
+        "official-letters-and-safe-help",
+        "income-tax-and-allowance-changes"
       ]
     },
     {
       "id": "6.1.2",
       "themeId": "6",
       "lessonSlugs": [
-        "digital-government"
+        "digital-government",
+        "official-letters-and-safe-help"
       ]
     },
     {
       "id": "6.2.1",
       "themeId": "6",
       "lessonSlugs": [
-        "municipality-and-documents"
+        "municipality-and-documents",
+        "moving-and-household-administration"
       ]
     },
     {
@@ -499,21 +785,25 @@
       "id": "6.3.1",
       "themeId": "6",
       "lessonSlugs": [
-        "taxes-and-benefits"
+        "taxes-and-benefits",
+        "income-tax-and-allowance-changes"
       ]
     },
     {
       "id": "6.3.2",
       "themeId": "6",
       "lessonSlugs": [
-        "taxes-and-benefits"
+        "taxes-and-benefits",
+        "income-tax-and-allowance-changes"
       ]
     },
     {
       "id": "6.3.3",
       "themeId": "6",
       "lessonSlugs": [
-        "taxes-and-benefits"
+        "taxes-and-benefits",
+        "official-letters-and-safe-help",
+        "income-tax-and-allowance-changes"
       ]
     },
     {
@@ -527,14 +817,16 @@
       "id": "6.5.1",
       "themeId": "6",
       "lessonSlugs": [
-        "police-law-and-insurance"
+        "police-law-and-insurance",
+        "official-letters-and-safe-help"
       ]
     },
     {
       "id": "6.5.2",
       "themeId": "6",
       "lessonSlugs": [
-        "police-law-and-insurance"
+        "police-law-and-insurance",
+        "official-letters-and-safe-help"
       ]
     },
     {
@@ -548,7 +840,8 @@
       "id": "7.1.1",
       "themeId": "7",
       "lessonSlugs": [
-        "democracy-and-government"
+        "democracy-and-government",
+        "rights-voting-and-participation"
       ]
     },
     {
@@ -556,56 +849,65 @@
       "themeId": "7",
       "lessonSlugs": [
         "democracy-and-government",
-        "law-and-elections"
+        "law-and-elections",
+        "rights-voting-and-participation"
       ]
     },
     {
       "id": "7.1.3",
       "themeId": "7",
       "lessonSlugs": [
-        "law-and-elections"
+        "law-and-elections",
+        "courts-and-personal-data"
       ]
     },
     {
       "id": "7.1.4",
       "themeId": "7",
       "lessonSlugs": [
-        "law-and-elections"
+        "law-and-elections",
+        "rights-voting-and-participation"
       ]
     },
     {
       "id": "7.2.1",
       "themeId": "7",
       "lessonSlugs": [
-        "equal-rights-and-freedom"
+        "equal-rights-and-freedom",
+        "rights-voting-and-participation"
       ]
     },
     {
       "id": "7.2.2",
       "themeId": "7",
       "lessonSlugs": [
-        "equal-rights-and-freedom"
+        "equal-rights-and-freedom",
+        "rights-voting-and-participation"
       ]
     },
     {
       "id": "7.2.3",
       "themeId": "7",
       "lessonSlugs": [
-        "equal-rights-and-freedom"
+        "equal-rights-and-freedom",
+        "rights-voting-and-participation"
       ]
     },
     {
       "id": "7.2.4",
       "themeId": "7",
       "lessonSlugs": [
-        "equal-rights-and-freedom"
+        "equal-rights-and-freedom",
+        "rights-voting-and-participation"
       ]
     },
     {
       "id": "7.2.5",
       "themeId": "7",
       "lessonSlugs": [
-        "privacy-body-and-donation"
+        "privacy-body-and-donation",
+        "rights-voting-and-participation",
+        "courts-and-personal-data"
       ]
     },
     {
@@ -627,28 +929,33 @@
       "themeId": "7",
       "lessonSlugs": [
         "equal-rights-and-freedom",
-        "privacy-body-and-donation"
+        "privacy-body-and-donation",
+        "rights-voting-and-participation"
       ]
     },
     {
       "id": "8.1.1",
       "themeId": "8",
       "lessonSlugs": [
-        "education-pathways"
+        "education-pathways",
+        "school-conversations-and-support",
+        "adult-study-and-student-finance"
       ]
     },
     {
       "id": "8.1.2",
       "themeId": "8",
       "lessonSlugs": [
-        "education-pathways"
+        "education-pathways",
+        "school-conversations-and-support"
       ]
     },
     {
       "id": "8.1.3",
       "themeId": "8",
       "lessonSlugs": [
-        "school-attendance-and-childcare"
+        "school-attendance-and-childcare",
+        "school-conversations-and-support"
       ]
     },
     {
@@ -676,21 +983,25 @@
       "id": "8.2.2",
       "themeId": "8",
       "lessonSlugs": [
-        "parents-and-support"
+        "parents-and-support",
+        "school-conversations-and-support"
       ]
     },
     {
       "id": "8.2.3",
       "themeId": "8",
       "lessonSlugs": [
-        "parents-and-support"
+        "parents-and-support",
+        "school-conversations-and-support"
       ]
     },
     {
       "id": "8.3.1",
       "themeId": "8",
       "lessonSlugs": [
-        "education-costs"
+        "education-costs",
+        "school-conversations-and-support",
+        "adult-study-and-student-finance"
       ]
     },
     {
@@ -704,7 +1015,8 @@
       "id": "8.3.3",
       "themeId": "8",
       "lessonSlugs": [
-        "education-costs"
+        "education-costs",
+        "adult-study-and-student-finance"
       ]
     }
   ],
@@ -732,6 +1044,180 @@
       "title": "الامتحان التدريبي 4",
       "minutes": 45,
       "questionCount": 40
+    },
+    {
+      "slug": "practice-5",
+      "title": "تطبيق شامل 1",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-6",
+      "title": "تطبيق شامل 2",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-7",
+      "title": "تطبيق شامل 3",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-8",
+      "title": "تطبيق شامل 4",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-9",
+      "title": "توسّع متقدم 1",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-10",
+      "title": "توسّع متقدم 2",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-11",
+      "title": "توسّع متقدم 3",
+      "minutes": 45,
+      "questionCount": 40
+    },
+    {
+      "slug": "practice-12",
+      "title": "توسّع متقدم 4",
+      "minutes": 45,
+      "questionCount": 40
     }
+  ],
+  "examLessonSlugs": [
+    "finding-work",
+    "qualifications-and-income",
+    "employment-rights",
+    "fair-work-and-business",
+    "everyday-contact",
+    "families-and-networks",
+    "holidays-and-remembrance",
+    "social-participation",
+    "finding-a-home",
+    "rent-and-maintenance",
+    "utilities-and-energy",
+    "clean-and-safe-neighbourhood",
+    "gp-and-referrals",
+    "medicine-and-family-care",
+    "urgent-care-and-support",
+    "health-insurance",
+    "dutch-history",
+    "war-and-freedom",
+    "geography-and-regions",
+    "public-transport",
+    "digital-government",
+    "municipality-and-documents",
+    "taxes-and-benefits",
+    "police-law-and-insurance",
+    "democracy-and-government",
+    "law-and-elections",
+    "equal-rights-and-freedom",
+    "privacy-body-and-donation",
+    "education-pathways",
+    "school-attendance-and-childcare",
+    "parents-and-support",
+    "education-costs"
+  ],
+  "applicationExamLessonSlugs": [
+    "finding-work",
+    "qualifications-and-income",
+    "employment-rights",
+    "fair-work-and-business",
+    "everyday-contact",
+    "families-and-networks",
+    "holidays-and-remembrance",
+    "social-participation",
+    "finding-a-home",
+    "rent-and-maintenance",
+    "utilities-and-energy",
+    "clean-and-safe-neighbourhood",
+    "gp-and-referrals",
+    "medicine-and-family-care",
+    "urgent-care-and-support",
+    "health-insurance",
+    "dutch-history",
+    "war-and-freedom",
+    "geography-and-regions",
+    "public-transport",
+    "digital-government",
+    "municipality-and-documents",
+    "taxes-and-benefits",
+    "police-law-and-insurance",
+    "democracy-and-government",
+    "law-and-elections",
+    "equal-rights-and-freedom",
+    "privacy-body-and-donation",
+    "education-pathways",
+    "school-attendance-and-childcare",
+    "parents-and-support",
+    "education-costs",
+    "work-health-and-safety",
+    "neighbours-and-shared-life",
+    "moving-and-household-administration",
+    "care-appointments-and-costs",
+    "regions-water-and-travel",
+    "official-letters-and-safe-help",
+    "rights-voting-and-participation",
+    "school-conversations-and-support"
+  ],
+  "extendedExamLessonSlugs": [
+    "finding-work",
+    "qualifications-and-income",
+    "employment-rights",
+    "fair-work-and-business",
+    "everyday-contact",
+    "families-and-networks",
+    "holidays-and-remembrance",
+    "social-participation",
+    "finding-a-home",
+    "rent-and-maintenance",
+    "utilities-and-energy",
+    "clean-and-safe-neighbourhood",
+    "gp-and-referrals",
+    "medicine-and-family-care",
+    "urgent-care-and-support",
+    "health-insurance",
+    "dutch-history",
+    "war-and-freedom",
+    "geography-and-regions",
+    "public-transport",
+    "digital-government",
+    "municipality-and-documents",
+    "taxes-and-benefits",
+    "police-law-and-insurance",
+    "democracy-and-government",
+    "law-and-elections",
+    "equal-rights-and-freedom",
+    "privacy-body-and-donation",
+    "education-pathways",
+    "school-attendance-and-childcare",
+    "parents-and-support",
+    "education-costs",
+    "work-health-and-safety",
+    "neighbours-and-shared-life",
+    "moving-and-household-administration",
+    "care-appointments-and-costs",
+    "regions-water-and-travel",
+    "official-letters-and-safe-help",
+    "rights-voting-and-participation",
+    "school-conversations-and-support",
+    "diplomas-and-career-planning",
+    "celebrations-and-remembrance-in-practice",
+    "home-safety-and-maintenance",
+    "prevention-and-support-at-home",
+    "colonial-history-and-migration",
+    "income-tax-and-allowance-changes",
+    "courts-and-personal-data",
+    "adult-study-and-student-finance"
   ]
 }
