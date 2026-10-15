@@ -1701,5 +1701,1069 @@
         "هل سألت عن الحضور دون افتراض الموافقة؟"
       ]
     }
+  },
+  {
+    "slug": "a2-an-interview-for-the-class-page",
+    "title": "مقابلة لصفحة المجموعة",
+    "dutchTitle": "Een gesprek voor de groepspagina",
+    "topic": "مقابلة لصفحة المجموعة",
+    "sourceLessons": [
+      "a2-asking-about-someones-background",
+      "a2-yesterday-and-today"
+    ],
+    "text": "Voor onze groepspagina sprak ik met Lina. Ze woonde vroeger in Zwolle, waar ze in een bakkerij werkte. Sinds april woont ze in onze buurt. Ze werkt nu drie ochtenden per week in een winkel en volgt op donderdag een taalcursus. Op woensdag past haar zus op de kinderen. Lina vindt de buurt prettig, maar ze kent de buren nog niet goed. Ze wil graag samen wandelen om mensen te leren kennen. Haar foto mag op de groepspagina. Haar telefoonnummer wil ze liever niet delen. Ik stuur haar eerst de tekst. Pas na haar akkoord plaatsen we het gesprek.",
+    "translation": "تحدثت مع لينا لصفحة مجموعتنا. كانت تسكن في زفوله وتعمل في مخبز. منذ أبريل تسكن في حيّنا. تعمل الآن ثلاثة صباحات أسبوعياً في متجر وتتابع دورة لغة يوم الخميس. تعتني أختها بالأطفال يوم الأربعاء. تجد الحي لطيفاً لكنها لا تعرف الجيران جيداً بعد. ترغب في المشي مع آخرين للتعارف. تسمح بوضع صورتها في صفحة المجموعة، لكنها تفضّل عدم مشاركة رقم هاتفها. سأرسل لها النص أولاً. لا ننشر المقابلة إلا بعد موافقتها.",
+    "vocabulary": [
+      {
+        "term": "vroeger",
+        "excerpt": "vroeger",
+        "meaning": "سابقاً؛ يصف مرحلة انتهت."
+      },
+      {
+        "term": "de bakkerij",
+        "excerpt": "bakkerij",
+        "meaning": "المخبز؛ الجمع de bakkerijen."
+      },
+      {
+        "term": "sinds",
+        "excerpt": "Sinds april",
+        "meaning": "منذ أبريل؛ السكن مستمر."
+      },
+      {
+        "term": "oppassen",
+        "excerpt": "past haar zus op",
+        "meaning": "تعتني أختها بالأطفال؛ فعل قابل للفصل."
+      },
+      {
+        "term": "delen",
+        "excerpt": "delen",
+        "meaning": "يشارك معلومة مع الآخرين."
+      },
+      {
+        "term": "het akkoord",
+        "excerpt": "akkoord",
+        "meaning": "الموافقة في هذا السياق."
+      }
+    ],
+    "grammar": {
+      "title": "الماضي والحاضر المستمر",
+      "example": "Sinds april woont ze in onze buurt.",
+      "translation": "منذ أبريل تسكن في حيّنا.",
+      "explanation": "woont حاضر لأن السكن الذي بدأ في أبريل مستمر. vroeger وwerkte يعودان إلى مرحلة سابقة."
+    },
+    "questions": [
+      {
+        "id": "a2-an-interview-for-the-class-page-q1",
+        "prompt": "أي معلومة تخص عمل لينا السابق؟",
+        "options": [
+          "كانت تعمل في مخبز في زفوله",
+          "كانت تدرّس دورة الخميس",
+          "كانت تعمل في متجر الحي الحالي دائماً"
+        ],
+        "correctIndex": 0,
+        "evidence": "Ze woonde vroeger in Zwolle, waar ze in een bakkerij werkte.",
+        "explanation": "يربط النص المخبز بالسكن السابق لا العمل الحالي."
+      },
+      {
+        "id": "a2-an-interview-for-the-class-page-q2",
+        "prompt": "منذ متى تسكن في الحي الحالي؟",
+        "options": [
+          "منذ الخميس الماضي بالتحديد",
+          "منذ أبريل",
+          "منذ الأربعاء القادم"
+        ],
+        "correctIndex": 1,
+        "evidence": "Sinds april woont ze in onze buurt.",
+        "explanation": "sinds يعطي نقطة بداية ولا يحدد عدد الأشهر دون تاريخ المقابلة."
+      },
+      {
+        "id": "a2-an-interview-for-the-class-page-q3",
+        "prompt": "في أي يوم تتبع دورة اللغة؟",
+        "options": [
+          "الأربعاء",
+          "كل صباح",
+          "الخميس"
+        ],
+        "correctIndex": 2,
+        "evidence": "volgt op donderdag een taalcursus.",
+        "explanation": "الخميس للدورة، أما الأربعاء فتعتني الأخت بالأطفال."
+      },
+      {
+        "id": "a2-an-interview-for-the-class-page-q4",
+        "prompt": "لماذا ترغب في المشي مع آخرين؟",
+        "options": [
+          "للتعرّف إلى الناس",
+          "للوصول إلى المخبز القديم",
+          "لأنها تعرف كل الجيران بالفعل"
+        ],
+        "correctIndex": 0,
+        "evidence": "Ze wil graag samen wandelen om mensen te leren kennen.",
+        "explanation": "الهدف مذكور بعد om؛ وليس دليل معرفة سابقة بالجميع."
+      },
+      {
+        "id": "a2-an-interview-for-the-class-page-q5",
+        "prompt": "ما المعلومة التي تفضّل عدم مشاركتها؟",
+        "options": [
+          "صورتها",
+          "رقم هاتفها",
+          "اسم يوم الدورة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Haar telefoonnummer wil ze liever niet delen.",
+        "explanation": "يميز النص الصورة المسموح بها عن رقم الهاتف."
+      },
+      {
+        "id": "a2-an-interview-for-the-class-page-q6",
+        "prompt": "متى يمكن نشر المقابلة وفق الاتفاق؟",
+        "options": [
+          "بمجرد انتهاء المقابلة دون مراجعتها",
+          "قبل أن ترى النص",
+          "بعد إرسال النص وموافقتها عليه"
+        ],
+        "correctIndex": 2,
+        "evidence": "Ik stuur haar eerst de tekst. Pas na haar akkoord plaatsen we het gesprek.",
+        "explanation": "eerst وPas na يحددان مرحلتين قبل النشر."
+      }
+    ],
+    "production": {
+      "prompt": "لخّص لصديق معلومات لينا الحالية: السكن منذ أبريل، والعمل ثلاثة صباحات والدورة الخميس. لا تنقل رقم هاتف ولا تدّع أن النشر تم.",
+      "model": "Lina woont sinds april in onze buurt. Ze werkt drie ochtenden per week in een winkel en volgt op donderdag een taalcursus. De tekst wordt pas na haar akkoord geplaatst.",
+      "translation": "تسكن لينا في حيّنا منذ أبريل. تعمل ثلاثة صباحات أسبوعياً في متجر وتتبع دورة لغة الخميس. لا يُنشر النص إلا بعد موافقتها.",
+      "checklist": [
+        "هل فصلت الماضي عن المعلومات الحالية؟",
+        "هل حافظت على شرط الموافقة دون ادعاء النشر؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-a-note-after-a-team-task",
+    "title": "ملاحظة بعد مهمة مشتركة",
+    "dutchTitle": "Een bericht na een gezamenlijke taak",
+    "topic": "ملاحظة بعد مهمة مشتركة",
+    "sourceLessons": [
+      "a2-giving-feedback-at-work",
+      "a2-reporting-task-progress"
+    ],
+    "text": "Hoi team, de controle van gisteren ging meestal goed. De adressen waren duidelijk en alle dozen stonden op de juiste plek. Toch ontbraken er bij twee dozen klantnummers. Het gaat om doos drie en doos acht. Dat betekent niet dat de hele levering fout was. Voor de volgende controle stel ik voor dat één persoon de lijst voorleest en een ander de nummers vergelijkt. Ik wil zelf graag voorlezen. Wie wil de dozen controleren? Laat het vandaag in de groepschat weten. We kiezen daarna samen wie welke taak doet. Tot die tijd is de verdeling nog niet definitief. Groet, Sanne.",
+    "translation": "مرحباً بالفريق، سار فحص الأمس جيداً في معظمه. كانت العناوين واضحة وكل الصناديق في مكانها الصحيح. لكن رقمي عميلين كانا ناقصين على صندوقين: الثالث والثامن. لا يعني هذا أن الشحنة كلها كانت خاطئة. أقترح للفحص المقبل أن يقرأ شخص القائمة بصوت مسموع ويقارن شخص آخر الأرقام. أرغب شخصياً في القراءة. من يريد فحص الصناديق؟ أخبرونا اليوم في دردشة المجموعة. نختار بعدها معاً من ينفذ كل مهمة. توزيع الأدوار ليس نهائياً إلى ذلك الحين. تحياتي، سانه.",
+    "vocabulary": [
+      {
+        "term": "de controle",
+        "excerpt": "controle",
+        "meaning": "الفحص؛ الجمع de controles."
+      },
+      {
+        "term": "de levering",
+        "excerpt": "levering",
+        "meaning": "الشحنة أو عملية التسليم."
+      },
+      {
+        "term": "voorlezen",
+        "excerpt": "voorleest",
+        "meaning": "يقرأ بصوت مسموع؛ المصدر voorlezen."
+      },
+      {
+        "term": "vergelijken",
+        "excerpt": "vergelijkt",
+        "meaning": "يقارن المعلومات أو الأشياء."
+      },
+      {
+        "term": "de verdeling",
+        "excerpt": "verdeling",
+        "meaning": "توزيع الأدوار هنا."
+      },
+      {
+        "term": "definitief",
+        "excerpt": "definitief",
+        "meaning": "نهائي لا مجرد اقتراح."
+      }
+    ],
+    "grammar": {
+      "title": "رأي يتحول إلى اقتراح",
+      "example": "Voor de volgende controle stel ik voor dat één persoon de lijst voorleest en een ander de nummers vergelijkt.",
+      "translation": "أقترح للفحص المقبل أن يقرأ شخص القائمة ويقارن آخر الأرقام.",
+      "explanation": "stel ik voor يقدم اقتراحاً. من سيأخذ كل دور لم يُحسم بعد."
+    },
+    "questions": [
+      {
+        "id": "a2-a-note-after-a-team-task-q1",
+        "prompt": "ما الجانب الذي سار جيداً؟",
+        "options": [
+          "وجود كل أرقام العملاء دون نقص",
+          "وضوح العناوين ومكان الصناديق",
+          "تحديد الأدوار المقبلة نهائياً"
+        ],
+        "correctIndex": 1,
+        "evidence": "De adressen waren duidelijk en alle dozen stonden op de juiste plek.",
+        "explanation": "يذكر النص هذين الجانبين قبل المشكلة المحددة."
+      },
+      {
+        "id": "a2-a-note-after-a-team-task-q2",
+        "prompt": "ما الصندوقان المقصودان بالمشكلة؟",
+        "options": [
+          "الثالث والسادس",
+          "كل الصناديق الثمانية",
+          "الثالث والثامن"
+        ],
+        "correctIndex": 2,
+        "evidence": "Het gaat om doos drie en doos acht.",
+        "explanation": "تحديد الصندوقين يمنع تعميم المشكلة على الشحنة كلها."
+      },
+      {
+        "id": "a2-a-note-after-a-team-task-q3",
+        "prompt": "هل تصف سانه الشحنة كلها بأنها خاطئة؟",
+        "options": [
+          "لا، ترفض هذا التعميم",
+          "نعم، تقول إن كل شيء خطأ",
+          "لم تذكر الشحنة إطلاقاً"
+        ],
+        "correctIndex": 0,
+        "evidence": "Dat betekent niet dat de hele levering fout was.",
+        "explanation": "النفي يحدّد نطاق الملاحظة."
+      },
+      {
+        "id": "a2-a-note-after-a-team-task-q4",
+        "prompt": "ما الدور الذي ترغب سانه في أدائه؟",
+        "options": [
+          "فحص الصناديق وحدها أيضاً",
+          "قراءة القائمة بصوت مسموع",
+          "اختيار الأدوار دون الفريق"
+        ],
+        "correctIndex": 1,
+        "evidence": "Ik wil zelf graag voorlezen.",
+        "explanation": "هذه رغبة معلنة وليست تأكيداً أن كل الأدوار وزعت."
+      },
+      {
+        "id": "a2-a-note-after-a-team-task-q5",
+        "prompt": "أين ومتى يُطلب الرد؟",
+        "options": [
+          "غداً برسالة ورقية",
+          "عند وصول الشحنة التالية فقط",
+          "اليوم في دردشة المجموعة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Laat het vandaag in de groepschat weten.",
+        "explanation": "الوقت والقناة كلاهما واردان."
+      },
+      {
+        "id": "a2-a-note-after-a-team-task-q6",
+        "prompt": "هل توزيع مهام الفحص المقبل نهائي؟",
+        "options": [
+          "لا، ينتظر اختيار الفريق",
+          "نعم، لأن سانه كتبت اقتراحاً",
+          "نعم، لأن كل الصناديق في مكانها"
+        ],
+        "correctIndex": 0,
+        "evidence": "We kiezen daarna samen wie welke taak doet. Tot die tijd is de verdeling nog niet definitief.",
+        "explanation": "الاقتراح والرغبة لا يكفيان لتأكيد توزيع الأدوار."
+      }
+    ],
+    "production": {
+      "prompt": "ردّ على سانه: قل إنك تستطيع فحص الصناديق، واطلب التأكد من أن المطلوب مطابقة الأرقام بالقائمة لا إعادة فحص العناوين. لا تقل إن الفريق وافق بالفعل.",
+      "model": "Ik wil de dozen wel controleren. Bedoel je dat ik de klantnummers met de lijst vergelijk? Of moeten we ook de adressen opnieuw controleren?",
+      "translation": "أستطيع فحص الصناديق. هل تقصدين أن أقارن أرقام العملاء بالقائمة؟ أم علينا أيضاً إعادة فحص العناوين؟",
+      "checklist": [
+        "هل عرضت المساعدة دون ادعاء اتفاق جماعي؟",
+        "هل طلبت توضيح نطاق المهمة؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-rules-for-a-shared-room",
+    "title": "قواعد غرفة مشتركة",
+    "dutchTitle": "Afspraken voor de gemeenschappelijke kamer",
+    "topic": "قواعد غرفة مشتركة",
+    "sourceLessons": [
+      "a2-explaining-shared-house-rules",
+      "a2-reporting-a-recurring-problem"
+    ],
+    "text": "Welkom in de gemeenschappelijke kamer van gebouw De Linde. Bewoners mogen hier lezen, praten en samen eten. Na negen uur mag er geen muziek aan. Je mag dan nog wel rustig praten. Voor een maaltijd met meer dan zes personen moet je de ruimte vooraf reserveren. Een kort bezoek met twee buren hoeft niet op de reserveringslijst. Je hoeft geen kopjes mee te nemen: die staan in de kast. Was ze na gebruik af en zet ze terug. Neem je eigen eten weer mee naar huis. Bij vertrek moet het raam dicht. Heb je een vraag over de afspraken? Stuur de beheerder een bericht; verander de lijst niet zelf.",
+    "translation": "أهلاً بكم في الغرفة المشتركة في مبنى دي لينده. يمكن للسكان القراءة والحديث والطعام معاً. بعد التاسعة لا يُسمح بتشغيل الموسيقى، لكن يبقى الحديث الهادئ مسموحاً. لوجبة مع أكثر من ستة أشخاص يجب حجز الغرفة مسبقاً. زيارة قصيرة مع جارَين لا تحتاج إدراجاً في قائمة الحجز. لا تحتاج لإحضار أكواب؛ فهي في الخزانة. اغسلها بعد الاستخدام وأعدها. خذ طعامك الخاص معك إلى المنزل. يجب إغلاق النافذة عند المغادرة. إن كانت لديك أسئلة عن الترتيبات فأرسل رسالة للمشرف ولا تعدّل القائمة بنفسك.",
+    "vocabulary": [
+      {
+        "term": "gemeenschappelijk",
+        "excerpt": "gemeenschappelijke kamer",
+        "meaning": "مشترك بين السكان هنا."
+      },
+      {
+        "term": "vooraf",
+        "excerpt": "vooraf",
+        "meaning": "مسبقاً، قبل النشاط."
+      },
+      {
+        "term": "reserveren",
+        "excerpt": "reserveren",
+        "meaning": "يحجز مكاناً أو وقتاً."
+      },
+      {
+        "term": "afwassen",
+        "excerpt": "Was ze na gebruik af",
+        "meaning": "يغسل الأكواب بعد الاستخدام."
+      },
+      {
+        "term": "het vertrek",
+        "excerpt": "vertrek",
+        "meaning": "المغادرة هنا؛ وقد يعني غرفة في سياق آخر."
+      },
+      {
+        "term": "de beheerder",
+        "excerpt": "beheerder",
+        "meaning": "المشرف على المكان."
+      }
+    ],
+    "grammar": {
+      "title": "المنع لا يعني منع كل نشاط",
+      "example": "Na negen uur mag er geen muziek aan.",
+      "translation": "لا يُسمح بتشغيل الموسيقى بعد التاسعة.",
+      "explanation": "هذا منع محدد للموسيقى؛ الجملة التالية تبقي الحديث الهادئ مسموحاً."
+    },
+    "questions": [
+      {
+        "id": "a2-rules-for-a-shared-room-q1",
+        "prompt": "أي نشاط يظل مسموحاً بعد التاسعة؟",
+        "options": [
+          "تشغيل الموسيقى",
+          "تعديل القواعد دون سؤال",
+          "الحديث الهادئ"
+        ],
+        "correctIndex": 2,
+        "evidence": "Je mag dan nog wel rustig praten.",
+        "explanation": "dan يعود إلى ما بعد التاسعة؛ المنع يخص الموسيقى."
+      },
+      {
+        "id": "a2-rules-for-a-shared-room-q2",
+        "prompt": "متى يجب الحجز مسبقاً في هذه القواعد؟",
+        "options": [
+          "لوجبة مع أكثر من ستة أشخاص",
+          "لكل زيارة من شخصين",
+          "لمجرد القراءة منفرداً"
+        ],
+        "correctIndex": 0,
+        "evidence": "Voor een maaltijd met meer dan zes personen moet je de ruimte vooraf reserveren.",
+        "explanation": "الشرط يحدد العدد والنشاط؛ لا نعممه على كل زيارة."
+      },
+      {
+        "id": "a2-rules-for-a-shared-room-q3",
+        "prompt": "هل الزيارة القصيرة مع جارَين تحتاج تسجيل حجز؟",
+        "options": [
+          "نعم، دائماً في كل الأبنية",
+          "لا، حسب قواعد هذا المكان",
+          "فقط إذا لم يحملوا أكوابهم"
+        ],
+        "correctIndex": 1,
+        "evidence": "Een kort bezoek met twee buren hoeft niet op de reserveringslijst.",
+        "explanation": "hoeft niet يعني أن الحجز غير مطلوب لهذه الحالة."
+      },
+      {
+        "id": "a2-rules-for-a-shared-room-q4",
+        "prompt": "لماذا لا يحتاج السكان إلى إحضار أكواب؟",
+        "options": [
+          "لأن الشرب ممنوع",
+          "لأن المشرف يوزعها عند الباب حصراً",
+          "لأنها موجودة في الخزانة"
+        ],
+        "correctIndex": 2,
+        "evidence": "Je hoeft geen kopjes mee te nemen: die staan in de kast.",
+        "explanation": "die يعود إلى الأكواب الموجودة، لا إلى منع استعمالها."
+      },
+      {
+        "id": "a2-rules-for-a-shared-room-q5",
+        "prompt": "ما المطلوب عند المغادرة؟",
+        "options": [
+          "إغلاق النافذة",
+          "ترك الطعام في الغرفة للجميع",
+          "أخذ أكواب الخزانة إلى المنزل"
+        ],
+        "correctIndex": 0,
+        "evidence": "Bij vertrek moet het raam dicht.",
+        "explanation": "النافذة واجب عند المغادرة، أما الطعام فيؤخذ إلى المنزل."
+      },
+      {
+        "id": "a2-rules-for-a-shared-room-q6",
+        "prompt": "ماذا يفعل من لا يفهم إحدى القواعد؟",
+        "options": [
+          "يحذف أسماء السكان من القائمة",
+          "يراسل المشرف دون تعديل القائمة بنفسه",
+          "يعتبر كل القواعد ملغاة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Stuur de beheerder een bericht; verander de lijst niet zelf.",
+        "explanation": "يفرق النص بين طلب التوضيح وتغيير القاعدة."
+      }
+    ],
+    "production": {
+      "prompt": "ينوي جارك تناول وجبة مع ثمانية أشخاص بعد الثامنة. اكتب له ما يلزم في قواعد هذا المكان: الحجز مسبقاً، وإيقاف الموسيقى بعد التاسعة، وإغلاق النافذة عند المغادرة.",
+      "model": "Voor acht personen moet je de kamer vooraf reserveren. Na negen uur mag er geen muziek aan. Doe bij vertrek het raam dicht.",
+      "translation": "لثمانية أشخاص عليك حجز الغرفة مسبقاً. لا يُسمح بالموسيقى بعد التاسعة. أغلق النافذة عند المغادرة.",
+      "checklist": [
+        "هل طبقت شرط العدد على ثمانية أشخاص؟",
+        "هل نقلت الموسيقى والنافذة دون منع الحديث الهادئ؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-a-message-before-a-practice-call",
+    "title": "تحضير وصف لمكالمة تدريبية",
+    "dutchTitle": "Een oefenbericht voor een telefoongesprek",
+    "topic": "تحضير وصف لمكالمة تدريبية",
+    "sourceLessons": [
+      "a2-describing-symptoms-and-asking-for-help",
+      "a2-explaining-an-appointment-conflict"
+    ],
+    "text": "In de taalles oefenen we een gesprek met een huisartsenpraktijk. Dit is de rolkaart van Sam: hij heeft sinds woensdag pijn in zijn rechterknie. Vooral traplopen gaat moeilijk. Hij kan nog wel rustig lopen op een vlakke weg. Sam is niet de persoon die vorige week belde over een schouder. Hij wil tijdens het oefengesprek drie dingen vertellen: waar de pijn zit, wanneer die begon en wat daardoor moeilijk gaat. Hij weet geen naam voor de oorzaak. Die hoeft hij dus niet te verzinnen. Als hij een vraag niet begrijpt, vraagt hij om herhaling. Zijn partner speelt de medewerker en oefent met rustig luisteren en doorvragen.",
+    "translation": "نتدرّب في درس اللغة على محادثة مع عيادة طبيب أسرة. هذه بطاقة دور سام: لديه ألم في ركبته اليمنى منذ الأربعاء، ويصعب عليه خصوصاً صعود الدرج. ما زال يستطيع المشي بهدوء على طريق مستوٍ. سام ليس الشخص الذي اتصل الأسبوع الماضي بشأن الكتف. يريد ذكر ثلاثة أمور في المكالمة التدريبية: مكان الألم وبدايته وما يصعب عليه بسببه. لا يعرف اسم السبب، ولذلك لا يحتاج إلى اختراعه. إذا لم يفهم سؤالاً يطلب إعادته. يؤدي شريكه دور الموظف ويتدرب على الإصغاء بهدوء وطرح أسئلة متابعة.",
+    "vocabulary": [
+      {
+        "term": "de rolkaart",
+        "excerpt": "rolkaart",
+        "meaning": "بطاقة دور خيالي للتدريب."
+      },
+      {
+        "term": "de knie",
+        "excerpt": "rechterknie",
+        "meaning": "الركبة اليمنى في هذه الكلمة المركبة."
+      },
+      {
+        "term": "traplopen",
+        "excerpt": "traplopen",
+        "meaning": "صعود الدرج أو نزوله بحسب السياق؛ هنا النشاط عامة."
+      },
+      {
+        "term": "vlak",
+        "excerpt": "vlakke weg",
+        "meaning": "مستوٍ، مقابل الدرج هنا."
+      },
+      {
+        "term": "verzinnen",
+        "excerpt": "verzinnen",
+        "meaning": "يختلق معلومة أو يتخيلها."
+      },
+      {
+        "term": "doorvragen",
+        "excerpt": "doorvragen",
+        "meaning": "يطرح أسئلة متابعة لتوضيح المعلومات."
+      }
+    ],
+    "grammar": {
+      "title": "عدم الحاجة إلى اختراع معلومة",
+      "example": "Die hoeft hij dus niet te verzinnen.",
+      "translation": "لا يحتاج إذن إلى اختراعه.",
+      "explanation": "Die يعود إلى اسم السبب؛ الهدف نقل المعلوم لا تخمين تشخيص. hoeven met te صيغة عدم الحاجة."
+    },
+    "questions": [
+      {
+        "id": "a2-a-message-before-a-practice-call-q1",
+        "prompt": "أين شكوى سام في بطاقة الدور؟",
+        "options": [
+          "في الركبة اليمنى",
+          "في الكتف الأيسر",
+          "في ركبتيه معاً"
+        ],
+        "correctIndex": 0,
+        "evidence": "hij heeft sinds woensdag pijn in zijn rechterknie.",
+        "explanation": "rechterknie يحدد الركبة والجهة معاً."
+      },
+      {
+        "id": "a2-a-message-before-a-practice-call-q2",
+        "prompt": "متى بدأت الشكوى؟",
+        "options": [
+          "الأسبوع الماضي وقت اتصال الشخص الآخر",
+          "الأربعاء",
+          "في يوم الدرس حتماً"
+        ],
+        "correctIndex": 1,
+        "evidence": "hij heeft sinds woensdag pijn in zijn rechterknie.",
+        "explanation": "لا نعرف يوم الدرس، فلا نحول الأربعاء إلى عدد أيام مخترع."
+      },
+      {
+        "id": "a2-a-message-before-a-practice-call-q3",
+        "prompt": "أي نشاط ما زال يستطيع فعله؟",
+        "options": [
+          "صعود الدرج بسهولة تامة",
+          "حمل صندوق فوق رأسه",
+          "المشي بهدوء على طريق مستوٍ"
+        ],
+        "correctIndex": 2,
+        "evidence": "Hij kan nog wel rustig lopen op een vlakke weg.",
+        "explanation": "nog wel يحافظ على قدرة محددة رغم صعوبة الدرج."
+      },
+      {
+        "id": "a2-a-message-before-a-practice-call-q4",
+        "prompt": "هل سام هو المتصل السابق بشأن الكتف؟",
+        "options": [
+          "لا، النص يميزه عنه",
+          "نعم، الشكوى نفسها",
+          "لا نعرف لأن اسمه غير مذكور"
+        ],
+        "correctIndex": 0,
+        "evidence": "Sam is niet de persoon die vorige week belde over een schouder.",
+        "explanation": "النفي يمنع نقل شكوى شخص آخر إلى سام."
+      },
+      {
+        "id": "a2-a-message-before-a-practice-call-q5",
+        "prompt": "أي معلومة لا ينبغي اختراعها؟",
+        "options": [
+          "مكان الألم المذكور",
+          "اسم سبب الألم",
+          "بداية الشكوى المذكورة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Hij weet geen naam voor de oorzaak. Die hoeft hij dus niet te verzinnen.",
+        "explanation": "هذه المعلومة غير معروفة؛ المكان والبداية واردان."
+      },
+      {
+        "id": "a2-a-message-before-a-practice-call-q6",
+        "prompt": "كيف يتصرف إذا لم يفهم سؤالاً؟",
+        "options": [
+          "يوافق دون فهم",
+          "يقول إن كل شيء تحسن",
+          "يطلب إعادته"
+        ],
+        "correctIndex": 2,
+        "evidence": "Als hij een vraag niet begrijpt, vraagt hij om herhaling.",
+        "explanation": "هذا هدف تواصل لغوي، وليس تشخيصاً أو خطة علاج."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب افتتاح مكالمة تدريبية بدور سام، لا بدور صاحب ألم الكتف: اذكر الركبة اليمنى والبداية وصعوبة الدرج، ثم اطلب إعادة السؤال إن لزم.",
+      "model": "Ik heb sinds woensdag pijn in mijn rechterknie. Vooral traplopen gaat moeilijk. Kunt u uw vraag herhalen als ik u niet goed versta?",
+      "translation": "لدي ألم في ركبتي اليمنى منذ الأربعاء. يصعب عليّ خصوصاً استخدام الدرج. هل تعيد سؤالَك إذا لم أسمعك جيداً؟",
+      "checklist": [
+        "هل حافظت على وقائع بطاقة سام؟",
+        "هل تجنبت اختراع سبب أو تعليمات علاج؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-instructions-for-a-ticket-machine",
+    "title": "تعليمات آلة تذاكر خيالية",
+    "dutchTitle": "Een kaartje uit de oefenautomaat",
+    "topic": "تعليمات آلة تذاكر خيالية",
+    "sourceLessons": [
+      "a2-asking-how-a-product-works",
+      "a2-explaining-a-purchase-problem"
+    ],
+    "text": "Tijdens de taalles gebruiken we een oefenautomaat voor kaartjes voor een tentoonstelling. De docent legt uit: kies eerst de taal en daarna het aantal kaartjes. Kinderen en volwassenen tellen in deze oefening allebei mee. Op het volgende scherm zie je het totaalbedrag. Controleer het aantal voordat je betaalt. Klopt het niet? Ga dan één stap terug met de gele pijl. Druk niet opnieuw op de groene betaaltoets. Na de betaling verschijnt een bericht. Wacht tot er staat dat je het kaartje kunt pakken. Het kaartje komt uit de onderste opening; de bovenste is voor de bon. Dit zijn oefeninstructies, geen uitleg voor iedere echte automaat.",
+    "translation": "نستخدم في درس اللغة آلة تدريبية لتذاكر معرض. يشرح المدرّس: اختر اللغة أولاً ثم عدد التذاكر. في هذا التدريب يُحسب الأطفال والبالغون جميعاً. تعرض الشاشة التالية المبلغ الكلي. تحقّق من العدد قبل الدفع. إن لم يصح، عد خطوة واحدة بالسهم الأصفر، ولا تضغط زر الدفع الأخضر مجدداً. تظهر رسالة بعد الدفع. انتظر حتى يُكتب أنك تستطيع أخذ التذكرة. تخرج التذكرة من الفتحة السفلية؛ والعلوية للإيصال. هذه تعليمات تدريب وليست شرحاً لكل آلة حقيقية.",
+    "vocabulary": [
+      {
+        "term": "het aantal",
+        "excerpt": "aantal kaartjes",
+        "meaning": "عدد التذاكر."
+      },
+      {
+        "term": "het totaalbedrag",
+        "excerpt": "totaalbedrag",
+        "meaning": "المبلغ الكلي."
+      },
+      {
+        "term": "voordat",
+        "excerpt": "voordat je betaalt",
+        "meaning": "قبل أن تدفع."
+      },
+      {
+        "term": "de pijl",
+        "excerpt": "gele pijl",
+        "meaning": "السهم الأصفر هنا."
+      },
+      {
+        "term": "de betaaltoets",
+        "excerpt": "betaaltoets",
+        "meaning": "زر الدفع."
+      },
+      {
+        "term": "de bon",
+        "excerpt": "bon",
+        "meaning": "الإيصال."
+      }
+    ],
+    "grammar": {
+      "title": "ترتيب الخطوة مع voordat",
+      "example": "Controleer het aantal voordat je betaalt.",
+      "translation": "تحقق من العدد قبل أن تدفع.",
+      "explanation": "voordat يربط التحقق بخطوة تسبق الدفع؛ betaalt يأتي في نهاية الجملة التابعة."
+    },
+    "questions": [
+      {
+        "id": "a2-instructions-for-a-ticket-machine-q1",
+        "prompt": "ما الاختيار الأول في هذه الآلة التدريبية؟",
+        "options": [
+          "طريقة سحب الإيصال",
+          "اللغة",
+          "حجم الصورة"
+        ],
+        "correctIndex": 1,
+        "evidence": "kies eerst de taal en daarna het aantal kaartjes.",
+        "explanation": "eerst يسبق daarna في تسلسل الخطوتين."
+      },
+      {
+        "id": "a2-instructions-for-a-ticket-machine-q2",
+        "prompt": "من يُحسب في عدد التذاكر في التدريب؟",
+        "options": [
+          "البالغون فقط",
+          "الأطفال فقط",
+          "الأطفال والبالغون معاً"
+        ],
+        "correctIndex": 2,
+        "evidence": "Kinderen en volwassenen tellen in deze oefening allebei mee.",
+        "explanation": "عبارة in deze oefening تحدد نطاق المعلومة، ولا تنشئ سياسة معارض عامة."
+      },
+      {
+        "id": "a2-instructions-for-a-ticket-machine-q3",
+        "prompt": "متى يُفحص العدد؟",
+        "options": [
+          "قبل الدفع",
+          "بعد رمي الإيصال فقط",
+          "بعد مغادرة القاعة"
+        ],
+        "correctIndex": 0,
+        "evidence": "Controleer het aantal voordat je betaalt.",
+        "explanation": "voordat تعني قبل لا بعد."
+      },
+      {
+        "id": "a2-instructions-for-a-ticket-machine-q4",
+        "prompt": "كيف يصلح المتعلم عدداً غير صحيح؟",
+        "options": [
+          "يضغط زر الدفع الأخضر مجدداً",
+          "يرجع خطوة بالسهم الأصفر",
+          "يسحب التذكرة قبل الدفع"
+        ],
+        "correctIndex": 1,
+        "evidence": "Ga dan één stap terug met de gele pijl.",
+        "explanation": "هذا الإجراء محدد للآلة الخيالية المستخدمة."
+      },
+      {
+        "id": "a2-instructions-for-a-ticket-machine-q5",
+        "prompt": "متى يمكن أخذ التذكرة؟",
+        "options": [
+          "بمجرد اختيار اللغة",
+          "أثناء تعديل العدد قبل الدفع",
+          "بعد ظهور الرسالة التي تسمح بأخذها"
+        ],
+        "correctIndex": 2,
+        "evidence": "Wacht tot er staat dat je het kaartje kunt pakken.",
+        "explanation": "لا يكفي الضغط؛ هناك انتظار لرسالة."
+      },
+      {
+        "id": "a2-instructions-for-a-ticket-machine-q6",
+        "prompt": "من أي فتحة تخرج التذكرة؟",
+        "options": [
+          "السفلية",
+          "العلوية المخصصة للإيصال",
+          "من الزر الأصفر"
+        ],
+        "correctIndex": 0,
+        "evidence": "Het kaartje komt uit de onderste opening; de bovenste is voor de bon.",
+        "explanation": "يميّز النص بين التذكرة والإيصال وموضع كل منهما."
+      }
+    ],
+    "production": {
+      "prompt": "اشرح لشريك لم يقرأ النص كيف يصحح عدداً خاطئاً قبل الدفع وأين يأخذ التذكرة، مع ذكر شرط الرسالة.",
+      "model": "Ga met de gele pijl één stap terug als het aantal niet klopt. Controleer het aantal vóór de betaling. Pak het kaartje pas als het bericht verschijnt, uit de onderste opening.",
+      "translation": "ارجع خطوة بالسهم الأصفر إذا لم يصح العدد. تحقّق من العدد قبل الدفع. خذ التذكرة من الفتحة السفلية فقط بعد ظهور الرسالة.",
+      "checklist": [
+        "هل فصلت التصحيح عن الدفع مجدداً؟",
+        "هل حافظت على شرط الرسالة والفتحة السفلية؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-choosing-a-course-from-an-advert",
+    "title": "قراءة إعلان دورة وشروطها",
+    "dutchTitle": "Een cursusadvertentie vergelijken met je vraag",
+    "topic": "قراءة إعلان دورة وشروطها",
+    "sourceLessons": [
+      "a2-asking-about-a-course",
+      "a2-understanding-school-instructions"
+    ],
+    "text": "Cursuspagina van buurthuis Het Kompas: de cursus Foto met je telefoon heeft zes lessen op woensdagavond. Je leert betere foto’s maken en ze in mappen bewaren. Je hebt geen aparte camera nodig, maar je moet wel je eigen telefoon meenemen. De cursusprijs is voor de zes lessen samen. De gratis informatieavond is op maandag; dat is geen eerste les. Je kunt daar vragen stellen en een voorbeeld bekijken. Wie zich daarna wil inschrijven, vult het online formulier in. Er zijn nog plaatsen, maar een vraag per e-mail reserveert geen plek. Na de inschrijving stuurt het buurthuis een bevestiging. Wacht daarop voordat je aanneemt dat je bent ingeschreven.",
+    "translation": "صفحة دورة في مركز الحي هت كومباس: تتكون دورة «صورة بهاتفك» من ستة دروس مساء الأربعاء. تتعلم التقاط صور أفضل وحفظها في مجلدات. لا تحتاج إلى كاميرا منفصلة لكن عليك إحضار هاتفك الخاص. سعر الدورة للدروس الستة معاً. الأمسية التعريفية المجانية يوم الاثنين وليست الدرس الأول. يمكنك طرح الأسئلة ومشاهدة مثال فيها. من يريد التسجيل بعدها يملأ الاستمارة الإلكترونية. توجد أماكن بعد، لكن سؤالاً بالبريد لا يحجز مكاناً. يرسل المركز تأكيداً بعد التسجيل. انتظر التأكيد قبل افتراض أنك مسجّل.",
+    "vocabulary": [
+      {
+        "term": "de map",
+        "excerpt": "mappen",
+        "meaning": "مجلد لحفظ الصور أو الملفات."
+      },
+      {
+        "term": "apart",
+        "excerpt": "aparte camera",
+        "meaning": "منفصل أو مستقل هنا."
+      },
+      {
+        "term": "de cursusprijs",
+        "excerpt": "cursusprijs",
+        "meaning": "سعر الدورة."
+      },
+      {
+        "term": "de informatieavond",
+        "excerpt": "informatieavond",
+        "meaning": "أمسية تعريفية، لا درس تجريبي بالضرورة."
+      },
+      {
+        "term": "inschrijven",
+        "excerpt": "inschrijven",
+        "meaning": "يسجّل نفسه في الدورة."
+      },
+      {
+        "term": "de bevestiging",
+        "excerpt": "bevestiging",
+        "meaning": "تأكيد التسجيل هنا."
+      }
+    ],
+    "grammar": {
+      "title": "سؤال لا يساوي حجزاً",
+      "example": "Er zijn nog plaatsen, maar een vraag per e-mail reserveert geen plek.",
+      "translation": "توجد أماكن بعد لكن سؤالاً بالبريد لا يحجز مكاناً.",
+      "explanation": "maar يصحح استنتاجاً محتملاً: وجود مكان وطلب معلومات لا يعنيان التسجيل."
+    },
+    "questions": [
+      {
+        "id": "a2-choosing-a-course-from-an-advert-q1",
+        "prompt": "متى تُقام دروس الدورة؟",
+        "options": [
+          "مساء الاثنين",
+          "كل صباح",
+          "مساء الأربعاء"
+        ],
+        "correctIndex": 2,
+        "evidence": "de cursus Foto met je telefoon heeft zes lessen op woensdagavond.",
+        "explanation": "الأربعاء للدروس، والاثنين للأمسية التعريفية."
+      },
+      {
+        "id": "a2-choosing-a-course-from-an-advert-q2",
+        "prompt": "ما الجهاز المطلوب إحضاره؟",
+        "options": [
+          "الهاتف الخاص بالمتعلم",
+          "كاميرا مستقلة فقط",
+          "حاسوب مستعار من درس آخر"
+        ],
+        "correctIndex": 0,
+        "evidence": "Je hebt geen aparte camera nodig, maar je moet wel je eigen telefoon meenemen.",
+        "explanation": "يوازن النص بين عدم الحاجة للكاميرا والحاجة للهاتف."
+      },
+      {
+        "id": "a2-choosing-a-course-from-an-advert-q3",
+        "prompt": "ماذا يشمل السعر المذكور؟",
+        "options": [
+          "الأمسية التعريفية فقط",
+          "الدروس الستة معاً",
+          "درساً واحداً فقط"
+        ],
+        "correctIndex": 1,
+        "evidence": "De cursusprijs is voor de zes lessen samen.",
+        "explanation": "لا يوجد مبلغ في الإعلان؛ لا يمكن اختراعه."
+      },
+      {
+        "id": "a2-choosing-a-course-from-an-advert-q4",
+        "prompt": "ما طبيعة لقاء الاثنين؟",
+        "options": [
+          "الدرس الأول المدفوع",
+          "امتحان نهائي إلزامي",
+          "أمسية تعريفية مجانية وليست الدرس الأول"
+        ],
+        "correctIndex": 2,
+        "evidence": "De gratis informatieavond is op maandag; dat is geen eerste les.",
+        "explanation": "يفرق النص صراحة بين المعلومات والدروس."
+      },
+      {
+        "id": "a2-choosing-a-course-from-an-advert-q5",
+        "prompt": "هل يحجز سؤال بالبريد مكاناً؟",
+        "options": [
+          "لا، حسب الإعلان",
+          "نعم، بمجرد وجود أماكن",
+          "نعم، إذا جاء الاثنين فقط"
+        ],
+        "correctIndex": 0,
+        "evidence": "een vraag per e-mail reserveert geen plek.",
+        "explanation": "المعلومة مباشرة وتمنع اعتبار الاستفسار حجزاً."
+      },
+      {
+        "id": "a2-choosing-a-course-from-an-advert-q6",
+        "prompt": "ماذا ينتظر من ملأ استمارة التسجيل؟",
+        "options": [
+          "أن يخمّن يوم درس جديد",
+          "تأكيد المركز",
+          "إلغاء كل دروس الأربعاء"
+        ],
+        "correctIndex": 1,
+        "evidence": "Na de inschrijving stuurt het buurthuis een bevestiging. Wacht daarop voordat je aanneemt dat je bent ingeschreven.",
+        "explanation": "التأكيد خطوة مختلفة عن الاستفسار وتعبئة الطلب."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب للمركز تسأل عن السعر غير المذكور، واذكر أنك ستحضر الأمسية التعريفية الاثنين. لا تعتبر الرسالة تسجيلاً في الدورة.",
+      "model": "Ik wil maandag naar de informatieavond komen. Wat kost de cursus van zes lessen? Ik wil eerst informatie; deze e-mail is nog geen inschrijving voor de cursus.",
+      "translation": "أريد حضور الأمسية التعريفية الاثنين. ما تكلفة الدورة المكونة من ستة دروس؟ أريد المعلومات أولاً؛ هذا البريد ليس تسجيلاً في الدورة بعد.",
+      "checklist": [
+        "هل سألت عن السعر بدلاً من اختراعه؟",
+        "هل ميّزت الأمسية التعريفية والتسجيل؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-two-travel-messages-with-different-actions",
+    "title": "إعلانان وإجراءان مختلفان",
+    "dutchTitle": "Twee reisberichten, twee verschillende acties",
+    "topic": "إعلانان وإجراءان مختلفان",
+    "sourceLessons": [
+      "a2-understanding-travel-announcements",
+      "a2-planning-a-day-trip"
+    ],
+    "text": "Op het bord in het oefenstation staat: de trein naar Meerhoven van 14.10 rijdt vandaag niet. Reizigers nemen de vervangende bus bij halte B achter het station. De oude halte A aan de voorkant wordt vandaag niet gebruikt. In dit bericht staat niets over kaartjes. Even later klinkt een tweede aankondiging: de trein van 14.25 naar Zuidbeek vertrekt van spoor vijf in plaats van spoor drie. Deze trein rijdt dus wel. Sara gaat naar Meerhoven; Daan naar Zuidbeek. Ze kunnen niet samen naar dezelfde vertrekplek lopen. Sara moet eerst de uitgang aan de achterkant zoeken. Daan blijft in het station en volgt de borden naar spoor vijf.",
+    "translation": "تعرض لوحة المحطة التدريبية: قطار ميرهوفن الساعة 14:10 لا يسير اليوم. يستخدم المسافرون الحافلة البديلة عند الموقف B خلف المحطة. لا يُستخدم اليوم الموقف القديم A أمامها. لا يتضمن هذا الإعلان معلومات عن التذاكر. ثم يُسمع إعلان ثانٍ: قطار زاودبيك 14:25 ينطلق من الرصيف الخامس بدلاً من الثالث، أي إن هذا القطار يسير. تقصد سارا ميرهوفن ودان زاودبيك، فلا يمكنهما الذهاب معاً إلى مكان الصعود نفسه. على سارا البحث عن المخرج الخلفي، ويبقى دان داخل المحطة ويتبع اللوحات إلى الرصيف الخامس.",
+    "vocabulary": [
+      {
+        "term": "de reiziger",
+        "excerpt": "Reizigers",
+        "meaning": "المسافرون؛ المفرد de reiziger."
+      },
+      {
+        "term": "vervangend",
+        "excerpt": "vervangende bus",
+        "meaning": "بديل عن الخدمة الأصلية."
+      },
+      {
+        "term": "de achterkant",
+        "excerpt": "achterkant",
+        "meaning": "الجهة الخلفية."
+      },
+      {
+        "term": "de aankondiging",
+        "excerpt": "aankondiging",
+        "meaning": "الإعلان المسموع أو المنشور."
+      },
+      {
+        "term": "het vertrek",
+        "excerpt": "vertrekplek",
+        "meaning": "الانطلاق في كلمة مكان الانطلاق."
+      },
+      {
+        "term": "volgen",
+        "excerpt": "volgt de borden",
+        "meaning": "يتبع اللوحات الإرشادية."
+      }
+    ],
+    "grammar": {
+      "title": "البديل يختلف بحسب الرحلة",
+      "example": "de trein van 14.25 naar Zuidbeek vertrekt van spoor vijf in plaats van spoor drie.",
+      "translation": "ينطلق قطار زاودبيك 14:25 من الرصيف الخامس بدلاً من الثالث.",
+      "explanation": "المستبدل هنا هو الرصيف لا القطار؛ الإعلان الأول وحده يستبدل القطار بحافلة."
+    },
+    "questions": [
+      {
+        "id": "a2-two-travel-messages-with-different-actions-q1",
+        "prompt": "أي رحلة تحتاج حافلة بديلة؟",
+        "options": [
+          "ميرهوفن 14:10",
+          "زاودبيك 14:25",
+          "الرحلتان معاً"
+        ],
+        "correctIndex": 0,
+        "evidence": "de trein naar Meerhoven van 14.10 rijdt vandaag niet. Reizigers nemen de vervangende bus bij halte B achter het station.",
+        "explanation": "يجمع الدليل الإلغاء والبديل الخاص بهذه الوجهة."
+      },
+      {
+        "id": "a2-two-travel-messages-with-different-actions-q2",
+        "prompt": "إلى أين تذهب سارا للصعود؟",
+        "options": [
+          "الموقف A أمامها",
+          "الموقف B خلف المحطة",
+          "الرصيف الخامس"
+        ],
+        "correctIndex": 1,
+        "evidence": "de trein naar Meerhoven van 14.10 rijdt vandaag niet. Reizigers nemen de vervangende bus bij halte B achter het station. De oude halte A aan de voorkant wordt vandaag niet gebruikt. In dit bericht staat niets over kaartjes. Even later klinkt een tweede aankondiging: de trein van 14.25 naar Zuidbeek vertrekt van spoor vijf in plaats van spoor drie. Deze trein rijdt dus wel. Sara gaat naar Meerhoven; Daan naar Zuidbeek.",
+        "explanation": "تربط وجهة سارا بالإعلان الأول الذي يحدد الموقف B."
+      },
+      {
+        "id": "a2-two-travel-messages-with-different-actions-q3",
+        "prompt": "ما التغيير في رحلة دان؟",
+        "options": [
+          "إلغاء القطار وتحويله إلى حافلة",
+          "تغيير وجهته إلى ميرهوفن",
+          "الرصيف فقط من الثالث إلى الخامس"
+        ],
+        "correctIndex": 2,
+        "evidence": "de trein van 14.25 naar Zuidbeek vertrekt van spoor vijf in plaats van spoor drie.",
+        "explanation": "النص يؤكد بعدها أن القطار يسير، فلا ننقل إليه إلغاء الرحلة الأخرى."
+      },
+      {
+        "id": "a2-two-travel-messages-with-different-actions-q4",
+        "prompt": "هل يستطيعان الصعود من المكان نفسه؟",
+        "options": [
+          "لا، سارا للحافلة ودان للقطار",
+          "نعم، كلاهما من الموقف B",
+          "نعم، كلاهما من الرصيف الثالث"
+        ],
+        "correctIndex": 0,
+        "evidence": "Ze kunnen niet samen naar dezelfde vertrekplek lopen.",
+        "explanation": "يدعم هذا النفي الفرق بين مساريهما."
+      },
+      {
+        "id": "a2-two-travel-messages-with-different-actions-q5",
+        "prompt": "ما المعلومة التي لا يحددها الإعلان الأول؟",
+        "options": [
+          "موقع الموقف",
+          "صلاحية التذاكر للحافلة",
+          "وجهة القطار الملغى"
+        ],
+        "correctIndex": 1,
+        "evidence": "In dit bericht staat niets over kaartjes.",
+        "explanation": "لا ننقل سياسة التذاكر من حوار درس مختلف إلى هذا النص."
+      },
+      {
+        "id": "a2-two-travel-messages-with-different-actions-q6",
+        "prompt": "أين يبقى دان للوصول إلى رحلته؟",
+        "options": [
+          "خارج المحطة عند المخرج الخلفي",
+          "عند الموقف A القديم",
+          "داخل المحطة متجهاً إلى الرصيف الخامس"
+        ],
+        "correctIndex": 2,
+        "evidence": "Daan blijft in het station en volgt de borden naar spoor vijf.",
+        "explanation": "التعليمات تخص دان؛ المخرج الخلفي مطلوب لسارا."
+      }
+    ],
+    "production": {
+      "prompt": "أرسل رسالة موجزة لسارا ودان، وافصل بين مسار كل منهما. أضف سؤالاً للموظف عن التذكرة دون افتراض الجواب.",
+      "model": "Sara, neem de bus bij halte B achter het station. Daan, jouw trein vertrekt van spoor vijf. We moeten nog vragen of het kaartje van Sara geldig is in de bus.",
+      "translation": "سارا، خذي الحافلة عند الموقف B خلف المحطة. دان، قطارك من الرصيف الخامس. ما زال علينا السؤال إن كانت تذكرة سارا صالحة للحافلة.",
+      "checklist": [
+        "هل نقلت الإجراء الصحيح لكل شخص؟",
+        "هل أبقيت أمر التذكرة غير محسوم؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-a-shared-plan-with-a-quiet-option",
+    "title": "اختيار نشاط يناسب الجميع",
+    "dutchTitle": "Samen kiezen zonder elkaars voorkeur te negeren",
+    "topic": "اختيار نشاط يناسب الجميع",
+    "sourceLessons": [
+      "a2-disagreeing-politely",
+      "a2-sharing-a-social-experience"
+    ],
+    "text": "Hoi allemaal, voor zaterdag dacht ik aan de markt in het centrum. Noor vindt dat leuk, maar Sam wil liever iets rustigs. Hij heeft een drukke week gehad en wil kunnen zitten en praten. Dat betekent niet dat hij niet mee wil. Ik stel daarom de kleine tuin bij het buurthuis voor. Er zijn bankjes en de toegang is gratis. Noor vraagt of daar ook iets te drinken is. Dat weet ik nog niet; ik ga het navragen. We hebben dus nog geen definitief plan. Laat weten wat voor jou belangrijk is. Vrijdag kiezen we samen. Als er geen drankjes zijn, kunnen we vragen of we zelf iets mogen meenemen.",
+    "translation": "مرحباً بالجميع، فكرت لسَبْت في سوق وسط المدينة. تحب نور الفكرة لكن سام يفضّل شيئاً هادئاً. كان أسبوعه مزدحماً ويريد الجلوس والحديث. هذا لا يعني أنه لا يريد المشاركة. لذلك أقترح الحديقة الصغيرة قرب مركز الحي. فيها مقاعد والدخول مجاني. تسأل نور إن كانت توجد مشروبات، ولا أعرف ذلك بعد وسأسأل. إذن ليس لدينا برنامج نهائي. أخبرونا بما يهمكم. نختار معاً الجمعة. إن لم توجد مشروبات يمكننا السؤال إن كان مسموحاً بإحضار شيء معنا.",
+    "vocabulary": [
+      {
+        "term": "liever",
+        "excerpt": "liever iets rustigs",
+        "meaning": "يفضّل شيئاً أهدأ."
+      },
+      {
+        "term": "druk",
+        "excerpt": "een drukke week",
+        "meaning": "مزدحم بالمهام هنا، لا ضجيج مكان بالضرورة."
+      },
+      {
+        "term": "de toegang",
+        "excerpt": "toegang",
+        "meaning": "الدخول إلى المكان."
+      },
+      {
+        "term": "navragen",
+        "excerpt": "navragen",
+        "meaning": "يستفسر لدى جهة أخرى للتحقق."
+      },
+      {
+        "term": "definitief",
+        "excerpt": "definitief plan",
+        "meaning": "خطة نهائية."
+      },
+      {
+        "term": "meenemen",
+        "excerpt": "meenemen",
+        "meaning": "يحضر معه إلى مكان آخر."
+      }
+    ],
+    "grammar": {
+      "title": "لذلك والسبب الذي سبقها",
+      "example": "Ik stel daarom de kleine tuin bij het buurthuis voor.",
+      "translation": "لذلك أقترح الحديقة الصغيرة قرب مركز الحي.",
+      "explanation": "daarom تربط الاقتراح بحاجة سام إلى الهدوء والجلوس؛ الاقتراح لم يتحول بعد إلى اتفاق."
+    },
+    "questions": [
+      {
+        "id": "a2-a-shared-plan-with-a-quiet-option-q1",
+        "prompt": "لماذا يفضّل سام نشاطاً هادئاً؟",
+        "options": [
+          "لأنه يرفض رؤية المجموعة نهائياً",
+          "لأن أسبوعه مزدحم ويريد الجلوس والحديث",
+          "لأن السوق مغلق حتماً"
+        ],
+        "correctIndex": 1,
+        "evidence": "Hij heeft een drukke week gehad en wil kunnen zitten en praten.",
+        "explanation": "لا يعني التفضيل رفض المشاركة، كما يوضح النص."
+      },
+      {
+        "id": "a2-a-shared-plan-with-a-quiet-option-q2",
+        "prompt": "ما البديل المقترح؟",
+        "options": [
+          "مقهى السوق المؤكد مسبقاً",
+          "حديقة تبعد ساعتين",
+          "الحديقة الصغيرة قرب مركز الحي"
+        ],
+        "correctIndex": 2,
+        "evidence": "Ik stel daarom de kleine tuin bij het buurthuis voor.",
+        "explanation": "stel ... voor يقدم اقتراحاً، لا حجزاً."
+      },
+      {
+        "id": "a2-a-shared-plan-with-a-quiet-option-q3",
+        "prompt": "أي معلومة مؤكدة عن البديل؟",
+        "options": [
+          "وجود مقاعد ومجانية الدخول",
+          "وجود مشروبات مجانية",
+          "سماح مؤكد بإحضار الطعام"
+        ],
+        "correctIndex": 0,
+        "evidence": "Er zijn bankjes en de toegang is gratis.",
+        "explanation": "المجانية تخص الدخول فقط، وليس المشروبات التي لم يُعرف أمرها."
+      },
+      {
+        "id": "a2-a-shared-plan-with-a-quiet-option-q4",
+        "prompt": "ما الأمر الذي سيسأل عنه الكاتب؟",
+        "options": [
+          "وجود المقاعد المذكورة",
+          "توفر شيء للشرب",
+          "اسم يوم النشاط"
+        ],
+        "correctIndex": 1,
+        "evidence": "Noor vraagt of daar ook iets te drinken is. Dat weet ik nog niet; ik ga het navragen.",
+        "explanation": "Dat يعود إلى وجود مشروبات، لا إلى كل المعلومات عن المكان."
+      },
+      {
+        "id": "a2-a-shared-plan-with-a-quiet-option-q5",
+        "prompt": "هل اتُّفق نهائياً على البديل؟",
+        "options": [
+          "نعم، بمجرد اقتراح الحديقة",
+          "نعم، لأن الدخول مجاني",
+          "لا، سيختارون معاً الجمعة"
+        ],
+        "correctIndex": 2,
+        "evidence": "We hebben dus nog geen definitief plan.",
+        "explanation": "nog geen يحافظ على وضع الخطة المفتوح."
+      },
+      {
+        "id": "a2-a-shared-plan-with-a-quiet-option-q6",
+        "prompt": "إذا لم توجد مشروبات، فما الخطوة المقترحة؟",
+        "options": [
+          "السؤال إن كان إحضارها مسموحاً",
+          "افتراض السماح دون سؤال",
+          "إلغاء اللقاء حتماً"
+        ],
+        "correctIndex": 0,
+        "evidence": "Als er geen drankjes zijn, kunnen we vragen of we zelf iets mogen meenemen.",
+        "explanation": "الجملة تقترح سؤالاً مشروطاً، ولا تؤكد الإذن مسبقاً."
+      }
+    ],
+    "production": {
+      "prompt": "أجب عن الرسالة: توافق على مكان هادئ، لكن يهمك توفر مشروبات. اسأل عن الجواب بعد التحقق ولا تؤكد أن النشاط حُسم.",
+      "model": "Een rustige plek lijkt me fijn. Voor mij is het belangrijk dat we iets kunnen drinken. Laat je weten wat het buurthuis zegt? Daarna kunnen we samen kiezen.",
+      "translation": "يبدو المكان الهادئ لطيفاً لي. يهمني أن نستطيع شرب شيء. هل تخبرنا بما يقوله مركز الحي؟ نستطيع الاختيار معاً بعد ذلك.",
+      "checklist": [
+        "هل ذكرت حاجتك دون إلغاء حاجة الآخرين؟",
+        "هل حافظت على كون القرار غير نهائي؟"
+      ]
+    }
   }
 ]

@@ -41,7 +41,7 @@ test("catalogue with delayed or failed progress stays browsable and retries with
   const banner = page.locator(".continue-banner").first();
   await expect(banner.getByRole("status")).toBeVisible();
   await expect(banner.getByRole("link")).toHaveCount(0);
-  await expect(page.locator(".catalogue-item")).toHaveCount(40);
+  await expect(page.locator(".catalogue-item")).toHaveCount(48);
   release();
   await expect(banner.getByRole("alert")).toBeVisible();
   await expect(page.locator(".catalogue-complete")).toHaveCount(0);

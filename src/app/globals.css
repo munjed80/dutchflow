@@ -132,6 +132,8 @@ em{font-style:normal;color:var(--teal)}
 .phrase-card:last-child{border-bottom:0}
 .phrase-index{font:18px/1 Georgia,serif;color:#a5bcad;align-self:flex-start;padding-top:7px}
 .phrase-content{flex:1;min-width:0}
+.lesson-language-depth .language-depth-example{display:block}
+.lesson-language-depth .phrase-content h3{text-align:start}
 .phrase-content h3{font:600 22px/1.35 Georgia,"Segoe UI",serif;text-align:right;margin:0 0 6px;color:#213f3b}
 .phrase-content p{margin:0;color:#465a55;font-size:14px}
 .phrase-content small{display:block;color:#8b9891;font-size:11px;margin-top:6px}

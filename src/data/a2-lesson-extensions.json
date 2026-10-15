@@ -5161,5 +5161,1037 @@
         }
       ]
     }
+  },
+  {
+    "lessonSlug": "a2-asking-about-someones-background",
+    "vocabulary": [
+      {
+        "term": "de buurt",
+        "kind": "noun",
+        "forms": "de buurten",
+        "meaning": "الحي.",
+        "phraseId": "a2-asking-about-someones-background-01"
+      },
+      {
+        "term": "sinds",
+        "kind": "expression",
+        "forms": "sinds mei · sinds vorig jaar",
+        "meaning": "منذ بداية زمنية مع وضع مستمر.",
+        "phraseId": "a2-asking-about-someones-background-02"
+      },
+      {
+        "term": "wonen",
+        "kind": "verb",
+        "forms": "ik woon · ik woonde · ik heb gewoond",
+        "meaning": "يسكن؛ صيغة الماضي هنا woonde.",
+        "phraseId": "a2-asking-about-someones-background-03"
+      },
+      {
+        "term": "naar school gaan",
+        "kind": "expression",
+        "forms": "ik ging naar school",
+        "meaning": "يذهب إلى المدرسة؛ ging ماضٍ متكرر هنا.",
+        "phraseId": "a2-asking-about-someones-background-04"
+      },
+      {
+        "term": "een cursus volgen",
+        "kind": "expression",
+        "forms": "ik volg een cursus",
+        "meaning": "يتابع دورة.",
+        "phraseId": "a2-asking-about-someones-background-06"
+      },
+      {
+        "term": "zich thuis voelen",
+        "kind": "expression",
+        "forms": "ik voel me thuis · wij voelen ons thuis",
+        "meaning": "يشعر بالألفة والانتماء.",
+        "phraseId": "a2-asking-about-someones-background-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب لشريك تعلّم: كنت تسكن في دلفت، وتسكن الآن في هورن منذ مارس، وتعمل في مكتبة. اسأله عن مدّة سكنه في حيّه.",
+        "model": "Vroeger woonde ik in Delft. Ik woon nu sinds maart in Hoorn. Ik werk in een bibliotheek. Hoelang woon jij in jouw buurt?",
+        "translation": "كنت أسكن في دلفت. أسكن الآن في هورن منذ مارس. أعمل في مكتبة. منذ متى تسكن في حيّك؟",
+        "checklist": [
+          "هل ميّزت السكن السابق عن الحالي المستمر؟",
+          "هل سألت عن المدة بدلاً من اختراع جواب للطرف الآخر؟"
+        ]
+      },
+      {
+        "prompt": "انقل المعلومة إلى صديق: نور كانت تسكن في بريدا، وتسكن هنا منذ يونيو. لا تعرف الجيران جيداً بعد لكنها تحب الحي.",
+        "model": "Noor woonde vroeger in Breda. Ze woont hier sinds juni. Ze kent de buren nog niet goed, maar ze vindt de buurt leuk.",
+        "translation": "كانت نور تسكن في بريدا. تسكن هنا منذ يونيو. لا تعرف الجيران جيداً بعد لكنها تحب الحي.",
+        "checklist": [
+          "هل استخدمت ze بدلاً من نسخ ik؟",
+          "هل حافظت على معنى nog niet؟"
+        ]
+      }
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Hoelang werk je al in deze winkel?",
+          "arabic": "منذ متى تعمل في هذا المتجر؟",
+          "note": "hoelang يسأل عن مدة مستمرة."
+        },
+        {
+          "dutch": "Ik woon sinds vorig jaar in deze straat.",
+          "arabic": "أسكن في هذا الشارع منذ العام الماضي.",
+          "note": "sinds يشير إلى نقطة البداية."
+        },
+        {
+          "dutch": "Vroeger had ik meer tijd om te sporten.",
+          "arabic": "كان لدي سابقاً وقت أكثر للرياضة.",
+          "note": "had صيغة ماضية شائعة من hebben."
+        },
+        {
+          "dutch": "Ik ken de stad nog niet goed.",
+          "arabic": "لا أعرف المدينة جيداً بعد.",
+          "note": "تعبير مناسب عندما تطلب معلومات محلية."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "in een buurt wonen",
+          "arabic": "يسكن في حي"
+        },
+        {
+          "dutch": "een cursus volgen",
+          "arabic": "يتابع دورة"
+        },
+        {
+          "dutch": "zich thuis voelen",
+          "arabic": "يشعر بالألفة والانتماء"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Woon je al lang hier?",
+          "alternative": "Hoelang woon je hier al?",
+          "note": "سؤالان عن المدة مع اختلاف ترتيب الكلمات."
+        },
+        {
+          "dutch": "Hoe bevalt de buurt je?",
+          "alternative": "Vind je het fijn om hier te wonen?",
+          "note": "السؤال الثاني يوضح المقصود بالانطباع."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik woon hier voor mei.",
+          "correct": "Ik woon hier sinds mei.",
+          "explanation": "نستعمل sinds لبداية وضع مستمر؛ voor mei تعني قبل مايو."
+        },
+        {
+          "wrong": "Vroeger ik woonde in Breda.",
+          "correct": "Vroeger woonde ik in Breda.",
+          "explanation": "بعد Vroeger يأتي الفعل المصرف قبل الفاعل."
+        }
+      ]
+    }
+  },
+  {
+    "lessonSlug": "a2-giving-feedback-at-work",
+    "vocabulary": [
+      {
+        "term": "de lijst",
+        "kind": "noun",
+        "forms": "de lijsten",
+        "meaning": "القائمة.",
+        "phraseId": "a2-giving-feedback-at-work-01"
+      },
+      {
+        "term": "ontbreken",
+        "kind": "verb",
+        "forms": "het ontbreekt · het ontbrak",
+        "meaning": "ينقص أو يكون غائباً.",
+        "phraseId": "a2-giving-feedback-at-work-02"
+      },
+      {
+        "term": "bedoelen",
+        "kind": "verb",
+        "forms": "ik bedoel · ik heb bedoeld",
+        "meaning": "يقصد.",
+        "phraseId": "a2-giving-feedback-at-work-03"
+      },
+      {
+        "term": "voorkomen",
+        "kind": "verb",
+        "forms": "we voorkomen · we hebben voorkomen",
+        "meaning": "يمنع حدوث المشكلة في هذا السياق.",
+        "phraseId": "a2-giving-feedback-at-work-05"
+      },
+      {
+        "term": "controleren",
+        "kind": "verb",
+        "forms": "ik controleer · ik heb gecontroleerd",
+        "meaning": "يفحص ويتحقق.",
+        "phraseId": "a2-giving-feedback-at-work-06"
+      },
+      {
+        "term": "voorlezen",
+        "kind": "verb",
+        "forms": "ik lees voor · ik heb voorgelezen",
+        "meaning": "يقرأ بصوت مسموع.",
+        "phraseId": "a2-giving-feedback-at-work-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "قدّم ملاحظة لزميل: الشرح جيد لكن اسمي عميلين ناقصان. اقترح فحص الاسمين معاً في المرة القادمة.",
+        "model": "De uitleg was goed, maar twee klantnamen ontbraken. Kunnen we de namen de volgende keer samen controleren?",
+        "translation": "كان الشرح جيداً لكن اسمي عميلين كانا ناقصين. هل يمكننا فحص الأسماء معاً في المرة القادمة؟",
+        "checklist": [
+          "هل ذكرت الجانب الجيد والمشكلة المحددة؟",
+          "هل قدّمت طلباً عملياً بدلاً من اتهام الزميل؟"
+        ]
+      },
+      {
+        "prompt": "زميلك يقول إن المشكلة لا تتكرر كل يوم بل حدثت مرة أمس. صحّح تعميمك، ثم اقترح أن تقرأ القائمة وهو يفحص الطلبات.",
+        "model": "Je hebt gelijk: het gebeurde gisteren één keer. Ik lees de lijst voor en jij controleert de bestellingen. Is dat goed?",
+        "translation": "معك حق: حدث ذلك مرة واحدة أمس. أقرأ القائمة بصوت مسموع وأنت تفحص الطلبات. هل يناسبك؟",
+        "checklist": [
+          "هل صححت التعميم إلى مرة واحدة أمس؟",
+          "هل تركت توزيع الأدوار بحاجة إلى موافقة؟"
+        ]
+      }
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik vind de uitleg duidelijk.",
+          "arabic": "أجد الشرح واضحاً.",
+          "note": "رأي محدد عن الشرح."
+        },
+        {
+          "dutch": "Er ontbreekt één naam op het formulier.",
+          "arabic": "ينقص اسم واحد في الاستمارة.",
+          "note": "وصف نقص يمكن إصلاحه."
+        },
+        {
+          "dutch": "Volgende keer lezen we de lijst samen.",
+          "arabic": "في المرة القادمة نقرأ القائمة معاً.",
+          "note": "الفعل lezen يسبق we بعد العبارة الأولى."
+        },
+        {
+          "dutch": "Bedoel je deze twee dozen?",
+          "arabic": "هل تقصد هذين الصندوقين؟",
+          "note": "سؤال للتحقق من المقصود."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een probleem bespreken",
+          "arabic": "يناقش مشكلة"
+        },
+        {
+          "dutch": "iets samen controleren",
+          "arabic": "يفحص شيئاً مع شخص آخر"
+        },
+        {
+          "dutch": "feedback geven",
+          "arabic": "يقدم ملاحظة بنّاءة"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Welke nummers bedoel je?",
+          "alternative": "Om welke nummers gaat het?",
+          "note": "طريقتان لطلب تحديد الأرقام."
+        },
+        {
+          "dutch": "We kunnen de nummers samen controleren.",
+          "alternative": "Zullen we de nummers samen controleren?",
+          "note": "الأولى تقترح إمكانية والثانية تطلب الموافقة بوضوح."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Volgende keer we controleren de lijst.",
+          "correct": "Volgende keer controleren we de lijst.",
+          "explanation": "الفعل المصرف يأتي ثانياً."
+        },
+        {
+          "wrong": "Wil jij leest de lijst voor?",
+          "correct": "Wil jij de lijst voorlezen?",
+          "explanation": "بعد wil نستخدم المصدر voorlezen في آخر الجملة."
+        }
+      ]
+    }
+  },
+  {
+    "lessonSlug": "a2-explaining-shared-house-rules",
+    "vocabulary": [
+      {
+        "term": "de wasmachine",
+        "kind": "noun",
+        "forms": "de wasmachines",
+        "meaning": "الغسالة.",
+        "phraseId": "a2-explaining-shared-house-rules-01"
+      },
+      {
+        "term": "tot",
+        "kind": "expression",
+        "forms": "tot negen uur",
+        "meaning": "حتى حد زمني.",
+        "phraseId": "a2-explaining-shared-house-rules-02"
+      },
+      {
+        "term": "de begintijd",
+        "kind": "noun",
+        "forms": "de begintijden",
+        "meaning": "وقت البدء.",
+        "phraseId": "a2-explaining-shared-house-rules-04"
+      },
+      {
+        "term": "hoeven",
+        "kind": "verb",
+        "forms": "ik hoef niet · je hoeft niet",
+        "meaning": "يحتاج؛ مع النفي لا يلزم.",
+        "phraseId": "a2-explaining-shared-house-rules-06"
+      },
+      {
+        "term": "de pas",
+        "kind": "noun",
+        "forms": "de passen",
+        "meaning": "بطاقة الدفع في هذا السياق.",
+        "phraseId": "a2-explaining-shared-house-rules-06"
+      },
+      {
+        "term": "eruit halen",
+        "kind": "expression",
+        "forms": "haal je was eruit",
+        "meaning": "يخرج شيئاً من الداخل.",
+        "phraseId": "a2-explaining-shared-house-rules-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب لساكن جديد قواعد غرفة خيالية: يحجز اسمه ووقت البدء، ولا يغسل بعد الثامنة مساءً، ولا يحتاج إلى منظّف لأنه موجود.",
+        "model": "Schrijf je naam en de begintijd op de lijst. Na acht uur mag je niet meer wassen. Je hoeft geen wasmiddel mee te nemen; dat is aanwezig.",
+        "translation": "اكتب اسمك ووقت البدء في القائمة. لا يُسمح بالغسيل بعد الثامنة. لا تحتاج إلى إحضار منظف؛ فهو موجود.",
+        "checklist": [
+          "هل ميّزت المنع عن عدم الحاجة؟",
+          "هل استخدمت الثامنة من المهمة الجديدة لا التاسعة من الحوار؟"
+        ]
+      },
+      {
+        "prompt": "تظن جارتك أن عدم الحاجة إلى العملات يعني أن الغسيل مجاني. وضّح أن الدفع في هذا المكان بالبطاقة، ثم اسألها إن كانت تعرف مكان البطاقة.",
+        "model": "Je hoeft geen muntjes mee te nemen, maar wassen is niet gratis. Je betaalt hier met een pas. Weet je waar de pas ligt?",
+        "translation": "لا تحتاجين لإحضار عملات لكن الغسيل ليس مجانياً. تدفعين هنا ببطاقة. هل تعرفين أين توجد البطاقة؟",
+        "checklist": [
+          "هل صححت الاستنتاج دون تحويله إلى منع؟",
+          "هل طلبت المعلومة الناقصة بدلاً من افتراضها؟"
+        ]
+      }
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Je mag hier niet roken.",
+          "arabic": "لا يسمح لك بالتدخين هنا.",
+          "note": "قاعدة للمكان الخيالي الذي تشير إليه hier."
+        },
+        {
+          "dutch": "Je moet je naam op de lijst zetten.",
+          "arabic": "عليك وضع اسمك في القائمة.",
+          "note": "moet يدل على واجب."
+        },
+        {
+          "dutch": "Je hoeft geen eigen sleutel mee te nemen.",
+          "arabic": "لا تحتاج إلى إحضار مفتاحك الخاص.",
+          "note": "geen ينفي الحاجة إلى اسم غير معرف."
+        },
+        {
+          "dutch": "Als je klaar bent, ruim je je spullen op.",
+          "arabic": "عندما تنتهي رتّب أغراضك.",
+          "note": "الفعل bent في نهاية جملة als."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een regel uitleggen",
+          "arabic": "يشرح قاعدة"
+        },
+        {
+          "dutch": "je naam opschrijven",
+          "arabic": "يكتب اسمه"
+        },
+        {
+          "dutch": "de ruimte netjes achterlaten",
+          "arabic": "يترك المكان مرتباً"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Dat hoeft niet.",
+          "alternative": "Dat is niet nodig.",
+          "note": "طريقتان لعدم الحاجة وليستا منعاً."
+        },
+        {
+          "dutch": "Mag ik hier wassen?",
+          "alternative": "Is het toegestaan om hier te wassen?",
+          "note": "الأولى أبسط، والثانية أكثر رسمية وتحتاج om ... te."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je hoeft niet muntjes meenemen.",
+          "correct": "Je hoeft geen muntjes mee te nemen.",
+          "explanation": "مع hoeven نستخدم te، وننفي الاسم غير المعرف بـ geen."
+        },
+        {
+          "wrong": "Je mag hier wassen niet.",
+          "correct": "Je mag hier niet wassen.",
+          "explanation": "نضع niet قبل المصدر في هذا النمط."
+        }
+      ]
+    }
+  },
+  {
+    "lessonSlug": "a2-describing-symptoms-and-asking-for-help",
+    "vocabulary": [
+      {
+        "term": "de schouder",
+        "kind": "noun",
+        "forms": "de schouders",
+        "meaning": "الكتف.",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-01"
+      },
+      {
+        "term": "last hebben van",
+        "kind": "expression",
+        "forms": "ik heb last van mijn schouder",
+        "meaning": "يعاني من انزعاج في مكان معين.",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-02"
+      },
+      {
+        "term": "optillen",
+        "kind": "verb",
+        "forms": "ik til op · ik heb opgetild",
+        "meaning": "يرفع شيئاً.",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-03"
+      },
+      {
+        "term": "aantrekken",
+        "kind": "verb",
+        "forms": "ik trek aan · ik heb aangetrokken",
+        "meaning": "يرتدي قطعة ملابس.",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-05"
+      },
+      {
+        "term": "herhalen",
+        "kind": "verb",
+        "forms": "ik herhaal · ik heb herhaald",
+        "meaning": "يعيد كلاماً أو سؤالاً.",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-07"
+      },
+      {
+        "term": "verstaan",
+        "kind": "verb",
+        "forms": "ik versta · ik heb verstaan",
+        "meaning": "يسمع الكلام ويميزه.",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب ملاحظة لغوية عن حالة خيالية: ألم في الركبة منذ الثلاثاء، يزعجك خصوصاً على الدرج ويجعل المشي صعباً. اطلب إعادة السؤال ببطء.",
+        "model": "Ik heb sinds dinsdag pijn in mijn knie, vooral als ik de trap oploop. Lopen gaat moeilijk. Kunt u de vraag langzaam herhalen?",
+        "translation": "لدي ألم في ركبتي منذ الثلاثاء، خاصة عندما أصعد الدرج. المشي صعب. هل تعيد السؤال ببطء؟",
+        "checklist": [
+          "هل ذكرت المكان والبداية وتأثير الشكوى دون اختراع تشخيص؟",
+          "هل طلبت توضيحاً محدداً؟"
+        ]
+      },
+      {
+        "prompt": "انقل وصف نور الخيالي إلى موظفة الاستقبال: نور لديها ألم في كتفها منذ أمس ويصعب عليها ارتداء سترتها. لا تضف علاجاً أو موعداً غير مذكور.",
+        "model": "Noor heeft sinds gisteren pijn in haar schouder. Ze kan haar jas moeilijk aantrekken.",
+        "translation": "لدى نور ألم في كتفها منذ أمس. يصعب عليها ارتداء سترتها.",
+        "checklist": [
+          "هل غيّرت mijn إلى haar عند النقل؟",
+          "هل احتفظت بالوقائع دون إضافة علاج أو حجز؟"
+        ]
+      }
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Waar heeft u precies pijn?",
+          "arabic": "أين الألم بالتحديد؟",
+          "note": "precies يطلب مكاناً أوضح."
+        },
+        {
+          "dutch": "Ik heb er sinds gisteren last van.",
+          "arabic": "أعاني من ذلك منذ أمس.",
+          "note": "er ... van يعود إلى الشكوى المعروفة."
+        },
+        {
+          "dutch": "Als ik lang sta, doet mijn knie pijn.",
+          "arabic": "تؤلمني ركبتي عندما أقف طويلاً.",
+          "note": "هذا وصف خيالي للتدرب على als."
+        },
+        {
+          "dutch": "Kunt u dat met andere woorden zeggen?",
+          "arabic": "هل يمكنك قول ذلك بكلمات أخرى؟",
+          "note": "طلب إعادة الصياغة غير طلب رفع الصوت فقط."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "last hebben van",
+          "arabic": "يعاني من انزعاج"
+        },
+        {
+          "dutch": "een vraag herhalen",
+          "arabic": "يعيد سؤالاً"
+        },
+        {
+          "dutch": "met andere woorden zeggen",
+          "arabic": "يقول بكلمات أخرى"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik heb u niet goed verstaan.",
+          "alternative": "Ik kon u niet goed horen.",
+          "note": "الأولى تركز على تمييز الكلام والثانية على سماع الصوت."
+        },
+        {
+          "dutch": "Hoelang heeft u daar last van?",
+          "alternative": "Sinds wanneer heeft u die klachten?",
+          "note": "الأولى تطلب المدة والثانية نقطة البداية."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Mijn schouder doen pijn.",
+          "correct": "Mijn schouder doet pijn.",
+          "explanation": "schouder مفرد، لذلك نستخدم doet لا doen."
+        },
+        {
+          "wrong": "Als ik til mijn arm op, doet het pijn.",
+          "correct": "Als ik mijn arm optil, doet het pijn.",
+          "explanation": "في جملة als يأتي optil في النهاية متصلاً."
+        }
+      ]
+    }
+  },
+  {
+    "lessonSlug": "a2-asking-how-a-product-works",
+    "vocabulary": [
+      {
+        "term": "het apparaat",
+        "kind": "noun",
+        "forms": "de apparaten",
+        "meaning": "الجهاز.",
+        "phraseId": "a2-asking-how-a-product-works-01"
+      },
+      {
+        "term": "het bakje",
+        "kind": "noun",
+        "forms": "de bakjes",
+        "meaning": "وعاء صغير؛ الخزان هنا.",
+        "phraseId": "a2-asking-how-a-product-works-02"
+      },
+      {
+        "term": "de lijn",
+        "kind": "noun",
+        "forms": "de lijnen",
+        "meaning": "الخط أو علامة الحد.",
+        "phraseId": "a2-asking-how-a-product-works-03"
+      },
+      {
+        "term": "de opening",
+        "kind": "noun",
+        "forms": "de openingen",
+        "meaning": "الفتحة.",
+        "phraseId": "a2-asking-how-a-product-works-04"
+      },
+      {
+        "term": "meteen",
+        "kind": "expression",
+        "forms": "meteen beginnen",
+        "meaning": "مباشرة أو فوراً.",
+        "phraseId": "a2-asking-how-a-product-works-05"
+      },
+      {
+        "term": "op een knop drukken",
+        "kind": "expression",
+        "forms": "ik druk op de knop",
+        "meaning": "يضغط زراً.",
+        "phraseId": "a2-asking-how-a-product-works-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اشرح نموذجاً خيالياً مختلفاً: ضع الورقة أولاً، ثم اختر اللغة، ولا تضغط زر البدء إلا عندما تصبح الشاشة جاهزة.",
+        "model": "Leg eerst het papier klaar. Kies daarna de taal. Druk pas op de startknop als het scherm klaar is.",
+        "translation": "جهّز الورقة أولاً. اختر اللغة بعد ذلك. لا تضغط زر البدء إلا عندما تصبح الشاشة جاهزة.",
+        "checklist": [
+          "هل حافظت على ترتيب الخطوات الجديد؟",
+          "هل ربطت الضغط بشرط الجاهزية؟"
+        ]
+      },
+      {
+        "prompt": "البائع شرح سريعاً كيف تستخدم جهازاً خيالياً. أعد فهمك على شكل سؤال: الماء أولاً، ثم الفنجان، ثم انتظار الضوء الأخضر. اسأل إن كان الضغط مرة أم مرتين.",
+        "model": "Dus eerst water, daarna een kopje en dan wachten tot het lampje groen is. Klopt dat? Moet ik één keer of twee keer drukken?",
+        "translation": "إذن الماء أولاً ثم الفنجان ثم الانتظار حتى يصبح الضوء أخضر. هل هذا صحيح؟ هل أضغط مرة أم مرتين؟",
+        "checklist": [
+          "هل أعدت التسلسل دون ادعاء أنك فهمت كل شيء؟",
+          "هل صغت السؤال عن العدد بوضوح؟"
+        ]
+      }
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Hoe zet ik het apparaat aan?",
+          "arabic": "كيف أشغّل الجهاز؟",
+          "note": "aanzetten فعل قابل للفصل."
+        },
+        {
+          "dutch": "Zet eerst de beker onder de opening.",
+          "arabic": "ضع الكوب أولاً تحت الفتحة.",
+          "note": "أمر بسيط مع فعل في البداية."
+        },
+        {
+          "dutch": "Druk pas als het scherm klaar is.",
+          "arabic": "لا تضغط إلا عندما تصبح الشاشة جاهزة.",
+          "note": "pas يؤخر الفعل حتى تحقق الشرط."
+        },
+        {
+          "dutch": "Heb ik de stappen goed begrepen?",
+          "arabic": "هل فهمت الخطوات جيداً؟",
+          "note": "صيغة للتحقق من الفهم."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een apparaat aanzetten",
+          "arabic": "يشغّل جهازاً"
+        },
+        {
+          "dutch": "op een knop drukken",
+          "arabic": "يضغط زراً"
+        },
+        {
+          "dutch": "de stappen herhalen",
+          "arabic": "يعيد الخطوات"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Kunt u laten zien hoe dit werkt?",
+          "alternative": "Wilt u voordoen hoe ik dit gebruik?",
+          "note": "طلب عرض الاستخدام عملياً."
+        },
+        {
+          "dutch": "Klopt deze volgorde?",
+          "alternative": "Zijn dit de stappen in de juiste volgorde?",
+          "note": "سؤالان عن صحة الترتيب، لا عن لون الجهاز."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Daarna je zet een kopje neer.",
+          "correct": "Daarna zet je een kopje neer.",
+          "explanation": "الفعل يأتي ثانياً بعد Daarna."
+        },
+        {
+          "wrong": "Ik druk de knop op.",
+          "correct": "Ik druk op de knop.",
+          "explanation": "التعبير هنا drukken op وليس فعلاً منفصلاً opdrukken."
+        }
+      ]
+    }
+  },
+  {
+    "lessonSlug": "a2-asking-about-a-course",
+    "vocabulary": [
+      {
+        "term": "de beginnersgroep",
+        "kind": "noun",
+        "forms": "de beginnersgroepen",
+        "meaning": "مجموعة المبتدئين.",
+        "phraseId": "a2-asking-about-a-course-02"
+      },
+      {
+        "term": "meedoen",
+        "kind": "verb",
+        "forms": "ik doe mee · ik heb meegedaan",
+        "meaning": "يشارك.",
+        "phraseId": "a2-asking-about-a-course-03"
+      },
+      {
+        "term": "het bestand",
+        "kind": "noun",
+        "forms": "de bestanden",
+        "meaning": "ملف حاسوبي.",
+        "phraseId": "a2-asking-about-a-course-04"
+      },
+      {
+        "term": "lenen",
+        "kind": "verb",
+        "forms": "ik leen · ik heb geleend",
+        "meaning": "يستعير هنا بحسب الفاعل والسياق.",
+        "phraseId": "a2-asking-about-a-course-06"
+      },
+      {
+        "term": "de proefles",
+        "kind": "noun",
+        "forms": "de proeflessen",
+        "meaning": "درس تجريبي.",
+        "phraseId": "a2-asking-about-a-course-07"
+      },
+      {
+        "term": "zich aanmelden",
+        "kind": "expression",
+        "forms": "ik meld me aan · meld je aan",
+        "meaning": "يسجّل نفسه للمشاركة.",
+        "phraseId": "a2-asking-about-a-course-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "اكتب سؤالاً لمركز خيالي: تبحث عن دورة تصوير للمبتدئين، لديك هاتف لا كاميرا، فاسأل إن كان الهاتف كافياً وما الذي تحتاج إلى إحضاره.",
+        "model": "Ik zoek een fotografiecursus voor beginners. Ik heb een telefoon, maar geen camera. Is een telefoon genoeg? Wat moet ik meenemen?",
+        "translation": "أبحث عن دورة تصوير للمبتدئين. لدي هاتف لكن لا كاميرا. هل الهاتف كافٍ؟ ماذا عليّ إحضاره؟",
+        "checklist": [
+          "هل وصفت ما لديك دون افتراض أنه مقبول؟",
+          "هل سألت عن المتطلبات؟"
+        ]
+      },
+      {
+        "prompt": "انقل المعلومة لصديق: دورة الحاسوب الثلاثاء، يمكن استعارة جهاز أثناء الدرس، والدرس التجريبي يحتاج تسجيلاً منفصلاً عند المكتب. لا تقل إن صديقك مسجّل.",
+        "model": "De computercursus is op dinsdag. Je kunt tijdens de les een laptop lenen. Voor de proefles moet je je apart aanmelden bij de balie.",
+        "translation": "دورة الحاسوب الثلاثاء. تستطيع استعارة جهاز أثناء الدرس. للدرس التجريبي عليك التسجيل منفصلاً عند المكتب.",
+        "checklist": [
+          "هل حافظت على قيد أثناء الدرس؟",
+          "هل ميّزت طلب التسجيل عن تأكيد حصوله؟"
+        ]
+      }
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Heb ik ervaring nodig voor deze cursus?",
+          "arabic": "هل أحتاج إلى خبرة لهذه الدورة؟",
+          "note": "nodig hebben يسأل عن الحاجة."
+        },
+        {
+          "dutch": "Is mijn telefoon goed genoeg voor de les?",
+          "arabic": "هل هاتفي مناسب بما يكفي للدرس؟",
+          "note": "genoeg يأتي بعد الوصف goed."
+        },
+        {
+          "dutch": "Ik wil leren hoe ik bestanden opsla.",
+          "arabic": "أريد تعلم كيف أحفظ الملفات.",
+          "note": "opsla يأتي في نهاية السؤال غير المباشر."
+        },
+        {
+          "dutch": "Voor de proefles moet je je apart aanmelden.",
+          "arabic": "للدرس التجريبي عليك التسجيل منفصلاً.",
+          "note": "je الثانية ضمير انعكاسي مع aanmelden."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een proefles volgen",
+          "arabic": "يحضر درساً تجريبياً"
+        },
+        {
+          "dutch": "ervaring nodig hebben",
+          "arabic": "يحتاج إلى خبرة"
+        },
+        {
+          "dutch": "zich voor een cursus aanmelden",
+          "arabic": "يسجّل في دورة"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Is dat genoeg om mee te doen?",
+          "alternative": "Kan ik met die kennis meedoen?",
+          "note": "سؤال عن كفاية المعرفة للمشاركة."
+        },
+        {
+          "dutch": "Wat moet ik meenemen?",
+          "alternative": "Welke spullen heb ik nodig?",
+          "note": "السؤال الثاني يركز على الأدوات المطلوبة."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik wil beter met de computer te werken.",
+          "correct": "Ik wil beter met de computer werken.",
+          "explanation": "بعد wil لا نضيف te مباشرة؛ om ... te تركيب غرض مختلف."
+        },
+        {
+          "wrong": "Ik moet mij aanmelden apart.",
+          "correct": "Ik moet mij apart aanmelden.",
+          "explanation": "apart يأتي قبل المصدر aanmelden في هذا النمط."
+        }
+      ]
+    }
+  },
+  {
+    "lessonSlug": "a2-understanding-travel-announcements",
+    "vocabulary": [
+      {
+        "term": "de werkzaamheden",
+        "kind": "noun",
+        "forms": "de werkzaamheden",
+        "meaning": "أعمال الصيانة أو الإنشاء؛ الاسم هنا جمع.",
+        "phraseId": "a2-understanding-travel-announcements-02"
+      },
+      {
+        "term": "in plaats van",
+        "kind": "expression",
+        "forms": "een bus in plaats van de trein",
+        "meaning": "بدلاً من.",
+        "phraseId": "a2-understanding-travel-announcements-04"
+      },
+      {
+        "term": "het spoor",
+        "kind": "noun",
+        "forms": "de sporen",
+        "meaning": "مسار القطار أو رقم الرصيف في سياق المحطة.",
+        "phraseId": "a2-understanding-travel-announcements-05"
+      },
+      {
+        "term": "de halte",
+        "kind": "noun",
+        "forms": "de haltes",
+        "meaning": "موقف الحافلة.",
+        "phraseId": "a2-understanding-travel-announcements-06"
+      },
+      {
+        "term": "de voorkant",
+        "kind": "noun",
+        "forms": "de voorkanten",
+        "meaning": "الجهة الأمامية.",
+        "phraseId": "a2-understanding-travel-announcements-06"
+      },
+      {
+        "term": "geldig",
+        "kind": "expression",
+        "forms": "het kaartje is geldig",
+        "meaning": "صالح للاستخدام ضمن الشروط.",
+        "phraseId": "a2-understanding-travel-announcements-08"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "انقل إعلاناً خيالياً لصديق: القطار إلى نوردفيلد لا يسير اليوم، والبديل حافلة من الموقف D خلف المحطة. لا تذكر سياسة تذاكر لأنها غير معروفة.",
+        "model": "De trein naar Noordveld rijdt vandaag niet. Er rijdt een bus in plaats van de trein. Die vertrekt bij halte D achter het station.",
+        "translation": "القطار إلى نوردفيلد لا يسير اليوم. توجد حافلة بدلاً منه. تنطلق من الموقف D خلف المحطة.",
+        "checklist": [
+          "هل استبدلت الوجهة والموقف والجهة بالتفاصيل الجديدة؟",
+          "هل تجنبت اختراع معلومات عن التذكرة؟"
+        ]
+      },
+      {
+        "prompt": "ظن صديقك أن الحافلة عند الرصيف الثاني. صحّح: الموقف C أمام المحطة، ثم اسأله هل يريد أن تسألا الموظف عن التذكرة.",
+        "model": "De bus vertrekt niet bij spoor twee, maar bij halte C voor het station. Zullen we aan de medewerker vragen of ons kaartje geldig is?",
+        "translation": "لا تنطلق الحافلة من الرصيف الثاني، بل من الموقف C أمام المحطة. هل نسأل الموظف إن كانت تذكرتنا صالحة؟",
+        "checklist": [
+          "هل صححت مكان الصعود لا الوجهة؟",
+          "هل صغت صلاحية التذكرة كسؤال غير محسوم؟"
+        ]
+      }
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Let op: deze trein stopt vandaag niet in Oostveen.",
+          "arabic": "انتبه: هذا القطار لا يتوقف اليوم في أوستفين.",
+          "note": "إعلان خيالي يخص محطة التوقف."
+        },
+        {
+          "dutch": "Neem de bus in plaats van de trein.",
+          "arabic": "خذ الحافلة بدلاً من القطار.",
+          "note": "الاستبدال بين وسيلتين."
+        },
+        {
+          "dutch": "De halte ligt achter het station.",
+          "arabic": "الموقف خلف المحطة.",
+          "note": "معلومة مكانية لا زمنية."
+        },
+        {
+          "dutch": "Niet om tien uur, maar om kwart over tien.",
+          "arabic": "ليس العاشرة بل العاشرة والربع.",
+          "note": "تصحيح دقيق لوقت دون تغيير الوجهة."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een aankondiging begrijpen",
+          "arabic": "يفهم إعلاناً"
+        },
+        {
+          "dutch": "in plaats van de trein",
+          "arabic": "بدلاً من القطار"
+        },
+        {
+          "dutch": "bij een halte instappen",
+          "arabic": "يصعد عند موقف"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Waar vertrekt de bus?",
+          "alternative": "Bij welke halte moet ik zijn?",
+          "note": "السؤال الثاني يطلب رقم الموقف أو اسمه صراحة."
+        },
+        {
+          "dutch": "Is mijn kaartje hiervoor geldig?",
+          "alternative": "Kan ik deze rit met dit kaartje maken?",
+          "note": "طلب تحقق من صلاحية التذكرة لهذه الرحلة."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "De bus vertrekt op halte C.",
+          "correct": "De bus vertrekt bij halte C.",
+          "explanation": "bij يحدد مكان الانطلاق في هذا النمط."
+        },
+        {
+          "wrong": "Er rijdt in plaats de trein een bus.",
+          "correct": "Er rijdt een bus in plaats van de trein.",
+          "explanation": "نحتاج van في التعبير in plaats van."
+        }
+      ]
+    }
+  },
+  {
+    "lessonSlug": "a2-disagreeing-politely",
+    "vocabulary": [
+      {
+        "term": "liever",
+        "kind": "expression",
+        "forms": "ik ga liever ...",
+        "meaning": "أفضل خياراً على آخر.",
+        "phraseId": "a2-disagreeing-politely-02"
+      },
+      {
+        "term": "rustig",
+        "kind": "expression",
+        "forms": "een rustige plek · rustig praten",
+        "meaning": "هادئ أو بهدوء بحسب الاستعمال.",
+        "phraseId": "a2-disagreeing-politely-02"
+      },
+      {
+        "term": "begrijpen",
+        "kind": "verb",
+        "forms": "ik begrijp · ik heb begrepen",
+        "meaning": "يفهم.",
+        "phraseId": "a2-disagreeing-politely-04"
+      },
+      {
+        "term": "moe",
+        "kind": "expression",
+        "forms": "ik ben moe",
+        "meaning": "متعب.",
+        "phraseId": "a2-disagreeing-politely-04"
+      },
+      {
+        "term": "lijken",
+        "kind": "verb",
+        "forms": "het lijkt me fijn · het leek me fijn",
+        "meaning": "يبدو لي؛ التعبير يترك مجالاً للرأي.",
+        "phraseId": "a2-disagreeing-politely-06"
+      },
+      {
+        "term": "het bankje",
+        "kind": "noun",
+        "forms": "de bankjes",
+        "meaning": "مقعد صغير أو مقعد حديقة.",
+        "phraseId": "a2-disagreeing-politely-07"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "صديق يقترح مطعماً بعيداً. قل إنك تفهم أنه جيد لكنك تفضّل مكاناً قريباً لأن وقتك محدود. اسأله عن مطعم قريب بدلاً من رفض اللقاء.",
+        "model": "Ik begrijp dat het een goed restaurant is, maar ik eet liever ergens dichtbij, omdat ik weinig tijd heb. Ken je een restaurant in de buurt?",
+        "translation": "أفهم أنه مطعم جيد، لكنني أفضل الأكل في مكان قريب لأن وقتي قليل. هل تعرف مطعماً في الحي؟",
+        "checklist": [
+          "هل ذكرت سبباً يتعلق بك لا إهانة للصديق؟",
+          "هل طلبت بديلاً بدلاً من إنهاء الحوار؟"
+        ]
+      },
+      {
+        "prompt": "انقل خطة زميلين: إيفا تريد الحديث بهدوء، وسام يقترح الحديقة، لكنها لم توافق بعد لأنها تريد معرفة هل توجد مقاعد.",
+        "model": "Eva wil rustig praten. Sam stelt het park voor, maar Eva heeft nog niet ja gezegd. Ze wil eerst weten of er bankjes zijn.",
+        "translation": "تريد إيفا الحديث بهدوء. يقترح سام الحديقة لكن إيفا لم توافق بعد. تريد أولاً معرفة هل توجد مقاعد.",
+        "checklist": [
+          "هل فصلت الاقتراح عن الموافقة؟",
+          "هل نقلت الحاجة إلى معلومة إضافية؟"
+        ]
+      }
+    ],
+    "languageDepth": {
+      "examples": [
+        {
+          "dutch": "Ik zie het anders, maar ik begrijp je reden.",
+          "arabic": "أرى الأمر بشكل مختلف، لكنني أفهم سببك.",
+          "note": "اختلاف الرأي لا يمنع فهم الآخر."
+        },
+        {
+          "dutch": "Ik blijf liever dichtbij, want ik heb weinig tijd.",
+          "arabic": "أفضل البقاء قريباً لأن وقتي قليل.",
+          "note": "بعد want يبقى ترتيب الجملة الرئيسية."
+        },
+        {
+          "dutch": "Wat is voor jou belangrijk?",
+          "arabic": "ما المهم بالنسبة لك؟",
+          "note": "سؤال يساعد على إيجاد حل مشترك."
+        },
+        {
+          "dutch": "Dat lijkt me goed als het niet te druk is.",
+          "arabic": "يبدو ذلك جيداً لي إذا لم يكن مزدحماً جداً.",
+          "note": "شرط للقبول لا تأكيد مطلق."
+        }
+      ],
+      "collocations": [
+        {
+          "dutch": "een andere mening hebben",
+          "arabic": "لديه رأي مختلف"
+        },
+        {
+          "dutch": "rustig praten",
+          "arabic": "يتحدث بهدوء"
+        },
+        {
+          "dutch": "een oplossing zoeken",
+          "arabic": "يبحث عن حل"
+        }
+      ],
+      "alternatives": [
+        {
+          "dutch": "Ik ga liever naar het park.",
+          "alternative": "Mijn voorkeur gaat uit naar het park.",
+          "note": "الأولى أبسط وأكثر مناسبة لحوار يومي."
+        },
+        {
+          "dutch": "Dat begrijp ik, maar ik zie het anders.",
+          "alternative": "Ik snap je, maar ik ben het niet helemaal met je eens.",
+          "note": "البديل يومي ويخفف الاختلاف بكلمة helemaal."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ik ben liever naar het park gaan.",
+          "correct": "Ik ga liever naar het park.",
+          "explanation": "نستخدم الحاضر لذكر التفضيل الحالي، وليس صيغة ماضية مختلطة."
+        },
+        {
+          "wrong": "Ik ben moe, omdat ik wil rustig praten.",
+          "correct": "Ik wil rustig praten, omdat ik moe ben.",
+          "explanation": "نحافظ على اتجاه السبب، ومع omdat يأتي ben في النهاية."
+        }
+      ]
+    }
   }
 ]

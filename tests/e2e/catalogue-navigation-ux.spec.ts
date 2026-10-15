@@ -6,20 +6,20 @@ test("mobile course filters combine module, search and completion, reset togethe
   await page.setViewportSize({ width: 390, height: 844 });
   await page.addInitScript((slug) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: ["introductions", slug] })), lessons[0].slug);
   await page.goto("/learn?level=A2");
-  await expect(page.locator(".catalogue-progress-link")).toContainText("أكملت 1 من 40");
+  await expect(page.locator(".catalogue-progress-link")).toContainText(`أكملت 1 من ${lessons.length}`);
   await expect(page.locator(".next-lesson-meta")).toContainText(`${lessons[1].durationMinutes} دقائق`);
   await page.getByLabel("حالة الدرس", { exact: true }).selectOption("remaining");
-  await expect(page.locator(".catalogue-item")).toHaveCount(39);
+  await expect(page.locator(".catalogue-item")).toHaveCount(lessons.length - 1);
   await expect(page.locator(`.catalogue-item[href="/learn/${lessons[0].slug}"]`)).toHaveCount(0);
   await page.getByLabel("الوحدة", { exact: true }).selectOption(modules[0].id);
-  await expect(page.locator(".catalogue-item")).toHaveCount(4);
+  await expect(page.locator(".catalogue-item")).toHaveCount(lessons.filter((lesson) => lesson.moduleId === modules[0].id).length - 1);
   await page.getByLabel("ابحث عن درس").fill(lessons[1].dutchTitle);
   await expect(page.locator(".catalogue-item")).toHaveCount(1);
   await page.getByRole("button", { name: "إعادة ضبط الفلاتر" }).click();
   await expect(page.getByLabel("ابحث عن درس")).toHaveValue("");
   await expect(page.getByLabel("حالة الدرس", { exact: true })).toHaveValue("all");
   await expect(page.getByLabel("الوحدة", { exact: true })).toHaveValue("all");
-  await expect(page.locator(".catalogue-item")).toHaveCount(40);
+  await expect(page.locator(".catalogue-item")).toHaveCount(lessons.length);
   await page.getByLabel("حالة الدرس", { exact: true }).selectOption("completed");
   await expect(page.locator(".catalogue-item")).toHaveCount(1);
   await page.getByRole("navigation", { name: "اختر المستوى" }).getByRole("link", { name: /A1/ }).click();
@@ -34,7 +34,7 @@ test("empty completion filters explain the state and unavailable progress disabl
   await page.getByLabel("حالة الدرس", { exact: true }).selectOption("completed");
   await expect(page.getByRole("heading", { name: "لم تُكمل درساً في هذا المستوى بعد" })).toBeVisible();
   await page.getByRole("button", { name: "اعرض كل الدروس", exact: true }).click();
-  await expect(page.locator(".catalogue-item")).toHaveCount(40);
+  await expect(page.locator(".catalogue-item")).toHaveCount(lessons.length);
   await page.route("**/api/progress", (route) => route.fulfill({ status: 503, body: "Unavailable" }));
   await page.reload();
   await expect(page.getByLabel("حالة الدرس", { exact: true })).toBeDisabled();
@@ -53,7 +53,7 @@ test("global navigation retains A2 across skill routes and desktop filters remai
   }
   await navigation.getByRole("link", { name: "الدروس", exact: true }).click();
   await page.locator(".module-filters").getByRole("button", { name: modules[1].title, exact: true }).click();
-  await expect(page.locator(".catalogue-item")).toHaveCount(5);
+  await expect(page.locator(".catalogue-item")).toHaveCount(lessons.filter((lesson) => lesson.moduleId === modules[1].id).length);
   for (const width of [320, 390, 768, 1280]) {
     await page.setViewportSize({ width, height: 844 });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

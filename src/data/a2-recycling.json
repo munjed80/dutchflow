@@ -286,5 +286,293 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "background-and-learning",
+    "title": "من القصة الشخصية إلى التعلّم",
+    "goal": "انقل الزمن والشخص، ثم اسأل عن شرط دورة.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-asking-about-someones-background",
+        "chunk": "een cursus volgen"
+      },
+      {
+        "lessonSlug": "a2-asking-about-a-course",
+        "chunk": "ervaring nodig hebben"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: قل إنك تتبع دورة هولندية منذ مارس، واسأل إن كنت تحتاج خبرة لدورة تصوير جديدة.",
+        "model": "Ik volg sinds maart een cursus Nederlands. Heb ik ervaring nodig voor de fotografiecursus?",
+        "translation": "أتابع دورة هولندية منذ مارس. هل أحتاج إلى خبرة لدورة التصوير؟",
+        "checklist": [
+          "هل استخدمت الحاضر مع sinds؟",
+          "هل سألت عن الشرط دون افتراضه؟"
+        ]
+      },
+      {
+        "prompt": "حوّل الحديث عن نفسك إلى نقل عن نور: تتبع الدورة منذ مايو. ثم اسألها مباشرة عن الخبرة المطلوبة.",
+        "model": "Noor volgt sinds mei een cursus. Noor, heb je ervaring nodig voor die cursus?",
+        "translation": "تتابع نور دورة منذ مايو. نور، هل تحتاجين خبرة لهذه الدورة؟",
+        "checklist": [
+          "هل بدلت ik إلى Noor وvolgt في الخبر؟",
+          "هل استعملت je في السؤال المباشر؟"
+        ],
+        "cue": "Ik volg sinds mei een cursus. Heb ik ervaring nodig?"
+      }
+    ]
+  },
+  {
+    "slug": "feedback-and-disagreement",
+    "title": "ملاحظة ورأي مختلف",
+    "goal": "ناقش مشكلة محددة مع احترام الرأي الآخر.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-giving-feedback-at-work",
+        "chunk": "een probleem bespreken"
+      },
+      {
+        "lessonSlug": "a2-disagreeing-politely",
+        "chunk": "een andere mening hebben"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: اطلب من زميل مناقشة مشكلة في القائمة. قل إن لديك رأياً مختلفاً لكنك تفهم سببه.",
+        "model": "Kunnen we een probleem met de lijst bespreken? Ik heb een andere mening, maar ik begrijp je reden.",
+        "translation": "هل نناقش مشكلة في القائمة؟ لدي رأي مختلف لكنني أفهم سببك.",
+        "checklist": [
+          "هل حددت موضوع النقاش؟",
+          "هل فصلت فهم السبب عن الموافقة على الرأي؟"
+        ]
+      },
+      {
+        "prompt": "حوّل الاتهام إلى ملاحظة محددة وطلب فحص: العناوين صحيحة لكن رقمين ناقصان.",
+        "model": "De adressen zijn goed, maar twee nummers ontbreken. Kunnen we die samen controleren?",
+        "translation": "العناوين صحيحة لكن رقمين ناقصان. هل نفحصهما معاً؟",
+        "checklist": [
+          "هل حذفت تعميم كل شيء خطأ؟",
+          "هل اقترحت إجراءً قابلاً للتنفيذ؟"
+        ],
+        "cue": "Alles is fout. Jij controleert nooit iets."
+      }
+    ]
+  },
+  {
+    "slug": "rules-and-instructions",
+    "title": "من القاعدة إلى الخطوات",
+    "goal": "ميّز واجباً من عدم حاجة وانقل تعليمات جهاز آخر.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-explaining-shared-house-rules",
+        "chunk": "een regel uitleggen"
+      },
+      {
+        "lessonSlug": "a2-asking-how-a-product-works",
+        "chunk": "de stappen herhalen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: اطلب شرح قاعدة المكان، ثم أعد خطوتين لجهاز خيالي: اختر اللغة وبعدها انتظر الضوء الأخضر.",
+        "model": "Kunt u deze regel uitleggen? Ik herhaal de stappen: eerst kies ik de taal, daarna wacht ik op het groene lampje.",
+        "translation": "هل تشرح هذه القاعدة؟ أعيد الخطوات: أختار اللغة أولاً ثم أنتظر الضوء الأخضر.",
+        "checklist": [
+          "هل طلبت الشرح قبل ادعاء الفهم؟",
+          "هل رتبت الخطوتين؟"
+        ]
+      },
+      {
+        "prompt": "حوّل وجوب إحضار العملات إلى عدم الحاجة إليها، مع بقاء وجوب الانتظار.",
+        "model": "Je hoeft geen muntjes mee te nemen. Je moet wel wachten tot het lampje groen is.",
+        "translation": "لا تحتاج إحضار عملات، لكن عليك انتظار الضوء الأخضر.",
+        "checklist": [
+          "هل استخدمت hoeven met te وgeen؟",
+          "هل أبقيت واجب الانتظار ولم تحوله إلى منع؟"
+        ],
+        "cue": "Je moet muntjes meenemen. Je moet wachten tot het lampje groen is."
+      }
+    ]
+  },
+  {
+    "slug": "clarifying-and-relaying",
+    "title": "توضيح سؤال ونقل إعلان",
+    "goal": "اطلب إعادة الصياغة وانقل تغييراً دون اختراع التفاصيل.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-describing-symptoms-and-asking-for-help",
+        "chunk": "met andere woorden zeggen"
+      },
+      {
+        "lessonSlug": "a2-understanding-travel-announcements",
+        "chunk": "een aankondiging begrijpen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: قل إنك لم تفهم الإعلان واطلب قوله بكلمات أخرى، ثم اسأل عن موقف الحافلة.",
+        "model": "Ik heb de aankondiging niet begrepen. Kunt u het met andere woorden zeggen? Bij welke halte vertrekt de bus?",
+        "translation": "لم أفهم الإعلان. هل تقوله بكلمات أخرى؟ من أي موقف تنطلق الحافلة؟",
+        "checklist": [
+          "هل طلبت نوع المساعدة اللغوية المطلوب؟",
+          "هل سألت عن معلومة مكانية محددة؟"
+        ]
+      },
+      {
+        "prompt": "انقل قول سام إلى نور: لا يعرف موقف الحافلة ويريد السؤال عنه. لا تحوّل عدم المعرفة إلى إلغاء الحافلة.",
+        "model": "Sam weet nog niet bij welke halte de bus vertrekt. Hij gaat het vragen.",
+        "translation": "لا يعرف سام بعد من أي موقف تنطلق الحافلة. سيستفسر عن ذلك.",
+        "checklist": [
+          "هل بدلت ik إلى Sam وhij؟",
+          "هل حافظت على المعلومة غير المعروفة؟"
+        ],
+        "cue": "Ik weet nog niet bij welke halte de bus vertrekt. Ik ga het vragen."
+      }
+    ]
+  },
+  {
+    "slug": "steps-and-work-checks",
+    "title": "خطوات وفحص مشترك",
+    "goal": "طبّق ترتيب الخطوات على مهمة عمل جديدة.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-asking-how-a-product-works",
+        "chunk": "de stappen herhalen"
+      },
+      {
+        "lessonSlug": "a2-giving-feedback-at-work",
+        "chunk": "iets samen controleren"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: اقترح فحص قائمة مع زميل. أعد خطتين بالترتيب: هو يقرأ الأسماء ثم أنت تقارن الأرقام.",
+        "model": "Zullen we de lijst samen controleren? Eerst lees jij de namen voor. Daarna vergelijk ik de nummers.",
+        "translation": "هل نفحص القائمة معاً؟ تقرأ الأسماء أولاً. ثم أقارن الأرقام.",
+        "checklist": [
+          "هل عرضت الفحص على شكل اقتراح؟",
+          "هل حافظت على الشخص والترتيب؟"
+        ]
+      },
+      {
+        "prompt": "بدّل الأدوار: أنت تقرأ الأسماء والزميل يقارن الأرقام؛ احتفظ بترتيب الخطوتين.",
+        "model": "Eerst lees ik de namen voor. Daarna vergelijk jij de nummers.",
+        "translation": "أقرأ الأسماء أولاً. ثم تقارن أنت الأرقام.",
+        "checklist": [
+          "هل غيّرت الفعل مع ik وjij؟",
+          "هل أبقيت فصل voorlezen في الجملة الرئيسية؟"
+        ],
+        "cue": "Eerst lees jij de namen voor. Daarna vergelijk ik de nummers."
+      }
+    ]
+  },
+  {
+    "slug": "course-and-shared-space",
+    "title": "دورة وقاعدة المكان",
+    "goal": "استخدم لغة الحاجة عندما تسأل عن أدوات درس.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-asking-about-a-course",
+        "chunk": "een proefles volgen"
+      },
+      {
+        "lessonSlug": "a2-explaining-shared-house-rules",
+        "chunk": "een regel uitleggen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: تريد حضور درس تجريبي؛ اسأل إن كان عليك إحضار حاسوب واطلب شرح قاعدة استعمال الغرفة.",
+        "model": "Ik wil graag een proefles volgen. Moet ik een laptop meenemen? Kunt u de regel voor deze ruimte uitleggen?",
+        "translation": "أريد حضور درس تجريبي. هل أحضر حاسوباً؟ هل تشرح قاعدة استخدام هذه الغرفة؟",
+        "checklist": [
+          "هل سألت عن الأدوات بدلاً من افتراضها؟",
+          "هل طلبت توضيح القاعدة؟"
+        ]
+      },
+      {
+        "prompt": "انقل قاعدة الموظفة إلى صديق: لا يحتاج حاسوبه لأن الأجهزة متاحة أثناء الدرس فقط.",
+        "model": "Je hoeft je eigen laptop niet mee te nemen. Je kunt tijdens de les een laptop lenen.",
+        "translation": "لا تحتاج إلى إحضار حاسوبك الخاص. تستطيع استعارة جهاز أثناء الدرس.",
+        "checklist": [
+          "هل نقلت التعليمات إلى je؟",
+          "هل حافظت على قيد أثناء الدرس؟"
+        ],
+        "cue": "U hoeft uw eigen laptop niet mee te nemen. U kunt tijdens de les een laptop lenen."
+      }
+    ]
+  },
+  {
+    "slug": "travel-and-personal-history",
+    "title": "رحلة وتغيّر مكان",
+    "goal": "غيّر الزمن والوجهة مع الحفاظ على وسيلة النقل.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-understanding-travel-announcements",
+        "chunk": "in plaats van de trein"
+      },
+      {
+        "lessonSlug": "a2-asking-about-someones-background",
+        "chunk": "in een buurt wonen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: قل إنك تسكن في الحي منذ أبريل وإنك ستأخذ غداً الحافلة بدلاً من القطار.",
+        "model": "Ik woon sinds april in deze buurt. Morgen neem ik de bus in plaats van de trein.",
+        "translation": "أسكن في هذا الحي منذ أبريل. غداً آخذ الحافلة بدلاً من القطار.",
+        "checklist": [
+          "هل حافظت على الحاضر مع sinds؟",
+          "هل استخدمت inversion بعد Morgen؟"
+        ]
+      },
+      {
+        "prompt": "حوّل خطة الغد إلى تجربة أمس دون تغيير وسيلة النقل البديلة.",
+        "model": "Gisteren heb ik de bus genomen in plaats van de trein.",
+        "translation": "أخذت الحافلة أمس بدلاً من القطار.",
+        "checklist": [
+          "هل استبدلت morgen بـ gisteren وصرفت الماضي؟",
+          "هل بقيت الحافلة هي البديل؟"
+        ],
+        "cue": "Morgen neem ik de bus in plaats van de trein."
+      }
+    ]
+  },
+  {
+    "slug": "preferences-and-clear-speech",
+    "title": "تفضيل وطلب توضيح",
+    "goal": "اذكر حاجتك واطلب إعادة الكلام دون تخمين.",
+    "anchors": [
+      {
+        "lessonSlug": "a2-disagreeing-politely",
+        "chunk": "rustig praten"
+      },
+      {
+        "lessonSlug": "a2-describing-symptoms-and-asking-for-help",
+        "chunk": "een vraag herhalen"
+      }
+    ],
+    "tasks": [
+      {
+        "prompt": "استرجاع: قل إنك تفضّل الحديث بهدوء لأنك متعب، ثم اطلب إعادة السؤال لأنك لم تسمعه جيداً.",
+        "model": "Ik wil liever rustig praten, omdat ik moe ben. Kunt u de vraag herhalen? Ik heb u niet goed verstaan.",
+        "translation": "أفضل الحديث بهدوء لأنني متعب. هل تعيد السؤال؟ لم أسمعك جيداً.",
+        "checklist": [
+          "هل جاء ben في نهاية جملة omdat؟",
+          "هل طلبت إعادة السؤال بوضوح؟"
+        ]
+      },
+      {
+        "prompt": "حوّل النداء الرسمي إلى حديث مع صديق واحد: احتفظ بالطلب وسبب عدم السماع.",
+        "model": "Kun je de vraag herhalen? Ik heb je niet goed verstaan.",
+        "translation": "هل تعيد السؤال؟ لم أسمعك جيداً.",
+        "checklist": [
+          "هل بدلت u إلى je في الجملتين؟",
+          "هل صرفت kunnen إلى kun مع السؤال؟"
+        ],
+        "cue": "Kunt u de vraag herhalen? Ik heb u niet goed verstaan."
+      }
+    ]
   }
 ]
