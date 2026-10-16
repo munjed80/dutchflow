@@ -92,3 +92,7 @@ Use independent educator review and learner observation to identify which transf
 ## Validation
 
 Local validation passed: `content:check`, `audio:check`, all 68 native tests, TypeScript, production build and all 159 Chromium end-to-end tests. After the final spacing/help-panel adjustment, the production build and both recycling browser tests passed again. Mobile (390px) and desktop (1280px) screens were visually inspected; no horizontal overflow. GitHub CI runs separately on the PR.
+
+## Communication extension (15 October 2026)
+
+Eight further pairs add sixteen tasks, bringing retrieval to sixteen sets / thirty-two tasks. Every new sixth lesson is anchored through an exact collocation to a different unit. Existing eight set objects and behavior remain unchanged. The current course/audio inventory is in `A2_COMMUNICATION_EXPANSION.md`; earlier counts above are dated snapshots.

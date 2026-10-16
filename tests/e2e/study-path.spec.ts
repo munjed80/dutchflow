@@ -15,8 +15,8 @@ test("A2 path groups every unit's resources, adapts to stored progress and reach
   await page.goto("/a2");
   const status = page.locator(".study-status");
   await expect(status.getByRole("link", { name: /^تابع:/ })).toHaveAttribute("href", `/learn/${lessons[0].slug}`);
-  await seed(page, ["introductions", ...lessons.slice(0, 5).map((lesson) => lesson.slug)]);
-  await expect(status.getByRole("link", { name: /^تابع:/ })).toHaveAttribute("href", `/learn/${lessons[5].slug}`);
+  await seed(page, ["introductions", ...lessons.slice(0, 6).map((lesson) => lesson.slug)]);
+  await expect(status.getByRole("link", { name: /^تابع:/ })).toHaveAttribute("href", `/learn/${lessons[6].slug}`);
   await expect(status.locator(`a[href="#${units[0].id}"]`)).toBeVisible();
   await page.setViewportSize({ width: 390, height: 844 });
   for (const unit of units) {
@@ -30,8 +30,9 @@ test("A2 path groups every unit's resources, adapts to stored progress and reach
   await seed(page, lessons.map((lesson) => lesson.slug));
   await expect(status.getByRole("link", { name: /^تابع:/ })).toHaveCount(0);
   await expect(status.getByRole("link", { name: "انتقل إلى المراجعة الختامية ←" })).toHaveAttribute("href", "/a2-practice/final-review");
+  await expect(status).toContainText(`أتممت ${lessons.length} درساً في A2.`);
   await page.goto("/progress?level=A2");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "40");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", String(lessons.length));
   await page.getByRole("link", { name: "جرّب المراجعة الختامية لـ A2 ←" }).click();
   await expect(page).toHaveURL(/\/a2-practice\/final-review$/);
   await page.goto("/progress");
@@ -42,7 +43,7 @@ test("unknown progress never produces a personalized recommendation; recovery us
   let fail = true;
   await page.route("**/api/progress", async (route) => {
     if (fail) await route.fulfill({ status: 503, body: "Unavailable" });
-    else await route.fulfill({ json: { enabled: true, user: { id: "test-account", name: "Learner", email: "learner@example.test" }, completedLessons: lessons.slice(0, 5).map((lesson) => lesson.slug) } });
+    else await route.fulfill({ json: { enabled: true, user: { id: "test-account", name: "Learner", email: "learner@example.test" }, completedLessons: lessons.slice(0, 6).map((lesson) => lesson.slug) } });
   });
   await page.goto("/a2");
   const status = page.locator(".study-status");
@@ -52,6 +53,6 @@ test("unknown progress never produces a personalized recommendation; recovery us
   await seed(page, lessons.map((lesson) => lesson.slug));
   fail = false;
   await status.getByRole("button", { name: "أعد تحميل التقدّم" }).click();
-  await expect(status.getByRole("link", { name: /^تابع:/ })).toHaveAttribute("href", `/learn/${lessons[5].slug}`);
+  await expect(status.getByRole("link", { name: /^تابع:/ })).toHaveAttribute("href", `/learn/${lessons[6].slug}`);
   await expect(status.getByRole("link", { name: "انتقل إلى المراجعة الختامية ←" })).toHaveCount(0);
 });

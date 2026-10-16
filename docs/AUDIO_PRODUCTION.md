@@ -2,7 +2,7 @@
 
 ## Current status
 
-The repository manifest contains no approved recordings. Playback falls back to a Dutch device voice. The shared inventory has 696 sources / 2,784 variants: A1 has 343 lesson phrases + 11 connected passages + 13 drills (1,468 variants); A2 adds 320 lesson phrases + nine connected passages (1,316 variants). No synthesis was performed in this implementation.
+The repository manifest contains no approved recordings. Playback falls back to a Dutch device voice. The shared inventory has 760 sources / 3,040 variants: A1 has 343 lesson phrases + 11 connected passages + 13 drills (1,468 variants); A2 adds 384 lesson phrases + nine connected passages (1,572 variants). No synthesis was performed in this implementation.
 
 `loadAudioInventory` is the common source for generation, approval and integrity checks. All A1 jobs remain unchanged and first. Library readings, writing models and text scenarios are not silently added to audio. Paid exams remain deferred.
 
@@ -22,7 +22,7 @@ The first batch has four clips. Listen before generating the remaining bank:
 node --env-file=.env scripts/generate-audio.mjs --level=A1
 ```
 
-Azure receives only authored Dutch teaching phrases, not learner answers. Synthesis is a paid external operation according to the resource plan; the dry run prints job counts, cache hits and an approximate storage budget. At 48 kbit/s and an assumed five seconds per clip the combined bank is about 68 MiB; real lengths vary. Review actual size before committing binaries. The existing deployment serves `/audio/` from `public/audio`; object storage/CDN migration remains future work.
+Azure receives only authored Dutch teaching phrases, not learner answers. Synthesis is a paid external operation according to the resource plan; the dry run prints job counts, cache hits and an approximate storage budget. At 48 kbit/s and an assumed five seconds per clip the combined bank is about 87 MiB; real lengths vary. Review actual size before committing binaries. The existing deployment serves `/audio/` from `public/audio`; object storage/CDN migration remains future work.
 
 ## Integrity and resumability
 
@@ -88,3 +88,7 @@ npm run audio:check -- --require-complete --level=A2
 ```
 
 A scoped strict check measures completeness only for that level, but still verifies global manifest consistency and existing catalog-asset integrity. Approval/rejection always rebuilds the full manifest; approving A2 must never remove approved A1 URLs. The new native test compares every legacy request, filename and SSML byte before the appended jobs.
+
+### A2 newcomer application passages (15 October 2026)
+
+Four original connected updates add sixteen planned variants. Current A2 inventory: 384 lesson phrases plus thirteen passages = 397 sources / 1,588 variants. A1 remains 367 sources / 1,468 variants; combined 764 / 3,056. Earlier jobs remain byte-identical. No MP3 generation or listening approval occurred. See `A2_NEWCOMERS.md`.

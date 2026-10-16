@@ -1,3 +1,4 @@
+import { validateNewcomers } from "./lib/validate-a2-newcomers.mjs";
 import { validateKnm } from "./lib/validate-knm.mjs";
 import { validateRecycling } from "./lib/validate-recycling.mjs";
 import { readFile } from "node:fs/promises";
@@ -23,6 +24,7 @@ errors.push(...validateRecycling(
   JSON.parse(await readFile(new URL("../src/data/a2-recycling.json", import.meta.url), "utf8")),
   a2.units, JSON.parse(await readFile(new URL("../src/data/a2-lesson-extensions.json", import.meta.url), "utf8")),
 ));
+errors.push(...validateNewcomers(JSON.parse(await readFile(new URL("../src/data/a2-newcomers.json", import.meta.url), "utf8")), a2));
 const questionIds = [...readings.flatMap((reading) => reading.questions), ...[...a1.practice, ...a2.practice].flatMap((pack) => [...pack.reading.questions, ...pack.listening.questions])].map((question) => question.id);
 if (new Set(questionIds).size !== questionIds.length) errors.push("Course: duplicate comprehension question ID across levels/banks");
 try { const { sources, overrides } = await loadAudioInventory(); planAudio(sources, overrides); } catch (error) { errors.push(error.message); }

@@ -6,9 +6,9 @@ const read = (name) => JSON.parse(readFileSync(new URL(`../src/data/${name}.json
 const bank = read("a2-recycling"), units = read("a2-roadmap"), extensions = read("a2-lesson-extensions");
 const check = (value) => validateRecycling(value, units, extensions);
 
-test("recycling bank links eight cross-unit pairs with separate retrieval and transformation", () => {
+test("recycling bank links sixteen cross-unit pairs with separate retrieval and transformation", () => {
   assert.deepEqual(check(bank), []);
-  assert.equal(bank.length, 8);
+  assert.equal(bank.length, 16);
   const covered = new Set(bank.flatMap((set) => set.anchors.map((anchor) => units.find((unit) => unit.lessonSlugs.includes(anchor.lessonSlug)).id)));
   assert.equal(covered.size, units.length);
 });

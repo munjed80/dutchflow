@@ -740,10 +740,158 @@
     "number": "05"
   },
   {
+    "slug": "a2-asking-about-someones-background",
+    "moduleId": "a2-recent-activities",
+    "level": "A2",
+    "number": "06",
+    "title": "التعرّف إلى قصة شخص",
+    "dutchTitle": "Iemands achtergrond leren kennen",
+    "description": "أسأل عن مكان السكن السابق ومدة الإقامة الحالية، وأميّز الماضي عن وضع مستمر.",
+    "context": "حوار خيالي بين زميلين عن الدراسة والسكن؛ التفاصيل الشخصية اختيارية.",
+    "goal": "أسأل عن مكان السكن السابق ومدة الإقامة الحالية، وأميّز الماضي عن وضع مستمر.",
+    "durationMinutes": 15,
+    "grammar": {
+      "title": "Vroeger، sinds وhoelang",
+      "explanation": "Vroeger يقدّم وضعاً سابقاً. مع وضع بدأ في الماضي وما زال مستمراً نستعمل هنا الحاضر مع sinds: Ik woon hier sinds mei. Hoelang يسأل عن المدة، لا عن تاريخ بداية محدد.",
+      "example": "Vroeger woonde ik in Breda. Nu woon ik hier sinds mei.",
+      "translation": "كنت أسكن في بريدا. الآن أسكن هنا منذ مايو."
+    },
+    "phrases": [
+      {
+        "id": "a2-asking-about-someones-background-01",
+        "dutch": "Woon je al lang in deze buurt?",
+        "arabic": "هل تسكن في هذا الحي منذ مدة طويلة؟",
+        "tip": "al lang سؤال عن مدة، وليس عن عنوان مفصل."
+      },
+      {
+        "id": "a2-asking-about-someones-background-02",
+        "dutch": "Nee, ik woon hier sinds mei.",
+        "arabic": "لا، أسكن هنا منذ مايو.",
+        "tip": "نستعمل الحاضر لأن السكن مستمر."
+      },
+      {
+        "id": "a2-asking-about-someones-background-03",
+        "dutch": "Waar woonde je daarvoor?",
+        "arabic": "أين كنت تسكن قبل ذلك؟",
+        "tip": "daarvoor يعود إلى الفترة قبل السكن الحالي."
+      },
+      {
+        "id": "a2-asking-about-someones-background-04",
+        "dutch": "Ik woonde in Breda. Daar ging ik naar school.",
+        "arabic": "كنت أسكن في بريدا. كنت أذهب إلى المدرسة هناك.",
+        "tip": "woonde وging يصفان مرحلة سابقة."
+      },
+      {
+        "id": "a2-asking-about-someones-background-05",
+        "dutch": "En wat doe je nu?",
+        "arabic": "وماذا تفعل الآن؟",
+        "tip": "nu يحوّل السؤال إلى الحاضر."
+      },
+      {
+        "id": "a2-asking-about-someones-background-06",
+        "dutch": "Ik werk in een winkel en ik volg een cursus.",
+        "arabic": "أعمل في متجر وأتابع دورة.",
+        "tip": "volg een cursus تعبير شائع عن الدراسة."
+      },
+      {
+        "id": "a2-asking-about-someones-background-07",
+        "dutch": "Hoe bevalt de buurt je?",
+        "arabic": "كيف تجد الحي؟",
+        "tip": "سؤال عن الانطباع دون افتراض أنه إيجابي."
+      },
+      {
+        "id": "a2-asking-about-someones-background-08",
+        "dutch": "Goed. Ik ken nog niet veel mensen, maar ik voel me hier thuis.",
+        "arabic": "جيد. لا أعرف كثيراً من الناس بعد، لكنني أشعر أنني في بيتي هنا.",
+        "tip": "nog niet يترك المجال لتغيّر الوضع."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-about-someones-background-01"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-about-someones-background-02"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-about-someones-background-03"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-about-someones-background-04"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-about-someones-background-05"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-about-someones-background-06"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-about-someones-background-07"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-about-someones-background-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-asking-about-someones-background-q1",
+        "prompt": "عن أي معلومة تسأل al lang؟",
+        "options": [
+          "عن مدة السكن",
+          "عن رقم المنزل",
+          "عن سعر الإيجار"
+        ],
+        "correctIndex": 0,
+        "explanation": "السؤال Woon je al lang ... يتعلق بالمدة."
+      },
+      {
+        "id": "a2-asking-about-someones-background-q2",
+        "prompt": "أي عبارة تصف سكناً مستمراً منذ مايو؟",
+        "options": [
+          "Ik woon hier alleen morgen.",
+          "Ik woon hier sinds mei.",
+          "Ik woonde hier, maar nu niet meer."
+        ],
+        "correctIndex": 1,
+        "explanation": "sinds mei مع woon يربط البداية بالوضع الحالي."
+      },
+      {
+        "id": "a2-asking-about-someones-background-q3",
+        "prompt": "أين درس الطرف الآخر سابقاً؟",
+        "options": [
+          "في الحي الحالي حصراً",
+          "في متجره",
+          "في بريدا"
+        ],
+        "correctIndex": 2,
+        "explanation": "Daar في Daar ging ik naar school يعود إلى Breda."
+      },
+      {
+        "id": "a2-asking-about-someones-background-q4",
+        "prompt": "هل يعرف المتحدث كثيراً من الناس الآن؟",
+        "options": [
+          "لا، ليس بعد",
+          "نعم، الجميع",
+          "لا يريد معرفة أحد"
+        ],
+        "correctIndex": 0,
+        "explanation": "nog niet veel لا تعني رفض التعارف."
+      }
+    ]
+  },
+  {
     "slug": "a2-reporting-task-progress",
     "moduleId": "a2-work-coordination",
     "level": "A2",
-    "number": "06",
+    "number": "07",
     "title": "أخبر زميلك بتقدّم المهمة",
     "dutchTitle": "Vertellen hoe ver je bent",
     "description": "أميّز بين المهمة المكتملة والمتبقية وأتفق على الخطوة التالية.",
@@ -891,7 +1039,7 @@
     "slug": "a2-explaining-a-delay",
     "moduleId": "a2-work-coordination",
     "level": "A2",
-    "number": "07",
+    "number": "08",
     "title": "اشرح سبب التأخير",
     "dutchTitle": "Een vertraging uitleggen",
     "description": "أشرح تأخر مهمة بسبب بسيط وأقترح وقتاً جديداً.",
@@ -1039,7 +1187,7 @@
     "slug": "a2-clarifying-instructions",
     "moduleId": "a2-work-coordination",
     "level": "A2",
-    "number": "08",
+    "number": "09",
     "title": "اطلب توضيح التعليمات",
     "dutchTitle": "Instructies verduidelijken",
     "description": "أطلب إعادة الشرح وأؤكد ترتيب المهمة ومكانها.",
@@ -1187,7 +1335,7 @@
     "slug": "a2-confirming-a-handover",
     "moduleId": "a2-work-coordination",
     "level": "A2",
-    "number": "09",
+    "number": "10",
     "title": "أكد تسليم المهمة",
     "dutchTitle": "Een overdracht bevestigen",
     "description": "أتفق على من يفعل ماذا وأصحح موعد التسليم.",
@@ -1477,13 +1625,161 @@
       }
     ],
     "moduleId": "a2-work-coordination",
-    "number": "10"
+    "number": "11"
+  },
+  {
+    "slug": "a2-giving-feedback-at-work",
+    "moduleId": "a2-work-coordination",
+    "level": "A2",
+    "number": "12",
+    "title": "ملاحظة بنّاءة في العمل",
+    "dutchTitle": "Feedback geven op het werk",
+    "description": "أذكر ما سار جيداً ومشكلة محددة، وأقترح تحسيناً دون اتهام الشخص.",
+    "context": "تراجع مع زميل طريقة تجهيز صناديق خيالية في المستودع.",
+    "goal": "أذكر ما سار جيداً ومشكلة محددة، وأقترح تحسيناً دون اتهام الشخص.",
+    "durationMinutes": 15,
+    "grammar": {
+      "title": "رأي محدد مع ik vind وvolgende keer",
+      "explanation": "Ik vind + وصف تعبر عن رأي. اذكر الملاحظة المحددة ثم طلباً قابلاً للتنفيذ. بعد Volgende keer يأتي الفعل المصرف في الموضع الثاني.",
+      "example": "Volgende keer zetten we het nummer bovenaan.",
+      "translation": "في المرة القادمة نضع الرقم في الأعلى."
+    },
+    "phrases": [
+      {
+        "id": "a2-giving-feedback-at-work-01",
+        "dutch": "Wat vond je van de nieuwe lijst?",
+        "arabic": "ما رأيك في القائمة الجديدة؟",
+        "tip": "vond سؤال عن تجربة جرت."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-02",
+        "dutch": "De lijst was duidelijk, maar twee nummers ontbraken.",
+        "arabic": "كانت القائمة واضحة، لكن رقمين كانا ناقصين.",
+        "tip": "ملاحظة عن المهمة دون وصف الشخص بأنه مهمل."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-03",
+        "dutch": "Welke nummers bedoel je?",
+        "arabic": "أي رقمين تقصد؟",
+        "tip": "اطلب تحديد المشكلة قبل الرد."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-04",
+        "dutch": "De nummers van doos vier en doos zes.",
+        "arabic": "رقما الصندوق الرابع والصندوق السادس.",
+        "tip": "إجابة محددة قابلة للتحقق."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-05",
+        "dutch": "Hoe kunnen we dat de volgende keer voorkomen?",
+        "arabic": "كيف يمكننا منع ذلك في المرة القادمة؟",
+        "tip": "ننتقل من الملاحظة إلى التحسين."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-06",
+        "dutch": "We kunnen de nummers samen controleren.",
+        "arabic": "يمكننا فحص الأرقام معاً.",
+        "tip": "kunnen هنا اقتراح وليس أمراً."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-07",
+        "dutch": "Goed idee. Wil jij de lijst voorlezen?",
+        "arabic": "فكرة جيدة. هل تقرأ القائمة بصوت مسموع؟",
+        "tip": "voorlezen فعل قابل للفصل في التصريف."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-08",
+        "dutch": "Ja, en jij controleert de dozen.",
+        "arabic": "نعم، وأنت تفحص الصناديق.",
+        "tip": "هذا قبول وتوزيع واضح للأدوار."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-giving-feedback-at-work-01"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-giving-feedback-at-work-02"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-giving-feedback-at-work-03"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-giving-feedback-at-work-04"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-giving-feedback-at-work-05"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-giving-feedback-at-work-06"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-giving-feedback-at-work-07"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-giving-feedback-at-work-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-giving-feedback-at-work-q1",
+        "prompt": "ما المشكلة المحددة في القائمة؟",
+        "options": [
+          "غياب كل الأسماء",
+          "غياب رقمين",
+          "تأخر الشحنة كلها"
+        ],
+        "correctIndex": 1,
+        "explanation": "twee nummers ontbraken تحدد المشكلة دون تعميم."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-q2",
+        "prompt": "أي صندوقين ينقص رقماهما؟",
+        "options": [
+          "الرابع والخامس",
+          "الثاني والسادس",
+          "الرابع والسادس"
+        ],
+        "correctIndex": 2,
+        "explanation": "ورد doos vier en doos zes."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-q3",
+        "prompt": "ما التحسين المقترح؟",
+        "options": [
+          "فحص الأرقام معاً",
+          "رمي كل الصناديق",
+          "إلغاء القائمة نهائياً"
+        ],
+        "correctIndex": 0,
+        "explanation": "الاقتراح We kunnen ... controleren يتعلق بالمشكلة نفسها."
+      },
+      {
+        "id": "a2-giving-feedback-at-work-q4",
+        "prompt": "من يقرأ القائمة بصوت مسموع في نهاية الحوار؟",
+        "options": [
+          "الشخص الذي يفحص الصناديق",
+          "الطرف الذي أجاب Ja",
+          "لم يوافق أحد"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ja قبول لطلب Wil jij de lijst voorlezen؟ ثم يوزع فحص الصناديق على الآخر."
+      }
+    ]
   },
   {
     "slug": "a2-reporting-a-recurring-problem",
     "moduleId": "a2-housing-services",
     "level": "A2",
-    "number": "11",
+    "number": "13",
     "title": "أبلغ عن مشكلة متكررة",
     "dutchTitle": "Een terugkerend probleem melden",
     "description": "أحدد المشكلة ومكانها وبدايتها وأميز عودتها عن استمرارها.",
@@ -1631,7 +1927,7 @@
     "slug": "a2-comparing-conditions-at-home",
     "moduleId": "a2-housing-services",
     "level": "A2",
-    "number": "12",
+    "number": "14",
     "title": "صف ما تغيّر في المنزل",
     "dutchTitle": "Verschillen in huis beschrijven",
     "description": "أقارن بين غرفتين وأصف تغيراً لاحظته دون تشخيص سببه.",
@@ -1779,7 +2075,7 @@
     "slug": "a2-arranging-a-repair-visit",
     "moduleId": "a2-housing-services",
     "level": "A2",
-    "number": "13",
+    "number": "15",
     "title": "رتّب زيارة للصيانة",
     "dutchTitle": "Een bezoek van de monteur afspreken",
     "description": "أذكر متى أكون في المنزل وأميز فترة الزيارة عن موعد محدد.",
@@ -1927,7 +2223,7 @@
     "slug": "a2-following-up-on-a-repair",
     "moduleId": "a2-housing-services",
     "level": "A2",
-    "number": "14",
+    "number": "16",
     "title": "تابع المشكلة بعد الزيارة",
     "dutchTitle": "Na de reparatie contact opnemen",
     "description": "أوضح ما أُصلح وما بقي دون حل وأطلب خطوة متابعة واضحة.",
@@ -2217,13 +2513,161 @@
       }
     ],
     "moduleId": "a2-housing-services",
-    "number": "15"
+    "number": "17"
+  },
+  {
+    "slug": "a2-explaining-shared-house-rules",
+    "moduleId": "a2-housing-services",
+    "level": "A2",
+    "number": "18",
+    "title": "فهم قواعد الأماكن المشتركة",
+    "dutchTitle": "Afspraken in een gedeelde ruimte",
+    "description": "أميّز الممنوع عن الواجب وما لا يلزم، وأطلب توضيح قاعدة محلية.",
+    "context": "تقرأ مع ساكن جديد قواعد خيالية لغرفة غسيل مشتركة؛ هي قواعد هذا المكان فقط.",
+    "goal": "أميّز الممنوع عن الواجب وما لا يلزم، وأطلب توضيح قاعدة محلية.",
+    "durationMinutes": 15,
+    "grammar": {
+      "title": "mag niet وmoet وhoeft niet",
+      "explanation": "mag niet يدل على المنع، moet على الإلزام، وhoeft niet على عدم الحاجة لا على المنع. نبقي المصدر في نهاية هذه الجمل.",
+      "example": "Je hoeft geen muntjes mee te nemen.",
+      "translation": "لا تحتاج إلى إحضار عملات معدنية."
+    },
+    "phrases": [
+      {
+        "id": "a2-explaining-shared-house-rules-01",
+        "dutch": "Mag ik de wasmachine 's avonds gebruiken?",
+        "arabic": "هل يمكنني استخدام الغسالة مساءً؟",
+        "tip": "mag هنا يسأل عن السماح وفق القواعد المحلية."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-02",
+        "dutch": "Ja, tot negen uur. Daarna mag je niet meer wassen.",
+        "arabic": "نعم، حتى التاسعة. بعد ذلك لا يُسمح بالغسيل.",
+        "tip": "tot يحدد الحد النهائي في القاعدة الخيالية."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-03",
+        "dutch": "Moet ik een tijd op de lijst schrijven?",
+        "arabic": "هل عليّ كتابة وقت في القائمة؟",
+        "tip": "moet يسأل عن واجب."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-04",
+        "dutch": "Ja, schrijf je naam en de begintijd op.",
+        "arabic": "نعم، اكتب اسمك ووقت البدء.",
+        "tip": "اكتب بيانات الحجز المحددة."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-05",
+        "dutch": "Moet ik muntjes meenemen?",
+        "arabic": "هل عليّ إحضار عملات معدنية؟",
+        "tip": "سؤال عن ضرورة تجهيز شيء."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-06",
+        "dutch": "Nee, dat hoeft niet. Betalen gaat met een pas.",
+        "arabic": "لا، لا يلزم ذلك. الدفع ببطاقة.",
+        "tip": "hoeft niet ليس منعاً لحمل العملات؛ إنها غير مطلوبة للدفع هنا."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-07",
+        "dutch": "En wat doe ik als ik klaar ben?",
+        "arabic": "وماذا أفعل عندما أنتهي؟",
+        "tip": "als يقدّم شرط الانتهاء."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-08",
+        "dutch": "Haal je was eruit en laat de deur open.",
+        "arabic": "أخرج الغسيل واترك الباب مفتوحاً.",
+        "tip": "تعليمات تخص آلة هذا الحوار، لا قاعدة لكل الأجهزة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-explaining-shared-house-rules-01"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-explaining-shared-house-rules-02"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-explaining-shared-house-rules-03"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-explaining-shared-house-rules-04"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-explaining-shared-house-rules-05"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-explaining-shared-house-rules-06"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-explaining-shared-house-rules-07"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-explaining-shared-house-rules-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-explaining-shared-house-rules-q1",
+        "prompt": "متى تمنع القواعد الخيالية الغسيل؟",
+        "options": [
+          "قبل التاسعة صباحاً دائماً",
+          "طوال المساء",
+          "بعد التاسعة مساءً"
+        ],
+        "correctIndex": 2,
+        "explanation": "Daarna يعود إلى ما بعد negen uur مساءً."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-q2",
+        "prompt": "ما المطلوب كتابته؟",
+        "options": [
+          "الاسم ووقت البدء",
+          "العنوان وسعر الغسيل",
+          "وقت الانتهاء فقط"
+        ],
+        "correctIndex": 0,
+        "explanation": "ورد je naam en de begintijd."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-q3",
+        "prompt": "ما معنى Dat hoeft niet في جواب العملات؟",
+        "options": [
+          "حملها ممنوع قانونياً",
+          "إحضارها غير لازم",
+          "الدفع مجاني"
+        ],
+        "correctIndex": 1,
+        "explanation": "الجواب يذكر الدفع ببطاقة؛ عدم الحاجة للعملات لا يعني المجانية."
+      },
+      {
+        "id": "a2-explaining-shared-house-rules-q4",
+        "prompt": "ما الخطوة المطلوبة بعد الانتهاء هنا؟",
+        "options": [
+          "ترك الغسيل حتى اليوم التالي",
+          "حذف أسماء السكان الآخرين",
+          "إخراج الغسيل وترك الباب مفتوحاً"
+        ],
+        "correctIndex": 2,
+        "explanation": "ورد Haal بمعنى أخرج؛ التعليمات Haal je was eruit واضحة في الحوار."
+      }
+    ]
   },
   {
     "slug": "a2-explaining-an-appointment-conflict",
     "moduleId": "a2-appointments-followup",
     "level": "A2",
-    "number": "16",
+    "number": "19",
     "title": "اشرح تعارض الموعد",
     "dutchTitle": "Uitleggen waarom een afspraak niet past",
     "description": "أشرح سبب عدم مناسبة الموعد وأطلب تغييره دون افتراض قبول الطلب.",
@@ -2371,7 +2815,7 @@
     "slug": "a2-comparing-appointment-options",
     "moduleId": "a2-appointments-followup",
     "level": "A2",
-    "number": "17",
+    "number": "20",
     "title": "قارن بين المواعيد البديلة",
     "dutchTitle": "Afspraakmogelijkheden vergelijken",
     "description": "أقارن بين بديلين وأختار ما يناسبني مع توضيح السبب.",
@@ -2519,7 +2963,7 @@
     "slug": "a2-confirming-a-replacement-appointment",
     "moduleId": "a2-appointments-followup",
     "level": "A2",
-    "number": "18",
+    "number": "21",
     "title": "أكد الموعد الجديد",
     "dutchTitle": "Een vervangende afspraak bevestigen",
     "description": "أتحقق من اليوم والوقت والمكان وأميز وقت الحضور عن بدء المقابلة.",
@@ -2667,7 +3111,7 @@
     "slug": "a2-asking-for-an-appointment-update",
     "moduleId": "a2-appointments-followup",
     "level": "A2",
-    "number": "19",
+    "number": "22",
     "title": "استفسر عن طلبك",
     "dutchTitle": "Navragen hoe het met uw verzoek staat",
     "description": "أتابع طلباً لم يصل تأكيده وأحدد مهلة الرد دون افتراض الحجز.",
@@ -2957,13 +3401,161 @@
       }
     ],
     "moduleId": "a2-appointments-followup",
-    "number": "20"
+    "number": "23"
+  },
+  {
+    "slug": "a2-describing-symptoms-and-asking-for-help",
+    "moduleId": "a2-appointments-followup",
+    "level": "A2",
+    "number": "24",
+    "title": "وصف الأعراض وطلب توضيح",
+    "dutchTitle": "Klachten beschrijven en om uitleg vragen",
+    "description": "أصف شكوى خيالية ومكانها ومدتها وتأثيرها، وأطلب إعادة سؤال لم أفهمه.",
+    "context": "تتدرّب على لغة مكالمة خيالية مع عيادة، دون تشخيص أو إرشادات علاج.",
+    "goal": "أصف شكوى خيالية ومكانها ومدتها وتأثيرها، وأطلب إعادة سؤال لم أفهمه.",
+    "durationMinutes": 15,
+    "grammar": {
+      "title": "sinds وals مع وصف الشكوى",
+      "explanation": "sinds يحدد بداية الشكوى. Ik heb pijn in ... يحدد مكان الألم. بعد als يأتي الفعل المصرف في نهاية الجملة التابعة. السؤال عن الأعراض لا يعني تشخيصها.",
+      "example": "Ik heb sinds maandag pijn in mijn schouder.",
+      "translation": "لدي ألم في كتفي منذ الاثنين."
+    },
+    "phrases": [
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-01",
+        "dutch": "Goedemorgen, ik bel omdat ik pijn in mijn schouder heb.",
+        "arabic": "صباح الخير، أتصل لأن لدي ألماً في كتفي.",
+        "tip": "بعد omdat يأتي heb في نهاية الجملة التابعة."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-02",
+        "dutch": "Hoelang heeft u daar last van?",
+        "arabic": "منذ متى تعاني من ذلك؟",
+        "tip": "last van hebben تعبير عن معاناة أو انزعاج."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-03",
+        "dutch": "Sinds maandag. Vooral als ik mijn arm optil.",
+        "arabic": "منذ الاثنين. خصوصاً عندما أرفع ذراعي.",
+        "tip": "optillen يصف حركة، وليس تشخيصاً."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-04",
+        "dutch": "Kunt u vertellen wat daardoor moeilijk gaat?",
+        "arabic": "هل يمكنك وصف ما يصعب عليك بسبب ذلك؟",
+        "tip": "نطلب وصف تأثير الشكوى."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-05",
+        "dutch": "Ik kan mijn jas moeilijk aantrekken.",
+        "arabic": "يصعب عليّ ارتداء سترتي.",
+        "tip": "aantrekken يصف ارتداء قطعة ملابس."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-06",
+        "dutch": "Is de pijn steeds hetzelfde?",
+        "arabic": "هل الألم ثابت على الحال نفسه؟",
+        "tip": "steeds hetzelfde يسأل عن تغيّر الشكوى."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-07",
+        "dutch": "Wilt u de vraag herhalen? Ik heb u niet goed verstaan.",
+        "arabic": "هل تعيد السؤال؟ لم أسمعك جيداً.",
+        "tip": "اطلب التكرار عند عدم الفهم بدلاً من تخمين جواب."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-08",
+        "dutch": "Ik vraag of de pijn verandert.",
+        "arabic": "أسأل إن كان الألم يتغيّر.",
+        "tip": "الطرف الآخر يعيد السؤال بصيغة أخرى دون إعطاء علاج."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-01"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-02"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-03"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-04"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-05"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-06"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-07"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-describing-symptoms-and-asking-for-help-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-q1",
+        "prompt": "أين الألم في المكالمة الخيالية؟",
+        "options": [
+          "في الكتف",
+          "في البطن",
+          "في الركبة"
+        ],
+        "correctIndex": 0,
+        "explanation": "pijn in mijn schouder يحدد المكان."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-q2",
+        "prompt": "متى بدأت الشكوى المذكورة؟",
+        "options": [
+          "في الاثنين القادم",
+          "منذ الاثنين",
+          "منذ شهر بالتحديد"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sinds maandag يحدد بداية، ولا يعطي عدد أيام دون معرفة يوم الاتصال."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-q3",
+        "prompt": "أي نشاط أصبح صعباً؟",
+        "options": [
+          "قراءة قائمة الأسعار",
+          "شراء تذكرة",
+          "ارتداء السترة"
+        ],
+        "correctIndex": 2,
+        "explanation": "jas aantrekken هو ارتداء السترة."
+      },
+      {
+        "id": "a2-describing-symptoms-and-asking-for-help-q4",
+        "prompt": "لماذا يطلب المتحدث إعادة السؤال؟",
+        "options": [
+          "لأنه لم يسمعه جيداً",
+          "لأنه تلقى تشخيصاً نهائياً",
+          "لأن الموعد أُلغي"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ik heb u niet goed verstaan يشرح طلب التكرار."
+      }
+    ]
   },
   {
     "slug": "a2-explaining-a-purchase-problem",
     "moduleId": "a2-shopping-choices",
     "level": "A2",
-    "number": "21",
+    "number": "25",
     "title": "اشرح مشكلة في مشترياتك",
     "dutchTitle": "Een probleem met een aankoop uitleggen",
     "description": "أذكر ما اشتريته والمشكلة وأطلب بديلاً مناسباً بأدب.",
@@ -3111,7 +3703,7 @@
     "slug": "a2-comparing-products",
     "moduleId": "a2-shopping-choices",
     "level": "A2",
-    "number": "22",
+    "number": "26",
     "title": "قارن بين منتجين",
     "dutchTitle": "Twee producten vergelijken",
     "description": "أقارن السعر والوزن وأختار منتجاً يناسب حاجتي وميزانيتي.",
@@ -3259,7 +3851,7 @@
     "slug": "a2-checking-quantities-and-prices",
     "moduleId": "a2-shopping-choices",
     "level": "A2",
-    "number": "23",
+    "number": "27",
     "title": "تحقق من الكمية والسعر",
     "dutchTitle": "Aantal en prijs controleren",
     "description": "أميز سعر القطعة من سعر المجموعة وأعيد عدد القطع والمبلغ الإجمالي.",
@@ -3407,7 +3999,7 @@
     "slug": "a2-confirming-a-shop-alternative",
     "moduleId": "a2-shopping-choices",
     "level": "A2",
-    "number": "24",
+    "number": "28",
     "title": "أكد البديل مع المتجر",
     "dutchTitle": "Een alternatief met de winkel afspreken",
     "description": "أستجيب لنقص الكمية وأختار بديلاً ثم أتحقق من العدد والسعر والاستلام.",
@@ -3697,13 +4289,161 @@
       }
     ],
     "moduleId": "a2-shopping-choices",
-    "number": "25"
+    "number": "29"
+  },
+  {
+    "slug": "a2-asking-how-a-product-works",
+    "moduleId": "a2-shopping-choices",
+    "level": "A2",
+    "number": "30",
+    "title": "طلب شرح طريقة الاستخدام",
+    "dutchTitle": "Vragen hoe een apparaat werkt",
+    "description": "أفهم خطوات استخدام جهاز خيالي وأعيدها وأتحقق من شرط مهم.",
+    "context": "تطلب شرحاً لآلة قهوة خيالية في متجر؛ التعليمات تخص نموذج التدريب فقط.",
+    "goal": "أفهم خطوات استخدام جهاز خيالي وأعيدها وأتحقق من شرط مهم.",
+    "durationMinutes": 15,
+    "grammar": {
+      "title": "eerst، daarna وpas als",
+      "explanation": "نستخدم eerst وdaarna لترتيب الخطوات. pas als تعني فقط عندما يتحقق الشرط. أعد التعليمات بكلماتك للتحقق من الفهم.",
+      "example": "Pas als het lampje groen is, druk je op de knop.",
+      "translation": "فقط عندما يصبح الضوء أخضر تضغط الزر."
+    },
+    "phrases": [
+      {
+        "id": "a2-asking-how-a-product-works-01",
+        "dutch": "Kunt u laten zien hoe dit apparaat werkt?",
+        "arabic": "هل تريني كيف يعمل هذا الجهاز؟",
+        "tip": "laten zien طلب عرض عملي."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-02",
+        "dutch": "Natuurlijk. Eerst vul je het bakje met water.",
+        "arabic": "بالطبع. تملأ الخزان الصغير بالماء أولاً.",
+        "tip": "eerst يبدأ تسلسل التعليمات."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-03",
+        "dutch": "Tot deze lijn?",
+        "arabic": "حتى هذا الخط؟",
+        "tip": "سؤال قصير للتحقق من الحد."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-04",
+        "dutch": "Ja. Daarna zet je een kopje onder de opening.",
+        "arabic": "نعم. ثم تضع فنجاناً تحت الفتحة.",
+        "tip": "onder يحدد الموضع المطلوب."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-05",
+        "dutch": "Kan ik dan meteen op de knop drukken?",
+        "arabic": "هل أستطيع عندئذ ضغط الزر مباشرة؟",
+        "tip": "meteen يسأل هل الانتظار لازم."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-06",
+        "dutch": "Nee, wacht tot het lampje groen is.",
+        "arabic": "لا، انتظر حتى يصبح الضوء أخضر.",
+        "tip": "هذه إشارة نموذج الجهاز الخيالي."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-07",
+        "dutch": "Dus eerst water, dan een kopje en wachten op groen?",
+        "arabic": "إذن الماء أولاً، ثم فنجان، وانتظار الأخضر؟",
+        "tip": "تلخيص للتحقق دون تغيير الترتيب."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-08",
+        "dutch": "Precies. Dan druk je één keer op de knop.",
+        "arabic": "بالضبط. عندها تضغط الزر مرة واحدة.",
+        "tip": "één keer يحدد عدد مرات الضغط."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-how-a-product-works-01"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-how-a-product-works-02"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-how-a-product-works-03"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-how-a-product-works-04"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-how-a-product-works-05"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-how-a-product-works-06"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-how-a-product-works-07"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-how-a-product-works-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-asking-how-a-product-works-q1",
+        "prompt": "ما الخطوة الأولى حسب هذا الشرح؟",
+        "options": [
+          "ضغط الزر مرتين",
+          "ملء الخزان الصغير بالماء",
+          "إزالة الفنجان"
+        ],
+        "correctIndex": 1,
+        "explanation": "Eerst vul je ... met water يحدد البداية."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-q2",
+        "prompt": "أين يوضع الفنجان؟",
+        "options": [
+          "فوق زر التشغيل",
+          "داخل خزان الماء",
+          "تحت الفتحة"
+        ],
+        "correctIndex": 2,
+        "explanation": "onder de opening يحدد المكان."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-q3",
+        "prompt": "متى يضغط المستخدم الزر في هذا النموذج؟",
+        "options": [
+          "بعد أن يصبح الضوء أخضر",
+          "مباشرة قبل وضع الماء",
+          "كلما تغير لون الفنجان"
+        ],
+        "correctIndex": 0,
+        "explanation": "wacht tot het lampje groen is يفرض الانتظار."
+      },
+      {
+        "id": "a2-asking-how-a-product-works-q4",
+        "prompt": "كم مرة يضغط الزر حسب التعليمات؟",
+        "options": [
+          "مرتين",
+          "مرة واحدة",
+          "حتى ينفد الماء"
+        ],
+        "correctIndex": 1,
+        "explanation": "één keer عدد محدد، وليس ضغطاً متواصلاً."
+      }
+    ]
   },
   {
     "slug": "a2-understanding-school-instructions",
     "moduleId": "a2-school-local-messages",
     "level": "A2",
-    "number": "26",
+    "number": "31",
     "title": "افهم تعليمات المدرسة",
     "dutchTitle": "Begrijpen wat nodig is",
     "description": "أميز المشاركة الاختيارية من الإجراء المطلوب إذا قررت الحضور.",
@@ -3851,7 +4591,7 @@
     "slug": "a2-finding-a-reply-deadline",
     "moduleId": "a2-school-local-messages",
     "level": "A2",
-    "number": "27",
+    "number": "32",
     "title": "حدد مهلة الرد",
     "dutchTitle": "De reactietermijn vinden",
     "description": "أحدد مهلة الرد وطريقته وأفصلها عن يوم اللقاء ووقت بدايته.",
@@ -3999,7 +4739,7 @@
     "slug": "a2-clarifying-a-local-form",
     "moduleId": "a2-school-local-messages",
     "level": "A2",
-    "number": "28",
+    "number": "33",
     "title": "استوضح حقول الاستمارة",
     "dutchTitle": "Een formulier van het buurthuis begrijpen",
     "description": "أطلب توضيح حقل غير واضح وأميز المعلومات المطلوبة من الاختيارية.",
@@ -4147,7 +4887,7 @@
     "slug": "a2-writing-a-relevant-reply",
     "moduleId": "a2-school-local-messages",
     "level": "A2",
-    "number": "29",
+    "number": "34",
     "title": "اكتب رداً يجيب عن الرسالة",
     "dutchTitle": "Gericht op een bericht reageren",
     "description": "أجيب عن الأسئلة المطلوبة وأبلغ عن تغيير واضح دون اختراع تفاصيل.",
@@ -4437,13 +5177,161 @@
       }
     ],
     "moduleId": "a2-school-local-messages",
-    "number": "30"
+    "number": "35"
+  },
+  {
+    "slug": "a2-asking-about-a-course",
+    "moduleId": "a2-school-local-messages",
+    "level": "A2",
+    "number": "36",
+    "title": "الاستفسار عن دورة تعليمية",
+    "dutchTitle": "Informatie over een cursus vragen",
+    "description": "أسأل عن محتوى دورة وشروطها وموادها، وأفرّق بين معلوماتها وبين التسجيل فيها.",
+    "context": "تسأل موظفة عن دورة حاسوب خيالية في مركز الحي.",
+    "goal": "أسأل عن محتوى دورة وشروطها وموادها، وأفرّق بين معلوماتها وبين التسجيل فيها.",
+    "durationMinutes": 15,
+    "grammar": {
+      "title": "هل يكفي؟ مع genoeg وnodig hebben",
+      "explanation": "Is ... genoeg? سؤال عن كفاية شرط. Wat heb ik nodig? سؤال عن المطلوب. تلقي المعلومات أو تجربة درس لا يعني اكتمال التسجيل.",
+      "example": "Is een beetje ervaring genoeg?",
+      "translation": "هل تكفي خبرة قليلة؟"
+    },
+    "phrases": [
+      {
+        "id": "a2-asking-about-a-course-01",
+        "dutch": "Ik zoek een cursus om beter met de computer te werken.",
+        "arabic": "أبحث عن دورة لأعمل على الحاسوب بشكل أفضل.",
+        "tip": "om ... te يعبّر عن الغرض."
+      },
+      {
+        "id": "a2-asking-about-a-course-02",
+        "dutch": "We hebben een beginnersgroep op dinsdag.",
+        "arabic": "لدينا مجموعة مبتدئين يوم الثلاثاء.",
+        "tip": "معلومة عن هذه الدورة الخيالية."
+      },
+      {
+        "id": "a2-asking-about-a-course-03",
+        "dutch": "Ik kan e-mailen. Is dat genoeg om mee te doen?",
+        "arabic": "أستطيع إرسال البريد الإلكتروني. هل هذا يكفي للمشاركة؟",
+        "tip": "يكشف المتعلم مهارته ويسأل عن الكفاية."
+      },
+      {
+        "id": "a2-asking-about-a-course-04",
+        "dutch": "Ja. We oefenen met bestanden en eenvoudige formulieren.",
+        "arabic": "نعم. نتدرب على الملفات والاستمارات البسيطة.",
+        "tip": "الجواب يصف المحتوى الفعلي."
+      },
+      {
+        "id": "a2-asking-about-a-course-05",
+        "dutch": "Moet ik mijn eigen laptop meenemen?",
+        "arabic": "هل عليّ إحضار حاسوبي المحمول؟",
+        "tip": "سؤال عن المواد المطلوبة."
+      },
+      {
+        "id": "a2-asking-about-a-course-06",
+        "dutch": "Nee, je kunt hier een laptop lenen tijdens de les.",
+        "arabic": "لا، يمكنك استعارة حاسوب هنا أثناء الدرس.",
+        "tip": "tijdens de les يحدّد مدة الإعارة."
+      },
+      {
+        "id": "a2-asking-about-a-course-07",
+        "dutch": "Kan ik eerst een proefles volgen?",
+        "arabic": "هل أستطيع حضور درس تجريبي أولاً؟",
+        "tip": "سؤال عن تجربة لا عن تسجيل مؤكد."
+      },
+      {
+        "id": "a2-asking-about-a-course-08",
+        "dutch": "Ja, maar meld je daarvoor apart aan bij de balie.",
+        "arabic": "نعم، لكن سجّل له بشكل منفصل عند المكتب.",
+        "tip": "الرد يحدد خطوة لازمة للدرس التجريبي فقط."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-about-a-course-01"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-about-a-course-02"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-about-a-course-03"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-about-a-course-04"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-about-a-course-05"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-about-a-course-06"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-asking-about-a-course-07"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-asking-about-a-course-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-asking-about-a-course-q1",
+        "prompt": "لمن تُعرض المجموعة المذكورة؟",
+        "options": [
+          "لخبراء البرمجة فقط",
+          "للمعلمين حصراً",
+          "للمبتدئين"
+        ],
+        "correctIndex": 2,
+        "explanation": "beginnersgroep تحدد الفئة دون اشتراط خبرة متقدمة."
+      },
+      {
+        "id": "a2-asking-about-a-course-q2",
+        "prompt": "ماذا يتعلم المشاركون حسب الجواب؟",
+        "options": [
+          "الملفات والاستمارات البسيطة",
+          "تصليح شاشة الحاسوب",
+          "بناء شبكات كبيرة"
+        ],
+        "correctIndex": 0,
+        "explanation": "ورد bestanden en eenvoudige formulieren."
+      },
+      {
+        "id": "a2-asking-about-a-course-q3",
+        "prompt": "هل يمكن أخذ الحاسوب المستعار إلى المنزل حسب الحوار؟",
+        "options": [
+          "نعم، لمدة سنة",
+          "لا يذكر ذلك؛ الإعارة المذكورة أثناء الدرس",
+          "نعم، دون تسجيل"
+        ],
+        "correctIndex": 1,
+        "explanation": "tijdens de les يحدد ما ورد، ولا يثبت إذناً منزلياً."
+      },
+      {
+        "id": "a2-asking-about-a-course-q4",
+        "prompt": "هل تم تسجيل المتعلم في الدرس التجريبي بمجرد هذا الحوار؟",
+        "options": [
+          "نعم، لأن السؤال يكفي",
+          "لا يمكنه حضور أي درس",
+          "لا؛ عليه التسجيل له عند المكتب"
+        ],
+        "correctIndex": 2,
+        "explanation": "meld je daarvoor apart aan خطوة لم يذكر أنه أنجزها."
+      }
+    ]
   },
   {
     "slug": "a2-planning-a-day-trip",
     "moduleId": "a2-travel-plans",
     "level": "A2",
-    "number": "31",
+    "number": "37",
     "title": "خطط لرحلة يوم واحد",
     "dutchTitle": "Een dagje uit plannen",
     "description": "أصف خطة قادمة وأميز وقت اللقاء من وقت مغادرة القطار.",
@@ -4591,7 +5479,7 @@
     "slug": "a2-comparing-travel-routes",
     "moduleId": "a2-travel-plans",
     "level": "A2",
-    "number": "32",
+    "number": "38",
     "title": "قارن مسارين للرحلة",
     "dutchTitle": "Twee routes vergelijken",
     "description": "أقارن مدة الرحلة وعدد مرات التبديل وأختار حسب حاجتي.",
@@ -4739,7 +5627,7 @@
     "slug": "a2-reporting-a-travel-delay",
     "moduleId": "a2-travel-plans",
     "level": "A2",
-    "number": "33",
+    "number": "39",
     "title": "أبلغ عن تأخير في الطريق",
     "dutchTitle": "Een vertraging doorgeven",
     "description": "أشرح التأخير وأنقل وقت وصول متوقعاً وأتفق على مكان الانتظار.",
@@ -4887,7 +5775,7 @@
     "slug": "a2-agreeing-on-another-route",
     "moduleId": "a2-travel-plans",
     "level": "A2",
-    "number": "34",
+    "number": "40",
     "title": "اتفق على مسار بديل",
     "dutchTitle": "Een andere route afspreken",
     "description": "أختار بديلاً يناسب الوقت وأؤكد الاتفاق مع الطرف الآخر.",
@@ -5177,13 +6065,161 @@
       }
     ],
     "moduleId": "a2-travel-plans",
-    "number": "35"
+    "number": "41"
+  },
+  {
+    "slug": "a2-understanding-travel-announcements",
+    "moduleId": "a2-travel-plans",
+    "level": "A2",
+    "number": "42",
+    "title": "فهم إعلان أثناء السفر",
+    "dutchTitle": "Een reisbericht begrijpen",
+    "description": "أستخرج الإجراء المطلوب من إعلان خيالي وأفرّق بين وجهة الرحلة ومكان الصعود.",
+    "context": "تسأل موظف محطة خيالية عن إعلان نقل الركاب إلى حافلة بديلة.",
+    "goal": "أستخرج الإجراء المطلوب من إعلان خيالي وأفرّق بين وجهة الرحلة ومكان الصعود.",
+    "durationMinutes": 15,
+    "grammar": {
+      "title": "in plaats van وniet ... maar",
+      "explanation": "in plaats van تستبدل خياراً بآخر. niet ... maar يصحح معلومة محددة. احتفظ بالفرق بين spoor للقطار وhalte للحافلة.",
+      "example": "De bus vertrekt niet bij spoor twee, maar bij halte C.",
+      "translation": "لا تنطلق الحافلة من الرصيف الثاني بل من الموقف C."
+    },
+    "phrases": [
+      {
+        "id": "a2-understanding-travel-announcements-01",
+        "dutch": "Ik hoorde iets over een bus. Rijdt de trein niet?",
+        "arabic": "سمعت شيئاً عن حافلة. ألن يسير القطار؟",
+        "tip": "اطلب توضيح الإعلان الذي لم تفهمه كاملاً."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-02",
+        "dutch": "Deze trein rijdt vandaag niet door werkzaamheden.",
+        "arabic": "هذا القطار لا يسير اليوم بسبب أعمال الصيانة.",
+        "tip": "الخبر يخص هذا القطار في الموقف الخيالي."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-03",
+        "dutch": "Hoe kom ik dan in Westdam?",
+        "arabic": "كيف أصل إذن إلى فستدام؟",
+        "tip": "Westdam وجهة خيالية للتدريب."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-04",
+        "dutch": "Er rijdt een bus in plaats van de trein.",
+        "arabic": "تسير حافلة بدلاً من القطار.",
+        "tip": "الاستبدال يغير وسيلة الرحلة."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-05",
+        "dutch": "Waar vertrekt die? Ook bij spoor twee?",
+        "arabic": "من أين تنطلق؟ هل من الرصيف الثاني أيضاً؟",
+        "tip": "السؤال يتحقق من مكان الصعود."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-06",
+        "dutch": "Nee, bij halte C aan de voorkant van het station.",
+        "arabic": "لا، من الموقف C أمام المحطة.",
+        "tip": "halte ليست spoor، والموضع أمام المبنى."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-07",
+        "dutch": "Moet ik daarvoor een nieuw kaartje kopen?",
+        "arabic": "هل عليّ شراء تذكرة جديدة لذلك؟",
+        "tip": "سؤال عن شرط لم يُفترض تلقائياً."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-08",
+        "dutch": "Voor deze vervangende bus is je treinkaartje geldig.",
+        "arabic": "تذكرتك للقطار صالحة لهذه الحافلة البديلة.",
+        "tip": "جواب لهذا المثال فقط، لا قاعدة لكل خدمات النقل."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-understanding-travel-announcements-01"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-understanding-travel-announcements-02"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-understanding-travel-announcements-03"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-understanding-travel-announcements-04"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-understanding-travel-announcements-05"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-understanding-travel-announcements-06"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-understanding-travel-announcements-07"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-understanding-travel-announcements-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-understanding-travel-announcements-q1",
+        "prompt": "لماذا لا يسير القطار في هذا المثال؟",
+        "options": [
+          "بسبب أعمال صيانة",
+          "لأن وجهته تغيرت إلى مدرسة",
+          "لأن كل التذاكر انتهت"
+        ],
+        "correctIndex": 0,
+        "explanation": "door werkzaamheden يعطي السبب."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-q2",
+        "prompt": "ما وسيلة الرحلة البديلة؟",
+        "options": [
+          "سفينة",
+          "حافلة",
+          "قطار آخر من الرصيف نفسه"
+        ],
+        "correctIndex": 1,
+        "explanation": "in plaats van de trein تعني الحافلة بدلاً منه."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-q3",
+        "prompt": "أين الصعود إلى البديل؟",
+        "options": [
+          "عند الرصيف الثاني",
+          "خلف المحطة عند الموقف B",
+          "عند الموقف C أمام المحطة"
+        ],
+        "correctIndex": 2,
+        "explanation": "الجواب يصحح spoor twee إلى halte C aan de voorkant."
+      },
+      {
+        "id": "a2-understanding-travel-announcements-q4",
+        "prompt": "ماذا نعرف عن التذكرة في هذا المثال؟",
+        "options": [
+          "تذكرة القطار صالحة لهذه الحافلة البديلة",
+          "كل حافلات البلد تقبلها دائماً",
+          "يجب شراء تذكرة ثانية حتماً"
+        ],
+        "correctIndex": 0,
+        "explanation": "Voor deze ... يحدد نطاق الجواب بهذه الرحلة."
+      }
+    ]
   },
   {
     "slug": "a2-sharing-a-social-experience",
     "moduleId": "a2-social-experiences",
     "level": "A2",
-    "number": "36",
+    "number": "43",
     "title": "احكِ عن تجربة اجتماعية",
     "dutchTitle": "Vertellen over een sociale ervaring",
     "description": "احكِ باختصار أين ذهبت، مع من، وماذا فعلت وكيف كانت التجربة.",
@@ -5331,7 +6367,7 @@
     "slug": "a2-asking-follow-up-questions",
     "moduleId": "a2-social-experiences",
     "level": "A2",
-    "number": "37",
+    "number": "44",
     "title": "اسأل أسئلة متابعة",
     "dutchTitle": "Vervolgvragen stellen",
     "description": "اسأل عن تفاصيل تجربة بدلاً من الاكتفاء بسؤال واحد عام.",
@@ -5479,7 +6515,7 @@
     "slug": "a2-responding-to-an-invitation",
     "moduleId": "a2-social-experiences",
     "level": "A2",
-    "number": "38",
+    "number": "45",
     "title": "ردّ على دعوة",
     "dutchTitle": "Reageren op een uitnodiging",
     "description": "اقبل أو اعتذر بوضوح، وأعط سبباً واقترح بديلاً عند الحاجة.",
@@ -5627,7 +6663,7 @@
     "slug": "a2-confirming-a-social-plan",
     "moduleId": "a2-social-experiences",
     "level": "A2",
-    "number": "39",
+    "number": "46",
     "title": "أكد الخطة الاجتماعية",
     "dutchTitle": "Een sociale afspraak bevestigen",
     "description": "اجمع اليوم والوقت والمكان وما يجب إحضاره بعد أن يتفق الطرفان.",
@@ -5917,6 +6953,154 @@
       }
     ],
     "moduleId": "a2-social-experiences",
-    "number": "40"
+    "number": "47"
+  },
+  {
+    "slug": "a2-disagreeing-politely",
+    "moduleId": "a2-social-experiences",
+    "level": "A2",
+    "number": "48",
+    "title": "الاختلاف بأدب وإيجاد حل مشترك",
+    "dutchTitle": "Vriendelijk van mening verschillen",
+    "description": "أعبّر عن رأي مختلف بسبب بسيط، وأسأل عن حاجة الآخر وأقترح حلاً يناسب الطرفين.",
+    "context": "تختار مع صديق نشاطاً خيالياً هادئاً بدلاً من مقهى مزدحم.",
+    "goal": "أعبّر عن رأي مختلف بسبب بسيط، وأسأل عن حاجة الآخر وأقترح حلاً يناسب الطرفين.",
+    "durationMinutes": 15,
+    "grammar": {
+      "title": "liever وmaar مع رأي مختلف",
+      "explanation": "liever تعبر عن تفضيل نسبي. افصل الرأي عن الحكم على الشخص، واذكر سببك. Ik begrijp je, maar ... يعترف بكلام الآخر دون أن يعني الموافقة عليه.",
+      "example": "Ik ga liever naar een rustige plek, omdat ik moe ben.",
+      "translation": "أفضل الذهاب إلى مكان هادئ لأنني متعب."
+    },
+    "phrases": [
+      {
+        "id": "a2-disagreeing-politely-01",
+        "dutch": "Zullen we naar het grote café gaan?",
+        "arabic": "هل نذهب إلى المقهى الكبير؟",
+        "tip": "اقتراح افتتاحي لا اتفاق نهائي."
+      },
+      {
+        "id": "a2-disagreeing-politely-02",
+        "dutch": "Ik ga liever ergens heen waar het rustig is.",
+        "arabic": "أفضل الذهاب إلى مكان هادئ.",
+        "tip": "تفضيل مخالف دون رفض الصديق."
+      },
+      {
+        "id": "a2-disagreeing-politely-03",
+        "dutch": "Waarom? Het café is toch gezellig?",
+        "arabic": "لماذا؟ أليس المقهى لطيفاً؟",
+        "tip": "طلب سبب بدل افتراض النية."
+      },
+      {
+        "id": "a2-disagreeing-politely-04",
+        "dutch": "Dat begrijp ik, maar ik ben moe en wil rustig praten.",
+        "arabic": "أفهم ذلك، لكنني متعب وأريد الحديث بهدوء.",
+        "tip": "تفهم رأي الآخر مع سبب الاختلاف."
+      },
+      {
+        "id": "a2-disagreeing-politely-05",
+        "dutch": "Wat vind je dan van het kleine park?",
+        "arabic": "وما رأيك إذن في الحديقة الصغيرة؟",
+        "tip": "سؤال عن بديل جديد."
+      },
+      {
+        "id": "a2-disagreeing-politely-06",
+        "dutch": "Dat lijkt me fijn, als we ergens kunnen zitten.",
+        "arabic": "يبدو ذلك لطيفاً لي إذا استطعنا الجلوس في مكان ما.",
+        "tip": "قبول مشروط بحاجة واضحة."
+      },
+      {
+        "id": "a2-disagreeing-politely-07",
+        "dutch": "Er staan bankjes bij de ingang.",
+        "arabic": "توجد مقاعد قرب المدخل.",
+        "tip": "معلومة تجيب عن شرط الجلوس."
+      },
+      {
+        "id": "a2-disagreeing-politely-08",
+        "dutch": "Dan lijkt het park me een goed idee.",
+        "arabic": "إذن تبدو الحديقة لي فكرة جيدة.",
+        "tip": "يتوصل إلى رأي مشترك بعد معرفة المعلومة."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-disagreeing-politely-01"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-disagreeing-politely-02"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-disagreeing-politely-03"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-disagreeing-politely-04"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-disagreeing-politely-05"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-disagreeing-politely-06"
+      },
+      {
+        "speaker": "المتعلّم",
+        "phraseId": "a2-disagreeing-politely-07"
+      },
+      {
+        "speaker": "الطرف الآخر",
+        "phraseId": "a2-disagreeing-politely-08"
+      }
+    ],
+    "questions": [
+      {
+        "id": "a2-disagreeing-politely-q1",
+        "prompt": "لماذا لا يفضّل الطرف الآخر المقهى؟",
+        "options": [
+          "لأنه لا يريد لقاء صديقه أبداً",
+          "لأنه متعب ويريد الحديث بهدوء",
+          "لأنه يملك الحديقة"
+        ],
+        "correctIndex": 1,
+        "explanation": "السبب المحدد moe وrustig praten، وليس رفض الشخص."
+      },
+      {
+        "id": "a2-disagreeing-politely-q2",
+        "prompt": "هل Dat begrijp ik تعني أنه وافق على المقهى؟",
+        "options": [
+          "نعم؛ تأكد اختيار المقهى",
+          "تعني أنه لم يسمع شيئاً",
+          "لا؛ يفهم الرأي لكنه يفضّل غيره"
+        ],
+        "correctIndex": 2,
+        "explanation": "maar بعد العبارة يقدّم رأياً مختلفاً."
+      },
+      {
+        "id": "a2-disagreeing-politely-q3",
+        "prompt": "ما شرط قبول الحديقة؟",
+        "options": [
+          "توفر مكان للجلوس",
+          "شراء قهوة للجميع",
+          "إغلاق المدخل"
+        ],
+        "correctIndex": 0,
+        "explanation": "als we ergens kunnen zitten شرط واضح."
+      },
+      {
+        "id": "a2-disagreeing-politely-q4",
+        "prompt": "ما المعلومة التي تساعدهما على الاتفاق؟",
+        "options": [
+          "أن المقهى أكبر",
+          "وجود مقاعد قرب المدخل",
+          "أن موعداً سابقاً أُلغي"
+        ],
+        "correctIndex": 1,
+        "explanation": "تجيب bankjes عن الحاجة إلى الجلوس."
+      }
+    ]
   }
 ]

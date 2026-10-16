@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { getQuestionReviewLessons } from "@/lib/practice-review";
 import Link from "next/link";
 import { ReadingQuiz } from "@/components/ReadingQuiz";
@@ -8,13 +9,14 @@ import { getCurriculum } from "@/lib/curriculum";
 import { levelHref, practiceHref, curriculumHref, type CourseLevel } from "@/lib/levels";
 import type { PracticePack } from "@/lib/a1-practice";
 
-export function IntegratedPractice({ pack, nextPack, level }: { pack: PracticePack; nextPack?: PracticePack; level: CourseLevel }) {
+export function IntegratedPractice({ pack, nextPack, level, preparation }: { pack: PracticePack; nextPack?: PracticePack; level: CourseLevel; preparation?: ReactNode }) {
   const { slug } = pack;
   const curriculum = getCurriculum(level);
   const base = practiceHref(level);
   return <div className="shell inner-page practice-page">
     <div className="breadcrumb"><Link href={base}>مراجعات {level}</Link><span> / {pack.title}</span></div>
     <div className="page-heading"><span className="eyebrow">تدريب مجاني · استخدم بيانات خيالية</span><h1>{pack.title}</h1><p>ابدأ دون النماذج، ثم راجع الفهم والتعبير. لا تُحفظ إجاباتك ولا تتغير علامة إنجاز الدروس.</p></div>
+    {preparation}
     <nav className="curriculum-index" aria-label="مهارات المراجعة"><a href="#read">القراءة</a><a href="#listen">الاستماع</a><a href="#write">الكتابة</a><a href="#speak">التحدث</a></nav>
     <section id="read"><h2>١. اقرأ معلومات جديدة</h2><div className="panel"><p className="practice-source" lang="nl" dir="ltr">{pack.reading.text}</p>
       {pack.reading.table && <div className="practice-table"><table lang="nl" dir="ltr"><caption>{pack.reading.table.caption}</caption><thead><tr>{pack.reading.table.headers.map((head) => <th scope="col" key={head}>{head}</th>)}</tr></thead><tbody>{pack.reading.table.rows.map((row) => <tr key={row[0]}>{row.map((cell, index) => index === 0 ? <th scope="row" key={index}>{cell}</th> : <td key={index}>{cell}</td>)}</tr>)}</tbody></table></div>}

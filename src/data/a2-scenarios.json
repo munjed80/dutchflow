@@ -2286,5 +2286,1029 @@
         "هل طلبت الرد دون افتراض تأكيد الموعد؟"
       ]
     }
+  },
+  {
+    "slug": "a2-a-first-conversation-with-a-classmate",
+    "unitId": "a2-recent-activities",
+    "title": "أول حديث مع زميل تعلّم",
+    "dutchTitle": "Een eerste gesprek met een cursist",
+    "role": "أنت روب في هذا الحوار الخيالي: تسكن في هورن منذ فبراير، وكنت تسكن في لايدن حيث درست. يعجبك الحي لكنك لا تعرف الجيران جيداً بعد.",
+    "partner": "زميلتك نور",
+    "mission": "أجب عن البداية والمكان السابق والدراسة، ثم أعط انطباعاً واسأل نور عن تجربتها.",
+    "sourceLessons": [
+      "a2-asking-about-someones-background",
+      "a2-yesterday-and-today"
+    ],
+    "turns": [
+      {
+        "id": "a2-a-first-conversation-with-a-classmate-turn-1",
+        "goal": "اذكر بداية سكنك الحالي.",
+        "prompt": "Woon je al lang in Hoorn?",
+        "translation": "هل تسكن في هورن منذ مدة طويلة؟",
+        "choices": [
+          {
+            "text": "Ik woon hier sinds februari.",
+            "translation": "أسكن هنا منذ فبراير.",
+            "feedback": "sinds februari يصف سكناً مستمراً منذ البداية المذكورة."
+          },
+          {
+            "text": "Ik woon hier pas volgende maand.",
+            "translation": "لن أسكن هنا إلا الشهر القادم.",
+            "feedback": "هذا يجعل السكن مستقبلياً خلاف بطاقة دورك."
+          },
+          {
+            "text": "Ik woon nu in Leiden.",
+            "translation": "أسكن الآن في لايدن.",
+            "feedback": "لايدن مكانك السابق لا الحالي."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Waar woonde je daarvoor?",
+        "responseTranslation": "أين كنت تسكن قبل ذلك؟"
+      },
+      {
+        "id": "a2-a-first-conversation-with-a-classmate-turn-2",
+        "goal": "حدد المكان السابق لا الحالي.",
+        "prompt": "Waar woonde je daarvoor?",
+        "translation": "أين كنت تسكن قبل ذلك؟",
+        "choices": [
+          {
+            "text": "Ik woon sinds februari in Hoorn.",
+            "translation": "أسكن في هورن منذ فبراير.",
+            "feedback": "هذه المعلومة الحالية لا تجيب عن المكان السابق."
+          },
+          {
+            "text": "Ik woonde in Leiden.",
+            "translation": "كنت أسكن في لايدن.",
+            "feedback": "woonde يربط لايدن بالماضي كما في الدور."
+          },
+          {
+            "text": "Ik ga morgen naar Leiden.",
+            "translation": "سأذهب غداً إلى لايدن.",
+            "feedback": "هذه خطة للغد لا وصف السكن السابق."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "En wat deed je daar?",
+        "responseTranslation": "وماذا كنت تفعل هناك؟"
+      },
+      {
+        "id": "a2-a-first-conversation-with-a-classmate-turn-3",
+        "goal": "اذكر الدراسة في لايدن.",
+        "prompt": "Wat deed je in Leiden?",
+        "translation": "ماذا كنت تفعل في لايدن؟",
+        "choices": [
+          {
+            "text": "Ik ga daar morgen winkelen.",
+            "translation": "سأتسوق هناك غداً.",
+            "feedback": "لا يجيب عن الفترة السابقة."
+          },
+          {
+            "text": "Ik ken mijn buren nog niet goed.",
+            "translation": "لا أعرف جيراني جيداً بعد.",
+            "feedback": "هذه معلومة حالية لا النشاط السابق."
+          },
+          {
+            "text": "Daar ging ik naar school.",
+            "translation": "كنت أذهب إلى المدرسة هناك.",
+            "feedback": "الدراسة مرتبطة بمكانك السابق في بطاقة الدور."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Hoe bevalt de buurt je nu?",
+        "responseTranslation": "كيف تجد الحي الآن؟"
+      },
+      {
+        "id": "a2-a-first-conversation-with-a-classmate-turn-4",
+        "goal": "أعط انطباعك الحالي واسأل الطرف الآخر.",
+        "prompt": "Hoe bevalt de buurt je nu?",
+        "translation": "كيف تجد الحي الآن؟",
+        "choices": [
+          {
+            "text": "Goed, maar ik ken de buren nog niet goed. En hoe bevalt het jou hier?",
+            "translation": "جيد، لكنني لا أعرف الجيران جيداً بعد. وكيف تجدين المكان هنا؟",
+            "feedback": "الرد يحفظ الانطباع الإيجابي وحدود المعرفة ويبادل السؤال."
+          },
+          {
+            "text": "Slecht. Ik wil niemand leren kennen.",
+            "translation": "سيئ. لا أريد التعرف إلى أحد.",
+            "feedback": "يخالف الدور ويحوّل قلة المعرفة إلى رفض."
+          },
+          {
+            "text": "Ik woonde in Leiden.",
+            "translation": "كنت أسكن في لايدن.",
+            "feedback": "يعيد معلومة سابقة ولا يجيب عن الانطباع."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ik woon hier graag. Misschien kunnen we eens samen wandelen.",
+        "responseTranslation": "أحب السكن هنا. ربما نستطيع المشي معاً يوماً ما."
+      }
+    ],
+    "transfer": {
+      "prompt": "غيّر الدور: أنت سارا، تسكنين في ألميريه منذ سبتمبر، وكنت تعملين في متجر في بريدا. احكي ذلك واسألي زميلتك عن مكان سكنها السابق.",
+      "model": "Ik woon sinds september in Almere. Daarvoor woonde ik in Breda en werkte ik in een winkel. Waar woonde jij vroeger?",
+      "translation": "أسكن في ألميريه منذ سبتمبر. كنت قبل ذلك أسكن في بريدا وأعمل في متجر. أين كنت تسكنين سابقاً؟",
+      "checklist": [
+        "هل استخدمت التفاصيل الجديدة؟",
+        "هل ميّزت البداية المستمرة عن الوضع السابق وسألت سؤال متابعة؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-discussing-a-specific-work-problem",
+    "unitId": "a2-work-coordination",
+    "title": "مناقشة مشكلة محددة في العمل",
+    "dutchTitle": "Een concreet werkprobleem bespreken",
+    "role": "أنت تراجع قائمة خيالية: العناوين صحيحة لكن رقمي الطلبين 12 و18 ناقصان. تقترح الفحص معاً وتعرض قراءة القائمة. لا تعمّم الخطأ على كل العمل.",
+    "partner": "زميلك باس",
+    "mission": "قدم ملاحظة دقيقة، وحدد النقص واقترح طريقة للفحص وتوزيعاً يحتاج قبولاً.",
+    "sourceLessons": [
+      "a2-giving-feedback-at-work",
+      "a2-reporting-task-progress"
+    ],
+    "turns": [
+      {
+        "id": "a2-discussing-a-specific-work-problem-turn-1",
+        "goal": "اذكر الإيجابي والمشكلة المحددة.",
+        "prompt": "Wat vond je van mijn lijst?",
+        "translation": "ما رأيك في قائمتي؟",
+        "choices": [
+          {
+            "text": "Alles was fout.",
+            "translation": "كل شيء كان خطأ.",
+            "feedback": "هذا تعميم يخالف صحة العناوين."
+          },
+          {
+            "text": "De adressen waren goed, maar twee bestelnummers ontbraken.",
+            "translation": "كانت العناوين صحيحة لكن رقمي طلبين كانا ناقصين.",
+            "feedback": "الرد يذكر الجيد والنقص المحدد دون اتهام."
+          },
+          {
+            "text": "Alle bestelnummers stonden erop.",
+            "translation": "كل أرقام الطلبات كانت فيها.",
+            "feedback": "هذا ينكر المشكلة المذكورة في الدور."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Welke bestellingen bedoel je?",
+        "responseTranslation": "أي طلبين تقصد؟"
+      },
+      {
+        "id": "a2-discussing-a-specific-work-problem-turn-2",
+        "goal": "حدد رقمي الطلبين.",
+        "prompt": "Welke bestellingen bedoel je?",
+        "translation": "أي طلبين تقصد؟",
+        "choices": [
+          {
+            "text": "Alle twaalf bestellingen.",
+            "translation": "الطلبات الاثنا عشر كلها.",
+            "feedback": "12 رقم طلب هنا لا عدد الطلبات الخاطئة."
+          },
+          {
+            "text": "Bestelling achttien en negentien.",
+            "translation": "الطلب الثامن عشر والتاسع عشر.",
+            "feedback": "19 غير مذكور في المشكلة."
+          },
+          {
+            "text": "Bestelling twaalf en bestelling achttien.",
+            "translation": "الطلب الثاني عشر والطلب الثامن عشر.",
+            "feedback": "الرقمان يطابقان الدور، لا عدداً كلياً للشحنة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Hoe kunnen we dat de volgende keer controleren?",
+        "responseTranslation": "كيف يمكننا التحقق من ذلك في المرة القادمة؟"
+      },
+      {
+        "id": "a2-discussing-a-specific-work-problem-turn-3",
+        "goal": "اقترح فحصاً عملياً.",
+        "prompt": "Hoe kunnen we dat de volgende keer controleren?",
+        "translation": "كيف يمكننا التحقق من ذلك في المرة القادمة؟",
+        "choices": [
+          {
+            "text": "We kunnen de nummers samen met de lijst vergelijken.",
+            "translation": "يمكننا مقارنة الأرقام بالقائمة معاً.",
+            "feedback": "المقارنة تعالج نقص الأرقام مباشرة."
+          },
+          {
+            "text": "We hoeven geen nummers meer te gebruiken.",
+            "translation": "لا نحتاج استخدام أرقام بعد الآن.",
+            "feedback": "يلغي بيانات العمل بدلاً من التحقق منها."
+          },
+          {
+            "text": "We kunnen zeggen dat alles goed was.",
+            "translation": "يمكننا القول إن كل شيء كان صحيحاً.",
+            "feedback": "يخفي المشكلة ولا يصلحها."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Goed. Wie leest de lijst voor?",
+        "responseTranslation": "جيد. من يقرأ القائمة بصوت مسموع؟"
+      },
+      {
+        "id": "a2-discussing-a-specific-work-problem-turn-4",
+        "goal": "اعرض دورك واقترح دور الزميل دون افتراض موافقته.",
+        "prompt": "Wie leest de lijst voor?",
+        "translation": "من يقرأ القائمة بصوت مسموع؟",
+        "choices": [
+          {
+            "text": "Jij hebt al gezegd dat je alles alleen doet.",
+            "translation": "قلتَ مسبقاً إنك ستفعل كل شيء وحدك.",
+            "feedback": "الزميل لم يقل ذلك."
+          },
+          {
+            "text": "Ik wil wel voorlezen. Wil jij dan de dozen controleren?",
+            "translation": "أستطيع القراءة. هل تفحص الصناديق عندئذ؟",
+            "feedback": "هذا عرض وسؤال توزيع، لا ادعاء قبول مسبق."
+          },
+          {
+            "text": "Niemand hoeft de lijst te lezen.",
+            "translation": "لا يحتاج أحد لقراءة القائمة.",
+            "feedback": "يناقض طريقة الفحص التي وافقتما عليها."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ja, ik controleer de dozen terwijl jij voorleest.",
+        "responseTranslation": "نعم، أفحص الصناديق بينما تقرأ القائمة."
+      }
+    ],
+    "transfer": {
+      "prompt": "انقل المشكلة الجديدة: التاريخان في الاستمارة غير صحيحين، لكن الأسماء صحيحة. اقترح مراجعة التاريخين مع زميل واسأله إن كان يستطيع المساعدة.",
+      "model": "De namen zijn goed, maar twee datums kloppen niet. Kunnen we die samen controleren? Heb je tijd om te helpen?",
+      "translation": "الأسماء صحيحة لكن تاريخين غير صحيحين. هل نفحصهما معاً؟ هل لديك وقت للمساعدة؟",
+      "checklist": [
+        "هل حددت نطاق المشكلة دون تعميم؟",
+        "هل طلبت المساعدة دون افتراض التزام الزميل؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-asking-about-a-shared-space",
+    "unitId": "a2-housing-services",
+    "title": "الاستفسار عن مكان مشترك",
+    "dutchTitle": "Vragen over een gedeelde ruimte",
+    "role": "أنت ساكن جديد في مثال خيالي: تريد الجلوس مع جارَين في غرفة مشتركة، ومعرفة موعد منع الموسيقى والحاجة إلى الأكواب. اسأل ولا تفترض أن قواعد مكان آخر تنطبق هنا.",
+    "partner": "مشرفة المبنى",
+    "mission": "استوضح القاعدة، وافصل عدم الحاجة إلى الأكواب عن عدم الحاجة إلى التنظيف.",
+    "sourceLessons": [
+      "a2-explaining-shared-house-rules",
+      "a2-reporting-a-recurring-problem"
+    ],
+    "turns": [
+      {
+        "id": "a2-asking-about-a-shared-space-turn-1",
+        "goal": "اسأل عن الحجز لثلاثة أشخاص.",
+        "prompt": "Wat wilt u weten over de kamer?",
+        "translation": "ما الذي تريد معرفته عن الغرفة؟",
+        "choices": [
+          {
+            "text": "Iedereen mag altijd zonder reservering komen.",
+            "translation": "يمكن للجميع الحضور دائماً دون حجز.",
+            "feedback": "قاعدة غير معروفة لا يصح تأكيدها."
+          },
+          {
+            "text": "Wij hebben al voor twintig personen gereserveerd.",
+            "translation": "حجزنا مسبقاً لعشرين شخصاً.",
+            "feedback": "ليس العدد ولا حالة الحجز في الدور."
+          },
+          {
+            "text": "Moet ik reserveren als ik met twee buren kom?",
+            "translation": "هل عليّ الحجز إذا جئت مع جارَين؟",
+            "feedback": "السؤال يوضح عدد المجموعة بدلاً من افتراض القاعدة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Voor drie personen hoeft u hier niet te reserveren.",
+        "responseTranslation": "لثلاثة أشخاص لا تحتاج للحجز هنا."
+      },
+      {
+        "id": "a2-asking-about-a-shared-space-turn-2",
+        "goal": "استوضح الموسيقى بدلاً من تعميم منع الحديث.",
+        "prompt": "Voor drie personen hoeft u niet te reserveren. Heeft u nog een vraag?",
+        "translation": "لا تحتاج للحجز لثلاثة أشخاص. هل لديك سؤال آخر؟",
+        "choices": [
+          {
+            "text": "Tot hoe laat mag er muziek aan?",
+            "translation": "حتى أي ساعة يُسمح بتشغيل الموسيقى؟",
+            "feedback": "السؤال يطلب الحد الزمني للموسيقى تحديداً."
+          },
+          {
+            "text": "Dus niemand mag hier praten?",
+            "translation": "إذن لا يُسمح لأحد بالحديث هنا؟",
+            "feedback": "لا يوجد ما يربط عدم الحجز بمنع الحديث."
+          },
+          {
+            "text": "Dan is alle muziek de hele nacht toegestaan.",
+            "translation": "إذن كل الموسيقى مسموحة طوال الليل.",
+            "feedback": "هذا إذن مخترع."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Tot acht uur. Daarna mag u nog wel rustig praten.",
+        "responseTranslation": "حتى الثامنة. يمكنكم الحديث بهدوء بعد ذلك."
+      },
+      {
+        "id": "a2-asking-about-a-shared-space-turn-3",
+        "goal": "اسأل عن الأكواب المطلوبة.",
+        "prompt": "Wat wilt u meenemen?",
+        "translation": "ماذا تريد أن تحضر؟",
+        "choices": [
+          {
+            "text": "We nemen de kast mee naar huis.",
+            "translation": "نأخذ الخزانة معنا إلى المنزل.",
+            "feedback": "هذا لا يطلب متطلبات الاستخدام."
+          },
+          {
+            "text": "Moeten we zelf kopjes meenemen?",
+            "translation": "هل علينا إحضار أكوابنا؟",
+            "feedback": "سؤال محدد عن الأدوات، لا افتراض للمجانية."
+          },
+          {
+            "text": "We mogen hier zeker niet drinken.",
+            "translation": "بالتأكيد لا يسمح لنا بالشرب هنا.",
+            "feedback": "لم يرد منع الشرب."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Nee, er staan kopjes in de kast. Was ze na gebruik af.",
+        "responseTranslation": "لا، توجد أكواب في الخزانة. اغسلوها بعد الاستخدام."
+      },
+      {
+        "id": "a2-asking-about-a-shared-space-turn-4",
+        "goal": "لخّص عدم الحاجة مع بقاء الواجب.",
+        "prompt": "Zijn de afspraken zo duidelijk?",
+        "translation": "هل الترتيبات واضحة هكذا؟",
+        "choices": [
+          {
+            "text": "We hoeven dus niets op te ruimen.",
+            "translation": "إذن لا نحتاج لترتيب أي شيء.",
+            "feedback": "يلغي واجب الغسل الذي ذُكر."
+          },
+          {
+            "text": "We moeten toch eigen kopjes meenemen.",
+            "translation": "علينا رغم ذلك إحضار أكوابنا.",
+            "feedback": "يناقض الجواب عن توفر الأكواب."
+          },
+          {
+            "text": "Ja. We hoeven geen kopjes mee te nemen, maar we moeten ze na gebruik afwassen.",
+            "translation": "نعم. لا نحتاج إحضار أكواب لكن علينا غسلها بعد الاستخدام.",
+            "feedback": "يفصل بين الأدوات المتاحة وواجب تنظيفها."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Precies. Laat de ruimte na uw bezoek netjes achter.",
+        "responseTranslation": "بالضبط. اتركوا المكان مرتباً بعد الزيارة."
+      }
+    ],
+    "transfer": {
+      "prompt": "اشرح قواعد مكان خيالي جديد: يجب حجز طاولة للمجموعة، ولا يسمح بالموسيقى بعد السابعة، والكراسي متاحة فلا حاجة لإحضارها.",
+      "model": "Voor de groep moet je een tafel reserveren. Na zeven uur mag er geen muziek aan. Je hoeft geen stoelen mee te nemen; die zijn aanwezig.",
+      "translation": "للمجموعة عليك حجز طاولة. لا يسمح بالموسيقى بعد السابعة. لا تحتاج إحضار كراسٍ فهي متاحة.",
+      "checklist": [
+        "هل حافظت على فرق moet وmag niet وhoeft niet؟",
+        "هل استخدمت تفاصيل المكان الجديد لا قواعد الحوار السابق؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-practising-a-call-about-a-complaint",
+    "unitId": "a2-appointments-followup",
+    "title": "مكالمة لغوية عن شكوى خيالية",
+    "dutchTitle": "Een oefengesprek over een klacht",
+    "role": "أنت ميرا في تدريب لغة: لديك ألم في الرسغ الأيسر منذ الخميس، ويصعب عليك الكتابة. لا تعرف السبب. في آخر الحوار لم تسمع كلمة verandert وتطلب شرحها.",
+    "partner": "شريك يؤدي دور موظف العيادة في تدريب لغوي",
+    "mission": "اذكر المكان والبداية والتأثير، واطلب إعادة الصياغة دون اختراع تشخيص.",
+    "sourceLessons": [
+      "a2-describing-symptoms-and-asking-for-help",
+      "a2-explaining-an-appointment-conflict"
+    ],
+    "turns": [
+      {
+        "id": "a2-practising-a-call-about-a-complaint-turn-1",
+        "goal": "حدد مكان الألم حسب الدور.",
+        "prompt": "Waar heeft u last van?",
+        "translation": "ممَّ تعانين؟",
+        "choices": [
+          {
+            "text": "Ik heb pijn in mijn linkerpols.",
+            "translation": "لدي ألم في رسغي الأيسر.",
+            "feedback": "linkerpols يطابق المكان والجهة في الدور."
+          },
+          {
+            "text": "Ik heb pijn in mijn rechterschouder.",
+            "translation": "لدي ألم في كتفي الأيمن.",
+            "feedback": "هذا مكان مختلف عن الرسغ الأيسر."
+          },
+          {
+            "text": "Ik weet zeker welke ziekte ik heb.",
+            "translation": "أعرف يقيناً أي مرض لدي.",
+            "feedback": "الدور لا يحدد تشخيصاً."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Sinds wanneer heeft u die pijn?",
+        "responseTranslation": "منذ متى لديك هذا الألم؟"
+      },
+      {
+        "id": "a2-practising-a-call-about-a-complaint-turn-2",
+        "goal": "حدد البداية دون اختراع عدد أيام.",
+        "prompt": "Sinds wanneer heeft u die pijn?",
+        "translation": "منذ متى لديك هذا الألم؟",
+        "choices": [
+          {
+            "text": "Elke donderdag volgend jaar.",
+            "translation": "كل خميس في العام القادم.",
+            "feedback": "هذه عادة مستقبلية لا بداية شكوى حالية."
+          },
+          {
+            "text": "Sinds donderdag.",
+            "translation": "منذ الخميس.",
+            "feedback": "يحدد بداية الشكوى كما في الدور دون افتراض يوم الاتصال."
+          },
+          {
+            "text": "Al precies zes maanden.",
+            "translation": "منذ ستة أشهر بالضبط.",
+            "feedback": "مدة غير موجودة في بطاقة الدور."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Wat gaat daardoor moeilijk?",
+        "responseTranslation": "ما الذي يصعب عليك بسبب ذلك؟"
+      },
+      {
+        "id": "a2-practising-a-call-about-a-complaint-turn-3",
+        "goal": "اذكر التأثير لا العلاج.",
+        "prompt": "Wat gaat daardoor moeilijk?",
+        "translation": "ما الذي يصعب عليك بسبب ذلك؟",
+        "choices": [
+          {
+            "text": "Ik moet zeker medicijnen nemen.",
+            "translation": "عليّ بالتأكيد تناول دواء.",
+            "feedback": "هذا افتراض علاج غير وارد ولا مطلوب."
+          },
+          {
+            "text": "Het doet nooit pijn.",
+            "translation": "لا يؤلمني أبداً.",
+            "feedback": "يناقض الشكوى ولا يصف أثرها."
+          },
+          {
+            "text": "Schrijven gaat moeilijk.",
+            "translation": "الكتابة صعبة.",
+            "feedback": "يصف أثر الشكوى المذكور دون اقتراح علاج."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Verandert de pijn als u schrijft?",
+        "responseTranslation": "هل يتغير الألم عندما تكتبين؟"
+      },
+      {
+        "id": "a2-practising-a-call-about-a-complaint-turn-4",
+        "goal": "اطلب إعادة الصياغة لأنك لم تفهم الكلمة.",
+        "prompt": "Verandert de pijn als u schrijft?",
+        "translation": "هل يتغير الألم عندما تكتبين؟",
+        "choices": [
+          {
+            "text": "Kunt u dat met andere woorden zeggen? Ik begrijp het woord verandert niet.",
+            "translation": "هل تقول ذلك بكلمات أخرى؟ لا أفهم كلمة يتغيّر.",
+            "feedback": "يطلب توضيح الكلمة غير المفهومة بدلاً من تخمين جواب."
+          },
+          {
+            "text": "Ja, natuurlijk, alles is altijd hetzelfde.",
+            "translation": "نعم، بالطبع، كل شيء ثابت دائماً.",
+            "feedback": "يجيب دون فهم، والدور لم يذكر نمط تغيّر الألم."
+          },
+          {
+            "text": "De afspraak is al bevestigd.",
+            "translation": "تأكد الموعد بالفعل.",
+            "feedback": "لا يوجد حجز في هذا التدريب."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ik bedoel: wordt de pijn anders als u schrijft?",
+        "responseTranslation": "أقصد: هل يصبح الألم مختلفاً عندما تكتبين؟"
+      }
+    ],
+    "transfer": {
+      "prompt": "غيّر الحالة الخيالية: ألم في الكاحل الأيمن منذ الاثنين وصعوبة صعود الدرج. اكتب الوصف واطلب إعادة السؤال ببطء، دون تشخيص أو علاج.",
+      "model": "Ik heb sinds maandag pijn in mijn rechterenkel. Traplopen gaat moeilijk. Kunt u de vraag langzaam herhalen?",
+      "translation": "لدي ألم في كاحلي الأيمن منذ الاثنين. استخدام الدرج صعب. هل تعيد السؤال ببطء؟",
+      "checklist": [
+        "هل ذكرت المكان والبداية والتأثير الجديد؟",
+        "هل طلبت المساعدة اللغوية دون إضافة معلومات طبية؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-checking-instructions-before-paying",
+    "unitId": "a2-shopping-choices",
+    "title": "التحقق من الخطوات قبل الدفع",
+    "dutchTitle": "Stappen controleren bij een oefenautomaat",
+    "role": "تستخدم آلة تذاكر تدريبية خيالية: تريد ثلاث تذاكر، لكن الشاشة تعرض اثنتين. تستطيع العودة بالسهم الأصفر، وتنتظر رسالة الجاهزية قبل سحب التذاكر من الفتحة السفلية.",
+    "partner": "مدرّس اللغة",
+    "mission": "صحح العدد قبل الدفع واسأل عن الانتظار ومكان استلام التذاكر.",
+    "sourceLessons": [
+      "a2-asking-how-a-product-works",
+      "a2-explaining-a-purchase-problem"
+    ],
+    "turns": [
+      {
+        "id": "a2-checking-instructions-before-paying-turn-1",
+        "goal": "اذكر التفاوت بين العددين.",
+        "prompt": "Klopt het aantal op het scherm?",
+        "translation": "هل عدد التذاكر على الشاشة صحيح؟",
+        "choices": [
+          {
+            "text": "Ja, ik wil twee kaartjes.",
+            "translation": "نعم، أريد تذكرتين.",
+            "feedback": "يخالف العدد المطلوب في الدور."
+          },
+          {
+            "text": "Nee, er staan twee kaartjes, maar ik wil er drie.",
+            "translation": "لا، تظهر تذكرتان لكنني أريد ثلاثاً.",
+            "feedback": "يحدد العدد المعروض والمطلوب بوضوح."
+          },
+          {
+            "text": "Ik heb al betaald voor vijf kaartjes.",
+            "translation": "دفعت مسبقاً لخمس تذاكر.",
+            "feedback": "الدفع لم يحدث والعدد مختلق."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ga met de gele pijl één stap terug.",
+        "responseTranslation": "ارجع خطوة واحدة بالسهم الأصفر."
+      },
+      {
+        "id": "a2-checking-instructions-before-paying-turn-2",
+        "goal": "أعد الخطوة الصحيحة قبل الدفع.",
+        "prompt": "Wat doet u nu eerst?",
+        "translation": "ماذا تفعل أولاً الآن؟",
+        "choices": [
+          {
+            "text": "Ik druk nog een keer op betalen.",
+            "translation": "أضغط الدفع مرة أخرى.",
+            "feedback": "الدور يطلب تصحيح العدد لا دفع العدد الخطأ."
+          },
+          {
+            "text": "Ik pak de kaartjes zonder te betalen.",
+            "translation": "آخذ التذاكر دون دفع.",
+            "feedback": "ليست الخطوة التالية المذكورة."
+          },
+          {
+            "text": "Ik ga één stap terug en kies drie kaartjes.",
+            "translation": "أرجع خطوة وأختار ثلاث تذاكر.",
+            "feedback": "ينفذ التصحيح قبل الدفع."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Goed. Controleer het aantal en betaal daarna.",
+        "responseTranslation": "جيد. تحقّق من العدد وادفع بعدها."
+      },
+      {
+        "id": "a2-checking-instructions-before-paying-turn-3",
+        "goal": "اسأل عن علامة الجاهزية.",
+        "prompt": "De betaling is klaar. Heeft u nog een vraag?",
+        "translation": "اكتمل الدفع. هل لديك سؤال آخر؟",
+        "choices": [
+          {
+            "text": "Moet ik op een bericht wachten voordat ik de kaartjes pak?",
+            "translation": "هل أنتظر رسالة قبل أخذ التذاكر؟",
+            "feedback": "يسأل عن شرط الاستلام الذي يذكره الدور."
+          },
+          {
+            "text": "Kan ik nu het aantal op nul zetten?",
+            "translation": "هل يمكنني الآن جعل العدد صفراً؟",
+            "feedback": "الشراء صحح ودفع، وليس هذا سؤال الاستلام."
+          },
+          {
+            "text": "Zijn de kaartjes voor gisteren?",
+            "translation": "هل التذاكر للأمس؟",
+            "feedback": "تاريخ غير مذكور ولا متعلق بعلامة الجاهزية."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ja. Pak ze pas als op het scherm staat dat ze klaar zijn.",
+        "responseTranslation": "نعم. لا تأخذها إلا عندما تقول الشاشة إنها جاهزة."
+      },
+      {
+        "id": "a2-checking-instructions-before-paying-turn-4",
+        "goal": "تحقق من فتحة التذاكر تحديداً.",
+        "prompt": "Wat wilt u nog weten?",
+        "translation": "ما الذي تريد معرفته أيضاً؟",
+        "choices": [
+          {
+            "text": "De kaartjes komen zeker uit de bovenste opening.",
+            "translation": "بالتأكيد تخرج من الفتحة العلوية.",
+            "feedback": "يخالف موضع التذاكر في الدور."
+          },
+          {
+            "text": "Komen de kaartjes uit de onderste opening?",
+            "translation": "هل تخرج التذاكر من الفتحة السفلية؟",
+            "feedback": "السؤال يحافظ على الفرق بين التذاكر والإيصال."
+          },
+          {
+            "text": "Ik hoef niet te wachten.",
+            "translation": "لا أحتاج للانتظار.",
+            "feedback": "يناقض شرط الجاهزية الذي جرى توضيحه."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ja, de bon komt uit de bovenste opening.",
+        "responseTranslation": "نعم، أما الإيصال فيخرج من الفتحة العلوية."
+      }
+    ],
+    "transfer": {
+      "prompt": "اشرح لشخص آخر آلة تدريبية مختلفة: يختار اللغة ثم تذكرتين، ويتحقق من العدد قبل الدفع، وينتظر رسالة خذ التذاكر. لا تنقل لون سهم لم يُذكر.",
+      "model": "Kies eerst de taal en daarna twee kaartjes. Controleer het aantal voordat je betaalt. Wacht daarna op het bericht dat je de kaartjes kunt pakken.",
+      "translation": "اختر اللغة أولاً ثم تذكرتين. تحقّق من العدد قبل الدفع. انتظر بعدها الرسالة التي تقول إنك تستطيع أخذ التذاكر.",
+      "checklist": [
+        "هل حافظت على ترتيب الخطوات؟",
+        "هل حذفت التفاصيل التي لا تخص الآلة الجديدة؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-asking-about-a-beginner-workshop",
+    "unitId": "a2-school-local-messages",
+    "title": "الاستفسار عن ورشة للمبتدئين",
+    "dutchTitle": "Vragen over een beginnersworkshop",
+    "role": "تبحث عن ورشة تصوير خيالية للمبتدئين. لديك هاتف ولا تملك كاميرا. تريد معرفة المحتوى والأدوات وكيف تسجل للقاء التعريفي. لم تتقدم بطلب بعد.",
+    "partner": "موظفة مركز الحي",
+    "mission": "اسأل عن ملاءمة الهاتف والمحتوى، وافصل التسجيل عن مجرد الاستفسار.",
+    "sourceLessons": [
+      "a2-asking-about-a-course",
+      "a2-understanding-school-instructions"
+    ],
+    "turns": [
+      {
+        "id": "a2-asking-about-a-beginner-workshop-turn-1",
+        "goal": "صف مستواك واسأل عن الجهاز.",
+        "prompt": "Wat voor cursus zoekt u?",
+        "translation": "ما نوع الدورة التي تبحث عنها؟",
+        "choices": [
+          {
+            "text": "Ik ben een ervaren fotograaf met drie camera’s.",
+            "translation": "أنا مصور خبير ولدي ثلاث كاميرات.",
+            "feedback": "يخالف بطاقة الدور."
+          },
+          {
+            "text": "Ik ben al ingeschreven voor alle cursussen.",
+            "translation": "أنا مسجل مسبقاً في كل الدورات.",
+            "feedback": "لا يوجد تسجيل سابق."
+          },
+          {
+            "text": "Ik zoek een fotografiecursus voor beginners. Is een telefoon genoeg?",
+            "translation": "أبحث عن دورة تصوير للمبتدئين. هل الهاتف كافٍ؟",
+            "feedback": "يذكر المستوى ويسأل عن كفاية الجهاز بدلاً من افتراضها."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Ja, deze workshop is voor foto's met uw telefoon.",
+        "responseTranslation": "نعم، هذه الورشة للتصوير بهاتفك."
+      },
+      {
+        "id": "a2-asking-about-a-beginner-workshop-turn-2",
+        "goal": "اسأل عن المحتوى قبل اتخاذ قرار.",
+        "prompt": "Wilt u iets weten over de lessen?",
+        "translation": "هل تريد معرفة شيء عن الدروس؟",
+        "choices": [
+          {
+            "text": "Wat leren we tijdens de workshop?",
+            "translation": "ماذا نتعلم أثناء الورشة؟",
+            "feedback": "السؤال يطلب المحتوى، لا يفترض مهارات لم تذكر."
+          },
+          {
+            "text": "Dus we leren computers repareren?",
+            "translation": "إذن نتعلم إصلاح الحواسيب؟",
+            "feedback": "استنتاج غير وارد عن التصوير."
+          },
+          {
+            "text": "Ik neem aan dat er geen uitleg is.",
+            "translation": "أفترض أنه لا يوجد شرح.",
+            "feedback": "يستبدل السؤال بافتراض غير مبرر."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "U oefent met licht en met foto's bewaren in mappen.",
+        "responseTranslation": "تتدربون على الضوء وحفظ الصور في مجلدات."
+      },
+      {
+        "id": "a2-asking-about-a-beginner-workshop-turn-3",
+        "goal": "تحقق من الأدوات اللازمة.",
+        "prompt": "Heeft u zelf een telefoon?",
+        "translation": "هل لديك هاتف؟",
+        "choices": [
+          {
+            "text": "Nee, ik heb alleen een camera.",
+            "translation": "لا، لدي كاميرا فقط.",
+            "feedback": "يخالف دور الهاتف دون كاميرا."
+          },
+          {
+            "text": "Ja. Moet ik verder nog iets meenemen?",
+            "translation": "نعم. هل عليّ إحضار شيء آخر أيضاً؟",
+            "feedback": "يحفظ ما لديك ويسأل عن بقية المتطلبات."
+          },
+          {
+            "text": "Ik hoef vast niets te controleren.",
+            "translation": "بالتأكيد لا أحتاج للتحقق من شيء.",
+            "feedback": "يفترض المتطلبات بدلاً من سؤالها."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Alleen uw telefoon. Vooraf is er een informatieavond.",
+        "responseTranslation": "هاتفك فقط. توجد أمسية تعريفية قبل ذلك."
+      },
+      {
+        "id": "a2-asking-about-a-beginner-workshop-turn-4",
+        "goal": "اطلب طريقة التسجيل للأمسية دون ادعاء اكتماله.",
+        "prompt": "Wilt u naar de informatieavond komen?",
+        "translation": "هل تريد حضور الأمسية التعريفية؟",
+        "choices": [
+          {
+            "text": "Dan ben ik nu voor de hele cursus ingeschreven.",
+            "translation": "إذن أصبحت مسجلاً في الدورة كلها الآن.",
+            "feedback": "سؤال الأمسية لا يؤكد تسجيل الدورة."
+          },
+          {
+            "text": "Ik heb de inschrijving gisteren betaald.",
+            "translation": "دفعت التسجيل أمس.",
+            "feedback": "معلومة مختلقة؛ لم تتقدم بطلب."
+          },
+          {
+            "text": "Ja, graag. Hoe meld ik me daarvoor aan?",
+            "translation": "نعم، أرغب بذلك. كيف أسجل لها؟",
+            "feedback": "قبول الاهتمام يتبعه سؤال عن إجراء لم يكتمل."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Vul het formulier voor de informatieavond in. De cursus heeft een apart formulier.",
+        "responseTranslation": "املأ استمارة الأمسية التعريفية. للدورة استمارة منفصلة."
+      }
+    ],
+    "transfer": {
+      "prompt": "اكتب لمركز جديد عن دورة طبخ: أنت مبتدئ، واسأل عمّا يتعلم المشاركون وإن كنت تحتاج أدواتك الخاصة وكيف تحجز درساً تجريبياً. لا تقل إن الهاتف يكفي لأن الموضوع تغيّر.",
+      "model": "Ik ben beginner en zoek een kookcursus. Wat leren we tijdens de lessen? Moet ik zelf spullen meenemen? Hoe meld ik me aan voor een proefles?",
+      "translation": "أنا مبتدئ وأبحث عن دورة طبخ. ماذا نتعلم في الدروس؟ هل أحضر أدواتي؟ كيف أسجل لدرس تجريبي؟",
+      "checklist": [
+        "هل نقلت أسلوب الاستفسار إلى مجال جديد؟",
+        "هل فصلت سؤال التسجيل عن تأكيده؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-checking-a-replacement-bus-announcement",
+    "unitId": "a2-travel-plans",
+    "title": "التحقق من إعلان حافلة بديلة",
+    "dutchTitle": "Een bericht over een vervangende bus navragen",
+    "role": "تقصد مدينة خيالية اسمها زاندفيلد. سمعت أن قطارك لا يسير وأن حافلة بديلة تنطلق من الموقف E خلف المحطة. لم تُذكر صلاحية التذكرة في الإعلان.",
+    "partner": "موظف المحطة في مثال خيالي",
+    "mission": "اسأل عن البديل والموقف واتجاهه ثم عن التذكرة دون نقل سياسة من مثال آخر.",
+    "sourceLessons": [
+      "a2-understanding-travel-announcements",
+      "a2-planning-a-day-trip"
+    ],
+    "turns": [
+      {
+        "id": "a2-checking-a-replacement-bus-announcement-turn-1",
+        "goal": "اسأل عن البديل إلى وجهتك.",
+        "prompt": "Waar wilt u naartoe?",
+        "translation": "إلى أين تريد الذهاب؟",
+        "choices": [
+          {
+            "text": "Naar Zandveld. Rijdt er een bus in plaats van mijn trein?",
+            "translation": "إلى زاندفيلد. هل تسير حافلة بدلاً من قطاري؟",
+            "feedback": "يحافظ السؤال على الوجهة ويستوضح الوسيلة البديلة."
+          },
+          {
+            "text": "Naar een andere stad, want alle treinen rijden gewoon.",
+            "translation": "إلى مدينة أخرى لأن كل القطارات تسير كالمعتاد.",
+            "feedback": "يخالف الوجهة والإعلان الذي سمعته."
+          },
+          {
+            "text": "Ik blijf hier omdat er nooit bussen zijn.",
+            "translation": "سأبقى هنا لأنه لا توجد حافلات أبداً.",
+            "feedback": "يعمم نفياً غير موجود."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ja, er rijdt vandaag een vervangende bus.",
+        "responseTranslation": "نعم، توجد حافلة بديلة اليوم."
+      },
+      {
+        "id": "a2-checking-a-replacement-bus-announcement-turn-2",
+        "goal": "تحقق من اسم موقف الحافلة.",
+        "prompt": "Wat wilt u over de bus weten?",
+        "translation": "ماذا تريد معرفة عن الحافلة؟",
+        "choices": [
+          {
+            "text": "Dan ga ik naar spoor E.",
+            "translation": "إذن أذهب إلى رصيف القطار E.",
+            "feedback": "يخلط halte الحافلة بـ spoor القطار."
+          },
+          {
+            "text": "Vertrekt die bij halte E?",
+            "translation": "هل تنطلق عند الموقف E؟",
+            "feedback": "الموقف يطابق ما سمعت ويُطرح للتحقق."
+          },
+          {
+            "text": "Iedere bus vertrekt zeker bij spoor twee.",
+            "translation": "بالتأكيد كل حافلة تنطلق من الرصيف الثاني.",
+            "feedback": "يعمم مكاناً من مثال آخر."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Ja, bij halte E achter het station.",
+        "responseTranslation": "نعم، عند الموقف E خلف المحطة."
+      },
+      {
+        "id": "a2-checking-a-replacement-bus-announcement-turn-3",
+        "goal": "أعد جهة المحطة بدقة.",
+        "prompt": "Weet u waar u nu heen moet?",
+        "translation": "هل تعرف إلى أين تتجه الآن؟",
+        "choices": [
+          {
+            "text": "Ja, ik ga naar de voorkant.",
+            "translation": "نعم، أذهب إلى الجهة الأمامية.",
+            "feedback": "يعكس الجهة المذكورة."
+          },
+          {
+            "text": "Ja, ik wacht op het oude spoor.",
+            "translation": "نعم، أنتظر عند الرصيف القديم.",
+            "feedback": "يترك مسار الحافلة ويعود إلى القطار الملغى."
+          },
+          {
+            "text": "Ja, ik zoek de uitgang aan de achterkant.",
+            "translation": "نعم، أبحث عن المخرج الخلفي.",
+            "feedback": "يحافظ على achter/achterkant لا voorkant."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Goed. Heeft u nog een vraag?",
+        "responseTranslation": "جيد. هل لديك سؤال آخر؟"
+      },
+      {
+        "id": "a2-checking-a-replacement-bus-announcement-turn-4",
+        "goal": "اطلب معلومة التذكرة غير المذكورة.",
+        "prompt": "Heeft u nog een vraag?",
+        "translation": "هل لديك سؤال آخر؟",
+        "choices": [
+          {
+            "text": "Is mijn treinkaartje geldig in deze bus?",
+            "translation": "هل تذكرتي للقطار صالحة لهذه الحافلة؟",
+            "feedback": "يسأل عن حالة هذه الرحلة ولا يفترض سياسة عامة."
+          },
+          {
+            "text": "Alle bussen in Nederland zijn gratis met elk kaartje.",
+            "translation": "كل حافلات هولندا مجانية بأي تذكرة.",
+            "feedback": "تعميم غير وارد ولا صحيح كقاعدة."
+          },
+          {
+            "text": "Ik weet zeker dat ik twee nieuwe kaartjes moet kopen.",
+            "translation": "أعرف يقيناً أن علي شراء تذكرتين جديدتين.",
+            "feedback": "لم تذكر التذاكر في الإعلان، فلا نؤكد الشراء."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Voor deze rit wel. U kunt met dit kaartje instappen.",
+        "responseTranslation": "لهذه الرحلة نعم. يمكنك الصعود بهذه التذكرة."
+      }
+    ],
+    "transfer": {
+      "prompt": "انقل إعلاناً جديداً: قطار هافنفيك يسير لكنه من الرصيف 6 بدلاً من 4. أخبر صديقاً ألا يذهب إلى الحافلة، ولا تضف حكم تذاكر غير مذكور.",
+      "model": "De trein naar Havenwijk rijdt wel, maar vertrekt van spoor zes in plaats van spoor vier. Je hoeft dus niet naar de vervangende bus.",
+      "translation": "القطار إلى هافنفيك يسير لكنه ينطلق من الرصيف السادس بدلاً من الرابع. لا تحتاج إذن إلى الذهاب للحافلة البديلة.",
+      "checklist": [
+        "هل فرّقت تغيير الرصيف عن إلغاء القطار؟",
+        "هل نقلت الإعلان الجديد فقط؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-finding-a-quiet-shared-activity",
+    "unitId": "a2-social-experiences",
+    "title": "نشاط مشترك مع اختلاف التفضيلات",
+    "dutchTitle": "Een rustige activiteit samen kiezen",
+    "role": "أنت تفضّل لقاءً هادئاً لأنك متعب وتريد الحديث. صديقك يقترح سوقاً مزدحماً. يمكنك قبول حديقة إذا توفرت مقاعد، ولا تعرف وجودها حتى يجيب الصديق.",
+    "partner": "صديقك كريم",
+    "mission": "عبّر عن اختلافك بأدب واذكر السبب واستوضح شرط الجلوس قبل قبول البديل.",
+    "sourceLessons": [
+      "a2-disagreeing-politely",
+      "a2-sharing-a-social-experience"
+    ],
+    "turns": [
+      {
+        "id": "a2-finding-a-quiet-shared-activity-turn-1",
+        "goal": "اذكر تفضيلك دون مهاجمة الصديق.",
+        "prompt": "Zullen we naar de drukke markt gaan?",
+        "translation": "هل نذهب إلى السوق المزدحم؟",
+        "choices": [
+          {
+            "text": "Dat is een dom idee en jij kiest altijd verkeerd.",
+            "translation": "هذه فكرة غبية وأنت تختار دائماً بشكل خاطئ.",
+            "feedback": "يهاجم الشخص ويعمم بدلاً من ذكر حاجتك."
+          },
+          {
+            "text": "Ik ga liever naar een rustige plek.",
+            "translation": "أفضل الذهاب إلى مكان هادئ.",
+            "feedback": "يقدم تفضيلاً بديلاً ولا يرفض اللقاء نفسه."
+          },
+          {
+            "text": "Ja, ik wil juist veel lawaai.",
+            "translation": "نعم، أريد ضجيجاً كثيراً تحديداً.",
+            "feedback": "يخالف التفضيل في الدور."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Waarom wil je liever iets rustigs?",
+        "responseTranslation": "لماذا تفضّل شيئاً هادئاً؟"
+      },
+      {
+        "id": "a2-finding-a-quiet-shared-activity-turn-2",
+        "goal": "فسر السبب الشخصي.",
+        "prompt": "Waarom wil je liever iets rustigs?",
+        "translation": "لماذا تفضّل شيئاً هادئاً؟",
+        "choices": [
+          {
+            "text": "Omdat ik nooit met jou wil praten.",
+            "translation": "لأنني لا أريد الحديث معك أبداً.",
+            "feedback": "يناقض هدف الدور ويغيّر معنى التفضيل."
+          },
+          {
+            "text": "Omdat de markt volgens mij altijd verboden is.",
+            "translation": "لأن السوق ممنوع دائماً حسب رأيي.",
+            "feedback": "يخترع منعاً لا يتعلق بالسبب الشخصي."
+          },
+          {
+            "text": "Ik ben moe en ik wil rustig met je praten.",
+            "translation": "أنا متعب وأريد الحديث معك بهدوء.",
+            "feedback": "يشرح الحاجة ويؤكد رغبة اللقاء."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Wat vind je van het park bij het buurthuis?",
+        "responseTranslation": "ما رأيك في الحديقة قرب مركز الحي؟"
+      },
+      {
+        "id": "a2-finding-a-quiet-shared-activity-turn-3",
+        "goal": "استوضح توفر المقاعد قبل الموافقة.",
+        "prompt": "Wat vind je van het park bij het buurthuis?",
+        "translation": "ما رأيك في الحديقة قرب مركز الحي؟",
+        "choices": [
+          {
+            "text": "Dat lijkt me fijn. Zijn er bankjes waar we kunnen zitten?",
+            "translation": "يبدو ذلك لطيفاً. هل توجد مقاعد نستطيع الجلوس عليها؟",
+            "feedback": "يفصل الرغبة في البديل عن المعلومة الناقصة."
+          },
+          {
+            "text": "Dat is definitief afgesproken; zitten maakt niets uit.",
+            "translation": "اتفقنا نهائياً؛ لا يهم الجلوس.",
+            "feedback": "يلغي شرطك قبل معرفة جوابه."
+          },
+          {
+            "text": "Er zijn zeker geen bankjes, want ik ken de tuin niet.",
+            "translation": "بالتأكيد لا توجد مقاعد لأنني لا أعرف الحديقة.",
+            "feedback": "عدم المعرفة لا يثبت عدم وجود المقاعد."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ja, er staan bankjes in de schaduw.",
+        "responseTranslation": "نعم، توجد مقاعد في الظل."
+      },
+      {
+        "id": "a2-finding-a-quiet-shared-activity-turn-4",
+        "goal": "وافق بعد توفر المعلومة المطلوبة.",
+        "prompt": "Er staan bankjes in de schaduw. Is dat een goed alternatief?",
+        "translation": "توجد مقاعد في الظل. هل هذا بديل جيد؟",
+        "choices": [
+          {
+            "text": "Nee, want er zijn volgens jou geen zitplaatsen.",
+            "translation": "لا، لأنك تقول إنه لا توجد أماكن جلوس.",
+            "feedback": "يعكس جواب الصديق عن المقاعد."
+          },
+          {
+            "text": "Ja, dan lijkt het park me een goed idee.",
+            "translation": "نعم، إذن تبدو الحديقة لي فكرة جيدة.",
+            "feedback": "القبول يأتي بعد معرفة توفر المقاعد."
+          },
+          {
+            "text": "We hadden al besloten om naar de markt te gaan.",
+            "translation": "كنا قررنا مسبقاً الذهاب إلى السوق.",
+            "feedback": "لم يُقبل السوق في الحوار."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Fijn, dan gaan we naar het park en kunnen we rustig praten.",
+        "responseTranslation": "جيد، إذن نذهب إلى الحديقة ونستطيع الحديث بهدوء."
+      }
+    ],
+    "transfer": {
+      "prompt": "في موقف جديد تقترح المجموعة مطعماً غالي الثمن. عبّر بأدب عن تفضيل مكان أرخص لأن ميزانيتك محدودة، واسأل عن بديل دون افتراض موافقة الآخرين.",
+      "model": "Ik begrijp dat het restaurant goed is, maar ik eet liever ergens goedkoper, omdat mijn budget klein is. Kennen jullie een ander restaurant?",
+      "translation": "أفهم أن المطعم جيد، لكنني أفضل الأكل في مكان أرخص لأن ميزانيتي صغيرة. هل تعرفون مطعماً آخر؟",
+      "checklist": [
+        "هل قدمت سبباً وتفضيلاً دون مهاجمة الآخرين؟",
+        "هل تركت البديل بحاجة إلى رد منهم؟"
+      ]
+    }
   }
 ]

@@ -10,8 +10,8 @@ test("all eight study units expose scoped resources without shipping answer bank
   assert.equal(path.length, 8);
   for (const [index, unit] of path.entries()) {
     assert.deepEqual(unit.lessons.map((item) => item.slug), units[index].lessonSlugs);
-    assert.equal(unit.readings.length, 2);
-    assert.equal(unit.scenarios.length, 2);
+    assert.equal(unit.readings.length, 3);
+    assert.equal(unit.scenarios.length, 3);
     assert.ok(unit.recycling.length > 0);
     for (const group of [unit.lessons, unit.readings, unit.scenarios, unit.recycling]) for (const item of group) assert.deepEqual(Object.keys(item).sort(), ["slug", "title"]);
     for (const set of unit.recycling) assert.ok(recycling.find((item) => item.slug === set.slug).anchors.some((anchor) => units[index].lessonSlugs.includes(anchor.lessonSlug)));
@@ -29,5 +29,5 @@ test("study position uses the first gap, ignores unknown and duplicate completio
   const finished = getStudyPosition(path, slugs);
   assert.equal(finished.next, null);
   assert.equal(finished.completedUnitIds.length, 8);
-  assert.deepEqual(getStudyPosition(path, slugs.slice(0, 5)).completedUnitIds, [units[0].id]);
+  assert.deepEqual(getStudyPosition(path, slugs.slice(0, 6)).completedUnitIds, [units[0].id]);
 });

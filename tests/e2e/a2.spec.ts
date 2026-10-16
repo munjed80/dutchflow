@@ -17,9 +17,9 @@ const expandedLessonSlugs = [
   "a2-following-up-after-a-social-event",
 ];
 
-test("A2 unit one is fully language-rich across all five lessons", async ({ page }) => {
+test("A2 unit one is fully language-rich across all six lessons", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const lesson of lessons.slice(0, 5)) {
+  for (const lesson of lessons.slice(0, 6)) {
     const extension = extensions.find((item) => item.lessonSlug === lesson.slug)!;
     expect(extension.languageDepth).toBeTruthy();
     await page.goto(`/learn/${lesson.slug}`);
@@ -31,9 +31,9 @@ test("A2 unit one is fully language-rich across all five lessons", async ({ page
   }
 });
 
-test("A2 unit two is fully language-rich across all five work lessons", async ({ page }) => {
+test("A2 unit two is fully language-rich across all six work lessons", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const lesson of lessons.slice(5, 10)) {
+  for (const lesson of lessons.slice(6, 12)) {
     const extension = extensions.find((item) => item.lessonSlug === lesson.slug)!;
     expect(extension.languageDepth).toBeTruthy();
     await page.goto(`/learn/${lesson.slug}`);
@@ -45,9 +45,9 @@ test("A2 unit two is fully language-rich across all five work lessons", async ({
   }
 });
 
-test("A2 unit three is fully language-rich across all five housing lessons", async ({ page }) => {
+test("A2 unit three is fully language-rich across all six housing lessons", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const lesson of lessons.slice(10, 15)) {
+  for (const lesson of lessons.slice(12, 18)) {
     const extension = extensions.find((item) => item.lessonSlug === lesson.slug)!;
     expect(extension.languageDepth).toBeTruthy();
     await page.goto(`/learn/${lesson.slug}`);
@@ -59,9 +59,9 @@ test("A2 unit three is fully language-rich across all five housing lessons", asy
   }
 });
 
-test("A2 unit four is fully language-rich across all five appointment lessons", async ({ page }) => {
+test("A2 unit four is fully language-rich across all six appointment lessons", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const lesson of lessons.slice(15, 20)) {
+  for (const lesson of lessons.slice(18, 24)) {
     const extension = extensions.find((item) => item.lessonSlug === lesson.slug)!;
     expect(extension.languageDepth).toBeTruthy();
     await page.goto(`/learn/${lesson.slug}`);
@@ -73,9 +73,9 @@ test("A2 unit four is fully language-rich across all five appointment lessons", 
   }
 });
 
-test("A2 unit five is fully language-rich across all five shopping lessons", async ({ page }) => {
+test("A2 unit five is fully language-rich across all six shopping lessons", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const lesson of lessons.slice(20, 25)) {
+  for (const lesson of lessons.slice(24, 30)) {
     const extension = extensions.find((item) => item.lessonSlug === lesson.slug)!;
     expect(extension.languageDepth).toBeTruthy();
     await page.goto(`/learn/${lesson.slug}`);
@@ -89,7 +89,7 @@ test("A2 unit five is fully language-rich across all five shopping lessons", asy
 
 test("A2 units six to eight are fully language-rich", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const lesson of lessons.slice(25, 40)) {
+  for (const lesson of lessons.slice(30, 48)) {
     const extension = extensions.find((item) => item.lessonSlug === lesson.slug)!;
     expect(extension.languageDepth).toBeTruthy();
     await page.goto(`/learn/${lesson.slug}`);
@@ -217,13 +217,13 @@ test("A2 scenario completes a coherent exchange and resets transfer writing on r
 });
 
 test("unit two connects from the previous endpoint, updates the recommendation and grades new reading evidence", async ({ page }) => {
-  await page.goto(`/learn/${lessons[4].slug}`);
+  await page.goto(`/learn/${lessons[5].slug}`);
   await page.locator('a[rel="next"]').click();
-  await expect(page).toHaveURL(`/learn/${lessons[5].slug}`);
-  await expect(page.locator(".lesson-page-heading")).toContainText(`06 من ${lessons.length}`);
-  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), lessons.slice(0, 5).map((lesson) => lesson.slug));
+  await expect(page).toHaveURL(`/learn/${lessons[6].slug}`);
+  await expect(page.locator(".lesson-page-heading")).toContainText(`07 من ${lessons.length}`);
+  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), lessons.slice(0, 6).map((lesson) => lesson.slug));
   await page.goto("/learn?level=A2");
-  await expect(page.locator(".continue-banner").first().getByRole("link")).toHaveAttribute("href", `/learn/${lessons[5].slug}`);
+  await expect(page.locator(".continue-banner").first().getByRole("link")).toHaveAttribute("href", `/learn/${lessons[6].slug}`);
   await page.goto(`/reading/${readings[1].slug}`);
   for (const [index, q] of readings[1].questions.entries()) await page.locator(`#${q.id}-${index === 3 ? 0 : q.correctIndex}`).check();
   await page.getByRole("button", { name: "تحقّق من فهمك" }).click();
@@ -277,17 +277,17 @@ test("work scenario rejects an impossible deadline and completes the revised agr
 });
 
 test("housing follows unit two, preserves progress, and distinguishes a visit window from an exact hour", async ({ page }) => {
-  await page.goto(`/learn/${lessons[9].slug}`);
+  await page.goto(`/learn/${lessons[11].slug}`);
   await page.locator('a[rel="next"]').click();
-  await expect(page).toHaveURL(`/learn/${lessons[10].slug}`);
-  await expect(page.locator(".lesson-page-heading")).toContainText(`11 من ${lessons.length}`);
-  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), lessons.slice(0, 10).map((lesson) => lesson.slug));
+  await expect(page).toHaveURL(`/learn/${lessons[12].slug}`);
+  await expect(page.locator(".lesson-page-heading")).toContainText(`13 من ${lessons.length}`);
+  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), lessons.slice(0, 12).map((lesson) => lesson.slug));
   await page.reload();
-  for (const [i, q] of lessons[10].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
+  for (const [i, q] of lessons[12].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
   await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
   await expect(page.locator(".success-message")).toBeVisible();
   await page.goto("/progress?level=A2");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "11");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "13");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", String(lessons.length));
   await page.goto(`/reading/${readings[2].slug}`);
   for (const [i, q] of readings[2].questions.entries()) await page.locator(`#${q.id}-${i === 2 ? 2 : q.correctIndex}`).check();
@@ -346,11 +346,11 @@ test("housing dialogue corrects an exact-time assumption and offers a fresh tran
 });
 
 test("appointment lessons follow housing and teach omdat without mixing level progress or treating a preference as a booking", async ({ page }) => {
-  await page.goto(`/learn/${lessons[14].slug}`);
+  await page.goto(`/learn/${lessons[17].slug}`);
   await page.locator('a[rel="next"]').click();
-  await expect(page).toHaveURL(`/learn/${lessons[15].slug}`);
-  await expect(page.locator(".lesson-page-heading")).toContainText(`16 من ${lessons.length}`);
-  for (const [i, q] of lessons[15].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
+  await expect(page).toHaveURL(`/learn/${lessons[18].slug}`);
+  await expect(page.locator(".lesson-page-heading")).toContainText(`19 من ${lessons.length}`);
+  for (const [i, q] of lessons[18].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
   await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
   await expect(page.locator(".success-message")).toBeVisible();
   await page.goto("/progress?level=A2");
@@ -414,17 +414,17 @@ test("appointment negotiation rejects a premature booking claim before confirmat
 });
 
 test("shopping follows appointments, keeps A1 progress, and distinguishes stock from a reservation", async ({ page }) => {
-  await page.goto(`/learn/${lessons[19].slug}`);
-  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), [a1[0].slug, ...lessons.slice(0, 20).map((lesson) => lesson.slug)]);
+  await page.goto(`/learn/${lessons[23].slug}`);
+  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), [a1[0].slug, ...lessons.slice(0, 24).map((lesson) => lesson.slug)]);
   await page.reload();
   await page.locator('a[rel="next"]').click();
-  await expect(page).toHaveURL(`/learn/${lessons[20].slug}`);
-  await expect(page.locator(".lesson-page-heading")).toContainText(`21 من ${lessons.length}`);
-  for (const [i, q] of lessons[20].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
+  await expect(page).toHaveURL(`/learn/${lessons[24].slug}`);
+  await expect(page.locator(".lesson-page-heading")).toContainText(`25 من ${lessons.length}`);
+  for (const [i, q] of lessons[24].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
   await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
   await expect(page.locator(".success-message")).toBeVisible();
   await page.goto("/progress?level=A2");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "21");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "25");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", String(lessons.length));
   await page.goto("/progress");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "1");
@@ -495,11 +495,11 @@ test("shopping negotiation rejects an unaffordable alternative and a full-price 
 });
 
 test("school lessons follow shopping and distinguish optional help from a required reply", async ({ page }) => {
-  await page.goto(`/learn/${lessons[24].slug}`);
+  await page.goto(`/learn/${lessons[29].slug}`);
   await page.locator('a[rel="next"]').click();
-  await expect(page).toHaveURL(`/learn/${lessons[25].slug}`);
-  await expect(page.locator(".lesson-page-heading")).toContainText(`26 من ${lessons.length}`);
-  for (const [i, q] of lessons[25].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
+  await expect(page).toHaveURL(`/learn/${lessons[30].slug}`);
+  await expect(page.locator(".lesson-page-heading")).toContainText(`31 من ${lessons.length}`);
+  for (const [i, q] of lessons[30].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
   await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
   await expect(page.locator(".success-message")).toBeVisible();
   await page.goto("/progress?level=A2");
@@ -570,18 +570,18 @@ test("invitation dialogue counts the applicant and retains the registration cond
 });
 
 test("travel follows school, preserves progress and reviews arrival rather than departure", async ({ page }) => {
-  await page.goto(`/learn/${lessons[29].slug}`);
-  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), [a1[0].slug, ...lessons.slice(0, 30).map((lesson) => lesson.slug)]);
+  await page.goto(`/learn/${lessons[35].slug}`);
+  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), [a1[0].slug, ...lessons.slice(0, 36).map((lesson) => lesson.slug)]);
   await page.reload();
   await page.locator('a[rel="next"]').click();
   await expect(page).toHaveURL("/learn/a2-planning-a-day-trip");
-  await expect(page.locator(".lesson-page-heading")).toContainText("31 من 40");
-  for (const [i, q] of lessons[30].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
+  await expect(page.locator(".lesson-page-heading")).toContainText(`37 من ${lessons.length}`);
+  for (const [i, q] of lessons[36].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
   await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
   await expect(page.locator(".success-message")).toBeVisible();
   await page.goto("/progress?level=A2");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "31");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "40");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "37");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", String(lessons.length));
   await page.goto("/progress");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "1");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "53");
@@ -653,18 +653,18 @@ test("travel dialogue rejects earlier departure as sufficient and includes the f
 
 
 test("social unit follows travel, keeps A1 progress separate and distinguishes confirmation from a pending detail", async ({ page }) => {
-  await page.goto(`/learn/${lessons[34].slug}`);
-  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), [a1[0].slug, ...lessons.slice(0, 35).map((lesson) => lesson.slug)]);
+  await page.goto(`/learn/${lessons[41].slug}`);
+  await page.evaluate((slugs) => localStorage.setItem("dutchflow-progress-v1", JSON.stringify({ completedLessons: slugs })), [a1[0].slug, ...lessons.slice(0, 42).map((lesson) => lesson.slug)]);
   await page.reload();
   await page.locator('a[rel="next"]').click();
   await expect(page).toHaveURL("/learn/a2-sharing-a-social-experience");
-  await expect(page.locator(".lesson-page-heading")).toContainText(`36 من ${lessons.length}`);
-  for (const [i, q] of lessons[35].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
+  await expect(page.locator(".lesson-page-heading")).toContainText(`43 من ${lessons.length}`);
+  for (const [i, q] of lessons[42].questions.entries()) await page.locator(".quiz-question").nth(i).getByRole("radio").nth(q.correctIndex).check();
   await page.getByRole("button", { name: "تحقّق من الإجابات" }).click();
   await expect(page.locator(".success-message")).toBeVisible();
   await page.goto("/progress?level=A2");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "36");
-  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "40");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "43");
+  await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", String(lessons.length));
   await page.goto("/progress");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "1");
   await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax", "53");

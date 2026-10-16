@@ -1,0 +1,229 @@
+[
+  {
+    "slug": "a2-newcomer-municipal-letter",
+    "title": "رسالة من البلدية: ما المطلوب مني؟",
+    "goal": "ميّز استلام الطلب عن اكتماله، وحدّد المستند الناقص وطريقة الاستفسار.",
+    "minutes": 35,
+    "lessonSlugs": [
+      "a2-clarifying-a-local-form",
+      "a2-finding-a-reply-deadline",
+      "a2-asking-for-an-appointment-update"
+    ],
+    "vocabulary": [
+      {
+        "dutch": "de aanvraag",
+        "forms": "aanvragen",
+        "arabic": "الطلب المقدّم إلى جهة"
+      },
+      {
+        "dutch": "de bijlage",
+        "forms": "bijlagen",
+        "arabic": "المرفق مع رسالة أو طلب"
+      },
+      {
+        "dutch": "ontbreken",
+        "forms": "ontbreekt · ontbrak · heeft ontbroken",
+        "arabic": "ينقص؛ ليس موجوداً"
+      },
+      {
+        "dutch": "ontvangen",
+        "forms": "ontvangt · ontving · heeft ontvangen",
+        "arabic": "يستلم"
+      },
+      {
+        "dutch": "aanvullen",
+        "forms": "vult aan · vulde aan · heeft aangevuld",
+        "arabic": "يستكمل المعلومات الناقصة"
+      },
+      {
+        "dutch": "uiterlijk",
+        "forms": "uiterlijk vrijdag",
+        "arabic": "في موعد أقصاه الجمعة"
+      }
+    ],
+    "phrases": [
+      {
+        "dutch": "Welke bijlage ontbreekt er?",
+        "arabic": "أي مرفق ينقص؟"
+      },
+      {
+        "dutch": "Is mijn aanvraag nu compleet?",
+        "arabic": "هل طلبي مكتمل الآن؟"
+      },
+      {
+        "dutch": "Wilt u de volgende stap uitleggen?",
+        "arabic": "هل تشرح الخطوة التالية من فضلك؟"
+      }
+    ]
+  },
+  {
+    "slug": "a2-newcomer-digital-help",
+    "title": "المساعدة الرقمية: اشرح أين توقفت",
+    "goal": "اشرح مشكلة تقنية، وميّز المساعدة على فهم الخطوات عن إنجاز الطلب نيابة عنك.",
+    "minutes": 35,
+    "lessonSlugs": [
+      "a2-clarifying-a-local-form",
+      "a2-asking-how-a-product-works"
+    ],
+    "vocabulary": [
+      {
+        "dutch": "het scherm",
+        "forms": "schermen",
+        "arabic": "الشاشة"
+      },
+      {
+        "dutch": "de foutmelding",
+        "forms": "foutmeldingen",
+        "arabic": "رسالة الخطأ"
+      },
+      {
+        "dutch": "opslaan",
+        "forms": "slaat op · sloeg op · heeft opgeslagen",
+        "arabic": "يحفظ"
+      },
+      {
+        "dutch": "versturen",
+        "forms": "verstuurt · verstuurde · heeft verstuurd",
+        "arabic": "يرسل"
+      },
+      {
+        "dutch": "de stap",
+        "forms": "stappen",
+        "arabic": "الخطوة"
+      },
+      {
+        "dutch": "zelf",
+        "forms": "zelf doen",
+        "arabic": "بنفسه"
+      }
+    ],
+    "phrases": [
+      {
+        "dutch": "Bij deze stap kom ik niet verder.",
+        "arabic": "لا أستطيع المتابعة عند هذه الخطوة."
+      },
+      {
+        "dutch": "Is het formulier opgeslagen of verstuurd?",
+        "arabic": "هل حُفظ النموذج أم أُرسل؟"
+      },
+      {
+        "dutch": "Ik wil de stappen graag zelf oefenen.",
+        "arabic": "أودّ التمرّن على الخطوات بنفسي."
+      }
+    ]
+  },
+  {
+    "slug": "a2-newcomer-language-school",
+    "title": "مدرسة اللغة: حضور ودعم وخطة واضحة",
+    "goal": "افهم ترتيب اللقاء التعريفي والدرس، واشرح عائقاً واطلب توضيحاً قبل الاتفاق.",
+    "minutes": 35,
+    "lessonSlugs": [
+      "a2-asking-about-a-course",
+      "a2-understanding-school-instructions",
+      "a2-comparing-appointment-options"
+    ],
+    "vocabulary": [
+      {
+        "dutch": "het kennismakingsgesprek",
+        "forms": "kennismakingsgesprekken",
+        "arabic": "اللقاء التعريفي"
+      },
+      {
+        "dutch": "het rooster",
+        "forms": "roosters",
+        "arabic": "الجدول"
+      },
+      {
+        "dutch": "de opvang",
+        "forms": "opvang voor kinderen",
+        "arabic": "رعاية الأطفال"
+      },
+      {
+        "dutch": "doorgeven",
+        "forms": "geeft door · gaf door · heeft doorgegeven",
+        "arabic": "يبلغ بمعلومة"
+      },
+      {
+        "dutch": "de oefenmap",
+        "forms": "oefenmappen",
+        "arabic": "ملف مواد التدريب"
+      },
+      {
+        "dutch": "overleggen",
+        "forms": "overlegt · overlegde · heeft overlegd",
+        "arabic": "يتشاور"
+      }
+    ],
+    "phrases": [
+      {
+        "dutch": "Kan ik eerst het rooster bekijken?",
+        "arabic": "هل أستطيع الاطلاع على الجدول أولاً؟"
+      },
+      {
+        "dutch": "Ik heb op dat moment geen opvang.",
+        "arabic": "لا تتوفر لي رعاية للأطفال في ذلك الوقت."
+      },
+      {
+        "dutch": "Welke oplossing kunnen we bespreken?",
+        "arabic": "أي حل يمكننا مناقشته؟"
+      }
+    ]
+  },
+  {
+    "slug": "a2-newcomer-volunteering",
+    "title": "التطوع: اتفق على دور يناسبك",
+    "goal": "افهم حدود المهمة، وعبّر عن قدرتك وما تحتاج إلى تعلمه، ثم تحقق من المسؤوليات الجديدة.",
+    "minutes": 35,
+    "lessonSlugs": [
+      "a2-clarifying-instructions",
+      "a2-giving-feedback-at-work",
+      "a2-disagreeing-politely"
+    ],
+    "vocabulary": [
+      {
+        "dutch": "de vrijwilliger",
+        "forms": "vrijwilligers",
+        "arabic": "المتطوع"
+      },
+      {
+        "dutch": "de begeleider",
+        "forms": "begeleiders",
+        "arabic": "المشرف أو المرافق"
+      },
+      {
+        "dutch": "de taak",
+        "forms": "taken",
+        "arabic": "المهمة"
+      },
+      {
+        "dutch": "klaarzetten",
+        "forms": "zet klaar · zette klaar · heeft klaargezet",
+        "arabic": "يجهز للاستخدام"
+      },
+      {
+        "dutch": "overnemen",
+        "forms": "neemt over · nam over · heeft overgenomen",
+        "arabic": "يتولى مهمة عن شخص آخر"
+      },
+      {
+        "dutch": "voorlopig",
+        "forms": "voorlopig alleen kijken",
+        "arabic": "مؤقتاً؛ في الوقت الحالي"
+      }
+    ],
+    "phrases": [
+      {
+        "dutch": "Dat kan ik al zelfstandig.",
+        "arabic": "أستطيع فعل ذلك باستقلال بالفعل."
+      },
+      {
+        "dutch": "Kunt u het eerst voordoen?",
+        "arabic": "هل تبيّن عملياً كيف يُفعل أولاً؟"
+      },
+      {
+        "dutch": "Wie kan deze taak overnemen?",
+        "arabic": "من يستطيع تولّي هذه المهمة؟"
+      }
+    ]
+  }
+]
