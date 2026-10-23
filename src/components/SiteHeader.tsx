@@ -27,6 +27,7 @@ function HeaderNavigation({ pathname, level }: { pathname: string; level: "A1" |
   const catalogueHref = level === "A2" ? "/learn?level=A2" : "/learn";
 
   return (
+    <>
     <header className="site-header">
       <div className="shell header-inner">
         <Link className="brand" href="/" aria-label="DutchFlow — الرئيسية">
@@ -49,5 +50,11 @@ function HeaderNavigation({ pathname, level }: { pathname: string; level: "A1" |
         </Link>
       </div>
     </header>
+    {level === "A2" && (learningRoute || pathname === "/progress") && <nav className="mobile-study-nav" aria-label="تنقل A2 على الموبايل">
+      <Link href="/learn?level=A2" aria-current={pathname.startsWith("/learn") ? "location" : undefined}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h7a3 3 0 0 1 2 1 3 3 0 0 1 2-1h7v15h-7a3 3 0 0 0-2 1 3 3 0 0 0-2-1H3zM12 5v15" /></svg>تصفّح A2</Link>
+      <Link href="/a2" aria-current={pathname === "/a2" ? "page" : undefined}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2zM9 3v16M15 5v16" /></svg>خريطة A2</Link>
+      <Link href="/progress?level=A2" aria-current={pathname === "/progress" ? "page" : undefined}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10h4v10M10 20V4h4v16M16 20v-7h4v7" /></svg>إنجازي</Link>
+    </nav>}
+    </>
   );
 }

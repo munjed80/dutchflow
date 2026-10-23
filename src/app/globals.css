@@ -516,3 +516,43 @@ em{font-style:normal;color:var(--teal)}
 .newcomer-page > .panel, .newcomer-intro, .newcomer-preparation { padding: clamp(20px, 3vw, 30px); margin-block: 1.5rem; }
 .newcomer-page .panel p, .newcomer-preparation p { line-height: 1.9; }
 .newcomer-preparation summary { cursor: pointer; min-height: 44px; line-height: 2; color: var(--teal); font-weight: 600; }
+
+/* A2 mobile web: next action first, readable cards and thumb navigation. */
+.a2-course-map .page-heading { padding: 28px; border-radius: 22px; background: linear-gradient(135deg, #e7f0e8, #f8f6ed); margin-bottom: 22px; }
+.a2-course-map .page-heading h1 { font-size: clamp(32px, 4.5vw, 50px); line-height: 1.5; margin-block: 12px; }
+.a2-course-map .study-status { border-inline-start: 4px solid var(--teal); background: #fff; box-shadow: 0 8px 28px #173d2b0a; }
+.a2-course-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-block: 20px; }
+.a2-course-stats span { border: 1px solid var(--line); border-radius: 14px; background: white; padding: 16px 10px; text-align: center; font-size: 13px; }
+.a2-course-stats strong { display: block; font-size: 26px; color: var(--teal); }
+.a2-unit-index { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-block: 28px; }
+.a2-unit-index a { display: flex; gap: 12px; align-items: center; min-height: 60px; border: 1px solid var(--line); background: #fff; border-radius: 12px; padding: 12px; font-size: 14px; }
+.a2-unit-index span { color: var(--teal); font-weight: 700; font-size: 20px; }
+.a2-course-map .curriculum-unit { border-radius: 20px; }
+.a2-unit-lessons { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.a2-unit-lessons a { display: flex; align-items: center; min-height: 60px; padding: 14px; border: 1px solid var(--line); border-radius: 10px; background: #f8faf6; font-size: 14px; line-height: 1.8; }
+.a2-unit-goals summary, .a2-unit-practice summary { cursor: pointer; min-height: 48px; padding-block: 12px; color: var(--teal); font-weight: 700; line-height: 1.8; }
+.a2-unit-practice { border-top: 1px solid var(--line); margin-top: 20px; }
+.a2-unit-practice summary span { display: block; font-size: 12px; font-weight: 400; padding-inline-start: 20px; color: #52665a; }
+.mobile-study-nav { display: none; }
+@media (max-width: 720px) {
+  .a2-course-map { padding-top: 20px; }
+  .a2-course-map .page-heading { padding: 22px 20px; }
+  .a2-course-map .page-heading p { font-size: 14px; line-height: 1.9; }
+  .a2-course-map .study-status { margin-block: 18px; padding: 20px; }
+  .a2-course-map .study-status .button { width: 100%; white-space: normal; }
+  .a2-course-map .curriculum-unit { padding: 20px; }
+  .a2-course-map .curriculum-unit h2 { font-size: 23px; }
+  .a2-unit-index, .a2-unit-lessons { grid-template-columns: 1fr; }
+  .a2-unit-index a { min-height: 52px; }
+  .a2-lesson-page .lesson-contents > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .a2-lesson-page .lesson-contents a { padding: 12px; min-height: 48px; display: flex; align-items: center; justify-content: center; text-align: center; }
+  .a2-lesson-page .lesson-navigation { flex-direction: column; align-items: stretch; }
+  .a2-lesson-page .lesson-navigation a { min-height: 48px; padding-block: 10px; }
+  .mobile-study-nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); position: fixed; inset: auto 0 0; z-index: 40; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); border-top: 1px solid #ccd9ce; background: #fff; box-shadow: 0 -5px 24px #173d2b0b; }
+  .mobile-study-nav a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-height: 52px; padding: 5px; border-radius: 12px; color: #52665a; font-size: 12px; font-weight: 700; }
+  .mobile-study-nav a[aria-current] { background: #e4eee4; color: #184c39; }
+  .mobile-study-nav svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; }
+  body:has(.mobile-study-nav) { padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
+  html:has(.mobile-study-nav) { scroll-padding-bottom: calc(100px + env(safe-area-inset-bottom)); }
+  .a2-lesson-page textarea, .a2-lesson-page input, .a2-lesson-page select { font-size: max(16px, 1em); }
+}

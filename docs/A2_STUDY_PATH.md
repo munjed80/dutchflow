@@ -29,3 +29,7 @@ The path now contains 48 lessons, six per unit, plus three linked readings and t
 ## Newcomer applications (15 October 2026)
 
 The map now links `/a2-newcomers`, a four-application transfer path with optional vocabulary, clarification phrases and lesson preparation. It is independent of the lesson-completion recommendation. The all-completed message derives its count from current unit summaries. See `A2_NEWCOMERS.md` for scope, temporary-state behavior and fictional-service boundaries.
+
+## Mobile path (23 October 2026)
+
+The next-action card appears after the heading, with a numbered unit index and native goals/practice disclosures. Lessons remain visible. Resource counts derive from the actual study-path projection. Mobile A2 navigation connects catalogue/map/progress without changing recommendation readiness or completion rules. Added resources bring four units to four readings; source-based dialogues can also appear across related units. See `A2_MOBILE_WEB.md`.

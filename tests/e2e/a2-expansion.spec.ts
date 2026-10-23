@@ -14,8 +14,8 @@ test("sixth lessons provide language depth and linked activities at mobile and d
     await expect(page.locator('.language-alternative')).toHaveCount(2);
     await expect(page.locator('.language-mistake')).toHaveCount(2);
     await expect(page.locator('.production-task')).toHaveCount(2);
-    for (const reading of readings.slice(16).filter((r) => r.sourceLessons.includes(lesson.slug))) await expect(page.locator(`a[href="/reading/${reading.slug}"]`)).toHaveCount(1);
-    for (const scenario of scenarios.slice(16).filter((s) => s.sourceLessons.includes(lesson.slug))) await expect(page.locator(`a[href="/scenarios/${scenario.slug}"]`)).toHaveCount(1);
+    for (const reading of readings.slice(16, 24).filter((r) => r.sourceLessons.includes(lesson.slug))) await expect(page.locator(`a[href="/reading/${reading.slug}"]`)).toHaveCount(1);
+    for (const scenario of scenarios.slice(16, 24).filter((s) => s.sourceLessons.includes(lesson.slug))) await expect(page.locator(`a[href="/scenarios/${scenario.slug}"]`)).toHaveCount(1);
     for (const suffix of ['/listening', '/writing']) expect((await request.get(`/learn/${lesson.slug}${suffix}`)).status()).toBe(200);
     for (const width of [320, 390, 721, 1280]) {
       await page.setViewportSize({ width, height: 844 });
@@ -33,7 +33,7 @@ test("new readings support six evidenced questions, targeted correction and inde
   test.setTimeout(60_000);
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.addInitScript(() => localStorage.setItem('dutchflow-progress-v1', JSON.stringify({ completedLessons: ['introductions', 'a2-yesterday-and-today'] })));
-  for (const reading of readings.slice(16)) {
+  for (const reading of readings.slice(16, 24)) {
     await page.goto(`/reading/${reading.slug}`);
     for (const [i, q] of reading.questions.entries()) await page.locator(`#${q.id}-${i === 5 ? (q.correctIndex + 1) % 3 : q.correctIndex}`).check();
     await page.getByRole('button', { name: 'تحقّق من فهمك' }).click();
@@ -50,7 +50,7 @@ test("new readings support six evidenced questions, targeted correction and inde
   }
 });
 
-for (const scenario of scenarios.slice(16)) {
+for (const scenario of scenarios.slice(16, 24)) {
   test(`${scenario.slug}: a changed role supports feedback, retry and independent transfer`, async ({ page }) => {
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.setViewportSize({ width: 390, height: 844 });

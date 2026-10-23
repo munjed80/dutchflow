@@ -73,3 +73,7 @@ Regression gate: A1 URLs, storage/import, per-level totals, remediation, audio h
 ### Newcomer applications
 
 Four additional integrated applications extend transfer across municipal letters, digital help, language-school communication and volunteering. See `A2_NEWCOMERS.md` for exact inventory and fictional-service boundaries. Lesson completion still uses the same 48 lessons; these applications are optional, temporary practice.
+
+### Mobile contextual transfer (23 October 2026)
+
+Four additional readings/dialogues cover observation vs cause, numeric units and missing prices, loan permission, and misunderstanding repair. See `A2_MOBILE_WEB.md` for exact inventory and mobile UX. Core lessons remain 48; practical-resource answers remain temporary.
