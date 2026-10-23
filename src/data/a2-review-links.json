@@ -607,5 +607,101 @@
   ],
   "a2-newcomer-volunteering-listen-4": [
     "a2-clarifying-instructions"
+  ],
+  "a2-reporting-a-workplace-observation-q1": [
+    "a2-clarifying-instructions",
+    "a2-reporting-task-progress"
+  ],
+  "a2-reporting-a-workplace-observation-q2": [
+    "a2-clarifying-instructions",
+    "a2-reporting-task-progress"
+  ],
+  "a2-reporting-a-workplace-observation-q3": [
+    "a2-clarifying-instructions",
+    "a2-reporting-task-progress"
+  ],
+  "a2-reporting-a-workplace-observation-q4": [
+    "a2-clarifying-instructions",
+    "a2-reporting-task-progress"
+  ],
+  "a2-reporting-a-workplace-observation-q5": [
+    "a2-clarifying-instructions",
+    "a2-reporting-task-progress"
+  ],
+  "a2-reporting-a-workplace-observation-q6": [
+    "a2-clarifying-instructions",
+    "a2-reporting-task-progress"
+  ],
+  "a2-reading-an-energy-note-q1": [
+    "a2-comparing-conditions-at-home",
+    "a2-checking-quantities-and-prices"
+  ],
+  "a2-reading-an-energy-note-q2": [
+    "a2-comparing-conditions-at-home",
+    "a2-checking-quantities-and-prices"
+  ],
+  "a2-reading-an-energy-note-q3": [
+    "a2-comparing-conditions-at-home",
+    "a2-checking-quantities-and-prices"
+  ],
+  "a2-reading-an-energy-note-q4": [
+    "a2-comparing-conditions-at-home",
+    "a2-checking-quantities-and-prices"
+  ],
+  "a2-reading-an-energy-note-q5": [
+    "a2-comparing-conditions-at-home",
+    "a2-checking-quantities-and-prices"
+  ],
+  "a2-reading-an-energy-note-q6": [
+    "a2-comparing-conditions-at-home",
+    "a2-checking-quantities-and-prices"
+  ],
+  "a2-borrowing-study-materials-q1": [
+    "a2-understanding-school-instructions",
+    "a2-asking-about-a-course"
+  ],
+  "a2-borrowing-study-materials-q2": [
+    "a2-understanding-school-instructions",
+    "a2-asking-about-a-course"
+  ],
+  "a2-borrowing-study-materials-q3": [
+    "a2-understanding-school-instructions",
+    "a2-asking-about-a-course"
+  ],
+  "a2-borrowing-study-materials-q4": [
+    "a2-understanding-school-instructions",
+    "a2-asking-about-a-course"
+  ],
+  "a2-borrowing-study-materials-q5": [
+    "a2-understanding-school-instructions",
+    "a2-asking-about-a-course"
+  ],
+  "a2-borrowing-study-materials-q6": [
+    "a2-understanding-school-instructions",
+    "a2-asking-about-a-course"
+  ],
+  "a2-correcting-a-misunderstanding-q1": [
+    "a2-disagreeing-politely",
+    "a2-asking-follow-up-questions"
+  ],
+  "a2-correcting-a-misunderstanding-q2": [
+    "a2-disagreeing-politely",
+    "a2-asking-follow-up-questions"
+  ],
+  "a2-correcting-a-misunderstanding-q3": [
+    "a2-disagreeing-politely",
+    "a2-asking-follow-up-questions"
+  ],
+  "a2-correcting-a-misunderstanding-q4": [
+    "a2-disagreeing-politely",
+    "a2-asking-follow-up-questions"
+  ],
+  "a2-correcting-a-misunderstanding-q5": [
+    "a2-disagreeing-politely",
+    "a2-asking-follow-up-questions"
+  ],
+  "a2-correcting-a-misunderstanding-q6": [
+    "a2-disagreeing-politely",
+    "a2-asking-follow-up-questions"
   ]
 }

@@ -3310,5 +3310,517 @@
         "هل تركت البديل بحاجة إلى رد منهم؟"
       ]
     }
+  },
+  {
+    "slug": "a2-reporting-a-workplace-observation-dialogue",
+    "unitId": "a2-work-coordination",
+    "title": "حوار: صف ما رأيت واطلب توضيح المهمة",
+    "dutchTitle": "Een probleem op de werkvloer melden",
+    "role": "أنت نور في مستودع خيالي. رأيت ماءً قرب الباب الرابع ولا تعرف المصدر. المشرف يطلب استخدام الباب الأول لنقل علب إلى الطاولة. تجفيف الأرض مهمة زميل آخر. لم يصل تحديث يؤكد إمكان استخدام الباب الرابع.",
+    "partner": "المشرف أمير",
+    "mission": "أبلغ بما تعرفه، ثم تحقق من المهمة والمسار دون افتراض انتهاء المشكلة.",
+    "sourceLessons": [
+      "a2-clarifying-instructions",
+      "a2-reporting-task-progress"
+    ],
+    "turns": [
+      {
+        "id": "a2-reporting-a-workplace-observation-turn-1",
+        "goal": "صف الملاحظة ومكانها.",
+        "prompt": "Wat heb je gezien?",
+        "translation": "ماذا رأيت؟",
+        "choices": [
+          {
+            "text": "Bij deur vier ligt water op de vloer.",
+            "translation": "يوجد ماء قرب الباب الرابع.",
+            "feedback": "وصفت ما رأيته عند الباب الرابع دون اختراع سبب."
+          },
+          {
+            "text": "De leiding bij deur vier is kapot.",
+            "translation": "الأنبوب عند الباب الرابع مكسور.",
+            "feedback": "دورك لا يحدد سبب الماء."
+          },
+          {
+            "text": "Bij deur één liggen alle dozen.",
+            "translation": "كل الصناديق عند الباب الأول.",
+            "feedback": "هذا لا يجيب عن الملاحظة المحددة في دورك."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Weet je waar het water vandaan komt?",
+        "responseTranslation": "هل تعرفين مصدر الماء؟"
+      },
+      {
+        "id": "a2-reporting-a-workplace-observation-turn-2",
+        "goal": "صرّح بما لا تعرفه.",
+        "prompt": "Weet je waar het water vandaan komt?",
+        "translation": "هل تعرفين مصدر الماء؟",
+        "choices": [
+          {
+            "text": "Ja, de oorzaak is al gevonden.",
+            "translation": "نعم، عُثر على السبب.",
+            "feedback": "لم يرد تحديث عن السبب."
+          },
+          {
+            "text": "Nee, dat weet ik niet.",
+            "translation": "لا، لا أعرف ذلك.",
+            "feedback": "فصلت الملاحظة المؤكدة عن المصدر غير المعروف."
+          },
+          {
+            "text": "Het water ligt bij deur twee.",
+            "translation": "الماء عند الباب الثاني.",
+            "feedback": "المكان في دورك الباب الرابع."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Gebruik voorlopig deur één. Breng de dozen naar de tafel.",
+        "responseTranslation": "استخدمي الباب الأول مؤقتاً وانقلي العلب إلى الطاولة."
+      },
+      {
+        "id": "a2-reporting-a-workplace-observation-turn-3",
+        "goal": "أكد مهمتك لا مهمة الزميل.",
+        "prompt": "Een collega maakt de vloer droog. Wat ga jij doen?",
+        "translation": "يجفف زميل الأرض. ماذا ستفعلين؟",
+        "choices": [
+          {
+            "text": "Ik maak eerst de vloer droog.",
+            "translation": "أجفف الأرض أولاً.",
+            "feedback": "هذه مهمة الزميل في هذا التدريب."
+          },
+          {
+            "text": "Ik gebruik deur vier weer.",
+            "translation": "أستخدم الباب الرابع مجدداً.",
+            "feedback": "لم يصل تأكيد يجيز تغيير المسار."
+          },
+          {
+            "text": "Ik breng de dozen via deur één naar de tafel.",
+            "translation": "أنقل العلب عبر الباب الأول إلى الطاولة.",
+            "feedback": "أكدت مهمة نقل العلب والمسار الأول، دون تولي مهمة الزميل."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Goed. Na de pauze kun je opnieuw naar de route vragen.",
+        "responseTranslation": "جيد. يمكنك السؤال عن المسار مجدداً بعد الاستراحة."
+      },
+      {
+        "id": "a2-reporting-a-workplace-observation-turn-4",
+        "goal": "اطلب تحديثاً دون افتراضه.",
+        "prompt": "Het is na de pauze. Wat wil je weten?",
+        "translation": "انتهت الاستراحة. ماذا تريدين معرفته؟",
+        "choices": [
+          {
+            "text": "Kan ik deur vier alweer gebruiken, of blijf ik via deur één lopen?",
+            "translation": "هل يمكنني استخدام الباب الرابع مجدداً أم أبقى على مسار الباب الأول؟",
+            "feedback": "طلبت تحديثاً ولم تعتبر انتهاء الاستراحة تأكيداً لفتح المسار."
+          },
+          {
+            "text": "Deur vier is zeker weer open.",
+            "translation": "الباب الرابع مفتوح بالتأكيد.",
+            "feedback": "مرور الوقت وحده لا يؤكد ذلك."
+          },
+          {
+            "text": "Ik weet nu waar het water vandaan komt.",
+            "translation": "أعرف الآن مصدر الماء.",
+            "feedback": "لا توجد معلومة جديدة عن المصدر."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Ik heb het nog niet gecontroleerd. Gebruik voorlopig deur één.",
+        "responseTranslation": "لم أتحقق بعد. استخدمي الباب الأول مؤقتاً."
+      }
+    ],
+    "transfer": {
+      "prompt": "اكتب لزميل غائب: في تدريبك توجد علب عند الباب الخامس، والمسار البديل عبر الباب الثاني. لا تعرف سبب إغلاق المسار الأول، وتحتاج إلى تأكيد قبل العودة إليه.",
+      "model": "Bij deur vijf staan dozen. We gebruiken voorlopig deur twee. Ik weet niet waarom de andere route dicht is. Vraag eerst of we die weer kunnen gebruiken.",
+      "translation": "توجد علب عند الباب الخامس. نستخدم الباب الثاني مؤقتاً. لا أعرف سبب إغلاق المسار الآخر. اسأل أولاً إن كان يمكن استخدامه مجدداً.",
+      "checklist": [
+        "هل نقلت المسار البديل والأرقام الجديدة؟",
+        "هل حافظت على السبب غير المعروف والحاجة إلى سؤال؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-reading-an-energy-note-dialogue",
+    "unitId": "a2-housing-services",
+    "title": "حوار: اقرأ الأرقام ولا تستنتج سعراً غير مذكور",
+    "dutchTitle": "Meterstand, verbruik en maandbedrag",
+    "role": "أنت أمير في تمرين بأرقام مختلقة. كانت القراءة في 1 مارس 3000 kWh وفي 1 أبريل 3060 kWh. تدفع شهرياً 90 يورو. لا تعرف سعر الوحدة.",
+    "partner": "موظفة اسمها إيفا",
+    "mission": "قدّم القراءتين، وميّز الاستهلاك عن المبلغ، واسأل عن السعر المفقود.",
+    "sourceLessons": [
+      "a2-comparing-conditions-at-home",
+      "a2-checking-quantities-and-prices"
+    ],
+    "turns": [
+      {
+        "id": "a2-reading-an-energy-note-turn-1",
+        "goal": "حدد القراءتين والتاريخين.",
+        "prompt": "Welke meterstanden wilt u vergelijken?",
+        "translation": "أي قراءتين تريد مقارنتهما؟",
+        "choices": [
+          {
+            "text": "Ik betaal elke maand negentig euro.",
+            "translation": "أدفع تسعين يورو شهرياً.",
+            "feedback": "هذا مبلغ لا يحدد القراءتين."
+          },
+          {
+            "text": "3000 kWh op 1 maart en 3060 kWh op 1 april.",
+            "translation": "3000 في 1 مارس و3060 في 1 أبريل.",
+            "feedback": "حددت التاريخين والقراءتين المطلوب مقارنتهما."
+          },
+          {
+            "text": "Mijn verbruik is 3060 euro.",
+            "translation": "استهلاكي 3060 يورو.",
+            "feedback": "خلطت القراءة التراكمية بالمبلغ."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Het verschil is zestig kWh.",
+        "responseTranslation": "الفرق ستون كيلوواط ساعة."
+      },
+      {
+        "id": "a2-reading-an-energy-note-turn-2",
+        "goal": "قل الفرق بوحدته.",
+        "prompt": "Wat is dus het verbruik tussen die momenten?",
+        "translation": "ما الاستهلاك إذن بين الموعدين؟",
+        "choices": [
+          {
+            "text": "Zestig euro.",
+            "translation": "ستون يورو.",
+            "feedback": "وحدة الفرق استهلاك وليست مبلغاً."
+          },
+          {
+            "text": "Drieduizend kWh.",
+            "translation": "ثلاثة آلاف كيلوواط ساعة.",
+            "feedback": "هذا أول عداد وليس فرق القراءتين."
+          },
+          {
+            "text": "Zestig kWh.",
+            "translation": "ستون كيلوواط ساعة.",
+            "feedback": "حسبت الفرق وحافظت على وحدة كيلوواط ساعة."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "En welk bedrag betaalt u per maand?",
+        "responseTranslation": "وأي مبلغ تدفع شهرياً؟"
+      },
+      {
+        "id": "a2-reading-an-energy-note-turn-3",
+        "goal": "افصل المبلغ الشهري عن الاستهلاك.",
+        "prompt": "Welk bedrag betaalt u per maand?",
+        "translation": "أي مبلغ تدفع شهرياً؟",
+        "choices": [
+          {
+            "text": "Ik betaal negentig euro per maand.",
+            "translation": "أدفع تسعين يورو شهرياً.",
+            "feedback": "أجبت عن المبلغ الشهري باليورو دون جعله سعر الوحدة."
+          },
+          {
+            "text": "Ik betaal zestig kWh per maand.",
+            "translation": "أدفع ستين كيلوواط ساعة شهرياً.",
+            "feedback": "السؤال عن مبلغ، والرقم المذكور للاستهلاك لا يجيب عنه."
+          },
+          {
+            "text": "Elke kWh kost negentig euro.",
+            "translation": "كل كيلوواط ساعة يكلف تسعين يورو.",
+            "feedback": "سعر الوحدة غير معلوم في دورك."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "We hebben ook de prijs per kWh nodig om de kosten te berekenen.",
+        "responseTranslation": "نحتاج أيضاً إلى سعر الوحدة لحساب التكلفة."
+      },
+      {
+        "id": "a2-reading-an-energy-note-turn-4",
+        "goal": "أعلن نقص المعلومة واطلبها.",
+        "prompt": "Weet u de prijs per kWh?",
+        "translation": "هل تعرف سعر الكيلوواط ساعة؟",
+        "choices": [
+          {
+            "text": "Ja, zestig euro.",
+            "translation": "نعم، ستون يورو.",
+            "feedback": "حوّلت فرق الاستهلاك إلى سعر غير معلوم."
+          },
+          {
+            "text": "Nee. Waar kan ik die prijs vinden?",
+            "translation": "لا. أين يمكنني العثور على هذا السعر؟",
+            "feedback": "صرحت بنقص المعلومة وطلبت مكان العثور عليها."
+          },
+          {
+            "text": "Het maandbedrag is altijd de prijs per kWh.",
+            "translation": "المبلغ الشهري هو دائماً سعر الوحدة.",
+            "feedback": "هذان مفهومان مختلفان ولا يقول النص ذلك."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Dat staat niet in deze oefennotitie. We zoeken die informatie apart op.",
+        "responseTranslation": "لا يرد ذلك في ملاحظة التدريب. نبحث عن هذه المعلومة بصورة منفصلة."
+      }
+    ],
+    "transfer": {
+      "prompt": "اشرح لصديق في مثال جديد: قراءتان 500 و540 kWh، ومبلغ شهري 65 يورو. اطلب منه عدم اعتبار 40 kWh مبلغاً باليورو واسأله أين يجد سعر الوحدة.",
+      "model": "De meterstanden zijn 500 en 540 kWh. Het verbruik is dus 40 kWh, niet veertig euro. Het maandbedrag is vijfenzestig euro. Waar vinden we de prijs per kWh?",
+      "translation": "القراءتان 500 و540. إذن الاستهلاك 40 كيلوواط ساعة وليس أربعين يورو. المبلغ الشهري خمسة وستون يورو. أين نجد سعر الوحدة؟",
+      "checklist": [
+        "هل حسبت الفرق مع الحفاظ على الوحدة؟",
+        "هل ميزت المبلغ الشهري عن السعر المفقود؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-borrowing-study-materials-dialogue",
+    "unitId": "a2-school-local-messages",
+    "title": "حوار: استعر المواد وتحقق من موعد إعادتها",
+    "dutchTitle": "Lesmateriaal lenen en terugbrengen",
+    "role": "أنت لينا. في مثال جديد كتابك مستحق الاثنين والملف الخميس. تريد استعارة الكتاب حتى الأربعاء. المعلم لا يستطيع التمديد لأن مجموعة تحتاجه الثلاثاء، ويعرض نسخة أخرى من قائمة الكلمات. توافق على القائمة وتؤكد إعادة الكتاب الاثنين.",
+    "partner": "المعلم سام",
+    "mission": "اطلب التمديد، ثم تعامل مع الرفض والبديل دون تغيير موعد الملف.",
+    "sourceLessons": [
+      "a2-understanding-school-instructions",
+      "a2-asking-about-a-course"
+    ],
+    "turns": [
+      {
+        "id": "a2-borrowing-study-materials-turn-1",
+        "goal": "حدد موعد الكتاب.",
+        "prompt": "Wanneer moet je het boek terugbrengen?",
+        "translation": "متى يجب إعادة الكتاب؟",
+        "choices": [
+          {
+            "text": "Donderdag, net als de map.",
+            "translation": "الخميس مثل الملف.",
+            "feedback": "موعد الكتاب في دورك الاثنين."
+          },
+          {
+            "text": "Ik heb al toestemming tot woensdag.",
+            "translation": "لدي إذن حتى الأربعاء بالفعل.",
+            "feedback": "أنت تريد طلب ذلك ولم تحصل على الإذن."
+          },
+          {
+            "text": "Maandag. De map breng ik donderdag terug.",
+            "translation": "الاثنين. أعيد الملف الخميس.",
+            "feedback": "ميزت موعد الكتاب الاثنين عن موعد الملف الخميس."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Wil je iets vragen over het boek?",
+        "responseTranslation": "هل تريدين سؤال شيء عن الكتاب؟"
+      },
+      {
+        "id": "a2-borrowing-study-materials-turn-2",
+        "goal": "اطلب تمديداً لا تعلنه كاتفاق.",
+        "prompt": "Wil je iets vragen over het boek?",
+        "translation": "هل تريدين سؤال شيء عن الكتاب؟",
+        "choices": [
+          {
+            "text": "Mag ik het boek tot woensdag houden?",
+            "translation": "هل يمكنني الاحتفاظ بالكتاب حتى الأربعاء؟",
+            "feedback": "صغت رغبتك كطلب إذن دون إعلان موافقة."
+          },
+          {
+            "text": "Ik houd het boek zeker tot woensdag.",
+            "translation": "سأحتفظ بالكتاب حتى الأربعاء بالتأكيد.",
+            "feedback": "أعلنت موافقة لم تحدث."
+          },
+          {
+            "text": "Mag ik de map maandag terugbrengen?",
+            "translation": "هل أعيد الملف الاثنين؟",
+            "feedback": "هذا ليس الطلب المحدد في دورك."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Dat kan niet, want een andere groep heeft het dinsdag nodig.",
+        "responseTranslation": "لا يمكن لأن مجموعة أخرى تحتاجه الثلاثاء."
+      },
+      {
+        "id": "a2-borrowing-study-materials-turn-3",
+        "goal": "تقبل البديل المتاح.",
+        "prompt": "Een andere groep heeft het dinsdag nodig. Wil je een kopie van de woordenlijst?",
+        "translation": "مجموعة أخرى تحتاجه الثلاثاء. هل تريدين نسخة من قائمة الكلمات؟",
+        "choices": [
+          {
+            "text": "Mooi, dan mag ik het boek tot woensdag houden.",
+            "translation": "جيد، إذن يمكنني الاحتفاظ بالكتاب حتى الأربعاء.",
+            "feedback": "البديل نسخة قائمة وليس تمديداً للكتاب."
+          },
+          {
+            "text": "Ja graag. Dan kan ik met die lijst oefenen.",
+            "translation": "نعم من فضلك. أستطيع التدريب بالقائمة.",
+            "feedback": "قبلت نسخة القائمة دون اعتبارها تمديداً لإعارة الكتاب."
+          },
+          {
+            "text": "Dan hoeft de map nooit terug.",
+            "translation": "إذن لا يلزم إعادة الملف أبداً.",
+            "feedback": "موعد الملف لم يُلغَ."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Goed. Wanneer breng je het boek nu terug?",
+        "responseTranslation": "جيد. متى تعيدين الكتاب الآن؟"
+      },
+      {
+        "id": "a2-borrowing-study-materials-turn-4",
+        "goal": "أكد الموعد الأصلي بعد عدم قبول التمديد.",
+        "prompt": "Wanneer breng je het boek nu terug?",
+        "translation": "متى تعيدين الكتاب الآن؟",
+        "choices": [
+          {
+            "text": "Woensdag, zoals ik graag wilde.",
+            "translation": "الأربعاء كما كنت أرغب.",
+            "feedback": "رغبتك ليست الموافقة النهائية."
+          },
+          {
+            "text": "Dinsdag, wanneer de andere groep begint.",
+            "translation": "الثلاثاء حين تبدأ المجموعة الأخرى.",
+            "feedback": "المطلوب إعادته الاثنين ليكون متاحاً للمجموعة."
+          },
+          {
+            "text": "Ik breng het maandag terug. De map volgt donderdag.",
+            "translation": "أعيده الاثنين. والملف الخميس.",
+            "feedback": "حافظت على موعد إعادة الكتاب الأصلي بعد تعذر التمديد."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Dank je. De kopie ligt straks voor je klaar.",
+        "responseTranslation": "شكراً. ستكون النسخة جاهزة لك بعد قليل."
+      }
+    ],
+    "transfer": {
+      "prompt": "انقل التعليمات لزميل غائب في مثال مختلف: كتابه يُعاد الثلاثاء والملف الجمعة. يحتاج إذناً منفصلاً إذا أراد الكتاب مدة أطول. لا تقل إن الإذن قد صدر.",
+      "model": "Je moet het boek dinsdag terugbrengen. De map mag je tot vrijdag houden. Wil je het boek langer gebruiken? Vraag dan eerst toestemming. Die heb je nog niet.",
+      "translation": "عليك إعادة الكتاب الثلاثاء. يمكنك الاحتفاظ بالملف حتى الجمعة. إذا أردت الكتاب مدة أطول فاطلب الإذن أولاً. لم تحصل عليه بعد.",
+      "checklist": [
+        "هل حافظت على الموعدين المختلفين؟",
+        "هل فرقت الطلب عن الإذن؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-correcting-a-misunderstanding-dialogue",
+    "unitId": "a2-social-experiences",
+    "title": "حوار: صحح سوء الفهم دون اتهام",
+    "dutchTitle": "Een misverstand rustig bespreken",
+    "role": "أنت نور. ظننت أن سام يطلب مساعدتك طوال السبت. هو يريد ترتيب أربعة كراسٍ فقط. يمكنك بعد 15:00، ثم يقترح 15:30 فتوافق.",
+    "partner": "صديقك سام",
+    "mission": "استوضح المهمة، واعتذر عن الفهم السابق، ثم اتفق على وقت محدد.",
+    "sourceLessons": [
+      "a2-disagreeing-politely",
+      "a2-asking-follow-up-questions"
+    ],
+    "turns": [
+      {
+        "id": "a2-correcting-a-misunderstanding-turn-1",
+        "goal": "اشرح افتراضك لا طلبه الحقيقي.",
+        "prompt": "Waarom dacht je dat je niet kon helpen?",
+        "translation": "لماذا ظننت أنك لا تستطيعين المساعدة؟",
+        "choices": [
+          {
+            "text": "Ik dacht dat je de hele zaterdag hulp nodig had.",
+            "translation": "ظننت أنك تحتاج المساعدة طوال السبت.",
+            "feedback": "شرحت افتراضك السابق دون نسبته إلى كلام الصديق كحقيقة."
+          },
+          {
+            "text": "Je hebt gezegd dat ik nooit mag helpen.",
+            "translation": "قلت إنني لا أستطيع المساعدة أبداً.",
+            "feedback": "هذا اتهام لا يوجد في بطاقة الدور."
+          },
+          {
+            "text": "Ik heb de vier stoelen al klaargezet.",
+            "translation": "جهزت الكراسي الأربعة بالفعل.",
+            "feedback": "لم يحدث تجهيز الكراسي في الدور."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Nee, het gaat alleen om vier stoelen.",
+        "responseTranslation": "لا، الأمر يتعلق بأربعة كراسٍ فقط."
+      },
+      {
+        "id": "a2-correcting-a-misunderstanding-turn-2",
+        "goal": "اعترف بسوء الفهم وصححه.",
+        "prompt": "Het gaat alleen om vier stoelen. Wat zeg je?",
+        "translation": "الأمر يتعلق بأربعة كراسٍ فقط. ماذا تقولين؟",
+        "choices": [
+          {
+            "text": "Dus ik moet toch de hele dag blijven.",
+            "translation": "إذن علي البقاء طوال اليوم.",
+            "feedback": "ألغى التوضيح افتراض اليوم كله."
+          },
+          {
+            "text": "Sorry, ik had je verkeerd begrepen. Vier stoelen kan ik wel klaarzetten.",
+            "translation": "آسفة، فهمتك خطأ. أستطيع تجهيز أربعة كراسٍ.",
+            "feedback": "اعتذرت وصححت فهم حجم المهمة."
+          },
+          {
+            "text": "Dan zijn alle stoelen al klaar.",
+            "translation": "إذن كل الكراسي جاهزة بالفعل.",
+            "feedback": "توضيح المهمة لا يعني أنها أُنجزت."
+          }
+        ],
+        "correctIndex": 1,
+        "response": "Wanneer kun je helpen?",
+        "responseTranslation": "متى تستطيعين المساعدة؟"
+      },
+      {
+        "id": "a2-correcting-a-misunderstanding-turn-3",
+        "goal": "اذكر قيد الوقت دون تأكيد وقت محدد بعد.",
+        "prompt": "Wanneer kun je helpen?",
+        "translation": "متى تستطيعين المساعدة؟",
+        "choices": [
+          {
+            "text": "Ik ben zeker om drie uur klaar.",
+            "translation": "سأنتهي بالتأكيد الثالثة.",
+            "feedback": "دورك يحدد إمكان البدء بعد الثالثة، لا وقت الانتهاء."
+          },
+          {
+            "text": "Ik kan de hele ochtend.",
+            "translation": "أستطيع طوال الصباح.",
+            "feedback": "هذا يخالف القيد في دورك."
+          },
+          {
+            "text": "Ik kan pas na drie uur. Welke tijd past jou?",
+            "translation": "لا أستطيع إلا بعد الثالثة. أي وقت يناسبك؟",
+            "feedback": "ذكرت أنك متاح بعد الثالثة وطلبت تحديد موعد مناسب."
+          }
+        ],
+        "correctIndex": 2,
+        "response": "Kan het om half vier?",
+        "responseTranslation": "هل يمكن الثالثة والنصف؟"
+      },
+      {
+        "id": "a2-correcting-a-misunderstanding-turn-4",
+        "goal": "وافق على الاقتراح الدقيق وأعد المهمة.",
+        "prompt": "Kan het om half vier?",
+        "translation": "هل يمكن الثالثة والنصف؟",
+        "choices": [
+          {
+            "text": "Ja. Zaterdag om half vier zetten we de vier stoelen klaar.",
+            "translation": "نعم. السبت الثالثة والنصف نجهز الكراسي الأربعة.",
+            "feedback": "أكدت اليوم والوقت الدقيق والمهمة التي اتفقتما عليها."
+          },
+          {
+            "text": "Ja, zondag om half drie.",
+            "translation": "نعم، الأحد الثانية والنصف.",
+            "feedback": "غيّرت اليوم والوقت."
+          },
+          {
+            "text": "Ja, dan doen we de hele tuin.",
+            "translation": "نعم، إذن نعمل في الحديقة كلها.",
+            "feedback": "هذه ليست مهمة هذا الحوار."
+          }
+        ],
+        "correctIndex": 0,
+        "response": "Afgesproken. Bedankt dat je het nog even vroeg.",
+        "responseTranslation": "اتفقنا. شكراً لسؤالك للتوضيح."
+      }
+    ],
+    "transfer": {
+      "prompt": "اكتب لصديق: ظننت أن عليه شراء كل طعام اللقاء، لكنه يحتاج إحضار خبز فقط. صحح فهمك واسأله كم رغيفاً يحتاج دون افتراض عدد.",
+      "model": "Ik dacht dat je al het eten nodig had, maar je bedoelt alleen brood. Sorry, ik had je verkeerd begrepen. Hoeveel broden zal ik meenemen?",
+      "translation": "ظننت أنك تحتاج كل الطعام، لكنك تقصد الخبز فقط. آسف، فهمتك خطأ. كم رغيفاً أحضر؟",
+      "checklist": [
+        "هل فرقت الافتراض السابق عن الطلب الحقيقي؟",
+        "هل سألت عن العدد الذي لم يُحدد؟"
+      ]
+    }
   }
 ]

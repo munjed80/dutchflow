@@ -29,7 +29,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
   const recycling = a2Recycling.filter((set) => set.anchors.some((anchor) => anchor.lessonSlug === lesson.slug));
   const extension = lessonExtensions.find((item) => item.lessonSlug === lesson.slug);
 
-  return <div className="shell lesson-page">
+  return <div className={`shell lesson-page${lesson.level === "A2" ? " a2-lesson-page" : ""}`}>
     <div className="breadcrumb"><Link href={levelHref("/learn", lesson.level)}>كل الدروس</Link><span> / </span><span>{lesson.level}</span><span> / </span><span>{lesson.title}</span></div>
     <div className="lesson-page-heading"><span className="eyebrow">{module?.title} · الدرس {lesson.number} من {levelLessons.length} · {lesson.durationMinutes} دقائق</span><h1>{lesson.title}</h1><p className="lesson-nl" lang="nl" dir="ltr">{lesson.dutchTitle}</p><p>{lesson.description}</p></div>
     <nav className="lesson-navigation" aria-label="التنقل بين الدروس">

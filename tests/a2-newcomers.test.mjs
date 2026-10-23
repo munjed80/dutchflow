@@ -28,6 +28,9 @@ test("newcomer preparation links only A2 lessons in the application's units and 
 test("all published forty-eight lessons and preceding resources remain byte-equivalent as applications append", async () => {
   const names = ["a2-lessons", "a2-modules", "a2-roadmap", "a2-lesson-extensions", "a2-readings", "a2-scenarios", "a2-practice", "a2-recycling", "a2-review-links"];
   const old = Object.fromEntries(await Promise.all(names.map(async (name) => [name, await read(name)])));
+  old["a2-readings"] = old["a2-readings"].slice(0, 24);
+  old["a2-scenarios"] = old["a2-scenarios"].slice(0, 24);
+  old["a2-roadmap"] = old["a2-roadmap"].map((unit) => ({ ...unit, readingSlugs: unit.readingSlugs.slice(0, 3) }));
   old["a2-practice"] = old["a2-practice"].slice(0, 9);
   old["a2-review-links"] = Object.fromEntries(Object.entries(old["a2-review-links"]).slice(0, 168));
   // Captured from PR #41's green head 63dfaf7 before this expansion.

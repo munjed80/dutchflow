@@ -20,7 +20,7 @@ test("the published A2 units have connected reception, production, interaction a
   assert.equal(a2.lessons.length, 48);
   assert.equal(a2.extensions.length, 48);
   assert.equal(a2.lessons.flatMap((lesson) => lesson.phrases).length, 384);
-  assert.equal(a2.readings.length, 24);
+  assert.equal(a2.readings.length, 28);
   assert.equal(a2.scenarios[0].turns.length, 4);
   assert.equal(a2.practice.length, 13);
   assert.equal(a2.extensions.flatMap((item) => item.vocabulary).length, 288);

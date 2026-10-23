@@ -2765,5 +2765,537 @@
         "هل حافظت على كون القرار غير نهائي؟"
       ]
     }
+  },
+  {
+    "slug": "a2-reporting-a-workplace-observation",
+    "title": "صف ما رأيت واطلب توضيح المهمة",
+    "dutchTitle": "Een probleem op de werkvloer melden",
+    "topic": "صف ما رأيت واطلب توضيح المهمة",
+    "sourceLessons": [
+      "a2-clarifying-instructions",
+      "a2-reporting-task-progress"
+    ],
+    "text": "Oefenbericht in magazijn De Linde. Tijdens het klaarzetten van dozen ziet Sami water op de vloer bij deur twee. Hij vertelt aan begeleider Eva waar het water ligt. Hij weet niet waar het vandaan komt. In deze oefensituatie zegt Eva: gebruik voorlopig deur drie. Zij zet een bord bij deur twee en vraagt een collega om de vloer droog te maken. Sami hoeft dat niet zelf te doen. Hij kan de dozen via deur drie naar de werktafel brengen. Na de pauze vraagt hij of deur twee weer gebruikt kan worden. Eva heeft dat nog niet gecontroleerd. Daarom blijft de andere route voorlopig nodig.",
+    "translation": "رسالة تدريب في مستودع دي لينده. أثناء تجهيز الصناديق يرى سامي ماءً على الأرض قرب الباب الثاني. يخبر المشرفة إيفا بمكان الماء. لا يعرف مصدره. في هذا الموقف التدريبي تقول إيفا: استخدم الباب الثالث مؤقتاً. تضع لوحة قرب الباب الثاني وتطلب من زميل تجفيف الأرض. لا يلزم سامي فعل ذلك بنفسه. يستطيع نقل الصناديق عبر الباب الثالث إلى طاولة العمل. بعد الاستراحة يسأل إن كان يمكن استخدام الباب الثاني مجدداً. لم تتحقق إيفا من ذلك بعد، ولذلك يبقى المسار الآخر ضرورياً مؤقتاً.",
+    "vocabulary": [
+      {
+        "term": "de vloer",
+        "excerpt": "op de vloer",
+        "meaning": "الأرضية؛ de vloer وجمعها vloeren"
+      },
+      {
+        "term": "vandaan komen",
+        "excerpt": "waar het vandaan komt",
+        "meaning": "يأتي من مكان؛ السؤال عن المصدر"
+      },
+      {
+        "term": "voorlopig",
+        "excerpt": "voorlopig deur drie",
+        "meaning": "في الوقت الحالي، إلى حين تحديث المعلومات"
+      },
+      {
+        "term": "droogmaken",
+        "excerpt": "droog te maken",
+        "meaning": "يجفف؛ maakt droog، heeft drooggemaakt"
+      },
+      {
+        "term": "de route",
+        "excerpt": "de andere route",
+        "meaning": "المسار؛ de route وجمعها routes"
+      },
+      {
+        "term": "controleren",
+        "excerpt": "nog niet gecontroleerd",
+        "meaning": "يتحقق؛ هنا لم يتحقق بعد"
+      }
+    ],
+    "grammar": {
+      "title": "تحديد السبب بكلمة daarom",
+      "explanation": "تربط daarom نتيجةً بالمعلومة السابقة؛ يأتي الفعل بعدها قبل الفاعل في هذا المثال.",
+      "example": "Daarom blijft de andere route voorlopig nodig.",
+      "translation": "لذلك يبقى المسار الآخر ضرورياً مؤقتاً."
+    },
+    "questions": [
+      {
+        "id": "a2-reporting-a-workplace-observation-q1",
+        "prompt": "ما الذي يعرفه سامي عن الماء؟",
+        "options": [
+          "مكانه فقط؛ لا يعرف المصدر",
+          "مصدره ووقت إصلاحه",
+          "أن الباب الثالث مبلل"
+        ],
+        "correctIndex": 0,
+        "evidence": "Hij vertelt aan begeleider Eva waar het water ligt. Hij weet niet waar het vandaan komt.",
+        "explanation": "فرّق النص بين ملاحظة المكان ومعرفة السبب."
+      },
+      {
+        "id": "a2-reporting-a-workplace-observation-q2",
+        "prompt": "أي باب يستخدم سامي مؤقتاً؟",
+        "options": [
+          "الباب الثاني",
+          "الباب الثالث",
+          "كل الأبواب مغلقة"
+        ],
+        "correctIndex": 1,
+        "evidence": "gebruik voorlopig deur drie.",
+        "explanation": "voorlopig تجعل التعليمات مؤقتة."
+      },
+      {
+        "id": "a2-reporting-a-workplace-observation-q3",
+        "prompt": "من تطلب منه إيفا تجفيف الأرض؟",
+        "options": [
+          "سامي وحده",
+          "كل زائر إلى المستودع",
+          "زميل؛ وليس سامي نفسه"
+        ],
+        "correctIndex": 2,
+        "evidence": "Zij zet een bord bij deur twee en vraagt een collega om de vloer droog te maken. Sami hoeft dat niet zelf te doen.",
+        "explanation": "طلب التجفيف موجّه إلى زميل، بينما يستمر سامي بمهمة أخرى."
+      },
+      {
+        "id": "a2-reporting-a-workplace-observation-q4",
+        "prompt": "ما مهمة سامي المتاحة الآن؟",
+        "options": [
+          "نقل الصناديق عبر الباب الثالث إلى طاولة العمل",
+          "إزالة اللوحة دون سؤال",
+          "التحقق من مصدر الماء بنفسه"
+        ],
+        "correctIndex": 0,
+        "evidence": "Hij kan de dozen via deur drie naar de werktafel brengen.",
+        "explanation": "التعليمات تحدد مهمة ومساراً بديلين."
+      },
+      {
+        "id": "a2-reporting-a-workplace-observation-q5",
+        "prompt": "هل تأكدت صلاحية الباب الثاني بعد الاستراحة؟",
+        "options": [
+          "نعم؛ انتهاء الاستراحة يؤكد ذلك",
+          "لا؛ لم تتحقق إيفا بعد",
+          "نعم؛ سامي يعرف سبب الماء"
+        ],
+        "correctIndex": 1,
+        "evidence": "Na de pauze vraagt hij of deur twee weer gebruikt kan worden. Eva heeft dat nog niet gecontroleerd.",
+        "explanation": "السؤال عن الصلاحية لا يعني أنها تأكدت."
+      },
+      {
+        "id": "a2-reporting-a-workplace-observation-q6",
+        "prompt": "لماذا يبقى المسار الآخر مطلوباً؟",
+        "options": [
+          "لأن نقل الصناديق انتهى نهائياً",
+          "لأن الماء عند الباب الثالث",
+          "لأن استخدام الباب الثاني لم يُتحقق منه بعد"
+        ],
+        "correctIndex": 2,
+        "evidence": "Eva heeft dat nog niet gecontroleerd. Daarom blijft de andere route voorlopig nodig.",
+        "explanation": "الدليل يجمع السبب والنتيجة ولا يفترض جفاف الأرض."
+      }
+    ],
+    "production": {
+      "prompt": "أبلغ مشرفاً في موقف خيالي: رأيت ماءً قرب الباب الرابع، ولا تعرف المصدر. اسأل عن المسار الذي يمكنك استخدامه بدلاً منه. لا تفترض سبب المشكلة.",
+      "model": "Bij deur vier ligt water op de vloer. Ik weet niet waar het vandaan komt. Welke route kan ik voorlopig gebruiken?",
+      "translation": "يوجد ماء على الأرض قرب الباب الرابع. لا أعرف مصدره. أي مسار يمكنني استخدامه مؤقتاً؟",
+      "checklist": [
+        "هل وصفت المكان وفصلت الملاحظة عن السبب غير المعروف؟",
+        "هل طلبت توضيح المسار بدلاً من اختراعه؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-reading-an-energy-note",
+    "title": "اقرأ الأرقام ولا تستنتج سعراً غير مذكور",
+    "dutchTitle": "Meterstand, verbruik en maandbedrag",
+    "topic": "اقرأ الأرقام ولا تستنتج سعراً غير مذكور",
+    "sourceLessons": [
+      "a2-comparing-conditions-at-home",
+      "a2-checking-quantities-and-prices"
+    ],
+    "text": "Dit is een verzonnen energienotitie om Nederlands te oefenen. Op 1 mei schrijft Noor de meterstand op: 1200 kWh. Op 1 juni is de stand 1245 kWh. Het verschil is 45 kWh. Dat is het verbruik tussen deze twee momenten, niet het bedrag in euro. In de notitie staat ook een maandbedrag van zeventig euro. Noor betaalt dat bedrag iedere maand. De prijs per kWh staat niet in deze oefentekst. Daarom kun je hier niet berekenen wat precies dit verbruik kost. Noor maakt een foto van beide meterstanden en vraagt uitleg over de verschillende cijfers. De medewerker vraagt welke periode zij wil vergelijken.",
+    "translation": "هذه ملاحظة طاقة مختلقة للتدرب على الهولندية. في 1 مايو تسجل نور قراءة العداد: 1200 كيلوواط ساعة. في 1 يونيو تصبح القراءة 1245. الفرق 45 كيلوواط ساعة. هذا استهلاك الفترة بين الموعدين وليس مبلغاً باليورو. تذكر الملاحظة أيضاً مبلغاً شهرياً قدره سبعون يورو تدفعه نور كل شهر. لا يرد سعر الكيلوواط ساعة في نص التدريب، ولذلك لا يمكن حساب تكلفة هذا الاستهلاك بدقة من النص. تلتقط نور صورة للقراءتين وتطلب شرح الأرقام المختلفة. يسأل الموظف عن الفترة التي تريد مقارنتها.",
+    "vocabulary": [
+      {
+        "term": "de meterstand",
+        "excerpt": "de meterstand",
+        "meaning": "قراءة العداد؛ الجمع meterstanden"
+      },
+      {
+        "term": "het verschil",
+        "excerpt": "Het verschil is 45 kWh.",
+        "meaning": "الفرق بين رقمين؛ الجمع verschillen"
+      },
+      {
+        "term": "het verbruik",
+        "excerpt": "het verbruik tussen deze twee momenten",
+        "meaning": "الاستهلاك خلال فترة محددة"
+      },
+      {
+        "term": "het maandbedrag",
+        "excerpt": "een maandbedrag van zeventig euro",
+        "meaning": "المبلغ الشهري؛ الجمع maandbedragen"
+      },
+      {
+        "term": "berekenen",
+        "excerpt": "niet berekenen",
+        "meaning": "يحسب؛ berekent، heeft berekend"
+      },
+      {
+        "term": "vergelijken",
+        "excerpt": "welke periode zij wil vergelijken",
+        "meaning": "يقارن؛ vergelijkt، heeft vergeleken"
+      }
+    ],
+    "grammar": {
+      "title": "السؤال غير المباشر مع welke",
+      "explanation": "في السؤال المنقول يأتي الفعل في آخر العبارة التابعة: welke periode zij wil vergelijken.",
+      "example": "De medewerker vraagt welke periode zij wil vergelijken.",
+      "translation": "يسأل الموظف عن الفترة التي تريد مقارنتها."
+    },
+    "questions": [
+      {
+        "id": "a2-reading-an-energy-note-q1",
+        "prompt": "إلى ماذا يشير 1245 kWh؟",
+        "options": [
+          "استهلاك الفترة وحده",
+          "قراءة العداد في 1 يونيو",
+          "مبلغ الفاتورة باليورو"
+        ],
+        "correctIndex": 1,
+        "evidence": "Op 1 juni is de stand 1245 kWh.",
+        "explanation": "stand قراءة تراكمية في وقت معين."
+      },
+      {
+        "id": "a2-reading-an-energy-note-q2",
+        "prompt": "ما استهلاك الفترة المكتوب؟",
+        "options": [
+          "1200 يورو",
+          "70 kWh",
+          "45 kWh"
+        ],
+        "correctIndex": 2,
+        "evidence": "Het verschil is 45 kWh. Dat is het verbruik tussen deze twee momenten",
+        "explanation": "الفرق هو الاستهلاك بين القراءتين."
+      },
+      {
+        "id": "a2-reading-an-energy-note-q3",
+        "prompt": "ما وحدة العدد 45 هنا؟",
+        "options": [
+          "كيلوواط ساعة، لا يورو",
+          "يورو، لا استهلاك",
+          "عدد الأشهر"
+        ],
+        "correctIndex": 0,
+        "evidence": "Het verschil is 45 kWh. Dat is het verbruik tussen deze twee momenten, niet het bedrag in euro.",
+        "explanation": "الوحدات جزء من المعنى ولا يجوز استبدالها."
+      },
+      {
+        "id": "a2-reading-an-energy-note-q4",
+        "prompt": "ماذا يمثل مبلغ 70 يورو؟",
+        "options": [
+          "سعر كل كيلوواط ساعة",
+          "مبلغاً تدفعه نور شهرياً في المثال",
+          "التكلفة المحسوبة لاستهلاك 45 kWh"
+        ],
+        "correctIndex": 1,
+        "evidence": "In de notitie staat ook een maandbedrag van zeventig euro. Noor betaalt dat bedrag iedere maand.",
+        "explanation": "النص يصفه كمبلغ شهري دون ربطه بتكلفة هذا الفرق."
+      },
+      {
+        "id": "a2-reading-an-energy-note-q5",
+        "prompt": "لماذا لا يمكن حساب تكلفة هذا الاستهلاك بدقة؟",
+        "options": [
+          "كلتا قراءتي العداد مفقودتان",
+          "التكلفة تساوي دائماً 45 يورو",
+          "سعر الكيلوواط ساعة غير مذكور"
+        ],
+        "correctIndex": 2,
+        "evidence": "De prijs per kWh staat niet in deze oefentekst. Daarom kun je hier niet berekenen wat precies dit verbruik kost.",
+        "explanation": "يحتاج الحساب إلى معلومة غير متاحة في النص."
+      },
+      {
+        "id": "a2-reading-an-energy-note-q6",
+        "prompt": "ما الذي يريد الموظف معرفته؟",
+        "options": [
+          "الفترة التي تريد نور مقارنتها",
+          "عدد الأشخاص في المستودع",
+          "موعد إرجاع الكتب"
+        ],
+        "correctIndex": 0,
+        "evidence": "De medewerker vraagt welke periode zij wil vergelijken.",
+        "explanation": "welke periode سؤال عن الفترة المحددة."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب استفساراً خيالياً: القراءة الأولى 2100 kWh والثانية 2160 kWh؛ الفرق 60 kWh. مبلغك الشهري 80 يورو لكن سعر الوحدة غير مذكور. اطلب شرحاً دون مساواة الفرق بالمبلغ.",
+      "model": "Mijn meterstanden zijn 2100 en 2160 kWh. Het verschil is 60 kWh. Mijn maandbedrag is tachtig euro. De prijs per kWh staat er niet bij. Kunt u het verschil tussen het verbruik en het maandbedrag uitleggen?",
+      "translation": "قراءتا عدادي 2100 و2160 كيلوواط ساعة. الفرق 60. مبلغي الشهري ثمانون يورو. سعر الوحدة غير مذكور. هل تشرح الفرق بين الاستهلاك والمبلغ الشهري؟",
+      "checklist": [
+        "هل احتفظت بالوحدات والفرق الصحيح؟",
+        "هل طلبت تفسير المعلومة الناقصة دون اختراع سعر؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-borrowing-study-materials",
+    "title": "استعر المواد وتحقق من موعد إعادتها",
+    "dutchTitle": "Lesmateriaal lenen en terugbrengen",
+    "topic": "استعر المواد وتحقق من موعد إعادتها",
+    "sourceLessons": [
+      "a2-understanding-school-instructions",
+      "a2-asking-about-a-course"
+    ],
+    "text": "Een verzonnen bericht van taalklas De Brug. Beste cursist, voor het project kunt u een leesboek en een oefenmap lenen. Het leesboek moet uiterlijk woensdag terug zijn, want een andere groep gebruikt het donderdag. De oefenmap mag u tot vrijdag houden. Schrijf uw naam op de uitleenlijst, niet in het boek. Wilt u het boek langer gebruiken? Vraag het eerst aan docent Eva. Een vraag is nog geen toestemming. U kunt wel een foto van de woordenlijst in de oefenmap maken voor uw eigen oefening. Heeft u toestemming om het boek tot vrijdag te houden? Neem dan beide materialen mee naar de les. Heeft u het boek woensdag al teruggebracht? Dan neemt u vrijdag alleen de map mee.",
+    "translation": "رسالة مختلقة من صف اللغة دي بروخ. المتعلم المحترم، يمكنك استعارة كتاب قراءة وملف تدريب للمشروع. يجب إعادة الكتاب في موعد أقصاه الأربعاء لأن مجموعة أخرى تستخدمه الخميس. يمكنك الاحتفاظ بالملف حتى الجمعة. اكتب اسمك في قائمة الإعارة وليس داخل الكتاب. إن أردت الكتاب مدة أطول فاسأل المعلمة إيفا أولاً؛ السؤال ليس إذناً بعد. يمكنك تصوير قائمة الكلمات في الملف للتدرب الشخصي. إذا حصلت على إذن للاحتفاظ بالكتاب حتى الجمعة، فأحضر المادتين إلى الدرس. إذا كنت قد أعدت الكتاب الأربعاء، فأحضر الملف فقط الجمعة.",
+    "vocabulary": [
+      {
+        "term": "lenen",
+        "excerpt": "een oefenmap lenen",
+        "meaning": "يستعير؛ leent، heeft geleend"
+      },
+      {
+        "term": "uiterlijk",
+        "excerpt": "uiterlijk woensdag",
+        "meaning": "في موعد أقصاه الأربعاء"
+      },
+      {
+        "term": "houden",
+        "excerpt": "tot vrijdag houden",
+        "meaning": "يحتفظ؛ houdt، heeft gehouden"
+      },
+      {
+        "term": "de uitleenlijst",
+        "excerpt": "op de uitleenlijst",
+        "meaning": "قائمة الإعارة؛ الجمع uitleenlijsten"
+      },
+      {
+        "term": "toestemming",
+        "excerpt": "nog geen toestemming",
+        "meaning": "إذن؛ الطلب لا يعني منحه"
+      },
+      {
+        "term": "terugbrengen",
+        "excerpt": "woensdag al teruggebracht",
+        "meaning": "يعيد الشيء؛ brengt terug، heeft teruggebracht"
+      }
+    ],
+    "grammar": {
+      "title": "الجملة الشرطية مع dan",
+      "explanation": "عندما يبدأ الشرط بسؤال ثم تأتي النتيجة، تبدأ النتيجة بـ dan ويتبعها الفعل قبل الفاعل.",
+      "example": "Dan neemt u vrijdag alleen de map mee.",
+      "translation": "إذن تحضر الملف فقط الجمعة."
+    },
+    "questions": [
+      {
+        "id": "a2-borrowing-study-materials-q1",
+        "prompt": "متى يجب إرجاع الكتاب؟",
+        "options": [
+          "الجمعة دائماً",
+          "بعد أن تنتهي المجموعة الأخرى الخميس",
+          "في موعد أقصاه الأربعاء"
+        ],
+        "correctIndex": 2,
+        "evidence": "Het leesboek moet uiterlijk woensdag terug zijn",
+        "explanation": "الموعد خاص بالكتاب لا بملف التدريب."
+      },
+      {
+        "id": "a2-borrowing-study-materials-q2",
+        "prompt": "إلى متى يمكن الاحتفاظ بالملف؟",
+        "options": [
+          "إلى الجمعة",
+          "إلى الأربعاء فقط",
+          "إلى الشهر المقبل"
+        ],
+        "correctIndex": 0,
+        "evidence": "De oefenmap mag u tot vrijdag houden.",
+        "explanation": "للملف موعد مختلف عن الكتاب."
+      },
+      {
+        "id": "a2-borrowing-study-materials-q3",
+        "prompt": "أين يكتب المتعلم اسمه؟",
+        "options": [
+          "داخل الكتاب",
+          "في قائمة الإعارة",
+          "على كلمات زميله"
+        ],
+        "correctIndex": 1,
+        "evidence": "Schrijf uw naam op de uitleenlijst, niet in het boek.",
+        "explanation": "التعليمات تفرق بين موضعين واضحين."
+      },
+      {
+        "id": "a2-borrowing-study-materials-q4",
+        "prompt": "هل سؤال إيفا عن تمديد الإعارة يضمن الإذن؟",
+        "options": [
+          "نعم، بمجرد طرح السؤال",
+          "نعم، إذا لم يكتب الاسم في الكتاب",
+          "لا، السؤال ليس إذناً بعد"
+        ],
+        "correctIndex": 2,
+        "evidence": "Vraag het eerst aan docent Eva. Een vraag is nog geen toestemming.",
+        "explanation": "لا تستنتج الموافقة من مجرد الطلب."
+      },
+      {
+        "id": "a2-borrowing-study-materials-q5",
+        "prompt": "لماذا موعد الكتاب الأربعاء؟",
+        "options": [
+          "لأن مجموعة أخرى تستخدمه الخميس",
+          "لأن الملف سيباع الجمعة",
+          "لأن درس الجمعة ألغي"
+        ],
+        "correctIndex": 0,
+        "evidence": "Het leesboek moet uiterlijk woensdag terug zijn, want een andere groep gebruikt het donderdag.",
+        "explanation": "want تقدم السبب ولا تغيّر موعد الإعادة."
+      },
+      {
+        "id": "a2-borrowing-study-materials-q6",
+        "prompt": "إذا أعاد الكتاب الأربعاء، فماذا يحضر الجمعة؟",
+        "options": [
+          "الكتاب فقط",
+          "الملف فقط",
+          "لا يحضر أي مادة"
+        ],
+        "correctIndex": 1,
+        "evidence": "Heeft u het boek woensdag al teruggebracht? Dan neemt u vrijdag alleen de map mee.",
+        "explanation": "النتيجة مشروطة بإعادة الكتاب بالفعل."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب طلب تمديد في مثال جديد: يجب إعادة كتابك الاثنين، لكن تحتاجه حتى الأربعاء. اسأل المعلم إن كان ذلك ممكناً، وقل إنك ستعيده الاثنين إذا لم يمكن. لا تفترض قبول التمديد.",
+      "model": "Beste docent, ik moet het boek maandag terugbrengen. Mag ik het tot woensdag houden? Als dat niet kan, breng ik het maandag terug. Alvast bedankt. Groet, Lina",
+      "translation": "المعلم المحترم، يجب أن أعيد الكتاب الاثنين. هل يمكنني الاحتفاظ به حتى الأربعاء؟ إذا تعذر ذلك أعيده الاثنين. شكراً مقدماً، لينا.",
+      "checklist": [
+        "هل ميزت الموعد الأصلي عن الموعد المطلوب؟",
+        "هل حافظت على الشرط دون ادعاء الموافقة؟"
+      ]
+    }
+  },
+  {
+    "slug": "a2-correcting-a-misunderstanding",
+    "title": "صحح سوء الفهم دون اتهام",
+    "dutchTitle": "Een misverstand rustig bespreken",
+    "topic": "صحح سوء الفهم دون اتهام",
+    "sourceLessons": [
+      "a2-disagreeing-politely",
+      "a2-asking-follow-up-questions"
+    ],
+    "text": "Een oefenverhaal. Eva vraagt aan buurman Amir: kun je zaterdag even helpen met de planten? Amir denkt dat hij de hele tuin moet doen. Hij heeft daar geen tijd voor en stuurt een kort bericht: dat lukt niet. Eva schrikt, want zij bedoelde alleen twee potten naar het balkon dragen. Later vraagt Amir welke hulp zij precies nodig heeft. Eva legt haar vraag opnieuw uit. Amir zegt: sorry, ik had je verkeerd begrepen. Hij kan de twee potten wel samen met haar dragen, maar pas na twee uur. Eva vindt dat goed. Ze spreken af eerst te kijken of de potten niet te zwaar zijn. Voor de rest van de tuin vraagt Eva iemand anders.",
+    "translation": "قصة تدريبية. تسأل إيفا جارها أمير إن كان يستطيع مساعدتها قليلاً بالنباتات السبت. يظن أمير أن عليه العمل في الحديقة كلها. لا يملك وقتاً لذلك ويرسل رداً قصيراً: لا أستطيع. تتفاجأ إيفا لأنها تقصد حمل أصيصين إلى الشرفة فقط. يسأل أمير لاحقاً أي مساعدة تحتاج بالضبط. تشرح إيفا طلبها مجدداً. يقول أمير: آسف، فهمتك خطأ. يستطيع حمل الأصيصين معها لكن بعد الثانية فقط. توافق إيفا. يتفقان على التحقق أولاً مما إذا كان الأصيصان ثقيلين أكثر من اللازم. تطلب إيفا مساعدة شخص آخر لبقية الحديقة.",
+    "vocabulary": [
+      {
+        "term": "de buurman",
+        "excerpt": "buurman Amir",
+        "meaning": "الجار؛ الجمع buurmannen أو buren بحسب السياق"
+      },
+      {
+        "term": "bedoelen",
+        "excerpt": "zij bedoelde",
+        "meaning": "يقصد؛ bedoelt، heeft bedoeld"
+      },
+      {
+        "term": "precies",
+        "excerpt": "welke hulp zij precies nodig heeft",
+        "meaning": "بالتحديد"
+      },
+      {
+        "term": "verkeerd begrijpen",
+        "excerpt": "ik had je verkeerd begrepen",
+        "meaning": "يفهم خطأ؛ اعتذار عن فهم سابق غير صحيح"
+      },
+      {
+        "term": "de pot",
+        "excerpt": "twee potten",
+        "meaning": "الأصيص هنا؛ de pot وجمعها potten"
+      },
+      {
+        "term": "de rest",
+        "excerpt": "de rest van de tuin",
+        "meaning": "بقية الشيء"
+      }
+    ],
+    "grammar": {
+      "title": "pas مع الوقت",
+      "explanation": "pas na twee uur تقيد الوقت: لا يستطيع قبل الثانية، ولا تعني أنه اتفق على الثانية تماماً.",
+      "example": "maar pas na twee uur.",
+      "translation": "لكن بعد الثانية فقط."
+    },
+    "questions": [
+      {
+        "id": "a2-correcting-a-misunderstanding-q1",
+        "prompt": "ماذا افترض أمير أولاً؟",
+        "options": [
+          "أن المطلوب العمل في الحديقة كلها",
+          "أن المطلوب حمل أصيصين فقط",
+          "أن إيفا لا تحتاج أي مساعدة"
+        ],
+        "correctIndex": 0,
+        "evidence": "Amir denkt dat hij de hele tuin moet doen.",
+        "explanation": "هذا افتراض أمير الأول لا الطلب الذي توضحه إيفا لاحقاً."
+      },
+      {
+        "id": "a2-correcting-a-misunderstanding-q2",
+        "prompt": "ما طلب إيفا الحقيقي؟",
+        "options": [
+          "العمل في الحديقة كلها",
+          "حمل أصيصين إلى الشرفة",
+          "شراء نباتات جديدة"
+        ],
+        "correctIndex": 1,
+        "evidence": "zij bedoelde alleen twee potten naar het balkon dragen.",
+        "explanation": "alleen تقصر الطلب على الأصيصين."
+      },
+      {
+        "id": "a2-correcting-a-misunderstanding-q3",
+        "prompt": "كيف اكتشف أمير ما تقصده إيفا؟",
+        "options": [
+          "اعتمد على افتراضه الأول",
+          "طلب من الجميع عدم الرد",
+          "سأل عن المساعدة المطلوبة بالتحديد"
+        ],
+        "correctIndex": 2,
+        "evidence": "Later vraagt Amir welke hulp zij precies nodig heeft. Eva legt haar vraag opnieuw uit.",
+        "explanation": "السؤال والتوضيح حلا نقص المعلومات."
+      },
+      {
+        "id": "a2-correcting-a-misunderstanding-q4",
+        "prompt": "كيف عبّر عن سوء فهمه؟",
+        "options": [
+          "اعتذر وقال إنه فهم خطأ",
+          "أكد أن إيفا وعدته بمال",
+          "قال إنه أنجز الحديقة كلها"
+        ],
+        "correctIndex": 0,
+        "evidence": "Amir zegt: sorry, ik had je verkeerd begrepen.",
+        "explanation": "العبارة تصحح الفهم دون إضافة اتهام."
+      },
+      {
+        "id": "a2-correcting-a-misunderstanding-q5",
+        "prompt": "هل تؤكد عبارة بعد الثانية فقط موعداً عند الثانية تماماً؟",
+        "options": [
+          "نعم؛ تؤكد الثانية تماماً",
+          "لا؛ تمنع وقتاً قبلها ولا تحدد دقيقة بدء",
+          "لا؛ تعني قبل الثانية حصراً"
+        ],
+        "correctIndex": 1,
+        "evidence": "Hij kan de twee potten wel samen met haar dragen, maar pas na twee uur.",
+        "explanation": "pas na يحدد قيداً زمنياً لا موعداً دقيقاً."
+      },
+      {
+        "id": "a2-correcting-a-misunderstanding-q6",
+        "prompt": "ماذا اتفقا أن يفعلا أولاً؟",
+        "options": [
+          "إنجاز الحديقة كلها",
+          "نقل الأصيصين وحده دون تحقق",
+          "التحقق من أن الأصيصين ليسا أثقل من اللازم"
+        ],
+        "correctIndex": 2,
+        "evidence": "Ze spreken af eerst te kijken of de potten niet te zwaar zijn.",
+        "explanation": "التحقق يسبق الفعل؛ لا يثبت النص أن النقل حدث بالفعل."
+      }
+    ],
+    "production": {
+      "prompt": "اكتب تصحيحاً ودياً في مثال جديد: ظننت أن الصديق يريد مساعدتك طوال الأحد، ثم اتضح أنه يريد ساعة واحدة لترتيب كتب. اعتذر وقل إنك تستطيع بعد 15:00، واسأل عن وقت محدد.",
+      "model": "Sorry, ik had je verkeerd begrepen. Ik dacht dat je de hele zondag hulp nodig had. Een uur boeken opruimen kan wel. Ik kan pas na drie uur. Hoe laat zullen we precies beginnen?",
+      "translation": "آسف، فهمتك خطأ. ظننت أنك تحتاج المساعدة طوال الأحد. أستطيع ترتيب الكتب لساعة. لا أستطيع إلا بعد الثالثة. في أي وقت محدد نبدأ؟",
+      "checklist": [
+        "هل شرحت الافتراض القديم والطلب الأصغر؟",
+        "هل حافظت على قيد الوقت وطلبت تحديده؟"
+      ]
+    }
   }
 ]
