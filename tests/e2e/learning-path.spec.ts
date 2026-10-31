@@ -73,7 +73,7 @@ test("all authored lesson routes render their goals and grammar, and unknown les
   expect((await page.goto("/learn/does-not-exist"))?.status()).toBe(404);
 });
 
-test("mobile pages fit the viewport, homepage stays concise, and paid checkout stays disabled", async ({ page }) => {
+test("mobile pages fit the viewport, homepage stays concise, and pricing stays hidden", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   await page.setViewportSize({ width: 390, height: 844 });
@@ -88,6 +88,8 @@ test("mobile pages fit the viewport, homepage stays concise, and paid checkout s
       expect(controls!.y).toBeGreaterThanOrEqual(phrase!.y + phrase!.height);
     }
   }
-  await expect(page.getByRole("button", { name: "غير متاح حالياً" })).toBeDisabled();
+  await expect(page.getByText("قيد الإعداد", { exact: true })).toBeVisible();
+  await expect(page.locator(".exam-price")).toHaveCount(0);
+  await expect(page.getByText("€4.95")).toHaveCount(0);
   expect(errors).toEqual([]);
 });
