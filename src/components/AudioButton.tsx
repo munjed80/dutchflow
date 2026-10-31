@@ -28,7 +28,9 @@ export function AudioButton({ id, text, concealText = false, timeoutMs, onPlayba
   }, [id, text]);
 
   function play(speed: AudioSpeed) {
-    stop.current = playAudio({ path: manifest[id]?.[voice]?.[speed], text, speed, voice, timeoutMs,
+    const recordedPath = manifest[id]?.[voice]?.[speed];
+    const normalFallback = speed === "slow" && !recordedPath ? manifest[id]?.[voice]?.normal : undefined;
+    stop.current = playAudio({ path: recordedPath ?? normalFallback, slowFromNormalRecording: Boolean(normalFallback), text, speed, voice, timeoutMs,
       onState: (next) => { if (mounted.current) setState(next); },
       onComplete: () => { if (mounted.current) completed.current?.(); },
     });
