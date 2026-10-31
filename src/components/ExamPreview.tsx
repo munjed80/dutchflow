@@ -15,7 +15,7 @@ export function ExamPreview() {
 
   return (
     <section className="exam-preview panel" aria-labelledby="preview-heading">
-      <span className="eyebrow">جرّب قبل أن تقرر</span>
+      <span className="eyebrow">تدرّب مجاناً</span>
       <h2 id="preview-heading">ثلاثة أسئلة تجريبية مجانية</h2>
       <p className="quiet">هذه عيّنة تدريبية قصيرة، وليست امتحاناً رسمياً أو نتيجة معتمدة.</p>
       {sampleQuestions.map((question, questionIndex) => (
