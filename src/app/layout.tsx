@@ -8,7 +8,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: { default: "DutchFlow — تعلّم الهولندية للحياة اليومية", template: "%s | DutchFlow" },
-  description: "تعلّم الهولندية بالعربية من مواقف الحياة الحقيقية. دروس وتمارين مجانية، مع امتحانات تدريبية منفصلة عند إطلاقها.",
+  description: "تعلّم الهولندية بالعربية من مواقف الحياة الحقيقية. دروس وتمارين واختبارات تدريبية مجانية لتعلم اللغة الهولندية.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -18,7 +18,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <main id="main-content" tabIndex={-1}>{children}</main></ReviewProvider></LearningProvider>
     <footer className="site-footer"><div className="shell footer-inner">
       <span dir="ltr">DutchFlow</span><p>هولندية أوضح، خطوة بعد خطوة.</p>
-      <span>© {new Date().getFullYear()}</span>
+      <span>© {new Date().getFullYear()} · <a href="https://mhmit.nl" target="_blank" rel="noopener noreferrer">MHM IT</a></span>
     </div></footer>
   </body></html>;
 }
