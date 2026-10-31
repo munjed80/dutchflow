@@ -5,8 +5,8 @@ export type PlaybackState = { status: "idle" | "loading" | "playing"; source?: "
 let stopActive: (() => void) | undefined;
 
 // One owner across every player. Stale media events must never complete another round.
-export function playAudio({ path, text, speed, voice, timeoutMs = 30000, onState, onComplete }: {
-  path?: string; text: string; speed: AudioSpeed; voice: AudioVoice; timeoutMs?: number;
+export function playAudio({ path, text, speed, voice, slowFromNormalRecording = false, timeoutMs = 30000, onState, onComplete }: {
+  path?: string; text: string; speed: AudioSpeed; voice: AudioVoice; slowFromNormalRecording?: boolean; timeoutMs?: number;
   onState: (state: PlaybackState) => void; onComplete?: () => void;
 }): () => void {
   stopActive?.();
@@ -51,7 +51,8 @@ export function playAudio({ path, text, speed, voice, timeoutMs = 30000, onState
       if (!selected) { finish("لا يتوفر صوت هولندي على جهازك حالياً. أعد المحاولة بعد تحميل الأصوات أو استخدم جهازاً آخر."); return; }
       utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = "nl-NL"; utterance.voice = selected;
-      utterance.rate = speed === "slow" ? 0.72 : 0.95;
+      // Use a clearly slower rate on device TTS; some iOS voices respond weakly to small changes.
+      utterance.rate = speed === "slow" ? 0.5 : 1;
       utterance.onstart = () => { if (active) onState({ status: "playing", source: "device" }); };
       utterance.onend = () => finish(undefined, true);
       utterance.onerror = () => finish("تعذّر تشغيل الصوت على هذا الجهاز. حاول مجدداً.");
@@ -63,6 +64,9 @@ export function playAudio({ path, text, speed, voice, timeoutMs = 30000, onState
   if (path) {
     try {
       audio = new Audio(path);
+      // If slow is using the normal recording, slow the media element itself.
+      // A dedicated slow recording is already time-stretched and must not be slowed twice.
+      if (speed === "slow" && slowFromNormalRecording) audio.playbackRate = 0.7;
       audio.onended = () => { if (!fallbackStarted) finish(undefined, true); };
       audio.onerror = useDeviceVoice;
       void audio.play().then(() => {
