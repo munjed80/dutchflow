@@ -45,7 +45,7 @@ test("a media failure falls back once to a Dutch device voice and respects slow 
   const utterance = fixture.spoken[0];
   assert.equal(utterance.lang, "nl-NL");
   assert.equal(utterance.voice.name, "Dutch male");
-  assert.equal(utterance.rate, 0.72);
+  assert.equal(utterance.rate, 0.5);
   assert.equal(fixture.completed, 0);
   utterance.onstart(); utterance.onend();
   assert.equal(fixture.completed, 1);
@@ -90,4 +90,23 @@ test("long passage playback has a bounded timeout and never counts a timeout as 
   t.mock.timers.tick(30000);
   assert.equal(fixture.states.at(-1).status, "idle");
   assert.equal(fixture.completed, 0);
+});
+
+
+test("device voice uses a clearly differentiated normal and slow speed", () => {
+  const fixture = setup();
+  fixture.start({ speed: "normal" });
+  fixture.start({ speed: "slow" });
+  assert.equal(fixture.spoken[0].rate, 1);
+  assert.equal(fixture.spoken[1].rate, 0.5);
+});
+
+test("fallback to a normal recording slows playback without affecting the original", async () => {
+  const fixture = setup();
+  fixture.start({ path: "/normal.mp3", speed: "slow", slowFromNormalRecording: true });
+  assert.equal(fixture.media[0].playbackRate, 0.7);
+  fixture.start({ path: "/normal.mp3", speed: "normal" });
+  assert.equal(fixture.media[1].playbackRate, undefined);
+  fixture.start({ path: "/dedicated-slow.mp3", speed: "slow" });
+  assert.equal(fixture.media[2].playbackRate, undefined);
 });

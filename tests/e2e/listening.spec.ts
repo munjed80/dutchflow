@@ -73,7 +73,7 @@ test("stop, replay, speech errors, and route changes do not award a listen", asy
   await page.evaluate(() => Reflect.get(window, "__speech").finishOld());
   await expect(page.getByRole("radio").first()).toBeDisabled();
   await page.getByRole("button", { name: "استمع ببطء إلى الجملة", exact: true }).click();
-  expect(await page.evaluate(() => Reflect.get(window, "__speech").rate())).toBe(0.72);
+  expect(await page.evaluate(() => Reflect.get(window, "__speech").rate())).toBe(0.5);
   await page.evaluate(() => Reflect.get(window, "__speech").fail());
   await expect(page.getByText("تعذّر تشغيل الصوت على هذا الجهاز. حاول مجدداً.")).toBeVisible();
   await expect(page.getByRole("radio").first()).toBeDisabled();
